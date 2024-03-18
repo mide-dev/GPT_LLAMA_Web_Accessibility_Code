@@ -1,0 +1,985 @@
+{
+  "testEngine": {
+    "name": "axe-core",
+    "version": "4.8.4"
+  },
+  "testRunner": {
+    "name": "axe"
+  },
+  "testEnvironment": {
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/122.0.0.0 Safari/537.36",
+    "windowWidth": 800,
+    "windowHeight": 600,
+    "orientationAngle": 0,
+    "orientationType": "portrait-primary"
+  },
+  "timestamp": "2024-03-18T06:18:16.611Z",
+  "url": "https://austrin-engineering.co.uk/",
+  "toolOptions": {
+    "runOnly": {
+      "type": "rule",
+      "values": [
+        "image-alt"
+      ]
+    },
+    "reporter": "v1"
+  },
+  "inapplicable": [],
+  "passes": [
+    {
+      "id": "image-alt",
+      "impact": "critical",
+      "tags": [
+        "cat.text-alternatives",
+        "wcag2a",
+        "wcag111",
+        "section508",
+        "section508.22.a",
+        "TTv5",
+        "TT7.a",
+        "TT7.b",
+        "EN-301-549",
+        "EN-9.1.1.1",
+        "ACT"
+      ],
+      "description": "Ensures <img> elements have alternate text or a role of none or presentation",
+      "help": "Images must have alternate text",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/image-alt?application=axeAPI",
+      "nodes": [
+        {
+          "any": [
+            {
+              "id": "has-alt",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "Element has an alt attribute"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "alt-space-value",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "Element has a valid alt attribute value"
+            }
+          ],
+          "impact": null,
+          "html": "<img class=\"fixed-logo\" src=\"https://austrin-engineering.co.uk/wp-content/uploads/2020/04/AGS_Logo_Transparent_196.png\" alt=\"Austrin Gearbox Specialist\">",
+          "target": [
+            ".fixed-logo"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-alt",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "Element has an alt attribute"
+            },
+            {
+              "id": "non-empty-title",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "Element has a title attribute"
+            },
+            {
+              "id": "presentational-role",
+              "data": {
+                "role": "presentation"
+              },
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "Element's default semantics were overriden with role=\"presentation\""
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "alt-space-value",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "Element has a valid alt attribute value"
+            }
+          ],
+          "impact": null,
+          "html": "<img decoding=\"async\" width=\"150\" height=\"150\" src=\"https://austrin-engineering.co.uk/wp-content/uploads/2020/04/AGS_Automatic_Transmission-150x150.png\" class=\"vc_single_image-img attachment-thumbnail\" alt=\"\" title=\"AGS_Automatic_Transmission\" srcset=\"https://austrin-engineering.co.uk/wp-content/uploads/2020/04/AGS_Automatic_Transmission-150x150.png 150w, https://austrin-engineering.co.uk/wp-content/uploads/2020/04/AGS_Automatic_Transmission.png 300w\" sizes=\"(max-width: 150px) 100vw, 150px\">",
+          "target": [
+            "img[title=\"AGS_Automatic_Transmission\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-alt",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "Element has an alt attribute"
+            },
+            {
+              "id": "non-empty-title",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "Element has a title attribute"
+            },
+            {
+              "id": "presentational-role",
+              "data": {
+                "role": "presentation"
+              },
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "Element's default semantics were overriden with role=\"presentation\""
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "alt-space-value",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "Element has a valid alt attribute value"
+            }
+          ],
+          "impact": null,
+          "html": "<img decoding=\"async\" width=\"150\" height=\"150\" src=\"https://austrin-engineering.co.uk/wp-content/uploads/2022/02/014-150x150.jpg\" class=\"vc_single_image-img attachment-thumbnail\" alt=\"\" title=\"014\" srcset=\"https://austrin-engineering.co.uk/wp-content/uploads/2022/02/014-150x150.jpg 150w, https://austrin-engineering.co.uk/wp-content/uploads/2022/02/014-320x320.jpg 320w, https://austrin-engineering.co.uk/wp-content/uploads/2022/02/014-800x800.jpg 800w\" sizes=\"(max-width: 150px) 100vw, 150px\">",
+          "target": [
+            "img[title=\"014\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-alt",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "Element has an alt attribute"
+            },
+            {
+              "id": "non-empty-title",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "Element has a title attribute"
+            },
+            {
+              "id": "presentational-role",
+              "data": {
+                "role": "presentation"
+              },
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "Element's default semantics were overriden with role=\"presentation\""
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "alt-space-value",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "Element has a valid alt attribute value"
+            }
+          ],
+          "impact": null,
+          "html": "<img decoding=\"async\" width=\"150\" height=\"150\" src=\"https://austrin-engineering.co.uk/wp-content/uploads/2020/04/AGS_Manual_Transmission-150x150.png\" class=\"vc_single_image-img attachment-thumbnail\" alt=\"\" title=\"AGS_Manual_Transmission\" srcset=\"https://austrin-engineering.co.uk/wp-content/uploads/2020/04/AGS_Manual_Transmission-150x150.png 150w, https://austrin-engineering.co.uk/wp-content/uploads/2020/04/AGS_Manual_Transmission.png 300w\" sizes=\"(max-width: 150px) 100vw, 150px\">",
+          "target": [
+            "img[title=\"AGS_Manual_Transmission\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-alt",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "Element has an alt attribute"
+            },
+            {
+              "id": "non-empty-title",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "Element has a title attribute"
+            },
+            {
+              "id": "presentational-role",
+              "data": {
+                "role": "presentation"
+              },
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "Element's default semantics were overriden with role=\"presentation\""
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "alt-space-value",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "Element has a valid alt attribute value"
+            }
+          ],
+          "impact": null,
+          "html": "<img loading=\"lazy\" decoding=\"async\" width=\"150\" height=\"150\" src=\"https://austrin-engineering.co.uk/wp-content/uploads/2020/04/AGS_Transfer_Box-150x150.png\" class=\"vc_single_image-img attachment-thumbnail\" alt=\"\" title=\"AGS_Transfer_Box\" srcset=\"https://austrin-engineering.co.uk/wp-content/uploads/2020/04/AGS_Transfer_Box-150x150.png 150w, https://austrin-engineering.co.uk/wp-content/uploads/2020/04/AGS_Transfer_Box.png 300w\" sizes=\"(max-width: 150px) 100vw, 150px\">",
+          "target": [
+            "img[title=\"AGS_Transfer_Box\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-alt",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "Element has an alt attribute"
+            },
+            {
+              "id": "non-empty-title",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "Element has a title attribute"
+            },
+            {
+              "id": "presentational-role",
+              "data": {
+                "role": "presentation"
+              },
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "Element's default semantics were overriden with role=\"presentation\""
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "alt-space-value",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "Element has a valid alt attribute value"
+            }
+          ],
+          "impact": null,
+          "html": "<img loading=\"lazy\" decoding=\"async\" width=\"150\" height=\"150\" src=\"https://austrin-engineering.co.uk/wp-content/uploads/2022/03/image00004-150x150.jpeg\" class=\"vc_single_image-img attachment-thumbnail\" alt=\"\" title=\"image00004\" srcset=\"https://austrin-engineering.co.uk/wp-content/uploads/2022/03/image00004-150x150.jpeg 150w, https://austrin-engineering.co.uk/wp-content/uploads/2022/03/image00004-300x300.jpeg 300w, https://austrin-engineering.co.uk/wp-content/uploads/2022/03/image00004-1024x1024.jpeg 1024w, https://austrin-engineering.co.uk/wp-content/uploads/2022/03/image00004-768x768.jpeg 768w, https://austrin-engineering.co.uk/wp-content/uploads/2022/03/image00004-320x320.jpeg 320w, https://austrin-engineering.co.uk/wp-content/uploads/2022/03/image00004-800x800.jpeg 800w, https://austrin-engineering.co.uk/wp-content/uploads/2022/03/image00004.jpeg 1440w\" sizes=\"(max-width: 150px) 100vw, 150px\">",
+          "target": [
+            "img[title=\"image00004\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-alt",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "Element has an alt attribute"
+            },
+            {
+              "id": "non-empty-title",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "Element has a title attribute"
+            },
+            {
+              "id": "presentational-role",
+              "data": {
+                "role": "presentation"
+              },
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "Element's default semantics were overriden with role=\"presentation\""
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "alt-space-value",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "Element has a valid alt attribute value"
+            }
+          ],
+          "impact": null,
+          "html": "<img loading=\"lazy\" decoding=\"async\" width=\"150\" height=\"150\" src=\"https://austrin-engineering.co.uk/wp-content/uploads/2020/04/AGS_Diag_Image-150x150.jpeg\" class=\"vc_single_image-img attachment-thumbnail\" alt=\"\" title=\"AGS_Diag_Image\" srcset=\"https://austrin-engineering.co.uk/wp-content/uploads/2020/04/AGS_Diag_Image-150x150.jpeg 150w, https://austrin-engineering.co.uk/wp-content/uploads/2020/04/AGS_Diag_Image.jpeg 300w\" sizes=\"(max-width: 150px) 100vw, 150px\">",
+          "target": [
+            "img[title=\"AGS_Diag_Image\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-alt",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "Element has an alt attribute"
+            },
+            {
+              "id": "non-empty-title",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "Element has a title attribute"
+            },
+            {
+              "id": "presentational-role",
+              "data": {
+                "role": "presentation"
+              },
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "Element's default semantics were overriden with role=\"presentation\""
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "alt-space-value",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "Element has a valid alt attribute value"
+            }
+          ],
+          "impact": null,
+          "html": "<img loading=\"lazy\" decoding=\"async\" width=\"353\" height=\"235\" src=\"https://austrin-engineering.co.uk/wp-content/uploads/2020/04/AGS_Fleet_Services.jpg\" class=\"attachment-full\" alt=\"\" title=\"AGS_Fleet_Services\" srcset=\"https://austrin-engineering.co.uk/wp-content/uploads/2020/04/AGS_Fleet_Services.jpg 353w, https://austrin-engineering.co.uk/wp-content/uploads/2020/04/AGS_Fleet_Services-300x200.jpg 300w\" sizes=\"(max-width: 353px) 100vw, 353px\">",
+          "target": [
+            ".cloned.owl-item:nth-child(1) > .kd-photobox.fadeInUp[data-animation-delay=\"200\"] > .photobox-img > a[title=\"\"] > img[title=\"AGS_Fleet_Services\"][width=\"353\"][height=\"235\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-alt",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "Element has an alt attribute"
+            },
+            {
+              "id": "non-empty-title",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "Element has a title attribute"
+            },
+            {
+              "id": "presentational-role",
+              "data": {
+                "role": "presentation"
+              },
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "Element's default semantics were overriden with role=\"presentation\""
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "alt-space-value",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "Element has a valid alt attribute value"
+            }
+          ],
+          "impact": null,
+          "html": "<img loading=\"lazy\" decoding=\"async\" width=\"353\" height=\"235\" src=\"https://austrin-engineering.co.uk/wp-content/uploads/2022/03/fleetservices.png\" class=\"attachment-full\" alt=\"\" title=\"fleetservices\" srcset=\"https://austrin-engineering.co.uk/wp-content/uploads/2022/03/fleetservices.png 353w, https://austrin-engineering.co.uk/wp-content/uploads/2022/03/fleetservices-300x200.png 300w\" sizes=\"(max-width: 353px) 100vw, 353px\">",
+          "target": [
+            ".cloned.owl-item:nth-child(2) > .kd-photobox.fadeInUp[data-animation-delay=\"400\"] > .photobox-img > a[title=\"\"] > img[title=\"fleetservices\"][width=\"353\"][height=\"235\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-alt",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "Element has an alt attribute"
+            },
+            {
+              "id": "non-empty-title",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "Element has a title attribute"
+            },
+            {
+              "id": "presentational-role",
+              "data": {
+                "role": "presentation"
+              },
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "Element's default semantics were overriden with role=\"presentation\""
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "alt-space-value",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "Element has a valid alt attribute value"
+            }
+          ],
+          "impact": null,
+          "html": "<img loading=\"lazy\" decoding=\"async\" width=\"2560\" height=\"1706\" src=\"https://austrin-engineering.co.uk/wp-content/uploads/2022/03/image00002-scaled.jpeg\" class=\"attachment-full\" alt=\"\" title=\"image00002\" srcset=\"https://austrin-engineering.co.uk/wp-content/uploads/2022/03/image00002-scaled.jpeg 2560w, https://austrin-engineering.co.uk/wp-content/uploads/2022/03/image00002-300x200.jpeg 300w, https://austrin-engineering.co.uk/wp-content/uploads/2022/03/image00002-1024x682.jpeg 1024w, https://austrin-engineering.co.uk/wp-content/uploads/2022/03/image00002-768x512.jpeg 768w, https://austrin-engineering.co.uk/wp-content/uploads/2022/03/image00002-1536x1024.jpeg 1536w, https://austrin-engineering.co.uk/wp-content/uploads/2022/03/image00002-2048x1365.jpeg 2048w\" sizes=\"(max-width: 2560px) 100vw, 2560px\">",
+          "target": [
+            ".active.owl-item:nth-child(3) > .kd-photobox.fadeInUp.kd-animated > .photobox-img > a[title=\"\"] > img[height=\"1706\"][title=\"image00002\"][width=\"2560\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-alt",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "Element has an alt attribute"
+            },
+            {
+              "id": "non-empty-title",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "Element has a title attribute"
+            },
+            {
+              "id": "presentational-role",
+              "data": {
+                "role": "presentation"
+              },
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "Element's default semantics were overriden with role=\"presentation\""
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "alt-space-value",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "Element has a valid alt attribute value"
+            }
+          ],
+          "impact": null,
+          "html": "<img loading=\"lazy\" decoding=\"async\" width=\"353\" height=\"235\" src=\"https://austrin-engineering.co.uk/wp-content/uploads/2020/04/AGS_Fleet_Services.jpg\" class=\"attachment-full\" alt=\"\" title=\"AGS_Fleet_Services\" srcset=\"https://austrin-engineering.co.uk/wp-content/uploads/2020/04/AGS_Fleet_Services.jpg 353w, https://austrin-engineering.co.uk/wp-content/uploads/2020/04/AGS_Fleet_Services-300x200.jpg 300w\" sizes=\"(max-width: 353px) 100vw, 353px\">",
+          "target": [
+            ".active.owl-item:nth-child(4) > .kd-photobox.fadeInUp[data-animation-delay=\"200\"] > .photobox-img > a[title=\"\"] > img[title=\"AGS_Fleet_Services\"][width=\"353\"][height=\"235\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-alt",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "Element has an alt attribute"
+            },
+            {
+              "id": "non-empty-title",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "Element has a title attribute"
+            },
+            {
+              "id": "presentational-role",
+              "data": {
+                "role": "presentation"
+              },
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "Element's default semantics were overriden with role=\"presentation\""
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "alt-space-value",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "Element has a valid alt attribute value"
+            }
+          ],
+          "impact": null,
+          "html": "<img loading=\"lazy\" decoding=\"async\" width=\"353\" height=\"235\" src=\"https://austrin-engineering.co.uk/wp-content/uploads/2022/03/fleetservices.png\" class=\"attachment-full\" alt=\"\" title=\"fleetservices\" srcset=\"https://austrin-engineering.co.uk/wp-content/uploads/2022/03/fleetservices.png 353w, https://austrin-engineering.co.uk/wp-content/uploads/2022/03/fleetservices-300x200.png 300w\" sizes=\"(max-width: 353px) 100vw, 353px\">",
+          "target": [
+            ".owl-item:nth-child(5) > .kd-photobox.fadeInUp[data-animation-delay=\"400\"] > .photobox-img > a[title=\"\"] > img[title=\"fleetservices\"][width=\"353\"][height=\"235\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-alt",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "Element has an alt attribute"
+            },
+            {
+              "id": "non-empty-title",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "Element has a title attribute"
+            },
+            {
+              "id": "presentational-role",
+              "data": {
+                "role": "presentation"
+              },
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "Element's default semantics were overriden with role=\"presentation\""
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "alt-space-value",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "Element has a valid alt attribute value"
+            }
+          ],
+          "impact": null,
+          "html": "<img loading=\"lazy\" decoding=\"async\" width=\"2560\" height=\"1706\" src=\"https://austrin-engineering.co.uk/wp-content/uploads/2022/03/image00002-scaled.jpeg\" class=\"attachment-full\" alt=\"\" title=\"image00002\" srcset=\"https://austrin-engineering.co.uk/wp-content/uploads/2022/03/image00002-scaled.jpeg 2560w, https://austrin-engineering.co.uk/wp-content/uploads/2022/03/image00002-300x200.jpeg 300w, https://austrin-engineering.co.uk/wp-content/uploads/2022/03/image00002-1024x682.jpeg 1024w, https://austrin-engineering.co.uk/wp-content/uploads/2022/03/image00002-768x512.jpeg 768w, https://austrin-engineering.co.uk/wp-content/uploads/2022/03/image00002-1536x1024.jpeg 1536w, https://austrin-engineering.co.uk/wp-content/uploads/2022/03/image00002-2048x1365.jpeg 2048w\" sizes=\"(max-width: 2560px) 100vw, 2560px\">",
+          "target": [
+            ".cloned.owl-item:nth-child(6) > .kd-photobox.fadeInUp.kd-animated > .photobox-img > a[title=\"\"] > img[height=\"1706\"][title=\"image00002\"][width=\"2560\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-alt",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "Element has an alt attribute"
+            },
+            {
+              "id": "non-empty-title",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "Element has a title attribute"
+            },
+            {
+              "id": "presentational-role",
+              "data": {
+                "role": "presentation"
+              },
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "Element's default semantics were overriden with role=\"presentation\""
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "alt-space-value",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "Element has a valid alt attribute value"
+            }
+          ],
+          "impact": null,
+          "html": "<img loading=\"lazy\" decoding=\"async\" width=\"353\" height=\"235\" src=\"https://austrin-engineering.co.uk/wp-content/uploads/2020/04/AGS_Fleet_Services.jpg\" class=\"attachment-full\" alt=\"\" title=\"AGS_Fleet_Services\" srcset=\"https://austrin-engineering.co.uk/wp-content/uploads/2020/04/AGS_Fleet_Services.jpg 353w, https://austrin-engineering.co.uk/wp-content/uploads/2020/04/AGS_Fleet_Services-300x200.jpg 300w\" sizes=\"(max-width: 353px) 100vw, 353px\">",
+          "target": [
+            ".cloned.owl-item:nth-child(7) > .kd-photobox.fadeInUp[data-animation-delay=\"200\"] > .photobox-img > a[title=\"\"] > img[title=\"AGS_Fleet_Services\"][width=\"353\"][height=\"235\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-alt",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "Element has an alt attribute"
+            },
+            {
+              "id": "non-empty-title",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "Element has a title attribute"
+            },
+            {
+              "id": "presentational-role",
+              "data": {
+                "role": "presentation"
+              },
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "Element's default semantics were overriden with role=\"presentation\""
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "alt-space-value",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "Element has a valid alt attribute value"
+            }
+          ],
+          "impact": null,
+          "html": "<img loading=\"lazy\" decoding=\"async\" width=\"2560\" height=\"1920\" src=\"https://austrin-engineering.co.uk/wp-content/uploads/2022/03/image00020-scaled.jpeg\" class=\"vc_single_image-img attachment-full\" alt=\"\" title=\"image00020\" srcset=\"https://austrin-engineering.co.uk/wp-content/uploads/2022/03/image00020-scaled.jpeg 2560w, https://austrin-engineering.co.uk/wp-content/uploads/2022/03/image00020-300x225.jpeg 300w\" sizes=\"(max-width: 2560px) 100vw, 2560px\">",
+          "target": [
+            "img[height=\"1920\"]"
+          ]
+        }
+      ]
+    }
+  ],
+  "incomplete": [],
+  "violations": [
+    {
+      "id": "image-alt",
+      "impact": "critical",
+      "tags": [
+        "cat.text-alternatives",
+        "wcag2a",
+        "wcag111",
+        "section508",
+        "section508.22.a",
+        "TTv5",
+        "TT7.a",
+        "TT7.b",
+        "EN-301-549",
+        "EN-9.1.1.1",
+        "ACT"
+      ],
+      "description": "Ensures <img> elements have alternate text or a role of none or presentation",
+      "help": "Images must have alternate text",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/image-alt?application=axeAPI",
+      "nodes": [
+        {
+          "any": [
+            {
+              "id": "has-alt",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "Element does not have an alt attribute"
+            },
+            {
+              "id": "aria-label",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "aria-label attribute does not exist or is empty"
+            },
+            {
+              "id": "aria-labelledby",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty"
+            },
+            {
+              "id": "non-empty-title",
+              "data": {
+                "messageKey": "noAttr"
+              },
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "Element has no title attribute"
+            },
+            {
+              "id": "presentational-role",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "critical",
+          "html": "<img src=\"https://austrin-engineering.co.uk/wp-content/uploads/2020/04/AGS_Automatic_Transmission.png\" class=\"zoomImg\" style=\"position: absolute; top: 0px; left: 0px; opacity: 0; width: 300px; height: 300px; border: none; max-width: none; max-height: none;\">",
+          "target": [
+            ".vc_custom_1646054062572 > figure > .vc_box_rounded.vc_single_image-wrapper.vc_box_border_grey > .vc-zoom-wrapper > .zoomImg"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+        },
+        {
+          "any": [
+            {
+              "id": "has-alt",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "Element does not have an alt attribute"
+            },
+            {
+              "id": "aria-label",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "aria-label attribute does not exist or is empty"
+            },
+            {
+              "id": "aria-labelledby",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty"
+            },
+            {
+              "id": "non-empty-title",
+              "data": {
+                "messageKey": "noAttr"
+              },
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "Element has no title attribute"
+            },
+            {
+              "id": "presentational-role",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "critical",
+          "html": "<img src=\"https://austrin-engineering.co.uk/wp-content/uploads/2022/02/014-683x1024.jpg\" class=\"zoomImg\" style=\"position: absolute; top: 0px; left: 0px; opacity: 0; width: 683px; height: 1024px; border: none; max-width: none; max-height: none;\">",
+          "target": [
+            ".vc_custom_1646054044168 > figure > .vc_box_rounded.vc_single_image-wrapper.vc_box_border_grey > .vc-zoom-wrapper > .zoomImg"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+        },
+        {
+          "any": [
+            {
+              "id": "has-alt",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "Element does not have an alt attribute"
+            },
+            {
+              "id": "aria-label",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "aria-label attribute does not exist or is empty"
+            },
+            {
+              "id": "aria-labelledby",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty"
+            },
+            {
+              "id": "non-empty-title",
+              "data": {
+                "messageKey": "noAttr"
+              },
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "Element has no title attribute"
+            },
+            {
+              "id": "presentational-role",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "critical",
+          "html": "<img src=\"https://austrin-engineering.co.uk/wp-content/uploads/2020/04/AGS_Manual_Transmission.png\" class=\"zoomImg\" style=\"position: absolute; top: 0px; left: 0px; opacity: 0; width: 300px; height: 300px; border: none; max-width: none; max-height: none;\">",
+          "target": [
+            ".vc_custom_1646053285213 > figure > .vc_box_rounded.vc_single_image-wrapper.vc_box_border_grey > .vc-zoom-wrapper > .zoomImg"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+        },
+        {
+          "any": [
+            {
+              "id": "has-alt",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "Element does not have an alt attribute"
+            },
+            {
+              "id": "aria-label",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "aria-label attribute does not exist or is empty"
+            },
+            {
+              "id": "aria-labelledby",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty"
+            },
+            {
+              "id": "non-empty-title",
+              "data": {
+                "messageKey": "noAttr"
+              },
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "Element has no title attribute"
+            },
+            {
+              "id": "presentational-role",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "critical",
+          "html": "<img src=\"https://austrin-engineering.co.uk/wp-content/uploads/2020/04/AGS_Transfer_Box.png\" class=\"zoomImg\" style=\"position: absolute; top: 0px; left: 0px; opacity: 0; width: 300px; height: 300px; border: none; max-width: none; max-height: none;\">",
+          "target": [
+            ".vc_custom_1646053272017 > figure > .vc_box_rounded.vc_single_image-wrapper.vc_box_border_grey > .vc-zoom-wrapper > .zoomImg"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+        },
+        {
+          "any": [
+            {
+              "id": "has-alt",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "Element does not have an alt attribute"
+            },
+            {
+              "id": "aria-label",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "aria-label attribute does not exist or is empty"
+            },
+            {
+              "id": "aria-labelledby",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty"
+            },
+            {
+              "id": "non-empty-title",
+              "data": {
+                "messageKey": "noAttr"
+              },
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "Element has no title attribute"
+            },
+            {
+              "id": "presentational-role",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "critical",
+          "html": "<img src=\"https://austrin-engineering.co.uk/wp-content/uploads/2022/03/image00004-1024x1024.jpeg\" class=\"zoomImg\" style=\"position: absolute; top: 0px; left: 0px; opacity: 0; width: 1024px; height: 1024px; border: none; max-width: none; max-height: none;\">",
+          "target": [
+            ".vc_custom_1647008913648 > figure > .vc_box_rounded.vc_single_image-wrapper.vc_box_border_grey > .vc-zoom-wrapper > .zoomImg"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+        },
+        {
+          "any": [
+            {
+              "id": "has-alt",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "Element does not have an alt attribute"
+            },
+            {
+              "id": "aria-label",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "aria-label attribute does not exist or is empty"
+            },
+            {
+              "id": "aria-labelledby",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty"
+            },
+            {
+              "id": "non-empty-title",
+              "data": {
+                "messageKey": "noAttr"
+              },
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "Element has no title attribute"
+            },
+            {
+              "id": "presentational-role",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "critical",
+          "html": "<img src=\"https://austrin-engineering.co.uk/wp-content/uploads/2020/04/AGS_Diag_Image.jpeg\" class=\"zoomImg\" style=\"position: absolute; top: 0px; left: 0px; opacity: 0; width: 300px; height: 300px; border: none; max-width: none; max-height: none;\">",
+          "target": [
+            ".vc_custom_1646053328025 > figure > .vc_box_rounded.vc_single_image-wrapper.vc_box_border_grey > .vc-zoom-wrapper > .zoomImg"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+        }
+      ]
+    }
+  ]
+}
