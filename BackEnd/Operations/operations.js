@@ -1,5 +1,6 @@
 // Import file system module
 const fs = require("fs");
+const cheerio = require("cheerio");
 
 /**
  * This function saves data as a JSON file.
@@ -74,6 +75,29 @@ function extractDomainFromURL(siteurl) {
   return mainPart;
 }
 
+/**
+ * This function extracts HTML elements from the given text input based on the specified selector.
+ *
+ * @param {string} inputText The text input containing HTML.
+ * @param {string} elementSelector The selector for the HTML element(s) to extract.
+ * @return {string[]} An array of strings, each being the outer HTML of a matched element.
+ */
+function extractHtmlElement(inputText, elementSelector) {
+  const $ = cheerio.load(inputText);
+  const extractedElements = [];
+
+  $(elementSelector).each(function () {
+    // If selector is parsing image HTML, Check if the img has a 'src' attribute before including it
+    if (elementSelector === "img" && $(this).attr("src")) {
+      extractedElements.push($.html(this));
+    }
+  });
+
+  return extractedElements;
+}
+
+
 // Export functions.
 module.exports.extractDomainFromURL = extractDomainFromURL;
 module.exports.saveAsJSON = saveAsJSON;
+module.exports.extractHtmlElement = extractHtmlElement;
