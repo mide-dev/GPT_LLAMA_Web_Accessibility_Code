@@ -1,11 +1,6 @@
 // Import OpenAI SDK
 const OpenAI = require("openai");
 
-// Initialize the OpenAI client
-const openai = new OpenAI({
-  apiKey: "", 
-});
-
 /**
  * Function to send a prompt to GPT-3.5 and get a response.
  * @param {string} prompt The text prompt to send to GPT-3.5.
