@@ -1,0 +1,119 @@
+[
+  {
+    "analysisDetails": [
+      {
+        "model": "GPT"
+      },
+      {
+        "accessibility_type": "color-contrast"
+      },
+      {
+        "prompt_technique": "cot"
+      },
+      {
+        "temperature": 0.5
+      }
+    ],
+    "accessbilityTestResult": {
+      "violationBeforeModification": 19,
+      "violationAfterModification": 17
+    },
+    "modelCorrections": [
+      {
+        "beforeModification": "<a class=\"hs-button\n                  hs-button--primary\n                  mt--none\" href=\"https://www.linuxfoundation.org/about/join?hsLang=en\">\n                  Join\n                  </a>",
+        "afterModification": "<a class=\"hs-button hs-button--primary mt--none\" style=\"color: #ffffff; background-color: #c8008c;\" href=\"https://www.linuxfoundation.org/about/join?hsLang=en\">\nJoin\n</a>",
+        "rawOutput": "- Thought: To address the color contrast issue, I need to adjust either the foreground or background color to achieve the minimum required contrast ratio of 4.5:1. Since the foreground color is white (#ffffff) on a pink background (#ff00aa), changing the background color to a darker shade could enhance readability without compromising the design's integrity.\n\n- Corrected HTML: \n```html\n<a class=\"hs-button hs-button--primary mt--none\" style=\"color: #ffffff; background-color: #c8008c;\" href=\"https://www.linuxfoundation.org/about/join?hsLang=en\">\nJoin\n</a>\n```\n\nBy changing the background color to a darker shade of pink (#c8008c), the contrast ratio is increased, making the text more accessible while maintaining the visual appeal of the button."
+      },
+      {
+        "beforeModification": "<a class=\"hs-button\n                            hs-button--primary\" href=\"https://www.linuxfoundation.org/projects?hsLang=en\">\n                    Learn More\n                  </a>",
+        "afterModification": "<a class=\"hs-button hs-button--primary\" href=\"https://www.linuxfoundation.org/projects?hsLang=en\" style=\"color: #ffffff; background-color: #c8008c;\">\n  Learn More\n</a>",
+        "rawOutput": "- Thought: To address the insufficient color contrast violation, I need to adjust either the foreground (text) color or the background color to achieve the required contrast ratio of at least 4.5:1. Since the background color is #ff00aa (a bright pink) and the text color is white (#ffffff), modifying the background color to a darker shade could preserve the legibility of the text while maintaining the visual design's integrity. I'll choose a darker shade that complies with the contrast ratio requirement.\n\n- Corrected HTML:\n```html\n<a class=\"hs-button hs-button--primary\" href=\"https://www.linuxfoundation.org/projects?hsLang=en\" style=\"color: #ffffff; background-color: #c8008c;\">\n  Learn More\n</a>\n```"
+      },
+      {
+        "beforeModification": "<a class=\"counter-col__link\" href=\"https://www.linuxfoundation.org/projects?hsLang=en\">",
+        "afterModification": "<a class=\"counter-col__link\" href=\"https://www.linuxfoundation.org/projects?hsLang=en\" style=\"color: #0057b8;\">",
+        "rawOutput": "- Thought: To address the issue of insufficient color contrast, I need to adjust either the foreground color or the background color to achieve the required contrast ratio of 4.5:1. Since the background color is white (#ffffff), it's more practical to alter the foreground color to something darker than #0094ff to enhance readability while ensuring the link remains visually distinct and attractive.\n\n- Corrected HTML: `<a class=\"counter-col__link\" href=\"https://www.linuxfoundation.org/projects?hsLang=en\" style=\"color: #0057b8;\">`"
+      },
+      {
+        "beforeModification": "<a class=\"counter-col__link\" href=\"https://training.linuxfoundation.org/\" target=\"_blank\" rel=\"noopener\">",
+        "afterModification": "<a class=\"counter-col__link\" href=\"https://training.linuxfoundation.org/\" target=\"_blank\" rel=\"noopener\" style=\"color: #005A9C;\">",
+        "rawOutput": "- Thought: To address the issue of insufficient color contrast as per WCAG 2.1 guidelines, I need to alter either the foreground or the background color to achieve at least a 4.5:1 contrast ratio. Since the background is white (#ffffff), adjusting the foreground color to a darker shade would be the most straightforward solution. This would enhance readability while ensuring compliance with accessibility standards.\n\n- Corrected HTML: `<a class=\"counter-col__link\" href=\"https://training.linuxfoundation.org/\" target=\"_blank\" rel=\"noopener\" style=\"color: #005A9C;\">`"
+      },
+      {
+        "beforeModification": "<a class=\"counter-col__link\" href=\"https://www.linuxfoundation.org/projects?hsLang=en\">",
+        "afterModification": "<a class=\"counter-col__link\" href=\"https://www.linuxfoundation.org/projects?hsLang=en\" style=\"color: #0057b8;\">",
+        "rawOutput": "- Thought: To address the insufficient color contrast issue, I need to change either the foreground or the background color to achieve the required contrast ratio of 4.5:1. Since the background color is white (#ffffff) and is a common choice for websites that want to maintain a clean and spacious look, I'll adjust the foreground color. I'll choose a darker shade of blue that maintains the aesthetic of the original color but ensures the text is easily readable against a white background.\n\n- Corrected HTML: `<a class=\"counter-col__link\" href=\"https://www.linuxfoundation.org/projects?hsLang=en\" style=\"color: #0057b8;\">`"
+      },
+      {
+        "beforeModification": "<a class=\"counter-col__link\" href=\"https://lfx.linuxfoundation.org/tools/insights\" target=\"_blank\" rel=\"noopener\">",
+        "afterModification": "<a class=\"counter-col__link\" href=\"https://lfx.linuxfoundation.org/tools/insights\" target=\"_blank\" rel=\"noopener\" style=\"color: #0057b8;\">",
+        "rawOutput": "- Thought: To address the insufficient color contrast issue, I need to adjust either the foreground or the background color to achieve the required contrast ratio of 4.5:1. Since the background is white (#ffffff), it's most practical to darken the foreground color to improve contrast while ensuring readability and maintaining the visual appeal of the link.\n\n- Corrected HTML: `<a class=\"counter-col__link\" href=\"https://lfx.linuxfoundation.org/tools/insights\" target=\"_blank\" rel=\"noopener\" style=\"color: #0057b8;\">`"
+      },
+      {
+        "beforeModification": "<a class=\"counter-col__link\" href=\"https://www.linuxfoundation.org/about/members?hsLang=en\">",
+        "afterModification": "<a class=\"counter-col__link\" href=\"https://www.linuxfoundation.org/about/members?hsLang=en\" style=\"color: #0057b8;\">",
+        "rawOutput": "- Thought: To address the color contrast issue, I need to adjust either the foreground or the background color so that they meet the required contrast ratio of 4.5:1. Since the background is white (#ffffff), it's most practical to darken the foreground color to improve contrast without compromising the design's integrity. \n\n- Corrected HTML: `<a class=\"counter-col__link\" href=\"https://www.linuxfoundation.org/about/members?hsLang=en\" style=\"color: #0057b8;\">`"
+      },
+      {
+        "beforeModification": "<a class=\"counter-col__link\" href=\"https://events.linuxfoundation.org/\" target=\"_blank\" rel=\"noopener\">",
+        "afterModification": "<a class=\"counter-col__link\" href=\"https://events.linuxfoundation.org/\" target=\"_blank\" rel=\"noopener\" style=\"color: #005a9c;\">",
+        "rawOutput": "- Thought: To address the insufficient color contrast issue, I must adjust either the foreground or the background color to achieve the necessary contrast ratio of 4.5:1, as specified by the WCAG 2.1 guidelines. Since the background is white (#ffffff), it's most practical to darken the foreground color from #0094ff to a color that maintains the design integrity but meets the contrast ratio requirement. A tool or color contrast checker can help find a suitable color that complies with the accessibility standards.\n\n- Corrected HTML: `<a class=\"counter-col__link\" href=\"https://events.linuxfoundation.org/\" target=\"_blank\" rel=\"noopener\" style=\"color: #005a9c;\">`"
+      },
+      {
+        "beforeModification": "<a href=\"https://www.linuxfoundation.org/about/members?hsLang=en\">Meet our members.</a>",
+        "afterModification": "<a href=\"https://www.linuxfoundation.org/about/members?hsLang=en\" style=\"color: #0057b8;\">Meet our members.</a>",
+        "rawOutput": "- Thought: To address the insufficient color contrast issue, I need to adjust either the foreground or background color to achieve at least a 4.5:1 contrast ratio. Given that the current foreground color (#0094ff) on the background color (#f6f7fa) only has a contrast ratio of 2.93, I will opt to darken the foreground color to improve visibility and accessibility. This modification should ensure that the text meets the WCAG 2.1 guidelines for color contrast, thus making the content more accessible to users with visual impairments.\n\n- Corrected HTML: `<a href=\"https://www.linuxfoundation.org/about/members?hsLang=en\" style=\"color: #0057b8;\">Meet our members.</a>`"
+      },
+      {
+        "beforeModification": "<label>Open Hardware</label>",
+        "afterModification": "<label style=\"color: #595959;\">Open Hardware</label>",
+        "rawOutput": "- Thought: To address the insufficient color contrast issue, I need to adjust either the foreground or the background color to achieve the required contrast ratio of 4.5:1. Since the background color is very light (#f6f7fa), it's more practical to darken the foreground color. Choosing a darker shade of gray or a different color that maintains the aesthetic of the website while ensuring readability is crucial.\n\n- Corrected HTML: `<label style=\"color: #595959;\">Open Hardware</label>`"
+      },
+      {
+        "beforeModification": "<label>Open Standards</label>",
+        "afterModification": "<label style=\"color: #474747;\">Open Standards</label>",
+        "rawOutput": "- Thought: To address the low contrast issue and meet the WCAG 2.1 requirements, I need to adjust the foreground color to ensure a contrast ratio of at least 4.5:1 against the background color. Given the background color is light (#f6f7fa), I should opt for a significantly darker shade for the text to enhance readability while ensuring the change aligns with the overall design aesthetics.\n\n- Corrected HTML: `<label style=\"color: #474747;\">Open Standards</label>`"
+      },
+      {
+        "beforeModification": "<label>Open Data</label>",
+        "afterModification": "<label style=\"color: #575757;\">Open Data</label>",
+        "rawOutput": "- Thought: To address the issue of insufficient color contrast, I need to adjust either the foreground or the background color to achieve the expected contrast ratio of 4.5:1. Since the font size is 12.0pt (16px) and the weight is normal, it's crucial that the text is easily readable against its background for users with visual impairments. I'll opt to darken the foreground color to increase contrast without altering the light background color, maintaining the site's aesthetic while ensuring accessibility.\n\n- Corrected HTML: `<label style=\"color: #575757;\">Open Data</label>`"
+      },
+      {
+        "beforeModification": "<a href=\"/browse-projects?hsLang=en\" rel=\"noopener\">See all open software projects.</a>",
+        "afterModification": "<a href=\"/browse-projects?hsLang=en\" rel=\"noopener\" style=\"color: #0057b8;\">See all open software projects.</a>",
+        "rawOutput": "To address the WCAG 2.1 violation regarding insufficient color contrast, we need to adjust either the foreground or background color to achieve the required contrast ratio of 4.5:1. Given the original colors, the foreground color of #0094ff on a background of #f6f7fa only yields a contrast ratio of 2.93, which is below the acceptable threshold for text of this size and weight. \n\n**Thought**: The goal is to enhance the readability of the text by increasing the contrast between the text color and its background without compromising the overall design. Since the background color is very light, adjusting the foreground color to a darker shade will likely be the most straightforward and effective solution. This change should ensure that the text meets accessibility standards, making it easier for users with visual impairments to read.\n\n**Corrected HTML**:\n```html\n<a href=\"/browse-projects?hsLang=en\" rel=\"noopener\" style=\"color: #0057b8;\">See all open software projects.</a>\n```\n\nIn this corrected version, the foreground color has been changed to #0057b8. This darker shade of blue maintains the visual integrity and branding of the website while improving contrast against the #f6f7fa background to meet or exceed the required 4.5:1 ratio, thus complying with WCAG 2.1 accessibility guidelines."
+      },
+      {
+        "beforeModification": "<a class=\"projects-tabs-col__button\n                 hs-button    \n                 hs-button--primary\" href=\"https://www.linuxfoundation.org/projects?hsLang=en\">\n          See All Projects\n        </a>",
+        "afterModification": "<a class=\"projects-tabs-col__button\n   hs-button    \n   hs-button--primary\" \n   href=\"https://www.linuxfoundation.org/projects?hsLang=en\" \n   style=\"color: #ffffff; background-color: #c80091;\">\n  See All Projects\n</a>",
+        "rawOutput": "- Thought: To address the insufficient color contrast issue, I need to adjust either the foreground or background color to achieve the required contrast ratio of 4.5:1. Since the foreground color is white (#ffffff) against a pink background (#ff00aa), I'll opt to change the background color to a darker shade that maintains visual appeal while ensuring the text is easily readable against its background. This adjustment will help meet the accessibility standards as per WCAG 2.1 guidelines.\n\n- Corrected HTML: \n```html\n<a class=\"projects-tabs-col__button\n   hs-button    \n   hs-button--primary\" \n   href=\"https://www.linuxfoundation.org/projects?hsLang=en\" \n   style=\"color: #ffffff; background-color: #c80091;\">\n  See All Projects\n</a>\n```"
+      },
+      {
+        "beforeModification": "<a href=\"/projects/sustainability?hsLang=en\" rel=\"noopener\">Learn more</a>",
+        "afterModification": "<a href=\"/projects/sustainability?hsLang=en\" rel=\"noopener\" style=\"color: #0057b8; background-color: #f6f7fa;\">Learn more</a>",
+        "rawOutput": "To address the WCAG 2.1 violation for insufficient color contrast, we need to adjust either the foreground or background color to achieve the required contrast ratio of 4.5:1. Given the original colors (#0094ff on #f6f7fa) and the fact that the text is bold and of a relatively small size (18px), it's crucial to choose colors that maintain the website's aesthetic while also ensuring readability and accessibility.\n\n- **Thought**: The original foreground color (#0094ff) is a bright blue, and the background color is a very light grey (#f6f7fa), resulting in a contrast ratio of 2.93, which is below the required 4.5:1 for text of this size and weight. To correct this, I can either darken the foreground color to increase contrast without altering the light background or lighten the background significantly, which might not be desirable due to the already light color. Adjusting the foreground color seems to be the more straightforward and less intrusive approach, aiming for a darker shade of blue that maintains the visual identity but improves contrast.\n\n- **Corrected HTML**: `<a href=\"/projects/sustainability?hsLang=en\" rel=\"noopener\" style=\"color: #0057b8; background-color: #f6f7fa;\">Learn more</a>`\n\nThis corrected HTML uses a darker shade of blue (#0057b8) for the text, which enhances the contrast against the light grey background (#f6f7fa) while keeping the overall design consistent. This adjustment should bring the contrast ratio above the required 4.5:1, making the text more accessible to users with visual impairments."
+      },
+      {
+        "beforeModification": "<a class=\"hs-button\n                            hs-button--primary\" href=\"https://training.linuxfoundation.org/subscriptions/\" target=\"_blank\" rel=\"noopener\">\n                    SAVE NOW\n                  </a>",
+        "afterModification": "<a class=\"hs-button hs-button--primary\" href=\"https://training.linuxfoundation.org/subscriptions/\" target=\"_blank\" rel=\"noopener\" style=\"color: #ffffff; background-color: #870058;\">\n  SAVE NOW\n</a>",
+        "rawOutput": "- Thought: To address the insufficient color contrast issue, I need to adjust either the foreground or background color to achieve the required contrast ratio of 4.5:1. Since the current contrast is too low with a white text (#ffffff) on a pinkish background (#ff00aa), changing the background color to a darker shade could improve readability while maintaining the design integrity.\n\n- Corrected HTML:\n```html\n<a class=\"hs-button hs-button--primary\" href=\"https://training.linuxfoundation.org/subscriptions/\" target=\"_blank\" rel=\"noopener\" style=\"color: #ffffff; background-color: #870058;\">\n  SAVE NOW\n</a>\n```\n\nThis corrected version changes the background color to a darker shade (#870058), which significantly improves the contrast ratio while keeping the text color unchanged, thus ensuring better accessibility according to WCAG 2.1 guidelines."
+      },
+      {
+        "beforeModification": "<a class=\"hs-button\n                            hs-button--primary\" href=\"https://events.linuxfoundation.org/open-source-summit-north-america/\" target=\"_blank\" rel=\"noopener\">\n                    Learn More\n                  </a>",
+        "afterModification": "<a class=\"hs-button hs-button--primary\" href=\"https://events.linuxfoundation.org/open-source-summit-north-america/\" target=\"_blank\" rel=\"noopener\" style=\"color: #ffffff; background-color: #870056;\">\n  Learn More\n</a>",
+        "rawOutput": "- Thought: To address the insufficient color contrast issue, I can either darken the background color or lighten the foreground color to achieve the required contrast ratio of 4.5:1. Since the foreground color is white (#ffffff), darkening the background color seems to be the more viable option to maintain readability and visual integrity. I'll adjust the background color to a darker shade that complies with the contrast ratio requirement.\n\n- Corrected HTML: \n```html\n<a class=\"hs-button hs-button--primary\" href=\"https://events.linuxfoundation.org/open-source-summit-north-america/\" target=\"_blank\" rel=\"noopener\" style=\"color: #ffffff; background-color: #870056;\">\n  Learn More\n</a>\n```"
+      },
+      {
+        "beforeModification": "<a class=\"hs-button\n                            hs-button--primary\" href=\"/research/2023-generative-ai-study?hsLang=en\">\n                    Read Now\n                  </a>",
+        "afterModification": "<a class=\"hs-button hs-button--primary\" href=\"/research/2023-generative-ai-study?hsLang=en\" style=\"color: #ffffff; background-color: #870058;\">\n  Read Now\n</a>",
+        "rawOutput": "- Thought: To address the issue of insufficient color contrast between the foreground and background, I need to either darken the background color or lighten the foreground color to achieve the required contrast ratio of 4.5:1. Since the foreground color is already white (#ffffff), the most effective approach would be to adjust the background color to a darker shade that complements the existing design while meeting the WCAG 2.1 standards for accessibility.\n\n- Corrected HTML:\n```html\n<a class=\"hs-button hs-button--primary\" href=\"/research/2023-generative-ai-study?hsLang=en\" style=\"color: #ffffff; background-color: #870058;\">\n  Read Now\n</a>\n```\n\nThis change modifies the background color to a darker shade (#870058) that ensures a contrast ratio higher than 4.5:1 when compared to the white (#ffffff) text, thereby improving accessibility for users with visual impairments."
+      },
+      {
+        "beforeModification": "<a href=\"https://www.linuxfoundation.org/press?hsLang=en\" class=\"section-title__link-text\">\n              NEWSROOM\n            </a>",
+        "afterModification": "<a href=\"https://www.linuxfoundation.org/press?hsLang=en\" class=\"section-title__link-text\" style=\"color: #005a9c;\">\n  NEWSROOM\n</a>",
+        "rawOutput": "- Thought: To address the issue of insufficient color contrast, I need to adjust either the foreground (text) color or the background color so that they meet the minimum contrast ratio of 4.5:1 as required by WCAG 2.1 guidelines. Since the text size is relatively small (11.4pt / 15.2px), it's crucial to ensure that the contrast is sufficient for readability. I'll opt to change the foreground color to a darker shade of blue that maintains the aesthetic of the site but improves contrast against the light background.\n\n- Corrected HTML: \n```html\n<a href=\"https://www.linuxfoundation.org/press?hsLang=en\" class=\"section-title__link-text\" style=\"color: #005a9c;\">\n  NEWSROOM\n</a>\n```"
+      }
+    ]
+  }
+]

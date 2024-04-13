@@ -1,0 +1,39 @@
+[
+  {
+    "analysisDetails": [
+      {
+        "model": "GPT"
+      },
+      {
+        "accessibility_type": "link-name"
+      },
+      {
+        "prompt_technique": "fewShot"
+      },
+      {
+        "temperature": 0.5
+      }
+    ],
+    "accessbilityTestResult": {
+      "violationBeforeModification": 3,
+      "violationAfterModification": 1
+    },
+    "modelCorrections": [
+      {
+        "beforeModification": "<a href=\"https://www.fivestars.com\" class=\"logo--header\">",
+        "afterModification": "<a href=\"https://www.fivestars.com\" class=\"logo--header\" aria-label=\"Five Stars Homepage\">",
+        "rawOutput": "```html\n<a href=\"https://www.fivestars.com\" class=\"logo--header\" aria-label=\"Five Stars Homepage\">\n```"
+      },
+      {
+        "beforeModification": "<a href=\"/businesses\">",
+        "afterModification": "<a href=\"/businesses\">\n- Corrected HTML: <a href=\"/businesses\" aria-label=\"View Businesses\">",
+        "rawOutput": "```html\n- Incorrect HTML: <a href=\"/businesses\">\n- Corrected HTML: <a href=\"/businesses\" aria-label=\"View Businesses\">\n```"
+      },
+      {
+        "beforeModification": "<a href=\"https://www.fivestars.com\" class=\"logo--header\">",
+        "afterModification": "<a href=\"https://www.fivestars.com\" class=\"logo--header\" aria-label=\"Five Stars Home Page\">",
+        "rawOutput": "```html\n<a href=\"https://www.fivestars.com\" class=\"logo--header\" aria-label=\"Five Stars Home Page\">\n```"
+      }
+    ]
+  }
+]

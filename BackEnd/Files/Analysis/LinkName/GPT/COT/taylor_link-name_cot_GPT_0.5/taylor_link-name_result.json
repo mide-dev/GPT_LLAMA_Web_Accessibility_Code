@@ -1,0 +1,54 @@
+[
+  {
+    "analysisDetails": [
+      {
+        "model": "GPT"
+      },
+      {
+        "accessibility_type": "link-name"
+      },
+      {
+        "prompt_technique": "cot"
+      },
+      {
+        "temperature": 0.5
+      }
+    ],
+    "accessbilityTestResult": {
+      "violationBeforeModification": 6,
+      "violationAfterModification": 1
+    },
+    "modelCorrections": [
+      {
+        "beforeModification": "<a href=\"https://www.linkedin.com/company/taylorcorporation/\"><i class=\"fa-brands fa-linkedin\" aria-hidden=\"true\"></i></a>",
+        "afterModification": "<a>` tag to describe the destination or purpose of the link. The `aria-label` content should convey the same message a visible text link would.\n\n- Corrected HTML: `<a href=\"https://www.linkedin.com/company/taylorcorporation/\" aria-label=\"Taylor Corporation on LinkedIn\"><i class=\"fa-brands fa-linkedin\" aria-hidden=\"true\"></i></a>",
+        "rawOutput": "- Thought: To correct the above HTML, I need to ensure that the link element is accessible by providing accessible text. Since the link contains an icon (which by itself is not accessible to screen readers due to `aria-hidden=\"true\"`), I should add an `aria-label` attribute to the `<a>` tag to describe the destination or purpose of the link. The `aria-label` content should convey the same message a visible text link would.\n\n- Corrected HTML: `<a href=\"https://www.linkedin.com/company/taylorcorporation/\" aria-label=\"Taylor Corporation on LinkedIn\"><i class=\"fa-brands fa-linkedin\" aria-hidden=\"true\"></i></a>`"
+      },
+      {
+        "beforeModification": "<a href=\"https://www.youtube.com/@TaylorCorporation\"><i class=\"fa-brands fa-youtube\" aria-hidden=\"true\"></i></a>",
+        "afterModification": "<i>` tag with a font-awesome icon won't provide any by itself. I can add `aria-label` to the `<a>` tag to provide accessible text directly. Also, since the link directs to a YouTube channel, I can use the channel's name for the `aria-label` content.\n\n- Corrected HTML: `<a href=\"https://www.youtube.com/@TaylorCorporation\" aria-label=\"Taylor Corporation on YouTube\"><i class=\"fa-brands fa-youtube\" aria-hidden=\"true\"></i></a>",
+        "rawOutput": "- Thought: To correct the above HTML for accessibility, I need to ensure the link has accessible text for screen readers since the `<i>` tag with a font-awesome icon won't provide any by itself. I can add `aria-label` to the `<a>` tag to provide accessible text directly. Also, since the link directs to a YouTube channel, I can use the channel's name for the `aria-label` content.\n\n- Corrected HTML: `<a href=\"https://www.youtube.com/@TaylorCorporation\" aria-label=\"Taylor Corporation on YouTube\"><i class=\"fa-brands fa-youtube\" aria-hidden=\"true\"></i></a>`"
+      },
+      {
+        "beforeModification": "<a href=\"https://www.instagram.com/taylorcorporation\"><i class=\"fa-brands fa-instagram\" aria-hidden=\"true\"></i></a>",
+        "afterModification": "<i>` element, representing an icon, doesn't provide any textual information on its own. This can be achieved by adding an `aria-label` attribute to the `<a>` element to provide a descriptive label for the link. Additionally, since the original HTML doesn't violate the title attribute rule directly (as it's not strictly required when `aria-label` is used correctly for accessibility), we will focus on correcting the accessibility issue by providing accessible text.\n\n- Incorrect HTML: `<a href=\"https://www.instagram.com/taylorcorporation\"><i class=\"fa-brands fa-instagram\" aria-hidden=\"true\"></i></a>`\n- Thought: To make this element accessible, I need to provide accessible text that screen readers can announce to users. Since the link leads to the Instagram page of Taylor Corporation, I can use `aria-label` to explicitly provide this information. This way, even though the icon itself is not directly conveying textual information, the link as a whole becomes accessible.\n- Corrected HTML: `<a href=\"https://www.instagram.com/taylorcorporation\" aria-label=\"Taylor Corporation on Instagram\"><i class=\"fa-brands fa-instagram\" aria-hidden=\"true\"></i></a>",
+        "rawOutput": "To correct the given HTML for accessibility, we need to ensure that the link has accessible text for screen readers, since the inner `<i>` element, representing an icon, doesn't provide any textual information on its own. This can be achieved by adding an `aria-label` attribute to the `<a>` element to provide a descriptive label for the link. Additionally, since the original HTML doesn't violate the title attribute rule directly (as it's not strictly required when `aria-label` is used correctly for accessibility), we will focus on correcting the accessibility issue by providing accessible text.\n\n- Incorrect HTML: `<a href=\"https://www.instagram.com/taylorcorporation\"><i class=\"fa-brands fa-instagram\" aria-hidden=\"true\"></i></a>`\n- Thought: To make this element accessible, I need to provide accessible text that screen readers can announce to users. Since the link leads to the Instagram page of Taylor Corporation, I can use `aria-label` to explicitly provide this information. This way, even though the icon itself is not directly conveying textual information, the link as a whole becomes accessible.\n- Corrected HTML: `<a href=\"https://www.instagram.com/taylorcorporation\" aria-label=\"Taylor Corporation on Instagram\"><i class=\"fa-brands fa-instagram\" aria-hidden=\"true\"></i></a>`"
+      },
+      {
+        "beforeModification": "<a href=\"https://www.facebook.com/TaylorCorp\"><i class=\"fa-brands fa-facebook\" aria-hidden=\"true\"></i></a>",
+        "afterModification": "<a>` element can provide this necessary context. Since the link directs to a Facebook page, the `aria-label` content should describe the purpose or destination of the link.\n\n- Corrected HTML: `<a href=\"https://www.facebook.com/TaylorCorp\" aria-label=\"Taylor Corp on Facebook\"><i class=\"fa-brands fa-facebook\" aria-hidden=\"true\"></i></a>",
+        "rawOutput": "- Thought: To correct the above HTML for accessibility, I need to ensure that the link has accessible text for screen readers since the icon alone does not provide this. The `aria-hidden=\"true\"` attribute hides the icon from screen readers, which is correct, but there needs to be alternative text that screen readers can use. Adding an `aria-label` attribute to the `<a>` element can provide this necessary context. Since the link directs to a Facebook page, the `aria-label` content should describe the purpose or destination of the link.\n\n- Corrected HTML: `<a href=\"https://www.facebook.com/TaylorCorp\" aria-label=\"Taylor Corp on Facebook\"><i class=\"fa-brands fa-facebook\" aria-hidden=\"true\"></i></a>`"
+      },
+      {
+        "beforeModification": "<a href=\"https://www.tiktok.com/@taylorcorporation\"><i class=\"fa-brands fa-tiktok\" aria-hidden=\"true\"></i></a>",
+        "afterModification": "<a href=\"https://www.tiktok.com/@taylorcorporation\" aria-label=\"Taylor Corporation on TikTok\"><i class=\"fa-brands fa-tiktok\" aria-hidden=\"true\"></i></a>",
+        "rawOutput": "- Thought: The HTML provided has an anchor element containing an icon (from FontAwesome in this case) which represents a link to a TikTok profile. However, the icon itself does not provide any accessible text for screen readers, making it difficult for users relying on assistive technologies to understand the purpose of the link. To correct this, I need to add an accessible name to the link. This can be done in several ways, such as using the `aria-label` attribute on the anchor tag to provide a textual description of the link's destination. Since the link goes to a TikTok profile, an appropriate label would be the name of the profile or a description of its content.\n\n- Corrected HTML: `<a href=\"https://www.tiktok.com/@taylorcorporation\" aria-label=\"Taylor Corporation on TikTok\"><i class=\"fa-brands fa-tiktok\" aria-hidden=\"true\"></i></a>`"
+      },
+      {
+        "beforeModification": "<a href=\"https://twitter.com/TaylorCorp\"><i class=\"fa-brands fa-square-x-twitter\" aria-hidden=\"true\"></i></a>",
+        "afterModification": "<a>` element to provide accessible text for screen readers. Additionally, since the link directs to Twitter, I can use that information to set the `aria-label` content.\n\n- Corrected HTML: `<a href=\"https://twitter.com/TaylorCorp\" aria-label=\"Follow TaylorCorp on Twitter\"><i class=\"fa-brands fa-square-x-twitter\" aria-hidden=\"true\"></i></a>",
+        "rawOutput": "- Thought: To correct the HTML for accessibility, I need to provide accessible text for the link and the icon within it. Since the icon is meant for visual users and is marked with `aria-hidden=\"true\"`, it's not accessible to screen readers. Therefore, I should add an `aria-label` to the `<a>` element to provide accessible text for screen readers. Additionally, since the link directs to Twitter, I can use that information to set the `aria-label` content.\n\n- Corrected HTML: `<a href=\"https://twitter.com/TaylorCorp\" aria-label=\"Follow TaylorCorp on Twitter\"><i class=\"fa-brands fa-square-x-twitter\" aria-hidden=\"true\"></i></a>`"
+      }
+    ]
+  }
+]

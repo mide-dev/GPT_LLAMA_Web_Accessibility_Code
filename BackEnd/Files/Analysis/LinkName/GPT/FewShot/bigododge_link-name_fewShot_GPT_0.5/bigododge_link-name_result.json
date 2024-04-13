@@ -1,0 +1,34 @@
+[
+  {
+    "analysisDetails": [
+      {
+        "model": "GPT"
+      },
+      {
+        "accessibility_type": "link-name"
+      },
+      {
+        "prompt_technique": "fewShot"
+      },
+      {
+        "temperature": 0.5
+      }
+    ],
+    "accessbilityTestResult": {
+      "violationBeforeModification": 2,
+      "violationAfterModification": 0
+    },
+    "modelCorrections": [
+      {
+        "beforeModification": "<a class=\"btn btn-primary  cstBtn ui-button btn-no-decoration\" href=\"/spanish.htm\" target=\"_self\" style=\"z-index: 950; background: none;\">\n<img src=\"//pictures.dealer.com/b/bigocdjcllc/1628/f33b028ba1580c7990a8c7f24d220798x.jpg\" alt=\"\"></a>",
+        "afterModification": "<a class=\"btn btn-primary cstBtn ui-button btn-no-decoration\" href=\"/spanish.htm\" title=\"Learn Spanish\" target=\"_self\" style=\"z-index: 950; background: none;\">\n<img src=\"//pictures.dealer.com/b/bigocdjcllc/1628/f33b028ba1580c7990a8c7f24d220798x.jpg\" alt=\"Learn Spanish\"></a>",
+        "rawOutput": "```html\n<a class=\"btn btn-primary cstBtn ui-button btn-no-decoration\" href=\"/spanish.htm\" title=\"Learn Spanish\" target=\"_self\" style=\"z-index: 950; background: none;\">\n<img src=\"//pictures.dealer.com/b/bigocdjcllc/1628/f33b028ba1580c7990a8c7f24d220798x.jpg\" alt=\"Learn Spanish\"></a>\n```"
+      },
+      {
+        "beforeModification": "<a href=\"https://www.bigododge.com/new-dodge-chrysler-jeep-ram-greenville/index.htm\" style=\"text-decoration-line: none;\">",
+        "afterModification": "<a href=\"https://www.bigododge.com/new-dodge-chrysler-jeep-ram-greenville/index.htm\" style=\"text-decoration-line: none;\" title=\"New Dodge Chrysler Jeep Ram Inventory in Greenville\" aria-label=\"New Dodge Chrysler Jeep Ram Inventory in Greenville\">",
+        "rawOutput": "```html\n<a href=\"https://www.bigododge.com/new-dodge-chrysler-jeep-ram-greenville/index.htm\" style=\"text-decoration-line: none;\" title=\"New Dodge Chrysler Jeep Ram Inventory in Greenville\" aria-label=\"New Dodge Chrysler Jeep Ram Inventory in Greenville\">\n```"
+      }
+    ]
+  }
+]

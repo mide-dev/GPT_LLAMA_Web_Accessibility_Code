@@ -1,0 +1,29 @@
+[
+  {
+    "analysisDetails": [
+      {
+        "model": "GPT"
+      },
+      {
+        "accessibility_type": "html-has-lang"
+      },
+      {
+        "prompt_technique": "ReAct"
+      },
+      {
+        "temperature": 0.5
+      }
+    ],
+    "accessbilityTestResult": {
+      "violationBeforeModification": 1,
+      "violationAfterModification": 0
+    },
+    "modelCorrections": [
+      {
+        "beforeModification": "<html>",
+        "afterModification": "<html lang=\"en\">",
+        "rawOutput": "- Thought: The provided HTML is missing a \"lang\" attribute, which is essential for accessibility as it helps screen readers and other assistive technologies understand the language of the content. I need to add the \"lang\" attribute and assign the appropriate language code to it.\n\n- Action: Add [lang=\"en\"] to the HTML if the content is in English.\n\n- Corrected HTML: <html lang=\"en\">"
+      }
+    ]
+  }
+]

@@ -1,0 +1,99 @@
+[
+  {
+    "analysisDetails": [
+      {
+        "model": "GPT"
+      },
+      {
+        "accessibility_type": "link-name"
+      },
+      {
+        "prompt_technique": "fewShot"
+      },
+      {
+        "temperature": 0.5
+      }
+    ],
+    "accessbilityTestResult": {
+      "violationBeforeModification": 15,
+      "violationAfterModification": 0
+    },
+    "modelCorrections": [
+      {
+        "beforeModification": "<a id=\"slider-51-slide-46-layer-79\" class=\"rs-layer rs-layer-static\" href=\"#contact\" target=\"_self\" rel=\"nofollow\" data-type=\"image\" data-rsp_ch=\"on\" data-xy=\"x:l,l,c,c;xo:535px,466px,225px,152px;y:b;yo:20px,20px,17px,20px;\" data-text=\"w:normal;s:20,16,12,7;l:0,20,15,9;\" data-dim=\"w:73px,100px,64px,60px;h:73px,100px,64px,60px;\" data-basealign=\"slide\" data-onslides=\"s:1;\" data-frame_999=\"o:0;st:w;\" style=\"z-index: 17; color: rgb(255, 255, 255); width: 78px; height: 78px; min-height: 0px; min-width: 0px; max-height: none; max-width: none; backdrop-filter: none; filter: none; transform-origin: 50% 50%; opacity: 1; transform: translate(0px, 0px); visibility: visible;\" data-startslide=\"1\" data-endslide=\"5\" data-idcheck=\"true\" data-stylerecorder=\"true\" data-initialised=\"true\">",
+        "afterModification": "<a id=\"slider-51-slide-46-layer-79\" class=\"rs-layer rs-layer-static\" href=\"#contact\" title=\"Contact Us\" target=\"_self\" rel=\"nofollow\" data-type=\"image\" aria-label=\"Contact Us\" data-rsp_ch=\"on\" data-xy=\"x:l,l,c,c;xo:535px,466px,225px,152px;y:b;yo:20px,20px,17px,20px;\" data-text=\"w:normal;s:20,16,12,7;l:0,20,15,9;\" data-dim=\"w:73px,100px,64px,60px;h:73px,100px,64px,60px;\" data-basealign=\"slide\" data-onslides=\"s:1;\" data-frame_999=\"o:0;st:w;\" style=\"z-index: 17; color: rgb(255, 255, 255); width: 78px; height: 78px; min-height: 0px; min-width: 0px; max-height: none; max-width: none; backdrop-filter: none; filter: none; transform-origin: 50% 50%; opacity: 1; transform: translate(0px, 0px); visibility: visible;\" data-startslide=\"1\" data-endslide=\"5\" data-idcheck=\"true\" data-stylerecorder=\"true\" data-initialised=\"true\">",
+        "rawOutput": "```html\n<a id=\"slider-51-slide-46-layer-79\" class=\"rs-layer rs-layer-static\" href=\"#contact\" title=\"Contact Us\" target=\"_self\" rel=\"nofollow\" data-type=\"image\" aria-label=\"Contact Us\" data-rsp_ch=\"on\" data-xy=\"x:l,l,c,c;xo:535px,466px,225px,152px;y:b;yo:20px,20px,17px,20px;\" data-text=\"w:normal;s:20,16,12,7;l:0,20,15,9;\" data-dim=\"w:73px,100px,64px,60px;h:73px,100px,64px,60px;\" data-basealign=\"slide\" data-onslides=\"s:1;\" data-frame_999=\"o:0;st:w;\" style=\"z-index: 17; color: rgb(255, 255, 255); width: 78px; height: 78px; min-height: 0px; min-width: 0px; max-height: none; max-width: none; backdrop-filter: none; filter: none; transform-origin: 50% 50%; opacity: 1; transform: translate(0px, 0px); visibility: visible;\" data-startslide=\"1\" data-endslide=\"5\" data-idcheck=\"true\" data-stylerecorder=\"true\" data-initialised=\"true\">\n```"
+      },
+      {
+        "beforeModification": "<a id=\"slider-51-slide-46-layer-83\" class=\"rs-layer rs-layer-static\" href=\"#book-a-demo\" target=\"_self\" rel=\"nofollow\" data-type=\"image\" data-rsp_ch=\"on\" data-xy=\"x:l,l,c,c;xo:293px,234px,0,0;y:b;yo:20px,20px,17px,20px;\" data-text=\"w:normal;s:20,16,12,7;l:0,20,15,9;\" data-dim=\"w:73px,100px,64px,60px;h:73px,100px,64px,60px;\" data-basealign=\"slide\" data-onslides=\"s:1;\" data-frame_999=\"o:0;st:w;\" style=\"z-index: 16; color: rgb(255, 255, 255); width: 78px; height: 78px; min-height: 0px; min-width: 0px; max-height: none; max-width: none; backdrop-filter: none; filter: none; transform-origin: 50% 50%; opacity: 1; transform: translate(0px, 0px); visibility: visible;\" data-startslide=\"1\" data-endslide=\"5\" data-idcheck=\"true\" data-stylerecorder=\"true\" data-initialised=\"true\">",
+        "afterModification": "<a id=\"slider-51-slide-46-layer-83\" class=\"rs-layer rs-layer-static\" href=\"#book-a-demo\" title=\"Book A Demo\" aria-label=\"Book A Demo\" target=\"_self\" rel=\"nofollow\" data-type=\"image\" data-rsp_ch=\"on\" data-xy=\"x:l,l,c,c;xo:293px,234px,0,0;y:b;yo:20px,20px,17px,20px;\" data-text=\"w:normal;s:20,16,12,7;l:0,20,15,9;\" data-dim=\"w:73px,100px,64px,60px;h:73px,100px,64px,60px;\" data-basealign=\"slide\" data-onslides=\"s:1;\" data-frame_999=\"o:0;st:w;\" style=\"z-index: 16; color: rgb(255, 255, 255); width: 78px; height: 78px; min-height: 0px; min-width: 0px; max-height: none; max-width: none; backdrop-filter: none; filter: none; transform-origin: 50% 50%; opacity: 1; transform: translate(0px, 0px); visibility: visible;\" data-startslide=\"1\" data-endslide=\"5\" data-idcheck=\"true\" data-stylerecorder=\"true\" data-initialised=\"true\">",
+        "rawOutput": "```html\n<a id=\"slider-51-slide-46-layer-83\" class=\"rs-layer rs-layer-static\" href=\"#book-a-demo\" title=\"Book A Demo\" aria-label=\"Book A Demo\" target=\"_self\" rel=\"nofollow\" data-type=\"image\" data-rsp_ch=\"on\" data-xy=\"x:l,l,c,c;xo:293px,234px,0,0;y:b;yo:20px,20px,17px,20px;\" data-text=\"w:normal;s:20,16,12,7;l:0,20,15,9;\" data-dim=\"w:73px,100px,64px,60px;h:73px,100px,64px,60px;\" data-basealign=\"slide\" data-onslides=\"s:1;\" data-frame_999=\"o:0;st:w;\" style=\"z-index: 16; color: rgb(255, 255, 255); width: 78px; height: 78px; min-height: 0px; min-width: 0px; max-height: none; max-width: none; backdrop-filter: none; filter: none; transform-origin: 50% 50%; opacity: 1; transform: translate(0px, 0px); visibility: visible;\" data-startslide=\"1\" data-endslide=\"5\" data-idcheck=\"true\" data-stylerecorder=\"true\" data-initialised=\"true\">\n```"
+      },
+      {
+        "beforeModification": "<a id=\"slider-51-slide-46-layer-85\" class=\"rs-layer rs-layer-static\" href=\"#get-a-quote\" target=\"_self\" rel=\"nofollow\" data-type=\"image\" data-rsp_ch=\"on\" data-xy=\"x:l,l,c,c;xo:58px,29px,-240px,-156px;y:b;yo:20px,20px,17px,20px;\" data-text=\"w:normal;s:20,16,12,7;l:0,20,15,9;\" data-dim=\"w:73px,100px,64px,60px;h:73px,100px,64px,60px;\" data-basealign=\"slide\" data-onslides=\"s:1;\" data-frame_999=\"o:0;st:w;\" style=\"z-index: 18; color: rgb(255, 255, 255); width: 78px; height: 78px; min-height: 0px; min-width: 0px; max-height: none; max-width: none; backdrop-filter: none; filter: none; transform-origin: 50% 50%; opacity: 1; transform: translate(0px, 0px); visibility: visible;\" data-startslide=\"1\" data-endslide=\"5\" data-idcheck=\"true\" data-stylerecorder=\"true\" data-initialised=\"true\">",
+        "afterModification": "<a id=\"slider-51-slide-46-layer-85\" class=\"rs-layer rs-layer-static\" href=\"#get-a-quote\" title=\"Get A Quote\" aria-label=\"Get A Quote\" target=\"_self\" rel=\"nofollow\" data-type=\"image\" data-rsp_ch=\"on\" data-xy=\"x:l,l,c,c;xo:58px,29px,-240px,-156px;y:b;yo:20px,20px,17px,20px;\" data-text=\"w:normal;s:20,16,12,7;l:0,20,15,9;\" data-dim=\"w:73px,100px,64px,60px;h:73px,100px,64px,60px;\" data-basealign=\"slide\" data-onslides=\"s:1;\" data-frame_999=\"o:0;st:w;\" style=\"z-index: 18; color: rgb(255, 255, 255); width: 78px; height: 78px; min-height: 0px; min-width: 0px; max-height: none; max-width: none; backdrop-filter: none; filter: none; transform-origin: 50% 50%; opacity: 1; transform: translate(0px, 0px); visibility: visible;\" data-startslide=\"1\" data-endslide=\"5\" data-idcheck=\"true\" data-stylerecorder=\"true\" data-initialised=\"true\">",
+        "rawOutput": "```html\n<a id=\"slider-51-slide-46-layer-85\" class=\"rs-layer rs-layer-static\" href=\"#get-a-quote\" title=\"Get A Quote\" aria-label=\"Get A Quote\" target=\"_self\" rel=\"nofollow\" data-type=\"image\" data-rsp_ch=\"on\" data-xy=\"x:l,l,c,c;xo:58px,29px,-240px,-156px;y:b;yo:20px,20px,17px,20px;\" data-text=\"w:normal;s:20,16,12,7;l:0,20,15,9;\" data-dim=\"w:73px,100px,64px,60px;h:73px,100px,64px,60px;\" data-basealign=\"slide\" data-onslides=\"s:1;\" data-frame_999=\"o:0;st:w;\" style=\"z-index: 18; color: rgb(255, 255, 255); width: 78px; height: 78px; min-height: 0px; min-width: 0px; max-height: none; max-width: none; backdrop-filter: none; filter: none; transform-origin: 50% 50%; opacity: 1; transform: translate(0px, 0px); visibility: visible;\" data-startslide=\"1\" data-endslide=\"5\" data-idcheck=\"true\" data-stylerecorder=\"true\" data-initialised=\"true\">\n```"
+      },
+      {
+        "beforeModification": "<a class=\"column-link\" target=\"_self\" href=\"/covid-19-customers-and-partners-resources/\"></a>",
+        "afterModification": "<a class=\"column-link\" target=\"_self\" href=\"/covid-19-customers-and-partners-resources/\" aria-label=\"COVID-19 Customers and Partners Resources\"></a>",
+        "rawOutput": "```html\n<a class=\"column-link\" target=\"_self\" href=\"/covid-19-customers-and-partners-resources/\" aria-label=\"COVID-19 Customers and Partners Resources\"></a>\n```"
+      },
+      {
+        "beforeModification": "<a href=\"https://players.brightcove.net/2165782443001/TmnSuwJqg_default/index.html?videoId=5775269684001\" class=\"full-link magnific-popup\"></a>",
+        "afterModification": "<a href=\"https://players.brightcove.net/2165782443001/TmnSuwJqg_default/index.html?videoId=5775269684001\" class=\"full-link magnific-popup\" title=\"Watch Video\" aria-label=\"Watch Video\"></a>",
+        "rawOutput": "```html\n<a href=\"https://players.brightcove.net/2165782443001/TmnSuwJqg_default/index.html?videoId=5775269684001\" class=\"full-link magnific-popup\" title=\"Watch Video\" aria-label=\"Watch Video\"></a>\n```"
+      },
+      {
+        "beforeModification": "<a href=\"https://players.brightcove.net/2165782443001/TmnSuwJqg_default/index.html?videoId=5804808189001\" class=\"full-link magnific-popup\"></a>",
+        "afterModification": "<a href=\"https://players.brightcove.net/2165782443001/TmnSuwJqg_default/index.html?videoId=5804808189001\" class=\"full-link magnific-popup\" aria-label=\"Play Video\" title=\"Play Video\"></a>",
+        "rawOutput": "```html\n<a href=\"https://players.brightcove.net/2165782443001/TmnSuwJqg_default/index.html?videoId=5804808189001\" class=\"full-link magnific-popup\" aria-label=\"Play Video\" title=\"Play Video\"></a>\n```"
+      },
+      {
+        "beforeModification": "<a class=\"column-link\" target=\"_self\" href=\"/industry/industrial-automation/oil-gas/\"></a>",
+        "afterModification": "<a class=\"column-link\" target=\"_self\" href=\"/industry/industrial-automation/oil-gas/\" aria-label=\"Industrial Automation in Oil and Gas\">Industrial Automation in Oil and Gas</a>",
+        "rawOutput": "```html\n<a class=\"column-link\" target=\"_self\" href=\"/industry/industrial-automation/oil-gas/\" aria-label=\"Industrial Automation in Oil and Gas\">Industrial Automation in Oil and Gas</a>\n```"
+      },
+      {
+        "beforeModification": "<a class=\"column-link\" target=\"_self\" href=\"/industry/healthcare/\"></a>",
+        "afterModification": "<a class=\"column-link\" target=\"_self\" href=\"/industry/healthcare/\" aria-label=\"Healthcare Industry\" title=\"Healthcare Industry\"></a>",
+        "rawOutput": "```html\n<a class=\"column-link\" target=\"_self\" href=\"/industry/healthcare/\" aria-label=\"Healthcare Industry\" title=\"Healthcare Industry\"></a>\n```"
+      },
+      {
+        "beforeModification": "<a class=\"column-link\" target=\"_self\" href=\"/industry/industrial-automation/food-and-beverage/\"></a>",
+        "afterModification": "<a class=\"column-link\" target=\"_self\" href=\"/industry/industrial-automation/food-and-beverage/\" aria-label=\"Food and Beverage Industry Section\"></a>",
+        "rawOutput": "```html\n<a class=\"column-link\" target=\"_self\" href=\"/industry/industrial-automation/food-and-beverage/\" aria-label=\"Food and Beverage Industry Section\"></a>\n```"
+      },
+      {
+        "beforeModification": "<a class=\"column-link\" target=\"_self\" href=\"/industry/industrial-automation/water-wastewater/\"></a>",
+        "afterModification": "<a class=\"column-link\" target=\"_self\" href=\"/industry/industrial-automation/water-wastewater/\" title=\"Water & Wastewater Industry\" aria-label=\"Water & Wastewater Industry\"></a>",
+        "rawOutput": "```html\n<a class=\"column-link\" target=\"_self\" href=\"/industry/industrial-automation/water-wastewater/\" title=\"Water & Wastewater Industry\" aria-label=\"Water & Wastewater Industry\"></a>\n```"
+      },
+      {
+        "beforeModification": "<a class=\"column-link\" target=\"_self\" href=\"/industry/industrial-automation/life-sciences-manufacturing-and-power-industries/\"></a>",
+        "afterModification": "<a class=\"column-link\" target=\"_self\" href=\"/industry/industrial-automation/life-sciences-manufacturing-and-power-industries/\" title=\"Life Sciences, Manufacturing, and Power Industries\" aria-label=\"Life Sciences, Manufacturing, and Power Industries\"></a>",
+        "rawOutput": "```html\n<a class=\"column-link\" target=\"_self\" href=\"/industry/industrial-automation/life-sciences-manufacturing-and-power-industries/\" title=\"Life Sciences, Manufacturing, and Power Industries\" aria-label=\"Life Sciences, Manufacturing, and Power Industries\"></a>\n```"
+      },
+      {
+        "beforeModification": "<a class=\"column-link\" target=\"_self\" href=\"/industry/retail/\"></a>",
+        "afterModification": "<a class=\"column-link\" target=\"_self\" href=\"/industry/retail/\" aria-label=\"Retail Industry\" title=\"Retail Industry\"></a>",
+        "rawOutput": "```html\n<a class=\"column-link\" target=\"_self\" href=\"/industry/retail/\" aria-label=\"Retail Industry\" title=\"Retail Industry\"></a>\n```"
+      },
+      {
+        "beforeModification": "<a class=\"column-link\" target=\"_self\" href=\"/industry/travel-logistics/\"></a>",
+        "afterModification": "<a class=\"column-link\" target=\"_self\" href=\"/industry/travel-logistics/\" aria-label=\"Travel and Logistics Industry\">Travel and Logistics</a>",
+        "rawOutput": "```html\n<a class=\"column-link\" target=\"_self\" href=\"/industry/travel-logistics/\" aria-label=\"Travel and Logistics Industry\">Travel and Logistics</a>\n```"
+      },
+      {
+        "beforeModification": "<a class=\"column-link\" target=\"_self\" href=\"/industry/smart-buildings/\"></a>",
+        "afterModification": "<a class=\"column-link\" target=\"_self\" href=\"/industry/smart-buildings/\" aria-label=\"Smart Buildings\">Learn more about Smart Buildings</a>",
+        "rawOutput": "```html\n<a class=\"column-link\" target=\"_self\" href=\"/industry/smart-buildings/\" aria-label=\"Smart Buildings\">Learn more about Smart Buildings</a>\n```"
+      },
+      {
+        "beforeModification": "<a id=\"to-top\" href=\"#\" class=\"\n\tmobile-enabled\t\"><i class=\"fa fa-angle-up\"></i></a>",
+        "afterModification": "<a id=\"to-top\" href=\"#\" class=\"mobile-enabled\" aria-label=\"Go to top\"><i class=\"fa fa-angle-up\" aria-hidden=\"true\"></i></a>",
+        "rawOutput": "```html\n<a id=\"to-top\" href=\"#\" class=\"mobile-enabled\" aria-label=\"Go to top\"><i class=\"fa fa-angle-up\" aria-hidden=\"true\"></i></a>\n```"
+      }
+    ]
+  }
+]

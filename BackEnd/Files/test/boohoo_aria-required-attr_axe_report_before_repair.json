@@ -1,0 +1,318 @@
+{
+  "testEngine": {
+    "name": "axe-core",
+    "version": "4.8.4"
+  },
+  "testRunner": {
+    "name": "axe"
+  },
+  "testEnvironment": {
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/122.0.0.0 Safari/537.36",
+    "windowWidth": 800,
+    "windowHeight": 600,
+    "orientationAngle": 0,
+    "orientationType": "portrait-primary"
+  },
+  "timestamp": "2024-03-29T04:05:37.725Z",
+  "url": "https://www.boohoo.com/",
+  "toolOptions": {
+    "runOnly": {
+      "type": "rule",
+      "values": [
+        "aria-required-attr"
+      ]
+    },
+    "reporter": "v1"
+  },
+  "inapplicable": [],
+  "passes": [
+    {
+      "id": "aria-required-attr",
+      "impact": null,
+      "tags": [
+        "cat.aria",
+        "wcag2a",
+        "wcag412",
+        "EN-301-549",
+        "EN-9.4.1.2"
+      ],
+      "description": "Ensures elements with ARIA roles have all required ARIA attributes",
+      "help": "Required ARIA attributes must be provided",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-required-attr?application=axeAPI",
+      "nodes": [
+        {
+          "any": [
+            {
+              "id": "aria-required-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "All required ARIA attributes are present"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"b-hero_carousel m-promotions m-initialized\" data-widget=\"heroCarousel\" role=\"region\" aria-roledescription=\"carousel\" aria-label=\"Basis content slider\" data-tau=\"carousel_hero\" data-autoplay-enabled=\"true\" data-autoplay-stopped=\"false\" data-autoplay-duration=\"8000\" data-autoplay-label-start=\"Start automatic slide show.\" data-autoplay-label-stop=\"Stop automatic slide show.\" data-slide-prefix=\"promotion_slide-\" data-adaptive-height-enabled=\"true\" data-initialized=\"1\">",
+          "target": [
+            ".b-hero_carousel"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "aria-required-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "All required ARIA attributes are present"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"b-hero_carousel-item m-promotion m-current\" role=\"group\" aria-roledescription=\"slide\" tabindex=\"0\" data-tau=\"carousel_hero_item\" id=\"promotion_slide-0\" aria-label=\"1 of 3\">",
+          "target": [
+            "#promotion_slide-0"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "aria-required-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "All required ARIA attributes are present"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<svg role=\"img\" class=\"i-icon i-icon-hamburger\" xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" focusable=\"false\">",
+          "target": [
+            ".i-icon-hamburger"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "aria-required-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "All required ARIA attributes are present"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div data-widget.sm.md=\"emitBusEvent\" data-bus-event-type=\"header.nav.click\" data-event-click.sm.md=\"emitBusEvent\" role=\"none\" data-initialized=\"1\">",
+          "target": [
+            ".l-header-left > div[data-widget\\.sm\\.md=\"emitBusEvent\"][data-bus-event-type=\"header.nav.click\"][data-event-click\\.sm\\.md=\"emitBusEvent\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "aria-required-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "All required ARIA attributes are present"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"128.7\" height=\"30\" viewBox=\"0 0 171.59 40\" role=\"img\" aria-label=\"Boohoo\" focusable=\"false\">",
+          "target": [
+            "svg[width=\"128.7\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "aria-required-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "All required ARIA attributes are present"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"b-header_actions-item m-search\" role=\"search\">",
+          "target": [
+            ".m-search"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "aria-required-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "All required ARIA attributes are present"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<svg role=\"img\" class=\"i-icon i-icon-search\" xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" focusable=\"false\">",
+          "target": [
+            ".i-icon-search"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "aria-required-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "All required ARIA attributes are present"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<svg role=\"img\" class=\"i-icon i-icon-user\" xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" focusable=\"false\">",
+          "target": [
+            ".i-icon-user"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "aria-required-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "All required ARIA attributes are present"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<svg role=\"img\" class=\"i-icon i-icon-wishlist\" xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\">",
+          "target": [
+            ".i-icon-wishlist"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "aria-required-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "All required ARIA attributes are present"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<svg role=\"img\" class=\"i-icon i-icon-shoppingBag\" xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" focusable=\"false\">",
+          "target": [
+            ".i-icon-shoppingBag"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "aria-required-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "All required ARIA attributes are present"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"b-global_alerts \" role=\"alert\" data-widget=\"globalAlerts\" data-tau=\"global_alerts\" data-timeout=\"4000\" data-global-alerts=\"{\n        &quot;error500&quot;: &quot;Unexpected error occurred. Please try later.&quot;\n    }\" data-initialized=\"1\">",
+          "target": [
+            ".b-global_alerts"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "aria-required-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "All required ARIA attributes are present"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<button id=\"footer-account-btn\" data-ref=\"accordionItemBtn\" data-event-keydown.sm.md=\"handleKeydown\" data-event-click.prevent.sm.md=\"togglePanel\" class=\"b-footer_nav-button\" type=\"button\" data-tau=\"footer_navigation_button\" role=\"button\" aria-controls=\"footer-account\" aria-expanded=\"false\" tabindex=\"0\">",
+          "target": [
+            "#footer-account-btn"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "aria-required-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "All required ARIA attributes are present"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<button id=\"footer-support-btn\" data-ref=\"accordionItemBtn\" data-event-keydown.sm.md=\"handleKeydown\" data-event-click.prevent.sm.md=\"togglePanel\" class=\"b-footer_nav-button\" type=\"button\" data-tau=\"footer_navigation_button\" role=\"button\" aria-controls=\"footer-support\" aria-expanded=\"false\" tabindex=\"0\">",
+          "target": [
+            "#footer-support-btn"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "aria-required-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "All required ARIA attributes are present"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div id=\"onetrust-banner-sdk\" class=\"otFlat otRelFont bottom vertical-align-content\" tabindex=\"0\" role=\"region\" aria-label=\"Cookie banner\">",
+          "target": [
+            "#onetrust-banner-sdk"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "aria-required-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "All required ARIA attributes are present"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div role=\"alertdialog\" aria-describedby=\"onetrust-policy-text\" aria-modal=\"true\" aria-label=\"HOW BOOHOO USES COOKIES\">",
+          "target": [
+            "div[aria-describedby=\"onetrust-policy-text\"]"
+          ]
+        }
+      ]
+    }
+  ],
+  "incomplete": [],
+  "violations": []
+}

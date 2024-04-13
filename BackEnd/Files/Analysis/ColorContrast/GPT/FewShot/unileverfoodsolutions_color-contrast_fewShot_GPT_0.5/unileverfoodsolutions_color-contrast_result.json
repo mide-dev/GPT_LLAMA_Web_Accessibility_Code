@@ -1,0 +1,259 @@
+[
+  {
+    "analysisDetails": [
+      {
+        "model": "GPT"
+      },
+      {
+        "accessibility_type": "color-contrast"
+      },
+      {
+        "prompt_technique": "fewShot"
+      },
+      {
+        "temperature": 0.5
+      }
+    ],
+    "accessbilityTestResult": {
+      "violationBeforeModification": 47,
+      "violationAfterModification": 17
+    },
+    "modelCorrections": [
+      {
+        "beforeModification": "<a href=\"#\" title=\"Restaurant\" class=\"js-channel-selector-item\" data-internal-name=\"restaurants_traditional\">\n                    <span class=\"icon icon-other\"></span>\n                    Restaurant\n                </a>",
+        "afterModification": "<a href=\"#\" title=\"Restaurant\" class=\"js-channel-selector-item\" data-internal-name=\"restaurants_traditional\" style=\"color: #000000; background-color: #ff5a00;\">\n    <span class=\"icon icon-other\"></span>\n    Restaurant\n</a>",
+        "rawOutput": "```html\n<a href=\"#\" title=\"Restaurant\" class=\"js-channel-selector-item\" data-internal-name=\"restaurants_traditional\" style=\"color: #000000; background-color: #ff5a00;\">\n    <span class=\"icon icon-other\"></span>\n    Restaurant\n</a>\n```"
+      },
+      {
+        "beforeModification": "<a href=\"#\" title=\"Éducation-scolaire\" class=\"js-channel-selector-item\" data-internal-name=\"restaurants_colletive\">\n                    <span class=\"icon icon-other\"></span>\n                    Éducation-scolaire\n                </a>",
+        "afterModification": "<a href=\"#\" title=\"Éducation-scolaire\" class=\"js-channel-selector-item\" data-internal-name=\"restaurants_colletive\" style=\"color: #000000; background-color: #ff5a00;\">\n    <span class=\"icon icon-other\"></span>\n    Éducation-scolaire\n</a>",
+        "rawOutput": "```html\n<a href=\"#\" title=\"Éducation-scolaire\" class=\"js-channel-selector-item\" data-internal-name=\"restaurants_colletive\" style=\"color: #000000; background-color: #ff5a00;\">\n    <span class=\"icon icon-other\"></span>\n    Éducation-scolaire\n</a>\n```"
+      },
+      {
+        "beforeModification": "<a href=\"#\" title=\"Maison de retraite\" class=\"js-channel-selector-item\" data-internal-name=\"elderly-homes\">\n                    <span class=\"icon icon-other\"></span>\n                    Maison de retraite\n                </a>",
+        "afterModification": "<a href=\"#\" title=\"Maison de retraite\" class=\"js-channel-selector-item\" data-internal-name=\"elderly-homes\" style=\"color: #000000; background-color: #ff5a00;\">\n    <span class=\"icon icon-other\"></span>\n    Maison de retraite\n</a>",
+        "rawOutput": "```html\n<a href=\"#\" title=\"Maison de retraite\" class=\"js-channel-selector-item\" data-internal-name=\"elderly-homes\" style=\"color: #000000; background-color: #ff5a00;\">\n    <span class=\"icon icon-other\"></span>\n    Maison de retraite\n</a>\n```"
+      },
+      {
+        "beforeModification": "<a href=\"#\" title=\"Restauration rapide\" class=\"js-channel-selector-item\" data-internal-name=\"qsrs\">\n                    <span class=\"icon icon-other\"></span>\n                    Restauration rapide\n                </a>",
+        "afterModification": "<a href=\"#\" title=\"Restauration rapide\" class=\"js-channel-selector-item\" data-internal-name=\"qsrs\" style=\"color: #ffffff; background-color: #E65100;\">\n    <span class=\"icon icon-other\"></span>\n    Restauration rapide\n</a>",
+        "rawOutput": "```html\n<a href=\"#\" title=\"Restauration rapide\" class=\"js-channel-selector-item\" data-internal-name=\"qsrs\" style=\"color: #ffffff; background-color: #E65100;\">\n    <span class=\"icon icon-other\"></span>\n    Restauration rapide\n</a>\n```"
+      },
+      {
+        "beforeModification": "<a href=\"#\" title=\"Autre\">\n                    <span class=\"icon icon-questionmark\"></span>\n                    Autre\n                </a>",
+        "afterModification": "<a href=\"#\" title=\"Autre\" style=\"color: #ffffff; background-color: #E65100;\">\n    <span class=\"icon icon-questionmark\"></span>\n    Autre\n</a>",
+        "rawOutput": "```html\n<a href=\"#\" title=\"Autre\" style=\"color: #ffffff; background-color: #E65100;\">\n    <span class=\"icon icon-questionmark\"></span>\n    Autre\n</a>\n```"
+      },
+      {
+        "beforeModification": "<a href=\"/nos-plus-belles-marques/knorr-professional.html\" title=\"Knorr Professional \" data-event-type=\"Article Click\" data-event-name=\"Chef Inspiration - Theme: Knorr Professional \">Knorr Professional </a>",
+        "afterModification": "<a href=\"/nos-plus-belles-marques/knorr-professional.html\" title=\"Knorr Professional \" data-event-type=\"Article Click\" data-event-name=\"Chef Inspiration - Theme: Knorr Professional \" style=\"color: #000000;\">Knorr Professional </a>",
+        "rawOutput": "```html\n<a href=\"/nos-plus-belles-marques/knorr-professional.html\" title=\"Knorr Professional \" data-event-type=\"Article Click\" data-event-name=\"Chef Inspiration - Theme: Knorr Professional \" style=\"color: #000000;\">Knorr Professional </a>\n```"
+      },
+      {
+        "beforeModification": "<a class=\"button\" href=\"/recettes.html\" title=\"Plus d'articles\" data-event-type=\"Article Click\" data-event-name=\"Chef Inspiration - all-recipes\">\n            Voir plus de recettes\n        </a>",
+        "afterModification": "<a class=\"button\" href=\"/recettes.html\" title=\"Plus d'articles\" data-event-type=\"Article Click\" data-event-name=\"Chef Inspiration - all-recipes\" style=\"color: #E65100;\">\n    Voir plus de recettes\n</a>",
+        "rawOutput": "```html\n<a class=\"button\" href=\"/recettes.html\" title=\"Plus d'articles\" data-event-type=\"Article Click\" data-event-name=\"Chef Inspiration - all-recipes\" style=\"color: #E65100;\">\n    Voir plus de recettes\n</a>\n```"
+      },
+      {
+        "beforeModification": "<a href=\"/inspiration-pour-les-chefs/rubrique-saveurs-intenses.html\" title=\"Rubrique Saveurs Intenses\" data-event-type=\"Article Click\" data-event-name=\"Chef Inspiration - Theme: Rubrique Saveurs Intenses\">Rubrique Saveurs Intenses</a>",
+        "afterModification": "<a href=\"/inspiration-pour-les-chefs/rubrique-saveurs-intenses.html\" title=\"Rubrique Saveurs Intenses\" data-event-type=\"Article Click\" data-event-name=\"Chef Inspiration - Theme: Rubrique Saveurs Intenses\" style=\"color: #000000;\">Rubrique Saveurs Intenses</a>",
+        "rawOutput": "```html\n<a href=\"/inspiration-pour-les-chefs/rubrique-saveurs-intenses.html\" title=\"Rubrique Saveurs Intenses\" data-event-type=\"Article Click\" data-event-name=\"Chef Inspiration - Theme: Rubrique Saveurs Intenses\" style=\"color: #000000;\">Rubrique Saveurs Intenses</a>\n```"
+      },
+      {
+        "beforeModification": "<a href=\"/inspiration-pour-les-chefs/nos-engagements.html\" title=\"Nos engagements \" data-event-type=\"Article Click\" data-event-name=\"Chef Inspiration - Theme: Nos engagements \">Nos engagements </a>",
+        "afterModification": "<a href=\"/inspiration-pour-les-chefs/nos-engagements.html\" title=\"Nos engagements \" data-event-type=\"Article Click\" data-event-name=\"Chef Inspiration - Theme: Nos engagements \" style=\"color: #000000;\">Nos engagements </a>",
+        "rawOutput": "```html\n<a href=\"/inspiration-pour-les-chefs/nos-engagements.html\" title=\"Nos engagements \" data-event-type=\"Article Click\" data-event-name=\"Chef Inspiration - Theme: Nos engagements \" style=\"color: #000000;\">Nos engagements </a>\n```"
+      },
+      {
+        "beforeModification": "<a class=\"button orange\" href=\"/inspiration-pour-les-chefs.html\" title=\"Plus d'articles\" data-event-name=\"Chef Inspiration - all-themes\" data-event-link=\"/content/ufs-fr/fr/inspiration-pour-les-chefs.html\" data-event-type=\"Link Click\">\n                    Plus d'articles\n                </a>",
+        "afterModification": "<a class=\"button orange\" href=\"/inspiration-pour-les-chefs.html\" title=\"Plus d'articles\" data-event-name=\"Chef Inspiration - all-themes\" data-event-link=\"/content/ufs-fr/fr/inspiration-pour-les-chefs.html\" data-event-type=\"Link Click\" style=\"color: #ffffff; background-color: #E65100;\">\n                    Plus d'articles\n                </a>",
+        "rawOutput": "```html\n<a class=\"button orange\" href=\"/inspiration-pour-les-chefs.html\" title=\"Plus d'articles\" data-event-name=\"Chef Inspiration - all-themes\" data-event-link=\"/content/ufs-fr/fr/inspiration-pour-les-chefs.html\" data-event-type=\"Link Click\" style=\"color: #ffffff; background-color: #E65100;\">\n                    Plus d'articles\n                </a>\n```"
+      },
+      {
+        "beforeModification": "<span class=\"loyalty-points__amount js-product-cu-points\"><!--<strike>23</strike>-->23</span>",
+        "afterModification": "<span class=\"loyalty-points__amount js-product-cu-points\" style=\"color: #000000; background-color: #ff5a00;\"><!--<strike>23</strike>-->23</span>",
+        "rawOutput": "```html\n<span class=\"loyalty-points__amount js-product-cu-points\" style=\"color: #000000; background-color: #ff5a00;\"><!--<strike>23</strike>-->23</span>\n```"
+      },
+      {
+        "beforeModification": "<span class=\"loyalty-points__label\">Pts de fidélité</span>",
+        "afterModification": "<span class=\"loyalty-points__label\" style=\"color: #ffffff; background-color: #E65100;\">Pts de fidélité</span>",
+        "rawOutput": "```html\n<span class=\"loyalty-points__label\" style=\"color: #ffffff; background-color: #E65100;\">Pts de fidélité</span>\n```"
+      },
+      {
+        "beforeModification": "<button class=\"js-cart-add\" data-at=\"section-product-in the cart\" data-event-category=\"Other\" data-event-type=\"Add To Cart\" data-event-name=\"Knorr Préparation pour terrines, soufflés et gratins Déshydraté 720g\" tabindex=\"2\">",
+        "afterModification": "<button class=\"js-cart-add\" data-at=\"section-product-in the cart\" data-event-category=\"Other\" data-event-type=\"Add To Cart\" data-event-name=\"Knorr Préparation pour terrines, soufflés et gratins Déshydraté 720g\" tabindex=\"2\" style=\"color: #000000; background-color: #ff5a00;\">",
+        "rawOutput": "```html\n<button class=\"js-cart-add\" data-at=\"section-product-in the cart\" data-event-category=\"Other\" data-event-type=\"Add To Cart\" data-event-name=\"Knorr Préparation pour terrines, soufflés et gratins Déshydraté 720g\" tabindex=\"2\" style=\"color: #000000; background-color: #ff5a00;\">\n```"
+      },
+      {
+        "beforeModification": "<span class=\"loyalty-points__amount js-product-cu-points\"><!--<strike>11</strike>-->11</span>",
+        "afterModification": "<span class=\"loyalty-points__amount js-product-cu-points\" style=\"color: #000000;\"><!--<strike>11</strike>-->11</span>",
+        "rawOutput": "```html\n<span class=\"loyalty-points__amount js-product-cu-points\" style=\"color: #000000;\"><!--<strike>11</strike>-->11</span>\n```"
+      },
+      {
+        "beforeModification": "<span class=\"loyalty-points__label\">Pts de fidélité</span>",
+        "afterModification": "<span class=\"loyalty-points__label\" style=\"color: #ffffff; background-color: #E65100;\">Pts de fidélité</span>",
+        "rawOutput": "```html\n<span class=\"loyalty-points__label\" style=\"color: #ffffff; background-color: #E65100;\">Pts de fidélité</span>\n```"
+      },
+      {
+        "beforeModification": "<button class=\"js-cart-add\" data-at=\"section-product-in the cart\" data-event-category=\"Other\" data-event-type=\"Add To Cart\" data-event-name=\"Knorr Professional Préparation pour taboulé 20 portions\" tabindex=\"3\">\n            <span class=\"icn-plus\"></span>Ajouter au panier\n        </button>",
+        "afterModification": "<button class=\"js-cart-add\" data-at=\"section-product-in the cart\" data-event-category=\"Other\" data-event-type=\"Add To Cart\" data-event-name=\"Knorr Professional Préparation pour taboulé 20 portions\" tabindex=\"3\" style=\"color: #000000; background-color: #ff5a00;\">\n    <span class=\"icn-plus\"></span>Ajouter au panier\n</button>",
+        "rawOutput": "```html\n<button class=\"js-cart-add\" data-at=\"section-product-in the cart\" data-event-category=\"Other\" data-event-type=\"Add To Cart\" data-event-name=\"Knorr Professional Préparation pour taboulé 20 portions\" tabindex=\"3\" style=\"color: #000000; background-color: #ff5a00;\">\n    <span class=\"icn-plus\"></span>Ajouter au panier\n</button>\n```"
+      },
+      {
+        "beforeModification": "<span class=\"loyalty-points__amount js-product-cu-points\"><!--<strike>26</strike>-->26</span>",
+        "afterModification": "<span class=\"loyalty-points__amount js-product-cu-points\" style=\"color: #000000; background-color: #ff5a00;\"><!--<strike>26</strike>-->26</span>",
+        "rawOutput": "```html\n<span class=\"loyalty-points__amount js-product-cu-points\" style=\"color: #000000; background-color: #ff5a00;\"><!--<strike>26</strike>-->26</span>\n```"
+      },
+      {
+        "beforeModification": "<span class=\"loyalty-points__label\">Pts de fidélité</span>",
+        "afterModification": "<span class=\"loyalty-points__label\" style=\"color: #ffffff; background-color: #E65100;\">Pts de fidélité</span>",
+        "rawOutput": "```html\n<span class=\"loyalty-points__label\" style=\"color: #ffffff; background-color: #E65100;\">Pts de fidélité</span>\n```"
+      },
+      {
+        "beforeModification": "<button class=\"js-cart-add\" data-at=\"section-product-in the cart\" data-event-category=\"Other\" data-event-type=\"Add To Cart\" data-event-name=\"Le Boucher Végétarien Mini-pané Végétalien 1,75Kg\" tabindex=\"4\">\n            <span class=\"icn-plus\"></span>Ajouter au panier\n        </button>",
+        "afterModification": "<button class=\"js-cart-add\" data-at=\"section-product-in the cart\" data-event-category=\"Other\" data-event-type=\"Add To Cart\" data-event-name=\"Le Boucher Végétarien Mini-pané Végétalien 1,75Kg\" tabindex=\"4\" style=\"color: #000000; background-color: #ff5a00;\">\n    <span class=\"icn-plus\"></span>Ajouter au panier\n</button>",
+        "rawOutput": "```html\n<button class=\"js-cart-add\" data-at=\"section-product-in the cart\" data-event-category=\"Other\" data-event-type=\"Add To Cart\" data-event-name=\"Le Boucher Végétarien Mini-pané Végétalien 1,75Kg\" tabindex=\"4\" style=\"color: #000000; background-color: #ff5a00;\">\n    <span class=\"icn-plus\"></span>Ajouter au panier\n</button>\n```"
+      },
+      {
+        "beforeModification": "<span class=\"loyalty-points__label\">Pts de fidélité</span>",
+        "afterModification": "<span class=\"loyalty-points__label\" style=\"color: #ffffff; background-color: #E65100;\">Pts de fidélité</span>",
+        "rawOutput": "```html\n<span class=\"loyalty-points__label\" style=\"color: #ffffff; background-color: #E65100;\">Pts de fidélité</span>\n```"
+      },
+      {
+        "beforeModification": "<button class=\"js-cart-add\" data-at=\"section-product-in the cart\" data-event-category=\"Other\" data-event-type=\"Add To Cart\" data-event-name=\"Amora Moutarde flacon souple 265g\" tabindex=\"5\">\n            <span class=\"icn-plus\"></span>Ajouter au panier\n        </button>",
+        "afterModification": "<button class=\"js-cart-add\" data-at=\"section-product-in the cart\" data-event-category=\"Other\" data-event-type=\"Add To Cart\" data-event-name=\"Amora Moutarde flacon souple 265g\" tabindex=\"5\" style=\"color: #000000; background-color: #ff5a00;\">\n    <span class=\"icn-plus\"></span>Ajouter au panier\n</button>",
+        "rawOutput": "```html\n<button class=\"js-cart-add\" data-at=\"section-product-in the cart\" data-event-category=\"Other\" data-event-type=\"Add To Cart\" data-event-name=\"Amora Moutarde flacon souple 265g\" tabindex=\"5\" style=\"color: #000000; background-color: #ff5a00;\">\n    <span class=\"icn-plus\"></span>Ajouter au panier\n</button>\n```"
+      },
+      {
+        "beforeModification": "<span class=\"loyalty-points__amount js-product-cu-points\"><!--<strike>30</strike>-->30</span>",
+        "afterModification": "<span class=\"loyalty-points__amount js-product-cu-points\" style=\"color: #000000; background-color: #ff5a00;\"><!--<strike>30</strike>-->30</span>",
+        "rawOutput": "```html\n<span class=\"loyalty-points__amount js-product-cu-points\" style=\"color: #000000; background-color: #ff5a00;\"><!--<strike>30</strike>-->30</span>\n```"
+      },
+      {
+        "beforeModification": "<span class=\"loyalty-points__label\">Pts de fidélité</span>",
+        "afterModification": "<span class=\"loyalty-points__label\" style=\"color: #ffffff; background-color: #C41E00;\">Pts de fidélité</span>",
+        "rawOutput": "```html\n<span class=\"loyalty-points__label\" style=\"color: #ffffff; background-color: #C41E00;\">Pts de fidélité</span>\n```"
+      },
+      {
+        "beforeModification": "<button class=\"js-cart-add\" data-at=\"section-product-in the cart\" data-event-category=\"Other\" data-event-type=\"Add To Cart\" data-event-name=\"Amora Mayonnaise 5 ingrédients dosettes - 200 x 10ml\" tabindex=\"6\">\n            <span class=\"icn-plus\"></span>Ajouter au panier\n        </button>",
+        "afterModification": "<button class=\"js-cart-add\" data-at=\"section-product-in the cart\" data-event-category=\"Other\" data-event-type=\"Add To Cart\" data-event-name=\"Amora Mayonnaise 5 ingrédients dosettes - 200 x 10ml\" tabindex=\"6\" style=\"color: #000000; background-color: #ff5a00;\">\n    <span class=\"icn-plus\"></span>Ajouter au panier\n</button>",
+        "rawOutput": "```html\n<button class=\"js-cart-add\" data-at=\"section-product-in the cart\" data-event-category=\"Other\" data-event-type=\"Add To Cart\" data-event-name=\"Amora Mayonnaise 5 ingrédients dosettes - 200 x 10ml\" tabindex=\"6\" style=\"color: #000000; background-color: #ff5a00;\">\n    <span class=\"icn-plus\"></span>Ajouter au panier\n</button>\n```"
+      },
+      {
+        "beforeModification": "<span class=\"loyalty-points__amount js-product-cu-points\"><!--<strike>27</strike>-->27</span>",
+        "afterModification": "<span class=\"loyalty-points__amount js-product-cu-points\" style=\"color: #000000; background-color: #ff5a00;\"><!--<strike>27</strike>-->27</span>",
+        "rawOutput": "```html\n<span class=\"loyalty-points__amount js-product-cu-points\" style=\"color: #000000; background-color: #ff5a00;\"><!--<strike>27</strike>-->27</span>\n```"
+      },
+      {
+        "beforeModification": "<span class=\"loyalty-points__label\">Pts de fidélité</span>",
+        "afterModification": "<span class=\"loyalty-points__label\" style=\"color: #ffffff; background-color: #E65100;\">Pts de fidélité</span>",
+        "rawOutput": "```html\n<span class=\"loyalty-points__label\" style=\"color: #ffffff; background-color: #E65100;\">Pts de fidélité</span>\n```"
+      },
+      {
+        "beforeModification": "<button class=\"js-cart-add\" data-at=\"section-product-in the cart\" data-event-category=\"Other\" data-event-type=\"Add To Cart\" data-event-name=\"Knorr Concentré Liquide Veau 1L\" tabindex=\"7\">\n            <span class=\"icn-plus\"></span>Ajouter au panier\n        </button>",
+        "afterModification": "<button class=\"js-cart-add\" data-at=\"section-product-in the cart\" data-event-category=\"Other\" data-event-type=\"Add To Cart\" data-event-name=\"Knorr Concentré Liquide Veau 1L\" tabindex=\"7\" style=\"color: #000000; background-color: #ff5a00;\">\n    <span class=\"icn-plus\"></span>Ajouter au panier\n</button>",
+        "rawOutput": "```html\n<button class=\"js-cart-add\" data-at=\"section-product-in the cart\" data-event-category=\"Other\" data-event-type=\"Add To Cart\" data-event-name=\"Knorr Concentré Liquide Veau 1L\" tabindex=\"7\" style=\"color: #000000; background-color: #ff5a00;\">\n    <span class=\"icn-plus\"></span>Ajouter au panier\n</button>\n```"
+      },
+      {
+        "beforeModification": "<span class=\"loyalty-points__label\">Pts de fidélité</span>",
+        "afterModification": "<span class=\"loyalty-points__label\" style=\"color: #ffffff; background-color: #E65100;\">Pts de fidélité</span>",
+        "rawOutput": "```html\n<span class=\"loyalty-points__label\" style=\"color: #ffffff; background-color: #E65100;\">Pts de fidélité</span>\n```"
+      },
+      {
+        "beforeModification": "<button class=\"js-cart-add\" data-at=\"section-product-in the cart\" data-event-category=\"Other\" data-event-type=\"Add To Cart\" data-event-name=\"Hellmann’s Real Mayonnaise flacon souple 430ml\" tabindex=\"8\">\n            <span class=\"icn-plus\"></span>Ajouter au panier\n        </button>",
+        "afterModification": "<button class=\"js-cart-add\" data-at=\"section-product-in the cart\" data-event-category=\"Other\" data-event-type=\"Add To Cart\" data-event-name=\"Hellmann’s Real Mayonnaise flacon souple 430ml\" tabindex=\"8\" style=\"color: #ffffff; background-color: #E65100;\">\n    <span class=\"icn-plus\"></span>Ajouter au panier\n</button>",
+        "rawOutput": "```html\n<button class=\"js-cart-add\" data-at=\"section-product-in the cart\" data-event-category=\"Other\" data-event-type=\"Add To Cart\" data-event-name=\"Hellmann’s Real Mayonnaise flacon souple 430ml\" tabindex=\"8\" style=\"color: #ffffff; background-color: #E65100;\">\n    <span class=\"icn-plus\"></span>Ajouter au panier\n</button>\n```"
+      },
+      {
+        "beforeModification": "<span class=\"loyalty-points__amount js-product-cu-points\"><!--<strike>27</strike>-->27</span>",
+        "afterModification": "<span class=\"loyalty-points__amount js-product-cu-points\" style=\"color: #000000; background-color: #ff5a00;\"><!--<strike>27</strike>-->27</span>",
+        "rawOutput": "```html\n<span class=\"loyalty-points__amount js-product-cu-points\" style=\"color: #000000; background-color: #ff5a00;\"><!--<strike>27</strike>-->27</span>\n```"
+      },
+      {
+        "beforeModification": "<span class=\"loyalty-points__label\">Pts de fidélité</span>",
+        "afterModification": "<span class=\"loyalty-points__label\" style=\"color: #ffffff; background-color: #E65100;\">Pts de fidélité</span>",
+        "rawOutput": "```html\n<span class=\"loyalty-points__label\" style=\"color: #ffffff; background-color: #E65100;\">Pts de fidélité</span>\n```"
+      },
+      {
+        "beforeModification": "<button class=\"js-cart-add\" data-at=\"section-product-in the cart\" data-event-category=\"Other\" data-event-type=\"Add To Cart\" data-event-name=\"Knorr Professional Concentré Liquide Bœuf 1L\" tabindex=\"9\">\n            <span class=\"icn-plus\"></span>Ajouter au panier\n        </button>",
+        "afterModification": "<button class=\"js-cart-add\" data-at=\"section-product-in the cart\" data-event-category=\"Other\" data-event-type=\"Add To Cart\" data-event-name=\"Knorr Professional Concentré Liquide Bœuf 1L\" tabindex=\"9\" style=\"color: #000000; background-color: #ff5a00;\">\n    <span class=\"icn-plus\"></span>Ajouter au panier\n</button>",
+        "rawOutput": "```html\n<button class=\"js-cart-add\" data-at=\"section-product-in the cart\" data-event-category=\"Other\" data-event-type=\"Add To Cart\" data-event-name=\"Knorr Professional Concentré Liquide Bœuf 1L\" tabindex=\"9\" style=\"color: #000000; background-color: #ff5a00;\">\n    <span class=\"icn-plus\"></span>Ajouter au panier\n</button>\n```"
+      },
+      {
+        "beforeModification": "<span class=\"loyalty-points__amount js-product-cu-points\"><!--<strike>27</strike>-->27</span>",
+        "afterModification": "<span class=\"loyalty-points__amount js-product-cu-points\" style=\"color: #ffffff; background-color: #E65100;\"><!--<strike>27</strike>-->27</span>",
+        "rawOutput": "```html\n<span class=\"loyalty-points__amount js-product-cu-points\" style=\"color: #ffffff; background-color: #E65100;\"><!--<strike>27</strike>-->27</span>\n```"
+      },
+      {
+        "beforeModification": "<span class=\"loyalty-points__label\">Pts de fidélité</span>",
+        "afterModification": "<span class=\"loyalty-points__label\" style=\"color: #ffffff; background-color: #C74600;\">Pts de fidélité</span>",
+        "rawOutput": "```html\n<span class=\"loyalty-points__label\" style=\"color: #ffffff; background-color: #C74600;\">Pts de fidélité</span>\n```"
+      },
+      {
+        "beforeModification": "<button class=\"js-cart-add\" data-at=\"section-product-in the cart\" data-event-category=\"Other\" data-event-type=\"Add To Cart\" data-event-name=\"Knorr Professional Concentré liquide Poisson 1L\" tabindex=\"10\">\n            <span class=\"icn-plus\"></span>Ajouter au panier\n        </button>",
+        "afterModification": "<button class=\"js-cart-add\" data-at=\"section-product-in the cart\" data-event-category=\"Other\" data-event-type=\"Add To Cart\" data-event-name=\"Knorr Professional Concentré liquide Poisson 1L\" tabindex=\"10\" style=\"color: #ffffff; background-color: #C84600;\">\n    <span class=\"icn-plus\"></span>Ajouter au panier\n</button>",
+        "rawOutput": "```html\n<button class=\"js-cart-add\" data-at=\"section-product-in the cart\" data-event-category=\"Other\" data-event-type=\"Add To Cart\" data-event-name=\"Knorr Professional Concentré liquide Poisson 1L\" tabindex=\"10\" style=\"color: #ffffff; background-color: #C84600;\">\n    <span class=\"icn-plus\"></span>Ajouter au panier\n</button>\n```"
+      },
+      {
+        "beforeModification": "<label for=\"newsletter-email\">\n                                        Saisissez votre adresse email...\n                                    </label>",
+        "afterModification": "<label for=\"newsletter-email\" style=\"color: #595959;\">\n    Saisissez votre adresse email...\n</label>",
+        "rawOutput": "```html\n<label for=\"newsletter-email\" style=\"color: #595959;\">\n    Saisissez votre adresse email...\n</label>\n```"
+      },
+      {
+        "beforeModification": "<label for=\"firstName\" aria-hidden=\"true\">\n            Prénom <span>*</span>\n        </label>",
+        "afterModification": "<label for=\"firstName\" style=\"color: #595959;\" aria-hidden=\"true\">\n    Prénom <span>*</span>\n</label>",
+        "rawOutput": "```html\n<label for=\"firstName\" style=\"color: #595959;\" aria-hidden=\"true\">\n    Prénom <span>*</span>\n</label>\n```"
+      },
+      {
+        "beforeModification": "<label for=\"lastName\" aria-hidden=\"true\">\n            Nom <span>*</span>\n        </label>",
+        "afterModification": "<label for=\"lastName\" style=\"color: #595959;\">\n    Nom <span>*</span>\n</label>",
+        "rawOutput": "```html\n<label for=\"lastName\" style=\"color: #595959;\">\n    Nom <span>*</span>\n</label>\n```"
+      },
+      {
+        "beforeModification": "<label for=\"email\" aria-hidden=\"true\">\n            Adresse email <span>*</span>\n        </label>",
+        "afterModification": "<label for=\"email\" aria-hidden=\"true\" style=\"color: #595959;\">\n    Adresse email <span>*</span>\n</label>",
+        "rawOutput": "```html\n<label for=\"email\" aria-hidden=\"true\" style=\"color: #595959;\">\n    Adresse email <span>*</span>\n</label>\n```"
+      },
+      {
+        "beforeModification": "<label for=\"typeOfBusiness\">\n            Type d'établissement\n            <span>*</span>\n        </label>",
+        "afterModification": "<label for=\"typeOfBusiness\" style=\"color: #595959;\">\n    Type d'établissement\n    <span>*</span>\n</label>",
+        "rawOutput": "```html\n<label for=\"typeOfBusiness\" style=\"color: #595959;\">\n    Type d'établissement\n    <span>*</span>\n</label>\n```"
+      },
+      {
+        "beforeModification": "<a href=\"/avertissement-legal/mentions-legales.html\" target=\"_blank\">Conditions Générales d’Utilisation du Site</a>",
+        "afterModification": "<a href=\"/avertissement-legal/mentions-legales.html\" target=\"_blank\" style=\"color: #E04700;\">Conditions Générales d’Utilisation du Site</a>",
+        "rawOutput": "```html\n<a href=\"/avertissement-legal/mentions-legales.html\" target=\"_blank\" style=\"color: #E04700;\">Conditions Générales d’Utilisation du Site</a>\n```"
+      },
+      {
+        "beforeModification": "<a href=\"https://www.unilevernotices.com/france/french/privacy-notice/notice.html\" target=\"_blank\">Politique de Confidentialité</a>",
+        "afterModification": "<a href=\"https://www.unilevernotices.com/france/french/privacy-notice/notice.html\" target=\"_blank\" style=\"color: #E04700;\">Politique de Confidentialité</a>",
+        "rawOutput": "```html\n<a href=\"https://www.unilevernotices.com/france/french/privacy-notice/notice.html\" target=\"_blank\" style=\"color: #E04700;\">Politique de Confidentialité</a>\n```"
+      },
+      {
+        "beforeModification": "<button type=\"submit\" name=\"submitButton\" class=\"button wide orange submit js-newslettersignupv2-submit js-form-submit\">\n                        Inscription\n                    </button>",
+        "afterModification": "<button type=\"submit\" name=\"submitButton\" class=\"button wide orange submit js-newslettersignupv2-submit js-form-submit\" style=\"color: #000000; background-color: #ff5a00;\">\n  Inscription\n</button>",
+        "rawOutput": "```html\n<button type=\"submit\" name=\"submitButton\" class=\"button wide orange submit js-newslettersignupv2-submit js-form-submit\" style=\"color: #000000; background-color: #ff5a00;\">\n  Inscription\n</button>\n```"
+      },
+      {
+        "beforeModification": "<a target=\"_blank\" href=\"https://www.unilevernotices.com/cookie-notices/france-french.html\" title=\"Avis relatif aux cookies. Le lien s'ouvre dans une nouvelle fenêtre\">Notification cookies</a>",
+        "afterModification": "<a target=\"_blank\" href=\"https://www.unilevernotices.com/cookie-notices/france-french.html\" title=\"Avis relatif aux cookies. Le lien s'ouvre dans une nouvelle fenêtre\" style=\"color: #E65100;\">Notification cookies</a>",
+        "rawOutput": "```html\n<a target=\"_blank\" href=\"https://www.unilevernotices.com/cookie-notices/france-french.html\" title=\"Avis relatif aux cookies. Le lien s'ouvre dans une nouvelle fenêtre\" style=\"color: #E65100;\">Notification cookies</a>\n```"
+      },
+      {
+        "beforeModification": "<button id=\"onetrust-reject-all-handler\" tabindex=\"12\">Je refuse</button>",
+        "afterModification": "<button id=\"onetrust-reject-all-handler\" tabindex=\"12\" style=\"color: #ffffff; background-color: #E65100;\">Je refuse</button>",
+        "rawOutput": "```html\n<button id=\"onetrust-reject-all-handler\" tabindex=\"12\" style=\"color: #ffffff; background-color: #E65100;\">Je refuse</button>\n```"
+      },
+      {
+        "beforeModification": "<button id=\"onetrust-accept-btn-handler\" tabindex=\"13\">J'accepte</button>",
+        "afterModification": "<button id=\"onetrust-accept-btn-handler\" tabindex=\"13\" style=\"color: #ffffff; background-color: #C84600;\">J'accepte</button>",
+        "rawOutput": "```html\n<button id=\"onetrust-accept-btn-handler\" tabindex=\"13\" style=\"color: #ffffff; background-color: #C84600;\">J'accepte</button>\n```"
+      },
+      {
+        "beforeModification": "<button id=\"onetrust-pc-btn-handler\" class=\"cookie-setting-link\" tabindex=\"14\">Paramètres des cookies</button>",
+        "afterModification": "<button id=\"onetrust-pc-btn-handler\" class=\"cookie-setting-link\" tabindex=\"14\" style=\"color: #8A4500; background-color: #ffffff;\">Paramètres des cookies</button>",
+        "rawOutput": "```html\n<button id=\"onetrust-pc-btn-handler\" class=\"cookie-setting-link\" tabindex=\"14\" style=\"color: #8A4500; background-color: #ffffff;\">Paramètres des cookies</button>\n```"
+      }
+    ]
+  }
+]

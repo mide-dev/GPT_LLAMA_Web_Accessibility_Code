@@ -1,0 +1,1833 @@
+{
+  "testEngine": {
+    "name": "axe-core",
+    "version": "4.8.4"
+  },
+  "testRunner": {
+    "name": "axe"
+  },
+  "testEnvironment": {
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/122.0.0.0 Safari/537.36",
+    "windowWidth": 800,
+    "windowHeight": 600,
+    "orientationAngle": 0,
+    "orientationType": "portrait-primary"
+  },
+  "timestamp": "2024-04-08T18:51:38.713Z",
+  "url": "https://www.linuxfoundation.org/",
+  "toolOptions": {
+    "runOnly": {
+      "type": "rule",
+      "values": [
+        "link-name"
+      ]
+    },
+    "reporter": "v1"
+  },
+  "inapplicable": [],
+  "passes": [
+    {
+      "id": "link-name",
+      "impact": "serious",
+      "tags": [
+        "cat.name-role-value",
+        "wcag2a",
+        "wcag244",
+        "wcag412",
+        "section508",
+        "section508.22.a",
+        "TTv5",
+        "TT6.a",
+        "EN-301-549",
+        "EN-9.2.4.4",
+        "EN-9.4.1.2",
+        "ACT"
+      ],
+      "description": "Ensures links have discernible text",
+      "help": "Links must have discernible text",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/link-name?application=axeAPI",
+      "nodes": [
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a rel=\"noopener\" tabindex=\"0\" href=\"https://www.linuxfoundation.org/privacy-policy/\" target=\"_blank\" class=\" osano-cm-storage-policy osano-cm-content__link osano-cm-link \" aria-describedby=\"osano-cm-aria.newWindow\"><!--?lit$435407627$-->Cookie Policy</a>",
+          "target": [
+            ".osano-cm-storage-policy"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a rel=\"noopener\" tabindex=\"0\" href=\"#c4fe9a17-d67c-4bfb-b702-dd800b0d2864\" class=\" osano-cm-drawer-links__link osano-cm-link osano-cm-link--type_manage \"><!--?lit$435407627$-->Storage Preferences</a>",
+          "target": [
+            ".osano-cm-drawer-links__link"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"https://events.linuxfoundation.org/open-source-summit-north-america/?utm_campaign=OSSNA%202024&amp;utm_source=LF&amp;utm_medium=all-pages&amp;utm_content=hello-bar\" rel=\"noopener\" style=\"text-decoration: underline;\">LEARN MORE</a>",
+          "target": [
+            ".top__bar--callout > span > a[rel=\"noopener\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"https://openprofile.dev/\" role=\"menuitem\" target=\"_blank\" rel=\"noopener\">Sign In</a>",
+          "target": [
+            ".top__bar-menu > .hs_cos_wrapper_type_simple_menu.hs_cos_wrapper_widget[data-hs-cos-type=\"simple_menu\"] > .hs-menu-wrapper.active-branch.flyouts > ul[role=\"menu\"] > .hs-menu-item.hs-menu-depth-1[role=\"none\"] > a[href$=\"openprofile.dev/\"][rel=\"noopener\"][target=\"_blank\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"#search-popup\" class=\"search-popup-link\">",
+          "target": [
+            ".search-popup-link[href$=\"#search-popup\"]:nth-child(3)"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "aria-label",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "aria-label attribute exists and is not empty"
+            },
+            {
+              "id": "non-empty-title",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has a title attribute"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"#search-popup\" class=\"search-popup-link\" aria-label=\"Open search popup\" title=\"Open search popup\"></a>",
+          "target": [
+            "a[aria-label=\"Open search popup\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            },
+            {
+              "id": "non-empty-title",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has a title attribute"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"/?hsLang=en\" title=\"Linux Foundation Homepage\"> \n  <img src=\"https://www.linuxfoundation.org/hubfs/LF%20Logo%20White.svg\" alt=\"Linux Foundation Logo\"> \n</a>",
+          "target": [
+            "a[href=\"/?hsLang=en\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a class=\"hs-button\n                  hs-button--primary\n                  mt--none\" href=\"https://www.linuxfoundation.org/about/join?hsLang=en\">\n                  Join\n                  </a>",
+          "target": [
+            ".header-right > .header-button > .hs-button--primary.hs-button.mt--none"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a class=\"hs-button\n                            hs-button--primary\" href=\"https://www.linuxfoundation.org/projects?hsLang=en\">\n                    Learn More\n                  </a>",
+          "target": [
+            ".hero-img-mask__cta > .hs-button--primary.hs-button"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a class=\"counter-col__link\" href=\"https://www.linuxfoundation.org/projects?hsLang=en\">",
+          "target": [
+            ".counter-col__content--1 > .counter-col__link"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a class=\"counter-col__link\" href=\"https://training.linuxfoundation.org/\" target=\"_blank\" rel=\"noopener\">",
+          "target": [
+            ".counter-col__content--2 > .counter-col__link[rel=\"noopener\"][target=\"_blank\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a class=\"counter-col__link\" href=\"https://www.linuxfoundation.org/projects?hsLang=en\">",
+          "target": [
+            ".counter-col__content--3 > .counter-col__link"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a class=\"counter-col__link\" href=\"https://lfx.linuxfoundation.org/tools/insights\" target=\"_blank\" rel=\"noopener\">",
+          "target": [
+            ".counter-col__content--4 > .counter-col__link[rel=\"noopener\"][target=\"_blank\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a class=\"counter-col__link\" href=\"https://www.linuxfoundation.org/about/members?hsLang=en\">",
+          "target": [
+            ".counter-col__content--5 > .counter-col__link"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a class=\"counter-col__link\" href=\"https://events.linuxfoundation.org/\" target=\"_blank\" rel=\"noopener\">",
+          "target": [
+            ".counter-col__content--6 > .counter-col__link[rel=\"noopener\"][target=\"_blank\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"https://www.linuxfoundation.org/about/members?hsLang=en\">Meet our members.</a>",
+          "target": [
+            ".link > a"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "aria-label",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "aria-label attribute exists and is not empty"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"https://\" rel=\"noopener\" aria-label=\"Link description\"></a>",
+          "target": [
+            "a[href=\"https://\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a class=\"hs-button\n                              hs-button--inline\n                              font--header\" href=\"https://www.linuxfoundation.org/about/join?hsLang=en\">\n                      Learn More\n                    </a>",
+          "target": [
+            ".two-col-blocks__inner.col6:nth-child(1) > .two-col-blocks__inner-content.bg--secondary.section--dark > .two-col-blocks__cta > .hs-button--inline.font--header.hs-button"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a class=\"hs-button\n                            hs-button--inline\n                            font--header\" href=\"https://www.linuxfoundation.org/projects/hosting?hsLang=en\">\n                    Learn More\n                  </a>",
+          "target": [
+            ".two-col-blocks__cta.text-color--white > .hs-button--inline.font--header.hs-button"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"/browse-projects?hsLang=en\" rel=\"noopener\">See all open software projects.</a>",
+          "target": [
+            ".projects-tabs-col__rich-link.open-software > p:nth-child(1) > a[href=\"/browse-projects?hsLang=en\"][rel=\"noopener\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            },
+            {
+              "id": "non-empty-title",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has a title attribute"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a class=\"project__image\" href=\"https://www.cncf.io/\" target=\"_blank\" title=\"Visit the Cloud Native Computing Foundation (CNCF) website\"> \n  <img src=\"https://www.linuxfoundation.org/hubfs/cncf-color-3.png\" alt=\"Cloud Native Computing Foundation Logo\"> \n</a>",
+          "target": [
+            "a[href$=\"cncf.io/\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            },
+            {
+              "id": "non-empty-title",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has a title attribute"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a class=\"project__image\" href=\"https://www.kernel.org/\" target=\"_blank\" title=\"Visit the Linux Kernel website\"> <img src=\"https://www.linuxfoundation.org/hubfs/Tux-flat-version.png\" alt=\"Linux Foundation Logo\"> </a>",
+          "target": [
+            "a[href$=\"kernel.org/\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            },
+            {
+              "id": "non-empty-title",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has a title attribute"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a class=\"project__image\" href=\"https://openssf.org/?hsLang=en\" target=\"_blank\" title=\"Open Source Security Foundation\">\n  <img src=\"https://www.linuxfoundation.org/hubfs/openssf-horizontal-color.png\" alt=\"OpenSSF Logo\">\n</a>",
+          "target": [
+            "a[href=\"https://openssf.org/?hsLang=en\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            },
+            {
+              "id": "non-empty-title",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has a title attribute"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a class=\"project__image\" href=\"https://finos.org/?hsLang=en\" target=\"_blank\" title=\"FINOS Homepage\"> \n  <img src=\"https://www.linuxfoundation.org/hubfs/finos-horizontal-color%201.png\" alt=\"FINOS Logo\"> \n</a>",
+          "target": [
+            "a[href=\"https://finos.org/?hsLang=en\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            },
+            {
+              "id": "non-empty-title",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has a title attribute"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a class=\"project__image\" href=\"https://lfnetworking.org/\" target=\"_blank\" title=\"Linux Foundation Networking\">\n  <img src=\"https://www.linuxfoundation.org/hubfs/lfnetworking-stacked-color%20(1).png\" alt=\"Linux Foundation Networking Logo\">\n</a>",
+          "target": [
+            "a[href$=\"lfnetworking.org/\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            },
+            {
+              "id": "non-empty-title",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has a title attribute"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a class=\"project__image\" href=\"https://openjsf.org/\" target=\"_blank\" title=\"OpenJS Foundation\"> <img src=\"https://www.linuxfoundation.org/hubfs/OpenJS%20Logo.png\" alt=\"OpenJS Foundation Logo\"> </a>",
+          "target": [
+            "a[href$=\"openjsf.org/\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a class=\"projects-tabs-col__button\n                 hs-button    \n                 hs-button--primary\" href=\"https://www.linuxfoundation.org/projects?hsLang=en\">\n          See All Projects\n        </a>",
+          "target": [
+            ".projects-tabs-col__button"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"/projects/management?hsLang=en\" rel=\"noopener\">Learn more.</a>",
+          "target": [
+            "a[href=\"/projects/management?hsLang=en\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"/projects/sustainability?hsLang=en\" rel=\"noopener\">Learn more</a>",
+          "target": [
+            "span > strong > a[rel=\"noopener\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"/projects/digital-trust?hsLang=en\" rel=\"noopener\">Learn more.</a>",
+          "target": [
+            ".section--module_1701791714428 > .banner-img-mask.section-wrapper > .banner-img-mask__wrapper > .banner-img-mask__container.align-items--center.jc--space-between > .section--dark.pt--sm.pb--sm > .banner-img-mask__supporting-content > p:nth-child(3) > strong > a[rel=\"noopener\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a class=\"hs-button\n                            hs-button--primary\" href=\"https://training.linuxfoundation.org/subscriptions/\" target=\"_blank\" rel=\"noopener\">\n                    SAVE NOW\n                  </a>",
+          "target": [
+            ".simple-img-mask__cta > .hs-button--primary.hs-button[rel=\"noopener\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a class=\"hs-button\n                            hs-button--primary\" href=\"https://events.linuxfoundation.org/open-source-summit-north-america/\" target=\"_blank\" rel=\"noopener\">\n                    Learn More\n                  </a>",
+          "target": [
+            ".banner-img-mask__cta > .hs-button--primary.hs-button[rel=\"noopener\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a class=\"hs-button\n                            hs-button--primary\" href=\"/research/2023-generative-ai-study?hsLang=en\">\n                    Read Now\n                  </a>",
+          "target": [
+            ".pb--md.section--light.banner-img-mask__inner > .banner-img-mask__cta > .hs-button--primary.hs-button"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"https://www.linuxfoundation.org/press?hsLang=en\" class=\"section-title__link-text\">\n              NEWSROOM\n            </a>",
+          "target": [
+            ".section-title__link-text"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a class=\"box-widget_1661719294883\n                    col4 \n                    resources-cards__inner\n                    bg--1\n                    \n                    linked\n                    \n                    align--left\" href=\"https://www.linuxfoundation.org/press/linux-foundation-isc2-openssf-collaborate-to-target-secure-code-development?hsLang=en\" style=\"\">",
+          "target": [
+            ".bg--1"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a class=\"box-widget_1661719294883\n                    col4 \n                    resources-cards__inner\n                    bg--2\n                    \n                    linked\n                    \n                    align--left\" href=\"https://www.linuxfoundation.org/blog/a-spotlight-on-security-efforts-at-the-linux-foundation?hsLang=en\" style=\"\">",
+          "target": [
+            ".bg--2"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a class=\"box-widget_1661719294883\n                    col4 \n                    resources-cards__inner\n                    bg--3\n                    \n                    linked\n                    \n                    align--left\" href=\"https://www.linuxfoundation.org/blog/strengthening-security-what-you-need-to-know-about-our-new-vulnerability-reporting-policy?hsLang=en\" style=\"\">",
+          "target": [
+            ".bg--3"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"https://www.linuxfoundation.org/legal/privacy-policy\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">Privacy Policy</a>",
+          "target": [
+            "a[rel=\"nofollow noopener noreferrer\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"https://linuxfoundation.org\">\n            <img src=\"https://www.linuxfoundation.org/hubfs/LF%20Logo%20White.svg\" alt=\"LF Logo White\" height=\"50\" style=\"height:50px;\">\n              </a>",
+          "target": [
+            ".footer__logo > a[href$=\"linuxfoundation.org\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"https://www.linuxfoundation.org/about\" role=\"menuitem\" target=\"_self\">About the LF</a>",
+          "target": [
+            ".footer__info-menu > .hs_cos_wrapper_type_simple_menu.hs_cos_wrapper_widget[data-hs-cos-type=\"simple_menu\"] > .hs-menu-wrapper.active-branch.flyouts > ul[role=\"menu\"] > .hs-menu-item.hs-menu-depth-1[role=\"none\"]:nth-child(1) > a[target=\"_self\"][role=\"menuitem\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"https://www.linuxfoundation.org/about/leadership\" role=\"menuitem\" target=\"_self\">Leadership</a>",
+          "target": [
+            ".footer__info-menu > .hs_cos_wrapper_type_simple_menu.hs_cos_wrapper_widget[data-hs-cos-type=\"simple_menu\"] > .hs-menu-wrapper.active-branch.flyouts > ul[role=\"menu\"] > .hs-menu-item.hs-menu-depth-1[role=\"none\"]:nth-child(2) > a[target=\"_self\"][role=\"menuitem\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"https://www.linuxfoundation.org/careers\" role=\"menuitem\" target=\"_self\">Careers</a>",
+          "target": [
+            ".footer__info-menu > .hs_cos_wrapper_type_simple_menu.hs_cos_wrapper_widget[data-hs-cos-type=\"simple_menu\"] > .hs-menu-wrapper.active-branch.flyouts > ul[role=\"menu\"] > .hs-menu-item.hs-menu-depth-1[role=\"none\"]:nth-child(3) > a[target=\"_self\"][role=\"menuitem\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"https://www.linuxfoundation.org/about/members\" role=\"menuitem\" target=\"_self\">Corporate Members</a>",
+          "target": [
+            ".footer__info-menu > .hs_cos_wrapper_type_simple_menu.hs_cos_wrapper_widget[data-hs-cos-type=\"simple_menu\"] > .hs-menu-wrapper.active-branch.flyouts > ul[role=\"menu\"] > .hs-menu-item.hs-menu-depth-1[role=\"none\"]:nth-child(4) > a[target=\"_self\"][role=\"menuitem\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"https://www.linuxfoundation.org/about/diversity-inclusivity\" role=\"menuitem\" target=\"_self\">Diversity &amp; Inclusivity</a>",
+          "target": [
+            ".footer__info-menu > .hs_cos_wrapper_type_simple_menu.hs_cos_wrapper_widget[data-hs-cos-type=\"simple_menu\"] > .hs-menu-wrapper.active-branch.flyouts > ul[role=\"menu\"] > .hs-menu-item.hs-menu-depth-1[role=\"none\"]:nth-child(5) > a[target=\"_self\"][role=\"menuitem\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"https://www.linuxfoundation.org/brand-guidelines\" role=\"menuitem\" target=\"_self\">Brand Guidelines</a>",
+          "target": [
+            ".footer__info-menu > .hs_cos_wrapper_type_simple_menu.hs_cos_wrapper_widget[data-hs-cos-type=\"simple_menu\"] > .hs-menu-wrapper.active-branch.flyouts > ul[role=\"menu\"] > .hs-menu-item.hs-menu-depth-1[role=\"none\"]:nth-child(6) > a[target=\"_self\"][role=\"menuitem\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"https://www.linuxfoundation.org/about/contact\" role=\"menuitem\" target=\"_self\">Contact Us</a>",
+          "target": [
+            ".footer__info-menu > .hs_cos_wrapper_type_simple_menu.hs_cos_wrapper_widget[data-hs-cos-type=\"simple_menu\"] > .hs-menu-wrapper.active-branch.flyouts > ul[role=\"menu\"] > .hs-menu-item.hs-menu-depth-1[role=\"none\"]:nth-child(7) > a[target=\"_self\"][role=\"menuitem\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"https://linuxfoundation.store/\" role=\"menuitem\" target=\"_blank\" rel=\"noopener\">Store</a>",
+          "target": [
+            "a[href$=\"linuxfoundation.store/\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            },
+            {
+              "id": "aria-label",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "aria-label attribute exists and is not empty"
+            },
+            {
+              "id": "non-empty-title",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has a title attribute"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"https://twitter.com/linuxfoundation\" target=\"_blank\" rel=\"noopener\" aria-label=\"Visit the Linux Foundation on Twitter\" title=\"Linux Foundation Twitter\">Visit the Linux Foundation on Twitter</a>",
+          "target": [
+            "a[title=\"Linux Foundation Twitter\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"https://www.facebook.com/TheLinuxFoundation\" target=\"_blank\" rel=\"noopener\">",
+          "target": [
+            ".footer__social-links > a[rel=\"noopener\"][target=\"_blank\"]:nth-child(2)"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"https://www.youtube.com/user/TheLinuxFoundation\" target=\"_blank\" rel=\"noopener\">",
+          "target": [
+            ".footer__social-links > a[rel=\"noopener\"][target=\"_blank\"]:nth-child(3)"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"https://github.com/LF-Engineering\" target=\"_blank\" rel=\"noopener\">",
+          "target": [
+            ".footer__social-links > a[rel=\"noopener\"][target=\"_blank\"]:nth-child(5)"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "aria-label",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "aria-label attribute exists and is not empty"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"https://github.com/LF-Engineering\" target=\"_blank\" rel=\"noopener\" aria-label=\"LF Engineering on GitHub\"></a>",
+          "target": [
+            "a[aria-label=\"LF Engineering on GitHub\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"/legal/trademark-usage?hsLang=en\" rel=\"noopener\" style=\"font-size: 14px; color: #ffffff;\">Trademark Usage</a>",
+          "target": [
+            ".content_info > span > a[rel=\"noopener\"]:nth-child(1)"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"/legal/terms/?hsLang=en\" rel=\"noopener\" style=\"font-size: 14px; color: #ffffff;\">Terms of Use</a>",
+          "target": [
+            "a[href=\"/legal/terms/?hsLang=en\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"/legal/privacy-policy/?hsLang=en\" rel=\"noopener\" style=\"font-size: 14px; color: #ffffff;\">Privacy Policy</a>",
+          "target": [
+            "span > a[rel=\"noopener\"]:nth-child(3)"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"/legal/bylaws/?hsLang=en\" rel=\"noopener\" style=\"font-size: 14px; color: #ffffff;\">Bylaws</a>",
+          "target": [
+            "a[href=\"/legal/bylaws/?hsLang=en\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"/legal/antitrust-policy/?hsLang=en\" rel=\"noopener\" style=\"font-size: 14px; color: #ffffff;\">Antitrust Policy</a>",
+          "target": [
+            "span > a[rel=\"noopener\"]:nth-child(5)"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"/legal/good-standing-policy/?hsLang=en\" rel=\"noopener\" style=\"font-size: 14px; color: #ffffff;\">Good Standing Policy</a>",
+          "target": [
+            "span > a[rel=\"noopener\"]:nth-child(6)"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"/legal/generative-ai?hsLang=en\" rel=\"noopener\" style=\"font-size: 14px; color: #ffffff;\">Generative AI Policy</a>",
+          "target": [
+            "a[href=\"/legal/generative-ai?hsLang=en\"]"
+          ]
+        }
+      ]
+    }
+  ],
+  "incomplete": [],
+  "violations": [
+    {
+      "id": "link-name",
+      "impact": "serious",
+      "tags": [
+        "cat.name-role-value",
+        "wcag2a",
+        "wcag244",
+        "wcag412",
+        "section508",
+        "section508.22.a",
+        "TTv5",
+        "TT6.a",
+        "EN-301-549",
+        "EN-9.2.4.4",
+        "EN-9.4.1.2",
+        "ACT"
+      ],
+      "description": "Ensures links have discernible text",
+      "help": "Links must have discernible text",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/link-name?application=axeAPI",
+      "nodes": [
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element does not have text that is visible to screen readers"
+            },
+            {
+              "id": "aria-label",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "aria-label attribute does not exist or is empty"
+            },
+            {
+              "id": "aria-labelledby",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty"
+            },
+            {
+              "id": "non-empty-title",
+              "data": {
+                "messageKey": "noAttr"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has no title attribute"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is in tab order and does not have accessible text"
+            }
+          ],
+          "impact": "serious",
+          "html": "<a href=\"https://www.youtube.com/user/TheLinuxFoundation\" target=\"_blank\" rel=\"noopener\">",
+          "target": [
+            "a[rel=\"noopener\"][target=\"_blank\"]:nth-child(7)"
+          ],
+          "failureSummary": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element does not have text that is visible to screen readers"
+            },
+            {
+              "id": "aria-label",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "aria-label attribute does not exist or is empty"
+            },
+            {
+              "id": "aria-labelledby",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty"
+            },
+            {
+              "id": "non-empty-title",
+              "data": {
+                "messageKey": "noAttr"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has no title attribute"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is in tab order and does not have accessible text"
+            }
+          ],
+          "impact": "serious",
+          "html": "<a href=\"https://www.linkedin.com/company/208777\" target=\"_blank\" rel=\"noopener\">",
+          "target": [
+            "a[rel=\"noopener\"][target=\"_blank\"]:nth-child(8)"
+          ],
+          "failureSummary": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element does not have text that is visible to screen readers"
+            },
+            {
+              "id": "aria-label",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "aria-label attribute does not exist or is empty"
+            },
+            {
+              "id": "aria-labelledby",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty"
+            },
+            {
+              "id": "non-empty-title",
+              "data": {
+                "messageKey": "noAttr"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has no title attribute"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is in tab order and does not have accessible text"
+            }
+          ],
+          "impact": "serious",
+          "html": "<a href=\"https://github.com/LF-Engineering\" target=\"_blank\" rel=\"noopener\">",
+          "target": [
+            "a[rel=\"noopener\"][target=\"_blank\"]:nth-child(9)"
+          ],
+          "failureSummary": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+        }
+      ]
+    }
+  ]
+}

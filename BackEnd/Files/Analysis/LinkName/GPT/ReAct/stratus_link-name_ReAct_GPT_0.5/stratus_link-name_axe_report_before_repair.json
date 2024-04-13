@@ -1,0 +1,2318 @@
+{
+  "testEngine": {
+    "name": "axe-core",
+    "version": "4.8.4"
+  },
+  "testRunner": {
+    "name": "axe"
+  },
+  "testEnvironment": {
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/122.0.0.0 Safari/537.36",
+    "windowWidth": 800,
+    "windowHeight": 600,
+    "orientationAngle": 0,
+    "orientationType": "portrait-primary"
+  },
+  "timestamp": "2024-04-08T19:49:06.097Z",
+  "url": "https://www.stratus.com/",
+  "toolOptions": {
+    "runOnly": {
+      "type": "rule",
+      "values": [
+        "link-name"
+      ]
+    },
+    "reporter": "v1"
+  },
+  "inapplicable": [],
+  "passes": [
+    {
+      "id": "link-name",
+      "impact": "serious",
+      "tags": [
+        "cat.name-role-value",
+        "wcag2a",
+        "wcag244",
+        "wcag412",
+        "section508",
+        "section508.22.a",
+        "TTv5",
+        "TT6.a",
+        "EN-301-549",
+        "EN-9.2.4.4",
+        "EN-9.4.1.2",
+        "ACT"
+      ],
+      "description": "Ensures links have discernible text",
+      "help": "Links must have discernible text",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/link-name?application=axeAPI",
+      "nodes": [
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a rel=\"noopener\" tabindex=\"0\" href=\"https://www.stratus.com/about/company-information/privacy-policy/\" target=\"_blank\" class=\" osano-cm-storage-policy osano-cm-content__link osano-cm-link \" aria-describedby=\"osano-cm-aria.newWindow\"><!--?lit$389397107$-->Privacy Policy</a>",
+          "target": [
+            ".osano-cm-storage-policy"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a rel=\"noopener\" tabindex=\"0\" href=\"#2f171d19-9ec6-4cb6-9146-ed3cb1efd09f\" class=\" osano-cm-drawer-links__link osano-cm-link osano-cm-link--type_manage \"><!--?lit$389397107$-->Storage Preferences</a>",
+          "target": [
+            ".osano-cm-drawer-links__link"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"#ajax-content-wrap\" class=\"nectar-skip-to-content\">Skip to main content</a>",
+          "target": [
+            ".nectar-skip-to-content"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a target=\"_blank\" rel=\"noopener\" href=\"https://twitter.com/StratusAlwaysOn\"><span class=\"screen-reader-text\">twitter</span><i class=\"fa fa-twitter\" aria-hidden=\"true\"></i> </a>",
+          "target": [
+            "#social > li:nth-child(1) > a[rel=\"noopener\"][target=\"_blank\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a target=\"_blank\" rel=\"noopener\" href=\"https://www.linkedin.com/company/stratus-technologies\"><span class=\"screen-reader-text\">linkedin</span><i class=\"fa fa-linkedin\" aria-hidden=\"true\"></i> </a>",
+          "target": [
+            "#social > li:nth-child(2) > a[rel=\"noopener\"][target=\"_blank\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"/about/company-information/contact/\"><span class=\"screen-reader-text\">phone</span><i class=\"fa fa-phone\" aria-hidden=\"true\"></i> </a>",
+          "target": [
+            "#social > li:nth-child(3) > a"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"/about/company-information/contact/#General-Inquiry\"><span class=\"screen-reader-text\">email</span><i class=\"fa fa-envelope\" aria-hidden=\"true\"></i> </a>",
+          "target": [
+            "#social > li:nth-child(4) > a"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"/services-support/downloads/\"><span class=\"menu-title-text\">Downloads</span></a>",
+          "target": [
+            "a[href$=\"downloads/\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a target=\"_blank\" rel=\"noopener\" href=\"https://lp.stratus.com/request-a-quote/\"><span class=\"menu-title-text\">Request a Quote</span></a>",
+          "target": [
+            "#menu-item-82389 > a[rel=\"noopener\"][target=\"_blank\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a target=\"_blank\" rel=\"noopener\" href=\"https://lp.stratus.com/request-a-demo/\"><span class=\"menu-title-text\">Request a Demo</span></a>",
+          "target": [
+            "#menu-item-82390 > a[rel=\"noopener\"][target=\"_blank\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a id=\"logo\" href=\"https://www.stratus.com\" data-supplied-ml-starting-dark=\"false\" data-supplied-ml-starting=\"false\" data-supplied-ml=\"false\">",
+          "target": [
+            "#logo"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a class=\"mobile-search\" href=\"#searchbox\"><span class=\"nectar-icon icon-salient-search\" aria-hidden=\"true\"></span><span class=\"screen-reader-text\">search</span></a>",
+          "target": [
+            ".mobile-search"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a class=\"mobile-user-account\" href=\"https://partner.stratus.com/\"><span class=\"normal icon-salient-m-user\" aria-hidden=\"true\"></span><span class=\"screen-reader-text\">account</span></a>",
+          "target": [
+            ".mobile-user-account"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            },
+            {
+              "id": "aria-label",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "aria-label attribute exists and is not empty"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"#sidewidgetarea\" aria-label=\"Navigation Menu\" aria-expanded=\"false\" class=\"closed\">\n\t\t\t\t\t\t\t<span class=\"screen-reader-text\">Menu</span><span aria-hidden=\"true\"> <i class=\"lines-button x2\"> <i class=\"lines\"></i> </i> </span>\n\t\t\t\t\t\t</a>",
+          "target": [
+            "a[href$=\"#sidewidgetarea\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a id=\"slider-51-slide-46-layer-80\" class=\"rs-layer rs-layer-static\" href=\"#Default\" target=\"_self\" rel=\"nofollow\" data-type=\"text\" data-rsp_ch=\"on\" data-xy=\"x:l,l,c,c;xo:631px,573px,222px,152px;y:b;yo:35px,50px,98px,92px;\" data-text=\"w:normal;s:20,18,16,12;l:25,20,15,9;a:center;\" data-dim=\"w:100px,80px,76px,65px;\" data-basealign=\"slide\" data-onslides=\"s:1;\" data-frame_999=\"o:0;st:w;\" style=\"z-index: 21; font-family: Roboto; height: auto; color: rgb(255, 255, 255); text-decoration: none; white-space: normal; width: 63px; min-height: 0px; min-width: 0px; max-height: none; max-width: none; text-align: center; line-height: 16px; letter-spacing: 0px; font-weight: 600; font-size: 14px; backdrop-filter: none; filter: none; transform-origin: 50% 50%; opacity: 1; transform: translate(0px, 0px); visibility: visible;\" data-startslide=\"1\" data-endslide=\"5\" data-idcheck=\"true\" data-stylerecorder=\"true\" data-initialised=\"true\">",
+          "target": [
+            "#slider-51-slide-46-layer-80"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a id=\"slider-51-slide-46-layer-81\" class=\"rs-layer rs-layer-static\" href=\"#book-a-demo\" target=\"_self\" rel=\"nofollow\" data-type=\"text\" data-rsp_ch=\"on\" data-xy=\"x:l,l,c,c;xo:386px,349px,0,0;y:b;yo:35px,50px,98px,92px;\" data-text=\"w:normal;s:20,18,16,12;l:25,20,15,9;a:center;\" data-dim=\"w:100px,80px,62px,37px;\" data-basealign=\"slide\" data-onslides=\"s:1;\" data-frame_999=\"o:0;st:w;\" style=\"z-index: 20; font-family: Roboto; height: auto; color: rgb(255, 255, 255); text-decoration: none; white-space: normal; width: 63px; min-height: 0px; min-width: 0px; max-height: none; max-width: none; text-align: center; line-height: 16px; letter-spacing: 0px; font-weight: 600; font-size: 14px; backdrop-filter: none; filter: none; transform-origin: 50% 50%; opacity: 1; transform: translate(0px, 0px); visibility: visible;\" data-startslide=\"1\" data-endslide=\"5\" data-idcheck=\"true\" data-stylerecorder=\"true\" data-initialised=\"true\">",
+          "target": [
+            "#slider-51-slide-46-layer-81"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a id=\"slider-51-slide-46-layer-84\" class=\"rs-layer rs-layer-static\" href=\"#get-a-quote\" target=\"_self\" rel=\"nofollow\" data-type=\"text\" data-rsp_ch=\"on\" data-xy=\"x:l,l,c,c;xo:143px,141px,-243px,-162px;y:b;yo:35px,50px,98px,92px;\" data-text=\"w:normal;s:20,18,16,12;l:25,20,15,9;a:center;\" data-dim=\"w:100px,80px,62px,37px;\" data-basealign=\"slide\" data-onslides=\"s:1;\" data-frame_999=\"o:0;st:w;\" style=\"z-index: 19; font-family: Roboto; height: auto; color: rgb(255, 255, 255); text-decoration: none; white-space: normal; width: 63px; min-height: 0px; min-width: 0px; max-height: none; max-width: none; text-align: center; line-height: 16px; letter-spacing: 0px; font-weight: 600; font-size: 14px; backdrop-filter: none; filter: none; transform-origin: 50% 50%; opacity: 1; transform: translate(0px, 0px); visibility: visible;\" data-startslide=\"1\" data-endslide=\"5\" data-idcheck=\"true\" data-stylerecorder=\"true\" data-initialised=\"true\">",
+          "target": [
+            "#slider-51-slide-46-layer-84"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a id=\"slider-51-slide-175-layer-4\" class=\"rs-layer home-slider-ztc-srl-2-2-cta rev-btn\" href=\"/solutions/platforms/ztc-endurance/\" target=\"_self\" rel=\"nofollow\" data-type=\"button\" data-color=\"rgba(255,204,0,1)\" data-xy=\"x:l,l,l,c;xo:215px,107px,56px,0;yo:460px,409px,366px,256px;\" data-text=\"w:normal,normal,nowrap,normal;s:15,15,12,12;l:30,50,30,30;ls:3px,3px,2px,2px;fw:900,700,700,700;a:center;\" data-dim=\"w:460px,558px,363px,90%;\" data-basealign=\"slide\" data-rsp_o=\"off\" data-rsp_bd=\"off\" data-padding=\"t:10,5,5,10;r:20,20,10,20;b:10,5,5,10;l:20,20,10,20;\" data-border=\"bos:solid;boc:rgba(255,204,0,1);bow:2px,2px,2px,2px;\" data-frame_0=\"o:1;\" data-frame_1=\"sp:0;\" data-frame_999=\"o:1;st:w;sR:8700;\" data-frame_hover=\"c:#000;bgc:#ffcc00;boc:#ffcc00;bor:0px,0px,0px,0px;bos:solid;bow:2px,2px,2px,2px;oX:50;oY:50;sp:0;e:power1.inOut;\" style=\"z-index: 11; font-family: Roboto; cursor: pointer; outline: none; box-shadow: none; box-sizing: border-box; height: auto; color: rgb(255, 204, 0); text-decoration: none; white-space: normal; width: 558px; min-height: 0px; min-width: 0px; max-height: none; max-width: none; text-align: center; line-height: 50px; letter-spacing: 3px; font-weight: 700; font-size: 15px; border-color: rgb(255, 204, 0); border-style: solid; border-width: 2px; padding: 5px 20px; background-color: rgba(0, 0, 0, 0); backdrop-filter: none; filter: none; transform-origin: 50% 50%; transform: translate(0px, 0px); opacity: 1; visibility: visible;\" data-idcheck=\"true\" data-stylerecorder=\"true\" data-initialised=\"true\">",
+          "target": [
+            "#slider-51-slide-175-layer-4"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"/?page_id=85922\"><strong>COVID-19 Help and Preparedness for Customers and Partners</strong></a>",
+          "target": [
+            "a[href=\"/?page_id=85922\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"https://players.brightcove.net/2165782443001/TmnSuwJqg_default/index.html?videoId=5775269684001\" data-style=\"default\" data-parent-hover=\"\" data-font-style=\"p\" data-color=\"default\" class=\"play_button_2 large nectar_video_lightbox magnific-popup\">",
+          "target": [
+            ".instance-4 > .vc_column-inner > .wpb_wrapper > .nectar-video-box[data-color=\"default-accent-color\"][data-play-button-size=\"default\"] > .inner-wrap > .play_button_2.large.nectar_video_lightbox"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"https://players.brightcove.net/2165782443001/TmnSuwJqg_default/index.html?videoId=5804808189001\" data-style=\"default\" data-parent-hover=\"\" data-font-style=\"p\" data-color=\"default\" class=\"play_button_2 large nectar_video_lightbox magnific-popup\">",
+          "target": [
+            ".instance-5 > .vc_column-inner > .wpb_wrapper > .nectar-video-box[data-color=\"default-accent-color\"][data-play-button-size=\"default\"] > .inner-wrap > .play_button_2.large.nectar_video_lightbox"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a class=\"nectar-button jumbo regular extra-color-1  regular-button\" style=\"visibility: visible;\" href=\"/edge-computing/\" data-color-override=\"false\" data-hover-color-override=\"false\" data-hover-text-color-override=\"#fff\"><span>Learn More</span></a>",
+          "target": [
+            ".nectar-button"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"/partners/join-partner-program/\">Partner with Stratus</a>",
+          "target": [
+            "#menu-item-88197 > a"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"https://www.stratus.com/partners/stratus-var-program/\">Stratus VAR Program</a>",
+          "target": [
+            "#menu-item-92307 > a"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"https://www.stratus.com/partners/stratus-channel-partner-program/\">Channel Partners</a>",
+          "target": [
+            "#menu-item-88198 > a"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"/oem/\">OEM Partners</a>",
+          "target": [
+            "#menu-item-88199 > a[href$=\"oem/\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"https://www.stratus.com/solution-builder/\">Solution Builder Partners</a>",
+          "target": [
+            "#menu-item-92308 > a"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"https://www.stratus.com/partners/strategic-partners/\">Strategic Software Partners</a>",
+          "target": [
+            "#menu-item-88201 > a"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"https://www.stratus.com/partners/system-integrator-partners/\">Stratus System Integrator Program</a>",
+          "target": [
+            "#menu-item-88200 > a"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"https://www.stratus.com/partners/technology-partners/\">Technology Partners</a>",
+          "target": [
+            "#menu-item-88202 > a"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"https://www.stratus.com/edge-computing/\">Edge Computing</a>",
+          "target": [
+            "#menu-item-88206 > a"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"https://www.stratus.com/iiot/\">IIoT</a>",
+          "target": [
+            "#menu-item-88207 > a[href$=\"iiot/\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"https://www.stratus.com/virtualization/\">Virtualization</a>",
+          "target": [
+            "#menu-item-88208 > a"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"https://www.stratus.com/availability/\">Availability</a>",
+          "target": [
+            "#menu-item-88209 > a"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"https://www.stratus.com/cloud-computing/\">Cloud Computing</a>",
+          "target": [
+            "#menu-item-88210 > a"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"https://www.stratus.com/fault-tolerant/\">Fault-Tolerant</a>",
+          "target": [
+            "#menu-item-88211 > a"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"https://www.stratus.com/cost-of-downtime/\">Cost of Downtime</a>",
+          "target": [
+            "#menu-item-88212 > a"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"https://www.stratus.com/industry/industrial-automation/\">Industrial Automation</a>",
+          "target": [
+            "#menu-item-88213 > a"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"/about/\">About Stratus</a>",
+          "target": [
+            "a[href$=\"about/\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"https://www.stratus.com/about/company-information/locations/\">Locations</a>",
+          "target": [
+            "#menu-item-88360 > a"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"https://www.stratus.com/about/company-information/careers/\">Careers</a>",
+          "target": [
+            "#menu-item-16297 > a"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a target=\"_blank\" rel=\"noopener\" href=\"https://lp.stratus.com/contact-us/\">Contact Us</a>",
+          "target": [
+            "#menu-item-91409 > a[rel=\"noopener\"][target=\"_blank\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"/about/company-information/privacy-policy/\" style=\"font-size:10px\">Privacy Policy</a>",
+          "target": [
+            ".footer-links > a:nth-child(1)"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"/services-support/customer-support/service-terms-and-conditions/\" style=\"padding: 0px 10px;font-size:10px\">Service Terms</a>",
+          "target": [
+            ".footer-links > a:nth-child(2)"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"/about/company-information/do-not-sell-or-share-information/\" style=\"font-size:10px\" target=\"_blank\"> Do Not Sell or Share My Personal Information</a>",
+          "target": [
+            ".footer-links > a[target=\"_blank\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a target=\"_blank\" rel=\"noopener\" href=\"https://twitter.com/StratusAlwaysOn\"><span class=\"screen-reader-text\">twitter</span><i class=\"fa fa-twitter\" aria-hidden=\"true\"></i></a>",
+          "target": [
+            ".social > li:nth-child(1) > a[rel=\"noopener\"][target=\"_blank\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a target=\"_blank\" rel=\"noopener\" href=\"https://www.linkedin.com/company/stratus-technologies\"><span class=\"screen-reader-text\">linkedin</span><i class=\"fa fa-linkedin\" aria-hidden=\"true\"></i></a>",
+          "target": [
+            ".social > li:nth-child(2) > a[rel=\"noopener\"][target=\"_blank\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a class=\"slide_out_area_close\" href=\"#\"><span class=\"screen-reader-text\">Close Menu</span>\n\t\t\t\t\t<span class=\"icon-salient-x icon-default-style\"></span>\t\t\t\t</a>",
+          "target": [
+            ".slide_out_area_close"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"#\">Industry</a>",
+          "target": [
+            ".menuopen.menu > .menu-item-9147.menu-item-has-children.menu-item-type-custom > a[href=\"#\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"#\">Solutions</a>",
+          "target": [
+            ".menuopen.menu > .menu-item-12704.menu-item-has-children.menu-item-type-custom > a[href=\"#\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"#\">Services &amp; Support</a>",
+          "target": [
+            ".menuopen.menu > .menu-item-12519.menu-item-has-children.menu-item-type-custom > a[href=\"#\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"#\">Partners</a>",
+          "target": [
+            ".menuopen.menu > .menu-item-88682.menu-item-has-children.menu-item-type-custom > a[href=\"#\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"#\">Resources</a>",
+          "target": [
+            ".menuopen.menu > .menu-item-9478.menu-item-has-children.menu-item-type-custom > a[href=\"#\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a target=\"_blank\" rel=\"noopener\" href=\"https://twitter.com/StratusAlwaysOn\"><span class=\"screen-reader-text\">twitter</span><i class=\"fa fa-twitter\" aria-hidden=\"true\"></i> </a>",
+          "target": [
+            ".off-canvas-social-links > li:nth-child(1) > a[rel=\"noopener\"][target=\"_blank\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a target=\"_blank\" rel=\"noopener\" href=\"https://www.linkedin.com/company/stratus-technologies\"><span class=\"screen-reader-text\">linkedin</span><i class=\"fa fa-linkedin\" aria-hidden=\"true\"></i> </a>",
+          "target": [
+            ".off-canvas-social-links > li:nth-child(2) > a[rel=\"noopener\"][target=\"_blank\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"/about/company-information/contact/\"><span class=\"screen-reader-text\">phone</span><i class=\"fa fa-phone\" aria-hidden=\"true\"></i> </a>",
+          "target": [
+            ".off-canvas-social-links > li:nth-child(3) > a"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"/about/company-information/contact/#General-Inquiry\"><span class=\"screen-reader-text\">email</span><i class=\"fa fa-envelope\" aria-hidden=\"true\"></i> </a>",
+          "target": [
+            ".off-canvas-social-links > li:nth-child(4) > a"
+          ]
+        }
+      ]
+    }
+  ],
+  "incomplete": [],
+  "violations": [
+    {
+      "id": "link-name",
+      "impact": "serious",
+      "tags": [
+        "cat.name-role-value",
+        "wcag2a",
+        "wcag244",
+        "wcag412",
+        "section508",
+        "section508.22.a",
+        "TTv5",
+        "TT6.a",
+        "EN-301-549",
+        "EN-9.2.4.4",
+        "EN-9.4.1.2",
+        "ACT"
+      ],
+      "description": "Ensures links have discernible text",
+      "help": "Links must have discernible text",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/link-name?application=axeAPI",
+      "nodes": [
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element does not have text that is visible to screen readers"
+            },
+            {
+              "id": "aria-label",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "aria-label attribute does not exist or is empty"
+            },
+            {
+              "id": "aria-labelledby",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty"
+            },
+            {
+              "id": "non-empty-title",
+              "data": {
+                "messageKey": "noAttr"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has no title attribute"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is in tab order and does not have accessible text"
+            }
+          ],
+          "impact": "serious",
+          "html": "<a id=\"slider-51-slide-46-layer-79\" class=\"rs-layer rs-layer-static\" href=\"#contact\" target=\"_self\" rel=\"nofollow\" data-type=\"image\" data-rsp_ch=\"on\" data-xy=\"x:l,l,c,c;xo:535px,466px,225px,152px;y:b;yo:20px,20px,17px,20px;\" data-text=\"w:normal;s:20,16,12,7;l:0,20,15,9;\" data-dim=\"w:73px,100px,64px,60px;h:73px,100px,64px,60px;\" data-basealign=\"slide\" data-onslides=\"s:1;\" data-frame_999=\"o:0;st:w;\" style=\"z-index: 17; color: rgb(255, 255, 255); width: 78px; height: 78px; min-height: 0px; min-width: 0px; max-height: none; max-width: none; backdrop-filter: none; filter: none; transform-origin: 50% 50%; opacity: 1; transform: translate(0px, 0px); visibility: visible;\" data-startslide=\"1\" data-endslide=\"5\" data-idcheck=\"true\" data-stylerecorder=\"true\" data-initialised=\"true\">",
+          "target": [
+            "#slider-51-slide-46-layer-79"
+          ],
+          "failureSummary": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element does not have text that is visible to screen readers"
+            },
+            {
+              "id": "aria-label",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "aria-label attribute does not exist or is empty"
+            },
+            {
+              "id": "aria-labelledby",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty"
+            },
+            {
+              "id": "non-empty-title",
+              "data": {
+                "messageKey": "noAttr"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has no title attribute"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is in tab order and does not have accessible text"
+            }
+          ],
+          "impact": "serious",
+          "html": "<a id=\"slider-51-slide-46-layer-83\" class=\"rs-layer rs-layer-static\" href=\"#book-a-demo\" target=\"_self\" rel=\"nofollow\" data-type=\"image\" data-rsp_ch=\"on\" data-xy=\"x:l,l,c,c;xo:293px,234px,0,0;y:b;yo:20px,20px,17px,20px;\" data-text=\"w:normal;s:20,16,12,7;l:0,20,15,9;\" data-dim=\"w:73px,100px,64px,60px;h:73px,100px,64px,60px;\" data-basealign=\"slide\" data-onslides=\"s:1;\" data-frame_999=\"o:0;st:w;\" style=\"z-index: 16; color: rgb(255, 255, 255); width: 78px; height: 78px; min-height: 0px; min-width: 0px; max-height: none; max-width: none; backdrop-filter: none; filter: none; transform-origin: 50% 50%; opacity: 1; transform: translate(0px, 0px); visibility: visible;\" data-startslide=\"1\" data-endslide=\"5\" data-idcheck=\"true\" data-stylerecorder=\"true\" data-initialised=\"true\">",
+          "target": [
+            "#slider-51-slide-46-layer-83"
+          ],
+          "failureSummary": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element does not have text that is visible to screen readers"
+            },
+            {
+              "id": "aria-label",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "aria-label attribute does not exist or is empty"
+            },
+            {
+              "id": "aria-labelledby",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty"
+            },
+            {
+              "id": "non-empty-title",
+              "data": {
+                "messageKey": "noAttr"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has no title attribute"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is in tab order and does not have accessible text"
+            }
+          ],
+          "impact": "serious",
+          "html": "<a id=\"slider-51-slide-46-layer-85\" class=\"rs-layer rs-layer-static\" href=\"#get-a-quote\" target=\"_self\" rel=\"nofollow\" data-type=\"image\" data-rsp_ch=\"on\" data-xy=\"x:l,l,c,c;xo:58px,29px,-240px,-156px;y:b;yo:20px,20px,17px,20px;\" data-text=\"w:normal;s:20,16,12,7;l:0,20,15,9;\" data-dim=\"w:73px,100px,64px,60px;h:73px,100px,64px,60px;\" data-basealign=\"slide\" data-onslides=\"s:1;\" data-frame_999=\"o:0;st:w;\" style=\"z-index: 18; color: rgb(255, 255, 255); width: 78px; height: 78px; min-height: 0px; min-width: 0px; max-height: none; max-width: none; backdrop-filter: none; filter: none; transform-origin: 50% 50%; opacity: 1; transform: translate(0px, 0px); visibility: visible;\" data-startslide=\"1\" data-endslide=\"5\" data-idcheck=\"true\" data-stylerecorder=\"true\" data-initialised=\"true\">",
+          "target": [
+            "#slider-51-slide-46-layer-85"
+          ],
+          "failureSummary": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element does not have text that is visible to screen readers"
+            },
+            {
+              "id": "aria-label",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "aria-label attribute does not exist or is empty"
+            },
+            {
+              "id": "aria-labelledby",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty"
+            },
+            {
+              "id": "non-empty-title",
+              "data": {
+                "messageKey": "noAttr"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has no title attribute"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is in tab order and does not have accessible text"
+            }
+          ],
+          "impact": "serious",
+          "html": "<a class=\"column-link\" target=\"_self\" href=\"/covid-19-customers-and-partners-resources/\"></a>",
+          "target": [
+            ".no-extra-padding.vc_col-sm-12[data-padding-pos=\"all\"] > .vc_column-inner > .column-link[target=\"_self\"]"
+          ],
+          "failureSummary": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element does not have text that is visible to screen readers"
+            },
+            {
+              "id": "aria-label",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "aria-label attribute does not exist or is empty"
+            },
+            {
+              "id": "aria-labelledby",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty"
+            },
+            {
+              "id": "non-empty-title",
+              "data": {
+                "messageKey": "noAttr"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has no title attribute"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is in tab order and does not have accessible text"
+            }
+          ],
+          "impact": "serious",
+          "html": "<a href=\"https://players.brightcove.net/2165782443001/TmnSuwJqg_default/index.html?videoId=5775269684001\" class=\"full-link magnific-popup\"></a>",
+          "target": [
+            ".instance-4 > .vc_column-inner > .wpb_wrapper > .nectar-video-box[data-color=\"default-accent-color\"][data-play-button-size=\"default\"] > .inner-wrap > .full-link.magnific-popup"
+          ],
+          "failureSummary": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element does not have text that is visible to screen readers"
+            },
+            {
+              "id": "aria-label",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "aria-label attribute does not exist or is empty"
+            },
+            {
+              "id": "aria-labelledby",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty"
+            },
+            {
+              "id": "non-empty-title",
+              "data": {
+                "messageKey": "noAttr"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has no title attribute"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is in tab order and does not have accessible text"
+            }
+          ],
+          "impact": "serious",
+          "html": "<a href=\"https://players.brightcove.net/2165782443001/TmnSuwJqg_default/index.html?videoId=5804808189001\" class=\"full-link magnific-popup\"></a>",
+          "target": [
+            ".instance-5 > .vc_column-inner > .wpb_wrapper > .nectar-video-box[data-color=\"default-accent-color\"][data-play-button-size=\"default\"] > .inner-wrap > .full-link.magnific-popup"
+          ],
+          "failureSummary": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element does not have text that is visible to screen readers"
+            },
+            {
+              "id": "aria-label",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "aria-label attribute does not exist or is empty"
+            },
+            {
+              "id": "aria-labelledby",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty"
+            },
+            {
+              "id": "non-empty-title",
+              "data": {
+                "messageKey": "noAttr"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has no title attribute"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is in tab order and does not have accessible text"
+            }
+          ],
+          "impact": "serious",
+          "html": "<a class=\"column-link\" target=\"_self\" href=\"/industry/industrial-automation/oil-gas/\"></a>",
+          "target": [
+            "#fws_66144a29c2858 > .center.row_col_wrap_12_inner.span_12 > .industry-box[data-bg-cover=\"true\"][data-padding-pos=\"top\"] > .vc_column-inner > .column-link[target=\"_self\"]"
+          ],
+          "failureSummary": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element does not have text that is visible to screen readers"
+            },
+            {
+              "id": "aria-label",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "aria-label attribute does not exist or is empty"
+            },
+            {
+              "id": "aria-labelledby",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty"
+            },
+            {
+              "id": "non-empty-title",
+              "data": {
+                "messageKey": "noAttr"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has no title attribute"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is in tab order and does not have accessible text"
+            }
+          ],
+          "impact": "serious",
+          "html": "<a class=\"column-link\" target=\"_self\" href=\"/industry/healthcare/\"></a>",
+          "target": [
+            ".vc_column-inner > a[href$=\"healthcare/\"]"
+          ],
+          "failureSummary": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element does not have text that is visible to screen readers"
+            },
+            {
+              "id": "aria-label",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "aria-label attribute does not exist or is empty"
+            },
+            {
+              "id": "aria-labelledby",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty"
+            },
+            {
+              "id": "non-empty-title",
+              "data": {
+                "messageKey": "noAttr"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has no title attribute"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is in tab order and does not have accessible text"
+            }
+          ],
+          "impact": "serious",
+          "html": "<a class=\"column-link\" target=\"_self\" href=\"/industry/industrial-automation/food-and-beverage/\"></a>",
+          "target": [
+            "#fws_66144a29c415b > .center.row_col_wrap_12_inner.span_12 > .industry-box[data-bg-cover=\"true\"][data-padding-pos=\"top\"] > .vc_column-inner > .column-link[target=\"_self\"]"
+          ],
+          "failureSummary": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element does not have text that is visible to screen readers"
+            },
+            {
+              "id": "aria-label",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "aria-label attribute does not exist or is empty"
+            },
+            {
+              "id": "aria-labelledby",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty"
+            },
+            {
+              "id": "non-empty-title",
+              "data": {
+                "messageKey": "noAttr"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has no title attribute"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is in tab order and does not have accessible text"
+            }
+          ],
+          "impact": "serious",
+          "html": "<a class=\"column-link\" target=\"_self\" href=\"/industry/industrial-automation/water-wastewater/\"></a>",
+          "target": [
+            "#fws_66144a29c4d28 > .center.row_col_wrap_12_inner.span_12 > .industry-box[data-bg-cover=\"true\"][data-padding-pos=\"top\"] > .vc_column-inner > .column-link[target=\"_self\"]"
+          ],
+          "failureSummary": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element does not have text that is visible to screen readers"
+            },
+            {
+              "id": "aria-label",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "aria-label attribute does not exist or is empty"
+            },
+            {
+              "id": "aria-labelledby",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty"
+            },
+            {
+              "id": "non-empty-title",
+              "data": {
+                "messageKey": "noAttr"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has no title attribute"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is in tab order and does not have accessible text"
+            }
+          ],
+          "impact": "serious",
+          "html": "<a class=\"column-link\" target=\"_self\" href=\"/industry/industrial-automation/life-sciences-manufacturing-and-power-industries/\"></a>",
+          "target": [
+            "#fws_66144a29c5c98 > .center.row_col_wrap_12_inner.span_12 > .industry-box[data-bg-cover=\"true\"][data-padding-pos=\"top\"] > .vc_column-inner > .column-link[target=\"_self\"]"
+          ],
+          "failureSummary": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element does not have text that is visible to screen readers"
+            },
+            {
+              "id": "aria-label",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "aria-label attribute does not exist or is empty"
+            },
+            {
+              "id": "aria-labelledby",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty"
+            },
+            {
+              "id": "non-empty-title",
+              "data": {
+                "messageKey": "noAttr"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has no title attribute"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is in tab order and does not have accessible text"
+            }
+          ],
+          "impact": "serious",
+          "html": "<a class=\"column-link\" target=\"_self\" href=\"/industry/retail/\"></a>",
+          "target": [
+            ".vc_column-inner > a[href$=\"retail/\"]"
+          ],
+          "failureSummary": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element does not have text that is visible to screen readers"
+            },
+            {
+              "id": "aria-label",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "aria-label attribute does not exist or is empty"
+            },
+            {
+              "id": "aria-labelledby",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty"
+            },
+            {
+              "id": "non-empty-title",
+              "data": {
+                "messageKey": "noAttr"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has no title attribute"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is in tab order and does not have accessible text"
+            }
+          ],
+          "impact": "serious",
+          "html": "<a class=\"column-link\" target=\"_self\" href=\"/industry/travel-logistics/\"></a>",
+          "target": [
+            ".vc_column-inner > a[href$=\"travel-logistics/\"]"
+          ],
+          "failureSummary": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element does not have text that is visible to screen readers"
+            },
+            {
+              "id": "aria-label",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "aria-label attribute does not exist or is empty"
+            },
+            {
+              "id": "aria-labelledby",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty"
+            },
+            {
+              "id": "non-empty-title",
+              "data": {
+                "messageKey": "noAttr"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has no title attribute"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is in tab order and does not have accessible text"
+            }
+          ],
+          "impact": "serious",
+          "html": "<a class=\"column-link\" target=\"_self\" href=\"/industry/smart-buildings/\"></a>",
+          "target": [
+            ".vc_column-inner > a[href$=\"smart-buildings/\"]"
+          ],
+          "failureSummary": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element does not have text that is visible to screen readers"
+            },
+            {
+              "id": "aria-label",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "aria-label attribute does not exist or is empty"
+            },
+            {
+              "id": "aria-labelledby",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty"
+            },
+            {
+              "id": "non-empty-title",
+              "data": {
+                "messageKey": "noAttr"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has no title attribute"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is in tab order and does not have accessible text"
+            }
+          ],
+          "impact": "serious",
+          "html": "<a id=\"to-top\" href=\"#\" class=\"\n\tmobile-enabled\t\"><i class=\"fa fa-angle-up\"></i></a>",
+          "target": [
+            "#to-top"
+          ],
+          "failureSummary": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+        }
+      ]
+    }
+  ]
+}

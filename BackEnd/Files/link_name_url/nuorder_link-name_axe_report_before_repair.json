@@ -1,0 +1,569 @@
+{
+  "testEngine": {
+    "name": "axe-core",
+    "version": "4.8.4"
+  },
+  "testRunner": {
+    "name": "axe"
+  },
+  "testEnvironment": {
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/122.0.0.0 Safari/537.36",
+    "windowWidth": 800,
+    "windowHeight": 600,
+    "orientationAngle": 0,
+    "orientationType": "portrait-primary"
+  },
+  "timestamp": "2024-04-03T19:39:22.286Z",
+  "url": "https://www.nuorder.com/",
+  "toolOptions": {
+    "runOnly": {
+      "type": "rule",
+      "values": [
+        "link-name"
+      ]
+    },
+    "reporter": "v1"
+  },
+  "inapplicable": [],
+  "passes": [
+    {
+      "id": "link-name",
+      "impact": "serious",
+      "tags": [
+        "cat.name-role-value",
+        "wcag2a",
+        "wcag244",
+        "wcag412",
+        "section508",
+        "section508.22.a",
+        "TTv5",
+        "TT6.a",
+        "EN-301-549",
+        "EN-9.2.4.4",
+        "EN-9.4.1.2",
+        "ACT"
+      ],
+      "description": "Ensures links have discernible text",
+      "help": "Links must have discernible text",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/link-name?application=axeAPI",
+      "nodes": [
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"https://app.next.nuorder.com/\" class=\"jet-mega-menu-item__link jet-mega-menu-item__link--top-level\"><div class=\"jet-mega-menu-item__title\"><div class=\"jet-mega-menu-item__label\">Log In</div></div></a>",
+          "target": [
+            ".elementor-element-ac83042 > .elementor-widget-container > .jet-mega-menu.jet-mega-menu--sub-position-right.jet-mega-menu--dropdown-layout-default > .jet-mega-menu-container[aria-label=\"Main nav\"] > .jet-mega-menu-list > .login_btn.jet-mega-menu-item-15959.login_monb > .jet-mega-menu-item__inner[aria-label=\"Log In\"] > .jet-mega-menu-item__link--top-level.jet-mega-menu-item__link[href$=\"app.next.nuorder.com/\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"/start\" class=\"jet-mega-menu-item__link jet-mega-menu-item__link--top-level\"><div class=\"jet-mega-menu-item__title\"><div class=\"jet-mega-menu-item__label\">Get Started</div></div></a>",
+          "target": [
+            ".elementor-element-ac83042 > .elementor-widget-container > .jet-mega-menu.jet-mega-menu--sub-position-right.jet-mega-menu--dropdown-layout-default > .jet-mega-menu-container[aria-label=\"Main nav\"] > .jet-mega-menu-list > .get_started_btn.jet-mega-menu-item-15960.login_monb > .jet-mega-menu-item__inner[aria-label=\"Get Started\"] > .jet-mega-menu-item__link--top-level.jet-mega-menu-item__link[href$=\"start\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a class=\"elementor-button elementor-button-link elementor-size-sm\" href=\"/start/\">\n\t\t\t\t\t\t<span class=\"elementor-button-content-wrapper\">\n\t\t\t\t\t\t<span class=\"elementor-button-text\">Talk to an Expert</span>\n\t\t</span>\n\t\t\t\t\t</a>",
+          "target": [
+            ".elementor-element-8665581 > .elementor-widget-container > .elementor-button-wrapper > .elementor-size-sm.elementor-button[href$=\"start/\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a class=\"elementor-button elementor-button-link elementor-size-xs\" href=\"/wholesale/\">",
+          "target": [
+            ".elementor-size-xs.elementor-button[href$=\"wholesale/\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a class=\"elementor-button elementor-button-link elementor-size-sm\" href=\"https://go.nuorder.com/success-story-isaia\" target=\"_blank\">\n\t\t\t\t\t\t<span class=\"elementor-button-content-wrapper\">\n\t\t\t\t\t\t<span class=\"elementor-button-text\">Read now</span>\n\t\t</span>\n\t\t\t\t\t</a>",
+          "target": [
+            ".elementor-element-f8665b7 > .elementor-widget-container > .elementor-button-wrapper > .elementor-size-sm.elementor-button.elementor-button-link"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a class=\"elementor-button elementor-button-link elementor-size-sm\" href=\"https://go.nuorder.com/webinar-the-retail-rollercoaster\" target=\"_blank\">\n\t\t\t\t\t\t<span class=\"elementor-button-content-wrapper\">\n\t\t\t\t\t\t<span class=\"elementor-button-text\">Watch on demand</span>\n\t\t</span>\n\t\t\t\t\t</a>",
+          "target": [
+            ".elementor-element-a9d088d > .elementor-widget-container > .elementor-button-wrapper > .elementor-size-sm.elementor-button.elementor-button-link"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"https://digiday.com/\" target=\"_blank\">Digiday</a>",
+          "target": [
+            "a[href$=\"digiday.com/\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a class=\"elementor-button elementor-button-link elementor-size-sm\" href=\"https://go.nuorder.com/guidebook-digiday-wholesale-guide-to-omnichannel\" target=\"_blank\">\n\t\t\t\t\t\t<span class=\"elementor-button-content-wrapper\">\n\t\t\t\t\t\t<span class=\"elementor-button-text\">Get the guide</span>\n\t\t</span>\n\t\t\t\t\t</a>",
+          "target": [
+            ".elementor-element-29a2ef9 > .elementor-widget-container > .elementor-button-wrapper > .elementor-size-sm.elementor-button.elementor-button-link"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a class=\"elementor-button elementor-button-link elementor-size-sm\" href=\"/start/\">\n\t\t\t\t\t\t<span class=\"elementor-button-content-wrapper\">\n\t\t\t\t\t\t<span class=\"elementor-button-text\">Request a Demo</span>\n\t\t</span>\n\t\t\t\t\t</a>",
+          "target": [
+            ".elementor-element-485f3a1 > .elementor-widget-container > .elementor-button-wrapper > .elementor-size-sm.elementor-button[href$=\"start/\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"https://www.nuorder.com\">\n\t\t\t\t\t\t\t<img src=\"https://www.nuorder.com/wp-content/uploads/2020/08/NuORDER_byLightspeed_WhiteRGB_Vertical.svg\" title=\"NuORDER_byLightspeed_WhiteRGB_Vertical\" alt=\"NuORDER_byLightspeed_WhiteRGB_Vertical\" loading=\"lazy\">\t\t\t\t\t\t\t\t</a>",
+          "target": [
+            ".elementor-element-459ceb7 > .elementor-widget-container > a[href$=\"www.nuorder.com\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a class=\"elementor-button elementor-button-link elementor-size-sm\" href=\"/start/\" id=\"btn-min-w d-inline\">\n\t\t\t\t\t\t<span class=\"elementor-button-content-wrapper\">\n\t\t\t\t\t\t<span class=\"elementor-button-text\">Demo Request</span>\n\t\t</span>\n\t\t\t\t\t</a>",
+          "target": [
+            ".elementor-element-f1f9a1e > .elementor-widget-container > .elementor-button-wrapper > .elementor-size-sm.elementor-button[href$=\"start/\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a class=\"elementor-button elementor-button-link elementor-size-sm\" href=\"https://app.next.nuorder.com/\" id=\"btn-min-w d-inline\">\n\t\t\t\t\t\t<span class=\"elementor-button-content-wrapper\">\n\t\t\t\t\t\t<span class=\"elementor-button-text\">Log In</span>\n\t\t</span>\n\t\t\t\t\t</a>",
+          "target": [
+            ".elementor-element-41a379e > .elementor-widget-container > .elementor-button-wrapper > .elementor-size-sm.elementor-button[href$=\"app.next.nuorder.com/\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"/resources-archive/\">Resources</a>",
+          "target": [
+            ".elementor-element-7671764 > .elementor-widget-container > h6 > a[href$=\"resources-archive/\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a class=\"elementor-icon elementor-social-icon elementor-social-icon-facebook-f elementor-repeater-item-0267196\" href=\"https://www.facebook.com/NuORDERwholesale/\" target=\"_blank\">",
+          "target": [
+            ".elementor-element-7d4e60d > .elementor-widget-container > .elementor-social-icons-wrapper.elementor-grid > .elementor-grid-item:nth-child(1) > .elementor-social-icon-facebook-f.elementor-repeater-item-0267196.elementor-icon"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a class=\"elementor-icon elementor-social-icon elementor-social-icon-instagram elementor-repeater-item-707a1a3\" href=\"https://www.instagram.com/nuorder/\" target=\"_blank\">",
+          "target": [
+            ".elementor-element-7d4e60d > .elementor-widget-container > .elementor-social-icons-wrapper.elementor-grid > .elementor-grid-item:nth-child(3) > .elementor-social-icon-instagram.elementor-repeater-item-707a1a3.elementor-icon"
+          ]
+        }
+      ]
+    }
+  ],
+  "incomplete": [],
+  "violations": [
+    {
+      "id": "link-name",
+      "impact": "serious",
+      "tags": [
+        "cat.name-role-value",
+        "wcag2a",
+        "wcag244",
+        "wcag412",
+        "section508",
+        "section508.22.a",
+        "TTv5",
+        "TT6.a",
+        "EN-301-549",
+        "EN-9.2.4.4",
+        "EN-9.4.1.2",
+        "ACT"
+      ],
+      "description": "Ensures links have discernible text",
+      "help": "Links must have discernible text",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/link-name?application=axeAPI",
+      "nodes": [
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element does not have text that is visible to screen readers"
+            },
+            {
+              "id": "aria-label",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "aria-label attribute does not exist or is empty"
+            },
+            {
+              "id": "aria-labelledby",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty"
+            },
+            {
+              "id": "non-empty-title",
+              "data": {
+                "messageKey": "noAttr"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has no title attribute"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is in tab order and does not have accessible text"
+            }
+          ],
+          "impact": "serious",
+          "html": "<a href=\"https://www.nuorder.com\">\n\t\t\t<img width=\"347\" height=\"29\" src=\"https://www.nuorder.com/wp-content/uploads/2020/08/NuORDER_byLightspeed_BlackRGB_Horizontal_NuOrder_Black_Horizontal_NuOrder_Black_Horizontal-1.svg\" class=\"attachment-full size-full wp-image-6373\" alt=\"\">\t\t\t\t</a>",
+          "target": [
+            ".elementor-element-50fdab3 > .elementor-widget-container > a[href$=\"www.nuorder.com\"]"
+          ],
+          "failureSummary": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element does not have text that is visible to screen readers"
+            },
+            {
+              "id": "aria-label",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "aria-label attribute does not exist or is empty"
+            },
+            {
+              "id": "aria-labelledby",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty"
+            },
+            {
+              "id": "non-empty-title",
+              "data": {
+                "messageKey": "noAttr"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has no title attribute"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is in tab order and does not have accessible text"
+            }
+          ],
+          "impact": "serious",
+          "html": "<a class=\"elementor-icon elementor-social-icon elementor-social-icon- elementor-repeater-item-dc10550\" href=\"https://twitter.com/NuORDER\" target=\"_blank\">",
+          "target": [
+            ".elementor-element-7d4e60d > .elementor-widget-container > .elementor-social-icons-wrapper.elementor-grid > .elementor-grid-item:nth-child(2) > .elementor-social-icon-.elementor-repeater-item-dc10550[href$=\"NuORDER\"]"
+          ],
+          "failureSummary": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+        }
+      ]
+    }
+  ]
+}

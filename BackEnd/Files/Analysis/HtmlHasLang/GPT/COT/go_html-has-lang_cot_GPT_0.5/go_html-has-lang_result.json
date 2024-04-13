@@ -1,0 +1,29 @@
+[
+  {
+    "analysisDetails": [
+      {
+        "model": "GPT"
+      },
+      {
+        "accessibility_type": "html-has-lang"
+      },
+      {
+        "prompt_technique": "cot"
+      },
+      {
+        "temperature": 0.5
+      }
+    ],
+    "accessbilityTestResult": {
+      "violationBeforeModification": 1,
+      "violationAfterModification": 0
+    },
+    "modelCorrections": [
+      {
+        "beforeModification": "<html><head></head><body></body></html>",
+        "afterModification": "<html> tag to specify the language of the content. This helps screen readers and other assistive technologies provide the correct language context to users.\n\n- Corrected HTML: <html lang=\"en\"><head></head><body></body></html>",
+        "rawOutput": "- Thought: To make the HTML accessible according to WCAG 2.1 guidelines, I need to add the \"lang\" attribute to the <html> tag to specify the language of the content. This helps screen readers and other assistive technologies provide the correct language context to users.\n\n- Corrected HTML: <html lang=\"en\"><head></head><body></body></html>"
+      }
+    ]
+  }
+]

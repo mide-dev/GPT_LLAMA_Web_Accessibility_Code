@@ -1,6 +1,7 @@
 // Import file system module
 const fs = require("fs");
 const cheerio = require("cheerio");
+const path = require("path");
 
 /**
  * This function saves data as a JSON file.
@@ -9,16 +10,30 @@ const cheerio = require("cheerio");
  * @param {string} filename The name of the file (without extension) where the data will be saved.
  * @returns {Promise<boolean>} A promise that resolves to true if the file was saved successfully, and false otherwise.
  */
-async function saveAsJSON(data, filename) {
-  // save data to file
-  fs.writeFile(`Files/${filename}.json`, data, "utf8", (err) => {
-    if (err) {
-      // If error, log the error and return false.
-      console.error("Error saving the file:", err);
-      return false;
-    }
-    // Return true if the file was saved successfully.
-    return true;
+
+// Async function to save data as JSON into a folder named after the domain.
+async function saveAsJSON(data, filename, domain) {
+  // Define the directory path using the domain name.
+  const dirPath = path.join("Files", domain);
+
+  // Check if the directory exists, if not create it.
+  if (!fs.existsSync(dirPath)) {
+    fs.mkdirSync(dirPath, { recursive: true });
+  }
+
+  // Define the full file path.
+  const filePath = path.join(dirPath, `${filename}.json`);
+
+  // Return a new Promise to handle the asynchronous writeFile operation.
+  return new Promise((resolve, reject) => {
+    fs.writeFile(filePath, data, "utf8", (err) => {
+      if (err) {
+        console.error("Error saving the file:", err);
+        reject(false); // Reject the Promise if an error occurs.
+      } else {
+        resolve(true); // Resolve the Promise successfully.
+      }
+    });
   });
 }
 
@@ -76,26 +91,43 @@ function extractDomainFromURL(siteurl) {
 }
 
 /**
- * This function extracts HTML elements from the given text input based on the specified selector.
- *
- * @param {string} inputText The text input containing HTML.
- * @param {string} elementSelector The selector for the HTML element(s) to extract.
- * @return {string[]} An array of strings, each being the outer HTML of a matched element.
+ * Extracts the HTML of the first element found in a text.
+ * @param {string} text The text containing the HTML to extract.
+ * @return {string} The HTML of the first element found, or an empty string if no elements are found.
  */
-function extractHtmlElement(inputText, elementSelector) {
-  const $ = cheerio.load(inputText);
-  const extractedElements = [];
+function extractHtmlElement(text) {
+  // Find the last occurrence of "```html"
+  const lastHtmlTagIndex = text.lastIndexOf("```html");
 
-  $(elementSelector).each(function () {
-    // If selector is parsing image HTML, Check if the img has a 'src' attribute before including it
-    if (elementSelector === "img" && $(this).attr("src")) {
-      extractedElements.push($.html(this));
+  let startIndex, endIndex;
+
+  if (lastHtmlTagIndex !== -1) {
+    // Find the end marker "```" after the last occurrence of "```html"
+    const endMarkerIndex = text.indexOf("```", lastHtmlTagIndex + 6); // +6 to move past "```html"
+
+    if (endMarkerIndex !== -1) {
+      // If the end marker is found, adjust the search for "<" after "```html" and ">" before the end marker
+      startIndex = text.indexOf("<", lastHtmlTagIndex);
+      endIndex = text.lastIndexOf(">", endMarkerIndex);
+    } else {
+      // If no closing "```" is found, revert to searching the whole text after "```html"
+      startIndex = text.indexOf("<", lastHtmlTagIndex);
+      endIndex = text.lastIndexOf(">");
     }
-  });
+  } else {
+    // If no "```html" is found, search the whole text
+    startIndex = text.indexOf("<");
+    endIndex = text.lastIndexOf(">");
+  }
 
-  return extractedElements;
+  // Check if both the start and end of an HTML element were found and in correct order
+  if (startIndex !== -1 && endIndex !== -1 && endIndex > startIndex) {
+    return text.substring(startIndex, endIndex + 1);
+  } else {
+    // Return an empty string if no valid HTML element is found
+    return "";
+  }
 }
-
 
 // Export functions.
 module.exports.extractDomainFromURL = extractDomainFromURL;

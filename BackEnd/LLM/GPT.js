@@ -3,7 +3,7 @@ const OpenAI = require("openai");
 
 // Initialize the OpenAI client
 const openai = new OpenAI({
-  apiKey: "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", // Note: Intentionally left the API key public.
+  apiKey: "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", // Note: Intentionally left the API key public.
 });
 
 /**
@@ -17,7 +17,7 @@ async function promptGPT(prompt, temperature) {
     // create a chat completion request
     const chatCompletion = await openai.chat.completions.create({
       messages: [{ role: "user", content: prompt }], // Define user's message
-      model: "gpt-3.5-turbo", // Specify the model to use
+      model: "gpt-4-0125-preview", // Specify the model to use
       max_tokens: 600, // Set maximum length of generated response
       temperature: temperature, // set temperature
     });

@@ -1,0 +1,234 @@
+[
+  {
+    "analysisDetails": [
+      {
+        "model": "GPT"
+      },
+      {
+        "accessibility_type": "color-contrast"
+      },
+      {
+        "prompt_technique": "fewShot"
+      },
+      {
+        "temperature": 0.5
+      }
+    ],
+    "accessbilityTestResult": {
+      "violationBeforeModification": 42,
+      "violationAfterModification": 0
+    },
+    "modelCorrections": [
+      {
+        "beforeModification": "<a href=\"https://www.fivestars.com/businesses/\" class=\"button button--secondary is-inverted-md-down\">Learn more</a>",
+        "afterModification": "<a href=\"https://www.fivestars.com/businesses/\" class=\"button button--secondary is-inverted-md-down\" style=\"color: #004400; background-color: #13ce66;\">Learn more</a>",
+        "rawOutput": "```html\n<a href=\"https://www.fivestars.com/businesses/\" class=\"button button--secondary is-inverted-md-down\" style=\"color: #004400; background-color: #13ce66;\">Learn more</a>\n```"
+      },
+      {
+        "beforeModification": "<a href=\"https://www.fivestars.com/businesses/\" class=\"button--link\">Join our community of local businesses</a>",
+        "afterModification": "<a href=\"https://www.fivestars.com/businesses/\" class=\"button--link\" style=\"color: #005a87;\">Join our community of local businesses</a>",
+        "rawOutput": "```html\n<a href=\"https://www.fivestars.com/businesses/\" class=\"button--link\" style=\"color: #005a87;\">Join our community of local businesses</a>\n```"
+      },
+      {
+        "beforeModification": "<a href=\"https://fivestars.app.link/1AUbJ1db3y\" class=\"button--link button--link--lg button--arrow u-mb4\" target=\"_blank\">Download our mobile app</a>",
+        "afterModification": "<a href=\"https://fivestars.app.link/1AUbJ1db3y\" class=\"button--link button--link--lg button--arrow u-mb4\" target=\"_blank\" style=\"color: #005A87; background-color: #ffffff;\">Download our mobile app</a>",
+        "rawOutput": "```html\n<a href=\"https://fivestars.app.link/1AUbJ1db3y\" class=\"button--link button--link--lg button--arrow u-mb4\" target=\"_blank\" style=\"color: #005A87; background-color: #ffffff;\">Download our mobile app</a>\n```"
+      },
+      {
+        "beforeModification": "<span id=\"sliderButtonFirst\" class=\"slider-button-span\">See a Demo</span>",
+        "afterModification": "<span id=\"sliderButtonFirst\" class=\"slider-button-span\" style=\"color: #000000; background-color: #13ce66;\">See a Demo</span>",
+        "rawOutput": "```html\n<span id=\"sliderButtonFirst\" class=\"slider-button-span\" style=\"color: #000000; background-color: #13ce66;\">See a Demo</span>\n```"
+      },
+      {
+        "beforeModification": "<a href=\"https://www.fivestars.com/\" aria-current=\"page\">For Members</a>",
+        "afterModification": "<a href=\"https://www.fivestars.com/\" aria-current=\"page\" style=\"color: #595959; font-weight: bold;\">For Members</a>",
+        "rawOutput": "```html\n<a href=\"https://www.fivestars.com/\" aria-current=\"page\" style=\"color: #595959; font-weight: bold;\">For Members</a>\n```"
+      },
+      {
+        "beforeModification": "<a target=\"_blank\" rel=\"noopener\" href=\"https://fivestars.com/accounts/login/\">Sign In</a>",
+        "afterModification": "<a target=\"_blank\" rel=\"noopener\" href=\"https://fivestars.com/accounts/login/\" style=\"color: #575757; background-color: #f3f3f3;\">Sign In</a>",
+        "rawOutput": "```html\n<a target=\"_blank\" rel=\"noopener\" href=\"https://fivestars.com/accounts/login/\" style=\"color: #575757; background-color: #f3f3f3;\">Sign In</a>\n```"
+      },
+      {
+        "beforeModification": "<a href=\"https://fivestars.com/business\">Rewards Directory</a>",
+        "afterModification": "<a href=\"https://fivestars.com/business\" style=\"color: #595959; background-color: #f3f3f3;\">Rewards Directory</a>",
+        "rawOutput": "```html\n<a href=\"https://fivestars.com/business\" style=\"color: #595959; background-color: #f3f3f3;\">Rewards Directory</a>\n```"
+      },
+      {
+        "beforeModification": "<a target=\"_blank\" rel=\"noopener\" href=\"https://Fivestars.app.link/H5xo4xAVWB\">Find Locations</a>",
+        "afterModification": "<a target=\"_blank\" rel=\"noopener\" href=\"https://Fivestars.app.link/H5xo4xAVWB\" style=\"color: #595959; background-color: #f3f3f3;\">Find Locations</a>",
+        "rawOutput": "```html\n<a target=\"_blank\" rel=\"noopener\" href=\"https://Fivestars.app.link/H5xo4xAVWB\" style=\"color: #595959; background-color: #f3f3f3;\">Find Locations</a>\n```"
+      },
+      {
+        "beforeModification": "<a href=\"https://Fivestars.app.link/S0FzIzbpcK\">Download App</a>",
+        "afterModification": "<a href=\"https://Fivestars.app.link/S0FzIzbpcK\" style=\"color: #595959;\">Download App</a>",
+        "rawOutput": "```html\n<a href=\"https://Fivestars.app.link/S0FzIzbpcK\" style=\"color: #595959;\">Download App</a>\n```"
+      },
+      {
+        "beforeModification": "<a href=\"https://www.fivestars.com/partners/\">Partners</a>",
+        "afterModification": "<a href=\"https://www.fivestars.com/partners/\" style=\"color: #575757; background-color: #f3f3f3;\">Partners</a>",
+        "rawOutput": "```html\n<a href=\"https://www.fivestars.com/partners/\" style=\"color: #575757; background-color: #f3f3f3;\">Partners</a>\n```"
+      },
+      {
+        "beforeModification": "<a href=\"https://help.sumup.com/en-US\">Support</a>",
+        "afterModification": "<a href=\"https://help.sumup.com/en-US\" style=\"color: #595959;\">Support</a>",
+        "rawOutput": "```html\n<a href=\"https://help.sumup.com/en-US\" style=\"color: #595959;\">Support</a>\n```"
+      },
+      {
+        "beforeModification": "<a href=\"https://www.fivestars.com/businesses/\">For Businesses</a>",
+        "afterModification": "<a href=\"https://www.fivestars.com/businesses/\" style=\"color: #595959; font-weight: bold;\">For Businesses</a>",
+        "rawOutput": "```html\n<a href=\"https://www.fivestars.com/businesses/\" style=\"color: #595959; font-weight: bold;\">For Businesses</a>\n```"
+      },
+      {
+        "beforeModification": "<a href=\"https://www.fivestars.com/businesses/loyalty/\">Why Loyalty</a>",
+        "afterModification": "<a href=\"https://www.fivestars.com/businesses/loyalty/\" style=\"color: #595959;\">Why Loyalty</a>",
+        "rawOutput": "```html\n<a href=\"https://www.fivestars.com/businesses/loyalty/\" style=\"color: #595959;\">Why Loyalty</a>\n```"
+      },
+      {
+        "beforeModification": "<a href=\"https://www.fivestars.com/businesses/how-it-works/\">How It Works</a>",
+        "afterModification": "<a href=\"https://www.fivestars.com/businesses/how-it-works/\" style=\"color: #595959;\">How It Works</a>",
+        "rawOutput": "```html\n<a href=\"https://www.fivestars.com/businesses/how-it-works/\" style=\"color: #595959;\">How It Works</a>\n```"
+      },
+      {
+        "beforeModification": "<a href=\"https://www.fivestars.com/businesses/pricing/\">Pricing</a>",
+        "afterModification": "<a href=\"https://www.fivestars.com/businesses/pricing/\" style=\"color: #595959;\">Pricing</a>",
+        "rawOutput": "```html\n<a href=\"https://www.fivestars.com/businesses/pricing/\" style=\"color: #595959;\">Pricing</a>\n```"
+      },
+      {
+        "beforeModification": "<a href=\"https://www.fivestars.com/enterprise/\">Enterprise &amp; Franchise</a>",
+        "afterModification": "<a href=\"https://www.fivestars.com/enterprise/\" style=\"color: #595959;\">Enterprise &amp; Franchise</a>",
+        "rawOutput": "```html\n<a href=\"https://www.fivestars.com/enterprise/\" style=\"color: #595959;\">Enterprise &amp; Franchise</a>\n```"
+      },
+      {
+        "beforeModification": "<a target=\"_blank\" rel=\"noopener\" href=\"https://blog.Fivestars.com\">Marketing 101</a>",
+        "afterModification": "<a target=\"_blank\" rel=\"noopener\" href=\"https://blog.Fivestars.com\" style=\"color: #595959;\">Marketing 101</a>",
+        "rawOutput": "```html\n<a target=\"_blank\" rel=\"noopener\" href=\"https://blog.Fivestars.com\" style=\"color: #595959;\">Marketing 101</a>\n```"
+      },
+      {
+        "beforeModification": "<a target=\"_blank\" rel=\"noopener\" href=\"https://dashboard.Fivestars.com\">Dashboard Login</a>",
+        "afterModification": "<a target=\"_blank\" rel=\"noopener\" href=\"https://dashboard.Fivestars.com\" style=\"color: #575757;\">Dashboard Login</a>",
+        "rawOutput": "```html\n<a target=\"_blank\" rel=\"noopener\" href=\"https://dashboard.Fivestars.com\" style=\"color: #575757;\">Dashboard Login</a>\n```"
+      },
+      {
+        "beforeModification": "<a target=\"_blank\" rel=\"noopener\" href=\"https://business-support.Fivestars.com/s/\">Business Support</a>",
+        "afterModification": "<a target=\"_blank\" rel=\"noopener\" href=\"https://business-support.Fivestars.com/s/\" style=\"color: #595959;\">Business Support</a>",
+        "rawOutput": "```html\n<a target=\"_blank\" rel=\"noopener\" href=\"https://business-support.Fivestars.com/s/\" style=\"color: #595959;\">Business Support</a>\n```"
+      },
+      {
+        "beforeModification": "<a href=\"https://www.fivestars.com/products/\">Our Products</a>",
+        "afterModification": "<a href=\"https://www.fivestars.com/products/\" style=\"color: #575757; font-weight: bold; background-color: #f3f3f3;\">Our Products</a>",
+        "rawOutput": "```html\n<a href=\"https://www.fivestars.com/products/\" style=\"color: #575757; font-weight: bold; background-color: #f3f3f3;\">Our Products</a>\n```"
+      },
+      {
+        "beforeModification": "<a href=\"https://www.fivestars.com/products/customer-acquisition/\">Customer Acquisition</a>",
+        "afterModification": "<a href=\"https://www.fivestars.com/products/customer-acquisition/\" style=\"color: #595959; background-color: #f3f3f3;\">Customer Acquisition</a>",
+        "rawOutput": "```html\n<a href=\"https://www.fivestars.com/products/customer-acquisition/\" style=\"color: #595959; background-color: #f3f3f3;\">Customer Acquisition</a>\n```"
+      },
+      {
+        "beforeModification": "<a href=\"https://www.fivestars.com/products/loyalty-retention/\">Loyalty and Retention</a>",
+        "afterModification": "<a href=\"https://www.fivestars.com/products/loyalty-retention/\" style=\"color: #595959;\">Loyalty and Retention</a>",
+        "rawOutput": "```html\n<a href=\"https://www.fivestars.com/products/loyalty-retention/\" style=\"color: #595959;\">Loyalty and Retention</a>\n```"
+      },
+      {
+        "beforeModification": "<a href=\"https://www.fivestars.com/products/marketing-automation/\">Marketing Automation</a>",
+        "afterModification": "<a href=\"https://www.fivestars.com/products/marketing-automation/\" style=\"color: #575757;\">Marketing Automation</a>",
+        "rawOutput": "```html\n<a href=\"https://www.fivestars.com/products/marketing-automation/\" style=\"color: #575757;\">Marketing Automation</a>\n```"
+      },
+      {
+        "beforeModification": "<a href=\"https://www.fivestars.com/products/promotions/\">Promotions</a>",
+        "afterModification": "<a href=\"https://www.fivestars.com/products/promotions/\" style=\"color: #575757;\">Promotions</a>",
+        "rawOutput": "```html\n<a href=\"https://www.fivestars.com/products/promotions/\" style=\"color: #575757;\">Promotions</a>\n```"
+      },
+      {
+        "beforeModification": "<a href=\"https://www.fivestars.com/products/love-local-network/\">Love Local Network</a>",
+        "afterModification": "<a href=\"https://www.fivestars.com/products/love-local-network/\" style=\"color: #595959; background-color: #f3f3f3;\">Love Local Network</a>",
+        "rawOutput": "```html\n<a href=\"https://www.fivestars.com/products/love-local-network/\" style=\"color: #595959; background-color: #f3f3f3;\">Love Local Network</a>\n```"
+      },
+      {
+        "beforeModification": "<a href=\"https://www.fivestars.com/products/clover-rewards-app/\">Clover Rewards App</a>",
+        "afterModification": "<a href=\"https://www.fivestars.com/products/clover-rewards-app/\" style=\"color: #595959;\">Clover Rewards App</a>",
+        "rawOutput": "```html\n<a href=\"https://www.fivestars.com/products/clover-rewards-app/\" style=\"color: #595959;\">Clover Rewards App</a>\n```"
+      },
+      {
+        "beforeModification": "<a href=\"https://www.fivestars.com/small-business-marketing/apparel/\">Business Solutions</a>",
+        "afterModification": "<a href=\"https://www.fivestars.com/small-business-marketing/apparel/\" style=\"color: #595959; font-weight: bold;\">Business Solutions</a>",
+        "rawOutput": "```html\n<a href=\"https://www.fivestars.com/small-business-marketing/apparel/\" style=\"color: #595959; font-weight: bold;\">Business Solutions</a>\n```"
+      },
+      {
+        "beforeModification": "<a href=\"https://www.fivestars.com/small-business-marketing/apparel/\">Apparel</a>",
+        "afterModification": "<a href=\"https://www.fivestars.com/small-business-marketing/apparel/\" style=\"color: #595959;\">Apparel</a>",
+        "rawOutput": "```html\n<a href=\"https://www.fivestars.com/small-business-marketing/apparel/\" style=\"color: #595959;\">Apparel</a>\n```"
+      },
+      {
+        "beforeModification": "<a href=\"https://www.fivestars.com/small-business-marketing/bakery/\">Bakery</a>",
+        "afterModification": "<a href=\"https://www.fivestars.com/small-business-marketing/bakery/\" style=\"color: #595959;\">Bakery</a>",
+        "rawOutput": "```html\n<a href=\"https://www.fivestars.com/small-business-marketing/bakery/\" style=\"color: #595959;\">Bakery</a>\n```"
+      },
+      {
+        "beforeModification": "<a href=\"https://www.fivestars.com/small-business-marketing/coffee/\">Coffee</a>",
+        "afterModification": "<a href=\"https://www.fivestars.com/small-business-marketing/coffee/\" style=\"color: #595959;\">Coffee</a>",
+        "rawOutput": "```html\n<a href=\"https://www.fivestars.com/small-business-marketing/coffee/\" style=\"color: #595959;\">Coffee</a>\n```"
+      },
+      {
+        "beforeModification": "<a href=\"https://www.fivestars.com/small-business-marketing/restaurant/\">Restaurant</a>",
+        "afterModification": "<a href=\"https://www.fivestars.com/small-business-marketing/restaurant/\" style=\"color: #575757;\">Restaurant</a>",
+        "rawOutput": "```html\n<a href=\"https://www.fivestars.com/small-business-marketing/restaurant/\" style=\"color: #575757;\">Restaurant</a>\n```"
+      },
+      {
+        "beforeModification": "<a href=\"https://www.fivestars.com/small-business-marketing/retail/\">Retail</a>",
+        "afterModification": "<a href=\"https://www.fivestars.com/small-business-marketing/retail/\" style=\"color: #575757;\">Retail</a>",
+        "rawOutput": "```html\n<a href=\"https://www.fivestars.com/small-business-marketing/retail/\" style=\"color: #575757;\">Retail</a>\n```"
+      },
+      {
+        "beforeModification": "<a href=\"https://www.fivestars.com/small-business-marketing/salon/\">Salon</a>",
+        "afterModification": "<a href=\"https://www.fivestars.com/small-business-marketing/salon/\" style=\"color: #595959;\">Salon</a>",
+        "rawOutput": "```html\n<a href=\"https://www.fivestars.com/small-business-marketing/salon/\" style=\"color: #595959;\">Salon</a>\n```"
+      },
+      {
+        "beforeModification": "<a href=\"https://www.fivestars.com/small-business-marketing/spa/\">Spa</a>",
+        "afterModification": "<a href=\"https://www.fivestars.com/small-business-marketing/spa/\" style=\"color: #595959;\">Spa</a>",
+        "rawOutput": "```html\n<a href=\"https://www.fivestars.com/small-business-marketing/spa/\" style=\"color: #595959;\">Spa</a>\n```"
+      },
+      {
+        "beforeModification": "<a href=\"https://www.fivestars.com/about-us/\">Company</a>",
+        "afterModification": "<a href=\"https://www.fivestars.com/about-us/\" style=\"color: #595959; font-weight: bold;\">Company</a>",
+        "rawOutput": "```html\n<a href=\"https://www.fivestars.com/about-us/\" style=\"color: #595959; font-weight: bold;\">Company</a>\n```"
+      },
+      {
+        "beforeModification": "<a href=\"https://www.fivestars.com/about-us/\">About Us</a>",
+        "afterModification": "<a href=\"https://www.fivestars.com/about-us/\" style=\"color: #595959;\">About Us</a>",
+        "rawOutput": "```html\n<a href=\"https://www.fivestars.com/about-us/\" style=\"color: #595959;\">About Us</a>\n```"
+      },
+      {
+        "beforeModification": "<a href=\"https://www.fivestars.com/about-us/new-chapter-for-fivestars/\">New Chapter</a>",
+        "afterModification": "<a href=\"https://www.fivestars.com/about-us/new-chapter-for-fivestars/\" style=\"color: #595959;\">New Chapter</a>",
+        "rawOutput": "```html\n<a href=\"https://www.fivestars.com/about-us/new-chapter-for-fivestars/\" style=\"color: #595959;\">New Chapter</a>\n```"
+      },
+      {
+        "beforeModification": "<a href=\"https://www.fivestars.com/careers/\">Careers</a>",
+        "afterModification": "<a href=\"https://www.fivestars.com/careers/\" style=\"color: #595959;\">Careers</a>",
+        "rawOutput": "```html\n<a href=\"https://www.fivestars.com/careers/\" style=\"color: #595959;\">Careers</a>\n```"
+      },
+      {
+        "beforeModification": "<a href=\"https://www.fivestars.com/careers/engineering/\">Engineering @ Fivestars</a>",
+        "afterModification": "<a href=\"https://www.fivestars.com/careers/engineering/\" style=\"color: #595959;\">Engineering @ Fivestars</a>",
+        "rawOutput": "```html\n<a href=\"https://www.fivestars.com/careers/engineering/\" style=\"color: #595959;\">Engineering @ Fivestars</a>\n```"
+      },
+      {
+        "beforeModification": "<a href=\"https://blog.Fivestars.com/in-the-press/\">Press</a>",
+        "afterModification": "<a href=\"https://blog.Fivestars.com/in-the-press/\" style=\"color: #595959;\">Press</a>",
+        "rawOutput": "```html\n<a href=\"https://blog.Fivestars.com/in-the-press/\" style=\"color: #595959;\">Press</a>\n```"
+      },
+      {
+        "beforeModification": "<a href=\"https://www.fivestars.com/legal/\">Terms</a>",
+        "afterModification": "<a href=\"https://www.fivestars.com/legal/\" style=\"color: #595959;\">Terms</a>",
+        "rawOutput": "```html\n<a href=\"https://www.fivestars.com/legal/\" style=\"color: #595959;\">Terms</a>\n```"
+      },
+      {
+        "beforeModification": "<a href=\"https://www.fivestars.com/privacy/\">Privacy Policy</a>",
+        "afterModification": "<a href=\"https://www.fivestars.com/privacy/\" style=\"color: #595959;\">Privacy Policy</a>",
+        "rawOutput": "```html\n<a href=\"https://www.fivestars.com/privacy/\" style=\"color: #595959;\">Privacy Policy</a>\n```"
+      }
+    ]
+  }
+]

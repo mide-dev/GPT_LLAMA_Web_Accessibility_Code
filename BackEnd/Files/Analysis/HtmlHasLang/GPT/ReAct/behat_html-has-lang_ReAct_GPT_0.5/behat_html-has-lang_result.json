@@ -1,0 +1,29 @@
+[
+  {
+    "analysisDetails": [
+      {
+        "model": "GPT"
+      },
+      {
+        "accessibility_type": "html-has-lang"
+      },
+      {
+        "prompt_technique": "ReAct"
+      },
+      {
+        "temperature": 0.5
+      }
+    ],
+    "accessbilityTestResult": {
+      "violationBeforeModification": 1,
+      "violationAfterModification": 0
+    },
+    "modelCorrections": [
+      {
+        "beforeModification": "<html>",
+        "afterModification": "<html lang=\"en\">",
+        "rawOutput": "- Thought: The given HTML lacks a \"lang\" attribute which is necessary for defining the language of the content in the document. This helps in accessibility, especially for screen readers, by allowing them to correctly pronounce content based on the specified language.\n\n- Action: Add `lang=\"en\"` to the HTML assuming the content is in English. If the content is in another language, the appropriate language code should be used instead.\n\n- Corrected HTML: `<html lang=\"en\">`"
+      }
+    ]
+  }
+]

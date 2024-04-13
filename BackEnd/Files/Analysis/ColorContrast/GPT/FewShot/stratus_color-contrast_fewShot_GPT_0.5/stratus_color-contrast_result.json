@@ -1,0 +1,94 @@
+[
+  {
+    "analysisDetails": [
+      {
+        "model": "GPT"
+      },
+      {
+        "accessibility_type": "color-contrast"
+      },
+      {
+        "prompt_technique": "fewShot"
+      },
+      {
+        "temperature": 0.5
+      }
+    ],
+    "accessbilityTestResult": {
+      "violationBeforeModification": 14,
+      "violationAfterModification": 8
+    },
+    "modelCorrections": [
+      {
+        "beforeModification": "<a id=\"slider-51-slide-46-layer-80\" class=\"rs-layer rs-layer-static\" href=\"#Default\" target=\"_self\" rel=\"nofollow\" data-type=\"text\" data-rsp_ch=\"on\" data-xy=\"x:l,l,c,c;xo:631px,573px,222px,152px;y:b;yo:35px,50px,98px,92px;\" data-text=\"w:normal;s:20,18,16,12;l:25,20,15,9;a:center;\" data-dim=\"w:100px,80px,76px,65px;\" data-basealign=\"slide\" data-onslides=\"s:1;\" data-frame_999=\"o:0;st:w;\" style=\"z-index: 21; font-family: Roboto; height: auto; color: rgb(255, 255, 255); text-decoration: none; white-space: normal; width: 63px; min-height: 0px; min-width: 0px; max-height: none; max-width: none; text-align: center; line-height: 16px; letter-spacing: 0px; font-weight: 600; font-size: 14px; backdrop-filter: none; filter: none; transform-origin: 50% 50%; opacity: 1; transform: translate(0px, 0px); visibility: visible;\" data-startslide=\"1\" data-endslide=\"5\" data-idcheck=\"true\" data-stylerecorder=\"true\" data-initialised=\"true\">",
+        "afterModification": "<a id=\"slider-51-slide-46-layer-80\" class=\"rs-layer rs-layer-static\" href=\"#Default\" target=\"_self\" rel=\"nofollow\" data-type=\"text\" data-rsp_ch=\"on\" data-xy=\"x:l,l,c,c;xo:631px,573px,222px,152px;y:b;yo:35px,50px,98px,92px;\" data-text=\"w:normal;s:20,18,16,12;l:25,20,15,9;a:center;\" data-dim=\"w:100px,80px,76px,65px;\" data-basealign=\"slide\" data-onslides=\"s:1;\" data-frame_999=\"o:0;st:w;\" style=\"z-index: 21; font-family: Roboto; height: auto; color: #000000; text-decoration: none; white-space: normal; width: 63px; min-height: 0px; min-width: 0px; max-height: none; max-width: none; text-align: center; line-height: 16px; letter-spacing: 0px; font-weight: 600; font-size: 14px; backdrop-filter: none; filter: none; transform-origin: 50% 50%; opacity: 1; transform: translate(0px, 0px); visibility: visible; background-color: #5b9fc8;\" data-startslide=\"1\" data-endslide=\"5\" data-idcheck=\"true\" data-stylerecorder=\"true\" data-initialised=\"true\">",
+        "rawOutput": "```html\n<a id=\"slider-51-slide-46-layer-80\" class=\"rs-layer rs-layer-static\" href=\"#Default\" target=\"_self\" rel=\"nofollow\" data-type=\"text\" data-rsp_ch=\"on\" data-xy=\"x:l,l,c,c;xo:631px,573px,222px,152px;y:b;yo:35px,50px,98px,92px;\" data-text=\"w:normal;s:20,18,16,12;l:25,20,15,9;a:center;\" data-dim=\"w:100px,80px,76px,65px;\" data-basealign=\"slide\" data-onslides=\"s:1;\" data-frame_999=\"o:0;st:w;\" style=\"z-index: 21; font-family: Roboto; height: auto; color: #000000; text-decoration: none; white-space: normal; width: 63px; min-height: 0px; min-width: 0px; max-height: none; max-width: none; text-align: center; line-height: 16px; letter-spacing: 0px; font-weight: 600; font-size: 14px; backdrop-filter: none; filter: none; transform-origin: 50% 50%; opacity: 1; transform: translate(0px, 0px); visibility: visible; background-color: #5b9fc8;\" data-startslide=\"1\" data-endslide=\"5\" data-idcheck=\"true\" data-stylerecorder=\"true\" data-initialised=\"true\">\n```"
+      },
+      {
+        "beforeModification": "<a id=\"slider-51-slide-46-layer-81\" class=\"rs-layer rs-layer-static\" href=\"#book-a-demo\" target=\"_self\" rel=\"nofollow\" data-type=\"text\" data-rsp_ch=\"on\" data-xy=\"x:l,l,c,c;xo:386px,349px,0,0;y:b;yo:35px,50px,98px,92px;\" data-text=\"w:normal;s:20,18,16,12;l:25,20,15,9;a:center;\" data-dim=\"w:100px,80px,62px,37px;\" data-basealign=\"slide\" data-onslides=\"s:1;\" data-frame_999=\"o:0;st:w;\" style=\"z-index: 20; font-family: Roboto; height: auto; color: rgb(255, 255, 255); text-decoration: none; white-space: normal; width: 63px; min-height: 0px; min-width: 0px; max-height: none; max-width: none; text-align: center; line-height: 16px; letter-spacing: 0px; font-weight: 600; font-size: 14px; backdrop-filter: none; filter: none; transform-origin: 50% 50%; opacity: 1; transform: translate(0px, 0px); visibility: visible;\" data-startslide=\"1\" data-endslide=\"5\" data-idcheck=\"true\" data-stylerecorder=\"true\" data-initialised=\"true\">",
+        "afterModification": "<a id=\"slider-51-slide-46-layer-81\" class=\"rs-layer rs-layer-static\" href=\"#book-a-demo\" target=\"_self\" rel=\"nofollow\" data-type=\"text\" data-rsp_ch=\"on\" data-xy=\"x:l,l,c,c;xo:386px,349px,0,0;y:b;yo:35px,50px,98px,92px;\" data-text=\"w:normal;s:20,18,16,12;l:25,20,15,9;a:center;\" data-dim=\"w:100px,80px,62px,37px;\" data-basealign=\"slide\" data-onslides=\"s:1;\" data-frame_999=\"o:0;st:w;\" style=\"z-index: 20; font-family: Roboto; height: auto; color: #000000; text-decoration: none; white-space: normal; width: 63px; min-height: 0px; min-width: 0px; max-height: none; max-width: none; text-align: center; line-height: 16px; letter-spacing: 0px; font-weight: 600; font-size: 14px; backdrop-filter: none; filter: none; transform-origin: 50% 50%; opacity: 1; transform: translate(0px, 0px); visibility: visible; background-color: #5b9fc8;\" data-startslide=\"1\" data-endslide=\"5\" data-idcheck=\"true\" data-stylerecorder=\"true\" data-initialised=\"true\">",
+        "rawOutput": "```html\n<a id=\"slider-51-slide-46-layer-81\" class=\"rs-layer rs-layer-static\" href=\"#book-a-demo\" target=\"_self\" rel=\"nofollow\" data-type=\"text\" data-rsp_ch=\"on\" data-xy=\"x:l,l,c,c;xo:386px,349px,0,0;y:b;yo:35px,50px,98px,92px;\" data-text=\"w:normal;s:20,18,16,12;l:25,20,15,9;a:center;\" data-dim=\"w:100px,80px,62px,37px;\" data-basealign=\"slide\" data-onslides=\"s:1;\" data-frame_999=\"o:0;st:w;\" style=\"z-index: 20; font-family: Roboto; height: auto; color: #000000; text-decoration: none; white-space: normal; width: 63px; min-height: 0px; min-width: 0px; max-height: none; max-width: none; text-align: center; line-height: 16px; letter-spacing: 0px; font-weight: 600; font-size: 14px; backdrop-filter: none; filter: none; transform-origin: 50% 50%; opacity: 1; transform: translate(0px, 0px); visibility: visible; background-color: #5b9fc8;\" data-startslide=\"1\" data-endslide=\"5\" data-idcheck=\"true\" data-stylerecorder=\"true\" data-initialised=\"true\">\n```"
+      },
+      {
+        "beforeModification": "<a id=\"slider-51-slide-46-layer-84\" class=\"rs-layer rs-layer-static\" href=\"#get-a-quote\" target=\"_self\" rel=\"nofollow\" data-type=\"text\" data-rsp_ch=\"on\" data-xy=\"x:l,l,c,c;xo:143px,141px,-243px,-162px;y:b;yo:35px,50px,98px,92px;\" data-text=\"w:normal;s:20,18,16,12;l:25,20,15,9;a:center;\" data-dim=\"w:100px,80px,62px,37px;\" data-basealign=\"slide\" data-onslides=\"s:1;\" data-frame_999=\"o:0;st:w;\" style=\"z-index: 19; font-family: Roboto; height: auto; color: rgb(255, 255, 255); text-decoration: none; white-space: normal; width: 63px; min-height: 0px; min-width: 0px; max-height: none; max-width: none; text-align: center; line-height: 16px; letter-spacing: 0px; font-weight: 600; font-size: 14px; backdrop-filter: none; filter: none; transform-origin: 50% 50%; opacity: 1; transform: translate(0px, 0px); visibility: visible;\" data-startslide=\"1\" data-endslide=\"5\" data-idcheck=\"true\" data-stylerecorder=\"true\" data-initialised=\"true\">",
+        "afterModification": "<a id=\"slider-51-slide-46-layer-84\" class=\"rs-layer rs-layer-static\" href=\"#get-a-quote\" target=\"_self\" rel=\"nofollow\" data-type=\"text\" data-rsp_ch=\"on\" data-xy=\"x:l,l,c,c;xo:143px,141px,-243px,-162px;y:b;yo:35px,50px,98px,92px;\" data-text=\"w:normal;s:20,18,16,12;l:25,20,15,9;a:center;\" data-dim=\"w:100px,80px,62px,37px;\" data-basealign=\"slide\" data-onslides=\"s:1;\" data-frame_999=\"o:0;st:w;\" style=\"z-index: 19; font-family: Roboto; height: auto; color: #004A7F; text-decoration: none; white-space: normal; width: 63px; min-height: 0px; min-width: 0px; max-height: none; max-width: none; text-align: center; line-height: 16px; letter-spacing: 0px; font-weight: 600; font-size: 14px; backdrop-filter: none; filter: none; transform-origin: 50% 50%; opacity: 1; transform: translate(0px, 0px); visibility: visible;\" data-startslide=\"1\" data-endslide=\"5\" data-idcheck=\"true\" data-stylerecorder=\"true\" data-initialised=\"true\">",
+        "rawOutput": "```html\n<a id=\"slider-51-slide-46-layer-84\" class=\"rs-layer rs-layer-static\" href=\"#get-a-quote\" target=\"_self\" rel=\"nofollow\" data-type=\"text\" data-rsp_ch=\"on\" data-xy=\"x:l,l,c,c;xo:143px,141px,-243px,-162px;y:b;yo:35px,50px,98px,92px;\" data-text=\"w:normal;s:20,18,16,12;l:25,20,15,9;a:center;\" data-dim=\"w:100px,80px,62px,37px;\" data-basealign=\"slide\" data-onslides=\"s:1;\" data-frame_999=\"o:0;st:w;\" style=\"z-index: 19; font-family: Roboto; height: auto; color: #004A7F; text-decoration: none; white-space: normal; width: 63px; min-height: 0px; min-width: 0px; max-height: none; max-width: none; text-align: center; line-height: 16px; letter-spacing: 0px; font-weight: 600; font-size: 14px; backdrop-filter: none; filter: none; transform-origin: 50% 50%; opacity: 1; transform: translate(0px, 0px); visibility: visible;\" data-startslide=\"1\" data-endslide=\"5\" data-idcheck=\"true\" data-stylerecorder=\"true\" data-initialised=\"true\">\n```"
+      },
+      {
+        "beforeModification": "<span style=\"color: #1e73be;\">Welcome, how close are you to the Edge?</span>",
+        "afterModification": "<span style=\"color: #1c71bc;\">Welcome, how close are you to the Edge?</span>",
+        "rawOutput": "```html\n<span style=\"color: #1c71bc;\">Welcome, how close are you to the Edge?</span>\n```"
+      },
+      {
+        "beforeModification": "<span style=\"color: #1e73be;\">Industries Optimizing the Edge</span>",
+        "afterModification": "<span style=\"color: #1c71bc; background-color: #dbf3ff;\">Industries Optimizing the Edge</span>",
+        "rawOutput": "```html\n<span style=\"color: #1c71bc; background-color: #dbf3ff;\">Industries Optimizing the Edge</span>\n```"
+      },
+      {
+        "beforeModification": "<h4>PARTNERS</h4>",
+        "afterModification": "<h4 style=\"color: #ffffff; background-color: #54585a;\">PARTNERS</h4>",
+        "rawOutput": "```html\n<h4 style=\"color: #ffffff; background-color: #54585a;\">PARTNERS</h4>\n```"
+      },
+      {
+        "beforeModification": "<h4>TOPICS</h4>",
+        "afterModification": "<h4 style=\"color: #ffffff; background-color: #54585a;\">TOPICS</h4>",
+        "rawOutput": "```html\n<h4 style=\"color: #fcb034; background-color: #54585a;\">TOPICS</h4>\n```\n\nTo correct the HTML for accessibility based on the WCAG 2.1 violation described, we need to adjust either the foreground or background color to achieve the expected contrast ratio of at least 4.5:1. Since the original violation does not specify which element the style applies to, we need to add inline styles directly to the `<h4>` tag. However, the provided incorrect HTML does not include style attributes for color or background color, which are necessary to address the contrast issue. Therefore, the corrected HTML should involve changing either the foreground (text) color or the background color to meet or exceed the minimum contrast ratio. Without changing the design intent (assuming the original intent was to use specific colors), we might not be able to correct this with the given colors (#fcb034 on #54585a) as they inherently do not meet the contrast ratio. \n\nA better approach to correct the accessibility issue would be to choose colors that maintain the design's aesthetic while meeting the contrast ratio requirement. Since the original colors do not meet the WCAG requirements and without specific alternative colors provided, a generalized correction would involve suggesting the need to adjust colors but cannot provide specific corrected HTML with the original colors.\n\nCorrected Approach (with a hypothetical color change to meet contrast requirements):\n\n```html\n<h4 style=\"color: #ffffff; background-color: #54585a;\">TOPICS</h4>\n```\n\nIn this corrected approach, I've changed the foreground color to white (#ffffff) while keeping the original background color. This change is made to illustrate the type of correction needed to meet the contrast ratio requirement, assuming the design can accommodate such a color change."
+      },
+      {
+        "beforeModification": "<h4>QUICK LINKS</h4>",
+        "afterModification": "<h4 style=\"color: #ffffff; background-color: #54585a;\">QUICK LINKS</h4>",
+        "rawOutput": "```html\n<h4 style=\"color: #ffffff; background-color: #54585a;\">QUICK LINKS</h4>\n```"
+      },
+      {
+        "beforeModification": "<div class=\"footer-copyright\"><b>5 Mill &amp; Main Place, Suite 500. Maynard, MA 01754, USA<span class=\"footer-phone\">Tel#: +1 978-461-7000</span></b><br>© 2024 Stratus Technologies. All Rights Reserved.</div>",
+        "afterModification": "<div class=\"footer-copyright\">\n  <b style=\"color: #000000;\">5 Mill &amp; Main Place, Suite 500. Maynard, MA 01754, USA\n    <span class=\"footer-phone\">Tel#: +1 978-461-7000</span>\n  </b><br>© 2024 Stratus Technologies. All Rights Reserved.\n</div>",
+        "rawOutput": "```html\n<div class=\"footer-copyright\">\n  <b style=\"color: #000000;\">5 Mill &amp; Main Place, Suite 500. Maynard, MA 01754, USA\n    <span class=\"footer-phone\">Tel#: +1 978-461-7000</span>\n  </b><br>© 2024 Stratus Technologies. All Rights Reserved.\n</div>\n```"
+      },
+      {
+        "beforeModification": "<b>5 Mill &amp; Main Place, Suite 500. Maynard, MA 01754, USA<span class=\"footer-phone\">Tel#: +1 978-461-7000</span></b>",
+        "afterModification": "<b style=\"color: #000000;\">5 Mill &amp; Main Place, Suite 500. Maynard, MA 01754, USA<span class=\"footer-phone\" style=\"color: #000000;\">Tel#: +1 978-461-7000</span></b>",
+        "rawOutput": "```html\n<b style=\"color: #000000;\">5 Mill &amp; Main Place, Suite 500. Maynard, MA 01754, USA<span class=\"footer-phone\" style=\"color: #000000;\">Tel#: +1 978-461-7000</span></b>\n```"
+      },
+      {
+        "beforeModification": "<span class=\"footer-phone\">Tel#: +1 978-461-7000</span>",
+        "afterModification": "<span class=\"footer-phone\" style=\"color: #ffffff; background-color: #4a4a4a;\">Tel#: +1 978-461-7000</span>",
+        "rawOutput": "```html\n<span class=\"footer-phone\" style=\"color: #ffffff; background-color: #4a4a4a;\">Tel#: +1 978-461-7000</span>\n```"
+      },
+      {
+        "beforeModification": "<a href=\"/about/company-information/privacy-policy/\" style=\"font-size:10px\">Privacy Policy</a>",
+        "afterModification": "<a href=\"/about/company-information/privacy-policy/\" style=\"font-size:10px; color:#000000;\">Privacy Policy</a>",
+        "rawOutput": "```html\n<a href=\"/about/company-information/privacy-policy/\" style=\"font-size:10px; color:#000000;\">Privacy Policy</a>\n```"
+      },
+      {
+        "beforeModification": "<a href=\"/services-support/customer-support/service-terms-and-conditions/\" style=\"padding: 0px 10px;font-size:10px\">Service Terms</a>",
+        "afterModification": "<a href=\"/services-support/customer-support/service-terms-and-conditions/\" style=\"padding: 0px 10px;font-size:10px; color: #000000;\">Service Terms</a>",
+        "rawOutput": "```html\n<a href=\"/services-support/customer-support/service-terms-and-conditions/\" style=\"padding: 0px 10px;font-size:10px; color: #000000;\">Service Terms</a>\n```"
+      },
+      {
+        "beforeModification": "<a href=\"/about/company-information/do-not-sell-or-share-information/\" style=\"font-size:10px\" target=\"_blank\"> Do Not Sell or Share My Personal Information</a>",
+        "afterModification": "<a href=\"/about/company-information/do-not-sell-or-share-information/\" style=\"font-size:10px; color:#000000;\" target=\"_blank\"> Do Not Sell or Share My Personal Information</a>",
+        "rawOutput": "```html\n<a href=\"/about/company-information/do-not-sell-or-share-information/\" style=\"font-size:10px; color:#000000;\" target=\"_blank\"> Do Not Sell or Share My Personal Information</a>\n```"
+      }
+    ]
+  }
+]

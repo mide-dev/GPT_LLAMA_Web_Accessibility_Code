@@ -1,0 +1,2213 @@
+{
+  "testEngine": {
+    "name": "axe-core",
+    "version": "4.8.4"
+  },
+  "testRunner": {
+    "name": "axe"
+  },
+  "testEnvironment": {
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/122.0.0.0 Safari/537.36",
+    "windowWidth": 800,
+    "windowHeight": 600,
+    "orientationAngle": 0,
+    "orientationType": "portrait-primary"
+  },
+  "timestamp": "2024-04-05T13:57:01.126Z",
+  "url": "https://www.fivestars.com/",
+  "toolOptions": {
+    "runOnly": {
+      "type": "rule",
+      "values": [
+        "color-contrast"
+      ]
+    },
+    "reporter": "v1"
+  },
+  "inapplicable": [],
+  "passes": [
+    {
+      "id": "color-contrast",
+      "impact": "serious",
+      "tags": [
+        "cat.color",
+        "wcag2aa",
+        "wcag143",
+        "TTv5",
+        "TT13.c",
+        "EN-301-549",
+        "EN-9.1.4.3",
+        "ACT"
+      ],
+      "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+      "help": "Elements must meet minimum color contrast ratio thresholds",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/color-contrast?application=axeAPI",
+      "nodes": [
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#212121",
+                "bgColor": "#ffffff",
+                "contrastRatio": 16.1,
+                "fontSize": "13.5pt (18px)",
+                "fontWeight": "bold",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 16.1"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<p class=\"cky-title\" role=\"heading\" aria-level=\"1\" data-cky-tag=\"title\" style=\"color: #212121;\"> We value your privacy </p>",
+          "target": [
+            ".cky-title"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#1863dc",
+                "bgColor": "#ffffff",
+                "contrastRatio": 5.44,
+                "fontSize": "10.5pt (14px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 5.44"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<button class=\"cky-btn cky-btn-customize\" aria-label=\"Customize\" data-cky-tag=\"settings-button\" style=\"color: #1863dc; border-color: #1863dc; background-color: transparent;\">Customize</button>",
+          "target": [
+            ".cky-btn-customize"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#1863dc",
+                "bgColor": "#ffffff",
+                "contrastRatio": 5.44,
+                "fontSize": "10.5pt (14px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 5.44"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<button class=\"cky-btn cky-btn-reject\" aria-label=\"Do Not Track\" data-cky-tag=\"reject-button\" style=\"color: #1863dc; border-color: #1863dc; background-color: transparent;\">Do Not Track</button>",
+          "target": [
+            "button[data-cky-tag=\"reject-button\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#ffffff",
+                "bgColor": "#1863dc",
+                "contrastRatio": 5.44,
+                "fontSize": "10.5pt (14px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 5.44"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<button class=\"cky-btn cky-btn-accept\" aria-label=\"Accept All\" data-cky-tag=\"accept-button\" style=\"color: #FFFFFF; border-color: #1863dc; background-color: #1863dc;\">Accept All</button>",
+          "target": [
+            "button[data-cky-tag=\"accept-button\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "messageKey": "hidden"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is hidden"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<input id=\"placesInput\" class=\"autocomplete\" placeholder=\"What's your company name?\">",
+          "target": [
+            "#top > .lead-form > .input-slider1 > .slider-input-div > .autocomplete[placeholder=\"What's your company name?\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "messageKey": "hidden"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is hidden"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<input id=\"NameInput\" placeholder=\"What's Your Name?\">",
+          "target": [
+            "#top > .lead-form > .input-slider2 > .slider-input-div > input[placeholder=\"What's Your Name?\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "messageKey": "hidden"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is hidden"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<input id=\"PhoneInput\" placeholder=\"What's Your Phone?\">",
+          "target": [
+            "#top > .lead-form > .input-slider3 > .slider-input-div > input[placeholder=\"What's Your Phone?\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "messageKey": "hidden"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is hidden"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<input id=\"PostalCodeInput\" placeholder=\"What's Your Zipcode ?\">",
+          "target": [
+            "#top > .lead-form > .input-slider5 > .slider-input-div > input[placeholder=\"What's Your Zipcode ?\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "messageKey": "hidden"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is hidden"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<input id=\"EmailInput\" type=\"email\" placeholder=\"What's Your Email?\">",
+          "target": [
+            "#top > .lead-form > .input-slider4 > .slider-input-div > input[type=\"email\"][placeholder=\"What's Your Email?\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#4c5e5e",
+                "bgColor": "#ffffff",
+                "contrastRatio": 6.84,
+                "fontSize": "13.5pt (18px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 6.84"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<p class=\"section__text \">Keep your business top-of-mind with texts, emails, and more. Fivestars is 10X more effective than traditional marketing.</p>",
+          "target": [
+            ".grid--home > .section__text--middle.u-size-1of2--md.grid__column > .section__content.u-text-center--md-down > .section__text"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#232e2e",
+                "bgColor": "#ffffff",
+                "contrastRatio": 13.98,
+                "fontSize": "24.0pt (32px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "3:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 13.98"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<h3 class=\"heading--section heading--normal heading--section--lg\"><a name=\"video\"></a>Tap into our network of 70 million people who shop local. </h3>",
+          "target": [
+            ".section__content--video > .heading--section--lg"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#4c5e5e",
+                "bgColor": "#ffffff",
+                "contrastRatio": 6.84,
+                "fontSize": "13.5pt (18px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 6.84"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<p class=\"section__text\">Did you know 1 in 6 Americans use Fivestars? Get discovered by millions of shoppers in our network of 12,000 businesses.</p>",
+          "target": [
+            ".section__content--video > .section__text"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#232e2e",
+                "bgColor": "#ffffff",
+                "contrastRatio": 13.98,
+                "fontSize": "17.3pt (23px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 13.98"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<h3 class=\"heading--section heading--normal \">Enjoy peace of mind with our flexible pricing options.</h3>",
+          "target": [
+            ".u-size-2of5--md > .section__content > h3"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#4c5e5e",
+                "bgColor": "#ffffff",
+                "contrastRatio": 6.84,
+                "fontSize": "13.5pt (18px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 6.84"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<p class=\"section__text u-mb1\">Fivestars has packages to fit the needs of your business. Talk to our team to find the right one for you. </p>",
+          "target": [
+            ".u-mb1.section__text"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#005a9c",
+                "bgColor": "#ffffff",
+                "contrastRatio": 7.13,
+                "fontSize": "13.5pt (18px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 7.13"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a href=\"https://www.fivestars.com/businesses/\" class=\"button--link\" style=\"color: #005a9c;\">Join our community of local businesses</a>",
+          "target": [
+            ".section__content > .button--link"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#232e2e",
+                "bgColor": "#ffffff",
+                "contrastRatio": 13.98,
+                "fontSize": "12.0pt (16px)",
+                "fontWeight": "bold",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 13.98"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<h6 class=\"heading--slide\">Twinkle Brown Sugar</h6>",
+          "target": [
+            ".slick-current > .heading--slide"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#4c5e5e",
+                "bgColor": "#ffffff",
+                "contrastRatio": 6.84,
+                "fontSize": "12.0pt (16px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 6.84"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<p class=\"u-text-small\">Los Angeles, CA</p>",
+          "target": [
+            ".slick-current > .u-text-small"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#232e2e",
+                "bgColor": "#ffffff",
+                "contrastRatio": 13.98,
+                "fontSize": "12.0pt (16px)",
+                "fontWeight": "bold",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 13.98"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<h6 class=\"heading--slide\">Lilac Spa</h6>",
+          "target": [
+            "a[data-slick-index=\"1\"] > .heading--slide"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#4c5e5e",
+                "bgColor": "#ffffff",
+                "contrastRatio": 6.84,
+                "fontSize": "12.0pt (16px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 6.84"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<p class=\"u-text-small\">New York, NY</p>",
+          "target": [
+            "a[data-slick-index=\"1\"] > .u-text-small"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#232e2e",
+                "bgColor": "#ffffff",
+                "contrastRatio": 13.98,
+                "fontSize": "36.0pt (48px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "3:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 13.98"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<h4 class=\"heading--normal heading--lg u-mb2\">Supporting local businesses</h4>",
+          "target": [
+            "h4"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#4c5e5e",
+                "bgColor": "#ffffff",
+                "contrastRatio": 6.84,
+                "fontSize": "13.5pt (18px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 6.84"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<p class=\"u-text-intro\">Over 70 million people use Fivestars to shop at and support the local businesses that make their communities great.</p>",
+          "target": [
+            ".u-text-center.wrapper > .u-text-intro"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#005a9c",
+                "bgColor": "#ffffff",
+                "contrastRatio": 7.13,
+                "fontSize": "15.0pt (20px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 7.13"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a href=\"https://fivestars.app.link/1AUbJ1db3y\" class=\"button--link button--link--lg button--arrow u-mb4\" target=\"_blank\" style=\"color: #005a9c;\">Download our mobile app</a>",
+          "target": [
+            ".button--link--lg"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#ffffff",
+                "bgColor": "#6b20ce",
+                "contrastRatio": 7.71,
+                "fontSize": "24.0pt (32px)",
+                "fontWeight": "bold",
+                "expectedContrastRatio": "3:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 7.71"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<h5 class=\"heading--section--lg u-text-white u-mb2 u-text-center\">Are you a local business owner?</h5>",
+          "target": [
+            ".wrapper > h5"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#ffffff",
+                "bgColor": "#6b20ce",
+                "contrastRatio": 7.71,
+                "fontSize": "13.5pt (18px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 7.71"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<p class=\"u-text-intro u-text-white u-text-normal u-text-center u-mb1\">We’re trusted by more than 12,000 local businesses to automatically bring in more customers and keep them coming back</p>",
+          "target": [
+            ".u-text-normal"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#4c5e5e",
+                "bgColor": "#ffffff",
+                "contrastRatio": 6.84,
+                "fontSize": "13.5pt (18px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 6.84"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<input id=\"placesInput\" class=\"autocomplete\" placeholder=\"What's your company name?\">",
+          "target": [
+            "#bottom > .lead-form > .input-slider1 > .slider-input-div > .autocomplete[placeholder=\"What's your company name?\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "messageKey": "hidden"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is hidden"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<input id=\"NameInput\" placeholder=\"What's Your Name?\">",
+          "target": [
+            "#bottom > .lead-form > .input-slider2 > .slider-input-div > input[placeholder=\"What's Your Name?\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "messageKey": "hidden"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is hidden"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<input id=\"PhoneInput\" placeholder=\"What's Your Phone?\">",
+          "target": [
+            "#bottom > .lead-form > .input-slider3 > .slider-input-div > input[placeholder=\"What's Your Phone?\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "messageKey": "hidden"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is hidden"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<input id=\"PostalCodeInput\" placeholder=\"What's Your Zipcode ?\">",
+          "target": [
+            "#bottom > .lead-form > .input-slider5 > .slider-input-div > input[placeholder=\"What's Your Zipcode ?\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "messageKey": "hidden"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is hidden"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<input id=\"EmailInput\" type=\"email\" placeholder=\"What's Your Email?\">",
+          "target": [
+            "#bottom > .lead-form > .input-slider4 > .slider-input-div > input[type=\"email\"][placeholder=\"What's Your Email?\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#575757",
+                "bgColor": "#f3f3f3",
+                "contrastRatio": 6.51,
+                "fontSize": "12.0pt (16px)",
+                "fontWeight": "bold",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 6.51"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a href=\"https://www.fivestars.com/\" aria-current=\"page\" style=\"color: #575757;\">For Members</a>",
+          "target": [
+            "#menu-item-445 > a[aria-current=\"page\"][href$=\"fivestars.com/\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#595959",
+                "bgColor": "#f3f3f3",
+                "contrastRatio": 6.31,
+                "fontSize": "12.0pt (16px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 6.31"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a target=\"_blank\" rel=\"noopener\" href=\"https://fivestars.com/accounts/login/\" style=\"color: #595959;\">Sign In</a>",
+          "target": [
+            "#menu-item-446 > a[rel=\"noopener\"][target=\"_blank\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#474747",
+                "bgColor": "#f3f3f3",
+                "contrastRatio": 8.37,
+                "fontSize": "12.0pt (16px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 8.37"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a href=\"https://fivestars.com/business\" style=\"color: #474747;\">Rewards Directory</a>",
+          "target": [
+            "a[href$=\"business\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#595959",
+                "bgColor": "#f3f3f3",
+                "contrastRatio": 6.31,
+                "fontSize": "12.0pt (16px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 6.31"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a target=\"_blank\" rel=\"noopener\" href=\"https://Fivestars.app.link/H5xo4xAVWB\" style=\"color: #595959;\">Find Locations</a>",
+          "target": [
+            "#menu-item-447 > a[rel=\"noopener\"][target=\"_blank\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#595959",
+                "bgColor": "#f3f3f3",
+                "contrastRatio": 6.31,
+                "fontSize": "12.0pt (16px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 6.31"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a href=\"https://Fivestars.app.link/S0FzIzbpcK\" style=\"color: #595959;\">Download App</a>",
+          "target": [
+            "#menu-item-899 > a"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#575757",
+                "bgColor": "#f3f3f3",
+                "contrastRatio": 6.51,
+                "fontSize": "12.0pt (16px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 6.51"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a href=\"https://www.fivestars.com/partners/\" style=\"color: #575757; background-color: #f3f3f3;\">Partners</a>",
+          "target": [
+            "#menu-item-1642 > a"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#595959",
+                "bgColor": "#f3f3f3",
+                "contrastRatio": 6.31,
+                "fontSize": "12.0pt (16px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 6.31"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a href=\"https://help.sumup.com/en-US\" style=\"color: #595959;\">Support</a>",
+          "target": [
+            "a[href$=\"en-US\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#595959",
+                "bgColor": "#f3f3f3",
+                "contrastRatio": 6.31,
+                "fontSize": "12.0pt (16px)",
+                "fontWeight": "bold",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 6.31"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a href=\"https://www.fivestars.com/businesses/\" style=\"color: #595959;\">For Businesses</a>",
+          "target": [
+            "#menu-item-55 > a"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#4c5e5e",
+                "bgColor": "#f3f3f3",
+                "contrastRatio": 6.16,
+                "fontSize": "13.5pt (18px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 6.16"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<li id=\"menu-item-56\" class=\"menu-item menu-item-type-post_type menu-item-object-page menu-item-56\"><a href=\"https://www.fivestars.com/businesses/loyalty/\" style=\"color: #575757;\">Why Loyalty</a>`\n\nThis correction involves directly adding an inline style attribute to the anchor (`<a></a></li>",
+          "target": [
+            "#menu-item-56"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#575757",
+                "bgColor": "#f3f3f3",
+                "contrastRatio": 6.51,
+                "fontSize": "12.0pt (16px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 6.51"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a href=\"https://www.fivestars.com/businesses/loyalty/\" style=\"color: #575757;\">Why Loyalty</a>",
+          "target": [
+            "#menu-item-56 > a:nth-child(1)"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#000000",
+                "bgColor": "#f3f3f3",
+                "contrastRatio": 18.92,
+                "fontSize": "12.0pt (16px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 18.92"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a href=\"https://www.fivestars.com/businesses/how-it-works/\" style=\"color: #000000; background-color: #f3f3f3;\">How It Works</a>",
+          "target": [
+            "#menu-item-57 > a"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#575757",
+                "bgColor": "#f3f3f3",
+                "contrastRatio": 6.51,
+                "fontSize": "12.0pt (16px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 6.51"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a href=\"https://www.fivestars.com/businesses/pricing/\" style=\"color: #575757;\">Pricing</a>",
+          "target": [
+            "#menu-item-58 > a"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#595959",
+                "bgColor": "#f3f3f3",
+                "contrastRatio": 6.31,
+                "fontSize": "12.0pt (16px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 6.31"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a href=\"https://www.fivestars.com/enterprise/\" style=\"color: #595959;\">Enterprise &amp; Franchise</a>",
+          "target": [
+            "#menu-item-1172 > a"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#595959",
+                "bgColor": "#f3f3f3",
+                "contrastRatio": 6.31,
+                "fontSize": "12.0pt (16px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 6.31"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a target=\"_blank\" rel=\"noopener\" href=\"https://blog.Fivestars.com\" style=\"color: #595959;\">Marketing 101</a>",
+          "target": [
+            "#menu-item-443 > a[href$=\"blog.Fivestars.com\"][rel=\"noopener\"][target=\"_blank\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#575757",
+                "bgColor": "#f3f3f3",
+                "contrastRatio": 6.51,
+                "fontSize": "12.0pt (16px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 6.51"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a target=\"_blank\" rel=\"noopener\" href=\"https://dashboard.Fivestars.com\" style=\"color: #575757;\">Dashboard Login</a>",
+          "target": [
+            "#menu-item-360 > a[rel=\"noopener\"][target=\"_blank\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#000000",
+                "bgColor": "#f3f3f3",
+                "contrastRatio": 18.92,
+                "fontSize": "12.0pt (16px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 18.92"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a target=\"_blank\" rel=\"noopener\" href=\"https://business-support.Fivestars.com/s/\" style=\"color: #000000; background-color: #f3f3f3;\">Business Support</a>",
+          "target": [
+            "#menu-item-444 > a[rel=\"noopener\"][target=\"_blank\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#595959",
+                "bgColor": "#f3f3f3",
+                "contrastRatio": 6.31,
+                "fontSize": "12.0pt (16px)",
+                "fontWeight": "bold",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 6.31"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a href=\"https://www.fivestars.com/products/\" style=\"color: #595959; background-color: #f3f3f3;\">Our Products</a>",
+          "target": [
+            "#menu-item-657 > a"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#595959",
+                "bgColor": "#f3f3f3",
+                "contrastRatio": 6.31,
+                "fontSize": "12.0pt (16px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 6.31"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a href=\"https://www.fivestars.com/products/customer-acquisition/\" style=\"color: #595959;\">Customer Acquisition</a>",
+          "target": [
+            "#menu-item-795 > a"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#474747",
+                "bgColor": "#f3f3f3",
+                "contrastRatio": 8.37,
+                "fontSize": "12.0pt (16px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 8.37"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a href=\"https://www.fivestars.com/products/loyalty-retention/\" style=\"color: #474747; background-color: #f3f3f3;\">Loyalty and Retention</a>",
+          "target": [
+            "#menu-item-662 > a"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#595959",
+                "bgColor": "#f3f3f3",
+                "contrastRatio": 6.31,
+                "fontSize": "12.0pt (16px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 6.31"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a href=\"https://www.fivestars.com/products/marketing-automation/\" style=\"color: #595959;\">Marketing Automation</a>",
+          "target": [
+            "#menu-item-661 > a"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#595959",
+                "bgColor": "#f3f3f3",
+                "contrastRatio": 6.31,
+                "fontSize": "12.0pt (16px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 6.31"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a href=\"https://www.fivestars.com/products/promotions/\" style=\"color: #595959;\">Promotions</a>",
+          "target": [
+            "#menu-item-660 > a"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#595959",
+                "bgColor": "#f3f3f3",
+                "contrastRatio": 6.31,
+                "fontSize": "12.0pt (16px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 6.31"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a href=\"https://www.fivestars.com/products/love-local-network/\" style=\"color: #595959;\">Love Local Network</a>",
+          "target": [
+            "#menu-item-658 > a:nth-child(2)"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#474747",
+                "bgColor": "#f3f3f3",
+                "contrastRatio": 8.37,
+                "fontSize": "12.0pt (16px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 8.37"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a href=\"https://www.fivestars.com/products/clover-rewards-app/\" style=\"color: #474747;\">Clover Rewards App</a>",
+          "target": [
+            "#menu-item-954 > a"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#595959",
+                "bgColor": "#f3f3f3",
+                "contrastRatio": 6.31,
+                "fontSize": "12.0pt (16px)",
+                "fontWeight": "bold",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 6.31"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a href=\"https://www.fivestars.com/small-business-marketing/apparel/\" style=\"color: #595959;\">Business Solutions</a>",
+          "target": [
+            "#menu-item-979 > a"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#595959",
+                "bgColor": "#f3f3f3",
+                "contrastRatio": 6.31,
+                "fontSize": "12.0pt (16px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 6.31"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a href=\"https://www.fivestars.com/small-business-marketing/apparel/\" style=\"color: #595959;\">Apparel</a>",
+          "target": [
+            "#menu-item-957 > a"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#595959",
+                "bgColor": "#f3f3f3",
+                "contrastRatio": 6.31,
+                "fontSize": "12.0pt (16px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 6.31"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a href=\"https://www.fivestars.com/small-business-marketing/bakery/\" style=\"color: #595959;\">Bakery</a>",
+          "target": [
+            "#menu-item-956 > a"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#595959",
+                "bgColor": "#f3f3f3",
+                "contrastRatio": 6.31,
+                "fontSize": "12.0pt (16px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 6.31"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a href=\"https://www.fivestars.com/small-business-marketing/coffee/\" style=\"color: #595959;\">Coffee</a>",
+          "target": [
+            "#menu-item-960 > a"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#595959",
+                "bgColor": "#f3f3f3",
+                "contrastRatio": 6.31,
+                "fontSize": "12.0pt (16px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 6.31"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a href=\"https://www.fivestars.com/small-business-marketing/restaurant/\" style=\"color: #595959;\">Restaurant</a>",
+          "target": [
+            "#menu-item-962 > a"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#575757",
+                "bgColor": "#f3f3f3",
+                "contrastRatio": 6.51,
+                "fontSize": "12.0pt (16px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 6.51"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a href=\"https://www.fivestars.com/small-business-marketing/retail/\" style=\"color: #575757; background-color: #f3f3f3;\">Retail</a>",
+          "target": [
+            "#menu-item-961 > a"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#595959",
+                "bgColor": "#f3f3f3",
+                "contrastRatio": 6.31,
+                "fontSize": "12.0pt (16px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 6.31"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a href=\"https://www.fivestars.com/small-business-marketing/salon/\" style=\"color: #595959;\">Salon</a>",
+          "target": [
+            "#menu-item-959 > a"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#595959",
+                "bgColor": "#f3f3f3",
+                "contrastRatio": 6.31,
+                "fontSize": "12.0pt (16px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 6.31"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a href=\"https://www.fivestars.com/small-business-marketing/spa/\" style=\"color: #595959;\">Spa</a>",
+          "target": [
+            "#menu-item-958 > a"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#595959",
+                "bgColor": "#f3f3f3",
+                "contrastRatio": 6.31,
+                "fontSize": "12.0pt (16px)",
+                "fontWeight": "bold",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 6.31"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a href=\"https://www.fivestars.com/about-us/\" style=\"color: #595959;\">Company</a>",
+          "target": [
+            "#menu-item-526 > a"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#595959",
+                "bgColor": "#f3f3f3",
+                "contrastRatio": 6.31,
+                "fontSize": "12.0pt (16px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 6.31"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a href=\"https://www.fivestars.com/about-us/\" style=\"color: #595959;\">About Us</a>",
+          "target": [
+            "#menu-item-901 > a"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#595959",
+                "bgColor": "#f3f3f3",
+                "contrastRatio": 6.31,
+                "fontSize": "12.0pt (16px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 6.31"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a href=\"https://www.fivestars.com/about-us/new-chapter-for-fivestars/\" style=\"color: #595959;\">New Chapter</a>",
+          "target": [
+            "#menu-item-1641 > a"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#595959",
+                "bgColor": "#f3f3f3",
+                "contrastRatio": 6.31,
+                "fontSize": "12.0pt (16px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 6.31"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a href=\"https://www.fivestars.com/careers/\" style=\"color: #595959;\">Careers</a>",
+          "target": [
+            "#menu-item-895 > a:nth-child(2)"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#575757",
+                "bgColor": "#f3f3f3",
+                "contrastRatio": 6.51,
+                "fontSize": "12.0pt (16px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 6.51"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a href=\"https://www.fivestars.com/careers/engineering/\" style=\"color: #575757;\">Engineering @ Fivestars</a>",
+          "target": [
+            "#menu-item-896 > a"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#595959",
+                "bgColor": "#f3f3f3",
+                "contrastRatio": 6.31,
+                "fontSize": "12.0pt (16px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 6.31"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a href=\"https://blog.Fivestars.com/in-the-press/\" style=\"color: #595959;\">Press</a>",
+          "target": [
+            "#menu-item-898 > a"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#575757",
+                "bgColor": "#f3f3f3",
+                "contrastRatio": 6.51,
+                "fontSize": "12.0pt (16px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 6.51"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a href=\"https://www.fivestars.com/legal/\" style=\"color: #575757;\">Terms</a>",
+          "target": [
+            "#menu-item-897 > a"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#575757",
+                "bgColor": "#f3f3f3",
+                "contrastRatio": 6.51,
+                "fontSize": "12.0pt (16px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 6.51"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a href=\"https://www.fivestars.com/privacy/\" style=\"color: #575757;\">Privacy Policy</a>",
+          "target": [
+            "#menu-item-1134 > a"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#333333",
+                "bgColor": "#f3f3f3",
+                "contrastRatio": 11.38,
+                "fontSize": "13.5pt (18px)",
+                "fontWeight": "bold",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 11.38"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<h6 class=\"heading--md u-hide--md-down\">We're social. Join us!</h6>",
+          "target": [
+            ".heading--md"
+          ]
+        }
+      ]
+    }
+  ],
+  "incomplete": [
+    {
+      "id": "color-contrast",
+      "impact": "serious",
+      "tags": [
+        "cat.color",
+        "wcag2aa",
+        "wcag143",
+        "TTv5",
+        "TT13.c",
+        "EN-301-549",
+        "EN-9.1.4.3",
+        "ACT"
+      ],
+      "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+      "help": "Elements must meet minimum color contrast ratio thresholds",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/color-contrast?application=axeAPI",
+      "nodes": [
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "contrastRatio": 0,
+                "fontSize": "10.5pt (14px)",
+                "fontWeight": "normal",
+                "messageKey": "elmPartiallyObscuring",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element's background color could not be determined because it partially overlaps other elements"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<p>We use cookies to enhance your browsing experience, serve personalized ads or content, and analyze our traffic. By clicking \"Accept All\", you consent to our use of cookies.</p>",
+          "target": [
+            ".cky-notice-des > p"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because it partially overlaps other elements"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "contrastRatio": 0,
+                "fontSize": "9.8pt (13px)",
+                "fontWeight": "normal",
+                "messageKey": "bgImage",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<div class=\"hero__bg lazyImg\" style=\"background-image: url(&quot;https://www.fivestars.com/wp-content/uploads/2020/08/1_Phase1_HomePageHero_1600x893.png&quot;);\"></div>",
+                  "target": [
+                    ".hero__bg"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element's background color could not be determined due to a background image"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<a href=\"https://www.fivestars.com/businesses/\">For Businesses</a>",
+          "target": [
+            "header:nth-child(6) > .wrapper > .nav--main > ul > .menu-item-18.menu-item-has-children.menu-item-type-post_type > a"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background image"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "contrastRatio": 0,
+                "fontSize": "9.8pt (13px)",
+                "fontWeight": "normal",
+                "messageKey": "bgImage",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<div class=\"hero__bg lazyImg\" style=\"background-image: url(&quot;https://www.fivestars.com/wp-content/uploads/2020/08/1_Phase1_HomePageHero_1600x893.png&quot;);\"></div>",
+                  "target": [
+                    ".hero__bg"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element's background color could not be determined due to a background image"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<a href=\"https://www.fivestars.com/products/\">Our Products</a>",
+          "target": [
+            "header:nth-child(6) > .wrapper > .nav--main > ul > .menu-item-796.menu-item-has-children.menu-item-type-post_type > a"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background image"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "contrastRatio": 0,
+                "fontSize": "9.8pt (13px)",
+                "fontWeight": "normal",
+                "messageKey": "bgImage",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<div class=\"hero__bg lazyImg\" style=\"background-image: url(&quot;https://www.fivestars.com/wp-content/uploads/2020/08/1_Phase1_HomePageHero_1600x893.png&quot;);\"></div>",
+                  "target": [
+                    ".hero__bg"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element's background color could not be determined due to a background image"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<a href=\"https://www.fivestars.com/about-us/\">About Us</a>",
+          "target": [
+            "header:nth-child(6) > .wrapper > .nav--main > ul > .menu-item-1590.menu-item-type-post_type.menu-item-object-page > a"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background image"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "contrastRatio": 0,
+                "fontSize": "9.8pt (13px)",
+                "fontWeight": "normal",
+                "messageKey": "bgImage",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<div class=\"hero__bg lazyImg\" style=\"background-image: url(&quot;https://www.fivestars.com/wp-content/uploads/2020/08/1_Phase1_HomePageHero_1600x893.png&quot;);\"></div>",
+                  "target": [
+                    ".hero__bg"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element's background color could not be determined due to a background image"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<a href=\"https://www.fivestars.com/partners/\">Partners</a>",
+          "target": [
+            "header:nth-child(6) > .wrapper > .nav--main > ul > .menu-item-1145.menu-item-type-post_type.menu-item-object-page > a"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background image"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "contrastRatio": 0,
+                "fontSize": "9.8pt (13px)",
+                "fontWeight": "normal",
+                "messageKey": "bgImage",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<div class=\"hero__bg lazyImg\" style=\"background-image: url(&quot;https://www.fivestars.com/wp-content/uploads/2020/08/1_Phase1_HomePageHero_1600x893.png&quot;);\"></div>",
+                  "target": [
+                    ".hero__bg"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element's background color could not be determined due to a background image"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<a target=\"_blank\" rel=\"noopener\" href=\"https://fivestars.com/locations\">Find Locations</a>",
+          "target": [
+            "header:nth-child(6) > .wrapper > .nav--main > ul > .menu-item-46.menu-item-type-custom.menu-item-object-custom > a[rel=\"noopener\"][target=\"_blank\"]"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background image"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "contrastRatio": 0,
+                "fontSize": "9.8pt (13px)",
+                "fontWeight": "normal",
+                "messageKey": "bgImage",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<div class=\"hero__bg lazyImg\" style=\"background-image: url(&quot;https://www.fivestars.com/wp-content/uploads/2020/08/1_Phase1_HomePageHero_1600x893.png&quot;);\"></div>",
+                  "target": [
+                    ".hero__bg"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element's background color could not be determined due to a background image"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<a target=\"_blank\" rel=\"noopener\" href=\"https://fivestars.com/accounts/login/\">Sign In</a>",
+          "target": [
+            "header:nth-child(6) > .wrapper > .nav--main > ul > .menu-item-51.menu-item-type-custom.menu-item-object-custom > a[rel=\"noopener\"][target=\"_blank\"]"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background image"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "contrastRatio": 0,
+                "fontSize": "67.5pt (90px)",
+                "fontWeight": "bold",
+                "messageKey": "bgImage",
+                "expectedContrastRatio": "3:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<div class=\"hero__bg lazyImg\" style=\"background-image: url(&quot;https://www.fivestars.com/wp-content/uploads/2020/08/1_Phase1_HomePageHero_1600x893.png&quot;);\"></div>",
+                  "target": [
+                    ".hero__bg"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element's background color could not be determined due to a background image"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<h1 class=\"heading--hero\">Love Local</h1>",
+          "target": [
+            "h1"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background image"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "contrastRatio": 0,
+                "fontSize": "16.5pt (22px)",
+                "fontWeight": "normal",
+                "messageKey": "bgImage",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<div class=\"hero__bg lazyImg\" style=\"background-image: url(&quot;https://www.fivestars.com/wp-content/uploads/2020/08/1_Phase1_HomePageHero_1600x893.png&quot;);\"></div>",
+                  "target": [
+                    ".hero__bg"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element's background color could not be determined due to a background image"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<h2 class=\"hero__text\">We’re helping local businesses come back stronger than ever by turning their payments into a marketing machine.</h2>",
+          "target": [
+            "h2"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background image"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "contrastRatio": 0,
+                "fontSize": "17.3pt (23px)",
+                "fontWeight": "normal",
+                "messageKey": "bgOverlap",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element's background color could not be determined because it is overlapped by another element"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<h3 class=\"heading--section heading--normal \">Reach more customers directly on their mobile phone.</h3>",
+          "target": [
+            ".grid--home > .section__text--middle.u-size-1of2--md.grid__column > .section__content.u-text-center--md-down > h3"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because it is overlapped by another element"
+        }
+      ]
+    }
+  ],
+  "violations": [
+    {
+      "id": "color-contrast",
+      "impact": "serious",
+      "tags": [
+        "cat.color",
+        "wcag2aa",
+        "wcag143",
+        "TTv5",
+        "TT13.c",
+        "EN-301-549",
+        "EN-9.1.4.3",
+        "ACT"
+      ],
+      "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+      "help": "Elements must meet minimum color contrast ratio thresholds",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/color-contrast?application=axeAPI",
+      "nodes": [
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#ffffff",
+                "bgColor": "#0f8a50",
+                "contrastRatio": 4.4,
+                "fontSize": "13.5pt (18px)",
+                "fontWeight": "normal",
+                "messageKey": null,
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<a href=\"https://www.fivestars.com/businesses/\" class=\"button button--secondary is-inverted-md-down\" style=\"color: #ffffff; background-color: #0f8a50;\">Learn more</a>",
+                  "target": [
+                    ".hero__cta--desktop.u-hide--md-down > .button.button--secondary.is-inverted-md-down"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element has insufficient color contrast of 4.4 (foreground color: #ffffff, background color: #0f8a50, font size: 13.5pt (18px), font weight: normal). Expected contrast ratio of 4.5:1"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<a href=\"https://www.fivestars.com/businesses/\" class=\"button button--secondary is-inverted-md-down\" style=\"color: #ffffff; background-color: #0f8a50;\">Learn more</a>",
+          "target": [
+            ".hero__cta--desktop.u-hide--md-down > .button.button--secondary.is-inverted-md-down"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.4 (foreground color: #ffffff, background color: #0f8a50, font size: 13.5pt (18px), font weight: normal). Expected contrast ratio of 4.5:1"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#ffffff",
+                "bgColor": "#0f9855",
+                "contrastRatio": 3.72,
+                "fontSize": "13.5pt (18px)",
+                "fontWeight": "normal",
+                "messageKey": null,
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<span id=\"sliderButtonFirst\" class=\"slider-button-span\" style=\"color: #ffffff; background-color: #0f9855;\">See a Demo</span>",
+                  "target": [
+                    "#bottom > .lead-form > .input-slider1 > .btn.sliderButton[type=\"button\"] > .slider-button-span"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element has insufficient color contrast of 3.72 (foreground color: #ffffff, background color: #0f9855, font size: 13.5pt (18px), font weight: normal). Expected contrast ratio of 4.5:1"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<span id=\"sliderButtonFirst\" class=\"slider-button-span\" style=\"color: #ffffff; background-color: #0f9855;\">See a Demo</span>",
+          "target": [
+            "#bottom > .lead-form > .input-slider1 > .btn.sliderButton[type=\"button\"] > .slider-button-span"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 3.72 (foreground color: #ffffff, background color: #0f9855, font size: 13.5pt (18px), font weight: normal). Expected contrast ratio of 4.5:1"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#8e8e8e",
+                "bgColor": "#f3f3f3",
+                "contrastRatio": 2.95,
+                "fontSize": "12.0pt (16px)",
+                "fontWeight": "normal",
+                "messageKey": null,
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<div class=\"footer__bottom\">",
+                  "target": [
+                    ".footer__bottom"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element has insufficient color contrast of 2.95 (foreground color: #8e8e8e, background color: #f3f3f3, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<a>` element to correct the WCAG 2.1 violation.\n\nCorrected HTML: `</a>",
+          "target": [
+            "#menu-item-658 > a:nth-child(1)"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 2.95 (foreground color: #8e8e8e, background color: #f3f3f3, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#8e8e8e",
+                "bgColor": "#f3f3f3",
+                "contrastRatio": 2.95,
+                "fontSize": "12.0pt (16px)",
+                "fontWeight": "normal",
+                "messageKey": null,
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<div class=\"footer__bottom\">",
+                  "target": [
+                    ".footer__bottom"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element has insufficient color contrast of 2.95 (foreground color: #8e8e8e, background color: #f3f3f3, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<a>` tag to correct the HTML.\n- Corrected HTML: `</a>",
+          "target": [
+            "#menu-item-895 > a:nth-child(1)"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 2.95 (foreground color: #8e8e8e, background color: #f3f3f3, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+        }
+      ]
+    }
+  ]
+}

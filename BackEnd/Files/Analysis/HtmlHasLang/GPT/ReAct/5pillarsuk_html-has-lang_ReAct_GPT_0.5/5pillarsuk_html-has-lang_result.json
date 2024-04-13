@@ -1,0 +1,29 @@
+[
+  {
+    "analysisDetails": [
+      {
+        "model": "GPT"
+      },
+      {
+        "accessibility_type": "html-has-lang"
+      },
+      {
+        "prompt_technique": "ReAct"
+      },
+      {
+        "temperature": 0.5
+      }
+    ],
+    "accessbilityTestResult": {
+      "violationBeforeModification": 1,
+      "violationAfterModification": 0
+    },
+    "modelCorrections": [
+      {
+        "beforeModification": "<html prefix=\"og: http://ogp.me/ns#\" class=\" td-md-is-chrome\">",
+        "afterModification": "<html>` element is missing a `lang` attribute, which is necessary for defining the primary language of the document. This helps screen readers and other assistive technologies provide the correct language context to users.\n\n- Action: Determine the primary language of the content. If it's English, add `lang=\"en\"` to the `<html>` element.\n\n- Corrected HTML: `<html lang=\"en\" prefix=\"og: http://ogp.me/ns#\" class=\" td-md-is-chrome\">",
+        "rawOutput": "- Thought: The `<html>` element is missing a `lang` attribute, which is necessary for defining the primary language of the document. This helps screen readers and other assistive technologies provide the correct language context to users.\n\n- Action: Determine the primary language of the content. If it's English, add `lang=\"en\"` to the `<html>` element.\n\n- Corrected HTML: `<html lang=\"en\" prefix=\"og: http://ogp.me/ns#\" class=\" td-md-is-chrome\">`"
+      }
+    ]
+  }
+]

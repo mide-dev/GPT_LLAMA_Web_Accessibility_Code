@@ -1,0 +1,54 @@
+[
+  {
+    "analysisDetails": [
+      {
+        "model": "GPT"
+      },
+      {
+        "accessibility_type": "link-name"
+      },
+      {
+        "prompt_technique": "fewShot"
+      },
+      {
+        "temperature": 0.5
+      }
+    ],
+    "accessbilityTestResult": {
+      "violationBeforeModification": 6,
+      "violationAfterModification": 0
+    },
+    "modelCorrections": [
+      {
+        "beforeModification": "<a href=\"javascript:void(0)\" class=\"menu-custom-corp\"><i class=\"fa fa-bars\"></i></a>",
+        "afterModification": "<a href=\"javascript:void(0)\" class=\"menu-custom-corp\" aria-label=\"Open Menu\"><i class=\"fa fa-bars\" aria-hidden=\"true\"></i></a>",
+        "rawOutput": "```html\n<a href=\"javascript:void(0)\" class=\"menu-custom-corp\" aria-label=\"Open Menu\"><i class=\"fa fa-bars\" aria-hidden=\"true\"></i></a>\n```"
+      },
+      {
+        "beforeModification": "<a href=\"javascript:void(0)\" class=\"search-custom-corp\"><i class=\"fa fa-search\"></i></a>",
+        "afterModification": "<a href=\"javascript:void(0)\" class=\"search-custom-corp\" aria-label=\"Search\" title=\"Search\"><i class=\"fa fa-search\" aria-hidden=\"true\"></i></a>",
+        "rawOutput": "```html\n<a href=\"javascript:void(0)\" class=\"search-custom-corp\" aria-label=\"Search\" title=\"Search\"><i class=\"fa fa-search\" aria-hidden=\"true\"></i></a>\n```"
+      },
+      {
+        "beforeModification": "<a href=\"#mydiv\"><span class=\"hidden\">Scroll</span></a>",
+        "afterModification": "<a href=\"#mydiv\" aria-label=\"Scroll to content\"><span class=\"hidden\">Scroll</span></a>",
+        "rawOutput": "```html\n<a href=\"#mydiv\" aria-label=\"Scroll to content\"><span class=\"hidden\">Scroll</span></a>\n```"
+      },
+      {
+        "beforeModification": "<a href=\"/blog/performance-marketing/connected-tv-sports-advertising\" class=\"blog__link\">\n\t\t\t\t\t<div class=\"feed-blog-image blog__image\">\n\t\t\t\t\t\t<img src=\"/sites/investisdigital-corp-v2/files/March%20Madness%20Blog%20Image%202448%20x%201337%20px.png\" alt=\"\">\n\t\t\t\t\t</div>\n\t\t\t\t</a>",
+        "afterModification": "<a href=\"/blog/performance-marketing/connected-tv-sports-advertising\" class=\"blog__link\" title=\"Read about Connected TV Sports Advertising\">\n    <div class=\"feed-blog-image blog__image\">\n        <img src=\"/sites/investisdigital-corp-v2/files/March%20Madness%20Blog%20Image%202448%20x%201337%20px.png\" alt=\"March Madness Blog Image\">\n    </div>\n</a>",
+        "rawOutput": "```html\n<a href=\"/blog/performance-marketing/connected-tv-sports-advertising\" class=\"blog__link\" title=\"Read about Connected TV Sports Advertising\">\n    <div class=\"feed-blog-image blog__image\">\n        <img src=\"/sites/investisdigital-corp-v2/files/March%20Madness%20Blog%20Image%202448%20x%201337%20px.png\" alt=\"March Madness Blog Image\">\n    </div>\n</a>\n```"
+      },
+      {
+        "beforeModification": "<a href=\"/blog/social-media/what-brands-should-do-about-tiktoks-uncertain-future\" class=\"blog__link\">\n\t\t\t\t\t<div class=\"feed-blog-image blog__image\">\n\t\t\t\t\t\t<img src=\"/sites/investisdigital-corp-v2/files/TikTok%20Blog%20Image%202448%20x%201337%20px.png\" alt=\"\">\n\t\t\t\t\t</div>\n\t\t\t\t</a>",
+        "afterModification": "<a href=\"/blog/social-media/what-brands-should-do-about-tiktoks-uncertain-future\" class=\"blog__link\" title=\"What Brands Should Do About TikTok's Uncertain Future\">\n    <div class=\"feed-blog-image blog__image\">\n        <img src=\"/sites/investisdigital-corp-v2/files/TikTok%20Blog%20Image%202448%20x%201337%20px.png\" alt=\"TikTok Blog Image\">\n    </div>\n</a>",
+        "rawOutput": "```html\n<a href=\"/blog/social-media/what-brands-should-do-about-tiktoks-uncertain-future\" class=\"blog__link\" title=\"What Brands Should Do About TikTok's Uncertain Future\">\n    <div class=\"feed-blog-image blog__image\">\n        <img src=\"/sites/investisdigital-corp-v2/files/TikTok%20Blog%20Image%202448%20x%201337%20px.png\" alt=\"TikTok Blog Image\">\n    </div>\n</a>\n```"
+      },
+      {
+        "beforeModification": "<a href=\"/blog/performance-marketing/how-vizio-expands-walmarts-advertising-empire\" class=\"blog__link\">\n\t\t\t\t\t<div class=\"feed-blog-image blog__image\">\n\t\t\t\t\t\t<img src=\"/sites/investisdigital-corp-v2/files/MicrosoftTeams-image%20%2832%29.png\" alt=\"\">\n\t\t\t\t\t</div>\n\t\t\t\t</a>",
+        "afterModification": "<a href=\"/blog/performance-marketing/how-vizio-expands-walmarts-advertising-empire\" class=\"blog__link\" title=\"Read more about how Vizio expands Walmart's advertising empire\">\n    <div class=\"feed-blog-image blog__image\">\n        <img src=\"/sites/investisdigital-corp-v2/files/MicrosoftTeams-image%20%2832%29.png\" alt=\"Vizio and Walmart's advertising collaboration\">\n    </div>\n</a>",
+        "rawOutput": "```html\n<a href=\"/blog/performance-marketing/how-vizio-expands-walmarts-advertising-empire\" class=\"blog__link\" title=\"Read more about how Vizio expands Walmart's advertising empire\">\n    <div class=\"feed-blog-image blog__image\">\n        <img src=\"/sites/investisdigital-corp-v2/files/MicrosoftTeams-image%20%2832%29.png\" alt=\"Vizio and Walmart's advertising collaboration\">\n    </div>\n</a>\n```"
+      }
+    ]
+  }
+]

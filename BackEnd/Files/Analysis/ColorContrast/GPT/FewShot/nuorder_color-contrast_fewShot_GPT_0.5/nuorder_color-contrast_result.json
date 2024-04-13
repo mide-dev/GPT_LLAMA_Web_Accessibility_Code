@@ -1,0 +1,64 @@
+[
+  {
+    "analysisDetails": [
+      {
+        "model": "GPT"
+      },
+      {
+        "accessibility_type": "color-contrast"
+      },
+      {
+        "prompt_technique": "fewShot"
+      },
+      {
+        "temperature": 0.5
+      }
+    ],
+    "accessbilityTestResult": {
+      "violationBeforeModification": 8,
+      "violationAfterModification": 0
+    },
+    "modelCorrections": [
+      {
+        "beforeModification": "<a href=\"https://www.nuorder.com/privacy-policy-2/\" target=\"_blank\">Privacy Policy</a>",
+        "afterModification": "<a href=\"https://www.nuorder.com/privacy-policy-2/\" target=\"_blank\" style=\"color: #007A93;\">Privacy Policy</a>",
+        "rawOutput": "```html\n<a href=\"https://www.nuorder.com/privacy-policy-2/\" target=\"_blank\" style=\"color: #007A93;\">Privacy Policy</a>\n```"
+      },
+      {
+        "beforeModification": "<span class=\"elementor-button-text\">Talk to an Expert</span>",
+        "afterModification": "<span class=\"elementor-button-text\" style=\"color: #000000; background-color: #00a9a4;\">Talk to an Expert</span>",
+        "rawOutput": "```html\n<span class=\"elementor-button-text\" style=\"color: #000000; background-color: #00a9a4;\">Talk to an Expert</span>\n```"
+      },
+      {
+        "beforeModification": "<span class=\"elementor-button-text\">Learn More</span>",
+        "afterModification": "<span class=\"elementor-button-text\" style=\"color: #00796b; background-color: #ffffff;\">Learn More</span>",
+        "rawOutput": "```html\n<span class=\"elementor-button-text\" style=\"color: #00796b; background-color: #ffffff;\">Learn More</span>\n```"
+      },
+      {
+        "beforeModification": "<span class=\"elementor-button-text\">Read now</span>",
+        "afterModification": "<span class=\"elementor-button-text\" style=\"color: #ffffff; background-color: #00736b;\">Read now</span>",
+        "rawOutput": "```html\n<span class=\"elementor-button-text\" style=\"color: #ffffff; background-color: #00736b;\">Read now</span>\n```"
+      },
+      {
+        "beforeModification": "<span class=\"elementor-button-text\">Watch on demand</span>",
+        "afterModification": "<span class=\"elementor-button-text\" style=\"color: #000000; background-color: #00a9a4;\">Watch on demand</span>",
+        "rawOutput": "```html\n<span class=\"elementor-button-text\" style=\"color: #000000; background-color: #00a9a4;\">Watch on demand</span>\n```"
+      },
+      {
+        "beforeModification": "<a href=\"https://digiday.com/\" target=\"_blank\">Digiday</a>",
+        "afterModification": "<a href=\"https://digiday.com/\" target=\"_blank\" style=\"color: #00736b;\">Digiday</a>",
+        "rawOutput": "```html\n<a href=\"https://digiday.com/\" target=\"_blank\" style=\"color: #00736b;\">Digiday</a>\n```"
+      },
+      {
+        "beforeModification": "<span class=\"elementor-button-text\">Get the guide</span>",
+        "afterModification": "<span class=\"elementor-button-text\" style=\"color: #000000; background-color: #00a9a4;\">Get the guide</span>",
+        "rawOutput": "```html\n<span class=\"elementor-button-text\" style=\"color: #000000; background-color: #00a9a4;\">Get the guide</span>\n```"
+      },
+      {
+        "beforeModification": "<input type=\"submit\" class=\"hs-button primary large\" value=\"Subscribe\">",
+        "afterModification": "<input type=\"submit\" class=\"hs-button primary large\" style=\"color: #000000; background-color: #00a9a4;\" value=\"Subscribe\">",
+        "rawOutput": "```html\n<input type=\"submit\" class=\"hs-button primary large\" style=\"color: #000000; background-color: #00a9a4;\" value=\"Subscribe\">\n```"
+      }
+    ]
+  }
+]

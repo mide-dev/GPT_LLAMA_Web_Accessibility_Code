@@ -1,0 +1,29 @@
+[
+  {
+    "analysisDetails": [
+      {
+        "model": "GPT"
+      },
+      {
+        "accessibility_type": "meta-viewport"
+      },
+      {
+        "prompt_technique": "cot"
+      },
+      {
+        "temperature": 0.5
+      }
+    ],
+    "accessbilityTestResult": {
+      "violationBeforeModification": 1,
+      "violationAfterModification": 0
+    },
+    "modelCorrections": [
+      {
+        "beforeModification": "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, minimum-scale=1.0, user-scalable=no\">",
+        "afterModification": "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, minimum-scale=1.0, user-scalable=yes\">",
+        "rawOutput": "- Thought: I need to allow user scaling by changing `user-scalable=no` to `user-scalable=yes` and ensure that the minimum scale allows for zooming, which is not restricted by this meta tag.\n\n- Corrected HTML: <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, minimum-scale=1.0, user-scalable=yes\">"
+      }
+    ]
+  }
+]

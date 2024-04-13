@@ -1,0 +1,34 @@
+[
+  {
+    "analysisDetails": [
+      {
+        "model": "GPT"
+      },
+      {
+        "accessibility_type": "link-name"
+      },
+      {
+        "prompt_technique": "cot"
+      },
+      {
+        "temperature": 0.5
+      }
+    ],
+    "accessbilityTestResult": {
+      "violationBeforeModification": 2,
+      "violationAfterModification": 0
+    },
+    "modelCorrections": [
+      {
+        "beforeModification": "<a href=\"https://www.nuorder.com\">\n\t\t\t<img width=\"347\" height=\"29\" src=\"https://www.nuorder.com/wp-content/uploads/2020/08/NuORDER_byLightspeed_BlackRGB_Horizontal_NuOrder_Black_Horizontal_NuOrder_Black_Horizontal-1.svg\" class=\"attachment-full size-full wp-image-6373\" alt=\"\">\t\t\t\t</a>",
+        "afterModification": "<a href=\"https://www.nuorder.com\">\n\t<img width=\"347\" height=\"29\" src=\"https://www.nuorder.com/wp-content/uploads/2020/08/NuORDER_byLightspeed_BlackRGB_Horizontal_NuOrder_Black_Horizontal_NuOrder_Black_Horizontal-1.svg\" class=\"attachment-full size-full wp-image-6373\" alt=\"NuORDER by Lightspeed logo\">\n</a>",
+        "rawOutput": "- Thought: To correct the provided HTML, we need to address the accessibility issue that the image link does not have accessible text. This means screen readers can't interpret what the link is about. Since the \"alt\" attribute of the image is empty, we can fill it with appropriate alternative text that describes the link's destination or the company's logo it represents. Additionally, since the \"alt\" attribute is specifically for the image, we don't necessarily need to add a title attribute to the link itself in this case, as the alternative text for the image will serve the purpose of making the link accessible.\n\n- Corrected HTML: \n```html\n<a href=\"https://www.nuorder.com\">\n\t<img width=\"347\" height=\"29\" src=\"https://www.nuorder.com/wp-content/uploads/2020/08/NuORDER_byLightspeed_BlackRGB_Horizontal_NuOrder_Black_Horizontal_NuOrder_Black_Horizontal-1.svg\" class=\"attachment-full size-full wp-image-6373\" alt=\"NuORDER by Lightspeed logo\">\n</a>\n```"
+      },
+      {
+        "beforeModification": "<a class=\"elementor-icon elementor-social-icon elementor-social-icon- elementor-repeater-item-dc10550\" href=\"https://twitter.com/NuORDER\" target=\"_blank\">",
+        "afterModification": "<a class=\"elementor-icon elementor-social-icon elementor-social-icon- elementor-repeater-item-dc10550\" href=\"https://twitter.com/NuORDER\" target=\"_blank\" aria-label=\"Follow us on Twitter\" title=\"Follow us on Twitter\">",
+        "rawOutput": "- Thought: The link is missing accessible text that screen readers can interpret, indicating what the link is for or where it leads. Since it's a link to a Twitter profile, we can add an `aria-label` attribute to provide this information. Additionally, to ensure full accessibility compliance, adding a title attribute could also enhance the user experience by offering visual users more context on hover.\n\n- Corrected HTML: `<a class=\"elementor-icon elementor-social-icon elementor-social-icon- elementor-repeater-item-dc10550\" href=\"https://twitter.com/NuORDER\" target=\"_blank\" aria-label=\"Follow us on Twitter\" title=\"Follow us on Twitter\">`"
+      }
+    ]
+  }
+]

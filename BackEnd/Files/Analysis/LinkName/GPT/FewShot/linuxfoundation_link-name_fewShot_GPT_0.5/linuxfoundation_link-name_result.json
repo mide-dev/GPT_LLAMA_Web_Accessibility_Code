@@ -1,0 +1,94 @@
+[
+  {
+    "analysisDetails": [
+      {
+        "model": "GPT"
+      },
+      {
+        "accessibility_type": "link-name"
+      },
+      {
+        "prompt_technique": "fewShot"
+      },
+      {
+        "temperature": 0.5
+      }
+    ],
+    "accessbilityTestResult": {
+      "violationBeforeModification": 14,
+      "violationAfterModification": 0
+    },
+    "modelCorrections": [
+      {
+        "beforeModification": "<a href=\"#search-popup\" class=\"search-popup-link\">",
+        "afterModification": "<a href=\"#search-popup\" class=\"search-popup-link\" aria-label=\"Open search popup\">",
+        "rawOutput": "```html\n<a href=\"#search-popup\" class=\"search-popup-link\" aria-label=\"Open search popup\">\n```"
+      },
+      {
+        "beforeModification": "<a href=\"/?hsLang=en\"> <img src=\"https://www.linuxfoundation.org/hubfs/LF%20Logo%20White.svg\"> </a>",
+        "afterModification": "<a href=\"/?hsLang=en\" title=\"Go to English homepage\"> <img src=\"https://www.linuxfoundation.org/hubfs/LF%20Logo%20White.svg\" alt=\"Linux Foundation Logo\"> </a>",
+        "rawOutput": "```html\n<a href=\"/?hsLang=en\" title=\"Go to English homepage\"> <img src=\"https://www.linuxfoundation.org/hubfs/LF%20Logo%20White.svg\" alt=\"Linux Foundation Logo\"> </a>\n```"
+      },
+      {
+        "beforeModification": "<a href=\"https://\" rel=\"noopener\"></a>",
+        "afterModification": "<a href=\"https://\" rel=\"noopener\" aria-label=\"More Information\"></a>",
+        "rawOutput": "```html\n<a href=\"https://\" rel=\"noopener\" aria-label=\"More Information\"></a>\n```"
+      },
+      {
+        "beforeModification": "<a class=\"project__image\" href=\"https://www.cncf.io/\" target=\"_blank\" title=\"\"> <img src=\"https://www.linuxfoundation.org/hubfs/cncf-color-3.png\"> </a>",
+        "afterModification": "<a class=\"project__image\" href=\"https://www.cncf.io/\" target=\"_blank\" title=\"Visit CNCF website\" aria-label=\"Visit CNCF website\"> <img src=\"https://www.linuxfoundation.org/hubfs/cncf-color-3.png\" alt=\"CNCF Logo\"> </a>",
+        "rawOutput": "```html\n<a class=\"project__image\" href=\"https://www.cncf.io/\" target=\"_blank\" title=\"Visit CNCF website\" aria-label=\"Visit CNCF website\"> <img src=\"https://www.linuxfoundation.org/hubfs/cncf-color-3.png\" alt=\"CNCF Logo\"> </a>\n```"
+      },
+      {
+        "beforeModification": "<a class=\"project__image\" href=\"https://www.kernel.org/\" target=\"_blank\" title=\"\"> <img src=\"https://www.linuxfoundation.org/hubfs/Tux-flat-version.png\"> </a>",
+        "afterModification": "<a class=\"project__image\" href=\"https://www.kernel.org/\" target=\"_blank\" title=\"Visit the Linux Kernel Organization\" aria-label=\"Visit the Linux Kernel Organization\"> <img src=\"https://www.linuxfoundation.org/hubfs/Tux-flat-version.png\" alt=\"Linux Foundation Logo\"> </a>",
+        "rawOutput": "```html\n<a class=\"project__image\" href=\"https://www.kernel.org/\" target=\"_blank\" title=\"Visit the Linux Kernel Organization\" aria-label=\"Visit the Linux Kernel Organization\"> <img src=\"https://www.linuxfoundation.org/hubfs/Tux-flat-version.png\" alt=\"Linux Foundation Logo\"> </a>\n```"
+      },
+      {
+        "beforeModification": "<a class=\"project__image\" href=\"https://openssf.org/?hsLang=en\" target=\"_blank\" title=\"\"> <img src=\"https://www.linuxfoundation.org/hubfs/openssf-horizontal-color.png\"> </a>",
+        "afterModification": "<a class=\"project__image\" href=\"https://openssf.org/?hsLang=en\" target=\"_blank\" title=\"OpenSSF Project\" aria-label=\"OpenSSF Project\"> <img src=\"https://www.linuxfoundation.org/hubfs/openssf-horizontal-color.png\" alt=\"OpenSSF Logo\"> </a>",
+        "rawOutput": "```html\n<a class=\"project__image\" href=\"https://openssf.org/?hsLang=en\" target=\"_blank\" title=\"OpenSSF Project\" aria-label=\"OpenSSF Project\"> <img src=\"https://www.linuxfoundation.org/hubfs/openssf-horizontal-color.png\" alt=\"OpenSSF Logo\"> </a>\n```"
+      },
+      {
+        "beforeModification": "<a class=\"project__image\" href=\"https://finos.org/?hsLang=en\" target=\"_blank\" title=\"\"> <img src=\"https://www.linuxfoundation.org/hubfs/finos-horizontal-color%201.png\"> </a>",
+        "afterModification": "<a class=\"project__image\" href=\"https://finos.org/?hsLang=en\" target=\"_blank\" title=\"FINOS project\" aria-label=\"FINOS project\"> <img src=\"https://www.linuxfoundation.org/hubfs/finos-horizontal-color%201.png\" alt=\"FINOS Logo\"> </a>",
+        "rawOutput": "```html\n<a class=\"project__image\" href=\"https://finos.org/?hsLang=en\" target=\"_blank\" title=\"FINOS project\" aria-label=\"FINOS project\"> <img src=\"https://www.linuxfoundation.org/hubfs/finos-horizontal-color%201.png\" alt=\"FINOS Logo\"> </a>\n```"
+      },
+      {
+        "beforeModification": "<a class=\"project__image\" href=\"https://lfnetworking.org/\" target=\"_blank\" title=\"\"> <img src=\"https://www.linuxfoundation.org/hubfs/lfnetworking-stacked-color%20(1).png\"> </a>",
+        "afterModification": "<a class=\"project__image\" href=\"https://lfnetworking.org/\" target=\"_blank\" title=\"LF Networking Project\" aria-label=\"LF Networking Project\"> <img src=\"https://www.linuxfoundation.org/hubfs/lfnetworking-stacked-color%20(1).png\" alt=\"LF Networking logo\"> </a>",
+        "rawOutput": "```html\n<a class=\"project__image\" href=\"https://lfnetworking.org/\" target=\"_blank\" title=\"LF Networking Project\" aria-label=\"LF Networking Project\"> <img src=\"https://www.linuxfoundation.org/hubfs/lfnetworking-stacked-color%20(1).png\" alt=\"LF Networking logo\"> </a>\n```"
+      },
+      {
+        "beforeModification": "<a class=\"project__image\" href=\"https://openjsf.org/\" target=\"_blank\" title=\"\"> <img src=\"https://www.linuxfoundation.org/hubfs/OpenJS%20Logo.png\"> </a>",
+        "afterModification": "<a class=\"project__image\" href=\"https://openjsf.org/\" target=\"_blank\" title=\"OpenJS Foundation\"> <img src=\"https://www.linuxfoundation.org/hubfs/OpenJS%20Logo.png\" alt=\"OpenJS Foundation Logo\"> </a>",
+        "rawOutput": "```html\n<a class=\"project__image\" href=\"https://openjsf.org/\" target=\"_blank\" title=\"OpenJS Foundation\"> <img src=\"https://www.linuxfoundation.org/hubfs/OpenJS%20Logo.png\" alt=\"OpenJS Foundation Logo\"> </a>\n```"
+      },
+      {
+        "beforeModification": "<a href=\"https://twitter.com/linuxfoundation\" target=\"_blank\" rel=\"noopener\">",
+        "afterModification": "<a href=\"https://twitter.com/linuxfoundation\" target=\"_blank\" rel=\"noopener\" title=\"Visit The Linux Foundation on Twitter\" aria-label=\"Visit The Linux Foundation on Twitter\">",
+        "rawOutput": "```html\n<a href=\"https://twitter.com/linuxfoundation\" target=\"_blank\" rel=\"noopener\" title=\"Visit The Linux Foundation on Twitter\" aria-label=\"Visit The Linux Foundation on Twitter\">\n```"
+      },
+      {
+        "beforeModification": "<a href=\"https://www.facebook.com/TheLinuxFoundation\" target=\"_blank\" rel=\"noopener\">",
+        "afterModification": "<a href=\"https://www.facebook.com/TheLinuxFoundation\" target=\"_blank\" rel=\"noopener\" title=\"The Linux Foundation on Facebook\" aria-label=\"The Linux Foundation on Facebook\">",
+        "rawOutput": "```html\n<a href=\"https://www.facebook.com/TheLinuxFoundation\" target=\"_blank\" rel=\"noopener\" title=\"The Linux Foundation on Facebook\" aria-label=\"The Linux Foundation on Facebook\">\n```"
+      },
+      {
+        "beforeModification": "<a href=\"https://www.youtube.com/user/TheLinuxFoundation\" target=\"_blank\" rel=\"noopener\">",
+        "afterModification": "<a href=\"https://www.youtube.com/user/TheLinuxFoundation\" target=\"_blank\" rel=\"noopener\" aria-label=\"The Linux Foundation on YouTube\">",
+        "rawOutput": "```html\n<a href=\"https://www.youtube.com/user/TheLinuxFoundation\" target=\"_blank\" rel=\"noopener\" aria-label=\"The Linux Foundation on YouTube\">\n```"
+      },
+      {
+        "beforeModification": "<a href=\"https://www.linkedin.com/company/208777\" target=\"_blank\" rel=\"noopener\">",
+        "afterModification": "<a href=\"https://www.linkedin.com/company/208777\" target=\"_blank\" rel=\"noopener\" aria-label=\"Visit our LinkedIn Company Page\">",
+        "rawOutput": "```html\n<a href=\"https://www.linkedin.com/company/208777\" target=\"_blank\" rel=\"noopener\" aria-label=\"Visit our LinkedIn Company Page\">\n```"
+      },
+      {
+        "beforeModification": "<a href=\"https://github.com/LF-Engineering\" target=\"_blank\" rel=\"noopener\">",
+        "afterModification": "<a href=\"https://github.com/LF-Engineering\" target=\"_blank\" rel=\"noopener\" aria-label=\"LF Engineering on GitHub\">LF Engineering</a>",
+        "rawOutput": "```html\n<a href=\"https://github.com/LF-Engineering\" target=\"_blank\" rel=\"noopener\" aria-label=\"LF Engineering on GitHub\">LF Engineering</a>\n```"
+      }
+    ]
+  }
+]

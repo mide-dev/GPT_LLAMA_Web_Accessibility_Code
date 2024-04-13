@@ -1,0 +1,64 @@
+[
+  {
+    "analysisDetails": [
+      {
+        "model": "GPT"
+      },
+      {
+        "accessibility_type": "link-name"
+      },
+      {
+        "prompt_technique": "cot"
+      },
+      {
+        "temperature": 0.5
+      }
+    ],
+    "accessbilityTestResult": {
+      "violationBeforeModification": 8,
+      "violationAfterModification": 0
+    },
+    "modelCorrections": [
+      {
+        "beforeModification": "<a href=\"javascript:;\" class=\"js-close-navigation-promotion navigation-promo-banner__close\" data-event-type=\"Promotion click\" data-event-title=\"Promotion click\" data-event-link=\"navigation-promotion\">\n                        <div class=\"icn-close\"></div>\n                </a>",
+        "afterModification": "<a href=\"javascript:;\" class=\"js-close-navigation-promotion navigation-promo-banner__close\" data-event-type=\"Promotion click\" data-event-title=\"Promotion click\" data-event-link=\"navigation-promotion\" aria-label=\"Close navigation promotion\">\n    <div class=\"icn-close\"></div>\n</a>",
+        "rawOutput": "Thought: The link element lacks accessible text that screen readers can interpret, making it difficult for users relying on assistive technologies to understand its purpose. To correct this, I can add an `aria-label` attribute to provide a clear, descriptive label for the action performed by the link. Since the class name suggests it's used to close a navigation promotion banner, I'll use that context to define the `aria-label`.\n\nCorrected HTML:\n```html\n<a href=\"javascript:;\" class=\"js-close-navigation-promotion navigation-promo-banner__close\" data-event-type=\"Promotion click\" data-event-title=\"Promotion click\" data-event-link=\"navigation-promotion\" aria-label=\"Close navigation promotion\">\n    <div class=\"icn-close\"></div>\n</a>\n```"
+      },
+      {
+        "beforeModification": "<a href=\"javascript:;\" title=\"\" class=\"js-add-to-cart\" data-at=\"section-mini cart button\">\n        \n        <span class=\"icn-cart hide-mobile\"></span>\n        <span class=\"cart-badge js-cart-badge hide-mobile hidden\">0</span>\n    </a>",
+        "afterModification": "<a href=\"javascript:;\" title=\"Add to cart\" class=\"js-add-to-cart\" data-at=\"section-mini cart button\" aria-label=\"Add to cart\">\n    <span class=\"icn-cart hide-mobile\"></span>\n    <span class=\"cart-badge js-cart-badge hide-mobile hidden\">0</span>\n</a>",
+        "rawOutput": "Thought: To correct the provided HTML for accessibility, I need to ensure that the anchor element has accessible text for screen readers and that any attributes used for accessibility purposes are properly filled out. The anchor tag currently lacks accessible text and has an empty title attribute, which doesn't help screen readers understand the purpose of the link. Given its class \"js-add-to-cart\", it's clear that this button is used to add items to a cart. Therefore, I should add an aria-label to provide accessible text directly within the anchor tag. Additionally, filling the title attribute with a descriptive text will also enhance accessibility by offering more context on hover or focus for users who might not rely on screen readers but still benefit from additional information.\n\nCorrected HTML:\n```html\n<a href=\"javascript:;\" title=\"Add to cart\" class=\"js-add-to-cart\" data-at=\"section-mini cart button\" aria-label=\"Add to cart\">\n    <span class=\"icn-cart hide-mobile\"></span>\n    <span class=\"cart-badge js-cart-badge hide-mobile hidden\">0</span>\n</a>\n```"
+      },
+      {
+        "beforeModification": "<a href=\"javascript:;\" title=\"\"><span class=\"icon icon-close\"></span></a>",
+        "afterModification": "<a href=\"javascript:;\" aria-label=\"Close\"><span class=\"icon icon-close\"></span></a>",
+        "rawOutput": "- Thought: The anchor tag lacks accessible text, which is essential for screen readers to understand the purpose of the link. Since the link seems to be designed to close something (given by the class name \"icon-close\"), I should provide an accessible name for it. This can be achieved by adding \"aria-label\" with a descriptive text. Also, the empty title attribute is redundant and should be removed or filled with meaningful text.\n\n- Corrected HTML: `<a href=\"javascript:;\" aria-label=\"Close\"><span class=\"icon icon-close\"></span></a>`"
+      },
+      {
+        "beforeModification": "<a href=\"/nos-plus-belles-marques/knorr-professional/knorr-gammefondsbrunslies-nouvellerecette.html\" data-event-type=\"Article Click\" data-event-name=\"Promotion - Fonds Bruns Liés : Nouvelles recettes !  - /nos-plus-belles-marques/knorr-professional/knorr-gammefondsbrunslies-nouvellerecette.html\">",
+        "afterModification": "<a href=\"/nos-plus-belles-marques/knorr-professional/knorr-gammefondsbrunslies-nouvellerecette.html\" data-event-type=\"Article Click\" data-event-name=\"Promotion - Fonds Bruns Liés : Nouvelles recettes !  - /nos-plus-belles-marques/knorr-professional/knorr-gammefondsbrunslies-nouvellerecette.html\" aria-label=\"Promotion for Knorr's new 'Fonds Bruns Liés' recipes\">",
+        "rawOutput": "- Thought: The link lacks accessible text, which is necessary for screen readers and users who rely on assistive technology. To fix this, I should add an `aria-label` attribute to provide a clear description of the link's purpose. Given the URL and data-event-name, it seems to promote new recipes for Knorr's \"Fonds Bruns Liés\". I'll use this information to create an appropriate aria-label.\n\n- Corrected HTML: <a href=\"/nos-plus-belles-marques/knorr-professional/knorr-gammefondsbrunslies-nouvellerecette.html\" data-event-type=\"Article Click\" data-event-name=\"Promotion - Fonds Bruns Liés : Nouvelles recettes !  - /nos-plus-belles-marques/knorr-professional/knorr-gammefondsbrunslies-nouvellerecette.html\" aria-label=\"Promotion for Knorr's new 'Fonds Bruns Liés' recipes\">"
+      },
+      {
+        "beforeModification": "<a href=\"/rapport-des-tendances-menus-2024.html\" data-event-type=\"Article Click\" data-event-name=\"Promotion - NOUVEAU : Rapport Future Menus 2024 !  - /rapport-des-tendances-menus-2024.html\">",
+        "afterModification": "<a href=\"/rapport-des-tendances-menus-2024.html\" data-event-type=\"Article Click\" data-event-name=\"Promotion - NOUVEAU : Rapport Future Menus 2024 !  - /rapport-des-tendances-menus-2024.html\" aria-label=\"Promotion - NOUVEAU : Rapport Future Menus 2024 !\">",
+        "rawOutput": "- Thought: The anchor element is missing accessible text which is crucial for screen readers to interpret the link's purpose. To fix this, I need to either add an `aria-label` attribute that provides a descriptive label or include visible text within the anchor tag. Given the context, using an `aria-label` seems more appropriate as it directly addresses the issue without altering the visual content. Additionally, considering the `data-event-name` attribute contains a descriptive promotion title, I can repurpose its value for the `aria-label`.\n\n- Corrected HTML: \n```html\n<a href=\"/rapport-des-tendances-menus-2024.html\" data-event-type=\"Article Click\" data-event-name=\"Promotion - NOUVEAU : Rapport Future Menus 2024 !  - /rapport-des-tendances-menus-2024.html\" aria-label=\"Promotion - NOUVEAU : Rapport Future Menus 2024 !\">\n```"
+      },
+      {
+        "beforeModification": "<a href=\"/nos-plus-belles-marques/knorr-professional/knorr-cuisinedumonde.html\" class=\"item-list__image--oblong\" data-event-type=\"Article Click\" data-event-name=\"Chef Inspiration - Article: \">",
+        "afterModification": "<a href=\"/nos-plus-belles-marques/knorr-professional/knorr-cuisinedumonde.html\" class=\"item-list__image--oblong\" data-event-type=\"Article Click\" data-event-name=\"Chef Inspiration - Article: \" title=\"Knorr Cuisine du Monde\" aria-label=\"Knorr Cuisine du Monde\">",
+        "rawOutput": "- Thought: To correct the above HTML, I need to ensure that it becomes accessible by adding a descriptive title attribute and an `aria-label` that provides accessible text for screen readers. Since the `href` attribute points to a specific page, I can infer the content and purpose of the link from its URL and use that to create a meaningful description.\n\n- Corrected HTML: <a href=\"/nos-plus-belles-marques/knorr-professional/knorr-cuisinedumonde.html\" class=\"item-list__image--oblong\" data-event-type=\"Article Click\" data-event-name=\"Chef Inspiration - Article: \" title=\"Knorr Cuisine du Monde\" aria-label=\"Knorr Cuisine du Monde\">"
+      },
+      {
+        "beforeModification": "<a href=\"/nos-plus-belles-marques/knorr-professional/knorr-cuisinedumonde.html\" class=\"item-list__image--square\" data-event-type=\"Article Click\" data-event-name=\"Chef Inspiration - Article: \">",
+        "afterModification": "<a href=\"/nos-plus-belles-marques/knorr-professional/knorr-cuisinedumonde.html\" class=\"item-list__image--square\" data-event-type=\"Article Click\" data-event-name=\"Chef Inspiration - Article: \" aria-label=\"Knorr Cuisine du Monde\" title=\"Knorr Cuisine du Monde\">",
+        "rawOutput": "- Thought: To correct the above HTML, I need to ensure that the anchor element is accessible by adding an accessible name. Since the `href` attribute points to a specific page, I can infer the purpose of the link from its URL and provide a descriptive name using either an `aria-label` or `title` attribute. Given the URL seems to be about \"Knorr Cuisine du Monde,\" I will add an `aria-label` attribute for screen readers and a `title` attribute for additional context on hover.\n\n- Corrected HTML: \n```html\n<a href=\"/nos-plus-belles-marques/knorr-professional/knorr-cuisinedumonde.html\" class=\"item-list__image--square\" data-event-type=\"Article Click\" data-event-name=\"Chef Inspiration - Article: \" aria-label=\"Knorr Cuisine du Monde\" title=\"Knorr Cuisine du Monde\">\n```"
+      },
+      {
+        "beforeModification": "<a href=\"/nos-plus-belles-marques/knorr-professional/knorr-cuisinedumonde.html\" data-event-type=\"Article Click\" data-event-name=\"Chef Inspiration - Article: \">\n            <span class=\"item-list__title js-inspiration-add-class span-8\"></span>\n            \n        </a>",
+        "afterModification": "<a href=\"/nos-plus-belles-marques/knorr-professional/knorr-cuisinedumonde.html\" data-event-type=\"Article Click\" data-event-name=\"Chef Inspiration - Article: \" aria-label=\"Knorr Cuisine du Monde\">\n    <span class=\"item-list__title js-inspiration-add-class span-8\">Knorr Cuisine du Monde</span>\n</a>",
+        "rawOutput": "- Thought: The incorrect HTML lacks accessible text for the link, which means screen readers will not be able to provide meaningful information about this link to users. To correct this, I need to add accessible text that describes the destination or purpose of the link. Since the link seems to lead to a page about \"Knorr Cuisine du Monde,\" I can use that as the text. Additionally, to ensure the link is fully accessible, I should add an `aria-label` attribute to the `<a>` tag for situations where the visible text might not be enough or when styling might hide the span from being properly read by screen readers. \n\n- Corrected HTML:\n```html\n<a href=\"/nos-plus-belles-marques/knorr-professional/knorr-cuisinedumonde.html\" data-event-type=\"Article Click\" data-event-name=\"Chef Inspiration - Article: \" aria-label=\"Knorr Cuisine du Monde\">\n    <span class=\"item-list__title js-inspiration-add-class span-8\">Knorr Cuisine du Monde</span>\n</a>\n```"
+      }
+    ]
+  }
+]

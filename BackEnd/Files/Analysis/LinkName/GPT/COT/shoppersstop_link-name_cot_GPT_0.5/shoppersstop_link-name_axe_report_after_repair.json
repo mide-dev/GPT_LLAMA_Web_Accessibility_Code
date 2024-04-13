@@ -1,0 +1,4981 @@
+{
+  "testEngine": {
+    "name": "axe-core",
+    "version": "4.8.4"
+  },
+  "testRunner": {
+    "name": "axe"
+  },
+  "testEnvironment": {
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/122.0.0.0 Safari/537.36",
+    "windowWidth": 800,
+    "windowHeight": 600,
+    "orientationAngle": 0,
+    "orientationType": "portrait-primary"
+  },
+  "timestamp": "2024-04-08T19:01:40.612Z",
+  "url": "https://www.shoppersstop.com/",
+  "toolOptions": {
+    "runOnly": {
+      "type": "rule",
+      "values": [
+        "link-name"
+      ]
+    },
+    "reporter": "v1"
+  },
+  "inapplicable": [],
+  "passes": [
+    {
+      "id": "link-name",
+      "impact": null,
+      "tags": [
+        "cat.name-role-value",
+        "wcag2a",
+        "wcag244",
+        "wcag412",
+        "section508",
+        "section508.22.a",
+        "TTv5",
+        "TT6.a",
+        "EN-301-549",
+        "EN-9.2.4.4",
+        "EN-9.4.1.2",
+        "ACT"
+      ],
+      "description": "Ensures links have discernible text",
+      "help": "Links must have discernible text",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/link-name?application=axeAPI",
+      "nodes": [
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"/\">",
+          "target": [
+            ".logo > a[href=\"/\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "aria-label",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "aria-label attribute exists and is not empty"
+            },
+            {
+              "id": "non-empty-title",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has a title attribute"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a class=\"searchpan search-span\" href=\"javascript:;\" aria-label=\"Perform Search\" title=\"Perform Search\">\n</a>",
+          "target": [
+            ".searchpan"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "aria-label",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "aria-label attribute exists and is not empty"
+            },
+            {
+              "id": "non-empty-title",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has a title attribute"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a class=\"wishlist\" href=\"javascript:void(0);\" aria-label=\"View Wishlist\" title=\"View Wishlist\">\n  <i class=\"wishlist-icon i-icon\"></i>\n  <input type=\"hidden\" id=\"wishlistUrl\" value=\"/wishlist?wishlistType=Default\"> \n</a>",
+          "target": [
+            ".wishlist"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a data-id=\"NewCategoryBarWithImageComponent\" href=\"/\" class=\"active-nav\">Categories</a>",
+          "target": [
+            ".active-nav"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a data-id=\"cmsitem_00311035\" href=\"/luxe\" class=\"gold-nav\">LUXE</a>",
+          "target": [
+            ".gold-nav"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a data-id=\"OffersBarWithImageComponent\" href=\"/promotions\">BARGAINS</a>",
+          "target": [
+            "header > nav > .container-responsive.container:nth-child(1) > .row > .lvl0 > li:nth-child(3) > a[data-id=\"OffersBarWithImageComponent\"][href$=\"promotions\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a data-id=\"StyleHubBarWithImageComponent\" href=\"https://stylehub.shoppersstop.com\">STYLE HUB</a>",
+          "target": [
+            "header > nav > .container-responsive.container:nth-child(1) > .row > .lvl0 > li:nth-child(4) > a[data-id=\"StyleHubBarWithImageComponent\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            },
+            {
+              "id": "non-empty-title",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has a title attribute"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"javascript:;\" title=\"LUXE\">LUXE</a>",
+          "target": [
+            "a[title=\"LUXE\"][href=\"javascript:;\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            },
+            {
+              "id": "non-empty-title",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has a title attribute"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"javascript:;\" title=\"BARGAINS\">BARGAINS</a>",
+          "target": [
+            "a[title=\"BARGAINS\"][href=\"javascript:;\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            },
+            {
+              "id": "non-empty-title",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has a title attribute"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"javascript:;\" title=\"MEN\">MEN</a>",
+          "target": [
+            "a[title=\"MEN\"][href=\"javascript:;\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            },
+            {
+              "id": "non-empty-title",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has a title attribute"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"javascript:;\" title=\"WOMEN\">WOMEN</a>",
+          "target": [
+            "a[title=\"WOMEN\"][href=\"javascript:;\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            },
+            {
+              "id": "non-empty-title",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has a title attribute"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"javascript:;\" title=\"BEAUTY\">BEAUTY</a>",
+          "target": [
+            "a[title=\"BEAUTY\"][href=\"javascript:;\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            },
+            {
+              "id": "non-empty-title",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has a title attribute"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"javascript:;\" title=\"WATCHES\">WATCHES</a>",
+          "target": [
+            "a[title=\"WATCHES\"][href=\"javascript:;\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            },
+            {
+              "id": "non-empty-title",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has a title attribute"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"javascript:;\" title=\"KIDS\">KIDS</a>",
+          "target": [
+            "a[title=\"KIDS\"][href=\"javascript:;\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            },
+            {
+              "id": "non-empty-title",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has a title attribute"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"javascript:;\" title=\"HOMESTOP\">HOMESTOP</a>",
+          "target": [
+            "a[title=\"HOMESTOP\"][href=\"javascript:;\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            },
+            {
+              "id": "non-empty-title",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has a title attribute"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"javascript:;\" title=\"GIFTS\">GIFTS</a>",
+          "target": [
+            "a[title=\"GIFTS\"][href=\"javascript:;\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            },
+            {
+              "id": "non-empty-title",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has a title attribute"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"javascript:;\" title=\"BRANDS\">BRANDS</a>",
+          "target": [
+            "a[title=\"BRANDS\"][href=\"javascript:;\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a id=\"mobileLogin\" class=\"register-form\" href=\"javascript:void(0);\">Sign In/Sign Up</a>",
+          "target": [
+            "header > nav > .mob.container-responsive.container > .row > .user-container-mob > ul > li:nth-child(4) > .register-form[href=\"javascript:void(0);\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"/trackorders\">Track Order</a>",
+          "target": [
+            "header > nav > .mob.container-responsive.container > .row > .user-container-mob > ul > li:nth-child(5) > a[href$=\"trackorders\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a onclick=\"GA_hamburger_interaction('all stores')\" href=\"/store-finder\">All Stores</a>",
+          "target": [
+            "header > nav > .mob.container-responsive.container > .row > .user-container-mob > ul > li:nth-child(6) > a[href$=\"store-finder\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a class=\"collapsed-option\" href=\"/first-citizen/non-member\">First Citizen</a>",
+          "target": [
+            "header > nav > .mob.container-responsive.container > .row > .user-container-mob > ul > li:nth-child(7) > .collapsed-option[href$=\"non-member\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a class=\"collapsed-option\" href=\"http://stylehub.shoppersstop.com/\">Style\n\t\t\t\t\t\t\t\t\tHub</a>",
+          "target": [
+            "header > nav > .mob.container-responsive.container > .row > .user-container-mob > ul > li:nth-child(8) > .collapsed-option"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a class=\"collapsed-option\" href=\"https://www.shoppersstop.com/express-store-pickup\">Express Pickup</a>",
+          "target": [
+            "header > nav > .mob.container-responsive.container > .row > .user-container-mob > ul > li:nth-child(9) > .collapsed-option"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"javascript:void(0)\" class=\"collapsed\" data-toggle=\"collapse\" data-target=\"#sslPersonalShopper\"><span onclick=\"GA_hamburger_interaction('personal shopper')\">Personal Shopper</span></a>",
+          "target": [
+            "header > nav > .mob.container-responsive.container > .row > .user-container-mob > ul > .togCollapse.panel-collapsed:nth-child(10) > .collapsed[data-target=\"#sslPersonalShopper\"][data-toggle=\"collapse\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"javascript:void(0)\" class=\"collapsed\" data-toggle=\"collapse\" data-target=\"#sslHelpSupport\"><span onclick=\"GA_hamburger_interaction('help and support')\">Help &amp; Support </span></a>",
+          "target": [
+            "header > nav > .mob.container-responsive.container > .row > .user-container-mob > ul > .togCollapse.panel-collapsed:nth-child(11) > .collapsed[data-target=\"#sslHelpSupport\"][data-toggle=\"collapse\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a data-id=\"NewCategoryBarWithImageComponent\" href=\"/\">Categories</a>",
+          "target": [
+            "main > nav > .container-responsive.container:nth-child(1) > .row > .lvl0 > li:nth-child(1) > a[href=\"/\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a data-id=\"cmsitem_00311035\" href=\"/luxe\">LUXE</a>",
+          "target": [
+            "main > nav > .container-responsive.container:nth-child(1) > .row > .lvl0 > li:nth-child(2) > a[data-id=\"cmsitem_00311035\"][href$=\"luxe\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a data-id=\"OffersBarWithImageComponent\" href=\"/promotions\">BARGAINS</a>",
+          "target": [
+            "main > nav > .container-responsive.container:nth-child(1) > .row > .lvl0 > li:nth-child(3) > a[data-id=\"OffersBarWithImageComponent\"][href$=\"promotions\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a data-id=\"StyleHubBarWithImageComponent\" href=\"https://stylehub.shoppersstop.com\">STYLE HUB</a>",
+          "target": [
+            "main > nav > .container-responsive.container:nth-child(1) > .row > .lvl0 > li:nth-child(4) > a[data-id=\"StyleHubBarWithImageComponent\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            },
+            {
+              "id": "non-empty-title",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has a title attribute"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"/luxe\" title=\"LUXE\">LUXE</a>",
+          "target": [
+            "a[title=\"LUXE\"][href$=\"luxe\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            },
+            {
+              "id": "non-empty-title",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has a title attribute"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"/promotions\" title=\"BARGAINS\">BARGAINS</a>",
+          "target": [
+            "a[title=\"BARGAINS\"][href$=\"promotions\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            },
+            {
+              "id": "non-empty-title",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has a title attribute"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"/men/c-A10\" title=\"MEN\">MEN</a>",
+          "target": [
+            "a[href$=\"c-A10\"][title=\"MEN\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            },
+            {
+              "id": "non-empty-title",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has a title attribute"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"/women/c-A20\" title=\"WOMEN\">WOMEN</a>",
+          "target": [
+            "a[href$=\"c-A20\"][title=\"WOMEN\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            },
+            {
+              "id": "non-empty-title",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has a title attribute"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"/beauty/c-B10\" title=\"BEAUTY\">BEAUTY</a>",
+          "target": [
+            "a[href$=\"c-B10\"][title=\"BEAUTY\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            },
+            {
+              "id": "non-empty-title",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has a title attribute"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"https://www.shoppersstop.com/lp-watches\" title=\"WATCHES\">WATCHES</a>",
+          "target": [
+            "main > nav > .container-responsive.container:nth-child(1) > .row > .lvl1 > .yCmsComponent.tive.l1Cat:nth-child(6) > a[title=\"WATCHES\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            },
+            {
+              "id": "non-empty-title",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has a title attribute"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"/kids/c-A40\" title=\"KIDS\">KIDS</a>",
+          "target": [
+            "a[href$=\"c-A40\"][title=\"KIDS\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            },
+            {
+              "id": "non-empty-title",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has a title attribute"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"/homeware/c-A80\" title=\"HOMESTOP\">HOMESTOP</a>",
+          "target": [
+            ".yCmsComponent.tive.l1Cat:nth-child(8) > a[href$=\"c-A80\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            },
+            {
+              "id": "non-empty-title",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has a title attribute"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"/giftsoflove\" title=\"GIFTS\">GIFTS</a>",
+          "target": [
+            ".yCmsComponent.tive.l1Cat:nth-child(9) > a[href$=\"giftsoflove\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            },
+            {
+              "id": "non-empty-title",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has a title attribute"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"/brands\" title=\"BRANDS\">BRANDS</a>",
+          "target": [
+            "a[href$=\"brands\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a id=\"mobileLogin\" class=\"register-form\" href=\"javascript:void(0);\">Sign In/Sign Up</a>",
+          "target": [
+            "main > nav > .mob.container-responsive.container > .row > .user-container-mob > ul > li:nth-child(4) > .register-form[href=\"javascript:void(0);\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"/trackorders\">Track Order</a>",
+          "target": [
+            "main > nav > .mob.container-responsive.container > .row > .user-container-mob > ul > li:nth-child(5) > a[href$=\"trackorders\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a onclick=\"GA_hamburger_interaction('all stores')\" href=\"/store-finder\">All Stores</a>",
+          "target": [
+            "main > nav > .mob.container-responsive.container > .row > .user-container-mob > ul > li:nth-child(6) > a[href$=\"store-finder\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a class=\"collapsed-option\" href=\"/first-citizen/non-member\">First Citizen</a>",
+          "target": [
+            "main > nav > .mob.container-responsive.container > .row > .user-container-mob > ul > li:nth-child(7) > .collapsed-option[href$=\"non-member\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a class=\"collapsed-option\" href=\"http://stylehub.shoppersstop.com/\">Style\n\t\t\t\t\t\t\t\t\tHub</a>",
+          "target": [
+            "main > nav > .mob.container-responsive.container > .row > .user-container-mob > ul > li:nth-child(8) > .collapsed-option"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a class=\"collapsed-option\" href=\"https://www.shoppersstop.com/express-store-pickup\">Express Pickup</a>",
+          "target": [
+            "main > nav > .mob.container-responsive.container > .row > .user-container-mob > ul > li:nth-child(9) > .collapsed-option"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"javascript:void(0)\" class=\"collapsed\" data-toggle=\"collapse\" data-target=\"#sslPersonalShopper\"><span onclick=\"GA_hamburger_interaction('personal shopper')\">Personal Shopper</span></a>",
+          "target": [
+            "main > nav > .mob.container-responsive.container > .row > .user-container-mob > ul > .togCollapse.panel-collapsed:nth-child(10) > .collapsed[data-target=\"#sslPersonalShopper\"][data-toggle=\"collapse\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"javascript:void(0)\" class=\"collapsed\" data-toggle=\"collapse\" data-target=\"#sslHelpSupport\"><span onclick=\"GA_hamburger_interaction('help and support')\">Help &amp; Support </span></a>",
+          "target": [
+            "main > nav > .mob.container-responsive.container > .row > .user-container-mob > ul > .togCollapse.panel-collapsed:nth-child(11) > .collapsed[data-target=\"#sslHelpSupport\"][data-toggle=\"collapse\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"/promotions\">\n                            <img src=\"https://sslimages.shoppersstop.com/sys-master/root/hb7/h46/32032602783774/bargains_navigation-banners------msite-new-anavigation24218212.jpg\">\n                            <span>bargai%s</span>\n                        </a>",
+          "target": [
+            "li[aria-hidden=\"false\"]:nth-child(1) > a[href$=\"promotions\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"/c-A10\">\n                            <img src=\"https://sslimages.shoppersstop.com/sys-master/root/h89/hd6/32361782968350/Summer-Navigation-Bar_280324d_men.jpg\">\n                            <span>men</span>\n                        </a>",
+          "target": [
+            "li[aria-hidden=\"false\"]:nth-child(2) > a[href$=\"c-A10\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"/c-A20\">\n                            <img src=\"https://sslimages.shoppersstop.com/sys-master/root/h38/h43/32063094489118/Summer-Navigation-Bar-Women_n2.jpg\">\n                            <span>women</span>\n                        </a>",
+          "target": [
+            "li[aria-hidden=\"false\"]:nth-child(3) > a[href$=\"c-A20\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"/lp-watches\">\n                            <img src=\"https://sslimages.shoppersstop.com/sys-master/root/h36/h23/32032603799582/Summer-Navigation-Bar-watches_n4.jpg\">\n                            <span>watches</span>\n                        </a>",
+          "target": [
+            "li[aria-hidden=\"false\"]:nth-child(4) > a[href$=\"lp-watches\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"/c-B10\">\n                            <img src=\"https://sslimages.shoppersstop.com/sys-master/root/hf0/h25/32032603832350/Summer-Navigation-Bar-beauty_n6.jpg\">\n                            <span>beauty</span>\n                        </a>",
+          "target": [
+            "li[aria-hidden=\"false\"]:nth-child(5) > a[href$=\"c-B10\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"https://www.shoppersstop.com/giftsoflove\">\n                            <img src=\"https://sslimages.shoppersstop.com/sys-master/root/h47/h26/32032603865118/Summer-Navigation-Bar-gift_n7.jpg\">\n                            <span>gifts</span>\n                        </a>",
+          "target": [
+            "li[aria-hidden=\"false\"]:nth-child(6) > a"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"https://www.shoppersstop.com/homeware/c-A80\">\n                            <img src=\"https://sslimages.shoppersstop.com/sys-master/root/h9e/h26/32032603897886/Summer-Navigation-Bar-homestop_n8.jpg\">\n                            <span>homestop</span>\n                        </a>",
+          "target": [
+            "li[aria-hidden=\"false\"]:nth-child(7) > a"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"/c-A40\">\n                            <img src=\"https://sslimages.shoppersstop.com/sys-master/root/h58/h29/32032603930654/Summer-Navigation-Bar-kids_n9.jpg\">\n                            <span>kids</span>\n                        </a>",
+          "target": [
+            "li[aria-hidden=\"false\"]:nth-child(8) > a[href$=\"c-A40\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"/luxe\">\n                            <img src=\"https://sslimages.shoppersstop.com/sys-master/root/haf/h29/32032603963422/Summer-Navigation-Bar-luxe_n10.jpg\">\n                            <span>luxe</span>\n                        </a>",
+          "target": [
+            "li[aria-hidden=\"false\"]:nth-child(9) > a[href$=\"luxe\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"https://www.shoppersstop.com/search/?sort=newArrival-desc&amp;q=private_brands%3Arelevance%3AinStockFlag%3Atrue%3Al1category%3AAll&amp;startRange=&amp;endRange=#\" data-select-uid=\"cmsitem_00554059\" data-select-name=\"web_main banner carousal_10-2-2024\" data-select-position=\"1\" data-select-creative=\"web_PVT Label_10-2-2024\" class=\"homepageBannerHomePage\" tabindex=\"0\">",
+          "target": [
+            "#slick-slide01 > div > div > a[data-select-creative=\"web_PVT Label_10-2-2024\"][data-select-uid=\"cmsitem_00554059\"][data-select-position=\"1\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"\" data-select-uid=\"cmsitem_00374243\" data-select-name=\"Web_strip_20220512\" data-select-position=\"0\" data-select-creative=\"web_big_sale23_373\" class=\"homepageBannerHomePage\" tabindex=\"0\">",
+          "target": [
+            "#slick-slide10 > div > div > a[data-select-creative=\"web_big_sale23_373\"][data-select-uid=\"cmsitem_00374243\"][data-select-name=\"Web_strip_20220512\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            },
+            {
+              "id": "aria-label",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "aria-label attribute exists and is not empty"
+            },
+            {
+              "id": "non-empty-title",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has a title attribute"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"#\" class=\"brandsWeLoveHomePageCmsComponentATag\" title=\"Brands We Love\" aria-label=\"Brands We Love\" data-sslstaticresponsivebanner=\"\" data-select-uid=\"cmsitem_00368096\" data-select-name=\"web_hp_icon-strips_main_20220322\" data-select-position=\"0\" data-select-creative=\"DEFAULT\">",
+          "target": [
+            "a[title=\"Brands We Love\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "aria-label",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "aria-label attribute exists and is not empty"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"\" class=\"brandsWeLoveHomePageCmsComponentATag\" aria-label=\"Featured Brands\" data-sslstaticresponsivebanner=\"\" data-select-uid=\"cmsitem_00554386\" data-select-name=\"web_featured brands_13-2-2024\" data-select-position=\"0\" data-select-creative=\"DEFAULT\"></a>",
+          "target": [
+            "a[aria-label=\"Featured Brands\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"https://www.shoppersstop.com/virtual-category-timexglobal/c-Timexglobal\" data-select-uid=\"cmsitem_00370332\" data-select-name=\"web_hp_sponcered-brand_202120413_part1\" data-select-position=\"0\" data-select-creative=\"web_HP_Timex_Watch_Featured-Brands_12-02-2023\" class=\"homepageBannerHomePage\" tabindex=\"0\">",
+          "target": [
+            "#slick-slide20 > div > div > .homepageBannerHomePage[data-select-uid=\"cmsitem_00370332\"][data-select-position=\"0\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"\" class=\"brandsWeLoveHomePageCmsComponentATag\" data-sslstaticresponsivebanner=\"\" data-select-uid=\"cmsitem_00554382\" data-select-name=\"web_What's Trending In_13-2-2024\" data-select-position=\"0\" data-select-creative=\"DEFAULT\">",
+          "target": [
+            ".brandsWeLoveHomePageCmsComponentATag[data-select-uid=\"cmsitem_00554382\"][data-sslstaticresponsivebanner=\"\"]:nth-child(1)"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "aria-label",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "aria-label attribute exists and is not empty"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"\" class=\"brandsWeLoveHomePageCmsComponentATag\" aria-label=\"What's Trending\" data-sslstaticresponsivebanner=\"\" data-select-uid=\"cmsitem_00554382\" data-select-name=\"web_What's Trending In_13-2-2024\" data-select-position=\"0\" data-select-creative=\"DEFAULT\"></a>",
+          "target": [
+            "a[aria-label=\"What's Trending\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"https://www.shoppersstop.com/giftsoflove\" data-select-uid=\"cmsitem_00385318\" data-select-name=\"web_hp_whats-trending_carousel_20220721s\" data-select-position=\"6\" data-select-creative=\"web_loveforbrands _500_070623\" class=\"homepageBannerHomePage\" tabindex=\"0\">",
+          "target": [
+            "#slick-slide36 > div > div > a[data-select-creative=\"web_loveforbrands _500_070623\"][data-select-position=\"6\"][data-select-uid=\"cmsitem_00385318\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "aria-label",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "aria-label attribute exists and is not empty"
+            },
+            {
+              "id": "non-empty-title",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has a title attribute"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"\" class=\"brandsWeLoveHomePageCmsComponentATag\" data-sslstaticresponsivebanner=\"\" data-select-uid=\"cmsitem_00568085\" data-select-name=\"web_the-scent-house-logo-strip-\" data-select-position=\"0\" data-select-creative=\"DEFAULT\" aria-label=\"The Scent House\" title=\"The Scent House\"></a>",
+          "target": [
+            "a[data-select-uid=\"cmsitem_00568085\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"https://www.shoppersstop.com/brand/burberry?sort=topRated&amp;q=%3AcategoryRelevance%3AinStockFlag%3Atrue%3Abrands%3ABURBERRY%3Al1category%3ABeauty&amp;startRange=&amp;endRange=&amp;show=Page#\" data-select-uid=\"cmsitem_00567066\" data-select-name=\"web_summer-indulgnce_carousle_2024-03-04\" data-select-position=\"0\" data-select-creative=\"web_burburry_summer-indugle_2024-0403\" class=\"homepageBannerHomePage\" tabindex=\"0\">",
+          "target": [
+            "#slick-slide40 > div > div > .homepageBannerHomePage[data-select-uid=\"cmsitem_00567066\"][data-select-position=\"0\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"https://www.shoppersstop.com/brand/marc-jacobs?sort=discount-desc&amp;q=%3AtopRated%3AinStockFlag%3Atrue%3Abrands%3AMARC%2BJACOBS&amp;startRange=&amp;endRange=#\" class=\"latestFromCmsComponentATag\" data-select-uid=\"cmsitem_00567077\" data-select-name=\"web_coty_Marc Jacobs_2024-04-031\" data-select-position=\"0\" data-select-creative=\"web_coty_Marc Jacobs_2024-04-031\">",
+          "target": [
+            "a[data-select-uid=\"cmsitem_00567077\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"https://www.shoppersstop.com/brand/hugo-boss?sort=discount-desc&amp;q=%3AtopRated%3AinStockFlag%3Atrue%3Abrands%3AHUGO%2BBOSS&amp;startRange=&amp;endRange=&amp;show=Page#\" class=\"latestFromCmsComponentATag\" data-select-uid=\"cmsitem_00567079\" data-select-name=\"web_coty_Hugo Boss_2024-04-0311\" data-select-position=\"1\" data-select-creative=\"web_coty_Hugo Boss_2024-04-0311\">",
+          "target": [
+            "a[data-select-uid=\"cmsitem_00567079\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"https://www.shoppersstop.com/brand/calvin-klein?sort=discount-desc&amp;q=%3AtopRated%3AinStockFlag%3Atrue%3Abrands%3ACALVIN%2BKLEIN%3Al1category%3ABeauty&amp;startRange=&amp;endRange=&amp;show=Page#\" class=\"latestFromCmsComponentATag\" data-select-uid=\"cmsitem_00567081\" data-select-name=\"web_coty_Calvin Klein_2024-04-031\" data-select-position=\"2\" data-select-creative=\"web_coty_Calvin Klein_2024-04-031\">",
+          "target": [
+            "a[data-select-uid=\"cmsitem_00567081\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"https://www.shoppersstop.com/brand/davidoff?sort=discount-desc&amp;q=%3AtopRated%3AinStockFlag%3Atrue%3Abrands%3ADAVIDOFF&amp;startRange=&amp;endRange=#\" class=\"latestFromCmsComponentATag\" data-select-uid=\"cmsitem_00567083\" data-select-name=\"web_coty_ Davidoff_2024-04-031\" data-select-position=\"3\" data-select-creative=\"web_coty_ Davidoff_2024-04-031\">",
+          "target": [
+            "a[data-select-uid=\"cmsitem_00567083\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            },
+            {
+              "id": "aria-label",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "aria-label attribute exists and is not empty"
+            },
+            {
+              "id": "non-empty-title",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has a title attribute"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"https://www.shoppersstop.com/accessories\" class=\"brandsWeLoveHomePageCmsComponentATag\" title=\"Shop Accessories at Shoppers Stop\" data-sslstaticresponsivebanner=\"\" data-select-uid=\"cmsitem_00568142\" data-select-name=\"web_accessery strips _05-04-2025\" data-select-position=\"0\" data-select-creative=\"DEFAULT\" aria-label=\"Shop Accessories at Shoppers Stop\">",
+          "target": [
+            "a[data-select-uid=\"cmsitem_00568142\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"https://www.shoppersstop.com/brand/scott?sort=topRated&amp;q=%3AcategoryRelevance%3AinStockFlag%3Atrue%3Abrands%3ASCOTT&amp;startRange=&amp;endRange=#\" class=\"latestFromCmsComponentATag\" data-select-uid=\"cmsitem_00568158\" data-select-name=\"web_Scott_05-4-2024\" data-select-position=\"0\" data-select-creative=\"web_Scott_05-4-2024\">",
+          "target": [
+            "a[data-select-uid=\"cmsitem_00568158\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"https://www.shoppersstop.com/brand/Irus?sort=topRated&amp;q=%3AcategoryRelevance%3AinStockFlag%3Atrue%3Abrands%3AIRUS&amp;startRange=&amp;endRange=#\" class=\"latestFromCmsComponentATag\" data-select-uid=\"cmsitem_00568162\" data-select-name=\"web_Irus_05-4-2024\" data-select-position=\"1\" data-select-creative=\"web_Irus_05-4-2024\">",
+          "target": [
+            "a[data-select-uid=\"cmsitem_00568162\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"https://www.shoppersstop.com/brand/Idee?sort=topRated&amp;q=%3Adiscount-desc%3AinStockFlag%3Atrue%3Abrands%3AIDEE&amp;startRange=&amp;endRange=#\" class=\"latestFromCmsComponentATag\" data-select-uid=\"cmsitem_00568164\" data-select-name=\"web_Idee_05-4-2024\" data-select-position=\"2\" data-select-creative=\"web_Idee_05-4-2024\">",
+          "target": [
+            "a[data-select-uid=\"cmsitem_00568164\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"https://www.shoppersstop.com/brand/rayban?sort=topRated&amp;q=%3AcategoryRelevance%3AinStockFlag%3Atrue%3Abrands%3ARAYBAN&amp;startRange=&amp;endRange=#\" class=\"latestFromCmsComponentATag\" data-select-uid=\"cmsitem_00568166\" data-select-name=\"web_rayban_05-4-2024\" data-select-position=\"3\" data-select-creative=\"web_rayban_05-4-2024\">",
+          "target": [
+            "a[data-select-uid=\"cmsitem_00568166\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            },
+            {
+              "id": "aria-label",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "aria-label attribute exists and is not empty"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"URL-to-Top-Rated-Categories\" class=\"brandsWeLoveHomePageCmsComponentATag\" aria-label=\"Top-Rated Categories\" data-sslstaticresponsivebanner=\"\" data-select-uid=\"cmsitem_00554385\" data-select-name=\"web_Top-Rated Categories_13-2-2024\" data-select-position=\"0\" data-select-creative=\"DEFAULT\">",
+          "target": [
+            "a[href=\"URL-to-Top-Rated-Categories\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"https://www.shoppersstop.com/women-lingerie-nightwear/c-A20110?sort=topRated&amp;q=%3AcategoryRelevance%3AinStockFlag%3Atrue%3Abrands%3ATRIUMPH%3Abrands%3AAMANTE%3Abrands%3AENAMOR%3Abrands%3ASWEET%2BDREAMS%3Abrands%3ANYKD%2BBY%2BNYKAA%3Abrands%3AWACOAL\" class=\"latestFromCmsComponentATag\" data-select-uid=\"cmsitem_00554179\" data-select-name=\"web_Lingerie_10-2-2024-\" data-select-position=\"0\" data-select-creative=\"web_Lingerie_10-2-2024-\">",
+          "target": [
+            "a[data-select-uid=\"cmsitem_00554179\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"https://www.shoppersstop.com/kids-all-kids-clothing/c-C1000013?sort=topRated&amp;q=%3AcategoryRelevance%3AinStockFlag%3Atrue&amp;startRange=&amp;endRange=\" class=\"latestFromCmsComponentATag\" data-select-uid=\"cmsitem_00554181\" data-select-name=\"web_Kidswear_10-2-2024\" data-select-position=\"1\" data-select-creative=\"web_Kidswear_10-2-2024\">",
+          "target": [
+            "a[data-select-uid=\"cmsitem_00554181\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"https://www.shoppersstop.com/women-jewellery-fashion-semi-precious/c-A209510?q=%3AtopRated%3AinStockFlag%3Atrue&amp;startRange=&amp;endRange=&amp;sort=topRated\" class=\"latestFromCmsComponentATag\" data-select-uid=\"cmsitem_00554183\" data-select-name=\"web_Jewellery_10-2-2024\" data-select-position=\"2\" data-select-creative=\"web_Jewellery_10-2-2024\">",
+          "target": [
+            "a[data-select-uid=\"cmsitem_00554183\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"https://www.shoppersstop.com/beauty-make-up/c-B1010?q=%3AtopRated%3AinStockFlag%3Atrue%3Abrands%3AAnastasia%2BBeverly%2BHills%3Abrands%3ANARS%3Abrands%3AMAC%3Abrands%3ABOBBI%2BBROWN%3Abrands%3ASMASHBOX&amp;text=&amp;startRange=&amp;endRange=#\" class=\"latestFromCmsComponentATag\" data-select-uid=\"cmsitem_00554185\" data-select-name=\"web_Premium Makeup_10-2-2024a\" data-select-position=\"3\" data-select-creative=\"web_Premium Makeup_10-2-2024a\">",
+          "target": [
+            "a[data-select-uid=\"cmsitem_00554185\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"https://www.shoppersstop.com/homeware-all-homeware/c-C10000011\" class=\"latestFromCmsComponentATag\" data-select-uid=\"cmsitem_00554188\" data-select-name=\"web_Home Essentials_10-2-2024\" data-select-position=\"0\" data-select-creative=\"web_Home Essentials_10-2-2024\">",
+          "target": [
+            "a[data-select-uid=\"cmsitem_00554188\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"https://www.shoppersstop.com/search/?q=sunglasses%3AtopRated%3AinStockFlag%3Atrue%3Al1category%3AMen%3Al1category%3AWomen%3Al3category%3ARectangle%3Al3category%3ACat%2BEye%3Al3category%3AOval%3Al3category%3AFrames%2B%2526%2BContact%2BLenses\" class=\"latestFromCmsComponentATag\" data-select-uid=\"cmsitem_00554190\" data-select-name=\"web_Sunglasses_10-2-2024\" data-select-position=\"1\" data-select-creative=\"web_Sunglasses_10-2-2024\">",
+          "target": [
+            "a[data-select-uid=\"cmsitem_00554190\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"https://www.shoppersstop.com/men-accessories-travel/c-A102080?q=%3AtopRated%3AinStockFlag%3Atrue%3Al4category%3AHard%2BLuggage%3Al4category%3ASoft%2BLuggage&amp;text=&amp;startRange=&amp;endRange=\" class=\"latestFromCmsComponentATag\" data-select-uid=\"cmsitem_00554192\" data-select-name=\"web_Travel &amp; Luggage_10-2-2024\" data-select-position=\"2\" data-select-creative=\"web_Travel &amp; Luggage_10-2-2024\">",
+          "target": [
+            "a[data-select-uid=\"cmsitem_00554192\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"https://www.shoppersstop.com/women-bags-wallets/c-A2025?sort=topRated&amp;q=%3AcategoryRelevance%3AinStockFlag%3Atrue&amp;startRange=&amp;endRange=#\" class=\"latestFromCmsComponentATag\" data-select-uid=\"cmsitem_00554194\" data-select-name=\"web_Handbags_10-2-2024\" data-select-position=\"3\" data-select-creative=\"web_Handbags_10-2-2024\">",
+          "target": [
+            "a[data-select-uid=\"cmsitem_00554194\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "aria-label",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "aria-label attribute exists and is not empty"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"\" class=\"brandsWeLoveHomePageCmsComponentATag\" data-sslstaticresponsivebanner=\"\" data-select-uid=\"cmsitem_00554384\" data-select-name=\"web_shoppers stop selected_13-2-2024\" data-select-position=\"0\" data-select-creative=\"DEFAULT\" aria-label=\"Featured brand: Shoppers Stop\"></a>",
+          "target": [
+            "a[data-select-uid=\"cmsitem_00554384\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"https://www.shoppersstop.com/brand/karrot?sort=topRated&amp;q=%3Adiscount-desc%3AinStockFlag%3Atrue%3Abrands%3AKARROT&amp;startRange=&amp;endRange=#\" data-select-uid=\"cmsitem_00554043\" data-select-name=\"web_ssl_craousal_10-2-2024\" data-select-position=\"3\" data-select-creative=\"web_Hp_Karrot_Kids_22-02-2024\" class=\"homepageBannerHomePage\" tabindex=\"0\">",
+          "target": [
+            "#slick-slide53 > div > div > a[data-select-creative=\"web_Hp_Karrot_Kids_22-02-2024\"][data-select-uid=\"cmsitem_00554043\"][data-select-name=\"web_ssl_craousal_10-2-2024\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"https://www.shoppersstop.com/search/?q=private_brands%3Arelevance%3AinStockFlag%3Atrue%3AallPromotions%3AFLAT%2B20%2525%2BOFF&amp;text=private_brands&amp;startRange=&amp;endRange=&amp;brandPageId=&amp;linkText=\" class=\"banner50x50Left offersZoneCmsComponentATag\" data-select-uid=\"cmsitem_00566631\" data-select-name=\"web_pb_230324\" data-select-position=\"0\" data-select-creative=\"DEFAULT\">",
+          "target": [
+            ".banner50x50Left[data-select-uid=\"cmsitem_00566631\"][data-select-name=\"web_pb_230324\"]:nth-child(2)"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            },
+            {
+              "id": "aria-label",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "aria-label attribute exists and is not empty"
+            },
+            {
+              "id": "non-empty-title",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has a title attribute"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"https://www.shoppersstop.com/search/?q=private_brands%3Arelevance%3AinStockFlag%3Atrue%3AallPromotions%3AFLAT%2B20%2525%2BOFF&amp;text=private_brands&amp;startRange=&amp;endRange=&amp;brandPageId=&amp;linkText=\" class=\"banner50x50Left offersZoneCmsComponentATag\" data-select-uid=\"cmsitem_00566631\" data-select-name=\"web_pb_230324\" data-select-position=\"0\" data-select-creative=\"DEFAULT\" aria-label=\"Shop private brands with FLAT 20% OFF\" title=\"Shop private brands with FLAT 20% OFF\">",
+          "target": [
+            ".banner50x50Left[data-select-uid=\"cmsitem_00566631\"][data-select-name=\"web_pb_230324\"]:nth-child(3)"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"https://www.shoppersstop.com/search/?q=private_brands%3Arelevance%3AinStockFlag%3Atrue%3AallPromotions%3AFLAT%2B20%2525%2BOFF&amp;text=private_brands&amp;startRange=&amp;endRange=&amp;brandPageId=&amp;linkText=\" class=\"banner50x50Right offersZoneCmsComponentATag\" data-select-uid=\"cmsitem_00566631\" data-select-name=\"web_pb_230324\" data-select-position=\"1\" data-select-creative=\"DEFAULT\">",
+          "target": [
+            ".banner50x50Right[data-select-uid=\"cmsitem_00566631\"][data-select-name=\"web_pb_230324\"]:nth-child(4)"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "aria-label",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "aria-label attribute exists and is not empty"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"https://www.shoppersstop.com/search/?q=private_brands%3Arelevance%3AinStockFlag%3Atrue%3AallPromotions%3AFLAT%2B20%2525%2BOFF&amp;text=private_brands&amp;startRange=&amp;endRange=&amp;brandPageId=&amp;linkText=\" class=\"banner50x50Right offersZoneCmsComponentATag\" aria-label=\"Shop private brands with flat 20% off\" data-select-uid=\"cmsitem_00566631\" data-select-name=\"web_pb_230324\" data-select-position=\"1\" data-select-creative=\"DEFAULT\">",
+          "target": [
+            ".banner50x50Right[data-select-uid=\"cmsitem_00566631\"][data-select-name=\"web_pb_230324\"]:nth-child(5)"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "aria-label",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "aria-label attribute exists and is not empty"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"\" class=\"brandsWeLoveHomePageCmsComponentATag\" aria-label=\"web_Fresh off the Rack_8-2-2024\" data-sslstaticresponsivebanner=\"\" data-select-uid=\"cmsitem_00553089\" data-select-name=\"web_Fresh off the Rack_8-2-2024\" data-select-position=\"0\" data-select-creative=\"DEFAULT\"></a>",
+          "target": [
+            "a[data-select-uid=\"cmsitem_00553089\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"https://www.shoppersstop.com/men-clothing/c-A1010?q=%3AtopRated%3AinStockFlag%3Atrue%3Abrands%3ABEVERLY%2BHILLS%2BPOLO%2BCLUB&amp;text=&amp;startRange=&amp;endRange=#\" data-select-uid=\"cmsitem_00563024\" data-select-name=\"web_new-arrivals_hp_-02-03-2024\" data-select-position=\"4\" data-select-creative=\"web_beverly hills_010423\" class=\"homepageBannerHomePage\" tabindex=\"0\">",
+          "target": [
+            "#slick-slide64 > div > div > a[data-select-creative=\"web_beverly hills_010423\"][data-select-uid=\"cmsitem_00563024\"][data-select-position=\"4\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "aria-label",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "aria-label attribute exists and is not empty"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"#replace-with-valid-url\" class=\"brandsWeLoveHomePageCmsComponentATag\" aria-label=\"Covetable Beauty\" data-sslstaticresponsivebanner=\"\" data-select-uid=\"cmsitem_00554383\" data-select-name=\"web_Covetable Beauty_13-2-2024\" data-select-position=\"0\" data-select-creative=\"DEFAULT\"></a>",
+          "target": [
+            "a[href$=\"#replace-with-valid-url\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"https://www.shoppersstop.com/brand/rabanne?sort=topRated&amp;q=%3AcategoryRelevance%3AinStockFlag%3Atrue%3Abrands%3ARABANNE&amp;startRange=&amp;endRange=&amp;show=Page#\" data-select-uid=\"cmsitem_00483021\" data-select-name=\"web_Glam-It-Lux_carousel_2023-08--21\" data-select-position=\"1\" data-select-creative=\"web_rabanne-new-lunch_2024-03-15\" class=\"homepageBannerHomePage\" tabindex=\"0\">",
+          "target": [
+            "#slick-slide71 > div > div > .homepageBannerHomePage[data-select-uid=\"cmsitem_00483021\"][data-select-position=\"1\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "aria-label",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "aria-label attribute exists and is not empty"
+            },
+            {
+              "id": "non-empty-title",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has a title attribute"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"https://www.shoppersstop.com/p-A23NARS51133508SS/colorChange/A23NARS51133508SS_TOO_HOT_TO_HO_LD\" class=\"rec_item_17834015\" tabindex=\"0\" aria-label=\"Too Hot To Hold at Shoppers Stop\" title=\"View the Too Hot To Hold product at Shoppers Stop\"></a>",
+          "target": [
+            ".slick-current[data-slick-index=\"0\"][aria-hidden=\"false\"] > div > .reprocomp-inner.like-comp.card > .wishlist-background > .rec_item_17834015"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"https://www.shoppersstop.com/p-A23NARS51133508SS/colorChange/A23NARS51133508SS_TOO_HOT_TO_HO_LD\" class=\"productdetail complook card-body\" tabindex=\"0\">",
+          "target": [
+            ".compleate-look-section_17834015 > .slick-list > .slick-track > .slick-current[data-slick-index=\"0\"][aria-hidden=\"false\"] > div > .reprocomp-inner.like-comp.card > .productdetail.complook.card-body"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "aria-label",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "aria-label attribute exists and is not empty"
+            },
+            {
+              "id": "non-empty-title",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has a title attribute"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"https://www.shoppersstop.com/p-A23NARS45015017SS/colorChange/A23NARS45015017SS_COPACABANA\" class=\"rec_item_17834015\" tabindex=\"0\" aria-label=\"Shop NARS Copacabana Product\" title=\"Shop NARS Copacabana Product\"></a>",
+          "target": [
+            "a[aria-label=\"Shop NARS Copacabana Product\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"https://www.shoppersstop.com/p-A23NARS45015017SS/colorChange/A23NARS45015017SS_COPACABANA\" class=\"productdetail complook card-body\" tabindex=\"0\">",
+          "target": [
+            ".compleate-look-section_17834015 > .slick-list > .slick-track > .slick-active[data-slick-index=\"1\"][aria-hidden=\"false\"] > div > .reprocomp-inner.like-comp.card > .productdetail.complook.card-body"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "aria-label",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "aria-label attribute exists and is not empty"
+            },
+            {
+              "id": "non-empty-title",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has a title attribute"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"https://www.shoppersstop.com/p-A23NARS51002965SS/colorChange/A23NARS51002965SS_MEDIUM_DEEP\" class=\"rec_item_17834015\" tabindex=\"0\" aria-label=\"Shop Medium Deep NARS Product\" title=\"Shop Medium Deep NARS Product\"></a>",
+          "target": [
+            "a[aria-label=\"Shop Medium Deep NARS Product\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"https://www.shoppersstop.com/p-A23NARS51002965SS/colorChange/A23NARS51002965SS_MEDIUM_DEEP\" class=\"productdetail complook card-body\" tabindex=\"0\">",
+          "target": [
+            ".compleate-look-section_17834015 > .slick-list > .slick-track > .slick-active[data-slick-index=\"2\"][aria-hidden=\"false\"] > div > .reprocomp-inner.like-comp.card > .productdetail.complook.card-body"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "aria-label",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "aria-label attribute exists and is not empty"
+            },
+            {
+              "id": "non-empty-title",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has a title attribute"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"https://www.shoppersstop.com/p-A23NARS51132068SS/colorChange/A23NARS51132068SS_WANDERLUST\" class=\"rec_item_17834015\" tabindex=\"0\" title=\"Shop Wanderlust Product at Shoppers Stop\" aria-label=\"Shop Wanderlust Product at Shoppers Stop\"></a>",
+          "target": [
+            ".slick-active[data-slick-index=\"3\"][aria-hidden=\"false\"] > div > .reprocomp-inner.like-comp.card > .wishlist-background > .rec_item_17834015"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"https://www.shoppersstop.com/p-A23NARS51132068SS/colorChange/A23NARS51132068SS_WANDERLUST\" class=\"productdetail complook card-body\" tabindex=\"0\">",
+          "target": [
+            ".compleate-look-section_17834015 > .slick-list > .slick-track > .slick-active[data-slick-index=\"3\"][aria-hidden=\"false\"] > div > .reprocomp-inner.like-comp.card > .productdetail.complook.card-body"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "aria-label",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "aria-label attribute exists and is not empty"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"https://www.shoppersstop.com/p-A23NARS45012757SS/colorChange/A23NARS45012757SS_AFFOGATO\" class=\"rec_item_17834015\" tabindex=\"0\" aria-label=\"Shop Affogato Color Product A23NARS45012757SS at Shoppers Stop\"></a>",
+          "target": [
+            ".slick-active[data-slick-index=\"4\"][aria-hidden=\"false\"] > div > .reprocomp-inner.like-comp.card > .wishlist-background > .rec_item_17834015"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"https://www.shoppersstop.com/p-A23NARS45012757SS/colorChange/A23NARS45012757SS_AFFOGATO\" class=\"productdetail complook card-body\" tabindex=\"0\">",
+          "target": [
+            ".compleate-look-section_17834015 > .slick-list > .slick-track > .slick-active[data-slick-index=\"4\"][aria-hidden=\"false\"] > div > .reprocomp-inner.like-comp.card > .productdetail.complook.card-body"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"\" class=\"brandsWeLoveHomePageCmsComponentATag\" data-sslstaticresponsivebanner=\"\" data-select-uid=\"cmsitem_00554380\" data-select-name=\"web_online exclusive strips_13-2-2024\" data-select-position=\"0\" data-select-creative=\"DEFAULT\">",
+          "target": [
+            ".brandsWeLoveHomePageCmsComponentATag[data-select-uid=\"cmsitem_00554380\"][data-sslstaticresponsivebanner=\"\"]:nth-child(1)"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "aria-label",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "aria-label attribute exists and is not empty"
+            },
+            {
+              "id": "non-empty-title",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has a title attribute"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"\" class=\"brandsWeLoveHomePageCmsComponentATag\" data-sslstaticresponsivebanner=\"\" data-select-uid=\"cmsitem_00554380\" data-select-name=\"web_online exclusive strips_13-2-2024\" data-select-position=\"0\" data-select-creative=\"DEFAULT\" aria-label=\"View our web online exclusive strips\" title=\"View our web online exclusive strips\">",
+          "target": [
+            ".brandsWeLoveHomePageCmsComponentATag[data-select-uid=\"cmsitem_00554380\"][data-sslstaticresponsivebanner=\"\"]:nth-child(2)"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"https://www.shoppersstop.com/women-indianwear/c-A2010?q=%3AtopRated%3AinStockFlag%3Atrue%3Abrands%3AJUNIPER%3Abrands%3AMYSHKA%3Abrands%3AJANASYA%3Abrands%3ASTYLUM%3Abrands%3AZIYAA%3Abrands%3ASCAKHI%3Abrands%3AHOUSE%2BOF%2BBEGUM\" class=\"latestFromCmsComponentATag\" data-select-uid=\"cmsitem_00554291\" data-select-name=\"web_Juniper, Myskha &amp; more_12-2-2024\" data-select-position=\"0\" data-select-creative=\"web_Juniper, Myskha &amp; more_12-2-2024\">",
+          "target": [
+            "a[data-select-uid=\"cmsitem_00554291\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"https://www.shoppersstop.com/women-westernwear/c-A2060?q=%3AtopRated%3AinStockFlag%3Atrue%3Abrands%3ARARE%3Abrands%3AQURVII%3Abrands%3AMISS%2BCHASE%3Abrands%3ADOLCE%2BCRUDO%3Abrands%3ASERA%3Abrands%3AKIBO%3Abrands%3AMARIE%2BCLAIRE\" class=\"latestFromCmsComponentATag\" data-select-uid=\"cmsitem_00554294\" data-select-name=\"web_Rare, Miss Chase &amp; more_12-2024\" data-select-position=\"1\" data-select-creative=\"web_Rare, Miss Chase &amp; more_12-2024\">",
+          "target": [
+            "a[data-select-uid=\"cmsitem_00554294\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"https://www.shoppersstop.com/men-clothing/c-A1010?q=%3AtopRated%3AinStockFlag%3Atrue%3Abrands%3ARIGO%3Abrands%3AHANGUP%3Abrands%3ATISTABENE%3Abrands%3ASANWARA%3Abrands%3ARODAMO%3Abrands%3ARIAG%3Abrands%3AMACMERISE&amp;text=&amp;startRange=&amp;endRange=#\" class=\"latestFromCmsComponentATag\" data-select-uid=\"cmsitem_00554296\" data-select-name=\"web_Rigo, Tistabene &amp; more_12-2-2024\" data-select-position=\"2\" data-select-creative=\"web_Rigo, Tistabene &amp; more_12-2-2024\">",
+          "target": [
+            "a[data-select-uid=\"cmsitem_00554296\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"https://www.shoppersstop.com/men-footwear/c-A1030?q=%3AtopRated%3AinStockFlag%3Atrue%3Abrands%3AASICS%3Abrands%3ABUCKAROO%3Abrands%3AFOUR%2BSTAR%2BTRUCK%2BSALES%3Abrands%3ABIG%2BFOX%3Abrands%3AGRIFFIN%3Abrands%3AMR.WONKER%3Abrands%3AWOAKERS\" class=\"latestFromCmsComponentATag\" data-select-uid=\"cmsitem_00554299\" data-select-name=\"web_Asics &amp; Buckaroo_12-2-2024\" data-select-position=\"3\" data-select-creative=\"web_Asics &amp; Buckaroo_12-2-2024\">",
+          "target": [
+            "a[data-select-uid=\"cmsitem_00554299\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"https://www.shoppersstop.com/women-bags-wallets/c-A2025?q=%3AtopRated%3AinStockFlag%3Atrue%3Abrands%3AYELLOE%3Abrands%3AKLEIO%3Abrands%3APOLICE%3Abrands%3AVIVINKA%3Abrands%3ASTROPCARRY%3Abrands%3AMIRAGGIO%3Abrands%3AHAUTE%2BSAUCE\" class=\"latestFromCmsComponentATag\" data-select-uid=\"cmsitem_00554303\" data-select-name=\"web_Bags &amp; Accessories_12-2-2024\" data-select-position=\"0\" data-select-creative=\"web_Bags &amp; Accessories_12-2-2024\">",
+          "target": [
+            "a[data-select-uid=\"cmsitem_00554303\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"https://www.shoppersstop.com/women-jewellery-fashion-semi-precious/c-A209510?q=%3AtopRated%3AinStockFlag%3Atrue%3Abrands%3AABDESIGNS%3Abrands%3AJEWELZ%3Abrands%3ASOHI%3Abrands%3AVIRAASI%3Abrands%3ARUBY%2BRAANG%3Abrands%3AZAVYA&amp;text=&amp;startRange=&amp;endRange=#\" class=\"latestFromCmsComponentATag\" data-select-uid=\"cmsitem_00554305\" data-select-name=\"web_ABdesigns &amp; Jewelz_12-2-2024\" data-select-position=\"1\" data-select-creative=\"web_ABdesigns &amp; Jewelz_12-2-2024\">",
+          "target": [
+            "a[data-select-uid=\"cmsitem_00554305\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"https://www.shoppersstop.com/beauty-fragrance-for-women/c-B1070?q=%3AtopRated%3AinStockFlag%3Atrue%3Abrands%3ASWISS%2BARABIAN%3Abrands%3AChemist%2BAt%2BPlay%3Abrands%3AAffetto%3Abrands%3ALA%2BFRENCH%3Abrands%3AMOCEMSA%3Abrands%3ASAWALEF\" class=\"latestFromCmsComponentATag\" data-select-uid=\"cmsitem_00554308\" data-select-name=\"web_Swiss Arabian &amp; La French_12-2-2024\" data-select-position=\"2\" data-select-creative=\"web_Swiss Arabian &amp; La French_12-2-2024\">",
+          "target": [
+            "a[data-select-uid=\"cmsitem_00554308\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"https://www.shoppersstop.com/homeware-decor/c-A8070?q=%3AtopRated%3AinStockFlag%3Atrue%3Abrands%3AECRAFTINDIA%3Abrands%3ADECORTWIST%3Abrands%3AGOLDEN%2BPEACOCK%3Abrands%3ARANDOM%3Abrands%3AEXCLUSIVELANE%3Abrands%3AMAGNET%3Abrands%3AHOUSE%2BTHIS\" class=\"latestFromCmsComponentATag\" data-select-uid=\"cmsitem_00554311\" data-select-name=\"web_Ecarft India &amp; Random_12-2024\" data-select-position=\"3\" data-select-creative=\"web_Ecarft India &amp; Random_12-2024\">",
+          "target": [
+            "a[data-select-uid=\"cmsitem_00554311\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"\" class=\"brandsWeLoveHomePageCmsComponentATag\" data-sslstaticresponsivebanner=\"\" data-select-uid=\"cmsitem_00554372\" data-select-name=\"web_Star-Studded Style_13-2-2024\" data-select-position=\"0\" data-select-creative=\"DEFAULT\">",
+          "target": [
+            ".brandsWeLoveHomePageCmsComponentATag[data-select-uid=\"cmsitem_00554372\"][data-sslstaticresponsivebanner=\"\"]:nth-child(1)"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "aria-label",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "aria-label attribute exists and is not empty"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"#starStuddedStyle\" class=\"brandsWeLoveHomePageCmsComponentATag\" aria-label=\"Explore Star-Studded Style\" data-sslstaticresponsivebanner=\"\" data-select-uid=\"cmsitem_00554372\" data-select-name=\"web_Star-Studded Style_13-2-2024\" data-select-position=\"0\" data-select-creative=\"DEFAULT\"></a>",
+          "target": [
+            "a[href$=\"#starStuddedStyle\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"https://www.shoppersstop.com/brand/lee?sort=topRated&amp;q=%3AcategoryRelevance%3AinStockFlag%3Atrue%3Abrands%3ALEE%3Al1category%3AWomen&amp;startRange=&amp;endRange=&amp;show=Page\" data-select-uid=\"cmsitem_00554108\" data-select-name=\"web_hp_celeb-brands_carousel_2024-02-10\" data-select-position=\"1\" data-select-creative=\"web_celeb brand lee_8-3-2024\" class=\"homepageBannerHomePage\" tabindex=\"0\">",
+          "target": [
+            "#slick-slide81 > div > div > a[data-select-creative=\"web_celeb brand lee_8-3-2024\"][data-select-uid=\"cmsitem_00554108\"][data-select-position=\"1\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "aria-label",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "aria-label attribute exists and is not empty"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"\" class=\"brandsWeLoveHomePageCmsComponentATag\" aria-label=\"Spring 2024 Fashion is in Full Bloom\" data-sslstaticresponsivebanner=\"\" data-select-uid=\"cmsitem_00554375\" data-select-name=\"web_Spring 2024 Fashion is in Full Bloom_13-2-2024\" data-select-position=\"0\" data-select-creative=\"DEFAULT\">",
+          "target": [
+            "a[data-select-uid=\"cmsitem_00554375\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"https://www.shoppersstop.com/virtual-category-monochrome-and-satorial/c-MonochromeAndSatorial\" data-select-uid=\"cmsitem_00556487\" data-select-name=\"web_HP_Spring 2024 Fashion is in Full Bloom_19-02-2023\" data-select-position=\"4\" data-select-creative=\"web_hp_timeless-monocrome_2024-03-08\" class=\"homepageBannerHomePage\" tabindex=\"0\">",
+          "target": [
+            "#slick-slide94 > div > div > .homepageBannerHomePage[data-select-uid=\"cmsitem_00556487\"][data-select-position=\"4\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "aria-label",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "aria-label attribute exists and is not empty"
+            },
+            {
+              "id": "non-empty-title",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has a title attribute"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"https://www.shoppersstop.com/virtual-category-timeless-indigo/c-TimelessIndigo\" class=\"banner50x50Left offersZoneCmsComponentATag\" data-select-uid=\"cmsitem_00556488\" data-select-name=\"web_HP_Spring-2024-Fashion-is-in-Full-Bloom_Multiclick_19-02-2024\" data-select-position=\"0\" data-select-creative=\"DEFAULT\" aria-label=\"Explore the Timeless Indigo Collection\" title=\"Explore the Timeless Indigo Collection\">",
+          "target": [
+            ".banner50x50Left.offersZoneCmsComponentATag[data-select-uid=\"cmsitem_00556488\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "aria-label",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "aria-label attribute exists and is not empty"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"https://www.shoppersstop.com/virtual-category-now-trending/c-NowTrending\" class=\"banner50x50Right offersZoneCmsComponentATag\" data-select-uid=\"cmsitem_00556488\" data-select-name=\"web_HP_Spring-2024-Fashion-is-in-Full-Bloom_Multiclick_19-02-2024\" data-select-position=\"1\" data-select-creative=\"DEFAULT\" aria-label=\"Spring 2024 Fashion is in Full Bloom - Now Trending\">",
+          "target": [
+            ".banner50x50Right.offersZoneCmsComponentATag[data-select-uid=\"cmsitem_00556488\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"\" class=\"brandsWeLoveHomePageCmsComponentATag\" data-sslstaticresponsivebanner=\"\" data-select-uid=\"cmsitem_00554374\" data-select-name=\"web_Dapper Up_13-2-2024\" data-select-position=\"0\" data-select-creative=\"DEFAULT\">",
+          "target": [
+            ".brandsWeLoveHomePageCmsComponentATag[data-select-uid=\"cmsitem_00554374\"][data-select-name=\"web_Dapper Up_13-2-2024\"]:nth-child(1)"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "aria-label",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "aria-label attribute exists and is not empty"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"#dapper-up-section\" class=\"brandsWeLoveHomePageCmsComponentATag\" aria-label=\"Dapper Up - Featured Brand\" data-sslstaticresponsivebanner=\"\" data-select-uid=\"cmsitem_00554374\" data-select-name=\"web_Dapper Up_13-2-2024\" data-select-position=\"0\" data-select-creative=\"DEFAULT\"></a>",
+          "target": [
+            "a[href$=\"#dapper-up-section\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"https://www.shoppersstop.com/virtual-category-flowyfabrics-stripes/c-Flowyfabrics%26Stripes\" data-select-uid=\"cmsitem_00556490\" data-select-name=\"web_HP_Dapper-Up_Carousel_19-02-2024\" data-select-position=\"5\" data-select-creative=\"web_HP_Flowy Fabrics_19-02-2024\" class=\"homepageBannerHomePage\" tabindex=\"0\">",
+          "target": [
+            "#slick-slide105 > div > div > .homepageBannerHomePage[data-select-uid=\"cmsitem_00556490\"][data-select-position=\"5\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "aria-label",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "aria-label attribute exists and is not empty"
+            },
+            {
+              "id": "non-empty-title",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has a title attribute"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"https://www.shoppersstop.com/virtual-category-short-kurta-men/c-Short_Kurta_Men\" class=\"banner50x50Left offersZoneCmsComponentATag\" title=\"Shop Trends of the Season for Men\" aria-label=\"Shop Trends of the Season for Men\" data-select-uid=\"cmsitem_00554214\" data-select-name=\"web_Trends of the season Men multiclick_12-2-2024\" data-select-position=\"0\" data-select-creative=\"DEFAULT\">",
+          "target": [
+            ".banner50x50Left.offersZoneCmsComponentATag[data-select-uid=\"cmsitem_00554214\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "aria-label",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "aria-label attribute exists and is not empty"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"https://www.shoppersstop.com/virtual-category-bandhgala-kurtas-mens/c-Bandhgala_Kurtas_Mens\" class=\"banner50x50Right offersZoneCmsComponentATag\" data-select-uid=\"cmsitem_00554214\" data-select-name=\"web_Trends of the season Men multiclick_12-2-2024\" data-select-position=\"1\" data-select-creative=\"DEFAULT\" aria-label=\"Shop Bandhgala Kurtas for Men at Shoppers Stop\">",
+          "target": [
+            ".banner50x50Right.offersZoneCmsComponentATag[data-select-uid=\"cmsitem_00554214\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "aria-label",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "aria-label attribute exists and is not empty"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"\" class=\"brandsWeLoveHomePageCmsComponentATag\" data-sslstaticresponsivebanner=\"\" data-select-uid=\"cmsitem_00554379\" data-select-name=\"web_Summer-Hit Brands_13-2-2024\" data-select-position=\"0\" data-select-creative=\"DEFAULT\" aria-label=\"Summer-Hit Brands\"></a>",
+          "target": [
+            "a[data-select-uid=\"cmsitem_00554379\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"https://www.shoppersstop.com/search/?sort=relevance&amp;q=wrist+watch%3AtopRated%3AinStockFlag%3Atrue%3AcategoryName%3AWatches%3Abrands%3APOLICE%3Abrands%3ADIESEL&amp;startRange=&amp;endRange=#\" data-select-uid=\"cmsitem_00554136\" data-select-name=\"web_top brand watch craousal_10-2-2024\" data-select-position=\"3\" data-select-creative=\"web_police , diesel_10-2-2024\" class=\"homepageBannerHomePage\" tabindex=\"0\">",
+          "target": [
+            "#slick-slide113 > div > div > a[data-select-creative=\"web_police , diesel_10-2-2024\"][data-select-uid=\"cmsitem_00554136\"][data-select-position=\"3\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"https://www.shoppersstop.com/women-westernwear/c-A2060?sort=topRated&amp;q=%3AcategoryRelevance%3AinStockFlag%3Atrue%3Abrands%3ACOVERSTORY%3Abrands%3AVERO%2BMODA&amp;startRange=&amp;endRange=#\" class=\"latestFromCmsComponentATag\" data-select-uid=\"cmsitem_00554170\" data-select-name=\"web_Coverstory &amp; Vero Moda_10-2-2024-\" data-select-position=\"0\" data-select-creative=\"web_Coverstory &amp; Vero Moda_10-2-2024-\">",
+          "target": [
+            "a[data-select-uid=\"cmsitem_00554170\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"https://www.shoppersstop.com/women-westernwear/c-A2060?q=%3AtopRated%3AinStockFlag%3Atrue%3Abrands%3AALLEN%2BSOLLY%3Abrands%3AVAN%2BHEUSEN&amp;text=&amp;startRange=&amp;endRange=#\" class=\"latestFromCmsComponentATag\" data-select-uid=\"cmsitem_00554172\" data-select-name=\"web_Allen Solly &amp; Van Heusen_10-2-2024-\" data-select-position=\"1\" data-select-creative=\"web_Allen Solly &amp; Van Heusen_10-2-2024-\">",
+          "target": [
+            "a[data-select-uid=\"cmsitem_00554172\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"https://www.shoppersstop.com/women-westernwear/c-A2060?q=%3AtopRated%3AinStockFlag%3Atrue%3Abrands%3ALATIN%2BQUARTERS%3Abrands%3AZINK%2BLONDON&amp;text=&amp;startRange=&amp;endRange=#\" class=\"latestFromCmsComponentATag\" data-select-uid=\"cmsitem_00554174\" data-select-name=\"web_Latin Quarters &amp; Zink London_10-2-2024-\" data-select-position=\"2\" data-select-creative=\"web_Latin Quarters &amp; Zink London_10-2-2024-\">",
+          "target": [
+            "a[data-select-uid=\"cmsitem_00554174\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"https://www.shoppersstop.com/women-westernwear/c-A2060?q=%3AtopRated%3AinStockFlag%3Atrue%3Abrands%3AONLY%3Abrands%3AKRAUS&amp;text=&amp;startRange=&amp;endRange=#\" class=\"latestFromCmsComponentATag\" data-select-uid=\"cmsitem_00554176\" data-select-name=\"web_Only &amp; Kraus_10-2-2024\" data-select-position=\"3\" data-select-creative=\"web_Only &amp; Kraus_10-2-2024\">",
+          "target": [
+            "a[data-select-uid=\"cmsitem_00554176\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"https://www.shoppersstop.com/men-clothing/c-A1010?q=%3AtopRated%3AinStockFlag%3Atrue%3Abrands%3AWROGN%3Abrands%3ARARE%2BRABBIT&amp;text=&amp;startRange=&amp;endRange=#\" data-select-uid=\"cmsitem_00554252\" data-select-name=\"web_HP_Mens_Top-Brands_Spring-summer_12-02-2024\" data-select-position=\"3\" data-select-creative=\"web_Hp_wrong_Rare-rabbit_Mens_Top-Brands_12-02-2024\" class=\"homepageBannerHomePage\" tabindex=\"0\">",
+          "target": [
+            "#slick-slide123 > div > div > .homepageBannerHomePage[data-select-uid=\"cmsitem_00554252\"][data-select-position=\"3\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"https://www.shoppersstop.com/women-indianwear/c-A2010?sort=categoryRelevance&amp;q=%3AtopRated%3AinStockFlag%3Atrue%3Abrands%3AINDYA%3Abrands%3AGLOBAL%2BDESI&amp;startRange=&amp;endRange=\" class=\"latestFromCmsComponentATag\" data-select-uid=\"cmsitem_00554206\" data-select-name=\"web_Global Desi &amp; Indya_12-2-2024a\" data-select-position=\"0\" data-select-creative=\"web_Global Desi &amp; Indya_12-2-2024a\">",
+          "target": [
+            "a[data-select-uid=\"cmsitem_00554206\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"https://www.shoppersstop.com/women-indianwear/c-A2010?sort=topRated&amp;q=%3AcategoryRelevance%3AinStockFlag%3Atrue%3Abrands%3AAURELIA%3Abrands%3ALIBAS&amp;startRange=&amp;endRange=#\" class=\"latestFromCmsComponentATag\" data-select-uid=\"cmsitem_00554208\" data-select-name=\"web_Aurelia &amp; Libas_12-2-2024a\" data-select-position=\"1\" data-select-creative=\"web_Aurelia &amp; Libas_12-2-2024a\">",
+          "target": [
+            "a[data-select-uid=\"cmsitem_00554208\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"https://www.shoppersstop.com/women-indianwear/c-A2010?sort=topRated&amp;q=%3AcategoryRelevance%3AinStockFlag%3Atrue%3Abrands%3ANEERUS%3Abrands%3ALAKSHITA&amp;startRange=&amp;endRange=&amp;show=Page#\" class=\"latestFromCmsComponentATag\" data-select-uid=\"cmsitem_00554210\" data-select-name=\"web_Lakshita &amp; Neerus_12-2-2024aa\" data-select-position=\"2\" data-select-creative=\"web_Lakshita &amp; Neerus_12-2-2024aa\">",
+          "target": [
+            "a[data-select-uid=\"cmsitem_00554210\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"https://www.shoppersstop.com/women-indianwear/c-A2010?sort=topRated&amp;q=%3AcategoryRelevance%3AinStockFlag%3Atrue%3Abrands%3AIMARA%3Abrands%3ATRUE%2BBROWNS&amp;startRange=&amp;endRange=#\" class=\"latestFromCmsComponentATag\" data-select-uid=\"cmsitem_00554211\" data-select-name=\"web_Imara &amp; True Browns_12-2-2024a\" data-select-position=\"3\" data-select-creative=\"web_Imara &amp; True Browns_12-2-2024a\">",
+          "target": [
+            "a[data-select-uid=\"cmsitem_00554211\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"https://www.shoppersstop.com/virtual-category-mens-and-womens-footwear/c-Display_all_footwear?q=%3AtopRated%3AinStockFlag%3Atrue%3Abrands%3ALEMON%2B%2526%2BPEPPER%3Abrands%3AFRATINI&amp;text=&amp;startRange=&amp;endRange=#\" data-select-uid=\"cmsitem_00554129\" data-select-name=\"WEB_footwear_to-brands_2024-02-10\" data-select-position=\"1\" data-select-creative=\"web_foot_lemon-fratini_2024-02-10\" class=\"homepageBannerHomePage\" tabindex=\"0\">",
+          "target": [
+            "#slick-slide131 > div > div > .homepageBannerHomePage[data-select-uid=\"cmsitem_00554129\"][data-select-position=\"1\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "aria-label",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "aria-label attribute exists and is not empty"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"\" class=\"brandsWeLoveHomePageCmsComponentATag\" data-sslstaticresponsivebanner=\"\" data-select-uid=\"cmsitem_00554377\" data-select-name=\"web_Beauty Beyond Borders_13-2-2024\" data-select-position=\"0\" data-select-creative=\"DEFAULT\" aria-label=\"Beauty Beyond Borders\"></a>",
+          "target": [
+            "a[data-select-uid=\"cmsitem_00554377\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"https://www.shoppersstop.com/brand/viktor&amp;rolf?sort=topRated&amp;q=%3AnewArrival-desc%3AinStockFlag%3Atrue%3Abrands%3AVIKTOR%2526ROLF&amp;startRange=&amp;endRange=#\" data-select-uid=\"cmsitem_00521219\" data-select-name=\"web_Luxury Unlocked: Discover Premium Beauty Brands-09-12\" data-select-position=\"3\" data-select-creative=\"web_viktor_2023-12-01\" class=\"homepageBannerHomePage\" tabindex=\"0\">",
+          "target": [
+            "#slick-slide143 > div > div > a[data-select-creative=\"web_viktor_2023-12-01\"][data-select-uid=\"cmsitem_00521219\"][data-select-position=\"3\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "aria-label",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "aria-label attribute exists and is not empty"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"https://www.shoppersstop.com/p-S8VER05071469OR_base/colorChange/S8VER05071469OR_NoColour\" class=\"rec_item_17670848\" tabindex=\"0\" aria-label=\"View product details at Shoppers Stop\"></a>",
+          "target": [
+            ".slick-current[data-slick-index=\"0\"][aria-hidden=\"false\"] > div > .reprocomp-inner.like-comp.card > .wishlist-background > .rec_item_17670848"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"https://www.shoppersstop.com/p-S8VER05071469OR_base/colorChange/S8VER05071469OR_NoColour\" class=\"productdetail complook card-body\" tabindex=\"0\">",
+          "target": [
+            ".compleate-look-section_17670848 > .slick-list > .slick-track > .slick-current[data-slick-index=\"0\"][aria-hidden=\"false\"] > div > .reprocomp-inner.like-comp.card > .productdetail.complook.card-body"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "aria-label",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "aria-label attribute exists and is not empty"
+            },
+            {
+              "id": "non-empty-title",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has a title attribute"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"https://www.shoppersstop.com/p-A16VER3825745OR_base/colorChange/A16VER3825745OR_NoColour\" class=\"rec_item_17670848\" tabindex=\"0\" aria-label=\"Shop Product\" title=\"Shop Product\"></a>",
+          "target": [
+            "a[aria-label=\"Shop Product\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"https://www.shoppersstop.com/p-A16VER3825745OR_base/colorChange/A16VER3825745OR_NoColour\" class=\"productdetail complook card-body\" tabindex=\"0\">",
+          "target": [
+            ".compleate-look-section_17670848 > .slick-list > .slick-track > .slick-active[data-slick-index=\"1\"][aria-hidden=\"false\"] > div > .reprocomp-inner.like-comp.card > .productdetail.complook.card-body"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "aria-label",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "aria-label attribute exists and is not empty"
+            },
+            {
+              "id": "non-empty-title",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has a title attribute"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"https://www.shoppersstop.com/p-SS22DG2015961OR_base/colorChange/SS22DG2015961OR_NoColour\" class=\"rec_item_17670848\" tabindex=\"0\" aria-label=\"Shop Product SS22DG2015961OR at Shoppers Stop\" title=\"Shop Product SS22DG2015961OR\"></a>",
+          "target": [
+            "a[title=\"Shop Product SS22DG2015961OR\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"https://www.shoppersstop.com/p-SS22DG2015961OR_base/colorChange/SS22DG2015961OR_NoColour\" class=\"productdetail complook card-body\" tabindex=\"0\">",
+          "target": [
+            ".compleate-look-section_17670848 > .slick-list > .slick-track > .slick-active[data-slick-index=\"2\"][aria-hidden=\"false\"] > div > .reprocomp-inner.like-comp.card > .productdetail.complook.card-body"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "aria-label",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "aria-label attribute exists and is not empty"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"https://www.shoppersstop.com/p-S19VER3845354OR_base/colorChange/S19VER3845354OR_NoColour\" class=\"rec_item_17670848\" tabindex=\"0\" aria-label=\"View product details on Shoppers Stop\"></a>",
+          "target": [
+            ".slick-active[data-slick-index=\"3\"][aria-hidden=\"false\"] > div > .reprocomp-inner.like-comp.card > .wishlist-background > .rec_item_17670848"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"https://www.shoppersstop.com/p-S19VER3845354OR_base/colorChange/S19VER3845354OR_NoColour\" class=\"productdetail complook card-body\" tabindex=\"0\">",
+          "target": [
+            ".compleate-look-section_17670848 > .slick-list > .slick-track > .slick-active[data-slick-index=\"3\"][aria-hidden=\"false\"] > div > .reprocomp-inner.like-comp.card > .productdetail.complook.card-body"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            },
+            {
+              "id": "aria-label",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "aria-label attribute exists and is not empty"
+            },
+            {
+              "id": "non-empty-title",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has a title attribute"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"https://www.shoppersstop.com/p-205700451/colorChange/205700451_UNMAPPED\" class=\"rec_item_17670848\" tabindex=\"0\" aria-label=\"View Product Details\" title=\"View Product Details\">",
+          "target": [
+            "a[aria-label=\"View Product Details\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"https://www.shoppersstop.com/p-205700451/colorChange/205700451_UNMAPPED\" class=\"productdetail complook card-body\" tabindex=\"0\">",
+          "target": [
+            ".compleate-look-section_17670848 > .slick-list > .slick-track > .slick-active[data-slick-index=\"4\"][aria-hidden=\"false\"] > div > .reprocomp-inner.like-comp.card > .productdetail.complook.card-body"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"\" class=\"brandsWeLoveHomePageCmsComponentATag\" data-sslstaticresponsivebanner=\"\" data-select-uid=\"cmsitem_00554376\" data-select-name=\"web_Your Everyday Glam Sorted_12-2-2024\" data-select-position=\"0\" data-select-creative=\"DEFAULT\">",
+          "target": [
+            ".brandsWeLoveHomePageCmsComponentATag[data-select-uid=\"cmsitem_00554376\"][data-sslstaticresponsivebanner=\"\"]:nth-child(1)"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "non-empty-title",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has a title attribute"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"\" class=\"brandsWeLoveHomePageCmsComponentATag\" data-sslstaticresponsivebanner=\"\" data-select-uid=\"cmsitem_00554376\" data-select-name=\"web_Your Everyday Glam Sorted_12-2-2024\" data-select-position=\"0\" data-select-creative=\"DEFAULT\" title=\"Your Everyday Glam Sorted\"></a>",
+          "target": [
+            "a[title=\"Your Everyday Glam Sorted\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"https://www.shoppersstop.com/beauty-make-up/c-B1010?q=%3AtopRated%3AinStockFlag%3Atrue%3Abrands%3ALAKME%3Abrands%3AFACES&amp;text=&amp;startRange=&amp;endRange=\" class=\"latestFromCmsComponentATag\" data-select-uid=\"cmsitem_00554330\" data-select-name=\"web_lakme, faces canada_13-2-20241\" data-select-position=\"0\" data-select-creative=\"web_lakme, faces canada_13-2-20241\">",
+          "target": [
+            "a[data-select-uid=\"cmsitem_00554330\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"https://www.shoppersstop.com/beauty-skincare/c-B1020?q=%3AtopRated%3AinStockFlag%3Atrue%3Abrands%3AARCELIA%3Abrands%3AMAMAEARTH&amp;text=&amp;startRange=&amp;endRange=#\" class=\"latestFromCmsComponentATag\" data-select-uid=\"cmsitem_00554332\" data-select-name=\"web_arcelia, mamaearth_13-----2-2024\" data-select-position=\"1\" data-select-creative=\"web_arcelia, mamaearth_13-----2-2024\">",
+          "target": [
+            "a[data-select-uid=\"cmsitem_00554332\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"https://www.shoppersstop.com/beauty-make-up/c-B1010?q=%3AtopRated%3AinStockFlag%3Atrue%3Abrands%3ALOREAL%3Abrands%3AMAYBELLINE&amp;text=&amp;startRange=&amp;endRange=#\" class=\"latestFromCmsComponentATag\" data-select-uid=\"cmsitem_00554334\" data-select-name=\"web_loreal maybelline_13-2-20241\" data-select-position=\"2\" data-select-creative=\"web_loreal maybelline_13-2-20241\">",
+          "target": [
+            "a[data-select-uid=\"cmsitem_00554334\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"https://www.shoppersstop.com/search/?sort=topRated&amp;q=Minimalist+%26+Dot+%26+Key%3Arelevance%3AinStockFlag%3Atrue%3Al1category%3AAll%3Abrands%3AMINIMALIST%3Abrands%3ADOT%2B%2526%2BKEY&amp;startRange=&amp;endRange=&amp;show=Page\" class=\"latestFromCmsComponentATag\" data-select-uid=\"cmsitem_00554336\" data-select-name=\"web_Minimalist &amp; Dot &amp; Key_13---2-2024\" data-select-position=\"3\" data-select-creative=\"web_Minimalist &amp; Dot &amp; Key_13---2-2024\">",
+          "target": [
+            "a[data-select-uid=\"cmsitem_00554336\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            },
+            {
+              "id": "aria-label",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "aria-label attribute exists and is not empty"
+            },
+            {
+              "id": "non-empty-title",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has a title attribute"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"\" class=\"brandsWeLoveHomePageCmsComponentATag\" title=\"Fresh Spring Essentials\" aria-label=\"Fresh Spring Essentials\" data-sslstaticresponsivebanner=\"\" data-select-uid=\"cmsitem_00554381\" data-select-name=\"web_Fresh Spring Essentials_13-2-2024\" data-select-position=\"0\" data-select-creative=\"DEFAULT\">",
+          "target": [
+            "a[title=\"Fresh Spring Essentials\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"https://www.shoppersstop.com/search/?sort=topRated&amp;q=spring_summer_24%3Arelevance%3AinStockFlag%3Atrue%3Al1category%3AAll&amp;startRange=&amp;endRange=\" data-select-uid=\"cmsitem_00554219\" data-select-name=\"web_Top brand carousel_120224g\" data-select-position=\"1\" data-select-creative=\"web_PVT-Brands_Spring-Summer_13-03-2024\" class=\"homepageBannerHomePage\" tabindex=\"0\">",
+          "target": [
+            "#slick-slide151 > div > div > a[data-select-uid=\"cmsitem_00554219\"][data-select-name=\"web_Top brand carousel_120224g\"][data-select-position=\"1\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            },
+            {
+              "id": "non-empty-title",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has a title attribute"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"https://www.shoppersstop.com/p-MCSS23D986023/colorChange/MCSS23D986023_PINK\" class=\"rec_item_16356378\" tabindex=\"0\" title=\"Shop Pink Dress at Shoppers Stop\">",
+          "target": [
+            ".slick-current[data-slick-index=\"0\"][aria-hidden=\"false\"] > div > .reprocomp-inner.like-comp.card > .wishlist-background > .rec_item_16356378"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"https://www.shoppersstop.com/p-MCSS23D986023/colorChange/MCSS23D986023_PINK\" class=\"productdetail complook card-body\" tabindex=\"0\">",
+          "target": [
+            ".compleate-look-section_16356378 > .slick-list > .slick-track > .slick-current[data-slick-index=\"0\"][aria-hidden=\"false\"] > div > .reprocomp-inner.like-comp.card > .productdetail.complook.card-body"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            },
+            {
+              "id": "aria-label",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "aria-label attribute exists and is not empty"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"https://www.shoppersstop.com/p-AW23KSSE31BF/colorChange/AW23KSSE31BF_LILAC\" class=\"rec_item_16356378\" tabindex=\"0\" aria-label=\"View Lilac Dress on Shoppers Stop\">",
+          "target": [
+            ".slick-active[data-slick-index=\"1\"][aria-hidden=\"false\"] > div > .reprocomp-inner.like-comp.card > .wishlist-background > .rec_item_16356378"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"https://www.shoppersstop.com/p-AW23KSSE31BF/colorChange/AW23KSSE31BF_LILAC\" class=\"productdetail complook card-body\" tabindex=\"0\">",
+          "target": [
+            ".compleate-look-section_16356378 > .slick-list > .slick-track > .slick-active[data-slick-index=\"1\"][aria-hidden=\"false\"] > div > .reprocomp-inner.like-comp.card > .productdetail.complook.card-body"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "aria-label",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "aria-label attribute exists and is not empty"
+            },
+            {
+              "id": "non-empty-title",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has a title attribute"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"https://www.shoppersstop.com/p-AW23KSSE31AF/colorChange/AW23KSSE31AF_PISTA_GREEN\" class=\"rec_item_16356378\" tabindex=\"0\" aria-label=\"Shop Pista Green Outfit\" title=\"Shop Pista Green Outfit\"></a>",
+          "target": [
+            "a[aria-label=\"Shop Pista Green Outfit\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"https://www.shoppersstop.com/p-AW23KSSE31AF/colorChange/AW23KSSE31AF_PISTA_GREEN\" class=\"productdetail complook card-body\" tabindex=\"0\">",
+          "target": [
+            ".compleate-look-section_16356378 > .slick-list > .slick-track > .slick-active[data-slick-index=\"2\"][aria-hidden=\"false\"] > div > .reprocomp-inner.like-comp.card > .productdetail.complook.card-body"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            },
+            {
+              "id": "non-empty-title",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has a title attribute"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"https://www.shoppersstop.com/p-GOWN108/colorChange/GOWN108_BLUE\" class=\"rec_item_16356378\" tabindex=\"0\" title=\"View GOWN108 Blue\">",
+          "target": [
+            "a[title=\"View GOWN108 Blue\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"https://www.shoppersstop.com/p-GOWN108/colorChange/GOWN108_BLUE\" class=\"productdetail complook card-body\" tabindex=\"0\">",
+          "target": [
+            ".compleate-look-section_16356378 > .slick-list > .slick-track > .slick-active[data-slick-index=\"3\"][aria-hidden=\"false\"] > div > .reprocomp-inner.like-comp.card > .productdetail.complook.card-body"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            },
+            {
+              "id": "non-empty-title",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has a title attribute"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"https://www.shoppersstop.com/p-S23K1044/colorChange/S23K1044_MULTI\" class=\"rec_item_16356378\" tabindex=\"0\" title=\"View product S23K1044 MULTI at Shoppers Stop\">",
+          "target": [
+            ".slick-active[data-slick-index=\"4\"][aria-hidden=\"false\"] > div > .reprocomp-inner.like-comp.card > .wishlist-background > .rec_item_16356378"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"https://www.shoppersstop.com/p-S23K1044/colorChange/S23K1044_MULTI\" class=\"productdetail complook card-body\" tabindex=\"0\">",
+          "target": [
+            ".compleate-look-section_16356378 > .slick-list > .slick-track > .slick-active[data-slick-index=\"4\"][aria-hidden=\"false\"] > div > .reprocomp-inner.like-comp.card > .productdetail.complook.card-body"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "aria-label",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "aria-label attribute exists and is not empty"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"\" class=\"brandsWeLoveHomePageCmsComponentATag\" data-sslstaticresponsivebanner=\"\" data-select-uid=\"cmsitem_00554373\" data-select-name=\"web_Insider Affair_13-2-2024\" data-select-position=\"0\" data-select-creative=\"DEFAULT\" aria-label=\"Web Insider Affair February 13, 2024\"></a>",
+          "target": [
+            "a[data-select-uid=\"cmsitem_00554373\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"https://www.shoppersstop.com/women-lingerie-nightwear/c-A20110?q=%3AtopRated%3AinStockFlag%3Atrue%3Abrands%3AAMANTE%3Abrands%3AJOCKEY&amp;text=&amp;startRange=&amp;endRange=#\" data-select-uid=\"cmsitem_00554354\" data-select-name=\"web_innerwear_craousal_13-2-2024\" data-select-position=\"1\" data-select-creative=\"web_Women's Briefs_13-2-2024\" class=\"homepageBannerHomePage\" tabindex=\"0\">",
+          "target": [
+            "#slick-slide161 > div > div > a[data-select-creative=\"web_Women's Briefs_13-2-2024\"][data-select-uid=\"cmsitem_00554354\"][data-select-position=\"1\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "aria-label",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "aria-label attribute exists and is not empty"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"https://www.shoppersstop.com/firstCitizenNonMember\" class=\"brandsWeLoveHomePageCmsComponentATag\" data-sslstaticresponsivebanner=\"\" data-select-uid=\"cmsitem_00422058\" data-select-name=\"web_fc-non-app-strips_2023-02-03\" data-select-position=\"0\" data-select-creative=\"DEFAULT\" aria-label=\"First Citizen Non Member at Shoppers Stop\">",
+          "target": [
+            "a[data-select-uid=\"cmsitem_00422058\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"\" class=\"brandsWeLoveHomePageCmsComponentATag\" data-sslstaticresponsivebanner=\"\" data-select-uid=\"cmsitem_00554371\" data-select-name=\"web_Red Carpet Magic_13-2-2024\" data-select-position=\"0\" data-select-creative=\"DEFAULT\">",
+          "target": [
+            ".brandsWeLoveHomePageCmsComponentATag[data-select-uid=\"cmsitem_00554371\"][data-select-name=\"web_Red Carpet Magic_13-2-2024\"]:nth-child(1)"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "aria-label",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "aria-label attribute exists and is not empty"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"#\" class=\"brandsWeLoveHomePageCmsComponentATag\" data-sslstaticresponsivebanner=\"\" data-select-uid=\"cmsitem_00554371\" data-select-name=\"web_Red Carpet Magic_13-2-2024\" data-select-position=\"0\" data-select-creative=\"DEFAULT\" aria-label=\"Red Carpet Magic Event on 13th February 2024\"></a>",
+          "target": [
+            "a[data-select-uid=\"cmsitem_00554371\"][data-select-name=\"web_Red Carpet Magic_13-2-2024\"][href=\"#\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"https://www.shoppersstop.com/brand/giva?sort=topRated&amp;q=%3AcategoryRelevance%3AinStockFlag%3Atrue%3Abrands%3AGIVA&amp;startRange=&amp;endRange=#\" data-select-uid=\"cmsitem_00555038\" data-select-name=\"web_red carpet magic carousal_15-2-2024\" data-select-position=\"4\" data-select-creative=\"web_giva_15-2-2024\" class=\"homepageBannerHomePage\" tabindex=\"0\">",
+          "target": [
+            "#slick-slide174 > div > div > a[data-select-creative=\"web_giva_15-2-2024\"][data-select-uid=\"cmsitem_00555038\"][data-select-position=\"4\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            },
+            {
+              "id": "aria-label",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "aria-label attribute exists and is not empty"
+            },
+            {
+              "id": "non-empty-title",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has a title attribute"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"https://www.shoppersstop.com//lp_personalshoppers\" class=\"brandsWeLoveHomePageCmsComponentATag\" title=\"Personal Shoppers at Shoppers Stop\" aria-label=\"Learn more about Personal Shoppers at Shoppers Stop\" data-sslstaticresponsivebanner=\"\" data-select-uid=\"cmsitem_00346278\" data-select-name=\"Web_Personal-Shoppers-Visibility-Strip_20211026\" data-select-position=\"0\" data-select-creative=\"DEFAULT\">",
+          "target": [
+            "a[data-select-uid=\"cmsitem_00346278\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"https://www.shoppersstop.com/privacy\">Privacy Policy</a>",
+          "target": [
+            "#cookiePolicy > p > a"
+          ]
+        }
+      ]
+    }
+  ],
+  "incomplete": [],
+  "violations": []
+}

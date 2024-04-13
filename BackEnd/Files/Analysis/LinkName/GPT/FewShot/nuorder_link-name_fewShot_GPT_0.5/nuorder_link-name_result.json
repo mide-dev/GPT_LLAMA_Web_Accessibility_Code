@@ -1,0 +1,34 @@
+[
+  {
+    "analysisDetails": [
+      {
+        "model": "GPT"
+      },
+      {
+        "accessibility_type": "link-name"
+      },
+      {
+        "prompt_technique": "fewShot"
+      },
+      {
+        "temperature": 0.5
+      }
+    ],
+    "accessbilityTestResult": {
+      "violationBeforeModification": 2,
+      "violationAfterModification": 0
+    },
+    "modelCorrections": [
+      {
+        "beforeModification": "<a href=\"https://www.nuorder.com\">\n\t\t\t<img width=\"347\" height=\"29\" src=\"https://www.nuorder.com/wp-content/uploads/2020/08/NuORDER_byLightspeed_BlackRGB_Horizontal_NuOrder_Black_Horizontal_NuOrder_Black_Horizontal-1.svg\" class=\"attachment-full size-full wp-image-6373\" alt=\"\">\t\t\t\t</a>",
+        "afterModification": "<a href=\"https://www.nuorder.com\" title=\"NuORDER by Lightspeed\">\n  <img width=\"347\" height=\"29\" src=\"https://www.nuorder.com/wp-content/uploads/2020/08/NuORDER_byLightspeed_BlackRGB_Horizontal_NuOrder_Black_Horizontal_NuOrder_Black_Horizontal-1.svg\" class=\"attachment-full size-full wp-image-6373\" alt=\"NuORDER by Lightspeed logo\">\t\t\t\t\n</a>",
+        "rawOutput": "```html\n<a href=\"https://www.nuorder.com\" title=\"NuORDER by Lightspeed\">\n  <img width=\"347\" height=\"29\" src=\"https://www.nuorder.com/wp-content/uploads/2020/08/NuORDER_byLightspeed_BlackRGB_Horizontal_NuOrder_Black_Horizontal_NuOrder_Black_Horizontal-1.svg\" class=\"attachment-full size-full wp-image-6373\" alt=\"NuORDER by Lightspeed logo\">\t\t\t\t\n</a>\n```"
+      },
+      {
+        "beforeModification": "<a class=\"elementor-icon elementor-social-icon elementor-social-icon- elementor-repeater-item-dc10550\" href=\"https://twitter.com/NuORDER\" target=\"_blank\">",
+        "afterModification": "<a class=\"elementor-icon elementor-social-icon elementor-social-icon- elementor-repeater-item-dc10550\" href=\"https://twitter.com/NuORDER\" title=\"Follow us on Twitter\" aria-label=\"Follow us on Twitter\" target=\"_blank\">",
+        "rawOutput": "```html\n<a class=\"elementor-icon elementor-social-icon elementor-social-icon- elementor-repeater-item-dc10550\" href=\"https://twitter.com/NuORDER\" title=\"Follow us on Twitter\" aria-label=\"Follow us on Twitter\" target=\"_blank\">\n```"
+      }
+    ]
+  }
+]

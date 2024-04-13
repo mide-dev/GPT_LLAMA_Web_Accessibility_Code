@@ -1,0 +1,29 @@
+[
+  {
+    "analysisDetails": [
+      {
+        "model": "GPT"
+      },
+      {
+        "accessibility_type": "meta-viewport"
+      },
+      {
+        "prompt_technique": "cot"
+      },
+      {
+        "temperature": 0.5
+      }
+    ],
+    "accessbilityTestResult": {
+      "violationBeforeModification": 1,
+      "violationAfterModification": 0
+    },
+    "modelCorrections": [
+      {
+        "beforeModification": "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1\">",
+        "afterModification": "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=2.0\">",
+        "rawOutput": "- Thought: I need to remove or adjust the maximum-scale value to allow zooming on mobile devices, as restricting zoom can hinder accessibility for users who need to enlarge content to see it more clearly. According to WCAG 2.1, allowing users to zoom up to 200% is important for accessibility.\n\n- Corrected HTML: <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=2.0\">"
+      }
+    ]
+  }
+]

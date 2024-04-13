@@ -3,9 +3,14 @@ const puppeteer = require("puppeteer");
 const {
   runAxeCoreAnalysis,
 } = require("./RunAccessibilityTest/runAxeCoreAnalysis");
-const { saveAsJSON, extractDomainFromURL } = require("./Operations/operations");
-const { imageAltPrompt } = require("./LLM/prompt");
+const {
+  saveAsJSON,
+  extractDomainFromURL,
+  extractHtmlElement,
+} = require("./Operations/operations");
+const { generateAccessibilityPrompt } = require("./LLM/prompt");
 const { promptGPT } = require("./LLM/GPT");
+const { promptLlama } = require("./LLM/Llama");
 
 /**
  * Performs an accessibility analysis on a web page and attempts to correct violations
@@ -24,6 +29,7 @@ async function runAnalysis(
   temperature,
   model
 ) {
+  console.log(`Started experiment for: ${url}`);
   const analysisResult = []; // Initialize array to store the analysis results
 
   // Launch a new browser instance using Puppeteer
@@ -42,7 +48,10 @@ async function runAnalysis(
     JSON.stringify(axeResultsBeforeModification, null, 2),
     `${extractDomainFromURL(
       url
-    )}_${accessibility_type}_axe_report_before_repair`
+    )}_${accessibility_type}_axe_report_before_repair`,
+    `${extractDomainFromURL(
+      url
+    )}_${accessibility_type}_${prompt_technique}_${model}_${temperature}`
   );
 
   // Count the number of accessibility violations found
@@ -76,26 +85,56 @@ async function runAnalysis(
         analysisResult[0].accessbilityTestResult.violationBeforeModification += 1;
 
         // Generate a solution using GPT based on the provided prompt technique and temperature
-        const gptSolution = await promptGPT(
-          imageAltPrompt(node.html, result.description, prompt_technique),
-          temperature
-        );
+        let solution;
+
+        if (model === "GPT") {
+          solution = await promptGPT(
+            generateAccessibilityPrompt(
+              accessibility_type,
+              node.html,
+              node.failureSummary,
+              prompt_technique
+            ),
+            temperature
+          );
+        } else if (model === "Llama") {
+          solution = await promptLlama(
+            generateAccessibilityPrompt(
+              accessibility_type,
+              node.html,
+              node.failureSummary,
+              prompt_technique
+            ),
+            temperature
+          );
+        }
+        const extractedHTMLFromLLM = extractHtmlElement(solution);
 
         // Store the before and after modification states
         analysisResult[0].modelCorrections.push({
           beforeModification: beforeModification,
-          afterModification: gptSolution,
+          afterModification: extractedHTMLFromLLM,
+          rawOutput: solution,
         });
 
         // Replace the faulty HTML with LLM solution
         await page.evaluate(
-          ({ item, solution }) => {
+          ({ item, correctedHTML }) => {
             const element = document.querySelector(item);
-            if (element) {
-              element.outerHTML = solution;
+            if (
+              element &&
+              element.parentNode &&
+              element.parentNode.nodeType === Node.ELEMENT_NODE
+            ) {
+              element.outerHTML = correctedHTML;
+            } else if (element.nodeName === "HTML") {
+              const langPattern = /lang=["']([^"']*)["']/;
+              const match = langPattern.exec(correctedHTML);
+              const value = match ? match[1] : "";
+              element.setAttribute("lang", value);
             }
           },
-          { item: selector, solution: gptSolution }
+          { item: selector, correctedHTML: extractedHTMLFromLLM }
         );
       }
     }
@@ -105,20 +144,29 @@ async function runAnalysis(
       page,
       accessibility_type
     );
-    const violationsAfterModification =
-      axeResultsAfterModification.violations.length;
+
+    if (axeResultsAfterModification.violations.length > 0) {
+      for (const result of axeResultsAfterModification.violations) {
+        for (const _ of result.nodes) {
+          // update violations
+          analysisResult[0].accessbilityTestResult.violationAfterModification += 1;
+        }
+      }
+    }
+
+    // const violationsAfterModification =
+    //   axeResultsAfterModification.violations.length;
 
     // Save the entire Axe Core report after modifications to a JSON file
     await saveAsJSON(
       JSON.stringify(axeResultsAfterModification, null, 2),
       `${extractDomainFromURL(
         url
-      )}_${accessibility_type}_axe_report_after_repair`
+      )}_${accessibility_type}_axe_report_after_repair`,
+      `${extractDomainFromURL(
+        url
+      )}_${accessibility_type}_${prompt_technique}_${model}_${temperature}`
     );
-
-    // Update the count of violations after modification
-    analysisResult[0].accessbilityTestResult.violationAfterModification =
-      violationsAfterModification;
 
     await browser.close(); // Close the browser instance
 
@@ -126,9 +174,12 @@ async function runAnalysis(
     const jsonData = JSON.stringify(analysisResult, null, 2);
     saveAsJSON(
       jsonData,
-      `${extractDomainFromURL(url)}_${accessibility_type}_result`
+      `${extractDomainFromURL(url)}_${accessibility_type}_result`,
+      `${extractDomainFromURL(
+        url
+      )}_${accessibility_type}_${prompt_technique}_${model}_${temperature}`
     );
-
+    console.log(`Finished experiment for: ${url}`);
     return analysisResult; // Return the analysis result array
   } else {
     // If no accessibility issues are found, store an error message in the results
@@ -140,22 +191,17 @@ async function runAnalysis(
     const jsonData = JSON.stringify(analysisResult, null, 2);
     saveAsJSON(
       jsonData,
-      `${extractDomainFromURL(url)}_${accessibility_type}_result`
+      `${extractDomainFromURL(url)}_${accessibility_type}_result`,
+      `${extractDomainFromURL(
+        url
+      )}_${accessibility_type}_${prompt_technique}_${model}_${temperature}`
     );
 
     await browser.close(); // Close the browser instance
+    console.log(`Finished experiment for: ${url}`);
     return -1; // Indicate that no issues were found
   }
 }
-
-// // Execute the analysis with predefined arguments
-runAnalysis(
-  "https://austrin-engineering.co.uk/",
-  "image-alt",
-  "fewShot",
-  0.5,
-  "GPT"
-);
 
 // Export Function
 module.exports.runAnalysis = runAnalysis;

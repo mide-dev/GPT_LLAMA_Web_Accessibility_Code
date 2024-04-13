@@ -1,0 +1,1513 @@
+{
+  "testEngine": {
+    "name": "axe-core",
+    "version": "4.8.4"
+  },
+  "testRunner": {
+    "name": "axe"
+  },
+  "testEnvironment": {
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/122.0.0.0 Safari/537.36",
+    "windowWidth": 800,
+    "windowHeight": 600,
+    "orientationAngle": 0,
+    "orientationType": "portrait-primary"
+  },
+  "timestamp": "2024-04-08T19:20:12.842Z",
+  "url": "https://www.bigododge.com/",
+  "toolOptions": {
+    "runOnly": {
+      "type": "rule",
+      "values": [
+        "link-name"
+      ]
+    },
+    "reporter": "v1"
+  },
+  "inapplicable": [],
+  "passes": [
+    {
+      "id": "link-name",
+      "impact": null,
+      "tags": [
+        "cat.name-role-value",
+        "wcag2a",
+        "wcag244",
+        "wcag412",
+        "section508",
+        "section508.22.a",
+        "TTv5",
+        "TT6.a",
+        "EN-301-549",
+        "EN-9.2.4.4",
+        "EN-9.4.1.2",
+        "ACT"
+      ],
+      "description": "Ensures links have discernible text",
+      "help": "Links must have discernible text",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/link-name?application=axeAPI",
+      "nodes": [
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"#page-body\" class=\"skip-link\">Skip to main content</a>",
+          "target": [
+            "a[href$=\"#page-body\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            },
+            {
+              "id": "aria-label",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "aria-label attribute exists and is not empty"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"?locale=es_US\" class=\"xsmall params\" aria-label=\"Select Language Spanish\">\nEspañol\n</a>",
+          "target": [
+            ".xsmall"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"/dealership/directions.htm\">",
+          "target": [
+            ".adr > a[href$=\"directions.htm\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "non-empty-title",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has a title attribute"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a title=\"Visit us on Facebook\" class=\"disable-bgImage\" target=\"_blank\" href=\"https://www.facebook.com/BigODodge\" data-social-header-button-id=\"facebook\" aria-describedby=\"audioeye_new_window_message\">",
+          "target": [
+            "a[title=\"Visit us on Facebook\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "non-empty-title",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has a title attribute"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a title=\"Visit us on Youtube\" class=\"disable-bgImage\" target=\"_blank\" href=\"//www.youtube.com/user/bigodcj\" data-social-header-button-id=\"youtube\" aria-describedby=\"audioeye_new_window_message\">",
+          "target": [
+            "a[title=\"Visit us on Youtube\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "non-empty-title",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has a title attribute"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a title=\"Visit us on Instagram\" class=\"disable-bgImage\" target=\"_blank\" href=\"//instagram.com/BigODCJR\" data-social-header-button-id=\"instagram\" aria-describedby=\"audioeye_new_window_message\">",
+          "target": [
+            "a[title=\"Visit us on Instagram\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a class=\"btn btn-primary  cstBtn ui-button btn-no-decoration\" href=\"/spanish.htm\" target=\"_self\" style=\"z-index: 950; background: none;\">\n<img src=\"//pictures.dealer.com/b/bigocdjcllc/1628/f33b028ba1580c7990a8c7f24d220798x.jpg\" alt=\"Go to another part of the page\"></a>",
+          "target": [
+            ".cstBtn"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            },
+            {
+              "id": "non-empty-title",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has a title attribute"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a class=\"home-logolink\" href=\"/\" title=\"Home\" role=\"link\" tabindex=\"0\" aria-hidden=\"false\">",
+          "target": [
+            ".home-logolink"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a class=\"header-logo header-logo-style\" href=\"/\" style=\"top: 56px;\" role=\"presentation\" tabindex=\"-1\">",
+          "target": [
+            ".header-logo"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            },
+            {
+              "id": "aria-label",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "aria-label attribute exists and is not empty"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a data-navigation-id=\"default\" href=\"/\" class=\"homeLink ddc-nav-icon-link\" aria-label=\"Home\">\n<i aria-hidden=\"true\" class=\"ddc-icon ddc-icon-home\" role=\"presentation\" tabindex=\"-1\"></i>\n<span class=\"sr-only\">Home</span>\n</a>",
+          "target": [
+            ".homeLink"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a aria-expanded=\"false\" data-navigation-id=\"default\" href=\"#\" data-toggle=\"dropdown\" class=\"nav-with-children\" data-inactive=\"true\" role=\"button\">\nNew Inventory\n<b class=\"caret\"></b>\n</a>",
+          "target": [
+            ".dropdown[role=\"listitem\"]:nth-child(2) > .nav-with-children[data-toggle=\"dropdown\"][data-inactive=\"true\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a aria-expanded=\"false\" data-navigation-id=\"default\" href=\"#\" target=\"_self\" data-toggle=\"dropdown\" class=\"nav-with-children\" data-inactive=\"true\" role=\"button\">\nUsed Inventory\n<b class=\"caret\"></b>\n</a>",
+          "target": [
+            ".dropdown[role=\"listitem\"]:nth-child(3) > .nav-with-children[data-toggle=\"dropdown\"][data-inactive=\"true\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a aria-expanded=\"false\" data-navigation-id=\"default\" href=\"#\" data-toggle=\"dropdown\" class=\"nav-with-children\" data-inactive=\"true\" role=\"button\">\nSpecials &amp; Finance\n<b class=\"caret\"></b>\n</a>",
+          "target": [
+            ".dropdown[role=\"listitem\"]:nth-child(4) > .nav-with-children[data-toggle=\"dropdown\"][data-inactive=\"true\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a aria-expanded=\"false\" data-navigation-id=\"default\" href=\"#\" data-toggle=\"dropdown\" class=\"nav-with-children\" data-inactive=\"true\" role=\"button\">\nMopar &amp; Service\n<b class=\"caret\"></b>\n</a>",
+          "target": [
+            ".dropdown[role=\"listitem\"]:nth-child(5) > .nav-with-children[data-toggle=\"dropdown\"][data-inactive=\"true\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a aria-expanded=\"false\" data-navigation-id=\"default\" href=\"#\" data-toggle=\"dropdown\" class=\"nav-with-children\" data-inactive=\"true\" role=\"button\">\nAbout Us\n<b class=\"caret\"></b>\n</a>",
+          "target": [
+            ".dropdown[role=\"listitem\"]:nth-child(6) > .nav-with-children[data-toggle=\"dropdown\"][data-inactive=\"true\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "aria-label",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "aria-label attribute exists and is not empty"
+            },
+            {
+              "id": "non-empty-title",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has a title attribute"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a title=\"Search the whole site! \" aria-label=\"Search the whole site!\" class=\"ddc-nav-icon-link\" href=\"#\" role=\"button\"><i class=\"ddc-icon ddc-icon-search ddc-nav-icon\" aria-hidden=\"true\" role=\"presentation\" tabindex=\"-1\"></i></a>",
+          "target": [
+            "a[title=\"Search the whole site! \"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a class=\"text-link text-link-inverse content-alert-banner-link\" href=\"https://www.bigododge.com/job-openings-at-big-o.htm\" rel=\"nofollow\">\n<font size=\"5\">We are actively hiring experienced Sales Professionals!</font>\n</a>",
+          "target": [
+            ".text-link"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"https://www.bigododge.com/new-dodge-chrysler-jeep-ram-greenville/index.htm?year=2023&amp;make=Ram&amp;model=1500\" target=\"_self\" tabindex=\"0\" rel=\"noreferrer\">",
+          "target": [
+            "div[data-index=\"0\"] > div > div[data-promo-id=\"6613ecaf5e44970a0262572f\"][data-title=\"2023 RAM 1500\"][aria-label=\"1 of 15\"] > a[rel=\"noreferrer\"][target=\"_self\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a id=\"popular-models-responsive-tab-option-model-selector1\" data-target=\"#popular-models-responsive-tab-model-selector1\" aria-controls=\"popular-models-responsive-tab-model-selector1\" role=\"tab\" data-toggle=\"tab\" href=\"#\" tabindex=\"0\">Popular Models</a>",
+          "target": [
+            "#popular-models-responsive-tab-option-model-selector1"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a id=\"Coupe-responsive-tab-option-model-selector1\" data-target=\"#Coupe-responsive-tab-model-selector1\" aria-controls=\"Coupe-responsive-tab-model-selector1\" role=\"tab\" data-toggle=\"tab\" href=\"#\" tabindex=\"0\">Coupe</a>",
+          "target": [
+            "#Coupe-responsive-tab-option-model-selector1"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a id=\"SUV-responsive-tab-option-model-selector1\" data-target=\"#SUV-responsive-tab-model-selector1\" aria-controls=\"SUV-responsive-tab-model-selector1\" role=\"tab\" data-toggle=\"tab\" href=\"#\" tabindex=\"0\">SUV</a>",
+          "target": [
+            "#SUV-responsive-tab-option-model-selector1"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a id=\"Sedan-responsive-tab-option-model-selector1\" data-target=\"#Sedan-responsive-tab-model-selector1\" aria-controls=\"Sedan-responsive-tab-model-selector1\" role=\"tab\" data-toggle=\"tab\" href=\"#\" tabindex=\"0\">Sedan</a>",
+          "target": [
+            "#Sedan-responsive-tab-option-model-selector1"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a id=\"Truck-responsive-tab-option-model-selector1\" data-target=\"#Truck-responsive-tab-model-selector1\" aria-controls=\"Truck-responsive-tab-model-selector1\" role=\"tab\" data-toggle=\"tab\" href=\"#\" tabindex=\"0\">Truck</a>",
+          "target": [
+            "#Truck-responsive-tab-option-model-selector1"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a id=\"Van-responsive-tab-option-model-selector1\" data-target=\"#Van-responsive-tab-model-selector1\" aria-controls=\"Van-responsive-tab-model-selector1\" role=\"tab\" data-toggle=\"tab\" href=\"#\" tabindex=\"0\">Van</a>",
+          "target": [
+            "#Van-responsive-tab-option-model-selector1"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"/new-dodge-chrysler-jeep-ram-greenville/index.htm?year=2024&amp;make=Ram&amp;model=1500&amp;gvBodyStyle=Truck\" tabindex=\"0\">\n1500\n</a>",
+          "target": [
+            "div[data-slick-index=\"0\"] > h3 > a"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"/new-dodge-chrysler-jeep-ram-greenville/index.htm?year=2024&amp;make=Ram&amp;model=2500&amp;gvBodyStyle=Truck\" tabindex=\"0\">\n2500\n</a>",
+          "target": [
+            "div[data-slick-index=\"1\"] > h3 > a"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"/new-dodge-chrysler-jeep-ram-greenville/index.htm?year=2024&amp;make=Ram&amp;model=3500&amp;gvBodyStyle=Truck\" tabindex=\"0\">\n3500\n</a>",
+          "target": [
+            "div[data-slick-index=\"2\"] > h3 > a"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"/new-dodge-chrysler-jeep-ram-greenville/index.htm?year=2024&amp;make=Ram&amp;model=2500&amp;gvBodyStyle=Truck\" tabindex=\"0\">\n2500\n</a>",
+          "target": [
+            "div[data-slick-index=\"3\"] > h3 > a"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"/new-dodge-chrysler-jeep-ram-greenville/index.htm?year=2024&amp;make=Ram&amp;model=3500&amp;gvBodyStyle=Truck\" tabindex=\"-1\">\n3500\n</a>",
+          "target": [
+            "div[data-slick-index=\"4\"] > h3 > a"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"/new-dodge-chrysler-jeep-ram-greenville/index.htm?year=2024&amp;make=Jeep&amp;model=Wrangler 4xe&amp;gvBodyStyle=SUV\" tabindex=\"-1\">\nWrangler 4xe\n</a>",
+          "target": [
+            "div[data-slick-index=\"5\"] > h3 > a"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"/new-dodge-chrysler-jeep-ram-greenville/index.htm?year=2024&amp;make=Jeep&amp;model=Compass&amp;gvBodyStyle=SUV\" tabindex=\"-1\">\nCompass\n</a>",
+          "target": [
+            "div[data-slick-index=\"6\"] > h3 > a"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"/new-dodge-chrysler-jeep-ram-greenville/index.htm?year=2024&amp;make=Jeep&amp;model=Grand Cherokee&amp;gvBodyStyle=SUV\" tabindex=\"-1\">\nGrand Cherokee\n</a>",
+          "target": [
+            "div[data-slick-index=\"7\"] > h3 > a"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"/new-dodge-chrysler-jeep-ram-greenville/index.htm?year=2024&amp;make=Jeep&amp;model=Grand Wagoneer&amp;gvBodyStyle=SUV\" tabindex=\"-1\">\nGrand Wagoneer\n</a>",
+          "target": [
+            "div[data-slick-index=\"8\"] > h3 > a"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"https://www.bigododge.com/new-dodge-chrysler-jeep-ram-greenville/index.htm\" target=\"_self\" internallink=\"false\" style=\"\">new vehicles</a>",
+          "target": [
+            "a[internallink=\"false\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"/chrysler-cars-for-sale-greenville.htm\" target=\"_self\" internallink=\"true\" style=\"\">Chrysler</a>",
+          "target": [
+            "span:nth-child(1) > a[internallink=\"true\"][target=\"_self\"]:nth-child(2)"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"/dodge-cars-for-sale-greenville.htm\" target=\"_self\" internallink=\"true\" style=\"\">Dodge</a>",
+          "target": [
+            "span:nth-child(1) > a[internallink=\"true\"][target=\"_self\"]:nth-child(3)"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"/jeep-suvs-for-sale-greenville.htm\" target=\"_self\" internallink=\"true\" style=\"\">Jeep</a>",
+          "target": [
+            "span:nth-child(1) > a[internallink=\"true\"][target=\"_self\"]:nth-child(4)"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"/ram-trucks-for-sale-greenville.htm\" target=\"_self\" internallink=\"true\" style=\"\">Ram</a>",
+          "target": [
+            "span:nth-child(1) > a[internallink=\"true\"][target=\"_self\"]:nth-child(5)"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"/new-ram/1500-greenville-sc.htm\" target=\"_self\" internallink=\"true\" style=\"\">1500</a>",
+          "target": [
+            "a[internallink=\"true\"][target=\"_self\"]:nth-child(1)"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"/new-ram/2500-greenville-sc.htm\" target=\"_self\" internallink=\"true\" style=\"\">2500</a>",
+          "target": [
+            "span:nth-child(3) > a[internallink=\"true\"][target=\"_self\"]:nth-child(2)"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"/new-ram/3500-greenville-sc.htm\" target=\"_self\" internallink=\"true\" style=\"\">3500</a>",
+          "target": [
+            "span:nth-child(3) > a[internallink=\"true\"][target=\"_self\"]:nth-child(3)"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"/new-jeep/grand-cherokee-greenville-sc.htm\" target=\"_self\" internallink=\"true\" style=\"\">Grand Cherokee</a>",
+          "target": [
+            "span:nth-child(3) > a[internallink=\"true\"][target=\"_self\"]:nth-child(4)"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"/used-inventory/index.htm\" target=\"_self\" internallink=\"true\" style=\"\">used</a>",
+          "target": [
+            "a[href=\"/used-inventory/index.htm\"][internallink=\"true\"][target=\"_self\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"https://www.bigododge.com/financing/index.htm\" style=\"text-decoration-line: none;\">",
+          "target": [
+            "p[dir=\"ltr\"] > font[color=\"#ffffff\"] > a"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"/service/index.htm\">car service and repair</a>",
+          "target": [
+            "a[href=\"/service/index.htm\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"/parts/index.htm\">auto parts</a>",
+          "target": [
+            "a[href=\"/parts/index.htm\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a target=\"_blank\" href=\"https://www.google.com/maps/search/?api=1&amp;query=2645+Laurens+Rd+Greenville%2C+SC+29607-3817&amp;hl=en\" class=\"skip-link\" aria-describedby=\"audioeye_new_window_message\">Visit us at:  2645 Laurens Rd Greenville, SC 29607-3817</a>",
+          "target": [
+            ".skip-link[target=\"_blank\"][aria-describedby=\"audioeye_new_window_message\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a class=\"credit\" href=\"https://www.dealer.com\" target=\"_blank\" aria-describedby=\"audioeye_new_window_message\">    Website by Dealer.com  </a>",
+          "target": [
+            "a[href$=\"www.dealer.com\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a class=\"ad-choices\" href=\"https://www.dealer.com/opt-out/?utm_campaign=ddc_referral\" target=\"_blank\" aria-describedby=\"audioeye_new_window_message\">",
+          "target": [
+            ".ad-choices"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a data-navigation-id=\"default\" href=\"/dealership/about.htm\">\nAbout\n<b aria-hidden=\"true\" class=\"ddc-icon ddc-icon-arrow2-right show-inline\"></b></a>",
+          "target": [
+            ".nav-first.nav-no-children.dropdown > a[href$=\"about.htm\"][data-navigation-id=\"default\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a data-navigation-id=\"default\" href=\"/dealership/directions.htm\">\nDirections\n<b aria-hidden=\"true\" class=\"ddc-icon ddc-icon-arrow2-right show-inline\"></b></a>",
+          "target": [
+            ".nav-no-children.dropdown[role=\"listitem\"]:nth-child(3) > a[href$=\"directions.htm\"][data-navigation-id=\"default\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a data-navigation-id=\"default\" href=\"/privacy.htm\">\nPrivacy\n<b aria-hidden=\"true\" class=\"ddc-icon ddc-icon-arrow2-right show-inline\"></b></a>",
+          "target": [
+            "a[href$=\"privacy.htm\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a data-navigation-id=\"default\" href=\"/legal.htm\">\nLegal\n<b aria-hidden=\"true\" class=\"ddc-icon ddc-icon-arrow2-right show-inline\"></b></a>",
+          "target": [
+            "a[href$=\"legal.htm\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a data-navigation-id=\"default\" href=\"/contact.htm\">\nContact Us\n<b aria-hidden=\"true\" class=\"ddc-icon ddc-icon-arrow2-right show-inline\"></b></a>",
+          "target": [
+            ".nav-no-children.dropdown[role=\"listitem\"]:nth-child(6) > a[href$=\"contact.htm\"][data-navigation-id=\"default\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a data-navigation-id=\"default\" href=\"/sitemap.htm\">\nSitemap\n<b aria-hidden=\"true\" class=\"ddc-icon ddc-icon-arrow2-right show-inline\"></b></a>",
+          "target": [
+            "a[href$=\"sitemap.htm\"]"
+          ]
+        }
+      ]
+    }
+  ],
+  "incomplete": [],
+  "violations": []
+}

@@ -1,0 +1,29 @@
+[
+  {
+    "analysisDetails": [
+      {
+        "model": "GPT"
+      },
+      {
+        "accessibility_type": "html-has-lang"
+      },
+      {
+        "prompt_technique": "cot"
+      },
+      {
+        "temperature": 0.5
+      }
+    ],
+    "accessbilityTestResult": {
+      "violationBeforeModification": 1,
+      "violationAfterModification": 0
+    },
+    "modelCorrections": [
+      {
+        "beforeModification": "<html>",
+        "afterModification": "<html> element to specify the primary language of the document. This helps assistive technologies like screen readers to correctly interpret and pronounce the content for users with disabilities.\n\n- Corrected HTML: <html lang=\"en\">",
+        "rawOutput": "- Thought: To make the HTML document accessible and compliant with WCAG 2.1 guidelines, I need to add the \"lang\" attribute to the <html> element to specify the primary language of the document. This helps assistive technologies like screen readers to correctly interpret and pronounce the content for users with disabilities.\n\n- Corrected HTML: <html lang=\"en\">"
+      }
+    ]
+  }
+]

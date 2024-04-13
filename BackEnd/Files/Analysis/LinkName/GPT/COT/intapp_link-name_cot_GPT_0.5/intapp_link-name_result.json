@@ -1,0 +1,64 @@
+[
+  {
+    "analysisDetails": [
+      {
+        "model": "GPT"
+      },
+      {
+        "accessibility_type": "link-name"
+      },
+      {
+        "prompt_technique": "cot"
+      },
+      {
+        "temperature": 0.5
+      }
+    ],
+    "accessbilityTestResult": {
+      "violationBeforeModification": 8,
+      "violationAfterModification": 0
+    },
+    "modelCorrections": [
+      {
+        "beforeModification": "<a href=\"https://www.intapp.com/firms/armstrong-watson/\">",
+        "afterModification": "<a href=\"https://www.intapp.com/firms/armstrong-watson/\">\n- Thought: Similar to the examples, I need to correct the above HTML by adding a title attribute to the link to make it accessible. Since the \"href\" attribute points to a specific URL, I could infer the title content based on the URL's content or use a descriptive phrase related to the link's purpose or destination. In this case, \"Armstrong Watson at Intapp\" could be a suitable title, assuming the link leads to a page about Armstrong Watson on the Intapp website.\n- Corrected HTML: <a href=\"https://www.intapp.com/firms/armstrong-watson/\" title=\"Armstrong Watson at Intapp\">",
+        "rawOutput": "- Incorrect HTML: <a href=\"https://www.intapp.com/firms/armstrong-watson/\">\n- Thought: Similar to the examples, I need to correct the above HTML by adding a title attribute to the link to make it accessible. Since the \"href\" attribute points to a specific URL, I could infer the title content based on the URL's content or use a descriptive phrase related to the link's purpose or destination. In this case, \"Armstrong Watson at Intapp\" could be a suitable title, assuming the link leads to a page about Armstrong Watson on the Intapp website.\n- Corrected HTML: <a href=\"https://www.intapp.com/firms/armstrong-watson/\" title=\"Armstrong Watson at Intapp\">"
+      },
+      {
+        "beforeModification": "<a href=\"https://www.intapp.com/firms/seyfarth-shaw/\">",
+        "afterModification": "<a href=\"https://www.intapp.com/firms/seyfarth-shaw/\" aria-label=\"Visit Seyfarth Shaw at Intapp\">Visit Seyfarth Shaw</a>",
+        "rawOutput": "- Thought: To correct the above HTML, I need to ensure that the link has accessible text for screen readers and that it is identifiable to users who rely on assistive technologies. Since the \"href\" attribute points to a specific URL, I can use the content of the URL or the purpose of the link to create a meaningful description. In this case, I will add an \"aria-label\" attribute to provide accessible name to the link and ensure it's descriptive of its function or destination.\n\n- Corrected HTML: `<a href=\"https://www.intapp.com/firms/seyfarth-shaw/\" aria-label=\"Visit Seyfarth Shaw at Intapp\">Visit Seyfarth Shaw</a>`"
+      },
+      {
+        "beforeModification": "<a href=\"https://www.intapp.com/firms/rsm/\">",
+        "afterModification": "<a href=\"https://www.intapp.com/firms/rsm/\" title=\"RSM at Intapp\">Learn more about RSM at Intapp</a>",
+        "rawOutput": "- Thought: To correct the provided HTML for accessibility based on the WCAG 2.1 violation description, I need to ensure that the link has accessible text for screen readers and a title attribute for additional context. Since the \"href\" attribute points to a specific URL, I can use the URL's content or purpose to derive a suitable title and accessible text. Assuming the link is meant to direct users to a page about \"RSM\" on the \"Intapp\" website, I will add an appropriate title attribute and also include accessible text within the link element.\n\n- Corrected HTML: `<a href=\"https://www.intapp.com/firms/rsm/\" title=\"RSM at Intapp\">Learn more about RSM at Intapp</a>`"
+      },
+      {
+        "beforeModification": "<a href=\"https://www.intapp.com/firms/perkins-coie/\">",
+        "afterModification": "<a href=\"https://www.intapp.com/firms/perkins-coie/\">`\n  \n- Thought: The anchor element is missing both accessible text and a title attribute. Since the \"href\" attribute points to a specific page on a website, I can infer the context and purpose of the link from the URL. The URL suggests that the link directs to a page about Perkins Coie on the Intapp website. Therefore, I can add accessible text within the anchor tag for users to see and understand the purpose of the link. Additionally, I can add a title attribute to enhance accessibility for users who rely on screen readers.\n\n- Corrected HTML: `<a href=\"https://www.intapp.com/firms/perkins-coie/\" title=\"Perkins Coie at Intapp\">Learn more about Perkins Coie at Intapp</a>",
+        "rawOutput": "- Incorrect HTML: `<a href=\"https://www.intapp.com/firms/perkins-coie/\">`\n  \n- Thought: The anchor element is missing both accessible text and a title attribute. Since the \"href\" attribute points to a specific page on a website, I can infer the context and purpose of the link from the URL. The URL suggests that the link directs to a page about Perkins Coie on the Intapp website. Therefore, I can add accessible text within the anchor tag for users to see and understand the purpose of the link. Additionally, I can add a title attribute to enhance accessibility for users who rely on screen readers.\n\n- Corrected HTML: `<a href=\"https://www.intapp.com/firms/perkins-coie/\" title=\"Perkins Coie at Intapp\">Learn more about Perkins Coie at Intapp</a>`"
+      },
+      {
+        "beforeModification": "<a href=\"https://www.intapp.com/firms/stephens/\">",
+        "afterModification": "<a href=\"https://www.intapp.com/firms/stephens/\">\n- Thought: I need to correct the above HTML by adding accessible text for screen readers and possibly a title attribute to enhance the link's accessibility. Since the href attribute points to a specific page, I can use the URL's context to determine what the link is about. Assuming the page is about \"Stephens at Intapp,\" I will add an aria-label for screen readers and a title for additional context.\n\n- Corrected HTML: <a href=\"https://www.intapp.com/firms/stephens/\" aria-label=\"Stephens at Intapp\" title=\"Learn more about Stephens at Intapp\"></a>",
+        "rawOutput": "- Incorrect HTML: <a href=\"https://www.intapp.com/firms/stephens/\">\n- Thought: I need to correct the above HTML by adding accessible text for screen readers and possibly a title attribute to enhance the link's accessibility. Since the href attribute points to a specific page, I can use the URL's context to determine what the link is about. Assuming the page is about \"Stephens at Intapp,\" I will add an aria-label for screen readers and a title for additional context.\n\n- Corrected HTML: <a href=\"https://www.intapp.com/firms/stephens/\" aria-label=\"Stephens at Intapp\" title=\"Learn more about Stephens at Intapp\"></a>"
+      },
+      {
+        "beforeModification": "<a href=\"https://www.intapp.com/firms/osler/\">",
+        "afterModification": "<a href=\"https://www.intapp.com/firms/osler/\">\n- Thought: I need to correct the above HTML by adding accessible text for screen readers and a title attribute to the link. Since the href is a URL, I can deduce the context from it to determine what the title and accessible text should be. The URL suggests it's related to \"Osler\" at \"Intapp\", so I can use that information to create a descriptive title and accessible text.\n\n- Corrected HTML: <a href=\"https://www.intapp.com/firms/osler/\" title=\"Visit Osler at Intapp\">Visit Osler at Intapp</a>",
+        "rawOutput": "- Incorrect HTML: <a href=\"https://www.intapp.com/firms/osler/\">\n- Thought: I need to correct the above HTML by adding accessible text for screen readers and a title attribute to the link. Since the href is a URL, I can deduce the context from it to determine what the title and accessible text should be. The URL suggests it's related to \"Osler\" at \"Intapp\", so I can use that information to create a descriptive title and accessible text.\n\n- Corrected HTML: <a href=\"https://www.intapp.com/firms/osler/\" title=\"Visit Osler at Intapp\">Visit Osler at Intapp</a>"
+      },
+      {
+        "beforeModification": "<a href=\"https://www.intapp.com/firms/loeb-loeb/\">",
+        "afterModification": "<a href=\"https://www.intapp.com/firms/loeb-loeb/\">`\n  \n- Thought: To address the WCAG 2.1 violation, the anchor tag needs accessible text or an attribute that provides information about the link's destination for users and assistive technologies. Since the \"href\" attribute points to a specific page, I can infer that the link is about \"Loeb & Loeb\" at Intapp. I will add a title attribute to offer context about the link's destination and include accessible inner text for users who might not benefit from the title attribute alone.\n\n- Corrected HTML: `<a href=\"https://www.intapp.com/firms/loeb-loeb/\" title=\"Loeb & Loeb at Intapp\">Learn more about Loeb & Loeb at Intapp</a>",
+        "rawOutput": "- Incorrect HTML: `<a href=\"https://www.intapp.com/firms/loeb-loeb/\">`\n  \n- Thought: To address the WCAG 2.1 violation, the anchor tag needs accessible text or an attribute that provides information about the link's destination for users and assistive technologies. Since the \"href\" attribute points to a specific page, I can infer that the link is about \"Loeb & Loeb\" at Intapp. I will add a title attribute to offer context about the link's destination and include accessible inner text for users who might not benefit from the title attribute alone.\n\n- Corrected HTML: `<a href=\"https://www.intapp.com/firms/loeb-loeb/\" title=\"Loeb & Loeb at Intapp\">Learn more about Loeb & Loeb at Intapp</a>`"
+      },
+      {
+        "beforeModification": "<a href=\"https://www.intapp.com/firms/the-riverside-company/\">",
+        "afterModification": "<a href=\"https://www.intapp.com/firms/the-riverside-company/\">`\n  \n- Thought: I need to correct the above HTML by adding accessible text for screen readers and a title attribute to the link. Since the \"href\" is a URL, I can infer the context from the URL or ideally, look up the page to understand its content. Assuming the link leads to a page about a partnership or a case study with The Riverside Company, I will add appropriate accessible text and a title.\n\n- Corrected HTML: `<a href=\"https://www.intapp.com/firms/the-riverside-company/\" title=\"The Riverside Company at Intapp\">Learn more about our partnership with The Riverside Company</a>",
+        "rawOutput": "- Incorrect HTML: `<a href=\"https://www.intapp.com/firms/the-riverside-company/\">`\n  \n- Thought: I need to correct the above HTML by adding accessible text for screen readers and a title attribute to the link. Since the \"href\" is a URL, I can infer the context from the URL or ideally, look up the page to understand its content. Assuming the link leads to a page about a partnership or a case study with The Riverside Company, I will add appropriate accessible text and a title.\n\n- Corrected HTML: `<a href=\"https://www.intapp.com/firms/the-riverside-company/\" title=\"The Riverside Company at Intapp\">Learn more about our partnership with The Riverside Company</a>`"
+      }
+    ]
+  }
+]

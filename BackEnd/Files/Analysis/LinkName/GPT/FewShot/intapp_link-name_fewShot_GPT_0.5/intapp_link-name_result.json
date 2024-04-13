@@ -1,0 +1,64 @@
+[
+  {
+    "analysisDetails": [
+      {
+        "model": "GPT"
+      },
+      {
+        "accessibility_type": "link-name"
+      },
+      {
+        "prompt_technique": "fewShot"
+      },
+      {
+        "temperature": 0.5
+      }
+    ],
+    "accessbilityTestResult": {
+      "violationBeforeModification": 8,
+      "violationAfterModification": 0
+    },
+    "modelCorrections": [
+      {
+        "beforeModification": "<a href=\"https://www.intapp.com/firms/armstrong-watson/\">",
+        "afterModification": "<a href=\"https://www.intapp.com/firms/armstrong-watson/\" title=\"Visit Armstrong Watson on Intapp\">",
+        "rawOutput": "```html\n- Corrected HTML: <a href=\"https://www.intapp.com/firms/armstrong-watson/\" title=\"Visit Armstrong Watson on Intapp\">\n```"
+      },
+      {
+        "beforeModification": "<a href=\"https://www.intapp.com/firms/seyfarth-shaw/\">",
+        "afterModification": "<a href=\"https://www.intapp.com/firms/seyfarth-shaw/\">\n- Corrected HTML: <a href=\"https://www.intapp.com/firms/seyfarth-shaw/\" title=\"Visit Seyfarth Shaw at Intapp\">",
+        "rawOutput": "```html\n- Incorrect HTML: <a href=\"https://www.intapp.com/firms/seyfarth-shaw/\">\n- Corrected HTML: <a href=\"https://www.intapp.com/firms/seyfarth-shaw/\" title=\"Visit Seyfarth Shaw at Intapp\">\n```"
+      },
+      {
+        "beforeModification": "<a href=\"https://www.intapp.com/firms/rsm/\">",
+        "afterModification": "<a href=\"https://www.intapp.com/firms/rsm/\" title=\"Visit RSM at Intapp\">Visit RSM at Intapp</a>",
+        "rawOutput": "```html\n- Corrected HTML: <a href=\"https://www.intapp.com/firms/rsm/\" title=\"Visit RSM at Intapp\">Visit RSM at Intapp</a>\n```"
+      },
+      {
+        "beforeModification": "<a href=\"https://www.intapp.com/firms/perkins-coie/\">",
+        "afterModification": "<a href=\"https://www.intapp.com/firms/perkins-coie/\" title=\"Visit Perkins Coie at Intapp\">",
+        "rawOutput": "```html\n- Corrected HTML: <a href=\"https://www.intapp.com/firms/perkins-coie/\" title=\"Visit Perkins Coie at Intapp\">\n```"
+      },
+      {
+        "beforeModification": "<a href=\"https://www.intapp.com/firms/stephens/\">",
+        "afterModification": "<a href=\"https://www.intapp.com/firms/stephens/\" title=\"Visit Stephens at Intapp\">Visit Stephens at Intapp</a>",
+        "rawOutput": "```html\n- Corrected HTML: <a href=\"https://www.intapp.com/firms/stephens/\" title=\"Visit Stephens at Intapp\">Visit Stephens at Intapp</a>\n```"
+      },
+      {
+        "beforeModification": "<a href=\"https://www.intapp.com/firms/osler/\">",
+        "afterModification": "<a href=\"https://www.intapp.com/firms/osler/\" title=\"Visit Osler at Intapp\">Visit Osler at Intapp</a>",
+        "rawOutput": "```html\n- Corrected HTML: <a href=\"https://www.intapp.com/firms/osler/\" title=\"Visit Osler at Intapp\">Visit Osler at Intapp</a>\n```"
+      },
+      {
+        "beforeModification": "<a href=\"https://www.intapp.com/firms/loeb-loeb/\">",
+        "afterModification": "<a href=\"https://www.intapp.com/firms/loeb-loeb/\" title=\"Visit Loeb & Loeb at Intapp\">",
+        "rawOutput": "```html\n- Corrected HTML: <a href=\"https://www.intapp.com/firms/loeb-loeb/\" title=\"Visit Loeb & Loeb at Intapp\">\n```"
+      },
+      {
+        "beforeModification": "<a href=\"https://www.intapp.com/firms/the-riverside-company/\">",
+        "afterModification": "<a href=\"https://www.intapp.com/firms/the-riverside-company/\">\n- Corrected HTML: <a href=\"https://www.intapp.com/firms/the-riverside-company/\" title=\"The Riverside Company at Intapp\">Visit The Riverside Company at Intapp</a>",
+        "rawOutput": "```html\n- Incorrect HTML: <a href=\"https://www.intapp.com/firms/the-riverside-company/\">\n- Corrected HTML: <a href=\"https://www.intapp.com/firms/the-riverside-company/\" title=\"The Riverside Company at Intapp\">Visit The Riverside Company at Intapp</a>\n```"
+      }
+    ]
+  }
+]

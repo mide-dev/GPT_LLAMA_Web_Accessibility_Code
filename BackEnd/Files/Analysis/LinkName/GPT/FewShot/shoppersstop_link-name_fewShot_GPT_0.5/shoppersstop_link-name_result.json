@@ -1,0 +1,244 @@
+[
+  {
+    "analysisDetails": [
+      {
+        "model": "GPT"
+      },
+      {
+        "accessibility_type": "link-name"
+      },
+      {
+        "prompt_technique": "fewShot"
+      },
+      {
+        "temperature": 0.5
+      }
+    ],
+    "accessbilityTestResult": {
+      "violationBeforeModification": 44,
+      "violationAfterModification": 0
+    },
+    "modelCorrections": [
+      {
+        "beforeModification": "<a class=\"searchpan search-span\" href=\"javascript:;\">\n                        </a>",
+        "afterModification": "<a class=\"searchpan search-span\" href=\"javascript:;\" aria-label=\"Search\" title=\"Search\">\n</a>",
+        "rawOutput": "```html\n<a class=\"searchpan search-span\" href=\"javascript:;\" aria-label=\"Search\" title=\"Search\">\n</a>\n```"
+      },
+      {
+        "beforeModification": "<a class=\"wishlist\" href=\"javascript:void(0);\">\n\t\t<i class=\"wishlist-icon i-icon\"></i>\n\t\t<input type=\"hidden\" id=\"wishlistUrl\" value=\"/wishlist?wishlistType=Default\"> \n\t\t</a>",
+        "afterModification": "<a class=\"wishlist\" href=\"javascript:void(0);\" aria-label=\"Add to Wishlist\">\n    <i class=\"wishlist-icon i-icon\" aria-hidden=\"true\"></i>\n    <input type=\"hidden\" id=\"wishlistUrl\" value=\"/wishlist?wishlistType=Default\"> \n</a>",
+        "rawOutput": "```html\n<a class=\"wishlist\" href=\"javascript:void(0);\" aria-label=\"Add to Wishlist\">\n    <i class=\"wishlist-icon i-icon\" aria-hidden=\"true\"></i>\n    <input type=\"hidden\" id=\"wishlistUrl\" value=\"/wishlist?wishlistType=Default\"> \n</a>\n```"
+      },
+      {
+        "beforeModification": "<a href=\"\" class=\"brandsWeLoveHomePageCmsComponentATag\" data-sslstaticresponsivebanner=\"\" data-select-uid=\"cmsitem_00368096\" data-select-name=\"web_hp_icon-strips_main_20220322\" data-select-position=\"0\" data-select-creative=\"DEFAULT\">",
+        "afterModification": "<a href=\"\" class=\"brandsWeLoveHomePageCmsComponentATag\" data-sslstaticresponsivebanner=\"\" data-select-uid=\"cmsitem_00368096\" data-select-name=\"web_hp_icon-strips_main_20220322\" data-select-position=\"0\" data-select-creative=\"DEFAULT\" aria-label=\"Brand We Love\" title=\"Brand We Love\">",
+        "rawOutput": "```html\n<a href=\"\" class=\"brandsWeLoveHomePageCmsComponentATag\" data-sslstaticresponsivebanner=\"\" data-select-uid=\"cmsitem_00368096\" data-select-name=\"web_hp_icon-strips_main_20220322\" data-select-position=\"0\" data-select-creative=\"DEFAULT\" aria-label=\"Brand We Love\" title=\"Brand We Love\">\n```"
+      },
+      {
+        "beforeModification": "<a href=\"\" class=\"brandsWeLoveHomePageCmsComponentATag\" data-sslstaticresponsivebanner=\"\" data-select-uid=\"cmsitem_00554386\" data-select-name=\"web_featured brands_13-2-2024\" data-select-position=\"0\" data-select-creative=\"DEFAULT\">",
+        "afterModification": "<a href=\"\" class=\"brandsWeLoveHomePageCmsComponentATag\" title=\"Featured Brands\" aria-label=\"Featured Brands\" data-sslstaticresponsivebanner=\"\" data-select-uid=\"cmsitem_00554386\" data-select-name=\"web_featured brands_13-2-2024\" data-select-position=\"0\" data-select-creative=\"DEFAULT\">",
+        "rawOutput": "```html\n<a href=\"\" class=\"brandsWeLoveHomePageCmsComponentATag\" title=\"Featured Brands\" aria-label=\"Featured Brands\" data-sslstaticresponsivebanner=\"\" data-select-uid=\"cmsitem_00554386\" data-select-name=\"web_featured brands_13-2-2024\" data-select-position=\"0\" data-select-creative=\"DEFAULT\">\n```"
+      },
+      {
+        "beforeModification": "<a href=\"\" class=\"brandsWeLoveHomePageCmsComponentATag\" data-sslstaticresponsivebanner=\"\" data-select-uid=\"cmsitem_00554382\" data-select-name=\"web_What's Trending In_13-2-2024\" data-select-position=\"0\" data-select-creative=\"DEFAULT\">",
+        "afterModification": "<a href=\"\" class=\"brandsWeLoveHomePageCmsComponentATag\" title=\"What's Trending\" data-sslstaticresponsivebanner=\"\" data-select-uid=\"cmsitem_00554382\" data-select-name=\"web_What's Trending In_13-2-2024\" data-select-position=\"0\" data-select-creative=\"DEFAULT\" aria-label=\"What's Trending\">",
+        "rawOutput": "```html\n<a href=\"\" class=\"brandsWeLoveHomePageCmsComponentATag\" title=\"What's Trending\" data-sslstaticresponsivebanner=\"\" data-select-uid=\"cmsitem_00554382\" data-select-name=\"web_What's Trending In_13-2-2024\" data-select-position=\"0\" data-select-creative=\"DEFAULT\" aria-label=\"What's Trending\">\n```"
+      },
+      {
+        "beforeModification": "<a href=\"\" class=\"brandsWeLoveHomePageCmsComponentATag\" data-sslstaticresponsivebanner=\"\" data-select-uid=\"cmsitem_00568085\" data-select-name=\"web_the-scent-house-logo-strip-\" data-select-position=\"0\" data-select-creative=\"DEFAULT\">",
+        "afterModification": "<a href=\"\" class=\"brandsWeLoveHomePageCmsComponentATag\" title=\"Brand Details\" aria-label=\"Brand Details\" data-sslstaticresponsivebanner=\"\" data-select-uid=\"cmsitem_00568085\" data-select-name=\"web_the-scent-house-logo-strip-\" data-select-position=\"0\" data-select-creative=\"DEFAULT\">",
+        "rawOutput": "```html\n- Corrected HTML: <a href=\"\" class=\"brandsWeLoveHomePageCmsComponentATag\" title=\"Brand Details\" aria-label=\"Brand Details\" data-sslstaticresponsivebanner=\"\" data-select-uid=\"cmsitem_00568085\" data-select-name=\"web_the-scent-house-logo-strip-\" data-select-position=\"0\" data-select-creative=\"DEFAULT\">\n```"
+      },
+      {
+        "beforeModification": "<a href=\"https://www.shoppersstop.com/accessories\" class=\"brandsWeLoveHomePageCmsComponentATag\" data-sslstaticresponsivebanner=\"\" data-select-uid=\"cmsitem_00568142\" data-select-name=\"web_accessery strips _05-04-2025\" data-select-position=\"0\" data-select-creative=\"DEFAULT\">",
+        "afterModification": "<a href=\"https://www.shoppersstop.com/accessories\" class=\"brandsWeLoveHomePageCmsComponentATag\" title=\"Shop Accessories at Shoppers Stop\" aria-label=\"Shop Accessories at Shoppers Stop\" data-sslstaticresponsivebanner=\"\" data-select-uid=\"cmsitem_00568142\" data-select-name=\"web_accessery strips _05-04-2025\" data-select-position=\"0\" data-select-creative=\"DEFAULT\">",
+        "rawOutput": "```html\n<a href=\"https://www.shoppersstop.com/accessories\" class=\"brandsWeLoveHomePageCmsComponentATag\" title=\"Shop Accessories at Shoppers Stop\" aria-label=\"Shop Accessories at Shoppers Stop\" data-sslstaticresponsivebanner=\"\" data-select-uid=\"cmsitem_00568142\" data-select-name=\"web_accessery strips _05-04-2025\" data-select-position=\"0\" data-select-creative=\"DEFAULT\">\n```"
+      },
+      {
+        "beforeModification": "<a href=\"\" class=\"brandsWeLoveHomePageCmsComponentATag\" data-sslstaticresponsivebanner=\"\" data-select-uid=\"cmsitem_00554385\" data-select-name=\"web_Top-Rated Categories_13-2-2024\" data-select-position=\"0\" data-select-creative=\"DEFAULT\">",
+        "afterModification": "<a href=\"\" class=\"brandsWeLoveHomePageCmsComponentATag\" title=\"Top-Rated Categories\" aria-label=\"Top-Rated Categories\" data-sslstaticresponsivebanner=\"\" data-select-uid=\"cmsitem_00554385\" data-select-name=\"web_Top-Rated Categories_13-2-2024\" data-select-position=\"0\" data-select-creative=\"DEFAULT\">",
+        "rawOutput": "```html\n- Corrected HTML: <a href=\"\" class=\"brandsWeLoveHomePageCmsComponentATag\" title=\"Top-Rated Categories\" aria-label=\"Top-Rated Categories\" data-sslstaticresponsivebanner=\"\" data-select-uid=\"cmsitem_00554385\" data-select-name=\"web_Top-Rated Categories_13-2-2024\" data-select-position=\"0\" data-select-creative=\"DEFAULT\">\n```"
+      },
+      {
+        "beforeModification": "<a href=\"\" class=\"brandsWeLoveHomePageCmsComponentATag\" data-sslstaticresponsivebanner=\"\" data-select-uid=\"cmsitem_00554384\" data-select-name=\"web_shoppers stop selected_13-2-2024\" data-select-position=\"0\" data-select-creative=\"DEFAULT\">",
+        "afterModification": "<a href=\"\" class=\"brandsWeLoveHomePageCmsComponentATag\" data-sslstaticresponsivebanner=\"\" data-select-uid=\"cmsitem_00554384\" data-select-name=\"web_shoppers stop selected_13-2-2024\" data-select-position=\"0\" data-select-creative=\"DEFAULT\" title=\"Brands We Love at Shoppers Stop\" aria-label=\"Brands We Love at Shoppers Stop\">",
+        "rawOutput": "```html\n<a href=\"\" class=\"brandsWeLoveHomePageCmsComponentATag\" data-sslstaticresponsivebanner=\"\" data-select-uid=\"cmsitem_00554384\" data-select-name=\"web_shoppers stop selected_13-2-2024\" data-select-position=\"0\" data-select-creative=\"DEFAULT\" title=\"Brands We Love at Shoppers Stop\" aria-label=\"Brands We Love at Shoppers Stop\">\n```"
+      },
+      {
+        "beforeModification": "<a href=\"https://www.shoppersstop.com/search/?q=private_brands%3Arelevance%3AinStockFlag%3Atrue%3AallPromotions%3AFLAT%2B20%2525%2BOFF&amp;text=private_brands&amp;startRange=&amp;endRange=&amp;brandPageId=&amp;linkText=\" class=\"banner50x50Left offersZoneCmsComponentATag\" data-select-uid=\"cmsitem_00566631\" data-select-name=\"web_pb_230324\" data-select-position=\"0\" data-select-creative=\"DEFAULT\">",
+        "afterModification": "<a href=\"https://www.shoppersstop.com/search/?q=private_brands%3Arelevance%3AinStockFlag%3Atrue%3AallPromotions%3AFLAT%2B20%2525%2BOFF&amp;text=private_brands&amp;startRange=&amp;endRange=&amp;brandPageId=&amp;linkText=\" class=\"banner50x50Left offersZoneCmsComponentATag\" data-select-uid=\"cmsitem_00566631\" data-select-name=\"web_pb_230324\" data-select-position=\"0\" data-select-creative=\"DEFAULT\" aria-label=\"Shop Now for Private Brands with Flat 20% Off\">",
+        "rawOutput": "```html\n<a href=\"https://www.shoppersstop.com/search/?q=private_brands%3Arelevance%3AinStockFlag%3Atrue%3AallPromotions%3AFLAT%2B20%2525%2BOFF&amp;text=private_brands&amp;startRange=&amp;endRange=&amp;brandPageId=&amp;linkText=\" class=\"banner50x50Left offersZoneCmsComponentATag\" data-select-uid=\"cmsitem_00566631\" data-select-name=\"web_pb_230324\" data-select-position=\"0\" data-select-creative=\"DEFAULT\" aria-label=\"Shop Now for Private Brands with Flat 20% Off\">\n```"
+      },
+      {
+        "beforeModification": "<a href=\"https://www.shoppersstop.com/search/?q=private_brands%3Arelevance%3AinStockFlag%3Atrue%3AallPromotions%3AFLAT%2B20%2525%2BOFF&amp;text=private_brands&amp;startRange=&amp;endRange=&amp;brandPageId=&amp;linkText=\" class=\"banner50x50Right offersZoneCmsComponentATag\" data-select-uid=\"cmsitem_00566631\" data-select-name=\"web_pb_230324\" data-select-position=\"1\" data-select-creative=\"DEFAULT\">",
+        "afterModification": "<a href=\"https://www.shoppersstop.com/search/?q=private_brands%3Arelevance%3AinStockFlag%3Atrue%3AallPromotions%3AFLAT%2B20%2525%2BOFF&amp;text=private_brands&amp;startRange=&amp;endRange=&amp;brandPageId=&amp;linkText=\" class=\"banner50x50Right offersZoneCmsComponentATag\" title=\"Shop Private Brands with FLAT 20% OFF\" aria-label=\"Shop Private Brands with FLAT 20% OFF\" data-select-uid=\"cmsitem_00566631\" data-select-name=\"web_pb_230324\" data-select-position=\"1\" data-select-creative=\"DEFAULT\">",
+        "rawOutput": "```html\n<a href=\"https://www.shoppersstop.com/search/?q=private_brands%3Arelevance%3AinStockFlag%3Atrue%3AallPromotions%3AFLAT%2B20%2525%2BOFF&amp;text=private_brands&amp;startRange=&amp;endRange=&amp;brandPageId=&amp;linkText=\" class=\"banner50x50Right offersZoneCmsComponentATag\" title=\"Shop Private Brands with FLAT 20% OFF\" aria-label=\"Shop Private Brands with FLAT 20% OFF\" data-select-uid=\"cmsitem_00566631\" data-select-name=\"web_pb_230324\" data-select-position=\"1\" data-select-creative=\"DEFAULT\">\n```"
+      },
+      {
+        "beforeModification": "<a href=\"\" class=\"brandsWeLoveHomePageCmsComponentATag\" data-sslstaticresponsivebanner=\"\" data-select-uid=\"cmsitem_00553089\" data-select-name=\"web_Fresh off the Rack_8-2-2024\" data-select-position=\"0\" data-select-creative=\"DEFAULT\">",
+        "afterModification": "<a href=\"\" class=\"brandsWeLoveHomePageCmsComponentATag\" data-sslstaticresponsivebanner=\"\" data-select-uid=\"cmsitem_00553089\" data-select-name=\"web_Fresh off the Rack_8-2-2024\" data-select-position=\"0\" data-select-creative=\"DEFAULT\" aria-label=\"Fresh off the Rack\" title=\"Fresh off the Rack\">",
+        "rawOutput": "```html\n<a href=\"\" class=\"brandsWeLoveHomePageCmsComponentATag\" data-sslstaticresponsivebanner=\"\" data-select-uid=\"cmsitem_00553089\" data-select-name=\"web_Fresh off the Rack_8-2-2024\" data-select-position=\"0\" data-select-creative=\"DEFAULT\" aria-label=\"Fresh off the Rack\" title=\"Fresh off the Rack\">\n```"
+      },
+      {
+        "beforeModification": "<a href=\"\" class=\"brandsWeLoveHomePageCmsComponentATag\" data-sslstaticresponsivebanner=\"\" data-select-uid=\"cmsitem_00554383\" data-select-name=\"web_Covetable Beauty_13-2-2024\" data-select-position=\"0\" data-select-creative=\"DEFAULT\">",
+        "afterModification": "<a href=\"\" class=\"brandsWeLoveHomePageCmsComponentATag\" title=\"Covetable Beauty\" aria-label=\"Covetable Beauty\" data-sslstaticresponsivebanner=\"\" data-select-uid=\"cmsitem_00554383\" data-select-name=\"web_Covetable Beauty_13-2-2024\" data-select-position=\"0\" data-select-creative=\"DEFAULT\">",
+        "rawOutput": "```html\n<a href=\"\" class=\"brandsWeLoveHomePageCmsComponentATag\" title=\"Covetable Beauty\" aria-label=\"Covetable Beauty\" data-sslstaticresponsivebanner=\"\" data-select-uid=\"cmsitem_00554383\" data-select-name=\"web_Covetable Beauty_13-2-2024\" data-select-position=\"0\" data-select-creative=\"DEFAULT\">\n```"
+      },
+      {
+        "beforeModification": "<a href=\"https://www.shoppersstop.com/p-A23NARS45027867SS/colorChange/A23NARS45027867SS_WALK_THIS_WAY\" class=\"rec_item_17834015\" tabindex=\"0\">",
+        "afterModification": "<a href=\"https://www.shoppersstop.com/p-A23NARS45027867SS/colorChange/A23NARS45027867SS_WALK_THIS_WAY\" class=\"rec_item_17834015\" tabindex=\"0\" title=\"View product Walk This Way\" aria-label=\"View product Walk This Way\">",
+        "rawOutput": "```html\n<a href=\"https://www.shoppersstop.com/p-A23NARS45027867SS/colorChange/A23NARS45027867SS_WALK_THIS_WAY\" class=\"rec_item_17834015\" tabindex=\"0\" title=\"View product Walk This Way\" aria-label=\"View product Walk This Way\">\n```"
+      },
+      {
+        "beforeModification": "<a href=\"https://www.shoppersstop.com/p-A23NARS51002965SS/colorChange/A23NARS51002965SS_MEDIUM_DEEP\" class=\"rec_item_17834015\" tabindex=\"0\">",
+        "afterModification": "<a href=\"https://www.shoppersstop.com/p-A23NARS51002965SS/colorChange/A23NARS51002965SS_MEDIUM_DEEP\" class=\"rec_item_17834015\" tabindex=\"0\" title=\"View Product Details\" aria-label=\"View Product Details\">",
+        "rawOutput": "```html\n<a href=\"https://www.shoppersstop.com/p-A23NARS51002965SS/colorChange/A23NARS51002965SS_MEDIUM_DEEP\" class=\"rec_item_17834015\" tabindex=\"0\" title=\"View Product Details\" aria-label=\"View Product Details\">\n```"
+      },
+      {
+        "beforeModification": "<a href=\"https://www.shoppersstop.com/p-A23NARS45015017SS/colorChange/A23NARS45015017SS_COPACABANA\" class=\"rec_item_17834015\" tabindex=\"0\">",
+        "afterModification": "<a href=\"https://www.shoppersstop.com/p-A23NARS45015017SS/colorChange/A23NARS45015017SS_COPACABANA\" class=\"rec_item_17834015\" tabindex=\"0\" title=\"View Product Details\" aria-label=\"View Product Details\">",
+        "rawOutput": "```html\n<a href=\"https://www.shoppersstop.com/p-A23NARS45015017SS/colorChange/A23NARS45015017SS_COPACABANA\" class=\"rec_item_17834015\" tabindex=\"0\" title=\"View Product Details\" aria-label=\"View Product Details\">\n```"
+      },
+      {
+        "beforeModification": "<a href=\"https://www.shoppersstop.com/p-A23NARS51070346SS/colorChange/A23NARS51070346SS_ZAMBIE\" class=\"rec_item_17834015\" tabindex=\"0\">",
+        "afterModification": "<a href=\"https://www.shoppersstop.com/p-A23NARS51070346SS/colorChange/A23NARS51070346SS_ZAMBIE\" class=\"rec_item_17834015\" tabindex=\"0\" title=\"View Product Details\" aria-label=\"View Product Details\">",
+        "rawOutput": "```html\n<a href=\"https://www.shoppersstop.com/p-A23NARS51070346SS/colorChange/A23NARS51070346SS_ZAMBIE\" class=\"rec_item_17834015\" tabindex=\"0\" title=\"View Product Details\" aria-label=\"View Product Details\">\n```"
+      },
+      {
+        "beforeModification": "<a href=\"https://www.shoppersstop.com/p-A23NARS45012757SS/colorChange/A23NARS45012757SS_AFFOGATO\" class=\"rec_item_17834015\" tabindex=\"0\">",
+        "afterModification": "<a href=\"https://www.shoppersstop.com/p-A23NARS45012757SS/colorChange/A23NARS45012757SS_AFFOGATO\" class=\"rec_item_17834015\" tabindex=\"0\" title=\"View AFFOGATO product details\" aria-label=\"View AFFOGATO product details\">",
+        "rawOutput": "```html\n<a href=\"https://www.shoppersstop.com/p-A23NARS45012757SS/colorChange/A23NARS45012757SS_AFFOGATO\" class=\"rec_item_17834015\" tabindex=\"0\" title=\"View AFFOGATO product details\" aria-label=\"View AFFOGATO product details\">\n```"
+      },
+      {
+        "beforeModification": "<a href=\"\" class=\"brandsWeLoveHomePageCmsComponentATag\" data-sslstaticresponsivebanner=\"\" data-select-uid=\"cmsitem_00554380\" data-select-name=\"web_online exclusive strips_13-2-2024\" data-select-position=\"0\" data-select-creative=\"DEFAULT\">",
+        "afterModification": "<a href=\"\" class=\"brandsWeLoveHomePageCmsComponentATag\" data-sslstaticresponsivebanner=\"\" data-select-uid=\"cmsitem_00554380\" data-select-name=\"web_online exclusive strips_13-2-2024\" data-select-position=\"0\" data-select-creative=\"DEFAULT\" title=\"Explore Brands We Love\" aria-label=\"Explore Brands We Love\">",
+        "rawOutput": "```html\n<a href=\"\" class=\"brandsWeLoveHomePageCmsComponentATag\" data-sslstaticresponsivebanner=\"\" data-select-uid=\"cmsitem_00554380\" data-select-name=\"web_online exclusive strips_13-2-2024\" data-select-position=\"0\" data-select-creative=\"DEFAULT\" title=\"Explore Brands We Love\" aria-label=\"Explore Brands We Love\">\n```"
+      },
+      {
+        "beforeModification": "<a href=\"\" class=\"brandsWeLoveHomePageCmsComponentATag\" data-sslstaticresponsivebanner=\"\" data-select-uid=\"cmsitem_00554372\" data-select-name=\"web_Star-Studded Style_13-2-2024\" data-select-position=\"0\" data-select-creative=\"DEFAULT\">",
+        "afterModification": "<a href=\"\" class=\"brandsWeLoveHomePageCmsComponentATag\" title=\"Star-Studded Style\" data-sslstaticresponsivebanner=\"\" data-select-uid=\"cmsitem_00554372\" data-select-name=\"web_Star-Studded Style_13-2-2024\" data-select-position=\"0\" data-select-creative=\"DEFAULT\" aria-label=\"Star-Studded Style\">",
+        "rawOutput": "```html\n<a href=\"\" class=\"brandsWeLoveHomePageCmsComponentATag\" title=\"Star-Studded Style\" data-sslstaticresponsivebanner=\"\" data-select-uid=\"cmsitem_00554372\" data-select-name=\"web_Star-Studded Style_13-2-2024\" data-select-position=\"0\" data-select-creative=\"DEFAULT\" aria-label=\"Star-Studded Style\">\n```"
+      },
+      {
+        "beforeModification": "<a href=\"\" class=\"brandsWeLoveHomePageCmsComponentATag\" data-sslstaticresponsivebanner=\"\" data-select-uid=\"cmsitem_00554375\" data-select-name=\"web_Spring 2024 Fashion is in Full Bloom_13-2-2024\" data-select-position=\"0\" data-select-creative=\"DEFAULT\">",
+        "afterModification": "<a href=\"\" class=\"brandsWeLoveHomePageCmsComponentATag\" title=\"Spring 2024 Fashion is in Full Bloom\" data-sslstaticresponsivebanner=\"\" data-select-uid=\"cmsitem_00554375\" data-select-name=\"web_Spring 2024 Fashion is in Full Bloom_13-2-2024\" data-select-position=\"0\" data-select-creative=\"DEFAULT\" aria-label=\"Spring 2024 Fashion is in Full Bloom\">",
+        "rawOutput": "```html\n<a href=\"\" class=\"brandsWeLoveHomePageCmsComponentATag\" title=\"Spring 2024 Fashion is in Full Bloom\" data-sslstaticresponsivebanner=\"\" data-select-uid=\"cmsitem_00554375\" data-select-name=\"web_Spring 2024 Fashion is in Full Bloom_13-2-2024\" data-select-position=\"0\" data-select-creative=\"DEFAULT\" aria-label=\"Spring 2024 Fashion is in Full Bloom\">\n```"
+      },
+      {
+        "beforeModification": "<a href=\"https://www.shoppersstop.com/virtual-category-timeless-indigo/c-TimelessIndigo\" class=\"banner50x50Left offersZoneCmsComponentATag\" data-select-uid=\"cmsitem_00556488\" data-select-name=\"web_HP_Spring-2024-Fashion-is-in-Full-Bloom_Multiclick_19-02-2024\" data-select-position=\"0\" data-select-creative=\"DEFAULT\">",
+        "afterModification": "<a href=\"https://www.shoppersstop.com/virtual-category-timeless-indigo/c-TimelessIndigo\" class=\"banner50x50Left offersZoneCmsComponentATag\" title=\"Timeless Indigo Collection\" aria-label=\"Timeless Indigo Collection\" data-select-uid=\"cmsitem_00556488\" data-select-name=\"web_HP_Spring-2024-Fashion-is-in-Full-Bloom_Multiclick_19-02-2024\" data-select-position=\"0\" data-select-creative=\"DEFAULT\">",
+        "rawOutput": "```html\n<a href=\"https://www.shoppersstop.com/virtual-category-timeless-indigo/c-TimelessIndigo\" class=\"banner50x50Left offersZoneCmsComponentATag\" title=\"Timeless Indigo Collection\" aria-label=\"Timeless Indigo Collection\" data-select-uid=\"cmsitem_00556488\" data-select-name=\"web_HP_Spring-2024-Fashion-is-in-Full-Bloom_Multiclick_19-02-2024\" data-select-position=\"0\" data-select-creative=\"DEFAULT\">\n```"
+      },
+      {
+        "beforeModification": "<a href=\"https://www.shoppersstop.com/virtual-category-now-trending/c-NowTrending\" class=\"banner50x50Right offersZoneCmsComponentATag\" data-select-uid=\"cmsitem_00556488\" data-select-name=\"web_HP_Spring-2024-Fashion-is-in-Full-Bloom_Multiclick_19-02-2024\" data-select-position=\"1\" data-select-creative=\"DEFAULT\">",
+        "afterModification": "<a href=\"https://www.shoppersstop.com/virtual-category-now-trending/c-NowTrending\" class=\"banner50x50Right offersZoneCmsComponentATag\" title=\"Now Trending at Shopper's Stop\" aria-label=\"Spring 2024 Fashion is in Full Bloom\" data-select-uid=\"cmsitem_00556488\" data-select-name=\"web_HP_Spring-2024-Fashion-is-in-Full-Bloom_Multiclick_19-02-2024\" data-select-position=\"1\" data-select-creative=\"DEFAULT\">",
+        "rawOutput": "```html\n<a href=\"https://www.shoppersstop.com/virtual-category-now-trending/c-NowTrending\" class=\"banner50x50Right offersZoneCmsComponentATag\" title=\"Now Trending at Shopper's Stop\" aria-label=\"Spring 2024 Fashion is in Full Bloom\" data-select-uid=\"cmsitem_00556488\" data-select-name=\"web_HP_Spring-2024-Fashion-is-in-Full-Bloom_Multiclick_19-02-2024\" data-select-position=\"1\" data-select-creative=\"DEFAULT\">\n```"
+      },
+      {
+        "beforeModification": "<a href=\"\" class=\"brandsWeLoveHomePageCmsComponentATag\" data-sslstaticresponsivebanner=\"\" data-select-uid=\"cmsitem_00554374\" data-select-name=\"web_Dapper Up_13-2-2024\" data-select-position=\"0\" data-select-creative=\"DEFAULT\">",
+        "afterModification": "<a href=\"\" class=\"brandsWeLoveHomePageCmsComponentATag\" data-sslstaticresponsivebanner=\"\" data-select-uid=\"cmsitem_00554374\" data-select-name=\"web_Dapper Up_13-2-2024\" data-select-position=\"0\" data-select-creative=\"DEFAULT\" title=\"Dapper Up\" aria-label=\"Dapper Up\">",
+        "rawOutput": "```html\n<a href=\"\" class=\"brandsWeLoveHomePageCmsComponentATag\" data-sslstaticresponsivebanner=\"\" data-select-uid=\"cmsitem_00554374\" data-select-name=\"web_Dapper Up_13-2-2024\" data-select-position=\"0\" data-select-creative=\"DEFAULT\" title=\"Dapper Up\" aria-label=\"Dapper Up\">\n```"
+      },
+      {
+        "beforeModification": "<a href=\"https://www.shoppersstop.com/virtual-category-short-kurta-men/c-Short_Kurta_Men\" class=\"banner50x50Left offersZoneCmsComponentATag\" data-select-uid=\"cmsitem_00554214\" data-select-name=\"web_Trends of the season Men multiclick_12-2-2024\" data-select-position=\"0\" data-select-creative=\"DEFAULT\">",
+        "afterModification": "<a href=\"https://www.shoppersstop.com/virtual-category-short-kurta-men/c-Short_Kurta_Men\" class=\"banner50x50Left offersZoneCmsComponentATag\" title=\"Trends of the Season for Men\" aria-label=\"Trends of the Season for Men\" data-select-uid=\"cmsitem_00554214\" data-select-name=\"web_Trends of the season Men multiclick_12-2-2024\" data-select-position=\"0\" data-select-creative=\"DEFAULT\">",
+        "rawOutput": "```html\n<a href=\"https://www.shoppersstop.com/virtual-category-short-kurta-men/c-Short_Kurta_Men\" class=\"banner50x50Left offersZoneCmsComponentATag\" title=\"Trends of the Season for Men\" aria-label=\"Trends of the Season for Men\" data-select-uid=\"cmsitem_00554214\" data-select-name=\"web_Trends of the season Men multiclick_12-2-2024\" data-select-position=\"0\" data-select-creative=\"DEFAULT\">\n```"
+      },
+      {
+        "beforeModification": "<a href=\"https://www.shoppersstop.com/virtual-category-bandhgala-kurtas-mens/c-Bandhgala_Kurtas_Mens\" class=\"banner50x50Right offersZoneCmsComponentATag\" data-select-uid=\"cmsitem_00554214\" data-select-name=\"web_Trends of the season Men multiclick_12-2-2024\" data-select-position=\"1\" data-select-creative=\"DEFAULT\">",
+        "afterModification": "<a href=\"https://www.shoppersstop.com/virtual-category-bandhgala-kurtas-mens/c-Bandhgala_Kurtas_Mens\" class=\"banner50x50Right offersZoneCmsComponentATag\" title=\"Trends of the Season - Bandhgala Kurtas for Men\" aria-label=\"Trends of the Season - Bandhgala Kurtas for Men\" data-select-uid=\"cmsitem_00554214\" data-select-name=\"web_Trends of the season Men multiclick_12-2-2024\" data-select-position=\"1\" data-select-creative=\"DEFAULT\">",
+        "rawOutput": "```html\n<a href=\"https://www.shoppersstop.com/virtual-category-bandhgala-kurtas-mens/c-Bandhgala_Kurtas_Mens\" class=\"banner50x50Right offersZoneCmsComponentATag\" title=\"Trends of the Season - Bandhgala Kurtas for Men\" aria-label=\"Trends of the Season - Bandhgala Kurtas for Men\" data-select-uid=\"cmsitem_00554214\" data-select-name=\"web_Trends of the season Men multiclick_12-2-2024\" data-select-position=\"1\" data-select-creative=\"DEFAULT\">\n```"
+      },
+      {
+        "beforeModification": "<a href=\"\" class=\"brandsWeLoveHomePageCmsComponentATag\" data-sslstaticresponsivebanner=\"\" data-select-uid=\"cmsitem_00554379\" data-select-name=\"web_Summer-Hit Brands_13-2-2024\" data-select-position=\"0\" data-select-creative=\"DEFAULT\">",
+        "afterModification": "<a href=\"\" class=\"brandsWeLoveHomePageCmsComponentATag\" title=\"Summer Hit Brands\" aria-label=\"Summer Hit Brands\" data-sslstaticresponsivebanner=\"\" data-select-uid=\"cmsitem_00554379\" data-select-name=\"web_Summer-Hit Brands_13-2-2024\" data-select-position=\"0\" data-select-creative=\"DEFAULT\">",
+        "rawOutput": "```html\n<a href=\"\" class=\"brandsWeLoveHomePageCmsComponentATag\" title=\"Summer Hit Brands\" aria-label=\"Summer Hit Brands\" data-sslstaticresponsivebanner=\"\" data-select-uid=\"cmsitem_00554379\" data-select-name=\"web_Summer-Hit Brands_13-2-2024\" data-select-position=\"0\" data-select-creative=\"DEFAULT\">\n```"
+      },
+      {
+        "beforeModification": "<a href=\"\" class=\"brandsWeLoveHomePageCmsComponentATag\" data-sslstaticresponsivebanner=\"\" data-select-uid=\"cmsitem_00554377\" data-select-name=\"web_Beauty Beyond Borders_13-2-2024\" data-select-position=\"0\" data-select-creative=\"DEFAULT\">",
+        "afterModification": "<a href=\"\" class=\"brandsWeLoveHomePageCmsComponentATag\" title=\"Beauty Beyond Borders\" data-sslstaticresponsivebanner=\"\" data-select-uid=\"cmsitem_00554377\" data-select-name=\"web_Beauty Beyond Borders_13-2-2024\" data-select-position=\"0\" data-select-creative=\"DEFAULT\" aria-label=\"Beauty Beyond Borders\">",
+        "rawOutput": "```html\n<a href=\"\" class=\"brandsWeLoveHomePageCmsComponentATag\" title=\"Beauty Beyond Borders\" data-sslstaticresponsivebanner=\"\" data-select-uid=\"cmsitem_00554377\" data-select-name=\"web_Beauty Beyond Borders_13-2-2024\" data-select-position=\"0\" data-select-creative=\"DEFAULT\" aria-label=\"Beauty Beyond Borders\">\n```"
+      },
+      {
+        "beforeModification": "<a href=\"https://www.shoppersstop.com/p-A16VER3825745OR_base/colorChange/A16VER3825745OR_NoColour\" class=\"rec_item_17670848\" tabindex=\"0\">",
+        "afterModification": "<a href=\"https://www.shoppersstop.com/p-A16VER3825745OR_base/colorChange/A16VER3825745OR_NoColour\" class=\"rec_item_17670848\" tabindex=\"0\" aria-label=\"View Product Details\" title=\"View Product Details\">",
+        "rawOutput": "```html\n<a href=\"https://www.shoppersstop.com/p-A16VER3825745OR_base/colorChange/A16VER3825745OR_NoColour\" class=\"rec_item_17670848\" tabindex=\"0\" aria-label=\"View Product Details\" title=\"View Product Details\">\n```"
+      },
+      {
+        "beforeModification": "<a href=\"https://www.shoppersstop.com/p-S8VER05071469OR_base/colorChange/S8VER05071469OR_NoColour\" class=\"rec_item_17670848\" tabindex=\"0\">",
+        "afterModification": "<a href=\"https://www.shoppersstop.com/p-S8VER05071469OR_base/colorChange/S8VER05071469OR_NoColour\" class=\"rec_item_17670848\" tabindex=\"0\" aria-label=\"View product details\" title=\"View product details\">",
+        "rawOutput": "```html\n<a href=\"https://www.shoppersstop.com/p-S8VER05071469OR_base/colorChange/S8VER05071469OR_NoColour\" class=\"rec_item_17670848\" tabindex=\"0\" aria-label=\"View product details\" title=\"View product details\">\n```"
+      },
+      {
+        "beforeModification": "<a href=\"https://www.shoppersstop.com/p-202675245/colorChange/202675245_UNMAPPED\" class=\"rec_item_17670848\" tabindex=\"0\">",
+        "afterModification": "<a href=\"https://www.shoppersstop.com/p-202675245/colorChange/202675245_UNMAPPED\" class=\"rec_item_17670848\" tabindex=\"0\" aria-label=\"View Product Details\" title=\"View Product Details\">",
+        "rawOutput": "```html\n<a href=\"https://www.shoppersstop.com/p-202675245/colorChange/202675245_UNMAPPED\" class=\"rec_item_17670848\" tabindex=\"0\" aria-label=\"View Product Details\" title=\"View Product Details\">\n```"
+      },
+      {
+        "beforeModification": "<a href=\"https://www.shoppersstop.com/p-SS22DG2015961OR_base/colorChange/SS22DG2015961OR_NoColour\" class=\"rec_item_17670848\" tabindex=\"0\">",
+        "afterModification": "<a href=\"https://www.shoppersstop.com/p-SS22DG2015961OR_base/colorChange/SS22DG2015961OR_NoColour\" class=\"rec_item_17670848\" tabindex=\"0\" aria-label=\"View Product Details\" title=\"View Product Details\">",
+        "rawOutput": "```html\n<a href=\"https://www.shoppersstop.com/p-SS22DG2015961OR_base/colorChange/SS22DG2015961OR_NoColour\" class=\"rec_item_17670848\" tabindex=\"0\" aria-label=\"View Product Details\" title=\"View Product Details\">\n```"
+      },
+      {
+        "beforeModification": "<a href=\"https://www.shoppersstop.com/p-SS22GU2022472OR_base/colorChange/SS22GU2022472OR_NoColour\" class=\"rec_item_17670848\" tabindex=\"0\">",
+        "afterModification": "<a href=\"https://www.shoppersstop.com/p-SS22GU2022472OR_base/colorChange/SS22GU2022472OR_NoColour\" class=\"rec_item_17670848\" tabindex=\"0\" title=\"View Product Details\" aria-label=\"View Product Details\">",
+        "rawOutput": "```html\n<a href=\"https://www.shoppersstop.com/p-SS22GU2022472OR_base/colorChange/SS22GU2022472OR_NoColour\" class=\"rec_item_17670848\" tabindex=\"0\" title=\"View Product Details\" aria-label=\"View Product Details\">\n```"
+      },
+      {
+        "beforeModification": "<a href=\"\" class=\"brandsWeLoveHomePageCmsComponentATag\" data-sslstaticresponsivebanner=\"\" data-select-uid=\"cmsitem_00554376\" data-select-name=\"web_Your Everyday Glam Sorted_12-2-2024\" data-select-position=\"0\" data-select-creative=\"DEFAULT\">",
+        "afterModification": "<a href=\"\" class=\"brandsWeLoveHomePageCmsComponentATag\" data-sslstaticresponsivebanner=\"\" data-select-uid=\"cmsitem_00554376\" data-select-name=\"web_Your Everyday Glam Sorted_12-2-2024\" data-select-position=\"0\" data-select-creative=\"DEFAULT\" aria-label=\"Your Everyday Glam Sorted\" title=\"Your Everyday Glam Sorted\">",
+        "rawOutput": "```html\n<a href=\"\" class=\"brandsWeLoveHomePageCmsComponentATag\" data-sslstaticresponsivebanner=\"\" data-select-uid=\"cmsitem_00554376\" data-select-name=\"web_Your Everyday Glam Sorted_12-2-2024\" data-select-position=\"0\" data-select-creative=\"DEFAULT\" aria-label=\"Your Everyday Glam Sorted\" title=\"Your Everyday Glam Sorted\">\n```"
+      },
+      {
+        "beforeModification": "<a href=\"\" class=\"brandsWeLoveHomePageCmsComponentATag\" data-sslstaticresponsivebanner=\"\" data-select-uid=\"cmsitem_00554381\" data-select-name=\"web_Fresh Spring Essentials_13-2-2024\" data-select-position=\"0\" data-select-creative=\"DEFAULT\">",
+        "afterModification": "<a href=\"\" class=\"brandsWeLoveHomePageCmsComponentATag\" title=\"Fresh Spring Essentials\" data-sslstaticresponsivebanner=\"\" data-select-uid=\"cmsitem_00554381\" data-select-name=\"web_Fresh Spring Essentials_13-2-2024\" data-select-position=\"0\" data-select-creative=\"DEFAULT\" aria-label=\"Fresh Spring Essentials\">",
+        "rawOutput": "```html\n- Corrected HTML: <a href=\"\" class=\"brandsWeLoveHomePageCmsComponentATag\" title=\"Fresh Spring Essentials\" data-sslstaticresponsivebanner=\"\" data-select-uid=\"cmsitem_00554381\" data-select-name=\"web_Fresh Spring Essentials_13-2-2024\" data-select-position=\"0\" data-select-creative=\"DEFAULT\" aria-label=\"Fresh Spring Essentials\">\n```"
+      },
+      {
+        "beforeModification": "<a href=\"https://www.shoppersstop.com/p-AW22HCTU634/colorChange/AW22HCTU634_POWDER_BLUE\" class=\"rec_item_16356378\" tabindex=\"0\">\n          <img src=\"https://sslimages.shoppersstop.com/sys-master/images/hac/h20/28143924248606/AW22HCTU634_POWDER_BLUE.jpg_136Wx204H\" class=\"card-img-top\">\n        </a>",
+        "afterModification": "<a href=\"https://www.shoppersstop.com/p-AW22HCTU634/colorChange/AW22HCTU634_POWDER_BLUE\" class=\"rec_item_16356378\" tabindex=\"0\" title=\"View AW22HCTU634 Powder Blue Product\">\n    <img src=\"https://sslimages.shoppersstop.com/sys-master/images/hac/h20/28143924248606/AW22HCTU634_POWDER_BLUE.jpg_136Wx204H\" alt=\"AW22HCTU634 Powder Blue\" class=\"card-img-top\">\n</a>",
+        "rawOutput": "```html\n<a href=\"https://www.shoppersstop.com/p-AW22HCTU634/colorChange/AW22HCTU634_POWDER_BLUE\" class=\"rec_item_16356378\" tabindex=\"0\" title=\"View AW22HCTU634 Powder Blue Product\">\n    <img src=\"https://sslimages.shoppersstop.com/sys-master/images/hac/h20/28143924248606/AW22HCTU634_POWDER_BLUE.jpg_136Wx204H\" alt=\"AW22HCTU634 Powder Blue\" class=\"card-img-top\">\n</a>\n```"
+      },
+      {
+        "beforeModification": "<a href=\"https://www.shoppersstop.com/p-FMSK232638/colorChange/FMSK232638_BLACK\" class=\"rec_item_16356378\" tabindex=\"0\">\n          <img src=\"https://sslimages.shoppersstop.com/sys-master/images/haa/h92/30939965358110/FMSK232638_NAVY.jpg_136Wx204H\" class=\"card-img-top\">\n        </a>",
+        "afterModification": "<a href=\"https://www.shoppersstop.com/p-FMSK232638/colorChange/FMSK232638_BLACK\" class=\"rec_item_16356378\" tabindex=\"0\" title=\"View Product Details\">\n    <img src=\"https://sslimages.shoppersstop.com/sys-master/images/haa/h92/30939965358110/FMSK232638_NAVY.jpg_136Wx204H\" class=\"card-img-top\" alt=\"Product Image\">\n</a>",
+        "rawOutput": "```html\n<a href=\"https://www.shoppersstop.com/p-FMSK232638/colorChange/FMSK232638_BLACK\" class=\"rec_item_16356378\" tabindex=\"0\" title=\"View Product Details\">\n    <img src=\"https://sslimages.shoppersstop.com/sys-master/images/haa/h92/30939965358110/FMSK232638_NAVY.jpg_136Wx204H\" class=\"card-img-top\" alt=\"Product Image\">\n</a>\n```"
+      },
+      {
+        "beforeModification": "<a href=\"https://www.shoppersstop.com/p-DR40231/colorChange/DR40231_MUSTARD\" class=\"rec_item_16356378\" tabindex=\"0\">\n          <img src=\"https://sslimages.shoppersstop.com/sys-master/images/h30/h94/30010973749278/DR40231_MUSTARD.jpg_136Wx204H\" class=\"card-img-top\">\n        </a>",
+        "afterModification": "<a href=\"https://www.shoppersstop.com/p-DR40231/colorChange/DR40231_MUSTARD\" class=\"rec_item_16356378\" tabindex=\"0\" title=\"View product details\">\n    <img src=\"https://sslimages.shoppersstop.com/sys-master/images/h30/h94/30010973749278/DR40231_MUSTARD.jpg_136Wx204H\" class=\"card-img-top\" alt=\"Product image of DR40231 MUSTARD\">\n</a>",
+        "rawOutput": "```html\n<a href=\"https://www.shoppersstop.com/p-DR40231/colorChange/DR40231_MUSTARD\" class=\"rec_item_16356378\" tabindex=\"0\" title=\"View product details\">\n    <img src=\"https://sslimages.shoppersstop.com/sys-master/images/h30/h94/30010973749278/DR40231_MUSTARD.jpg_136Wx204H\" class=\"card-img-top\" alt=\"Product image of DR40231 MUSTARD\">\n</a>\n```"
+      },
+      {
+        "beforeModification": "<a href=\"https://www.shoppersstop.com/p-AW23HCDR23134/colorChange/AW23HCDR23134_INDIGO\" class=\"rec_item_16356378\" tabindex=\"0\">\n          <img src=\"https://sslimages.shoppersstop.com/sys-master/images/h88/h54/30936126881822/AW23HCDR23134_INDIGO.jpg_136Wx204H\" class=\"card-img-top\">\n        </a>",
+        "afterModification": "<a href=\"https://www.shoppersstop.com/p-AW23HCDR23134/colorChange/AW23HCDR23134_INDIGO\" class=\"rec_item_16356378\" tabindex=\"0\" title=\"View AW23HCDR23134 Indigo Dress\">\n  <img src=\"https://sslimages.shoppersstop.com/sys-master/images/h88/h54/30936126881822/AW23HCDR23134_INDIGO.jpg_136Wx204H\" class=\"card-img-top\" alt=\"AW23HCDR23134 Indigo Dress\">\n</a>",
+        "rawOutput": "```html\n<a href=\"https://www.shoppersstop.com/p-AW23HCDR23134/colorChange/AW23HCDR23134_INDIGO\" class=\"rec_item_16356378\" tabindex=\"0\" title=\"View AW23HCDR23134 Indigo Dress\">\n  <img src=\"https://sslimages.shoppersstop.com/sys-master/images/h88/h54/30936126881822/AW23HCDR23134_INDIGO.jpg_136Wx204H\" class=\"card-img-top\" alt=\"AW23HCDR23134 Indigo Dress\">\n</a>\n```"
+      },
+      {
+        "beforeModification": "<a href=\"https://www.shoppersstop.com/p-S23BLEML12075/colorChange/S23BLEML12075_BLUE\" class=\"rec_item_16356378\" tabindex=\"0\">\n          <img src=\"https://sslimages.shoppersstop.com/sys-master/images/h15/hc6/30659972988958/S23BLEML12075_BLUE.jpg_136Wx204H\" class=\"card-img-top\">\n        </a>",
+        "afterModification": "<a href=\"https://www.shoppersstop.com/p-S23BLEML12075/colorChange/S23BLEML12075_BLUE\" class=\"rec_item_16356378\" tabindex=\"0\" aria-label=\"View product details\">\n  <img src=\"https://sslimages.shoppersstop.com/sys-master/images/h15/hc6/30659972988958/S23BLEML12075_BLUE.jpg_136Wx204H\" class=\"card-img-top\" alt=\"Product Image\">\n</a>",
+        "rawOutput": "```html\n<a href=\"https://www.shoppersstop.com/p-S23BLEML12075/colorChange/S23BLEML12075_BLUE\" class=\"rec_item_16356378\" tabindex=\"0\" aria-label=\"View product details\">\n  <img src=\"https://sslimages.shoppersstop.com/sys-master/images/h15/hc6/30659972988958/S23BLEML12075_BLUE.jpg_136Wx204H\" class=\"card-img-top\" alt=\"Product Image\">\n</a>\n```"
+      },
+      {
+        "beforeModification": "<a href=\"\" class=\"brandsWeLoveHomePageCmsComponentATag\" data-sslstaticresponsivebanner=\"\" data-select-uid=\"cmsitem_00554373\" data-select-name=\"web_Insider Affair_13-2-2024\" data-select-position=\"0\" data-select-creative=\"DEFAULT\">",
+        "afterModification": "<a href=\"\" class=\"brandsWeLoveHomePageCmsComponentATag\" title=\"Insider Affair Event\" aria-label=\"Insider Affair Event\" data-sslstaticresponsivebanner=\"\" data-select-uid=\"cmsitem_00554373\" data-select-name=\"web_Insider Affair_13-2-2024\" data-select-position=\"0\" data-select-creative=\"DEFAULT\">",
+        "rawOutput": "```html\n<a href=\"\" class=\"brandsWeLoveHomePageCmsComponentATag\" title=\"Insider Affair Event\" aria-label=\"Insider Affair Event\" data-sslstaticresponsivebanner=\"\" data-select-uid=\"cmsitem_00554373\" data-select-name=\"web_Insider Affair_13-2-2024\" data-select-position=\"0\" data-select-creative=\"DEFAULT\">\n```"
+      },
+      {
+        "beforeModification": "<a href=\"https://www.shoppersstop.com/firstCitizenNonMember\" class=\"brandsWeLoveHomePageCmsComponentATag\" data-sslstaticresponsivebanner=\"\" data-select-uid=\"cmsitem_00422058\" data-select-name=\"web_fc-non-app-strips_2023-02-03\" data-select-position=\"0\" data-select-creative=\"DEFAULT\">",
+        "afterModification": "<a href=\"https://www.shoppersstop.com/firstCitizenNonMember\" class=\"brandsWeLoveHomePageCmsComponentATag\" title=\"First Citizen Non-Member Information\" aria-label=\"First Citizen Non-Member Information\" data-sslstaticresponsivebanner=\"\" data-select-uid=\"cmsitem_00422058\" data-select-name=\"web_fc-non-app-strips_2023-02-03\" data-select-position=\"0\" data-select-creative=\"DEFAULT\">",
+        "rawOutput": "```html\n<a href=\"https://www.shoppersstop.com/firstCitizenNonMember\" class=\"brandsWeLoveHomePageCmsComponentATag\" title=\"First Citizen Non-Member Information\" aria-label=\"First Citizen Non-Member Information\" data-sslstaticresponsivebanner=\"\" data-select-uid=\"cmsitem_00422058\" data-select-name=\"web_fc-non-app-strips_2023-02-03\" data-select-position=\"0\" data-select-creative=\"DEFAULT\">\n```"
+      },
+      {
+        "beforeModification": "<a href=\"\" class=\"brandsWeLoveHomePageCmsComponentATag\" data-sslstaticresponsivebanner=\"\" data-select-uid=\"cmsitem_00554371\" data-select-name=\"web_Red Carpet Magic_13-2-2024\" data-select-position=\"0\" data-select-creative=\"DEFAULT\">",
+        "afterModification": "<a href=\"\" class=\"brandsWeLoveHomePageCmsComponentATag\" title=\"Red Carpet Magic\" aria-label=\"Red Carpet Magic\" data-sslstaticresponsivebanner=\"\" data-select-uid=\"cmsitem_00554371\" data-select-name=\"web_Red Carpet Magic_13-2-2024\" data-select-position=\"0\" data-select-creative=\"DEFAULT\">",
+        "rawOutput": "```html\n<a href=\"\" class=\"brandsWeLoveHomePageCmsComponentATag\" title=\"Red Carpet Magic\" aria-label=\"Red Carpet Magic\" data-sslstaticresponsivebanner=\"\" data-select-uid=\"cmsitem_00554371\" data-select-name=\"web_Red Carpet Magic_13-2-2024\" data-select-position=\"0\" data-select-creative=\"DEFAULT\">\n```"
+      },
+      {
+        "beforeModification": "<a href=\"https://www.shoppersstop.com//lp_personalshoppers\" class=\"brandsWeLoveHomePageCmsComponentATag\" data-sslstaticresponsivebanner=\"\" data-select-uid=\"cmsitem_00346278\" data-select-name=\"Web_Personal-Shoppers-Visibility-Strip_20211026\" data-select-position=\"0\" data-select-creative=\"DEFAULT\">",
+        "afterModification": "<a href=\"https://www.shoppersstop.com//lp_personalshoppers\" class=\"brandsWeLoveHomePageCmsComponentATag\" title=\"Personal Shoppers at Shoppers Stop\" aria-label=\"Personal Shoppers at Shoppers Stop\" data-sslstaticresponsivebanner=\"\" data-select-uid=\"cmsitem_00346278\" data-select-name=\"Web_Personal-Shoppers-Visibility-Strip_20211026\" data-select-position=\"0\" data-select-creative=\"DEFAULT\">",
+        "rawOutput": "```html\n<a href=\"https://www.shoppersstop.com//lp_personalshoppers\" class=\"brandsWeLoveHomePageCmsComponentATag\" title=\"Personal Shoppers at Shoppers Stop\" aria-label=\"Personal Shoppers at Shoppers Stop\" data-sslstaticresponsivebanner=\"\" data-select-uid=\"cmsitem_00346278\" data-select-name=\"Web_Personal-Shoppers-Visibility-Strip_20211026\" data-select-position=\"0\" data-select-creative=\"DEFAULT\">\n```"
+      }
+    ]
+  }
+]

@@ -1,0 +1,54 @@
+[
+  {
+    "analysisDetails": [
+      {
+        "model": "GPT"
+      },
+      {
+        "accessibility_type": "link-name"
+      },
+      {
+        "prompt_technique": "cot"
+      },
+      {
+        "temperature": 0.5
+      }
+    ],
+    "accessbilityTestResult": {
+      "violationBeforeModification": 6,
+      "violationAfterModification": 1
+    },
+    "modelCorrections": [
+      {
+        "beforeModification": "<a href=\"javascript:void(0)\" class=\"menu-custom-corp\"><i class=\"fa fa-bars\"></i></a>",
+        "afterModification": "<a href=\"javascript:void(0)\" class=\"menu-custom-corp\"><i class=\"fa fa-bars\"></i></a>\n  \n- Thought: This link element contains an icon (represented by `<i class=\"fa fa-bars\"></i>`) which does not provide any accessible text for screen readers. To make this element accessible, we need to provide a textual representation that can be read by screen readers. Since the icon seems to represent a menu, we can use \"aria-label\" to explicitly define accessible text. Additionally, adding a \"role\" attribute with a value of \"button\" can help assistive technologies understand the function of the element better, especially since it's using a JavaScript void URL to presumably toggle a menu.\n\n- Corrected HTML: <a href=\"javascript:void(0)\" class=\"menu-custom-corp\" aria-label=\"Open menu\" role=\"button\"><i class=\"fa fa-bars\"></i></a>",
+        "rawOutput": "- Incorrect HTML: <a href=\"javascript:void(0)\" class=\"menu-custom-corp\"><i class=\"fa fa-bars\"></i></a>\n  \n- Thought: This link element contains an icon (represented by `<i class=\"fa fa-bars\"></i>`) which does not provide any accessible text for screen readers. To make this element accessible, we need to provide a textual representation that can be read by screen readers. Since the icon seems to represent a menu, we can use \"aria-label\" to explicitly define accessible text. Additionally, adding a \"role\" attribute with a value of \"button\" can help assistive technologies understand the function of the element better, especially since it's using a JavaScript void URL to presumably toggle a menu.\n\n- Corrected HTML: <a href=\"javascript:void(0)\" class=\"menu-custom-corp\" aria-label=\"Open menu\" role=\"button\"><i class=\"fa fa-bars\"></i></a>"
+      },
+      {
+        "beforeModification": "<a href=\"javascript:void(0)\" class=\"search-custom-corp\"><i class=\"fa fa-search\"></i></a>",
+        "afterModification": "<a>) tag but lacks accessible text, making it difficult for screen reader users to understand its purpose. The <i> tag, often used for icons (like a search icon in this case), doesn't inherently convey meaning to assistive technologies. To correct this, I can add an aria-label attribute to the anchor tag to provide an accessible name. Additionally, ensuring that the link has a discernible purpose, I will add a descriptive aria-label that communicates the action of the link, which is to initiate a search.\n\n- Corrected HTML: <a href=\"javascript:void(0)\" class=\"search-custom-corp\" aria-label=\"Search\"><i class=\"fa fa-search\"></i></a>",
+        "rawOutput": "- Thought: The link element is part of the tab order due to its nature as an anchor (<a>) tag but lacks accessible text, making it difficult for screen reader users to understand its purpose. The <i> tag, often used for icons (like a search icon in this case), doesn't inherently convey meaning to assistive technologies. To correct this, I can add an aria-label attribute to the anchor tag to provide an accessible name. Additionally, ensuring that the link has a discernible purpose, I will add a descriptive aria-label that communicates the action of the link, which is to initiate a search.\n\n- Corrected HTML: <a href=\"javascript:void(0)\" class=\"search-custom-corp\" aria-label=\"Search\"><i class=\"fa fa-search\"></i></a>"
+      },
+      {
+        "beforeModification": "<a href=\"#mydiv\"><span class=\"hidden\">Scroll</span></a>",
+        "afterModification": "<a href=\"#mydiv\" aria-label=\"Scroll to content\"><span class=\"hidden\">Scroll</span></a>",
+        "rawOutput": "- Thought: The given HTML has a span element with a class \"hidden\", which likely means the text \"Scroll\" is not visible to users or screen readers. To make this link accessible, we should ensure it has accessible text that screen readers can announce. This can be done by either removing the class that hides the text from screen readers or by adding an `aria-label` attribute to the anchor tag to provide accessible text. Since the context of the correction does not specify changing the visual design, adding an `aria-label` is the most straightforward solution.\n\n- Corrected HTML: `<a href=\"#mydiv\" aria-label=\"Scroll to content\"><span class=\"hidden\">Scroll</span></a>`"
+      },
+      {
+        "beforeModification": "<a href=\"/blog/performance-marketing/connected-tv-sports-advertising\" class=\"blog__link\">\n\t\t\t\t\t<div class=\"feed-blog-image blog__image\">\n\t\t\t\t\t\t<img src=\"/sites/investisdigital-corp-v2/files/March%20Madness%20Blog%20Image%202448%20x%201337%20px.png\" alt=\"\">\n\t\t\t\t\t</div>\n\t\t\t\t</a>",
+        "afterModification": "<a href=\"/blog/performance-marketing/connected-tv-sports-advertising\" class=\"blog__link\" title=\"Read about Connected TV Sports Advertising\">\n    <div class=\"feed-blog-image blog__image\">\n        <img src=\"/sites/investisdigital-corp-v2/files/March%20Madness%20Blog%20Image%202448%20x%201337%20px.png\" alt=\"March Madness Blog Image about Connected TV Sports Advertising\">\n    </div>\n</a>",
+        "rawOutput": "- Thought: The anchor tag contains an image with an empty `alt` attribute, which means screen readers can't provide useful information about the image to users who rely on them. To fix this, we should add meaningful alternative text to the `img` element's `alt` attribute. Since the link is to a blog post about \"connected TV sports advertising,\" we can use this context to provide descriptive alt text. Additionally, to further enhance accessibility, we might consider adding a `title` attribute to the link itself, giving it a brief description of its destination or purpose.\n\n- Corrected HTML:\n```html\n<a href=\"/blog/performance-marketing/connected-tv-sports-advertising\" class=\"blog__link\" title=\"Read about Connected TV Sports Advertising\">\n    <div class=\"feed-blog-image blog__image\">\n        <img src=\"/sites/investisdigital-corp-v2/files/March%20Madness%20Blog%20Image%202448%20x%201337%20px.png\" alt=\"March Madness Blog Image about Connected TV Sports Advertising\">\n    </div>\n</a>\n```"
+      },
+      {
+        "beforeModification": "<a href=\"/blog/social-media/what-brands-should-do-about-tiktoks-uncertain-future\" class=\"blog__link\">\n\t\t\t\t\t<div class=\"feed-blog-image blog__image\">\n\t\t\t\t\t\t<img src=\"/sites/investisdigital-corp-v2/files/TikTok%20Blog%20Image%202448%20x%201337%20px.png\" alt=\"\">\n\t\t\t\t\t</div>\n\t\t\t\t</a>",
+        "afterModification": "<a href=\"/blog/social-media/what-brands-should-do-about-tiktoks-uncertain-future\" class=\"blog__link\" title=\"What Brands Should Do About TikTok's Uncertain Future\">\n    <div class=\"feed-blog-image blog__image\">\n        <img src=\"/sites/investisdigital-corp-v2/files/TikTok%20Blog%20Image%202448%20x%201337%20px.png\" alt=\"TikTok's Uncertain Future\">\n    </div>\n</a>",
+        "rawOutput": "- Thought: The incorrect HTML lacks accessible text for the link and the image inside it, making it difficult for screen readers to interpret. To correct this, I should add an `alt` attribute with a descriptive text to the image and a `title` attribute to the link. Since the link leads to a blog post about what brands should do about TikTok's uncertain future, I can use this information to create the `alt` and `title` text.\n\n- Corrected HTML:\n```html\n<a href=\"/blog/social-media/what-brands-should-do-about-tiktoks-uncertain-future\" class=\"blog__link\" title=\"What Brands Should Do About TikTok's Uncertain Future\">\n    <div class=\"feed-blog-image blog__image\">\n        <img src=\"/sites/investisdigital-corp-v2/files/TikTok%20Blog%20Image%202448%20x%201337%20px.png\" alt=\"TikTok's Uncertain Future\">\n    </div>\n</a>\n```"
+      },
+      {
+        "beforeModification": "<a href=\"/blog/performance-marketing/how-vizio-expands-walmarts-advertising-empire\" class=\"blog__link\">\n\t\t\t\t\t<div class=\"feed-blog-image blog__image\">\n\t\t\t\t\t\t<img src=\"/sites/investisdigital-corp-v2/files/MicrosoftTeams-image%20%2832%29.png\" alt=\"\">\n\t\t\t\t\t</div>\n\t\t\t\t</a>",
+        "afterModification": "<a href=\"/blog/performance-marketing/how-vizio-expands-walmarts-advertising-empire\" class=\"blog__link\" title=\"Read about how Vizio expands Walmart's advertising empire\">\n    <div class=\"feed-blog-image blog__image\">\n        <img src=\"/sites/investisdigital-corp-v2/files/MicrosoftTeams-image%20%2832%29.png\" alt=\"Blog post about Vizio expanding Walmart's advertising empire\">\n    </div>\n</a>",
+        "rawOutput": "- Thought: To make the incorrect HTML accessible, I need to ensure that the link has accessible text. This can be done by providing an `alt` attribute for the image inside the link, which screen readers can use to describe the destination of the link. Additionally, adding a `title` attribute to the link itself can provide further context. Since the `href` attribute points to a blog post about \"how Vizio expands Walmart's advertising empire,\" we can use this information to craft our `alt` and `title` text.\n\n- Corrected HTML:\n```html\n<a href=\"/blog/performance-marketing/how-vizio-expands-walmarts-advertising-empire\" class=\"blog__link\" title=\"Read about how Vizio expands Walmart's advertising empire\">\n    <div class=\"feed-blog-image blog__image\">\n        <img src=\"/sites/investisdigital-corp-v2/files/MicrosoftTeams-image%20%2832%29.png\" alt=\"Blog post about Vizio expanding Walmart's advertising empire\">\n    </div>\n</a>\n```"
+      }
+    ]
+  }
+]

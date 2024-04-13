@@ -1,0 +1,184 @@
+[
+  {
+    "analysisDetails": [
+      {
+        "model": "GPT"
+      },
+      {
+        "accessibility_type": "color-contrast"
+      },
+      {
+        "prompt_technique": "fewShot"
+      },
+      {
+        "temperature": 0.5
+      }
+    ],
+    "accessbilityTestResult": {
+      "violationBeforeModification": 32,
+      "violationAfterModification": 7
+    },
+    "modelCorrections": [
+      {
+        "beforeModification": "<a rel=\"noopener\" tabindex=\"0\" href=\"https://www.linuxfoundation.org/privacy-policy/\" target=\"_blank\" class=\" osano-cm-storage-policy osano-cm-content__link osano-cm-link \" aria-describedby=\"osano-cm-aria.newWindow\"><!--?lit$2593950112$-->Cookie Policy</a>",
+        "afterModification": "<a rel=\"noopener\" tabindex=\"0\" href=\"https://www.linuxfoundation.org/privacy-policy/\" target=\"_blank\" class=\"osano-cm-storage-policy osano-cm-content__link osano-cm-link\" style=\"color: #00B0FF;\" aria-describedby=\"osano-cm-aria.newWindow\">Cookie Policy</a>",
+        "rawOutput": "```html\n<a rel=\"noopener\" tabindex=\"0\" href=\"https://www.linuxfoundation.org/privacy-policy/\" target=\"_blank\" class=\"osano-cm-storage-policy osano-cm-content__link osano-cm-link\" style=\"color: #00B0FF;\" aria-describedby=\"osano-cm-aria.newWindow\">Cookie Policy</a>\n```"
+      },
+      {
+        "beforeModification": "<a rel=\"noopener\" tabindex=\"0\" href=\"#16547557-822b-47c0-8fcf-ab049a68ae9d\" class=\" osano-cm-drawer-links__link osano-cm-link osano-cm-link--type_manage \"><!--?lit$2593950112$-->Storage Preferences</a>",
+        "afterModification": "<a rel=\"noopener\" tabindex=\"0\" href=\"#16547557-822b-47c0-8fcf-ab049a68ae9d\" class=\"osano-cm-drawer-links__link osano-cm-link osano-cm-link--type_manage\" style=\"color: #00b0ff; background-color: #252e39;\"><!--?lit$2593950112$-->Storage Preferences</a>",
+        "rawOutput": "```html\n<a rel=\"noopener\" tabindex=\"0\" href=\"#16547557-822b-47c0-8fcf-ab049a68ae9d\" class=\"osano-cm-drawer-links__link osano-cm-link osano-cm-link--type_manage\" style=\"color: #00b0ff; background-color: #252e39;\"><!--?lit$2593950112$-->Storage Preferences</a>\n```"
+      },
+      {
+        "beforeModification": "<span class=\" osano-cm-toggle__label osano-cm-label \"><!--?lit$2593950112$-->Targeted Advertising</span>",
+        "afterModification": "<span class=\"osano-cm-toggle__label osano-cm-label\" style=\"color: #ffffff; background-color: #252e39;\"><!--?lit$2593950112$-->Targeted Advertising</span>",
+        "rawOutput": "```html\n<span class=\"osano-cm-toggle__label osano-cm-label\" style=\"color: #ffffff; background-color: #252e39;\"><!--?lit$2593950112$-->Targeted Advertising</span>\n```"
+      },
+      {
+        "beforeModification": "<span class=\" osano-cm-toggle__label osano-cm-label \"><!--?lit$2593950112$-->Personalization</span>",
+        "afterModification": "<span class=\"osano-cm-toggle__label osano-cm-label\" style=\"color: #ffffff; background-color: #252e39;\"><!--?lit$2593950112$-->Personalization</span>",
+        "rawOutput": "```html\n<span class=\"osano-cm-toggle__label osano-cm-label\" style=\"color: #ffffff; background-color: #252e39;\"><!--?lit$2593950112$-->Personalization</span>\n```"
+      },
+      {
+        "beforeModification": "<span class=\" osano-cm-toggle__label osano-cm-label \"><!--?lit$2593950112$-->Analytics</span>",
+        "afterModification": "<span class=\"osano-cm-toggle__label osano-cm-label\" style=\"color: #ffffff; background-color: #252e39;\"><!--?lit$2593950112$-->Analytics</span>",
+        "rawOutput": "```html\n<span class=\"osano-cm-toggle__label osano-cm-label\" style=\"color: #ffffff; background-color: #252e39;\"><!--?lit$2593950112$-->Analytics</span>\n```"
+      },
+      {
+        "beforeModification": "<button class=\" osano-cm-save osano-cm-buttons__button osano-cm-button osano-cm-button--type_save \" tabindex=\"0\"> <!--?lit$2593950112$-->Save </button>",
+        "afterModification": "<button class=\"osano-cm-save osano-cm-buttons__button osano-cm-button osano-cm-button--type_save\" style=\"color: #000000; background-color: #14a7d0;\" tabindex=\"0\">Save</button>",
+        "rawOutput": "```html\n<button class=\"osano-cm-save osano-cm-buttons__button osano-cm-button osano-cm-button--type_save\" style=\"color: #000000; background-color: #14a7d0;\" tabindex=\"0\">Save</button>\n```"
+      },
+      {
+        "beforeModification": "<button class=\" osano-cm-accept-all osano-cm-buttons__button osano-cm-button osano-cm-button--type_accept \" tabindex=\"0\"> <!--?lit$2593950112$-->Accept All </button>",
+        "afterModification": "<button class=\"osano-cm-accept-all osano-cm-buttons__button osano-cm-button osano-cm-button--type_accept\" style=\"color: #000000; background-color: #14a7d0;\" tabindex=\"0\">Accept All</button>",
+        "rawOutput": "```html\n<button class=\"osano-cm-accept-all osano-cm-buttons__button osano-cm-button osano-cm-button--type_accept\" style=\"color: #000000; background-color: #14a7d0;\" tabindex=\"0\">Accept All</button>\n```"
+      },
+      {
+        "beforeModification": "<button class=\" osano-cm-denyAll osano-cm-buttons__button osano-cm-button osano-cm-button--type_denyAll \" tabindex=\"0\"> <!--?lit$2593950112$-->Reject All </button>",
+        "afterModification": "<button class=\"osano-cm-denyAll osano-cm-buttons__button osano-cm-button osano-cm-button--type_denyAll\" style=\"color: #000000; background-color: #14a7d0;\" tabindex=\"0\">Reject All</button>",
+        "rawOutput": "```html\n<button class=\"osano-cm-denyAll osano-cm-buttons__button osano-cm-button osano-cm-button--type_denyAll\" style=\"color: #000000; background-color: #14a7d0;\" tabindex=\"0\">Reject All</button>\n```"
+      },
+      {
+        "beforeModification": "<a class=\"hs-button\n                  hs-button--primary\n                  mt--none\" href=\"https://www.linuxfoundation.org/about/join?hsLang=en\">\n                  Join\n                  </a>",
+        "afterModification": "<a class=\"hs-button hs-button--primary mt--none\" href=\"https://www.linuxfoundation.org/about/join?hsLang=en\" style=\"color: #ffffff; background-color: #c800a1;\">\nJoin\n</a>",
+        "rawOutput": "```html\n<a class=\"hs-button hs-button--primary mt--none\" href=\"https://www.linuxfoundation.org/about/join?hsLang=en\" style=\"color: #ffffff; background-color: #c800a1;\">\nJoin\n</a>\n```"
+      },
+      {
+        "beforeModification": "<a class=\"hs-button\n                            hs-button--primary\" href=\"https://www.linuxfoundation.org/projects?hsLang=en\">\n                    Learn More\n                  </a>",
+        "afterModification": "<a class=\"hs-button hs-button--primary\" href=\"https://www.linuxfoundation.org/projects?hsLang=en\" style=\"color: #ffffff; background-color: #c80087;\">\n  Learn More\n</a>",
+        "rawOutput": "```html\n<a class=\"hs-button hs-button--primary\" href=\"https://www.linuxfoundation.org/projects?hsLang=en\" style=\"color: #ffffff; background-color: #c80087;\">\n  Learn More\n</a>\n```"
+      },
+      {
+        "beforeModification": "<a class=\"counter-col__link\" href=\"https://www.linuxfoundation.org/projects?hsLang=en\">",
+        "afterModification": "<a class=\"counter-col__link\" href=\"https://www.linuxfoundation.org/projects?hsLang=en\" style=\"color: #0057b8; background-color: #ffffff;\">",
+        "rawOutput": "```html\n<a class=\"counter-col__link\" href=\"https://www.linuxfoundation.org/projects?hsLang=en\" style=\"color: #0057b8; background-color: #ffffff;\">\n```"
+      },
+      {
+        "beforeModification": "<a class=\"counter-col__link\" href=\"https://training.linuxfoundation.org/\" target=\"_blank\" rel=\"noopener\">",
+        "afterModification": "<a class=\"counter-col__link\" href=\"https://training.linuxfoundation.org/\" target=\"_blank\" rel=\"noopener\" style=\"color: #005a9c;\">",
+        "rawOutput": "```html\n<a class=\"counter-col__link\" href=\"https://training.linuxfoundation.org/\" target=\"_blank\" rel=\"noopener\" style=\"color: #005a9c;\">\n```"
+      },
+      {
+        "beforeModification": "<a class=\"counter-col__link\" href=\"https://www.linuxfoundation.org/projects?hsLang=en\">",
+        "afterModification": "<a class=\"counter-col__link\" href=\"https://www.linuxfoundation.org/projects?hsLang=en\" style=\"color: #0057b8; background-color: #ffffff;\">",
+        "rawOutput": "```html\n<a class=\"counter-col__link\" href=\"https://www.linuxfoundation.org/projects?hsLang=en\" style=\"color: #0057b8; background-color: #ffffff;\">\n```"
+      },
+      {
+        "beforeModification": "<a class=\"counter-col__link\" href=\"https://lfx.linuxfoundation.org/tools/insights\" target=\"_blank\" rel=\"noopener\">",
+        "afterModification": "<a class=\"counter-col__link\" href=\"https://lfx.linuxfoundation.org/tools/insights\" target=\"_blank\" rel=\"noopener\" style=\"color: #0058a3; background-color: #ffffff;\">",
+        "rawOutput": "```html\n<a class=\"counter-col__link\" href=\"https://lfx.linuxfoundation.org/tools/insights\" target=\"_blank\" rel=\"noopener\" style=\"color: #0058a3; background-color: #ffffff;\">\n```"
+      },
+      {
+        "beforeModification": "<a class=\"counter-col__link\" href=\"https://www.linuxfoundation.org/about/members?hsLang=en\">",
+        "afterModification": "<a class=\"counter-col__link\" href=\"https://www.linuxfoundation.org/about/members?hsLang=en\" style=\"color: #0077cc;\">",
+        "rawOutput": "```html\n<a class=\"counter-col__link\" href=\"https://www.linuxfoundation.org/about/members?hsLang=en\" style=\"color: #0077cc;\">\n```"
+      },
+      {
+        "beforeModification": "<a class=\"counter-col__link\" href=\"https://events.linuxfoundation.org/\" target=\"_blank\" rel=\"noopener\">",
+        "afterModification": "<a class=\"counter-col__link\" href=\"https://events.linuxfoundation.org/\" target=\"_blank\" rel=\"noopener\" style=\"color: #005a9c;\">",
+        "rawOutput": "```html\n<a class=\"counter-col__link\" href=\"https://events.linuxfoundation.org/\" target=\"_blank\" rel=\"noopener\" style=\"color: #005a9c;\">\n```"
+      },
+      {
+        "beforeModification": "<a href=\"https://www.linuxfoundation.org/about/members?hsLang=en\">Meet our members.</a>",
+        "afterModification": "<a href=\"https://www.linuxfoundation.org/about/members?hsLang=en\" style=\"color: #005a9c;\">Meet our members.</a>",
+        "rawOutput": "```html\n<a href=\"https://www.linuxfoundation.org/about/members?hsLang=en\" style=\"color: #005a9c;\">Meet our members.</a>\n```"
+      },
+      {
+        "beforeModification": "<label>Open Hardware</label>",
+        "afterModification": "<label style=\"color: #595959; background-color: #f6f7fa;\">Open Hardware</label>",
+        "rawOutput": "```html\n<label style=\"color: #595959; background-color: #f6f7fa;\">Open Hardware</label>\n```"
+      },
+      {
+        "beforeModification": "<label>Open Standards</label>",
+        "afterModification": "<label style=\"color: #595959;\">Open Standards</label>",
+        "rawOutput": "```html\n<label style=\"color: #595959;\">Open Standards</label>\n```"
+      },
+      {
+        "beforeModification": "<label>Open Data</label>",
+        "afterModification": "<label style=\"color: #595959;\">Open Data</label>",
+        "rawOutput": "```html\n<label style=\"color: #595959;\">Open Data</label>\n```"
+      },
+      {
+        "beforeModification": "<a href=\"/browse-projects?hsLang=en\" rel=\"noopener\">See all open software projects.</a>",
+        "afterModification": "<a href=\"/browse-projects?hsLang=en\" rel=\"noopener\" style=\"color: #0057b8; background-color: #f6f7fa;\">See all open software projects.</a>",
+        "rawOutput": "```html\n<a href=\"/browse-projects?hsLang=en\" rel=\"noopener\" style=\"color: #0057b8; background-color: #f6f7fa;\">See all open software projects.</a>\n```"
+      },
+      {
+        "beforeModification": "<a class=\"projects-tabs-col__button\n                 hs-button    \n                 hs-button--primary\" href=\"https://www.linuxfoundation.org/projects?hsLang=en\">\n          See All Projects\n        </a>",
+        "afterModification": "<a class=\"projects-tabs-col__button\n   hs-button    \n   hs-button--primary\" href=\"https://www.linuxfoundation.org/projects?hsLang=en\" style=\"color: #ffffff; background-color: #c60084;\">\n  See All Projects\n</a>",
+        "rawOutput": "```html\n<a class=\"projects-tabs-col__button\n   hs-button    \n   hs-button--primary\" href=\"https://www.linuxfoundation.org/projects?hsLang=en\" style=\"color: #ffffff; background-color: #c60084;\">\n  See All Projects\n</a>\n```"
+      },
+      {
+        "beforeModification": "<a href=\"/projects/sustainability?hsLang=en\" rel=\"noopener\">Learn more</a>",
+        "afterModification": "<a href=\"/projects/sustainability?hsLang=en\" rel=\"noopener\" style=\"color: #0057b8; font-weight: bold;\">Learn more</a>",
+        "rawOutput": "```html\n<a href=\"/projects/sustainability?hsLang=en\" rel=\"noopener\" style=\"color: #0057b8; font-weight: bold;\">Learn more</a>\n```"
+      },
+      {
+        "beforeModification": "<a class=\"hs-button\n                            hs-button--primary\" href=\"https://training.linuxfoundation.org/subscriptions/\" target=\"_blank\" rel=\"noopener\">\n                    SAVE NOW\n                  </a>",
+        "afterModification": "<a class=\"hs-button hs-button--primary\" href=\"https://training.linuxfoundation.org/subscriptions/\" target=\"_blank\" rel=\"noopener\" style=\"color: #ffffff; background-color: #c800a1;\">\n  SAVE NOW\n</a>",
+        "rawOutput": "```html\n<a class=\"hs-button hs-button--primary\" href=\"https://training.linuxfoundation.org/subscriptions/\" target=\"_blank\" rel=\"noopener\" style=\"color: #ffffff; background-color: #c800a1;\">\n  SAVE NOW\n</a>\n```"
+      },
+      {
+        "beforeModification": "<a class=\"hs-button\n                            hs-button--primary\" href=\"https://events.linuxfoundation.org/open-source-summit-north-america/\" target=\"_blank\" rel=\"noopener\">\n                    Learn More\n                  </a>",
+        "afterModification": "<a class=\"hs-button hs-button--primary\" href=\"https://events.linuxfoundation.org/open-source-summit-north-america/\" target=\"_blank\" rel=\"noopener\" style=\"color: #000000; background-color: #ff00aa;\">\n  Learn More\n</a>",
+        "rawOutput": "```html\n<a class=\"hs-button hs-button--primary\" href=\"https://events.linuxfoundation.org/open-source-summit-north-america/\" target=\"_blank\" rel=\"noopener\" style=\"color: #000000; background-color: #ff00aa;\">\n  Learn More\n</a>\n```"
+      },
+      {
+        "beforeModification": "<a class=\"hs-button\n                            hs-button--primary\" href=\"/research/2023-generative-ai-study?hsLang=en\">\n                    Read Now\n                  </a>",
+        "afterModification": "<a class=\"hs-button hs-button--primary\" href=\"/research/2023-generative-ai-study?hsLang=en\" style=\"color: #ffffff; background-color: #c80087;\">\n  Read Now\n</a>",
+        "rawOutput": "```html\n<a class=\"hs-button hs-button--primary\" href=\"/research/2023-generative-ai-study?hsLang=en\" style=\"color: #ffffff; background-color: #c80087;\">\n  Read Now\n</a>\n```"
+      },
+      {
+        "beforeModification": "<a href=\"https://www.linuxfoundation.org/press?hsLang=en\" class=\"section-title__link-text\">\n              NEWSROOM\n            </a>",
+        "afterModification": "<a href=\"https://www.linuxfoundation.org/press?hsLang=en\" class=\"section-title__link-text\" style=\"color: #0057b8;\">\n  NEWSROOM\n</a>",
+        "rawOutput": "```html\n<a href=\"https://www.linuxfoundation.org/press?hsLang=en\" class=\"section-title__link-text\" style=\"color: #0057b8;\">\n  NEWSROOM\n</a>\n```"
+      },
+      {
+        "beforeModification": "<input id=\"firstname-e5c83800-1206-402c-9050-decfe094cca8_1136\" name=\"firstname\" placeholder=\"\" type=\"text\" class=\"hs-input\" inputmode=\"text\" autocomplete=\"given-name\" value=\"\">",
+        "afterModification": "<input id=\"firstname-e5c83800-1206-402c-9050-decfe094cca8_1136\" name=\"firstname\" placeholder=\"\" type=\"text\" class=\"hs-input\" inputmode=\"text\" autocomplete=\"given-name\" value=\"\" style=\"color: #000000; background-color: #f6f7fa;\">",
+        "rawOutput": "```html\n<input id=\"firstname-e5c83800-1206-402c-9050-decfe094cca8_1136\" name=\"firstname\" placeholder=\"\" type=\"text\" class=\"hs-input\" inputmode=\"text\" autocomplete=\"given-name\" value=\"\" style=\"color: #000000; background-color: #f6f7fa;\">\n```"
+      },
+      {
+        "beforeModification": "<input id=\"lastname-e5c83800-1206-402c-9050-decfe094cca8_1136\" name=\"lastname\" placeholder=\"\" type=\"text\" class=\"hs-input\" inputmode=\"text\" autocomplete=\"family-name\" value=\"\">",
+        "afterModification": "<input id=\"lastname-e5c83800-1206-402c-9050-decfe094cca8_1136\" name=\"lastname\" placeholder=\"\" type=\"text\" class=\"hs-input\" inputmode=\"text\" autocomplete=\"family-name\" value=\"\" style=\"color: #000000; background-color: #f6f7fa;\">",
+        "rawOutput": "```html\n<input id=\"lastname-e5c83800-1206-402c-9050-decfe094cca8_1136\" name=\"lastname\" placeholder=\"\" type=\"text\" class=\"hs-input\" inputmode=\"text\" autocomplete=\"family-name\" value=\"\" style=\"color: #000000; background-color: #f6f7fa;\">\n```"
+      },
+      {
+        "beforeModification": "<input id=\"email-e5c83800-1206-402c-9050-decfe094cca8_1136\" name=\"email\" required=\"\" placeholder=\"\" type=\"email\" class=\"hs-input\" inputmode=\"email\" autocomplete=\"email\" value=\"\">",
+        "afterModification": "<input id=\"email-e5c83800-1206-402c-9050-decfe094cca8_1136\" name=\"email\" required=\"\" placeholder=\"\" type=\"email\" class=\"hs-input\" inputmode=\"email\" autocomplete=\"email\" value=\"\" style=\"color: #000000; background-color: #f6f7fa;\">",
+        "rawOutput": "```html\n<input id=\"email-e5c83800-1206-402c-9050-decfe094cca8_1136\" name=\"email\" required=\"\" placeholder=\"\" type=\"email\" class=\"hs-input\" inputmode=\"email\" autocomplete=\"email\" value=\"\" style=\"color: #000000; background-color: #f6f7fa;\">\n```"
+      },
+      {
+        "beforeModification": "<a href=\"https://www.linuxfoundation.org/legal/privacy-policy\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">Privacy Policy</a>",
+        "afterModification": "<a href=\"https://www.linuxfoundation.org/legal/privacy-policy\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" style=\"color: #ffffff; background-color: #5b1de7;\">Privacy Policy</a>",
+        "rawOutput": "```html\n<a href=\"https://www.linuxfoundation.org/legal/privacy-policy\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" style=\"color: #ffffff; background-color: #5b1de7;\">Privacy Policy</a>\n```"
+      },
+      {
+        "beforeModification": "<input type=\"submit\" class=\"hs-button primary large\" value=\"SUBSCRIBE\">",
+        "afterModification": "<input type=\"submit\" class=\"hs-button primary large\" style=\"color: #ffffff; background-color: #c800a1;\" value=\"SUBSCRIBE\">",
+        "rawOutput": "```html\n<input type=\"submit\" class=\"hs-button primary large\" style=\"color: #ffffff; background-color: #c800a1;\" value=\"SUBSCRIBE\">\n```"
+      }
+    ]
+  }
+]

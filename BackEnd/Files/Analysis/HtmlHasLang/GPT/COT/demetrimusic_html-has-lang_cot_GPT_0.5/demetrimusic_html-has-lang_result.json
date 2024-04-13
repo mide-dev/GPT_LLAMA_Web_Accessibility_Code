@@ -1,0 +1,29 @@
+[
+  {
+    "analysisDetails": [
+      {
+        "model": "GPT"
+      },
+      {
+        "accessibility_type": "html-has-lang"
+      },
+      {
+        "prompt_technique": "cot"
+      },
+      {
+        "temperature": 0.5
+      }
+    ],
+    "accessbilityTestResult": {
+      "violationBeforeModification": 1,
+      "violationAfterModification": 0
+    },
+    "modelCorrections": [
+      {
+        "beforeModification": "<html xmlns=\"http://www.w3.org/1999/xhtml\">",
+        "afterModification": "<html lang=\"en\" xmlns=\"http://www.w3.org/1999/xhtml\">",
+        "rawOutput": "- Thought: I need to correct the above HTML by adding the \"lang\" attribute to ensure the document defines the primary language, improving accessibility for screen readers and assistive technologies.\n\n- Corrected HTML: <html lang=\"en\" xmlns=\"http://www.w3.org/1999/xhtml\">"
+      }
+    ]
+  }
+]

@@ -1,0 +1,64 @@
+[
+  {
+    "analysisDetails": [
+      {
+        "model": "GPT"
+      },
+      {
+        "accessibility_type": "link-name"
+      },
+      {
+        "prompt_technique": "fewShot"
+      },
+      {
+        "temperature": 0.5
+      }
+    ],
+    "accessbilityTestResult": {
+      "violationBeforeModification": 8,
+      "violationAfterModification": 0
+    },
+    "modelCorrections": [
+      {
+        "beforeModification": "<a href=\"javascript:;\" class=\"js-close-navigation-promotion navigation-promo-banner__close\" data-event-type=\"Promotion click\" data-event-title=\"Promotion click\" data-event-link=\"navigation-promotion\">\n                        <div class=\"icn-close\"></div>\n                </a>",
+        "afterModification": "<a href=\"javascript:;\" class=\"js-close-navigation-promotion navigation-promo-banner__close\" title=\"Close Promotion Banner\" aria-label=\"Close Promotion Banner\" data-event-type=\"Promotion click\" data-event-title=\"Promotion click\" data-event-link=\"navigation-promotion\">\n    <div class=\"icn-close\" aria-hidden=\"true\"></div>\n</a>",
+        "rawOutput": "```html\n<a href=\"javascript:;\" class=\"js-close-navigation-promotion navigation-promo-banner__close\" title=\"Close Promotion Banner\" aria-label=\"Close Promotion Banner\" data-event-type=\"Promotion click\" data-event-title=\"Promotion click\" data-event-link=\"navigation-promotion\">\n    <div class=\"icn-close\" aria-hidden=\"true\"></div>\n</a>\n```"
+      },
+      {
+        "beforeModification": "<a href=\"javascript:;\" title=\"\" class=\"js-add-to-cart\" data-at=\"section-mini cart button\">\n        \n        <span class=\"icn-cart hide-mobile\"></span>\n        <span class=\"cart-badge js-cart-badge hide-mobile hidden\">0</span>\n    </a>",
+        "afterModification": "<a href=\"javascript:;\" title=\"Add to Cart\" class=\"js-add-to-cart\" data-at=\"section-mini cart button\" aria-label=\"Add to Cart\">\n    <span class=\"icn-cart hide-mobile\" aria-hidden=\"true\"></span>\n    <span class=\"cart-badge js-cart-badge hide-mobile hidden\" aria-hidden=\"true\">0</span>\n</a>",
+        "rawOutput": "```html\n<a href=\"javascript:;\" title=\"Add to Cart\" class=\"js-add-to-cart\" data-at=\"section-mini cart button\" aria-label=\"Add to Cart\">\n    <span class=\"icn-cart hide-mobile\" aria-hidden=\"true\"></span>\n    <span class=\"cart-badge js-cart-badge hide-mobile hidden\" aria-hidden=\"true\">0</span>\n</a>\n```"
+      },
+      {
+        "beforeModification": "<a href=\"javascript:;\" title=\"\"><span class=\"icon icon-close\"></span></a>",
+        "afterModification": "<a href=\"javascript:;\" title=\"Close\" aria-label=\"Close\"><span class=\"icon icon-close\" aria-hidden=\"true\"></span></a>",
+        "rawOutput": "```html\n<a href=\"javascript:;\" title=\"Close\" aria-label=\"Close\"><span class=\"icon icon-close\" aria-hidden=\"true\"></span></a>\n```"
+      },
+      {
+        "beforeModification": "<a href=\"/nos-plus-belles-marques/knorr-professional/knorr-gammefondsbrunslies-nouvellerecette.html\" data-event-type=\"Article Click\" data-event-name=\"Promotion - Fonds Bruns Liés : Nouvelles recettes !  - /nos-plus-belles-marques/knorr-professional/knorr-gammefondsbrunslies-nouvellerecette.html\">",
+        "afterModification": "<a href=\"/nos-plus-belles-marques/knorr-professional/knorr-gammefondsbrunslies-nouvellerecette.html\" title=\"Promotion - Fonds Bruns Liés : Nouvelles recettes !\" data-event-type=\"Article Click\" data-event-name=\"Promotion - Fonds Bruns Liés : Nouvelles recettes !  - /nos-plus-belles-marques/knorr-professional/knorr-gammefondsbrunslies-nouvellerecette.html\">",
+        "rawOutput": "```html\n<a href=\"/nos-plus-belles-marques/knorr-professional/knorr-gammefondsbrunslies-nouvellerecette.html\" title=\"Promotion - Fonds Bruns Liés : Nouvelles recettes !\" data-event-type=\"Article Click\" data-event-name=\"Promotion - Fonds Bruns Liés : Nouvelles recettes !  - /nos-plus-belles-marques/knorr-professional/knorr-gammefondsbrunslies-nouvellerecette.html\">\n```"
+      },
+      {
+        "beforeModification": "<a href=\"/rapport-des-tendances-menus-2024.html\" data-event-type=\"Article Click\" data-event-name=\"Promotion - NOUVEAU : Rapport Future Menus 2024 !  - /rapport-des-tendances-menus-2024.html\">",
+        "afterModification": "<a href=\"/rapport-des-tendances-menus-2024.html\" data-event-type=\"Article Click\" data-event-name=\"Promotion - NOUVEAU : Rapport Future Menus 2024 !  - /rapport-des-tendances-menus-2024.html\" title=\"Rapport des tendances menus 2024\" aria-label=\"Rapport des tendances menus 2024\">",
+        "rawOutput": "```html\n<a href=\"/rapport-des-tendances-menus-2024.html\" data-event-type=\"Article Click\" data-event-name=\"Promotion - NOUVEAU : Rapport Future Menus 2024 !  - /rapport-des-tendances-menus-2024.html\" title=\"Rapport des tendances menus 2024\" aria-label=\"Rapport des tendances menus 2024\">\n```"
+      },
+      {
+        "beforeModification": "<a href=\"/nos-plus-belles-marques/knorr-professional/knorr-cuisinedumonde.html\" class=\"item-list__image--oblong\" data-event-type=\"Article Click\" data-event-name=\"Chef Inspiration - Article: \">",
+        "afterModification": "<a href=\"/nos-plus-belles-marques/knorr-professional/knorr-cuisinedumonde.html\" class=\"item-list__image--oblong\" title=\"Chef Inspiration - Article\" data-event-type=\"Article Click\" data-event-name=\"Chef Inspiration - Article: \" aria-label=\"Chef Inspiration - Article\">",
+        "rawOutput": "```html\n- Corrected HTML: <a href=\"/nos-plus-belles-marques/knorr-professional/knorr-cuisinedumonde.html\" class=\"item-list__image--oblong\" title=\"Chef Inspiration - Article\" data-event-type=\"Article Click\" data-event-name=\"Chef Inspiration - Article: \" aria-label=\"Chef Inspiration - Article\">\n```"
+      },
+      {
+        "beforeModification": "<a href=\"/nos-plus-belles-marques/knorr-professional/knorr-cuisinedumonde.html\" class=\"item-list__image--square\" data-event-type=\"Article Click\" data-event-name=\"Chef Inspiration - Article: \">",
+        "afterModification": "<a href=\"/nos-plus-belles-marques/knorr-professional/knorr-cuisinedumonde.html\" class=\"item-list__image--square\" title=\"Chef Inspiration Article\" data-event-type=\"Article Click\" data-event-name=\"Chef Inspiration - Article: \" aria-label=\"Chef Inspiration Article\">",
+        "rawOutput": "```html\n- Corrected HTML: <a href=\"/nos-plus-belles-marques/knorr-professional/knorr-cuisinedumonde.html\" class=\"item-list__image--square\" title=\"Chef Inspiration Article\" data-event-type=\"Article Click\" data-event-name=\"Chef Inspiration - Article: \" aria-label=\"Chef Inspiration Article\">\n```"
+      },
+      {
+        "beforeModification": "<a href=\"/nos-plus-belles-marques/knorr-professional/knorr-cuisinedumonde.html\" data-event-type=\"Article Click\" data-event-name=\"Chef Inspiration - Article: \">\n            <span class=\"item-list__title js-inspiration-add-class span-8\"></span>\n            \n        </a>",
+        "afterModification": "<a href=\"/nos-plus-belles-marques/knorr-professional/knorr-cuisinedumonde.html\" data-event-type=\"Article Click\" data-event-name=\"Chef Inspiration - Article: \" title=\"Chef Inspiration Article\">\n    <span class=\"item-list__title js-inspiration-add-class span-8\" aria-hidden=\"true\"></span>\n</a>",
+        "rawOutput": "```html\n<a href=\"/nos-plus-belles-marques/knorr-professional/knorr-cuisinedumonde.html\" data-event-type=\"Article Click\" data-event-name=\"Chef Inspiration - Article: \" title=\"Chef Inspiration Article\">\n    <span class=\"item-list__title js-inspiration-add-class span-8\" aria-hidden=\"true\"></span>\n</a>\n```"
+      }
+    ]
+  }
+]

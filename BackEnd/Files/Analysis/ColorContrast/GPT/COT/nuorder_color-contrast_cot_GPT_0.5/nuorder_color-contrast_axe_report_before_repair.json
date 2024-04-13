@@ -1,0 +1,2559 @@
+{
+  "testEngine": {
+    "name": "axe-core",
+    "version": "4.8.4"
+  },
+  "testRunner": {
+    "name": "axe"
+  },
+  "testEnvironment": {
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/122.0.0.0 Safari/537.36",
+    "windowWidth": 800,
+    "windowHeight": 600,
+    "orientationAngle": 0,
+    "orientationType": "portrait-primary"
+  },
+  "timestamp": "2024-04-05T03:05:11.213Z",
+  "url": "https://www.nuorder.com/",
+  "toolOptions": {
+    "runOnly": {
+      "type": "rule",
+      "values": [
+        "color-contrast"
+      ]
+    },
+    "reporter": "v1"
+  },
+  "inapplicable": [],
+  "passes": [
+    {
+      "id": "color-contrast",
+      "impact": "serious",
+      "tags": [
+        "cat.color",
+        "wcag2aa",
+        "wcag143",
+        "TTv5",
+        "TT13.c",
+        "EN-301-549",
+        "EN-9.1.4.3",
+        "ACT"
+      ],
+      "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+      "help": "Elements must meet minimum color contrast ratio thresholds",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/color-contrast?application=axeAPI",
+      "nodes": [
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#33475b",
+                "bgColor": "#ffffff",
+                "contrastRatio": 9.57,
+                "fontSize": "9.0pt (12px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 9.57"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<p id=\"hs-eu-cookie-disclaimer\">If you decline, your information won’t be tracked when you visit this website.</p>",
+          "target": [
+            "#hs-eu-cookie-disclaimer"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#ffffff",
+                "bgColor": "#000000",
+                "contrastRatio": 21,
+                "fontSize": "9.0pt (12px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 21"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a href=\"javascript:void(0);\" id=\"hs-eu-confirmation-button\" role=\"button\">\n    Accept\n  </a>",
+          "target": [
+            "#hs-eu-confirmation-button"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#000000",
+                "bgColor": "#ffffff",
+                "contrastRatio": 21,
+                "fontSize": "9.0pt (12px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 21"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a href=\"javascript:void(0);\" id=\"hs-eu-decline-button\" role=\"button\">Decline</a>",
+          "target": [
+            "#hs-eu-decline-button"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#2b2b2b",
+                "bgColor": "#ffffff",
+                "contrastRatio": 14.15,
+                "fontSize": "9.0pt (12px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 14.15"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<span class=\"elementor-heading-title elementor-size-default\">commerce solutions</span>",
+          "target": [
+            ".elementor-element-5ec02dd > .elementor-widget-container > .elementor-heading-title.elementor-size-default"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#2b2b2b",
+                "bgColor": "#ffffff",
+                "contrastRatio": 14.15,
+                "fontSize": "33.8pt (45px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "3:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 14.15"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<h2 class=\"elementor-heading-title elementor-size-default\">Everything you need to thrive in an evolving retail landscape</h2>",
+          "target": [
+            ".elementor-element-d636453 > .elementor-widget-container > h2"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#2b2b2b",
+                "bgColor": "#ffffff",
+                "contrastRatio": 14.15,
+                "fontSize": "15.0pt (20px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 14.15"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<span class=\"e-n-tab-title-text\">\n\t\t\t\t\tBuy\t\t\t\t</span>",
+          "target": [
+            "#e-n-tabs-title-1962 > .e-n-tab-title-text"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#2b2b2b",
+                "bgColor": "#ffffff",
+                "contrastRatio": 14.15,
+                "fontSize": "15.0pt (20px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 14.15"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<span class=\"e-n-tab-title-text\">\n\t\t\t\t\tAssort\t\t\t\t</span>",
+          "target": [
+            "#e-n-tabs-title-1963 > .e-n-tab-title-text"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#2b2b2b",
+                "bgColor": "#ffffff",
+                "contrastRatio": 14.15,
+                "fontSize": "24.0pt (32px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "3:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 14.15"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<h3 class=\"elementor-heading-title elementor-size-default\">B2B selling</h3>",
+          "target": [
+            ".elementor-element-9521308 > .elementor-widget-container > h3"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#2b2b2b",
+                "bgColor": "#ffffff",
+                "contrastRatio": 14.15,
+                "fontSize": "15.0pt (20px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 14.15"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<p>The complete wholesale order management platform built to help you deliver personalized buying experiences at scale.</p>",
+          "target": [
+            ".elementor-element-0cb5a86 > .elementor-widget-container > p"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#2b2b2b",
+                "bgColor": "#ffffff",
+                "contrastRatio": 14.15,
+                "fontSize": "13.5pt (18px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 14.15"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<span class=\"elementor-icon-list-text\">Drive orders 24/7 with a fully-branded B2B online store</span>",
+          "target": [
+            ".elementor-element-e5f4563 > .elementor-widget-container > .elementor-icon-list-items > .elementor-icon-list-item:nth-child(1) > .elementor-icon-list-text"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#2b2b2b",
+                "bgColor": "#ffffff",
+                "contrastRatio": 14.15,
+                "fontSize": "13.5pt (18px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 14.15"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<span style=\"letter-spacing: 0.2px;\">Offer account-specific pricing, discounts, and product selections</span>",
+          "target": [
+            ".elementor-element-e5f4563 > .elementor-widget-container > .elementor-icon-list-items > .elementor-icon-list-item:nth-child(2) > .elementor-icon-list-text > span"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#2b2b2b",
+                "bgColor": "#ffffff",
+                "contrastRatio": 14.15,
+                "fontSize": "13.5pt (18px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 14.15"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<span class=\"elementor-icon-list-text\">Spot upsell opportunities and track sales trends with built-in reporting</span>",
+          "target": [
+            ".elementor-element-e5f4563 > .elementor-widget-container > .elementor-icon-list-items > .elementor-icon-list-item:nth-child(3) > .elementor-icon-list-text"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#2b2b2b",
+                "bgColor": "#ffffff",
+                "contrastRatio": 14.15,
+                "fontSize": "9.0pt (12px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 14.15"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<span class=\"elementor-heading-title elementor-size-default\">Built to Scale Globally</span>",
+          "target": [
+            ".elementor-element-51d74bb > .elementor-widget-container > .elementor-heading-title.elementor-size-default"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#2b2b2b",
+                "bgColor": "#ffffff",
+                "contrastRatio": 14.15,
+                "fontSize": "33.8pt (45px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "3:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 14.15"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<h2 class=\"elementor-heading-title elementor-size-default\">Sell in multiple markets without the hassle</h2>",
+          "target": [
+            ".elementor-element-baacd10 > .elementor-widget-container > h2"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#2b2b2b",
+                "bgColor": "#ffffff",
+                "contrastRatio": 14.15,
+                "fontSize": "33.0pt (44px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "3:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 14.15"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<span class=\"elementor-counter-number\" data-duration=\"1300\" data-to-value=\"500\" data-from-value=\"100\" data-delimiter=\",\">100</span>",
+          "target": [
+            "span[data-to-value=\"500\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#2b2b2b",
+                "bgColor": "#ffffff",
+                "contrastRatio": 14.15,
+                "fontSize": "33.0pt (44px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "3:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 14.15"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<span class=\"elementor-counter-number-suffix\">k</span>",
+          "target": [
+            ".elementor-element-edf5a6b > .elementor-widget-container > .elementor-counter > .elementor-counter-number-wrapper > .elementor-counter-number-suffix"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#2b2b2b",
+                "bgColor": "#ffffff",
+                "contrastRatio": 14.15,
+                "fontSize": "15.0pt (20px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 14.15"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"elementor-counter-title\">Retailers</div>",
+          "target": [
+            ".elementor-element-edf5a6b > .elementor-widget-container > .elementor-counter > .elementor-counter-title"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#2b2b2b",
+                "bgColor": "#ffffff",
+                "contrastRatio": 14.15,
+                "fontSize": "33.0pt (44px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "3:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 14.15"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<span class=\"elementor-counter-number\" data-duration=\"500\" data-to-value=\"3\" data-from-value=\"0\" data-delimiter=\",\">0</span>",
+          "target": [
+            "span[data-duration=\"500\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#2b2b2b",
+                "bgColor": "#ffffff",
+                "contrastRatio": 14.15,
+                "fontSize": "33.0pt (44px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "3:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 14.15"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<span class=\"elementor-counter-number-suffix\">k</span>",
+          "target": [
+            ".elementor-element-180d8e5 > .elementor-widget-container > .elementor-counter > .elementor-counter-number-wrapper > .elementor-counter-number-suffix"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#2b2b2b",
+                "bgColor": "#ffffff",
+                "contrastRatio": 14.15,
+                "fontSize": "15.0pt (20px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 14.15"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"elementor-counter-title\">Brands</div>",
+          "target": [
+            ".elementor-element-180d8e5 > .elementor-widget-container > .elementor-counter > .elementor-counter-title"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#2b2b2b",
+                "bgColor": "#ffffff",
+                "contrastRatio": 14.15,
+                "fontSize": "33.0pt (44px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "3:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 14.15"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<span class=\"elementor-counter-number\" data-duration=\"1300\" data-to-value=\"100\" data-from-value=\"0\" data-delimiter=\",\">0</span>",
+          "target": [
+            "span[data-to-value=\"100\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#2b2b2b",
+                "bgColor": "#ffffff",
+                "contrastRatio": 14.15,
+                "fontSize": "15.0pt (20px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 14.15"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"elementor-counter-title\">Currencies Supported</div>",
+          "target": [
+            ".elementor-element-a4ef8f3 > .elementor-widget-container > .elementor-counter > .elementor-counter-title"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#2b2b2b",
+                "bgColor": "#ffffff",
+                "contrastRatio": 14.15,
+                "fontSize": "33.0pt (44px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "3:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 14.15"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<span class=\"elementor-counter-number\" data-duration=\"1300\" data-to-value=\"38\" data-from-value=\"0\" data-delimiter=\",\">0</span>",
+          "target": [
+            "span[data-to-value=\"38\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#2b2b2b",
+                "bgColor": "#ffffff",
+                "contrastRatio": 14.15,
+                "fontSize": "33.0pt (44px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "3:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 14.15"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<span class=\"elementor-counter-number-suffix\">B</span>",
+          "target": [
+            ".elementor-element-0b99fe1 > .elementor-widget-container > .elementor-counter > .elementor-counter-number-wrapper > .elementor-counter-number-suffix"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#2b2b2b",
+                "bgColor": "#ffffff",
+                "contrastRatio": 14.15,
+                "fontSize": "15.0pt (20px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 14.15"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"elementor-counter-title\">Orders Processsed</div>",
+          "target": [
+            ".elementor-element-0b99fe1 > .elementor-widget-container > .elementor-counter > .elementor-counter-title"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#2b2b2b",
+                "bgColor": "#f8f8fe",
+                "contrastRatio": 13.38,
+                "fontSize": "9.0pt (12px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 13.38"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<span class=\"elementor-heading-title elementor-size-default\">Support at every step</span>",
+          "target": [
+            ".elementor-element-148ac3e > .elementor-widget-container > .elementor-heading-title.elementor-size-default"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#2b2b2b",
+                "bgColor": "#f8f8fe",
+                "contrastRatio": 13.38,
+                "fontSize": "33.8pt (45px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "3:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 13.38"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<h2 class=\"elementor-heading-title elementor-size-default\">Gain a partner, not just another vendor</h2>",
+          "target": [
+            ".elementor-element-49d8b9f > .elementor-widget-container > h2"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#2b2b2b",
+                "bgColor": "#f8f8fe",
+                "contrastRatio": 13.38,
+                "fontSize": "15.0pt (20px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 13.38"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<p>Get the most out of your tools. Our professional services team partners with you throughout your journey to ensure a smooth onboarding experience, answer questions, and share best practices.</p>",
+          "target": [
+            ".elementor-element-4790403 > .elementor-widget-container > p"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#2b2b2b",
+                "bgColor": "#f8f8fe",
+                "contrastRatio": 13.38,
+                "fontSize": "13.5pt (18px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 13.38"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<span class=\"elementor-icon-list-text\"><b>Account Manager</b><br>Your internal problem-solving champion</span>",
+          "target": [
+            ".elementor-element-175b6e7 > .elementor-widget-container > .elementor-icon-list-items > .elementor-icon-list-item:nth-child(1) > .elementor-icon-list-text"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#2b2b2b",
+                "bgColor": "#f8f8fe",
+                "contrastRatio": 13.38,
+                "fontSize": "13.5pt (18px)",
+                "fontWeight": "bold",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 13.38"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<b>Account Manager</b>",
+          "target": [
+            ".elementor-icon-list-item:nth-child(1) > .elementor-icon-list-text > b"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#2b2b2b",
+                "bgColor": "#f8f8fe",
+                "contrastRatio": 13.38,
+                "fontSize": "13.5pt (18px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 13.38"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<span class=\"elementor-icon-list-text\"><b>Onboarding Specialist</b><br>Gets you up and running</span>",
+          "target": [
+            ".elementor-element-175b6e7 > .elementor-widget-container > .elementor-icon-list-items > .elementor-icon-list-item:nth-child(2) > .elementor-icon-list-text"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#2b2b2b",
+                "bgColor": "#f8f8fe",
+                "contrastRatio": 13.38,
+                "fontSize": "13.5pt (18px)",
+                "fontWeight": "bold",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 13.38"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<b>Onboarding Specialist</b>",
+          "target": [
+            ".elementor-icon-list-item:nth-child(2) > .elementor-icon-list-text > b"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#2b2b2b",
+                "bgColor": "#f8f8fe",
+                "contrastRatio": 13.38,
+                "fontSize": "13.5pt (18px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 13.38"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<span class=\"elementor-icon-list-text\"><b>Integration Consultant</b><br>Oversees your integration projects</span>",
+          "target": [
+            ".elementor-element-175b6e7 > .elementor-widget-container > .elementor-icon-list-items > .elementor-icon-list-item:nth-child(3) > .elementor-icon-list-text"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#2b2b2b",
+                "bgColor": "#f8f8fe",
+                "contrastRatio": 13.38,
+                "fontSize": "13.5pt (18px)",
+                "fontWeight": "bold",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 13.38"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<b>Integration Consultant</b>",
+          "target": [
+            ".elementor-icon-list-item:nth-child(3) > .elementor-icon-list-text > b"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#2b2b2b",
+                "bgColor": "#f8f8fe",
+                "contrastRatio": 13.38,
+                "fontSize": "13.5pt (18px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 13.38"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<span class=\"elementor-icon-list-text\"><b>Integration Engineer</b><br>Handles implementations from start to finish</span>",
+          "target": [
+            ".elementor-icon-list-item:nth-child(4) > .elementor-icon-list-text"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#2b2b2b",
+                "bgColor": "#f8f8fe",
+                "contrastRatio": 13.38,
+                "fontSize": "13.5pt (18px)",
+                "fontWeight": "bold",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 13.38"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<b>Integration Engineer</b>",
+          "target": [
+            ".elementor-icon-list-item:nth-child(4) > .elementor-icon-list-text > b"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#2b2b2b",
+                "bgColor": "#f8f8fe",
+                "contrastRatio": 13.38,
+                "fontSize": "13.5pt (18px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 13.38"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<span class=\"elementor-icon-list-text\"><b>Ongoing Support</b><br>A global team that provides 24/7 technical support</span>",
+          "target": [
+            ".elementor-icon-list-item:nth-child(5) > .elementor-icon-list-text"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#2b2b2b",
+                "bgColor": "#f8f8fe",
+                "contrastRatio": 13.38,
+                "fontSize": "13.5pt (18px)",
+                "fontWeight": "bold",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 13.38"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<b>Ongoing Support</b>",
+          "target": [
+            ".elementor-icon-list-item:nth-child(5) > .elementor-icon-list-text > b"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#2b2b2b",
+                "bgColor": "#f8f8fe",
+                "contrastRatio": 13.38,
+                "fontSize": "13.5pt (18px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 13.38"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<span class=\"elementor-icon-list-text\"><b>Training Programs</b><br>Powerful learning tools delivered live or on demand</span>",
+          "target": [
+            ".elementor-icon-list-item:nth-child(6) > .elementor-icon-list-text"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#2b2b2b",
+                "bgColor": "#f8f8fe",
+                "contrastRatio": 13.38,
+                "fontSize": "13.5pt (18px)",
+                "fontWeight": "bold",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 13.38"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<b>Training Programs</b>",
+          "target": [
+            ".elementor-icon-list-item:nth-child(6) > .elementor-icon-list-text > b"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#ffffff",
+                "bgColor": "#2b2b2b",
+                "contrastRatio": 14.15,
+                "fontSize": "18.0pt (24px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "3:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 14.15"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"elementor-testimonial__text\">\n\t\t\t\t\t\t\"As a company that has been in the wholesale shoe business for over 50 years, NuORDER by Lightspeed has helped Chinese Laundry streamline our sales process and subsequently increase our wholesale orders.\"\t\t\t\t\t</div>",
+          "target": [
+            ".swiper-slide-active > .elementor-testimonial > .elementor-testimonial__content > .elementor-testimonial__text"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#ffffff",
+                "bgColor": "#2b2b2b",
+                "contrastRatio": 14.15,
+                "fontSize": "9.0pt (12px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 14.15"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<span class=\"elementor-testimonial__name\">Chinese Laundry</span>",
+          "target": [
+            ".swiper-slide-active > .elementor-testimonial > .elementor-testimonial__footer > cite > .elementor-testimonial__name"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#2b2b2b",
+                "bgColor": "#ffffff",
+                "contrastRatio": 14.15,
+                "fontSize": "33.8pt (45px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "3:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 14.15"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<h2 class=\"elementor-heading-title elementor-size-default\">Check out our latest resources</h2>",
+          "target": [
+            ".elementor-element-1b6ccac > .elementor-widget-container > h2"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#2b2b2b",
+                "bgColor": "#ffffff",
+                "contrastRatio": 14.15,
+                "fontSize": "9.0pt (12px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 14.15"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<span class=\"elementor-heading-title elementor-size-default\">Case Study</span>",
+          "target": [
+            ".elementor-element-45e440a > .elementor-widget-container > .elementor-heading-title.elementor-size-default"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#2b2b2b",
+                "bgColor": "#ffffff",
+                "contrastRatio": 14.15,
+                "fontSize": "19.5pt (26px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "3:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 14.15"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<h4 class=\"elementor-heading-title elementor-size-default\">How ISAIA blends art and science in luxury merchandising</h4>",
+          "target": [
+            ".elementor-element-a1c7e63 > .elementor-widget-container > h4"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#2b2b2b",
+                "bgColor": "#ffffff",
+                "contrastRatio": 14.15,
+                "fontSize": "13.5pt (18px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 14.15"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<p>Discover how this 103-year-old luxury menswear brand used their digital prowess to scale globally while catering to distinct regional identities.</p>",
+          "target": [
+            ".elementor-element-e6e9000 > .elementor-widget-container > p"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#2b2b2b",
+                "bgColor": "#ffffff",
+                "contrastRatio": 14.15,
+                "fontSize": "9.0pt (12px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 14.15"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<span class=\"elementor-heading-title elementor-size-default\">Webinar</span>",
+          "target": [
+            ".elementor-element-14bd3cb > .elementor-widget-container > .elementor-heading-title.elementor-size-default"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#2b2b2b",
+                "bgColor": "#ffffff",
+                "contrastRatio": 14.15,
+                "fontSize": "19.5pt (26px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "3:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 14.15"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<h4 class=\"elementor-heading-title elementor-size-default\">Nailing demand forecasting &amp; optimizing inventory</h4>",
+          "target": [
+            ".elementor-element-ab9b041 > .elementor-widget-container > h4"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#2b2b2b",
+                "bgColor": "#ffffff",
+                "contrastRatio": 14.15,
+                "fontSize": "13.5pt (18px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 14.15"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<p>Industry experts offer critical insights and strategies for coping with the complexities of inventory management and forecasting in this exclusive webinar.</p>",
+          "target": [
+            ".elementor-element-6c3e6ba > .elementor-widget-container > p"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#2b2b2b",
+                "bgColor": "#ffffff",
+                "contrastRatio": 14.15,
+                "fontSize": "9.0pt (12px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 14.15"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<span class=\"elementor-heading-title elementor-size-default\">eBook</span>",
+          "target": [
+            ".elementor-element-3e3eafb > .elementor-widget-container > .elementor-heading-title.elementor-size-default"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#2b2b2b",
+                "bgColor": "#ffffff",
+                "contrastRatio": 14.15,
+                "fontSize": "19.5pt (26px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "3:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 14.15"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<h4 class=\"elementor-heading-title elementor-size-default\">The wholesaler's guide to omnichannel strategy</h4>",
+          "target": [
+            ".elementor-element-0dca61b > .elementor-widget-container > h4"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#2b2b2b",
+                "bgColor": "#ffffff",
+                "contrastRatio": 14.15,
+                "fontSize": "13.5pt (18px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 14.15"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<p>Produced in partnership with&nbsp;<a href=\"https://digiday.com/\" target=\"_blank\">Digiday</a>, this guide covers strategies for increasing revenue through data and streamlined operations</p>",
+          "target": [
+            ".elementor-element-e97afdb > .elementor-widget-container > p"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#ffffff",
+                "bgColor": "#2b2b2b",
+                "contrastRatio": 14.15,
+                "fontSize": "13.5pt (18px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 14.15"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<span class=\"elementor-button-text\">Request a Demo</span>",
+          "target": [
+            ".elementor-element-485f3a1 > .elementor-widget-container > .elementor-button-wrapper > .elementor-size-sm.elementor-button[href$=\"start/\"] > .elementor-button-content-wrapper > .elementor-button-text"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#2b2b2b",
+                "bgColor": "#ffffff",
+                "contrastRatio": 14.15,
+                "fontSize": "11.3pt (15px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 14.15"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<span class=\"elementor-button-text\">Demo Request</span>",
+          "target": [
+            ".elementor-element-f1f9a1e > .elementor-widget-container > .elementor-button-wrapper > .elementor-size-sm.elementor-button[href$=\"start/\"] > .elementor-button-content-wrapper > .elementor-button-text"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#ffffff",
+                "bgColor": "#2b2b2b",
+                "contrastRatio": 14.15,
+                "fontSize": "11.3pt (15px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 14.15"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<span class=\"elementor-button-text\">Log In</span>",
+          "target": [
+            ".elementor-element-41a379e > .elementor-widget-container > .elementor-button-wrapper > .elementor-size-sm.elementor-button[href$=\"app.next.nuorder.com/\"] > .elementor-button-content-wrapper > .elementor-button-text"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#ffffff",
+                "bgColor": "#2b2b2b",
+                "contrastRatio": 14.15,
+                "fontSize": "10.5pt (14px)",
+                "fontWeight": "bold",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 14.15"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<h6 class=\"elementor-heading-title elementor-size-default\">Network</h6>",
+          "target": [
+            ".elementor-element-68ddc3a > .elementor-widget-container > h6"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#ffffff",
+                "bgColor": "#2b2b2b",
+                "contrastRatio": 14.15,
+                "fontSize": "10.5pt (14px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 14.15"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a href=\"https://www.nuorder.com/exclusive-retailers/\" class=\"elementor-item\">Exclusive Retailers</a>",
+          "target": [
+            "#menu-1-7e856a0 > .menu-item-17380.menu-item-type-post_type.menu-item-object-page > .elementor-item"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#ffffff",
+                "bgColor": "#2b2b2b",
+                "contrastRatio": 14.15,
+                "fontSize": "10.5pt (14px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 14.15"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a href=\"https://www.nuorder.com/partners/\" class=\"elementor-item\">Partners</a>",
+          "target": [
+            "#menu-1-7e856a0 > .menu-item-17379.menu-item-type-post_type.menu-item-object-page > .elementor-item"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#ffffff",
+                "bgColor": "#2b2b2b",
+                "contrastRatio": 14.15,
+                "fontSize": "10.5pt (14px)",
+                "fontWeight": "bold",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 14.15"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a href=\"/resources-archive/\">Resources</a>",
+          "target": [
+            ".elementor-element-7671764 > .elementor-widget-container > h6 > a[href$=\"resources-archive/\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#ffffff",
+                "bgColor": "#2b2b2b",
+                "contrastRatio": 14.15,
+                "fontSize": "10.5pt (14px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 14.15"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a href=\"https://www.nuorder.com/resources-archive/\" class=\"elementor-item\">Content Library</a>",
+          "target": [
+            "#menu-1-24dcf0f > .menu-item-14521.menu-item-type-post_type.menu-item-object-page > .elementor-item"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#ffffff",
+                "bgColor": "#2b2b2b",
+                "contrastRatio": 14.15,
+                "fontSize": "10.5pt (14px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 14.15"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a href=\"https://blog.nuorder.com/\" class=\"elementor-item\">Blog</a>",
+          "target": [
+            "#menu-1-24dcf0f > .menu-item-3088.menu-item-type-custom.menu-item-object-custom > .elementor-item[href$=\"blog.nuorder.com/\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#ffffff",
+                "bgColor": "#2b2b2b",
+                "contrastRatio": 14.15,
+                "fontSize": "10.5pt (14px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 14.15"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a href=\"/resources-archive/#filter-case-studies\" class=\"elementor-item elementor-item-anchor\">Case Studies</a>",
+          "target": [
+            "#menu-1-24dcf0f > .menu-item-2951.menu-item-type-custom.menu-item-object-custom > .elementor-item-anchor.elementor-item"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#ffffff",
+                "bgColor": "#2b2b2b",
+                "contrastRatio": 14.15,
+                "fontSize": "10.5pt (14px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 14.15"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a href=\"/resources-archive/#filter-ebooks\" class=\"elementor-item elementor-item-anchor\">eBooks &amp; Guides</a>",
+          "target": [
+            "#menu-1-24dcf0f > .menu-item-2950.menu-item-type-custom.menu-item-object-custom > .elementor-item-anchor.elementor-item"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#ffffff",
+                "bgColor": "#2b2b2b",
+                "contrastRatio": 14.15,
+                "fontSize": "10.5pt (14px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 14.15"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a href=\"/resources-archive/#filter-webinars\" class=\"elementor-item elementor-item-anchor\">Webinars</a>",
+          "target": [
+            "#menu-1-24dcf0f > .menu-item-3087.menu-item-type-custom.menu-item-object-custom > .elementor-item-anchor.elementor-item"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#ffffff",
+                "bgColor": "#2b2b2b",
+                "contrastRatio": 14.15,
+                "fontSize": "10.5pt (14px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 14.15"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a target=\"_blank\" rel=\"noopener\" href=\"https://university.nuorder.com/\" class=\"elementor-item\">NuO University</a>",
+          "target": [
+            "#menu-1-24dcf0f > .menu-item-14522.menu-item-type-custom.menu-item-object-custom > .elementor-item[rel=\"noopener\"][target=\"_blank\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#ffffff",
+                "bgColor": "#2b2b2b",
+                "contrastRatio": 14.15,
+                "fontSize": "10.5pt (14px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 14.15"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a target=\"_blank\" rel=\"noopener\" href=\"https://helpdesk.nuorder.com/hc/en-us/\" class=\"elementor-item\">Helpdesk</a>",
+          "target": [
+            "#menu-1-24dcf0f > .menu-item-14523.menu-item-type-custom.menu-item-object-custom > .elementor-item[rel=\"noopener\"][target=\"_blank\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#ffffff",
+                "bgColor": "#2b2b2b",
+                "contrastRatio": 14.15,
+                "fontSize": "10.5pt (14px)",
+                "fontWeight": "bold",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 14.15"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<h6 class=\"elementor-heading-title elementor-size-default\">Company</h6>",
+          "target": [
+            ".elementor-element-f5e278b > .elementor-widget-container > h6"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#ffffff",
+                "bgColor": "#2b2b2b",
+                "contrastRatio": 14.15,
+                "fontSize": "10.5pt (14px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 14.15"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a href=\"https://www.nuorder.com/about-us/\" class=\"elementor-item\">About Us</a>",
+          "target": [
+            "#menu-1-4dbedc6 > .menu-item-128.menu-item-type-post_type.menu-item-object-page > .elementor-item"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#ffffff",
+                "bgColor": "#2b2b2b",
+                "contrastRatio": 14.15,
+                "fontSize": "10.5pt (14px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 14.15"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a target=\"_blank\" rel=\"noopener\" href=\"https://www.lightspeedhq.com/careers/\" class=\"elementor-item\">Careers</a>",
+          "target": [
+            "#menu-1-4dbedc6 > .menu-item-1750.menu-item-type-custom.menu-item-object-custom > .elementor-item[rel=\"noopener\"][target=\"_blank\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#ffffff",
+                "bgColor": "#2b2b2b",
+                "contrastRatio": 14.15,
+                "fontSize": "10.5pt (14px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 14.15"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a href=\"https://www.nuorder.com/contactus/\" class=\"elementor-item\">Contact Us</a>",
+          "target": [
+            "#menu-1-4dbedc6 > .menu-item-137.menu-item-type-post_type.menu-item-object-page > .elementor-item"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#ffffff",
+                "bgColor": "#2b2b2b",
+                "contrastRatio": 14.15,
+                "fontSize": "10.5pt (14px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 14.15"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a target=\"_blank\" rel=\"noopener\" href=\"https://www.lightspeedhq.com/legal/privacy-policy/\" class=\"elementor-item\">Privacy Policy</a>",
+          "target": [
+            "#menu-1-4dbedc6 > .menu-item-10571.menu-item-type-custom.menu-item-object-custom > .elementor-item[rel=\"noopener\"][target=\"_blank\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#ffffff",
+                "bgColor": "#2b2b2b",
+                "contrastRatio": 14.15,
+                "fontSize": "10.5pt (14px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 14.15"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a href=\"https://www.nuorder.com/terms-and-conditions/\" class=\"elementor-item\">Terms &amp; Conditions</a>",
+          "target": [
+            "#menu-1-4dbedc6 > .menu-item-9310.menu-item-type-post_type.menu-item-object-page > .elementor-item"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#ffffff",
+                "bgColor": "#2b2b2b",
+                "contrastRatio": 14.15,
+                "fontSize": "15.0pt (20px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 14.15"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<p>Get the latest wholesale tips and industry news from our blog delivered to your inbox.</p>",
+          "target": [
+            ".elementor-element-5cfcfe5 > .elementor-widget-container > p"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#ffffff",
+                "bgColor": "#555555",
+                "contrastRatio": 7.45,
+                "fontSize": "10.5pt (14px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 7.45"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<input id=\"email-f907663e-efaf-4672-82db-d5cbe88ea984\" name=\"email\" required=\"\" placeholder=\"EMAIL ADDRESS*\" type=\"email\" class=\"hs-input\" inputmode=\"email\" autocomplete=\"email\" value=\"\">",
+          "target": [
+            ".hs-form-f907663e-efaf-4672-82db-d5cbe88ea984_7defd5f9-9c6d-4f10-b385-bdb9c33103d2 > .hs_email.hs-email.hs-fieldtype-text > .input > .hs-input[name=\"email\"][required=\"\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#ffffff",
+                "bgColor": "#2b2b2b",
+                "contrastRatio": 14.15,
+                "fontSize": "8.3pt (11px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 14.15"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<span class=\"elementor-heading-title elementor-size-default\">@2023 NuORDER Inc. All Rights Reserved</span>",
+          "target": [
+            ".elementor-element-ee2bc8a > .elementor-widget-container > .elementor-heading-title.elementor-size-default"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "messageKey": "hidden"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is hidden"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<input id=\"email-f907663e-efaf-4672-82db-d5cbe88ea984\" name=\"email\" required=\"\" placeholder=\"EMAIL ADDRESS*\" type=\"email\" class=\"hs-input\" inputmode=\"email\" autocomplete=\"email\" value=\"\">",
+          "target": [
+            ".hs-form-f907663e-efaf-4672-82db-d5cbe88ea984_3ceebd20-690e-48e8-93a5-af3a97f82f19 > .hs_email.hs-email.hs-fieldtype-text > .input > .hs-input[name=\"email\"][required=\"\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "messageKey": "hidden"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is hidden"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<input type=\"submit\" class=\"hs-button primary large\" value=\"Subscribe\">",
+          "target": [
+            ".hs-form-f907663e-efaf-4672-82db-d5cbe88ea984_3ceebd20-690e-48e8-93a5-af3a97f82f19 > .hs_submit.hs-submit > .actions > .hs-button.primary.large"
+          ]
+        }
+      ]
+    }
+  ],
+  "incomplete": [
+    {
+      "id": "color-contrast",
+      "impact": "serious",
+      "tags": [
+        "cat.color",
+        "wcag2aa",
+        "wcag143",
+        "TTv5",
+        "TT13.c",
+        "EN-301-549",
+        "EN-9.1.4.3",
+        "ACT"
+      ],
+      "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+      "help": "Elements must meet minimum color contrast ratio thresholds",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/color-contrast?application=axeAPI",
+      "nodes": [
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "contrastRatio": 0,
+                "fontSize": "9.0pt (12px)",
+                "fontWeight": "normal",
+                "messageKey": "elmPartiallyObscuring",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element's background color could not be determined because it partially overlaps other elements"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<span style=\"font-size: 12px; line-height: 14.399999999999999px;\">",
+          "target": [
+            "p > span"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because it partially overlaps other elements"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "contrastRatio": 0,
+                "fontSize": "37.5pt (50px)",
+                "fontWeight": "normal",
+                "messageKey": "bgGradient",
+                "expectedContrastRatio": "3:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<div class=\"elementor-element elementor-element-6abf05b e-con-full e-flex e-con e-parent\" data-id=\"6abf05b\" data-element_type=\"container\" data-settings=\"{&quot;background_background&quot;:&quot;classic&quot;}\" data-core-v316-plus=\"true\">",
+                  "target": [
+                    ".elementor-element-6abf05b"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element's background color could not be determined due to a background gradient"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<h1 class=\"elementor-heading-title elementor-size-default\">The global B2B commerce platform</h1>",
+          "target": [
+            "h1"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "contrastRatio": 0,
+                "fontSize": "15.0pt (20px)",
+                "fontWeight": "normal",
+                "messageKey": "bgGradient",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<div class=\"elementor-element elementor-element-6abf05b e-con-full e-flex e-con e-parent\" data-id=\"6abf05b\" data-element_type=\"container\" data-settings=\"{&quot;background_background&quot;:&quot;classic&quot;}\" data-core-v316-plus=\"true\">",
+                  "target": [
+                    ".elementor-element-6abf05b"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element's background color could not be determined due to a background gradient"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<p>Unleash your true potential with NuORDER by Lightspeed. More sales. Higher sell-through. Fewer markdowns.</p>",
+          "target": [
+            ".elementor-element-073dbc5 > .elementor-widget-container > p"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "contrastRatio": 0,
+                "fontSize": "15.0pt (20px)",
+                "fontWeight": "normal",
+                "messageKey": "bgGradient",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<button id=\"e-n-tabs-title-1961\" class=\"e-n-tab-title\" aria-selected=\"true\" data-tab-index=\"1\" role=\"tab\" tabindex=\"0\" aria-controls=\"e-n-tab-content-1961\" style=\"--n-tabs-title-order: 1;\">",
+                  "target": [
+                    "#e-n-tabs-title-1961"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element's background color could not be determined due to a background gradient"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<span class=\"e-n-tab-title-text\">\n\t\t\t\t\tSell\t\t\t\t</span>",
+          "target": [
+            "#e-n-tabs-title-1961 > .e-n-tab-title-text"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "contrastRatio": 0,
+                "fontSize": "9.0pt (12px)",
+                "fontWeight": "normal",
+                "messageKey": "bgGradient",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<div class=\"elementor-element elementor-element-ada5773 e-con-full e-flex e-con e-parent\" data-id=\"ada5773\" data-element_type=\"container\" data-settings=\"{&quot;background_background&quot;:&quot;classic&quot;}\" data-core-v316-plus=\"true\">",
+                  "target": [
+                    ".elementor-element-ada5773"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element's background color could not be determined due to a background gradient"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<span class=\"elementor-heading-title elementor-size-default\">API &amp; FTP Integrations</span>",
+          "target": [
+            ".elementor-element-6ad3c7d > .elementor-widget-container > .elementor-heading-title.elementor-size-default"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "contrastRatio": 0,
+                "fontSize": "33.8pt (45px)",
+                "fontWeight": "normal",
+                "messageKey": "bgGradient",
+                "expectedContrastRatio": "3:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<div class=\"elementor-element elementor-element-ada5773 e-con-full e-flex e-con e-parent\" data-id=\"ada5773\" data-element_type=\"container\" data-settings=\"{&quot;background_background&quot;:&quot;classic&quot;}\" data-core-v316-plus=\"true\">",
+                  "target": [
+                    ".elementor-element-ada5773"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element's background color could not be determined due to a background gradient"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<h2 class=\"elementor-heading-title elementor-size-default\">All your data in one place</h2>",
+          "target": [
+            ".elementor-element-60898e4 > .elementor-widget-container > h2"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "contrastRatio": 0,
+                "fontSize": "15.0pt (20px)",
+                "fontWeight": "normal",
+                "messageKey": "bgGradient",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<div class=\"elementor-element elementor-element-ada5773 e-con-full e-flex e-con e-parent\" data-id=\"ada5773\" data-element_type=\"container\" data-settings=\"{&quot;background_background&quot;:&quot;classic&quot;}\" data-core-v316-plus=\"true\">",
+                  "target": [
+                    ".elementor-element-ada5773"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element's background color could not be determined due to a background gradient"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<p>Integrations with 120+ ERP, PLM, and POS systems feed real-time product, inventory, and order data into the platform. Replace manual tasks with automated workflows, power 24/7 online ordering, and make more data-driven business decisions.</p>",
+          "target": [
+            ".elementor-element-3a7d0c6 > .elementor-widget-container > p"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "contrastRatio": 0,
+                "fontSize": "33.8pt (45px)",
+                "fontWeight": "normal",
+                "messageKey": "bgGradient",
+                "expectedContrastRatio": "3:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<div class=\"elementor-element elementor-element-a14d873 e-flex e-con-boxed e-con e-child\" data-id=\"a14d873\" data-element_type=\"container\">",
+                  "target": [
+                    ".elementor-element-a14d873"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element's background color could not be determined due to a background gradient"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<h2 class=\"elementor-heading-title elementor-size-default\">Start selling &amp; assorting with NuORDER</h2>",
+          "target": [
+            ".elementor-element-5be1ae8 > .elementor-widget-container > h2"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "contrastRatio": 0,
+                "fontSize": "15.0pt (20px)",
+                "fontWeight": "normal",
+                "messageKey": "bgGradient",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<div class=\"elementor-element elementor-element-a14d873 e-flex e-con-boxed e-con e-child\" data-id=\"a14d873\" data-element_type=\"container\">",
+                  "target": [
+                    ".elementor-element-a14d873"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element's background color could not be determined due to a background gradient"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<span class=\"elementor-heading-title elementor-size-default\">Unlock results for all your teams with collaborative commerce.</span>",
+          "target": [
+            ".elementor-element-ad8d9aa > .elementor-widget-container > .elementor-heading-title.elementor-size-default"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+        }
+      ]
+    }
+  ],
+  "violations": [
+    {
+      "id": "color-contrast",
+      "impact": "serious",
+      "tags": [
+        "cat.color",
+        "wcag2aa",
+        "wcag143",
+        "TTv5",
+        "TT13.c",
+        "EN-301-549",
+        "EN-9.1.4.3",
+        "ACT"
+      ],
+      "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+      "help": "Elements must meet minimum color contrast ratio thresholds",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/color-contrast?application=axeAPI",
+      "nodes": [
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#0091ae",
+                "bgColor": "#ffffff",
+                "contrastRatio": 3.7,
+                "fontSize": "9.0pt (12px)",
+                "fontWeight": "normal",
+                "messageKey": null,
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<div id=\"hs-eu-cookie-confirmation-inner\">",
+                  "target": [
+                    "#hs-eu-cookie-confirmation-inner"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element has insufficient color contrast of 3.7 (foreground color: #0091ae, background color: #ffffff, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<a href=\"https://www.nuorder.com/privacy-policy-2/\" target=\"_blank\">Privacy Policy</a>",
+          "target": [
+            "p > span > a[target=\"_blank\"]"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 3.7 (foreground color: #0091ae, background color: #ffffff, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#ffffff",
+                "bgColor": "#00a9a4",
+                "contrastRatio": 2.91,
+                "fontSize": "13.5pt (18px)",
+                "fontWeight": "normal",
+                "messageKey": null,
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<a class=\"elementor-button elementor-button-link elementor-size-sm\" href=\"/start/\">\n\t\t\t\t\t\t<span class=\"elementor-button-content-wrapper\">\n\t\t\t\t\t\t<span class=\"elementor-button-text\">Talk to an Expert</span>\n\t\t</span>\n\t\t\t\t\t</a>",
+                  "target": [
+                    ".elementor-element-8665581 > .elementor-widget-container > .elementor-button-wrapper > .elementor-size-sm.elementor-button[href$=\"start/\"]"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element has insufficient color contrast of 2.91 (foreground color: #ffffff, background color: #00a9a4, font size: 13.5pt (18px), font weight: normal). Expected contrast ratio of 4.5:1"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<span class=\"elementor-button-text\">Talk to an Expert</span>",
+          "target": [
+            ".elementor-element-8665581 > .elementor-widget-container > .elementor-button-wrapper > .elementor-size-sm.elementor-button[href$=\"start/\"] > .elementor-button-content-wrapper > .elementor-button-text"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 2.91 (foreground color: #ffffff, background color: #00a9a4, font size: 13.5pt (18px), font weight: normal). Expected contrast ratio of 4.5:1"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#00a9a4",
+                "bgColor": "#ffffff",
+                "contrastRatio": 2.91,
+                "fontSize": "11.3pt (15px)",
+                "fontWeight": "normal",
+                "messageKey": null,
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<div id=\"wrapper\">",
+                  "target": [
+                    "#wrapper"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element has insufficient color contrast of 2.91 (foreground color: #00a9a4, background color: #ffffff, font size: 11.3pt (15px), font weight: normal). Expected contrast ratio of 4.5:1"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<span class=\"elementor-button-text\">Learn More</span>",
+          "target": [
+            ".elementor-size-xs.elementor-button[href$=\"wholesale/\"] > .elementor-button-content-wrapper > .elementor-button-text"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 2.91 (foreground color: #00a9a4, background color: #ffffff, font size: 11.3pt (15px), font weight: normal). Expected contrast ratio of 4.5:1"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#ffffff",
+                "bgColor": "#00a9a4",
+                "contrastRatio": 2.91,
+                "fontSize": "11.3pt (15px)",
+                "fontWeight": "normal",
+                "messageKey": null,
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<a class=\"elementor-button elementor-button-link elementor-size-sm\" href=\"https://go.nuorder.com/success-story-isaia\" target=\"_blank\">\n\t\t\t\t\t\t<span class=\"elementor-button-content-wrapper\">\n\t\t\t\t\t\t<span class=\"elementor-button-text\">Read now</span>\n\t\t</span>\n\t\t\t\t\t</a>",
+                  "target": [
+                    ".elementor-element-f8665b7 > .elementor-widget-container > .elementor-button-wrapper > .elementor-size-sm.elementor-button.elementor-button-link"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element has insufficient color contrast of 2.91 (foreground color: #ffffff, background color: #00a9a4, font size: 11.3pt (15px), font weight: normal). Expected contrast ratio of 4.5:1"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<span class=\"elementor-button-text\">Read now</span>",
+          "target": [
+            ".elementor-element-f8665b7 > .elementor-widget-container > .elementor-button-wrapper > .elementor-size-sm.elementor-button.elementor-button-link > .elementor-button-content-wrapper > .elementor-button-text"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 2.91 (foreground color: #ffffff, background color: #00a9a4, font size: 11.3pt (15px), font weight: normal). Expected contrast ratio of 4.5:1"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#ffffff",
+                "bgColor": "#00a9a4",
+                "contrastRatio": 2.91,
+                "fontSize": "11.3pt (15px)",
+                "fontWeight": "normal",
+                "messageKey": null,
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<a class=\"elementor-button elementor-button-link elementor-size-sm\" href=\"https://go.nuorder.com/webinar-the-retail-rollercoaster\" target=\"_blank\">\n\t\t\t\t\t\t<span class=\"elementor-button-content-wrapper\">\n\t\t\t\t\t\t<span class=\"elementor-button-text\">Watch on demand</span>\n\t\t</span>\n\t\t\t\t\t</a>",
+                  "target": [
+                    ".elementor-element-a9d088d > .elementor-widget-container > .elementor-button-wrapper > .elementor-size-sm.elementor-button.elementor-button-link"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element has insufficient color contrast of 2.91 (foreground color: #ffffff, background color: #00a9a4, font size: 11.3pt (15px), font weight: normal). Expected contrast ratio of 4.5:1"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<span class=\"elementor-button-text\">Watch on demand</span>",
+          "target": [
+            ".elementor-element-a9d088d > .elementor-widget-container > .elementor-button-wrapper > .elementor-size-sm.elementor-button.elementor-button-link > .elementor-button-content-wrapper > .elementor-button-text"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 2.91 (foreground color: #ffffff, background color: #00a9a4, font size: 11.3pt (15px), font weight: normal). Expected contrast ratio of 4.5:1"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#00a9a4",
+                "bgColor": "#ffffff",
+                "contrastRatio": 2.91,
+                "fontSize": "13.5pt (18px)",
+                "fontWeight": "normal",
+                "messageKey": null,
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<div class=\"elementor-element elementor-element-0ea2a04 e-con-full e-flex e-con e-child\" data-id=\"0ea2a04\" data-element_type=\"container\" data-settings=\"{&quot;background_background&quot;:&quot;classic&quot;}\">",
+                  "target": [
+                    ".elementor-element-0ea2a04"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element has insufficient color contrast of 2.91 (foreground color: #00a9a4, background color: #ffffff, font size: 13.5pt (18px), font weight: normal). Expected contrast ratio of 4.5:1"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<a href=\"https://digiday.com/\" target=\"_blank\">Digiday</a>",
+          "target": [
+            "a[href$=\"digiday.com/\"]"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 2.91 (foreground color: #00a9a4, background color: #ffffff, font size: 13.5pt (18px), font weight: normal). Expected contrast ratio of 4.5:1"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#ffffff",
+                "bgColor": "#00a9a4",
+                "contrastRatio": 2.91,
+                "fontSize": "11.3pt (15px)",
+                "fontWeight": "normal",
+                "messageKey": null,
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<a class=\"elementor-button elementor-button-link elementor-size-sm\" href=\"https://go.nuorder.com/guidebook-digiday-wholesale-guide-to-omnichannel\" target=\"_blank\">\n\t\t\t\t\t\t<span class=\"elementor-button-content-wrapper\">\n\t\t\t\t\t\t<span class=\"elementor-button-text\">Get the guide</span>\n\t\t</span>\n\t\t\t\t\t</a>",
+                  "target": [
+                    ".elementor-element-29a2ef9 > .elementor-widget-container > .elementor-button-wrapper > .elementor-size-sm.elementor-button.elementor-button-link"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element has insufficient color contrast of 2.91 (foreground color: #ffffff, background color: #00a9a4, font size: 11.3pt (15px), font weight: normal). Expected contrast ratio of 4.5:1"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<span class=\"elementor-button-text\">Get the guide</span>",
+          "target": [
+            ".elementor-element-29a2ef9 > .elementor-widget-container > .elementor-button-wrapper > .elementor-size-sm.elementor-button.elementor-button-link > .elementor-button-content-wrapper > .elementor-button-text"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 2.91 (foreground color: #ffffff, background color: #00a9a4, font size: 11.3pt (15px), font weight: normal). Expected contrast ratio of 4.5:1"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#ffffff",
+                "bgColor": "#00a9a4",
+                "contrastRatio": 2.91,
+                "fontSize": "11.3pt (15px)",
+                "fontWeight": "normal",
+                "messageKey": null,
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<input type=\"submit\" class=\"hs-button primary large\" value=\"Subscribe\">",
+                  "target": [
+                    ".hs-form-f907663e-efaf-4672-82db-d5cbe88ea984_7defd5f9-9c6d-4f10-b385-bdb9c33103d2 > .hs_submit.hs-submit > .actions > .hs-button.primary.large"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element has insufficient color contrast of 2.91 (foreground color: #ffffff, background color: #00a9a4, font size: 11.3pt (15px), font weight: normal). Expected contrast ratio of 4.5:1"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<input type=\"submit\" class=\"hs-button primary large\" value=\"Subscribe\">",
+          "target": [
+            ".hs-form-f907663e-efaf-4672-82db-d5cbe88ea984_7defd5f9-9c6d-4f10-b385-bdb9c33103d2 > .hs_submit.hs-submit > .actions > .hs-button.primary.large"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 2.91 (foreground color: #ffffff, background color: #00a9a4, font size: 11.3pt (15px), font weight: normal). Expected contrast ratio of 4.5:1"
+        }
+      ]
+    }
+  ]
+}

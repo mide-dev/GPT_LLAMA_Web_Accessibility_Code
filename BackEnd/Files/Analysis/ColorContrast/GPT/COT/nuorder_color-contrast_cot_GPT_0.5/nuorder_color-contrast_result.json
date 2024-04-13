@@ -1,0 +1,64 @@
+[
+  {
+    "analysisDetails": [
+      {
+        "model": "GPT"
+      },
+      {
+        "accessibility_type": "color-contrast"
+      },
+      {
+        "prompt_technique": "cot"
+      },
+      {
+        "temperature": 0.5
+      }
+    ],
+    "accessbilityTestResult": {
+      "violationBeforeModification": 8,
+      "violationAfterModification": 0
+    },
+    "modelCorrections": [
+      {
+        "beforeModification": "<a href=\"https://www.nuorder.com/privacy-policy-2/\" target=\"_blank\">Privacy Policy</a>",
+        "afterModification": "<a href=\"https://www.nuorder.com/privacy-policy-2/\" target=\"_blank\" style=\"color: #007A87;\">Privacy Policy</a>",
+        "rawOutput": "- Thought: To address the insufficient color contrast issue, I need to adjust the foreground color to ensure it meets the minimum contrast ratio of 4.5:1 against a white background. This adjustment should make the text more legible for users with visual impairments without compromising the design integrity of the website.\n\n- Corrected HTML: `<a href=\"https://www.nuorder.com/privacy-policy-2/\" target=\"_blank\" style=\"color: #007A87;\">Privacy Policy</a>`"
+      },
+      {
+        "beforeModification": "<span class=\"elementor-button-text\">Talk to an Expert</span>",
+        "afterModification": "<span class=\"elementor-button-text\" style=\"color: #ffffff; background-color: #00736a;\">Talk to an Expert</span>",
+        "rawOutput": "- Thought: To address the issue of insufficient color contrast between the text and its background, I need to adjust either the text color (foreground) or the background color in a way that achieves the required contrast ratio of 4.5:1. Given the original colors (#ffffff on #00a9a4) and the font size, I can opt to either darken the background or lighten the text. However, since the text is already white (#ffffff), the only feasible solution is to adjust the background color to a darker shade that maintains the visual design but meets the contrast ratio requirement.\n\n- Corrected HTML: `<span class=\"elementor-button-text\" style=\"color: #ffffff; background-color: #00736a;\">Talk to an Expert</span>`"
+      },
+      {
+        "beforeModification": "<span class=\"elementor-button-text\">Learn More</span>",
+        "afterModification": "<span class=\"elementor-button-text\" style=\"color: #007367;\">Learn More</span>",
+        "rawOutput": "- Thought: To address the insufficient color contrast, I need to adjust either the foreground or the background color to achieve the required contrast ratio of 4.5:1. Since the background is white (#ffffff) and is a common color that tends to be non-disruptive in design, I will adjust the foreground color to a darker shade that maintains the aesthetic feel but improves readability and meets the WCAG 2.1 standards.\n\n- Corrected HTML: `<span class=\"elementor-button-text\" style=\"color: #007367;\">Learn More</span>`"
+      },
+      {
+        "beforeModification": "<span class=\"elementor-button-text\">Read now</span>",
+        "afterModification": "<span class=\"elementor-button-text\" style=\"color: #ffffff; background-color: #007678;\">Read now</span>",
+        "rawOutput": "- Thought: To address the issue of insufficient color contrast, I need to either darken the background color or lighten the foreground color to achieve the required contrast ratio of 4.5:1. Given the original background color is #00a9a4 (a teal shade) and the foreground color is white (#ffffff), altering the background to a darker shade might preserve the visual integrity of the design while meeting accessibility standards.\n\n- Corrected HTML: `<span class=\"elementor-button-text\" style=\"color: #ffffff; background-color: #007678;\">Read now</span>`\n\nThis adjustment changes the background color to a darker shade of teal (#007678), which should significantly improve the contrast ratio, making the text more accessible to those with visual impairments, while maintaining a similar aesthetic."
+      },
+      {
+        "beforeModification": "<span class=\"elementor-button-text\">Watch on demand</span>",
+        "afterModification": "<span class=\"elementor-button-text\" style=\"color: #ffffff; background-color: #007670;\">Watch on demand</span>",
+        "rawOutput": "- Thought: To address the insufficient color contrast issue, I need to adjust either the foreground or the background color to achieve the required contrast ratio of 4.5:1. Since the foreground color is white (#ffffff), it might be more visually consistent to darken the background color rather than altering the text color. This will ensure that the text remains easily readable while also meeting accessibility standards.\n\n- Corrected HTML: `<span class=\"elementor-button-text\" style=\"color: #ffffff; background-color: #007670;\">Watch on demand</span>`"
+      },
+      {
+        "beforeModification": "<a href=\"https://digiday.com/\" target=\"_blank\">Digiday</a>",
+        "afterModification": "<a href=\"https://digiday.com/\" target=\"_blank\" style=\"color: #007367;\">Digiday</a>",
+        "rawOutput": "- Thought: To address the insufficient color contrast issue, I need to modify either the foreground or background color to achieve the required contrast ratio of 4.5:1, ensuring that the text remains legible against its background. Since the background color is white (#ffffff), it would be more practical to adjust the foreground color to a darker shade that maintains the aesthetic appeal but improves readability.\n\n- Corrected HTML: `<a href=\"https://digiday.com/\" target=\"_blank\" style=\"color: #007367;\">Digiday</a>`"
+      },
+      {
+        "beforeModification": "<span class=\"elementor-button-text\">Get the guide</span>",
+        "afterModification": "<span class=\"elementor-button-text\" style=\"color: #000000; background-color: #00a9a4;\">Get the guide</span>",
+        "rawOutput": "- Thought: To address the insufficient color contrast issue, I need to adjust either the foreground or background color to achieve the required contrast ratio of 4.5:1. Since the background color is a vibrant shade (#00a9a4), I can opt to change the foreground color from white (#ffffff) to a color that offers a higher contrast against the background, ensuring that the text is easily readable by users with visual impairments. It is important to maintain the aesthetic appeal of the button while enhancing its accessibility.\n\n- Corrected HTML: `<span class=\"elementor-button-text\" style=\"color: #000000; background-color: #00a9a4;\">Get the guide</span>`\n\nIn this correction, I have changed the text color to black (#000000), which significantly increases the contrast ratio against the teal background (#00a9a4), ensuring compliance with WCAG 2.1 guidelines for color contrast."
+      },
+      {
+        "beforeModification": "<input type=\"submit\" class=\"hs-button primary large\" value=\"Subscribe\">",
+        "afterModification": "<input type=\"submit\" class=\"hs-button primary large\" style=\"color: #ffffff; background-color: #00736b;\" value=\"Subscribe\">",
+        "rawOutput": "To address the WCAG 2.1 violation described, we need to adjust either the foreground color (text color) or the background color to achieve a contrast ratio of at least 4.5:1. Given the original colors (foreground color: #ffffff, background color: #00a9a4) and the specified font size and weight, the contrast ratio is currently 2.91, which is below the required threshold.\n\n- Thought: Since the foreground color is white (#ffffff), adjusting the background color to make it darker would be a straightforward solution to improve contrast without affecting the readability or aesthetic appeal significantly. I'll choose a darker shade of the original background color (#00a9a4) to maintain the visual design integrity while ensuring the contrast ratio meets or exceeds the 4.5:1 requirement.\n\n- Corrected HTML: `<input type=\"submit\" class=\"hs-button primary large\" style=\"color: #ffffff; background-color: #00736b;\" value=\"Subscribe\">`\n\nThis alteration changes the background color to a darker shade (#00736b), which should sufficiently increase the contrast ratio with the white text to meet the WCAG 2.1 standards. This approach maintains the original design's intent while ensuring accessibility compliance."
+      }
+    ]
+  }
+]

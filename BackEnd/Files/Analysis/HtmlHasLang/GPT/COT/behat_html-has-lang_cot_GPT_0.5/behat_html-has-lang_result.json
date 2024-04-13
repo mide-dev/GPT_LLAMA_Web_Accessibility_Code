@@ -1,0 +1,29 @@
+[
+  {
+    "analysisDetails": [
+      {
+        "model": "GPT"
+      },
+      {
+        "accessibility_type": "html-has-lang"
+      },
+      {
+        "prompt_technique": "cot"
+      },
+      {
+        "temperature": 0.5
+      }
+    ],
+    "accessbilityTestResult": {
+      "violationBeforeModification": 1,
+      "violationAfterModification": 0
+    },
+    "modelCorrections": [
+      {
+        "beforeModification": "<html>",
+        "afterModification": "<html>` element is missing the `lang` attribute, which is essential for defining the primary language of the document. This helps in assisting screen readers and other assistive technologies to work more effectively, providing a better experience for users who rely on these tools. It's important to specify the correct language code that matches the content of the webpage.\n\nCorrected HTML: `<html lang=\"en\">",
+        "rawOutput": "Thought: The `<html>` element is missing the `lang` attribute, which is essential for defining the primary language of the document. This helps in assisting screen readers and other assistive technologies to work more effectively, providing a better experience for users who rely on these tools. It's important to specify the correct language code that matches the content of the webpage.\n\nCorrected HTML: `<html lang=\"en\">`"
+      }
+    ]
+  }
+]
