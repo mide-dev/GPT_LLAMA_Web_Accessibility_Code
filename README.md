@@ -1,9 +1,8 @@
 # ASSESSING LLMs FOR WEB ACCESSIBILITY
 
 ## SETING UP LOCALLY
-- to set this up locally, download/clone the repo and run `npm install`
-- then open the `main.js` file, scroll to the bottom, you'll see the function call `runAnalysis()` with parameters.
-- run the `main.js` function via the node terminal -> `node main.js`.
+- to set this up locally, download/clone the repo and run `npm install`.
+- run the `app.js` function via the node terminal -> `node app.js`. (Make sure to provide some URLs before running this)
 
 ## Description
 - The `Main.js` script is the entry point.
