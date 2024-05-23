@@ -3,7 +3,7 @@ const OpenAI = require("openai");
 
 // Initialize the OpenAI client
 const openai = new OpenAI({
-  apiKey: "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", // Note: Intentionally left the API key public.
+  apiKey: "", // Note: Intentionally left the API key public.
 });
 
 /**

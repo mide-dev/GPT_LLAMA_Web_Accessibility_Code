@@ -2,7 +2,7 @@ const Anthropic = require("@anthropic-ai/sdk");
 
 const anthropic = new Anthropic({
   apiKey:
-    "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", // defaults to process.env["ANTHROPIC_API_KEY"]
+    "", // defaults to process.env["ANTHROPIC_API_KEY"]
 });
 
 async function promptClaude(prompt, temperature) {
