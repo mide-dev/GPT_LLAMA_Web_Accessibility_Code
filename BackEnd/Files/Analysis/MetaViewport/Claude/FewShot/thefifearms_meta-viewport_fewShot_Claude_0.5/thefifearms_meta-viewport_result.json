@@ -1,0 +1,29 @@
+[
+  {
+    "analysisDetails": [
+      {
+        "model": "Claude"
+      },
+      {
+        "accessibility_type": "meta-viewport"
+      },
+      {
+        "prompt_technique": "fewShot"
+      },
+      {
+        "temperature": 0.5
+      }
+    ],
+    "accessbilityTestResult": {
+      "violationBeforeModification": 1,
+      "violationAfterModification": 0
+    },
+    "modelCorrections": [
+      {
+        "beforeModification": "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0\">",
+        "afterModification": "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1, user-scalable=yes\">",
+        "rawOutput": "Here's the corrected HTML based on the WCAG 2.1 violation description:\n\n- Corrected HTML: <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, user-scalable=yes\">\n\nExplanation:\nThe original HTML code had two issues that violated WCAG 2.1 guidelines:\n1. `maximum-scale=1` restricted zooming to a maximum of 1x, which limits accessibility for users who need to zoom in for better readability.\n2. `user-scalable=0` disabled zooming entirely, preventing users from adjusting the zoom level according to their needs.\n\nTo fix these issues and make the HTML code more accessible:\n1. The `maximum-scale` parameter has been removed to allow users to zoom in beyond 1x if needed.\n2. The `user-scalable` parameter has been set to `yes` to enable zooming functionality on mobile devices.\n\nBy making these changes, the corrected HTML code ensures that users can zoom in and out as needed, improving accessibility and complying with WCAG 2.1 guidelines."
+      }
+    ]
+  }
+]

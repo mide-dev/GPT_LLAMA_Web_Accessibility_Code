@@ -1,0 +1,29 @@
+[
+  {
+    "analysisDetails": [
+      {
+        "model": "GPT"
+      },
+      {
+        "accessibility_type": "meta-viewport"
+      },
+      {
+        "prompt_technique": "fewShot"
+      },
+      {
+        "temperature": 0.5
+      }
+    ],
+    "accessbilityTestResult": {
+      "violationBeforeModification": 1,
+      "violationAfterModification": 0
+    },
+    "modelCorrections": [
+      {
+        "beforeModification": "<meta name=\"viewport\" content=\"width=device-width,initial-scale=1, maximum-scale=1\">",
+        "afterModification": "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=5.0\">",
+        "rawOutput": "```html\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=5.0\">\n```"
+      }
+    ]
+  }
+]

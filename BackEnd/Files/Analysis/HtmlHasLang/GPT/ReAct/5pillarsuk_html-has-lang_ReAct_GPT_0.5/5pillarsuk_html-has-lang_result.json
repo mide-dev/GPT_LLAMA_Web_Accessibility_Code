@@ -21,8 +21,8 @@
     "modelCorrections": [
       {
         "beforeModification": "<html prefix=\"og: http://ogp.me/ns#\" class=\" td-md-is-chrome\">",
-        "afterModification": "<html>` element is missing a `lang` attribute, which is necessary for defining the primary language of the document. This helps screen readers and other assistive technologies provide the correct language context to users.\n\n- Action: Determine the primary language of the content. If it's English, add `lang=\"en\"` to the `<html>` element.\n\n- Corrected HTML: `<html lang=\"en\" prefix=\"og: http://ogp.me/ns#\" class=\" td-md-is-chrome\">",
-        "rawOutput": "- Thought: The `<html>` element is missing a `lang` attribute, which is necessary for defining the primary language of the document. This helps screen readers and other assistive technologies provide the correct language context to users.\n\n- Action: Determine the primary language of the content. If it's English, add `lang=\"en\"` to the `<html>` element.\n\n- Corrected HTML: `<html lang=\"en\" prefix=\"og: http://ogp.me/ns#\" class=\" td-md-is-chrome\">`"
+        "afterModification": "<html lang=\"en\" prefix=\"og: http://ogp.me/ns#\" class=\" td-md-is-chrome\">",
+        "rawOutput": "- Thought: To make the HTML code accessible according to WCAG 2.1 guidelines, I need to add the \"lang\" attribute to the <html> tag to specify the language of the content.\n- Observation: The extracted text \"5Pillars\" does not provide a clear indication of the language used on the website. However, assuming that the content is in English due to the absence of any language-specific characters or words, I will proceed with adding English as the language.\n- Action: Add [lang=\"en\"] to the HTML.\n- Corrected HTML: <html lang=\"en\" prefix=\"og: http://ogp.me/ns#\" class=\" td-md-is-chrome\">"
       }
     ]
   }

@@ -1,0 +1,29 @@
+[
+  {
+    "analysisDetails": [
+      {
+        "model": "Claude"
+      },
+      {
+        "accessibility_type": "html-has-lang"
+      },
+      {
+        "prompt_technique": "fewShot"
+      },
+      {
+        "temperature": 0.5
+      }
+    ],
+    "accessbilityTestResult": {
+      "violationBeforeModification": 1,
+      "violationAfterModification": 0
+    },
+    "modelCorrections": [
+      {
+        "beforeModification": "<html>",
+        "afterModification": "<html lang=\"de\">",
+        "rawOutput": "Here's the corrected HTML based on the WCAG 2.1 violation description and the provided example:\n\n*Extracted text from website*: \"LOKALMAGAZIN BÜRGERBLICK\"\n- Incorrect HTML: <html>\n- Corrected HTML: <html lang=\"de\">\n\nExplanation:\nThe <html> element was missing the lang attribute, which is required to specify the language of the webpage. Based on the extracted text \"LOKALMAGAZIN BÜRGERBLICK\", which is in German, the appropriate language code for the lang attribute is \"de\" (representing German). Adding lang=\"de\" to the <html> tag ensures that the webpage's language is correctly identified, improving accessibility for users and assisting technologies like screen readers."
+      }
+    ]
+  }
+]

@@ -1,10 +1,10 @@
 async function query(data) {
   const response = await fetch(
-    "https://api-inference.huggingface.co/models/meta-llama/Llama-2-13b-chat-hf",
+    "https://api-inference.huggingface.co/models/meta-llama/Llama-2-7b-chat-hf",
     {
       headers: {
         Authorization: "Bearer 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",
-        "Content-Type": "application/json", // Add this line
+        "Content-Type": "application/json", 
       },
       method: "POST",
       body: JSON.stringify(data),
@@ -43,5 +43,4 @@ async function promptLlama(prompt, temperature) {
   }
 }
 
-// Export function
 module.exports.promptLlama = promptLlama;

@@ -1,0 +1,29 @@
+[
+  {
+    "analysisDetails": [
+      {
+        "model": "Claude"
+      },
+      {
+        "accessibility_type": "html-has-lang"
+      },
+      {
+        "prompt_technique": "fewShot"
+      },
+      {
+        "temperature": 0.5
+      }
+    ],
+    "accessbilityTestResult": {
+      "violationBeforeModification": 1,
+      "violationAfterModification": 0
+    },
+    "modelCorrections": [
+      {
+        "beforeModification": "<html prefix=\"og: http://ogp.me/ns#\" class=\" td-md-is-chrome\">",
+        "afterModification": "<html lang=\"en\" prefix=\"og: http://ogp.me/ns#\" class=\" td-md-is-chrome\">",
+        "rawOutput": "Here's the corrected HTML based on the WCAG 2.1 violation description and the example provided:\n\n*Extracted text from website*: \"5Pillars\"\n- Incorrect HTML: <html prefix=\"og: http://ogp.me/ns#\" class=\" td-md-is-chrome\">\n- Corrected HTML: <html lang=\"en\" prefix=\"og: http://ogp.me/ns#\" class=\" td-md-is-chrome\">\n\nExplanation:\nThe <html> element was missing the lang attribute, which is required to specify the language of the document. By adding lang=\"en\", we indicate that the content of the webpage is in English. This helps assistive technologies, such as screen readers, to pronounce the text correctly and enables translation tools to identify the language accurately."
+      }
+    ]
+  }
+]

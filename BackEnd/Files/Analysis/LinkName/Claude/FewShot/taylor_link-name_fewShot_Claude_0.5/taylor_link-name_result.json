@@ -1,0 +1,54 @@
+[
+  {
+    "analysisDetails": [
+      {
+        "model": "Claude"
+      },
+      {
+        "accessibility_type": "link-name"
+      },
+      {
+        "prompt_technique": "fewShot"
+      },
+      {
+        "temperature": 0.5
+      }
+    ],
+    "accessbilityTestResult": {
+      "violationBeforeModification": 6,
+      "violationAfterModification": 0
+    },
+    "modelCorrections": [
+      {
+        "beforeModification": "<a href=\"https://www.linkedin.com/company/taylorcorporation/\"><i class=\"fa-brands fa-linkedin\" aria-hidden=\"true\"></i></a>",
+        "afterModification": "<a href=\"https://www.linkedin.com/company/taylorcorporation/\" aria-label=\"Taylor Corporation LinkedIn\"><i class=\"fa-brands fa-linkedin\" aria-hidden=\"true\"></i></a>",
+        "rawOutput": "Here's the corrected HTML based on the WCAG 2.1 violation description and the provided example:\n\n- Corrected HTML: <a href=\"https://www.linkedin.com/company/taylorcorporation/\" aria-label=\"Taylor Corporation LinkedIn\"><i class=\"fa-brands fa-linkedin\" aria-hidden=\"true\"></i></a>\n\nExplanation:\nTo fix the accessibility issue, I added the `aria-label` attribute to the `<a>` element, providing a descriptive text for screen readers. The `aria-label` attribute is used to define a string that labels the current element, making it accessible to assistive technologies.\n\nBy adding `aria-label=\"Taylor Corporation LinkedIn\"`, screen readers will announce this text when encountering the link, providing a clear and meaningful description of the link's purpose."
+      },
+      {
+        "beforeModification": "<a href=\"https://www.youtube.com/@TaylorCorporation\"><i class=\"fa-brands fa-youtube\" aria-hidden=\"true\"></i></a>",
+        "afterModification": "<a href=\"https://www.youtube.com/@TaylorCorporation\" aria-label=\"Taylor Corporation YouTube Channel\"><i class=\"fa-brands fa-youtube\" aria-hidden=\"true\"></i></a>",
+        "rawOutput": "Here's the corrected HTML based on the WCAG 2.1 violation description:\n\n- Corrected HTML: <a href=\"https://www.youtube.com/@TaylorCorporation\" aria-label=\"Taylor Corporation YouTube Channel\"><i class=\"fa-brands fa-youtube\" aria-hidden=\"true\"></i></a>\n\nExplanation:\nTo fix the accessibility issue, I added the `aria-label` attribute to the `<a>` element, providing a descriptive label for the link. The `aria-label` attribute is used to provide an accessible name for the element, which is announced by screen readers.\n\nBy adding `aria-label=\"Taylor Corporation YouTube Channel\"`, the link now has accessible text that describes its purpose, making it understandable for users relying on assistive technologies."
+      },
+      {
+        "beforeModification": "<a href=\"https://www.instagram.com/taylorcorporation\"><i class=\"fa-brands fa-instagram\" aria-hidden=\"true\"></i></a>",
+        "afterModification": "<a href=\"https://www.instagram.com/taylorcorporation\"><i class=\"fa-brands fa-instagram\" aria-hidden=\"true\"></i></a>\n- Corrected HTML: <a href=\"https://www.instagram.com/taylorcorporation\" aria-label=\"Taylor Corporation Instagram\"><i class=\"fa-brands fa-instagram\" aria-hidden=\"true\"></i></a>",
+        "rawOutput": "Here's the corrected HTML based on the WCAG 2.1 violation description and the provided examples:\n\n- Incorrect HTML: <a href=\"https://www.instagram.com/taylorcorporation\"><i class=\"fa-brands fa-instagram\" aria-hidden=\"true\"></i></a>\n- Corrected HTML: <a href=\"https://www.instagram.com/taylorcorporation\" aria-label=\"Taylor Corporation Instagram\"><i class=\"fa-brands fa-instagram\" aria-hidden=\"true\"></i></a>\n\nExplanation:\nThe original HTML had an empty anchor tag with no accessible text. To fix this, I added the `aria-label` attribute to the anchor tag, providing a descriptive label for screen readers. The `aria-label` attribute is used to specify the accessible name for an element when there is no visible text content.\n\nBy adding `aria-label=\"Taylor Corporation Instagram\"`, screen readers will announce the purpose of the link as \"Taylor Corporation Instagram\" when the user focuses on or interacts with the anchor tag."
+      },
+      {
+        "beforeModification": "<a href=\"https://www.facebook.com/TaylorCorp\"><i class=\"fa-brands fa-facebook\" aria-hidden=\"true\"></i></a>",
+        "afterModification": "<a href=\"https://www.facebook.com/TaylorCorp\" aria-label=\"Facebook\"><i class=\"fa-brands fa-facebook\" aria-hidden=\"true\"></i></a>",
+        "rawOutput": "Here's the corrected HTML based on the WCAG 2.1 violation description:\n\n- Corrected HTML: <a href=\"https://www.facebook.com/TaylorCorp\" aria-label=\"Facebook\"><i class=\"fa-brands fa-facebook\" aria-hidden=\"true\"></i></a>\n\nExplanation:\nTo fix the accessibility issue, I added the `aria-label` attribute with the value \"Facebook\" to provide accessible text for the link. The `aria-label` attribute is used to define a string that labels the current element for assistive technologies.\n\nBy adding `aria-label=\"Facebook\"`, screen readers will announce the link as \"Facebook\" instead of just announcing it as a link without any context. This helps users understand the purpose of the link and where it leads to.\n\nThe `aria-hidden=\"true\"` attribute on the `<i>` element is correct and should be kept as is. It ensures that the icon itself is not announced by screen readers, as the `aria-label` on the parent `<a>` element provides the necessary information."
+      },
+      {
+        "beforeModification": "<a href=\"https://www.tiktok.com/@taylorcorporation\"><i class=\"fa-brands fa-tiktok\" aria-hidden=\"true\"></i></a>",
+        "afterModification": "<a href=\"https://www.tiktok.com/@taylorcorporation\" aria-label=\"Taylor Corporation on TikTok\"><i class=\"fa-brands fa-tiktok\" aria-hidden=\"true\"></i></a>",
+        "rawOutput": "Here's the corrected HTML based on the WCAG 2.1 violation description:\n\n- Corrected HTML: <a href=\"https://www.tiktok.com/@taylorcorporation\" aria-label=\"Taylor Corporation on TikTok\"><i class=\"fa-brands fa-tiktok\" aria-hidden=\"true\"></i></a>\n\nExplanation:\nTo fix the accessibility issue, I added the `aria-label` attribute to the `<a>` element, providing a descriptive text for screen readers. The `aria-label` attribute describes the purpose of the link, which is \"Taylor Corporation on TikTok\". This ensures that the link has accessible text for users relying on assistive technologies."
+      },
+      {
+        "beforeModification": "<a href=\"https://twitter.com/TaylorCorp\"><i class=\"fa-brands fa-square-x-twitter\" aria-hidden=\"true\"></i></a>",
+        "afterModification": "<a href=\"https://twitter.com/TaylorCorp\" aria-label=\"Twitter\"><i class=\"fa-brands fa-square-x-twitter\" aria-hidden=\"true\"></i></a>",
+        "rawOutput": "Here's the corrected HTML based on the WCAG 2.1 violation description and the provided examples:\n\n- Corrected HTML: <a href=\"https://twitter.com/TaylorCorp\" aria-label=\"Twitter\"><i class=\"fa-brands fa-square-x-twitter\" aria-hidden=\"true\"></i></a>\n\nExplanation:\nTo fix the accessibility issue, I added the `aria-label` attribute to the `<a>` element with a descriptive text \"Twitter\". This provides an accessible name for the link, making it understandable for screen reader users.\n\nAdditionally, the `aria-hidden=\"true\"` attribute is already present on the `<i>` element, which ensures that the icon itself is not announced by screen readers, as it is purely decorative.\n\nWith these changes, the link now has accessible text and complies with the WCAG 2.1 guidelines."
+      }
+    ]
+  }
+]

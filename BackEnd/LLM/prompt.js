@@ -1,7 +1,8 @@
 const getAccesibilityPrompt = (
   accessibility_type,
   violationHtml,
-  description
+  description,
+  extractedText
 ) => {
   const accessibilityTypes = {
     "color-contrast": {
@@ -32,15 +33,9 @@ const getAccesibilityPrompt = (
         *WCAG 2.1 violation description* : Fix any of the following:\n  Element has insufficient color contrast of 4.41 (foreground color: #1e73be, background color: #f2f2f2, font size: 16.8pt (22.4px), font weight: normal). Expected contrast ratio of 4.5:1.
         Incorrect HTML: '<div class="row-bg viewport-desktop using-bg-color" style="background-color: #f2f2f2;"></div>'
         - Thought: I need to make sure the color contrast in the provided HTML matches complies with the required contrast of 4.5:1 as per WCAG 2.1 guidelines.
-        - Observation: Since the contrast ratio is already at 4.41 with a foreground color of #1e73be (a medium blue) and a background color of #f2f2f2 (a very light grey), making a slight adjustment to the background color should achieve compliance without significantly altering the visual aesthetics of the website.
-        - Thought: I should use this new insight to calculate a slightly darker shade of the current background color that would meet the required contrast ratio of 4.5:1.
-        - Action: calculate a slightly darker shade of [#f2f2f2].
-        - Thought: I got "#ededed" from the above calculation. I need to verify that the new background color combined with the foreground color meets the constrast ratio of 4.5:1.
-        - Action: Calculate contrast between new background color ("#ededed") and foreground color (#1e73be) using WCAG contrast formula - contrast ratio = (L1 +0.05)/(L2 + 0.05).
-        - Observation: From the calculation, I see that the new contrast ratio is 4.22:1 which does not comply with the required 4.5:1.
-        - Thought: I need to choose a new color. I'll alter the foreground color (#1e73be) this time while keeping the old background color (#f2f2f2).
+        - Observation: Since the contrast ratio is already at 4.41 with a foreground color of #1e73be (a medium blue) and a background color of #f2f2f2 (a very light grey), I should alter the foreground color while maintaining visual aesthetics of the website.
         - Action: Choose new foreground color that significantly enhances constrast.
-        - Thought: The new foreground color is "#1c71bc". I need to verify that this new foreground color combined with initial background color (#f2f2f2) meets up to a contrast of 4.5:1.
+        - Thought: The new foreground color is "#1c71bc". I need to verify that this new foreground color combined with background color (#f2f2f2) meets up to a contrast of 4.5:1.
         - Action: Calculate contrast between new foreground color ("#1c71bc") and background color (#f2f2f2) using WCAG contrast formula - contrast ratio = (L1 +0.05)/(L2 + 0.05).
         - Observation: This new combination meets the required contrast of 4.5:1.
         - Thought: I need to overrite the previous color using the style tag in the above HTML.
@@ -108,23 +103,27 @@ const getAccesibilityPrompt = (
     "html-has-lang": {
       fewShot: `
       *WCAG 2.1 violation description* : ${description}
-  
+      
       Example:
+      *Extracted text from website*: "Africa's leading Automobile"
       - Incorrect HTML: <html prefix=\"og: http://ogp.me/ns#\">
       - Corrected HTML: <html lang="en" prefix=\"og: http://ogp.me/ns#\">
-  
+      
       Your Task:
+      *Extracted text from website*: "${extractedText}"
       - Incorrect HTML: ${violationHtml}
       - Corrected HTML: `,
       cot: `
       *WCAG 2.1 violation description* : ${description}
   
       Example:
+      *Extracted text from website*: "Africa's leading Automobile"
       - Incorrect HTML: <html prefix=\"og: http://ogp.me/ns#\">
-      - Thought: I need to correct the above HTML by adding a adding the "lang" attribute and assigning the right language to it.
+      - Thought: I need to correct the above HTML by adding a adding the "lang" attribute and assigning the right language using the "Extracted text from website" for language context. 
       - Corrected HTML: <html lang="en" prefix=\"og: http://ogp.me/ns#\">
   
       Your Task:
+      *Extracted text from website*: "${extractedText}"
       - Incorrect HTML: ${violationHtml}
       - Thought:
       - Corrected HTML:`,
@@ -132,12 +131,15 @@ const getAccesibilityPrompt = (
       *WCAG 2.1 violation description* : ${description}
   
       Example:
+      *Extracted text from website*: "Africa's leading Automobile"
       - Incorrect HTML: <html prefix=\"og: http://ogp.me/ns#\">
       - Thought: I need to correct the above HTML by adding a adding the "lang" attribute and assigning the right language to it.
+      - Observation: Since the Extracted text from the website is in english, then the site must be in english. 
       - Action: Add[lang="en"] to the HTML
       - Corrected HTML: <html lang="en" prefix=\"og: http://ogp.me/ns#\">
 
       Your Task:
+      *Extracted text from website*: "${extractedText}"
       - Incorrect HTML: ${violationHtml}`,
     },
     "aria-required-attr": {
@@ -145,13 +147,9 @@ const getAccesibilityPrompt = (
       *WCAG 2.1 violation description* : ${description}
   
       Example 1:
-      - Incorrect HTML: <div role="checkbox" tabindex="0">Keep me signed in</div>
-      - Corrected HTML: <div role="checkbox" aria-checked="false" tabindex="0">Keep me signed in</div>
-  
-      Example 2:
       - Incorrect HTML: <div role="textbox" contenteditable="true"></div>
       - Corrected HTML: <div role="textbox" contenteditable="true" aria-multiline="true aria-label="Enter your hobbies" aria-required="true"></div>
-  
+
       Your Task:
       - Incorrect HTML: ${violationHtml}
       - Corrected HTML:`,
@@ -159,11 +157,6 @@ const getAccesibilityPrompt = (
       *WCAG 2.1 violation description* : ${description}
   
       Example 1:
-      - Incorrect HTML: <div role="checkbox" tabindex="0">Keep me signed in</div>
-      - Thought: Because the above div element have a role of checkbox, I need to add the required aria attribute (aria-checked) that is needed for a checkbox according to WCAG 2.1.
-      - Corrected HTML: <div role="checkbox" aria-checked="false" tabindex="0">Keep me signed in</div>
-  
-      Example 2:
       - Incorrect HTML: <div role="textbox" contenteditable="true"></div>
       - Thought: Because the above div element have a role of textbox, I need to add all WCAG required aria attributes (aria-multiline, aria-label, and aria-required) that is needed for a textbox according to WCAG 2.1.
       - Corrected HTML: <div role="textbox" contenteditable="true" aria-multiline="true aria-label="Enter your hobbies" aria-required="true"></div>
@@ -176,19 +169,12 @@ const getAccesibilityPrompt = (
       *WCAG 2.1 violation description* : ${description}
   
       Example 1:
-      - Incorrect HTML: <div role="checkbox" tabindex="0">Keep me signed in</div>
-      - Thought: Because the above div element have a role of checkbox, I need to add the required aria attribute that is needed for a checkbox to fix the issue.
-      - Observation: an element with role="checkbox" needs an attribute 'aria-checked' according to WCAG 2.1.
-      - Action: add[aria-checked]
-      - Corrected HTML: <div role="checkbox" aria-checked="false" tabindex="0">Keep me signed in</div>
-  
-      Example 2:
       - Incorrect HTML: <div role="textbox" contenteditable="true"></div>
       - Thought: Because the above div element have a role of textbox, I need to add all WCAG 2.1 required aria attributes that is needed for a textbox to fix the issue.
-      - Observation: an element with a role="textbox" needs multiple attributes (aria-multiline, aria-label, and aria-required) according to WCAG 2.1.
-      - Action: add[aria-multiline, aria-label, and aria-required]
+      - Observation: an element with a role="textbox" needs multiple attributes (aria-multiline, aria-label, and aria-required) according to WCAG.
+      - Action: add[ria-multiline="true aria-label="Enter your hobbies" aria-required="true"] to the HTML.
       - Corrected HTML: <div role="textbox" contenteditable="true" aria-multiline="true aria-label="Enter your hobbies" aria-required="true"></div>
-  
+      
       Your Task:
       - Incorrect HTML: ${violationHtml}`,
     },
@@ -252,12 +238,14 @@ function generateAccessibilityPrompt(
   accessibility_type,
   violationHtml,
   description,
-  promptTechnique
+  promptTechnique,
+  extractedText
 ) {
   const strategy = getAccesibilityPrompt(
     accessibility_type,
     violationHtml,
-    description
+    description,
+    extractedText
   );
   if (!strategy) {
     console.error("Unsupported issue type:", accessibility_type);

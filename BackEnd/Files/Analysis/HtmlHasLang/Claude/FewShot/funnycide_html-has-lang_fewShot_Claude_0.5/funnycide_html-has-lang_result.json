@@ -1,0 +1,29 @@
+[
+  {
+    "analysisDetails": [
+      {
+        "model": "Claude"
+      },
+      {
+        "accessibility_type": "html-has-lang"
+      },
+      {
+        "prompt_technique": "fewShot"
+      },
+      {
+        "temperature": 0.5
+      }
+    ],
+    "accessbilityTestResult": {
+      "violationBeforeModification": 1,
+      "violationAfterModification": 0
+    },
+    "modelCorrections": [
+      {
+        "beforeModification": "<html>",
+        "afterModification": "<html lang=\"en\">",
+        "rawOutput": "Here's the corrected HTML based on the WCAG 2.1 violation description and the example provided:\n\n      Your Task:\n      *Extracted text from website*: \"Welcome!\"\n      - Incorrect HTML: <html>\n      - Corrected HTML: <html lang=\"en\">\n\nThe `lang` attribute has been added to the `<html>` tag, specifying the language of the document as English (\"en\"). This helps assistive technologies, such as screen readers, to correctly interpret and pronounce the content of the webpage."
+      }
+    ]
+  }
+]

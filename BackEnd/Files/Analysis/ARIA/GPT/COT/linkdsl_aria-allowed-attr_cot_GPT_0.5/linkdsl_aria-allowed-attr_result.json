@@ -1,0 +1,39 @@
+[
+  {
+    "analysisDetails": [
+      {
+        "model": "GPT"
+      },
+      {
+        "accessibility_type": "aria-allowed-attr"
+      },
+      {
+        "prompt_technique": "cot"
+      },
+      {
+        "temperature": 0.5
+      }
+    ],
+    "accessbilityTestResult": {
+      "violationBeforeModification": 3,
+      "violationAfterModification": 0
+    },
+    "modelCorrections": [
+      {
+        "beforeModification": "<label aria-controls=\"collapseOne\" aria-expanded=\"true\" class=\"radio\" data-target=\"#offerbox-main-buy-now-details\" data-toggle=\"collapse\">",
+        "afterModification": "<button aria-controls=\"collapseOne\" aria-expanded=\"true\" class=\"radio\" data-target=\"#offerbox-main-buy-now-details\" data-toggle=\"collapse\">Toggle Details</button>\n<label for=\"offerbox-main-buy-now-details\" class=\"radio\">Offer Details</label>",
+        "rawOutput": "- Thought: The violation indicates that the use of `aria-expanded=\"true\"` is not allowed for the specified context. Given that `aria-expanded` is typically used with elements that control the expansion or collapse of content, such as buttons or links that act as triggers for collapsible content, it might be incorrectly applied to a label element. Labels are not interactive elements that control the visibility of other elements but are meant to provide accessible names for form controls. Therefore, to correct the HTML for accessibility, we need to ensure that the `aria-expanded` attribute is used with an appropriate interactive element that controls the visibility of another element. If the label is meant to indicate a relationship with a collapsible section, we should ensure that the interactive element (e.g., a button) controlling the collapsible section is marked with `aria-expanded` and that it is properly associated with the content it controls.\n\n- Corrected HTML:\n```html\n<button aria-controls=\"collapseOne\" aria-expanded=\"true\" class=\"radio\" data-target=\"#offerbox-main-buy-now-details\" data-toggle=\"collapse\">Toggle Details</button>\n<label for=\"offerbox-main-buy-now-details\" class=\"radio\">Offer Details</label>\n```\n\nIn this corrected HTML, a button element is introduced to appropriately use the `aria-expanded` attribute, indicating it as the interactive element that controls the visibility of the collapsible content identified by `aria-controls=\"collapseOne\"`. The `label` element is kept to provide an accessible name (`Offer Details`) for the content but is no longer misusing the `aria-expanded` attribute. This approach aligns with the accessibility requirements by correctly associating interactive controls with the elements they manage, improving the experience for users relying on assistive technologies."
+      },
+      {
+        "beforeModification": "<label aria-controls=\"leaseCalculator\" aria-expanded=\"false\" class=\"radio\" data-target=\"#offerbox-main-lease-calculator\" data-toggle=\"collapse\">",
+        "afterModification": "<button aria-controls=\"leaseCalculator\" aria-expanded=\"false\" class=\"radio\" data-target=\"#offerbox-main-lease-calculator\" data-toggle=\"collapse\">Lease Options</button>",
+        "rawOutput": "Thought: The issue stems from the use of `aria-expanded=\"false\"` on an element that does not support this ARIA attribute in the given context. Since `aria-expanded` is used to indicate the state of expandable content, it should be applied to controls that manage visibility of content, such as buttons or links, not on a label element. To correct this, we need to identify the correct element that actually controls the expanding and collapsing of content and apply `aria-expanded` to it properly.\n\nCorrected HTML: \n```html\n<button aria-controls=\"leaseCalculator\" aria-expanded=\"false\" class=\"radio\" data-target=\"#offerbox-main-lease-calculator\" data-toggle=\"collapse\">Lease Options</button>\n```"
+      },
+      {
+        "beforeModification": "<label aria-controls=\"makeOfferDetails\" aria-expanded=\"false\" class=\"radio\" data-target=\"#offerbox-main-make-offer-details\" data-toggle=\"collapse\">",
+        "afterModification": "<button aria-controls=\"makeOfferDetails\" aria-expanded=\"false\" class=\"radio\" data-target=\"#offerbox-main-make-offer-details\" data-toggle=\"collapse\">Make Offer Details</button>",
+        "rawOutput": "Thought: The violation description indicates that the use of `aria-expanded=\"false\"` is not allowed in the context it was used. This attribute is typically used with elements that control the expansion of another element, indicating whether the controlled element is currently expanded or not. Given that the `label` element is likely intended to control the expansion of another element (as suggested by the `aria-controls` attribute pointing to \"makeOfferDetails\"), the use of `aria-expanded` is conceptually correct but might be incorrectly applied to a `label` element that doesn't inherently support this attribute as per ARIA specifications. To correct this, we should ensure that `aria-expanded` is applied to an element that correctly acts as a controller (such as a button), or we adjust the role of the current element to match its functionality.\n\nCorrected HTML:\n```html\n<button aria-controls=\"makeOfferDetails\" aria-expanded=\"false\" class=\"radio\" data-target=\"#offerbox-main-make-offer-details\" data-toggle=\"collapse\">Make Offer Details</button>\n```\n\nIn this correction:\n- I've changed the element from a `label` to a `button`. This is because a `button` is more semantically correct for an action that expands/collapses another element and is a commonly recommended element for use with `aria-expanded`.\n- This change also inherently corrects the ARIA violation since a `button` is an interactive element that is allowed to have the `aria-expanded` attribute.\n- I've added a visible text \"Make Offer Details\" inside the button for clarity, assuming the original `label` might have been associated with a visual indicator for expanding details. This text should be adjusted based on the actual content and purpose of the button."
+      }
+    ]
+  }
+]

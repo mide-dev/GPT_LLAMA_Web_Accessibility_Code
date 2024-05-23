@@ -1,0 +1,29 @@
+[
+  {
+    "analysisDetails": [
+      {
+        "model": "GPT"
+      },
+      {
+        "accessibility_type": "html-has-lang"
+      },
+      {
+        "prompt_technique": "cot"
+      },
+      {
+        "temperature": 0.5
+      }
+    ],
+    "accessbilityTestResult": {
+      "violationBeforeModification": 1,
+      "violationAfterModification": 0
+    },
+    "modelCorrections": [
+      {
+        "beforeModification": "<html>",
+        "afterModification": "<html lang=\"en-US\">",
+        "rawOutput": "- Thought: To correct the above HTML, I need to add the \"lang\" attribute and assign the appropriate language based on the \"Extracted text from website\". Since the text is in English and appears to be American (given the reference to Rochester, which is a city in the United States), I will use \"en-US\" as the language code.\n\n- Corrected HTML: <html lang=\"en-US\">"
+      }
+    ]
+  }
+]

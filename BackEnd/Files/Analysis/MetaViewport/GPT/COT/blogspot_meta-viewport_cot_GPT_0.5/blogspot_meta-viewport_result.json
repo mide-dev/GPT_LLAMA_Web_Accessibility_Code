@@ -1,0 +1,29 @@
+[
+  {
+    "analysisDetails": [
+      {
+        "model": "GPT"
+      },
+      {
+        "accessibility_type": "meta-viewport"
+      },
+      {
+        "prompt_technique": "cot"
+      },
+      {
+        "temperature": 0.5
+      }
+    ],
+    "accessbilityTestResult": {
+      "violationBeforeModification": 1,
+      "violationAfterModification": 0
+    },
+    "modelCorrections": [
+      {
+        "beforeModification": "<meta content=\"width=device-width, initial-scale=1, maximum-scale=1\" name=\"viewport\">",
+        "afterModification": "<meta content=\"width=device-width, initial-scale=1, user-scalable=yes\" name=\"viewport\">",
+        "rawOutput": "- Thought: I need to remove or adjust the maximum-scale value to allow zooming on mobile devices for better accessibility according to WCAG 2.1 guidelines.\n\n- Corrected HTML: <meta content=\"width=device-width, initial-scale=1, user-scalable=yes\" name=\"viewport\">"
+      }
+    ]
+  }
+]

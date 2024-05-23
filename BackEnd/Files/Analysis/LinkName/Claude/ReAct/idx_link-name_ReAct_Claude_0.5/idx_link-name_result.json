@@ -1,0 +1,54 @@
+[
+  {
+    "analysisDetails": [
+      {
+        "model": "Claude"
+      },
+      {
+        "accessibility_type": "link-name"
+      },
+      {
+        "prompt_technique": "ReAct"
+      },
+      {
+        "temperature": 0.5
+      }
+    ],
+    "accessbilityTestResult": {
+      "violationBeforeModification": 6,
+      "violationAfterModification": 1
+    },
+    "modelCorrections": [
+      {
+        "beforeModification": "<a href=\"javascript:void(0)\" class=\"menu-custom-corp\"><i class=\"fa fa-bars\"></i></a>",
+        "afterModification": "<a href=\"javascript:void(0)\" class=\"menu-custom-corp\" aria-label=\"Toggle Navigation Menu\"><i class=\"fa fa-bars\"></i></a>",
+        "rawOutput": "Here are the steps to correct the HTML for accessibility:\n\n- Incorrect HTML: <a href=\"javascript:void(0)\" class=\"menu-custom-corp\"><i class=\"fa fa-bars\"></i></a>\n\n- Thought: I need to correct the above HTML by adding accessible text. Since the link doesn't have any visible text, I'll add an aria-label attribute to provide a description of what the link does.\n\n- Observation: The link contains an <i> element with classes \"fa\" and \"fa-bars\". This likely represents a hamburger menu icon commonly used to toggle a navigation menu.\n\n- Thought: Based on the observation, I'll use \"Toggle Navigation Menu\" as the aria-label to clearly describe the purpose of the link.\n\n- Corrected HTML: <a href=\"javascript:void(0)\" class=\"menu-custom-corp\" aria-label=\"Toggle Navigation Menu\"><i class=\"fa fa-bars\"></i></a>\n\nThe aria-label attribute provides an accessible name for the link that screen readers can announce to users, making it clear what action the link performs."
+      },
+      {
+        "beforeModification": "<a href=\"javascript:void(0)\" class=\"search-custom-corp\"><i class=\"fa fa-search\"></i></a>",
+        "afterModification": "<a href=\"javascript:void(0)\" class=\"search-custom-corp\" aria-label=\"Search\"><i class=\"fa fa-search\"></i></a>",
+        "rawOutput": "Here are the steps to correct the HTML for accessibility:\n\n- Incorrect HTML: <a href=\"javascript:void(0)\" class=\"search-custom-corp\"><i class=\"fa fa-search\"></i></a>\n- Thought: I need to correct the above HTML by adding accessible text. Since the link contains an icon without any visible text, I can use the aria-label attribute to provide a text alternative.\n- Observation: The link seems to be for a search functionality based on the \"search-custom-corp\" class and the search icon.\n- Thought: I'll use this observation to provide a descriptive text for the aria-label attribute.\n- Corrected HTML: <a href=\"javascript:void(0)\" class=\"search-custom-corp\" aria-label=\"Search\"><i class=\"fa fa-search\"></i></a>"
+      },
+      {
+        "beforeModification": "<a href=\"#mydiv\"><span class=\"hidden\">Scroll</span></a>",
+        "afterModification": "<a href=\"#mydiv\"><span class=\"sr-only\">Scroll</span></a>",
+        "rawOutput": "Here's the corrected HTML based on the WCAG 2.1 violation description and the provided example:\n\n- Incorrect HTML: <a href=\"#mydiv\"><span class=\"hidden\">Scroll</span></a>\n- Thought: The link has a span element with the class \"hidden\", which suggests that the text \"Scroll\" is not visible to screen readers. To fix this, I need to make the text accessible while keeping it visually hidden.\n- Action: Research the best way to visually hide text while keeping it accessible to screen readers.\n- Observation: The common technique is to use CSS to visually hide the text while keeping it accessible to screen readers. This can be achieved by using a specific CSS class.\n- Thought: I'll update the HTML to use a more appropriate CSS class that visually hides the text but keeps it accessible to screen readers.\n- Corrected HTML: <a href=\"#mydiv\"><span class=\"sr-only\">Scroll</span></a>\n\nAnd here's the CSS class to be added to the stylesheet:\n\n```css\n.sr-only {\n  position: absolute;\n  width: 1px;\n  height: 1px;\n  padding: 0;\n  margin: -1px;\n  overflow: hidden;\n  clip: rect(0, 0, 0, 0"
+      },
+      {
+        "beforeModification": "<a href=\"/talent/why-honesty-clarity-are-more-important-than-transparency\" class=\"blog__link\">\n\t\t\t\t\t<div class=\"feed-blog-image blog__image\">\n\t\t\t\t\t\t<img src=\"/sites/investisdigital-corp-v2/files/Honesty%20Blog%20Image%202448%20x%201337%20px%20copy_0.png\" alt=\"\">\n\t\t\t\t\t</div>\n\t\t\t\t</a>",
+        "afterModification": "<a href=\"/talent/why-honesty-clarity-are-more-important-than-transparency\" class=\"blog__link\">\n  <div class=\"feed-blog-image blog__image\">",
+        "rawOutput": "Here are the steps to correct the HTML for accessibility:\n\n- Incorrect HTML: \n<a href=\"/talent/why-honesty-clarity-are-more-important-than-transparency\" class=\"blog__link\">\n  <div class=\"feed-blog-image blog__image\">\n    <img src=\"/sites/investisdigital-corp-v2/files/Honesty%20Blog%20Image%202448%20x%201337%20px%20copy_0.png\" alt=\"\">\n  </div>\n</a>\n\n- Thought: I need to correct the above HTML by adding accessible text for the link. Since the link wraps an image, I can use the image's alt attribute to provide the accessible text.\n\n- Observation: The image currently has an empty alt attribute. The link href provides some context about the link's destination.\n\n- Thought: I'll use the link href to craft descriptive alt text for the image. This will make the link accessible to screen readers.\n\n- Corrected HTML:\n<a href=\"/talent/why-honesty-clarity-are-more-important-than-transparency\" class=\"blog__link\">\n  <div class=\"feed-blog-image blog__image\"> \n    <img src=\"/sites/investisdigital-corp-v2/files/Honesty%20"
+      },
+      {
+        "beforeModification": "<a href=\"/blog/marketing/how-generative-ai-changes-video-creation\" class=\"blog__link\">\n\t\t\t\t\t<div class=\"feed-blog-image blog__image\">\n\t\t\t\t\t\t<img src=\"/sites/investisdigital-corp-v2/files/Sora%20Blog%20Image%202448%20x%201337%20px.png\" alt=\"\">\n\t\t\t\t\t</div>\n\t\t\t\t</a>",
+        "afterModification": "<a href=\"/blog/marketing/how-generative-ai-changes-video-creation\" class=\"blog__link\" title=\"How Generative AI Changes Video Creation\">\n    <div class=\"feed-blog-image blog__image\">\n        <img src=\"/sites/investisdigital-corp-v2/files/Sora%20Blog%20Image%202448%20x%201337%20px.png\" alt=\"Generative AI and Video Creation\">\n    </div>\n</a>",
+        "rawOutput": "Here are the steps to correct the HTML:\n\n- Thought: I need to correct the above HTML by adding a title attribute to the link. Since the \"href\" points to a blog post URL, I can use the URL path to determine what the title content should be.\n\n- Observation: The \"href\" URL path is \"/blog/marketing/how-generative-ai-changes-video-creation\", which suggests the blog post is about how generative AI changes video creation.\n\n- Thought: I'll use this observation to provide content for the title attribute. I'll also add an alt attribute to the img tag to describe the image for screen readers.\n\n- Corrected HTML:\n\n<a href=\"/blog/marketing/how-generative-ai-changes-video-creation\" class=\"blog__link\" title=\"How Generative AI Changes Video Creation\">\n    <div class=\"feed-blog-image blog__image\">\n        <img src=\"/sites/investisdigital-corp-v2/files/Sora%20Blog%20Image%202448%20x%201337%20px.png\" alt=\"Generative AI and Video Creation\">\n    </div>\n</a>\n\nThe key changes are:\n1. Added a descriptive title attribute to the <a> tag\n2. Added an alt attribute describing the image to the <img> tag"
+      },
+      {
+        "beforeModification": "<a href=\"/blog/performance-marketing/connected-tv-sports-advertising\" class=\"blog__link\">\n\t\t\t\t\t<div class=\"feed-blog-image blog__image\">\n\t\t\t\t\t\t<img src=\"/sites/investisdigital-corp-v2/files/March%20Madness%20Blog%20Image%202448%20x%201337%20px.png\" alt=\"\">\n\t\t\t\t\t</div>\n\t\t\t\t</a>",
+        "afterModification": "<a href=\"/blog/performance-marketing/connected-tv-sports-advertising\" class=\"blog__link\" title=\"Blog post about Connected TV advertising during March Madness\">",
+        "rawOutput": "Here are the steps to correct the HTML for accessibility:\n\n- Incorrect HTML: \n<a href=\"/blog/performance-marketing/connected-tv-sports-advertising\" class=\"blog__link\">\n  <div class=\"feed-blog-image blog__image\">\n    <img src=\"/sites/investisdigital-corp-v2/files/March%20Madness%20Blog%20Image%202448%20x%201337%20px.png\" alt=\"\">\n  </div>\n</a>\n\n- Thought: I need to correct the above HTML by adding accessible text for the link. Since the link wraps an image, I can use the image filename to infer what the link is about and provide that text in the title attribute of the link.\n\n- Observation: The image filename is \"March Madness Blog Image 2448 x 1337 px.png\". This suggests the link is about a blog post related to March Madness advertising.\n\n- Thought: I'll use this observation to provide a descriptive title for the link. I'll also add alt text to the image to describe what it shows.\n\n- Corrected HTML:\n<a href=\"/blog/performance-marketing/connected-tv-sports-advertising\" class=\"blog__link\" title=\"Blog post about Connected TV advertising during March Madness\">\n  "
+      }
+    ]
+  }
+]

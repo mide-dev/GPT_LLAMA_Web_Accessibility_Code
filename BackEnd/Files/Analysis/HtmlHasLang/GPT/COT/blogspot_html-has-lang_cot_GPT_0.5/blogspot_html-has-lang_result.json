@@ -1,0 +1,29 @@
+[
+  {
+    "analysisDetails": [
+      {
+        "model": "GPT"
+      },
+      {
+        "accessibility_type": "html-has-lang"
+      },
+      {
+        "prompt_technique": "cot"
+      },
+      {
+        "temperature": 0.5
+      }
+    ],
+    "accessbilityTestResult": {
+      "violationBeforeModification": 1,
+      "violationAfterModification": 0
+    },
+    "modelCorrections": [
+      {
+        "beforeModification": "<html class=\"v2 js js\" dir=\"ltr\" xmlns=\"http://www.w3.org/1999/xhtml\" xmlns:b=\"http://www.google.com/2005/gml/b\" xmlns:data=\"http://www.google.com/2005/gml/data\" xmlns:expr=\"http://www.google.com/2005/gml/expr\">",
+        "afterModification": "<html lang=\"en\" class=\"v2 js js\" dir=\"ltr\" xmlns=\"http://www.w3.org/1999/xhtml\" xmlns:b=\"http://www.google.com/2005/gml/b\" xmlns:data=\"http://www.google.com/2005/gml/data\" xmlns:expr=\"http://www.google.com/2005/gml/expr\">",
+        "rawOutput": "- Thought: To address the WCAG 2.1 violation, I need to add the \"lang\" attribute to the <html> element. Given the extracted text, \"Your personal data will be,\" it implies the content is likely in English. Therefore, I will assign \"en\" as the value for the \"lang\" attribute.\n\n- Corrected HTML: <html lang=\"en\" class=\"v2 js js\" dir=\"ltr\" xmlns=\"http://www.w3.org/1999/xhtml\" xmlns:b=\"http://www.google.com/2005/gml/b\" xmlns:data=\"http://www.google.com/2005/gml/data\" xmlns:expr=\"http://www.google.com/2005/gml/expr\">"
+      }
+    ]
+  }
+]

@@ -1,0 +1,29 @@
+[
+  {
+    "analysisDetails": [
+      {
+        "model": "Claude"
+      },
+      {
+        "accessibility_type": "meta-viewport"
+      },
+      {
+        "prompt_technique": "fewShot"
+      },
+      {
+        "temperature": 0.5
+      }
+    ],
+    "accessbilityTestResult": {
+      "violationBeforeModification": 1,
+      "violationAfterModification": 0
+    },
+    "modelCorrections": [
+      {
+        "beforeModification": "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0\">",
+        "afterModification": "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes\">",
+        "rawOutput": "- Corrected HTML: <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes\">\n\nExplanation:\nTo make the HTML accessible according to WCAG 2.1, the following changes were made:\n\n1. The `user-scalable` attribute was changed from `0` to `yes` to allow zooming on mobile devices.\n2. The `maximum-scale` attribute was increased from `1.0` to `5.0` to allow a reasonable level of zooming. The exact value can be adjusted based on the specific requirements of the website or application.\n\nBy making these changes, users with visual impairments or those who require zooming for better readability will be able to access and interact with the content more easily on mobile devices."
+      }
+    ]
+  }
+]

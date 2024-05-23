@@ -1,0 +1,29 @@
+[
+  {
+    "analysisDetails": [
+      {
+        "model": "Claude"
+      },
+      {
+        "accessibility_type": "html-has-lang"
+      },
+      {
+        "prompt_technique": "ReAct"
+      },
+      {
+        "temperature": 0.5
+      }
+    ],
+    "accessbilityTestResult": {
+      "violationBeforeModification": 1,
+      "violationAfterModification": 1
+    },
+    "modelCorrections": [
+      {
+        "beforeModification": "<html><head></head><body></body></html>",
+        "afterModification": "<html><head></head><body></body></html>\n- Thought: I need to correct the above HTML by adding the \"lang\" attribute and assigning the right language to it.\n- Observation: Since no text was extracted from the website, it's not possible to determine the language of the site based on the given information. In this case, I will assume the site is in English and add the \"lang\" attribute with the value \"en\". If the actual language of the site is different, it should be replaced with the appropriate language code.\n- Action: Add [lang=\"en\"] to the <html> tag.\n- Corrected HTML: <html lang=\"en\"><head></head><body></body></html>",
+        "rawOutput": "*Extracted text from website*: \"\"\n- Incorrect HTML: <html><head></head><body></body></html>\n- Thought: I need to correct the above HTML by adding the \"lang\" attribute and assigning the right language to it.\n- Observation: Since no text was extracted from the website, it's not possible to determine the language of the site based on the given information. In this case, I will assume the site is in English and add the \"lang\" attribute with the value \"en\". If the actual language of the site is different, it should be replaced with the appropriate language code.\n- Action: Add [lang=\"en\"] to the <html> tag.\n- Corrected HTML: <html lang=\"en\"><head></head><body></body></html>"
+      }
+    ]
+  }
+]

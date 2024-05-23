@@ -21,8 +21,8 @@
     "modelCorrections": [
       {
         "beforeModification": "<html>",
-        "afterModification": "<html> element to specify the primary language of the document. This helps assistive technologies like screen readers to correctly interpret and pronounce the content for users with disabilities.\n\n- Corrected HTML: <html lang=\"en\">",
-        "rawOutput": "- Thought: To make the HTML document accessible and compliant with WCAG 2.1 guidelines, I need to add the \"lang\" attribute to the <html> element to specify the primary language of the document. This helps assistive technologies like screen readers to correctly interpret and pronounce the content for users with disabilities.\n\n- Corrected HTML: <html lang=\"en\">"
+        "afterModification": "<html lang=\"ru\">",
+        "rawOutput": "- Thought: I need to correct the above HTML by adding the \"lang\" attribute and assigning the appropriate language code based on the \"Extracted text from website\" content, which is in Russian.\n\n- Corrected HTML: <html lang=\"ru\">"
       }
     ]
   }

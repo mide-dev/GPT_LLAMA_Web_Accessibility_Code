@@ -1,0 +1,44 @@
+[
+  {
+    "analysisDetails": [
+      {
+        "model": "GPT"
+      },
+      {
+        "accessibility_type": "aria-required-attr"
+      },
+      {
+        "prompt_technique": "cot"
+      },
+      {
+        "temperature": 0.5
+      }
+    ],
+    "accessbilityTestResult": {
+      "violationBeforeModification": 4,
+      "violationAfterModification": 0
+    },
+    "modelCorrections": [
+      {
+        "beforeModification": "<input type=\"search\" autocomplete=\"off\" role=\"combobox\" aria-label=\"Search for option\" class=\"form-control\">",
+        "afterModification": "<input type=\"search\" autocomplete=\"off\" role=\"combobox\" aria-label=\"Search for option\" aria-expanded=\"false\" aria-controls=\"optionsList\" class=\"form-control\">",
+        "rawOutput": "Thought: For an element with a role of \"combobox,\" WCAG 2.1 requires the use of ARIA attributes to ensure the element's state and relationship with other elements are communicated to assistive technologies. The violation mentions the absence of `aria-expanded` and `aria-controls`, which are crucial for a combobox. `aria-expanded` indicates whether the combobox is expanded or collapsed, which is essential for screen reader users to understand whether they can interact with additional options. `aria-controls` points to the ID of the element that is controlled by the combobox, usually a list of options or suggestions that appear when the combobox is expanded. Without these attributes, users might not be able to navigate or understand the functionality of the combobox properly.\n\nCorrected HTML: \n```html\n<input type=\"search\" autocomplete=\"off\" role=\"combobox\" aria-label=\"Search for option\" aria-expanded=\"false\" aria-controls=\"optionsList\" class=\"form-control\">\n```\n\nThis correction includes `aria-expanded=\"false\"` to indicate that the combobox is initially collapsed and `aria-controls=\"optionsList\"` to associate the input with the ID of the list that contains the options or suggestions. Note that you would need to ensure there is an element with an ID of `optionsList` that contains the options or suggestions for this combobox."
+      },
+      {
+        "beforeModification": "<input type=\"search\" autocomplete=\"off\" placeholder=\"المدينة\" role=\"combobox\" aria-label=\"Search for option\" class=\"form-control\">",
+        "afterModification": "<input type=\"search\" autocomplete=\"off\" placeholder=\"المدينة\" role=\"combobox\" aria-label=\"Search for option\" aria-expanded=\"false\" aria-controls=\"listboxID\" class=\"form-control\">",
+        "rawOutput": "Thought: Given the element has a role of \"combobox\", it is necessary to include the `aria-expanded` attribute to indicate if the combobox is currently expanded or not, and the `aria-controls` attribute to reference the ID of the list that the combobox controls. This is essential for screen readers and other assistive technologies to understand the state and relationship of the combobox and its list, fulfilling the WCAG 2.1 requirement for necessary ARIA attributes.\n\nCorrected HTML: \n```html\n<input type=\"search\" autocomplete=\"off\" placeholder=\"المدينة\" role=\"combobox\" aria-label=\"Search for option\" aria-expanded=\"false\" aria-controls=\"listboxID\" class=\"form-control\">\n```\n\nNote: In this corrected HTML, `aria-expanded=\"false\"` indicates that the combobox list is not expanded by default. You should dynamically change this attribute to `true` when the user interacts with the combobox to expand the list. Also, `aria-controls=\"listboxID\"` should reference the ID of the list that is being controlled by this combobox. Ensure you replace `\"listboxID\"` with the actual ID of the list element in your implementation."
+      },
+      {
+        "beforeModification": "<input type=\"search\" autocomplete=\"off\" placeholder=\"الحي\" role=\"combobox\" aria-label=\"Search for option\" class=\"form-control\">",
+        "afterModification": "<input type=\"search\" autocomplete=\"off\" placeholder=\"الحي\" role=\"combobox\" aria-label=\"Search for option\" aria-expanded=\"false\" aria-controls=\"listboxID\" class=\"form-control\">",
+        "rawOutput": "Given the WCAG 2.1 violation description, we need to ensure that elements with the role of \"combobox\" have the required ARIA attributes, specifically `aria-expanded` to indicate if the combobox is currently expanded or not, and `aria-controls` to reference the list that the combobox is controlling. The original HTML does not include these attributes, which are necessary for accessibility tools to properly interact with and provide feedback about the state and relationship of the combobox and its associated list.\n\n- Incorrect HTML: `<input type=\"search\" autocomplete=\"off\" placeholder=\"الحي\" role=\"combobox\" aria-label=\"Search for option\" class=\"form-control\">`\n\n- Thought: Since the element has a role of \"combobox\", it should have `aria-expanded` to indicate whether the options are visible or not and `aria-controls` to reference the ID of the list that contains the options. Without these, users relying on screen readers or other assistive technologies might not be able to understand if the combobox is expanded or collapsed, nor would they be able to easily navigate the options. \n\n- Corrected HTML: `<input type=\"search\" autocomplete=\"off\" placeholder=\"الحي\" role=\"combobox\" aria-label=\"Search for option\" aria-expanded=\"false\" aria-controls=\"listboxID\" class=\"form-control\">`\n\nIn this corrected HTML, `aria-expanded=\"false\"` indicates that the combobox is initially collapsed. The value should be dynamically updated (to \"true\" or \"false\") with JavaScript based on the user's interaction to reflect the current state of the combobox. Also, `aria-controls=\"listboxID\"` should reference the ID of the element that contains the list of options the combobox is controlling. You would need to ensure there is an element with an ID that matches \"listboxID\" (or whatever ID you use) that contains the options for this combobox."
+      },
+      {
+        "beforeModification": "<input type=\"search\" autocomplete=\"off\" placeholder=\"فترة المناوبة\" role=\"combobox\" aria-label=\"Search for option\" class=\"form-control\">",
+        "afterModification": "<input type=\"search\" autocomplete=\"off\" placeholder=\"فترة المناوبة\" role=\"combobox\" aria-label=\"Search for option\" aria-expanded=\"false\" aria-controls=\"listboxId\" class=\"form-control\">",
+        "rawOutput": "Given the WCAG 2.1 violation description indicating the need for `aria-expanded` and `aria-controls` attributes for elements with certain roles, such as `combobox`, the incorrect HTML needs to be corrected to include these required ARIA attributes. This is because the role of `combobox` implies an interactive component that expands to show or hide options, and these attributes communicate the state and relationship of the combobox and its list of options to assistive technologies.\n\n- Incorrect HTML: `<input type=\"search\" autocomplete=\"off\" placeholder=\"فترة المناوبة\" role=\"combobox\" aria-label=\"Search for option\" class=\"form-control\">`\n\n- Thought: Since the element has a role of `combobox`, it is necessary to add `aria-expanded` to indicate whether the combobox is currently expanded or collapsed, and `aria-controls` to reference the ID of the element that contains the list of options the combobox controls. Without these, assistive technologies might not correctly convey the state and operability of the combobox to users.\n\n- Corrected HTML: `<input type=\"search\" autocomplete=\"off\" placeholder=\"فترة المناوبة\" role=\"combobox\" aria-label=\"Search for option\" aria-expanded=\"false\" aria-controls=\"listboxId\" class=\"form-control\">`\n\nNote: `aria-expanded=\"false\"` is an example state indicating that the combobox is currently collapsed. This state should be dynamically updated (to `true` or `false`) based on the interaction. Also, `\"listboxId\"` should be replaced with the actual ID of the listbox element that contains the options related to this combobox. If such a listbox element exists, it must have an `id` attribute that matches the value provided in the `aria-controls` attribute of the combobox."
+      }
+    ]
+  }
+]

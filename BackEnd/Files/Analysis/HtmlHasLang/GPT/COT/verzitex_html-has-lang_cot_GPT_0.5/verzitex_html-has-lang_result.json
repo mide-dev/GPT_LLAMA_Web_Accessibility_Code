@@ -1,0 +1,29 @@
+[
+  {
+    "analysisDetails": [
+      {
+        "model": "GPT"
+      },
+      {
+        "accessibility_type": "html-has-lang"
+      },
+      {
+        "prompt_technique": "cot"
+      },
+      {
+        "temperature": 0.5
+      }
+    ],
+    "accessbilityTestResult": {
+      "violationBeforeModification": 1,
+      "violationAfterModification": 0
+    },
+    "modelCorrections": [
+      {
+        "beforeModification": "<html>",
+        "afterModification": "<html lang=\"en\">",
+        "rawOutput": "- Thought: I need to correct the above HTML by adding the \"lang\" attribute. Since the extracted text \"Capital\" does not provide a clear context on the language, I will assume English as it is a common language for web content. However, if the website is targeted at a specific audience with a different primary language, the \"lang\" attribute should reflect that language instead.\n\n- Corrected HTML: <html lang=\"en\">"
+      }
+    ]
+  }
+]

@@ -1,0 +1,29 @@
+[
+  {
+    "analysisDetails": [
+      {
+        "model": "GPT"
+      },
+      {
+        "accessibility_type": "meta-viewport"
+      },
+      {
+        "prompt_technique": "cot"
+      },
+      {
+        "temperature": 0.5
+      }
+    ],
+    "accessbilityTestResult": {
+      "violationBeforeModification": 1,
+      "violationAfterModification": 0
+    },
+    "modelCorrections": [
+      {
+        "beforeModification": "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1, user-scalable=no, maximum-scale=1\">",
+        "afterModification": "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=5.0\">",
+        "rawOutput": "- Thought: To make the webpage accessible according to WCAG 2.1, I need to allow users to zoom in on mobile devices. This means removing `user-scalable=no` and setting `maximum-scale` to a value that supports zooming, such as 2.0 or higher.\n\n- Corrected HTML: <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=5.0\">"
+      }
+    ]
+  }
+]

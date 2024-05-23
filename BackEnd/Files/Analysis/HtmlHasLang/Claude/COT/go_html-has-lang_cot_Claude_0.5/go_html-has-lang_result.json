@@ -1,0 +1,29 @@
+[
+  {
+    "analysisDetails": [
+      {
+        "model": "Claude"
+      },
+      {
+        "accessibility_type": "html-has-lang"
+      },
+      {
+        "prompt_technique": "cot"
+      },
+      {
+        "temperature": 0.5
+      }
+    ],
+    "accessbilityTestResult": {
+      "violationBeforeModification": 1,
+      "violationAfterModification": 0
+    },
+    "modelCorrections": [
+      {
+        "beforeModification": "<html class=\"history svg video supports boxshadow csstransforms3d csstransitions backgroundcliptext webkit chrome win js sticky-header-enabled sticky-header-active\">",
+        "afterModification": "<html lang=\"en\" class=\"history svg video supports boxshadow csstransforms3d csstransitions backgroundcliptext webkit chrome win js sticky-header-enabled sticky-header-active\">",
+        "rawOutput": "Here's the corrected HTML based on the WCAG 2.1 violation description and the provided example:\n\n*Extracted text from website*: \"CCTV Camera\"\n- Incorrect HTML: <html class=\"history svg video supports boxshadow csstransforms3d csstransitions backgroundcliptext webkit chrome win js sticky-header-enabled sticky-header-active\">\n- Thought: I need to correct the above HTML by adding the \"lang\" attribute and assigning the right language using the \"Extracted text from website\" for language context. The text \"CCTV Camera\" suggests that the website is likely in English.\n- Corrected HTML: <html lang=\"en\" class=\"history svg video supports boxshadow csstransforms3d csstransitions backgroundcliptext webkit chrome win js sticky-header-enabled sticky-header-active\">"
+      }
+    ]
+  }
+]

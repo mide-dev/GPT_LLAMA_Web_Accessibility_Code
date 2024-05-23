@@ -1,0 +1,54 @@
+[
+  {
+    "analysisDetails": [
+      {
+        "model": "Claude"
+      },
+      {
+        "accessibility_type": "color-contrast"
+      },
+      {
+        "prompt_technique": "ReAct"
+      },
+      {
+        "temperature": 0.1
+      }
+    ],
+    "accessbilityTestResult": {
+      "violationBeforeModification": 6,
+      "violationAfterModification": 0
+    },
+    "modelCorrections": [
+      {
+        "beforeModification": "<a href=\"https://www.nuorder.com/privacy-policy-2/\" target=\"_blank\">Privacy Policy</a>",
+        "afterModification": "<a href=\"https://www.nuorder.com/privacy-policy-2/\" target=\"_blank\" style=\"color: #006b7e;\">Privacy Policy</a>",
+        "rawOutput": "Here's the corrected HTML based on the WCAG 2.1 violation description:\n\n- Thought: I need to make sure the color contrast in the provided HTML complies with the required contrast of 4.5:1 as per WCAG 2.1 guidelines.\n- Observation: The current contrast ratio is 3.7 with a foreground color of #0091ae (a teal color) and a background color of #ffffff (white). I should alter the foreground color while maintaining the visual aesthetics of the website.\n- Action: Choose a new foreground color that significantly enhances contrast.\n- Thought: The new foreground color is \"#006b7e\". I need to verify that this new foreground color combined with the background color (#ffffff) meets the required contrast of 4.5:1.\n- Action: Calculate the contrast between the new foreground color (\"#006b7e\") and the background color (#ffffff) using the WCAG contrast formula - contrast ratio = (L1 + 0.05) / (L2 + 0.05).\n- Observation: This new combination meets the required contrast of 4.5:1.\n- Thought: I need to override the previous color using the style attribute in the above HTML.\n\nCorrected HTML: <a href=\"https://www.nuorder.com/privacy-policy-2/\" target=\"_blank\" style=\"color: #006b7e;\">Privacy Policy</a>"
+      },
+      {
+        "beforeModification": "<span class=\"elementor-button-text\">Talk to an Expert</span>",
+        "afterModification": "<span class=\"elementor-button-text\" style=\"background-color: #007972;\">Talk to an Expert</span>",
+        "rawOutput": "Here's the corrected HTML based on the WCAG 2.1 violation description:\n\n- Thought: I need to make sure the color contrast in the provided HTML complies with the required contrast of 4.5:1 as per WCAG 2.1 guidelines.\n- Observation: The current contrast ratio is 2.91 with a foreground color of #ffffff (white) and a background color of #00a9a4 (a medium cyan). I should alter the background color while maintaining the visual aesthetics of the website.\n- Action: Choose a new background color that significantly enhances contrast.\n- Thought: The new background color is \"#007972\". I need to verify that this new background color combined with the foreground color (#ffffff) meets the required contrast of 4.5:1.\n- Action: Calculate the contrast between the new background color (\"#007972\") and the foreground color (#ffffff) using the WCAG contrast formula - contrast ratio = (L1 + 0.05) / (L2 + 0.05).\n- Observation: This new combination meets the required contrast of 4.5:1.\n- Thought: I need to override the previous background color using the style attribute in the above HTML.\n\nCorrected HTML: <span class=\"elementor-button-text\" style=\"background-color: #007972;\">Talk to an Expert</span>"
+      },
+      {
+        "beforeModification": "<span class=\"elementor-button-text\">Learn More</span>",
+        "afterModification": "<span class=\"elementor-button-text\" style=\"color: #007a75;\">Learn More</span>",
+        "rawOutput": "Here's the corrected HTML based on the WCAG 2.1 violation description:\n\n- Thought: I need to make sure the color contrast in the provided HTML complies with the required contrast of 4.5:1 as per WCAG 2.1 guidelines.\n- Observation: The current contrast ratio is 2.91 with a foreground color of #00a9a4 (a teal color) and a background color of #ffffff (white). I should alter the foreground color while maintaining the visual aesthetics of the website.\n- Action: Choose a new foreground color that significantly enhances contrast.\n- Thought: The new foreground color is \"#007a75\". I need to verify that this new foreground color combined with the background color (#ffffff) meets the required contrast of 4.5:1.\n- Action: Calculate the contrast between the new foreground color (\"#007a75\") and the background color (#ffffff) using the WCAG contrast formula - contrast ratio = (L1 + 0.05) / (L2 + 0.05).\n- Observation: This new combination meets the required contrast of 4.5:1.\n- Thought: I need to override the previous color using the style attribute in the above HTML.\n\nCorrected HTML: <span class=\"elementor-button-text\" style=\"color: #007a75;\">Learn More</span>"
+      },
+      {
+        "beforeModification": "<span class=\"elementor-button-text\">Read now</span>",
+        "afterModification": "<span class=\"elementor-button-text\" style=\"background-color: #007a75;\">Read now</span>",
+        "rawOutput": "Here's the corrected HTML based on the WCAG 2.1 violation description:\n\n- Thought: I need to make sure the color contrast in the provided HTML complies with the required contrast of 4.5:1 as per WCAG 2.1 guidelines.\n- Observation: The current contrast ratio is 2.91 with a foreground color of #ffffff (white) and a background color of #00a9a4 (a medium cyan). I should alter the background color while maintaining the visual aesthetics of the website.\n- Action: Choose a new background color that significantly enhances contrast.\n- Thought: The new background color is \"#007a75\". I need to verify that this new background color combined with the foreground color (#ffffff) meets the required contrast of 4.5:1.\n- Action: Calculate contrast between the new background color (\"#007a75\") and the foreground color (#ffffff) using the WCAG contrast formula - contrast ratio = (L1 + 0.05) / (L2 + 0.05).\n- Observation: This new combination meets the required contrast of 4.5:1.\n- Thought: I need to override the previous background color using the style attribute in the above HTML.\n\nCorrected HTML: <span class=\"elementor-button-text\" style=\"background-color: #007a75;\">Read now</span>"
+      },
+      {
+        "beforeModification": "<span class=\"elementor-button-text\">Watch on demand</span>",
+        "afterModification": "<span class=\"elementor-button-text\" style=\"background-color: #007972;\">Watch on demand</span>",
+        "rawOutput": "Here's the corrected HTML based on the WCAG 2.1 violation description:\n\n- Thought: I need to make sure the color contrast in the provided HTML complies with the required contrast of 4.5:1 as per WCAG 2.1 guidelines.\n- Observation: The current contrast ratio is 2.91 with a foreground color of #ffffff (white) and a background color of #00a9a4 (a medium teal). I should alter the background color while maintaining the visual aesthetics of the website.\n- Action: Choose a new background color that significantly enhances contrast.\n- Thought: The new background color is \"#007972\". I need to verify that this new background color combined with the foreground color (#ffffff) meets the required contrast of 4.5:1.\n- Action: Calculate the contrast between the new background color (\"#007972\") and the foreground color (#ffffff) using the WCAG contrast formula - contrast ratio = (L1 + 0.05) / (L2 + 0.05).\n- Observation: This new combination meets the required contrast of 4.5:1.\n- Thought: I need to override the previous background color using the style attribute in the above HTML.\n\nCorrected HTML: <span class=\"elementor-button-text\" style=\"background-color: #007972;\">Watch on demand</span>"
+      },
+      {
+        "beforeModification": "<input type=\"submit\" class=\"hs-button primary large\" value=\"Subscribe\">",
+        "afterModification": "<input type=\"submit\" class=\"hs-button primary large\" value=\"Subscribe\" style=\"background-color: #007a75;\">",
+        "rawOutput": "Here's the corrected HTML based on the WCAG 2.1 violation description:\n\n- Thought: I need to make sure the color contrast in the provided HTML complies with the required contrast of 4.5:1 as per WCAG 2.1 guidelines.\n- Observation: The current contrast ratio is 2.91 with a foreground color of #ffffff (white) and a background color of #00a9a4 (a medium teal). I should alter the background color while maintaining the visual aesthetics of the website.\n- Action: Choose a new background color that significantly enhances contrast.\n- Thought: The new background color is \"#007a75\". I need to verify that this new background color combined with the foreground color (#ffffff) meets the required contrast of 4.5:1.\n- Action: Calculate the contrast between the new background color (\"#007a75\") and the foreground color (#ffffff) using the WCAG contrast formula - contrast ratio = (L1 + 0.05) / (L2 + 0.05).\n- Observation: This new combination meets the required contrast of 4.5:1.\n- Thought: I need to override the previous background color using the style attribute in the above HTML.\n\nCorrected HTML: <input type=\"submit\" class=\"hs-button primary large\" value=\"Subscribe\" style=\"background-color: #007a75;\">"
+      }
+    ]
+  }
+]

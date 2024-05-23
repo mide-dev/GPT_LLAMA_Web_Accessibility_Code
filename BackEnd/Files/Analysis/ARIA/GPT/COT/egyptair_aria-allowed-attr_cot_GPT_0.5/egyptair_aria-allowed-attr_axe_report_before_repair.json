@@ -1,0 +1,457 @@
+{
+  "testEngine": {
+    "name": "axe-core",
+    "version": "4.8.4"
+  },
+  "testRunner": {
+    "name": "axe"
+  },
+  "testEnvironment": {
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/122.0.0.0 Safari/537.36",
+    "windowWidth": 800,
+    "windowHeight": 600,
+    "orientationAngle": 0,
+    "orientationType": "portrait-primary"
+  },
+  "timestamp": "2024-04-15T21:36:58.935Z",
+  "url": "https://www.egyptair.com/en/pages/homepage.aspx",
+  "toolOptions": {
+    "runOnly": {
+      "type": "rule",
+      "values": [
+        "aria-allowed-attr"
+      ]
+    },
+    "reporter": "v1"
+  },
+  "inapplicable": [],
+  "passes": [
+    {
+      "id": "aria-allowed-attr",
+      "impact": "critical",
+      "tags": [
+        "cat.aria",
+        "wcag2a",
+        "wcag412",
+        "EN-301-549",
+        "EN-9.4.1.2"
+      ],
+      "description": "Ensures an element's role supports its ARIA attributes",
+      "help": "Elements must only use supported ARIA attributes",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-allowed-attr?application=axeAPI",
+      "nodes": [
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "aria-allowed-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attributes are used correctly for the defined role"
+            }
+          ],
+          "none": [
+            {
+              "id": "aria-unsupported-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attribute is supported"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"#homeTabBook\" data-toggle=\"tab\" role=\"tab\" aria-expanded=\"true\">\n<span class=\"bookHomepageIcon homepageIcon\"></span>\n\n<span class=\"mrgT3\">\nBook\n<span class=\"textIndent\">a flight</span>\n</span>\n</a>",
+          "target": [
+            "a[href$=\"#homeTabBook\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "aria-allowed-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attributes are used correctly for the defined role"
+            }
+          ],
+          "none": [
+            {
+              "id": "aria-unsupported-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attribute is supported"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"#homeTabTimetable\" data-toggle=\"tab\" role=\"tab\" aria-expanded=\"false\">\n<span class=\"timetableHomepageIcon homepageIcon\"></span>\n\n<span class=\"mrgT3\">\nTimetable\n</span>\n</a>",
+          "target": [
+            "a[href$=\"#homeTabTimetable\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "aria-allowed-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attributes are used correctly for the defined role"
+            }
+          ],
+          "none": [
+            {
+              "id": "aria-unsupported-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attribute is supported"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"#homeTabFlightStatus\" data-toggle=\"tab\" role=\"tab\" aria-expanded=\"false\">\n<span class=\"clockHomepage homepageFonts block homepageIcon\" aria-hidden=\"true\"></span>\n<span>\nFlight Status\n</span>\n<span class=\"textIndent\"></span></a>",
+          "target": [
+            "a[href$=\"#homeTabFlightStatus\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "aria-allowed-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attributes are used correctly for the defined role"
+            }
+          ],
+          "none": [
+            {
+              "id": "aria-unsupported-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attribute is supported"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"#homeMybooking\" data-toggle=\"tab\" role=\"tab\" aria-expanded=\"false\">",
+          "target": [
+            "a[href$=\"#homeMybooking\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "aria-allowed-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attributes are used correctly for the defined role"
+            }
+          ],
+          "none": [
+            {
+              "id": "aria-unsupported-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attribute is supported"
+            }
+          ],
+          "impact": null,
+          "html": "<input name=\"ctl00$PlaceHolderMain$ctl00$Switcher$HomePageBooking1$ctl00$fromInput\" type=\"text\" id=\"ctl00_PlaceHolderMain_ctl00_Switcher_HomePageBooking1_ctl00_fromInput\" autocomplete=\"off\" aria-autocomplete=\"none\" class=\"main-inputs country-search\" onclick=\"this.select();\" placeholder=\"Choose Destination\" value=\"London, Heathrow (LHR), United Kingdom\">",
+          "target": [
+            "#ctl00_PlaceHolderMain_ctl00_Switcher_HomePageBooking1_ctl00_fromInput"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "aria-allowed-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attributes are used correctly for the defined role"
+            }
+          ],
+          "none": [
+            {
+              "id": "aria-unsupported-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attribute is supported"
+            }
+          ],
+          "impact": null,
+          "html": "<input name=\"ctl00$PlaceHolderMain$ctl00$Switcher$HomePageBooking1$ctl00$ToInput\" type=\"text\" id=\"ctl00_PlaceHolderMain_ctl00_Switcher_HomePageBooking1_ctl00_ToInput\" autocomplete=\"off\" aria-autocomplete=\"none\" class=\"main-inputs country-search\" onclick=\"this.select();\" placeholder=\"Choose Arrival\">",
+          "target": [
+            "#ctl00_PlaceHolderMain_ctl00_Switcher_HomePageBooking1_ctl00_ToInput"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "aria-allowed-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attributes are used correctly for the defined role"
+            }
+          ],
+          "none": [
+            {
+              "id": "aria-unsupported-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attribute is supported"
+            }
+          ],
+          "impact": null,
+          "html": "<input name=\"ctl00$PlaceHolderMain$ctl00$Switcher$HomePageBooking1$ctl00$TXT_Date\" type=\"text\" id=\"ctl00_PlaceHolderMain_ctl00_Switcher_HomePageBooking1_ctl00_TXT_Date\" autocomplete=\"off\" aria-autocomplete=\"none\" readonly=\"\" class=\"main-inputs calendar-input\" placeholder=\"Departing - Arriving\">",
+          "target": [
+            "#ctl00_PlaceHolderMain_ctl00_Switcher_HomePageBooking1_ctl00_TXT_Date"
+          ]
+        }
+      ]
+    }
+  ],
+  "incomplete": [],
+  "violations": [
+    {
+      "id": "aria-allowed-attr",
+      "impact": "critical",
+      "tags": [
+        "cat.aria",
+        "wcag2a",
+        "wcag412",
+        "EN-301-549",
+        "EN-9.4.1.2"
+      ],
+      "description": "Ensures an element's role supports its ARIA attributes",
+      "help": "Elements must only use supported ARIA attributes",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-allowed-attr?application=axeAPI",
+      "nodes": [
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "aria-allowed-attr",
+              "data": [
+                "aria-autocomplete=\"none\""
+              ],
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attribute is not allowed: aria-autocomplete=\"none\""
+            }
+          ],
+          "none": [],
+          "impact": "critical",
+          "html": "<div id=\"homeBookingCont\" aria-autocomplete=\"none\" class=\"fromCheckError\">",
+          "target": [
+            "#homeBookingCont"
+          ],
+          "failureSummary": "Fix all of the following:\n  ARIA attribute is not allowed: aria-autocomplete=\"none\""
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "aria-allowed-attr",
+              "data": [
+                "aria-autocomplete=\"none\""
+              ],
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attribute is not allowed: aria-autocomplete=\"none\""
+            }
+          ],
+          "none": [],
+          "impact": "critical",
+          "html": "<fieldset class=\"formWithFieldset\" aria-autocomplete=\"none\">",
+          "target": [
+            "#homeBookingCont > .formWithFieldset"
+          ],
+          "failureSummary": "Fix all of the following:\n  ARIA attribute is not allowed: aria-autocomplete=\"none\""
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "aria-allowed-attr",
+              "data": [
+                "aria-autocomplete=\"none\""
+              ],
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attribute is not allowed: aria-autocomplete=\"none\""
+            }
+          ],
+          "none": [],
+          "impact": "critical",
+          "html": "<div class=\"filedCont\" aria-autocomplete=\"none\">",
+          "target": [
+            ".filedCont[aria-autocomplete=\"none\"]"
+          ],
+          "failureSummary": "Fix all of the following:\n  ARIA attribute is not allowed: aria-autocomplete=\"none\""
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "aria-allowed-attr",
+              "data": [
+                "aria-autocomplete=\"none\""
+              ],
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attribute is not allowed: aria-autocomplete=\"none\""
+            }
+          ],
+          "none": [],
+          "impact": "critical",
+          "html": "<div class=\"row booking-form\" aria-autocomplete=\"none\">",
+          "target": [
+            ".booking-form"
+          ],
+          "failureSummary": "Fix all of the following:\n  ARIA attribute is not allowed: aria-autocomplete=\"none\""
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "aria-allowed-attr",
+              "data": [
+                "aria-autocomplete=\"none\""
+              ],
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attribute is not allowed: aria-autocomplete=\"none\""
+            }
+          ],
+          "none": [],
+          "impact": "critical",
+          "html": "<div class=\" col-sm-6 col-md-3 form-wrapper\" aria-autocomplete=\"none\" id=\"whereFrom\">",
+          "target": [
+            "#whereFrom"
+          ],
+          "failureSummary": "Fix all of the following:\n  ARIA attribute is not allowed: aria-autocomplete=\"none\""
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "aria-allowed-attr",
+              "data": [
+                "aria-autocomplete=\"none\""
+              ],
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attribute is not allowed: aria-autocomplete=\"none\""
+            }
+          ],
+          "none": [],
+          "impact": "critical",
+          "html": "<div class=\"input-wrapper\" aria-autocomplete=\"none\">",
+          "target": [
+            "#whereFrom > .input-wrapper[aria-autocomplete=\"none\"]"
+          ],
+          "failureSummary": "Fix all of the following:\n  ARIA attribute is not allowed: aria-autocomplete=\"none\""
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "aria-allowed-attr",
+              "data": [
+                "aria-autocomplete=\"none\""
+              ],
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attribute is not allowed: aria-autocomplete=\"none\""
+            }
+          ],
+          "none": [],
+          "impact": "critical",
+          "html": "<div class=\" col-sm-6 col-md-3 form-wrapper\" aria-autocomplete=\"none\">",
+          "target": [
+            ".col-md-3.form-wrapper[aria-autocomplete=\"none\"]:nth-child(2)"
+          ],
+          "failureSummary": "Fix all of the following:\n  ARIA attribute is not allowed: aria-autocomplete=\"none\""
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "aria-allowed-attr",
+              "data": [
+                "aria-autocomplete=\"none\""
+              ],
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attribute is not allowed: aria-autocomplete=\"none\""
+            }
+          ],
+          "none": [],
+          "impact": "critical",
+          "html": "<div class=\"input-wrapper\" aria-autocomplete=\"none\">",
+          "target": [
+            ".col-md-3.form-wrapper[aria-autocomplete=\"none\"]:nth-child(2) > .input-wrapper[aria-autocomplete=\"none\"]"
+          ],
+          "failureSummary": "Fix all of the following:\n  ARIA attribute is not allowed: aria-autocomplete=\"none\""
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "aria-allowed-attr",
+              "data": [
+                "aria-autocomplete=\"none\""
+              ],
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attribute is not allowed: aria-autocomplete=\"none\""
+            }
+          ],
+          "none": [],
+          "impact": "critical",
+          "html": "<div class=\" col-sm-6 col-md-2 form-wrapper\" aria-autocomplete=\"none\">",
+          "target": [
+            ".col-md-2.form-wrapper[aria-autocomplete=\"none\"]"
+          ],
+          "failureSummary": "Fix all of the following:\n  ARIA attribute is not allowed: aria-autocomplete=\"none\""
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "aria-allowed-attr",
+              "data": [
+                "aria-autocomplete=\"none\""
+              ],
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attribute is not allowed: aria-autocomplete=\"none\""
+            }
+          ],
+          "none": [],
+          "impact": "critical",
+          "html": "<div class=\"input-wrapper\" aria-autocomplete=\"none\">",
+          "target": [
+            ".col-md-2.form-wrapper[aria-autocomplete=\"none\"] > .input-wrapper[aria-autocomplete=\"none\"]"
+          ],
+          "failureSummary": "Fix all of the following:\n  ARIA attribute is not allowed: aria-autocomplete=\"none\""
+        }
+      ]
+    }
+  ]
+}

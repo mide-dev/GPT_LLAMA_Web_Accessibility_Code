@@ -21,8 +21,8 @@
     "modelCorrections": [
       {
         "beforeModification": "<html>",
-        "afterModification": "<html lang=\"en\">",
-        "rawOutput": "- Thought: The provided HTML is missing a \"lang\" attribute, which is essential for accessibility as it helps screen readers and other assistive technologies understand the language of the content. I need to add the \"lang\" attribute and assign the appropriate language code to it.\n\n- Action: Add [lang=\"en\"] to the HTML if the content is in English.\n\n- Corrected HTML: <html lang=\"en\">"
+        "afterModification": "<html lang=\"ru\">",
+        "rawOutput": "- Thought: I need to correct the above HTML by adding the \"lang\" attribute and assigning the right language to it.\n- Observation: Since the extracted text from the website is in Russian, then the site must be in Russian.\n- Action: Add [lang=\"ru\"] to the HTML\n- Corrected HTML: <html lang=\"ru\">"
       }
     ]
   }

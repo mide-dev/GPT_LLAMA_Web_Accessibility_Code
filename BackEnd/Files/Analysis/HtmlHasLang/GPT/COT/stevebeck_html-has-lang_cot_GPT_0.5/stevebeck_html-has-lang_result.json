@@ -1,0 +1,29 @@
+[
+  {
+    "analysisDetails": [
+      {
+        "model": "GPT"
+      },
+      {
+        "accessibility_type": "html-has-lang"
+      },
+      {
+        "prompt_technique": "cot"
+      },
+      {
+        "temperature": 0.5
+      }
+    ],
+    "accessbilityTestResult": {
+      "violationBeforeModification": 1,
+      "violationAfterModification": 0
+    },
+    "modelCorrections": [
+      {
+        "beforeModification": "<html>",
+        "afterModification": "<html lang=\"en\">",
+        "rawOutput": "- Thought: To correct the HTML for accessibility according to WCAG 2.1, I need to add the \"lang\" attribute to the `<html>` tag. Given the extracted text \"View full versions of Beck's,\" it implies that the content is likely in English. Therefore, I should assign \"en\" as the value for the \"lang\" attribute.\n\n- Corrected HTML: `<html lang=\"en\">`"
+      }
+    ]
+  }
+]

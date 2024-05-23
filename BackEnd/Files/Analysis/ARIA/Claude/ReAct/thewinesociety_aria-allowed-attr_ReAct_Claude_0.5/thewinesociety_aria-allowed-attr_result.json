@@ -1,0 +1,29 @@
+[
+  {
+    "analysisDetails": [
+      {
+        "model": "Claude"
+      },
+      {
+        "accessibility_type": "aria-allowed-attr"
+      },
+      {
+        "prompt_technique": "ReAct"
+      },
+      {
+        "temperature": 0.5
+      }
+    ],
+    "accessbilityTestResult": {
+      "violationBeforeModification": 1,
+      "violationAfterModification": 0
+    },
+    "modelCorrections": [
+      {
+        "beforeModification": "<input id=\"react-autowhatever-site-search-inputinput\" aria-haspopup=\"listbox\" aria-expanded=\"false\" type=\"text\" autocomplete=\"off\" aria-autocomplete=\"list\" aria-controls=\"react-autowhatever-site-search\" class=\"form-control input input--isLarge\" placeholder=\"Search wine and events\" aria-describedby=\"search-instructions\" value=\"\">",
+        "afterModification": "<input id=\"react-autowhatever-site-search-inputinput\" aria-haspopup=\"listbox\" type=\"text\" autocomplete=\"off\" aria-autocomplete=\"list\" aria-controls=\"react-autowhatever-site-search\" class=\"form-control input input--isLarge\" placeholder=\"Search wine and events\" aria-describedby=\"search-instructions\" value=\"\">",
+        "rawOutput": "- Thought: The `<input>` element has an ARIA attribute `aria-expanded=\"false\"` which is not allowed according to the WCAG 2.1 violation description. The `aria-expanded` attribute is typically used on elements that can expand or collapse content, such as buttons or links, but not on `<input>` elements.\n\n- Observation: The `<input>` element should not have the `aria-expanded` attribute. It should be removed to comply with WCAG 2.1.\n\n- Action: Remove the `aria-expanded=\"false\"` attribute from the `<input>` element.\n\n- Corrected HTML:\n<input id=\"react-autowhatever-site-search-inputinput\" aria-haspopup=\"listbox\" type=\"text\" autocomplete=\"off\" aria-autocomplete=\"list\" aria-controls=\"react-autowhatever-site-search\" class=\"form-control input input--isLarge\" placeholder=\"Search wine and events\" aria-describedby=\"search-instructions\" value=\"\">"
+      }
+    ]
+  }
+]

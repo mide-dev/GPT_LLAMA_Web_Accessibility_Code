@@ -1,0 +1,64 @@
+[
+  {
+    "analysisDetails": [
+      {
+        "model": "Claude"
+      },
+      {
+        "accessibility_type": "link-name"
+      },
+      {
+        "prompt_technique": "fewShot"
+      },
+      {
+        "temperature": 0.5
+      }
+    ],
+    "accessbilityTestResult": {
+      "violationBeforeModification": 8,
+      "violationAfterModification": 0
+    },
+    "modelCorrections": [
+      {
+        "beforeModification": "<a href=\"javascript:;\" class=\"js-close-navigation-promotion navigation-promo-banner__close\" data-event-type=\"Promotion click\" data-event-title=\"Promotion click\" data-event-link=\"navigation-promotion\">\n                        <div class=\"icn-close\"></div>\n                </a>",
+        "afterModification": "<a href=\"javascript:;\" class=\"js-close-navigation-promotion navigation-promo-banner__close\" data-event-type=\"Promotion click\" data-event-title=\"Promotion click\" data-event-link=\"navigation-promotion\" aria-label=\"Close navigation promotion\">\n  <div class=\"icn-close\"></div>\n</a>",
+        "rawOutput": "Here's the corrected HTML based on the WCAG 2.1 violation description and the provided example:\n\n- Corrected HTML:\n<a href=\"javascript:;\" class=\"js-close-navigation-promotion navigation-promo-banner__close\" data-event-type=\"Promotion click\" data-event-title=\"Promotion click\" data-event-link=\"navigation-promotion\" aria-label=\"Close navigation promotion\">\n  <div class=\"icn-close\"></div>\n</a>\n\nExplanation:\nThe original HTML had an empty anchor tag without any accessible text. To fix this, I added the `aria-label` attribute with a descriptive text \"Close navigation promotion\". This provides a text alternative for screen readers to understand the purpose of the link."
+      },
+      {
+        "beforeModification": "<a href=\"javascript:;\" title=\"\" class=\"js-add-to-cart\" data-at=\"section-mini cart button\">\n        \n        <span class=\"icn-cart hide-mobile\"></span>\n        <span class=\"cart-badge js-cart-badge hide-mobile hidden\">0</span>\n    </a>",
+        "afterModification": "<a href=\"javascript:;\" title=\"Add to Cart\" class=\"js-add-to-cart\" data-at=\"section-mini cart button\" aria-label=\"Add to Cart\">\n    <span class=\"icn-cart hide-mobile\"></span>\n    <span class=\"cart-badge js-cart-badge hide-mobile hidden\">0</span>\n</a>",
+        "rawOutput": "Here's the corrected HTML based on the WCAG 2.1 violation description:\n\n- Corrected HTML:\n<a href=\"javascript:;\" title=\"Add to Cart\" class=\"js-add-to-cart\" data-at=\"section-mini cart button\" aria-label=\"Add to Cart\">\n    <span class=\"icn-cart hide-mobile\"></span>\n    <span class=\"cart-badge js-cart-badge hide-mobile hidden\">0</span>\n</a>\n\nExplanation:\n1. The empty `title` attribute has been filled with a descriptive text \"Add to Cart\" to provide accessible text for the link.\n2. The `aria-label` attribute has been added with the same text \"Add to Cart\" to ensure the link has accessible text that is visible to screen readers.\n\nThese changes ensure that the link has accessible text, either through the `title` attribute or the `aria-label` attribute, making it compliant with the WCAG 2.1 guidelines."
+      },
+      {
+        "beforeModification": "<a href=\"javascript:;\" title=\"\"><span class=\"icon icon-close\"></span></a>",
+        "afterModification": "<a href=\"javascript:;\" aria-label=\"Close\"><span class=\"icon icon-close\"></span></a>",
+        "rawOutput": "Here's the corrected HTML based on the WCAG 2.1 violation description:\n\n- Corrected HTML: <a href=\"javascript:;\" aria-label=\"Close\"><span class=\"icon icon-close\"></span></a>\n\nExplanation:\n1. The original HTML had an empty `title` attribute, which does not provide accessible text for screen readers.\n2. To fix this, I removed the empty `title` attribute and added an `aria-label` attribute with the value \"Close\" to provide accessible text for the link.\n3. The `aria-label` attribute is used to provide a text alternative for the link, which will be read by screen readers.\n\nBy adding the `aria-label` attribute with a descriptive text, the link becomes accessible to users relying on assistive technologies."
+      },
+      {
+        "beforeModification": "<a href=\"/nos-plus-belles-marques/knorr-professional/knorr-gammefondsbrunslies-nouvellerecette.html\" data-event-type=\"Article Click\" data-event-name=\"Promotion - Fonds Bruns Liés : Nouvelles recettes !  - /nos-plus-belles-marques/knorr-professional/knorr-gammefondsbrunslies-nouvellerecette.html\">",
+        "afterModification": "<a href=\"/nos-plus-belles-marques/knorr-professional/knorr-gammefondsbrunslies-nouvellerecette.html\" data-event-type=\"Article Click\" data-event-name=\"Promotion - Fonds Bruns Liés : Nouvelles recettes !\" title=\"Knorr Gamme Fonds Bruns Liés - Nouvelle recette\">\n\nExplanation:\nTo fix the accessibility issue, I added the `title` attribute to the `<a>",
+        "rawOutput": "Here's the corrected HTML based on the WCAG 2.1 violation description:\n\n- Corrected HTML: <a href=\"/nos-plus-belles-marques/knorr-professional/knorr-gammefondsbrunslies-nouvellerecette.html\" data-event-type=\"Article Click\" data-event-name=\"Promotion - Fonds Bruns Liés : Nouvelles recettes !\" title=\"Knorr Gamme Fonds Bruns Liés - Nouvelle recette\">\n\nExplanation:\nTo fix the accessibility issue, I added the `title` attribute to the `<a>` element. The `title` attribute provides a text alternative that is visible to screen readers and helps describe the purpose of the link. In this case, I used the text \"Knorr Gamme Fonds Bruns Liés - Nouvelle recette\" as the value for the `title` attribute, which provides a meaningful description of the link's destination.\n\nBy adding the `title` attribute, the link now has accessible text that can be read by screen readers, making it compliant with the WCAG 2.1 guidelines."
+      },
+      {
+        "beforeModification": "<a href=\"/rapport-des-tendances-menus-2024.html\" data-event-type=\"Article Click\" data-event-name=\"Promotion - NOUVEAU : Rapport Future Menus 2024 !  - /rapport-des-tendances-menus-2024.html\">",
+        "afterModification": "<a href=\"/rapport-des-tendances-menus-2024.html\" data-event-type=\"Article Click\" data-event-name=\"Promotion - NOUVEAU : Rapport Future Menus 2024 !\" title=\"Rapport Future Menus 2024\">Rapport Future Menus 2024</a>",
+        "rawOutput": "Here's the corrected HTML based on the WCAG 2.1 violation description and the provided examples:\n\n- Corrected HTML: <a href=\"/rapport-des-tendances-menus-2024.html\" data-event-type=\"Article Click\" data-event-name=\"Promotion - NOUVEAU : Rapport Future Menus 2024 !\" title=\"Rapport Future Menus 2024\">Rapport Future Menus 2024</a>"
+      },
+      {
+        "beforeModification": "<a href=\"/nos-plus-belles-marques/knorr-professional/knorr-cuisinedumonde.html\" class=\"item-list__image--oblong\" data-event-type=\"Article Click\" data-event-name=\"Chef Inspiration - Article: \">",
+        "afterModification": "<a href=\"/nos-plus-belles-marques/knorr-professional/knorr-cuisinedumonde.html\" class=\"item-list__image--oblong\" data-event-type=\"Article Click\" data-event-name=\"Chef Inspiration - Article: \" aria-label=\"Knorr Cuisine du Monde\">",
+        "rawOutput": "Here's the corrected HTML based on the WCAG 2.1 violation description and the provided examples:\n\n- Corrected HTML: <a href=\"/nos-plus-belles-marques/knorr-professional/knorr-cuisinedumonde.html\" class=\"item-list__image--oblong\" data-event-type=\"Article Click\" data-event-name=\"Chef Inspiration - Article: \" aria-label=\"Knorr Cuisine du Monde\">\n\nExplanation:\nTo fix the accessibility issue, I added the `aria-label` attribute to the `<a>` element. The `aria-label` provides a text alternative for the link, making it accessible to screen readers. In this case, I assumed the link text should be \"Knorr Cuisine du Monde\" based on the URL, but you can replace it with a more appropriate text if needed.\n\nBy adding the `aria-label`, the link now has accessible text that can be read by screen readers, addressing the WCAG 2.1 violation."
+      },
+      {
+        "beforeModification": "<a href=\"/nos-plus-belles-marques/knorr-professional/knorr-cuisinedumonde.html\" class=\"item-list__image--square\" data-event-type=\"Article Click\" data-event-name=\"Chef Inspiration - Article: \">",
+        "afterModification": "<a href=\"/nos-plus-belles-marques/knorr-professional/knorr-cuisinedumonde.html\" class=\"item-list__image--square\" data-event-type=\"Article Click\" data-event-name=\"Chef Inspiration - Article: \" title=\"Knorr Cuisine du Monde\">",
+        "rawOutput": "Here's the corrected HTML based on the WCAG 2.1 violation description and the provided examples:\n\n- Corrected HTML: <a href=\"/nos-plus-belles-marques/knorr-professional/knorr-cuisinedumonde.html\" class=\"item-list__image--square\" data-event-type=\"Article Click\" data-event-name=\"Chef Inspiration - Article: \" title=\"Knorr Cuisine du Monde\">"
+      },
+      {
+        "beforeModification": "<a href=\"/nos-plus-belles-marques/knorr-professional/knorr-cuisinedumonde.html\" data-event-type=\"Article Click\" data-event-name=\"Chef Inspiration - Article: \">\n            <span class=\"item-list__title js-inspiration-add-class span-8\"></span>\n            \n        </a>",
+        "afterModification": "<a href=\"/nos-plus-belles-marques/knorr-professional/knorr-cuisinedumonde.html\" data-event-type=\"Article Click\" data-event-name=\"Chef Inspiration - Article: \" aria-label=\"Chef Inspiration - Article\">\n    <span class=\"item-list__title js-inspiration-add-class span-8\"></span>\n</a>",
+        "rawOutput": "Here's the corrected HTML based on the WCAG 2.1 violation description and the provided examples:\n\n- Corrected HTML:\n<a href=\"/nos-plus-belles-marques/knorr-professional/knorr-cuisinedumonde.html\" data-event-type=\"Article Click\" data-event-name=\"Chef Inspiration - Article: \" aria-label=\"Chef Inspiration - Article\">\n    <span class=\"item-list__title js-inspiration-add-class span-8\"></span>\n</a>\n\nExplanation:\nTo fix the accessibility issue where the element is in the tab order but does not have accessible text, I added the `aria-label` attribute to the `<a>` element. The `aria-label` provides a text alternative that is read by screen readers when the element receives focus.\n\nIn this case, I used the value \"Chef Inspiration - Article\" for the `aria-label`, which seems to be a meaningful description based on the `data-event-name` attribute. You can modify the text to better describe the purpose of the link if needed.\n\nBy adding the `aria-label`, screen readers will announce the accessible text when the link receives focus, making it more understandable and navigable for users relying on assistive technologies."
+      }
+    ]
+  }
+]

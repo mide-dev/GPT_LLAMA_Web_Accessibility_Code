@@ -1,0 +1,29 @@
+[
+  {
+    "analysisDetails": [
+      {
+        "model": "GPT"
+      },
+      {
+        "accessibility_type": "html-has-lang"
+      },
+      {
+        "prompt_technique": "cot"
+      },
+      {
+        "temperature": 0.5
+      }
+    ],
+    "accessbilityTestResult": {
+      "violationBeforeModification": 1,
+      "violationAfterModification": 0
+    },
+    "modelCorrections": [
+      {
+        "beforeModification": "<html>",
+        "afterModification": "<html lang=\"en\">",
+        "rawOutput": "- Thought: I need to add the \"lang\" attribute to the `<html>` tag to specify the language of the content on the website. Given the extracted text, \"Manage your poker live sessions,\" it's reasonable to assume that the content is in English. Therefore, I should add `lang=\"en\"` to the `<html>` tag.\n\n- Corrected HTML: `<html lang=\"en\">`"
+      }
+    ]
+  }
+]

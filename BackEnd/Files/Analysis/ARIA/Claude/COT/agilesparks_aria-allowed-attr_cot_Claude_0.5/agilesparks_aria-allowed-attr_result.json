@@ -1,0 +1,29 @@
+[
+  {
+    "analysisDetails": [
+      {
+        "model": "Claude"
+      },
+      {
+        "accessibility_type": "aria-allowed-attr"
+      },
+      {
+        "prompt_technique": "cot"
+      },
+      {
+        "temperature": 0.5
+      }
+    ],
+    "accessbilityTestResult": {
+      "violationBeforeModification": 1,
+      "violationAfterModification": 0
+    },
+    "modelCorrections": [
+      {
+        "beforeModification": "<div class=\"dialog-widget dialog-lightbox-widget dialog-type-buttons dialog-type-lightbox elementor-popup-modal\" id=\"elementor-popup-modal-67353\" aria-modal=\"true\" role=\"document\" tabindex=\"0\" style=\"\">",
+        "afterModification": "<div class=\"dialog-widget dialog-lightbox-widget dialog-type-buttons dialog-type-lightbox elementor-popup-modal\" id=\"elementor-popup-modal-67353\" role=\"document\" tabindex=\"0\" style=\"\">",
+        "rawOutput": "Here's the corrected HTML based on the WCAG 2.1 violation description:\n\n- Incorrect HTML: <div class=\"dialog-widget dialog-lightbox-widget dialog-type-buttons dialog-type-lightbox elementor-popup-modal\" id=\"elementor-popup-modal-67353\" aria-modal=\"true\" role=\"document\" tabindex=\"0\" style=\"\">\n\n- Thought: The ARIA attribute aria-modal=\"true\" is not allowed on the <div> element. The aria-modal attribute is used to indicate that an element is modal when displayed. However, it should only be used on elements that are truly modal dialogs, such as those created with the <dialog> element or role=\"dialog\" attribute. In this case, the <div> element has a role of \"document\", which is not a modal dialog. Therefore, the aria-modal attribute should be removed.\n\n- Corrected HTML: <div class=\"dialog-widget dialog-lightbox-widget dialog-type-buttons dialog-type-lightbox elementor-popup-modal\" id=\"elementor-popup-modal-67353\" role=\"document\" tabindex=\"0\" style=\"\">\n\nBy removing the aria-modal=\"true\" attribute, the HTML becomes more accessible and compliant with WCAG 2.1 guidelines."
+      }
+    ]
+  }
+]

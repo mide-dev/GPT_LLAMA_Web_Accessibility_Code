@@ -1,0 +1,29 @@
+[
+  {
+    "analysisDetails": [
+      {
+        "model": "GPT"
+      },
+      {
+        "accessibility_type": "html-has-lang"
+      },
+      {
+        "prompt_technique": "cot"
+      },
+      {
+        "temperature": 0.5
+      }
+    ],
+    "accessbilityTestResult": {
+      "violationBeforeModification": 1,
+      "violationAfterModification": 0
+    },
+    "modelCorrections": [
+      {
+        "beforeModification": "<html>",
+        "afterModification": "<html lang=\"en\">",
+        "rawOutput": "- Thought: Based on the extracted text \"Ribbon is made by Maria\", it's not explicitly clear which language is being used without additional context. However, the sentence structure and the name \"Maria\" could suggest that the language is English or possibly a language common in regions where \"Maria\" is a common name. Given the lack of specific context, the safest assumption is to default to English, as it's the most common language for web content unless specified otherwise.\n\n- Corrected HTML: <html lang=\"en\">"
+      }
+    ]
+  }
+]

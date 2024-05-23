@@ -1,0 +1,29 @@
+[
+  {
+    "analysisDetails": [
+      {
+        "model": "Claude"
+      },
+      {
+        "accessibility_type": "html-has-lang"
+      },
+      {
+        "prompt_technique": "cot"
+      },
+      {
+        "temperature": 0.5
+      }
+    ],
+    "accessbilityTestResult": {
+      "violationBeforeModification": 1,
+      "violationAfterModification": 0
+    },
+    "modelCorrections": [
+      {
+        "beforeModification": "<html>",
+        "afterModification": "<html lang=\"en\">",
+        "rawOutput": "Here's the corrected HTML based on the WCAG 2.1 violation description and the example provided:\n\n*Extracted text from website*: \"Canadian coins obverses comparison\"\n- Incorrect HTML: <html>\n- Thought: I need to correct the above HTML by adding the \"lang\" attribute and assigning the right language using the \"Extracted text from website\" for language context. Since the text is in English and mentions \"Canadian coins\", the appropriate language code is \"en\".\n- Corrected HTML: <html lang=\"en\">"
+      }
+    ]
+  }
+]

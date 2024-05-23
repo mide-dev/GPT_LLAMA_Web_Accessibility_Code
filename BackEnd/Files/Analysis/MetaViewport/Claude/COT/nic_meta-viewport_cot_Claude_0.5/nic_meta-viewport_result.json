@@ -1,0 +1,29 @@
+[
+  {
+    "analysisDetails": [
+      {
+        "model": "Claude"
+      },
+      {
+        "accessibility_type": "meta-viewport"
+      },
+      {
+        "prompt_technique": "cot"
+      },
+      {
+        "temperature": 0.5
+      }
+    ],
+    "accessbilityTestResult": {
+      "violationBeforeModification": 1,
+      "violationAfterModification": 0
+    },
+    "modelCorrections": [
+      {
+        "beforeModification": "<meta name=\"viewport\" content=\"width=device-width,initial-scale=1, maximum-scale=1\">",
+        "afterModification": "<meta name=\"viewport\" content=\"width=device-width,initial-scale=1, maximum-scale=1\">\n- Thought: According to the WCAG 2.1 violation description, the maximum-scale value of 1 disables zooming on mobile devices. To fix this, I need to remove the maximum-scale property altogether or set it to a value of at least 2.0 to allow users to zoom the content.\n- Corrected HTML: <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">",
+        "rawOutput": "- Incorrect HTML: <meta name=\"viewport\" content=\"width=device-width,initial-scale=1, maximum-scale=1\">\n- Thought: According to the WCAG 2.1 violation description, the maximum-scale value of 1 disables zooming on mobile devices. To fix this, I need to remove the maximum-scale property altogether or set it to a value of at least 2.0 to allow users to zoom the content.\n- Corrected HTML: <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">"
+      }
+    ]
+  }
+]

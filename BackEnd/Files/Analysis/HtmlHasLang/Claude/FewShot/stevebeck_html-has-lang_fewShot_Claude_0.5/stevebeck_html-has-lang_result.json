@@ -1,0 +1,29 @@
+[
+  {
+    "analysisDetails": [
+      {
+        "model": "Claude"
+      },
+      {
+        "accessibility_type": "html-has-lang"
+      },
+      {
+        "prompt_technique": "fewShot"
+      },
+      {
+        "temperature": 0.5
+      }
+    ],
+    "accessbilityTestResult": {
+      "violationBeforeModification": 1,
+      "violationAfterModification": 0
+    },
+    "modelCorrections": [
+      {
+        "beforeModification": "<html>",
+        "afterModification": "<html lang=\"en\">",
+        "rawOutput": "Here's the corrected HTML based on the WCAG 2.1 violation description:\n\n*Extracted text from website*: \"View full versions of Beck's\"\n- Incorrect HTML: <html>\n- Corrected HTML: <html lang=\"en\">"
+      }
+    ]
+  }
+]

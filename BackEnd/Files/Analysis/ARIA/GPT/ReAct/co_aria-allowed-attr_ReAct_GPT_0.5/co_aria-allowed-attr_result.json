@@ -1,0 +1,39 @@
+[
+  {
+    "analysisDetails": [
+      {
+        "model": "GPT"
+      },
+      {
+        "accessibility_type": "aria-allowed-attr"
+      },
+      {
+        "prompt_technique": "ReAct"
+      },
+      {
+        "temperature": 0.5
+      }
+    ],
+    "accessbilityTestResult": {
+      "violationBeforeModification": 3,
+      "violationAfterModification": 0
+    },
+    "modelCorrections": [
+      {
+        "beforeModification": "<div class=\"hf-provider-1rqnzv6\" data-genesis-element=\"BASE\" aria-orientation=\"horizontal\"><hr class=\"hf-provider-c6fpx3\" data-genesis-element=\"BASE\"></div>",
+        "afterModification": "<div class=\"hf-provider-1rqnzv6\" data-genesis-element=\"BASE\"><hr class=\"hf-provider-c6fpx3\" data-genesis-element=\"BASE\"></div>",
+        "rawOutput": "Given the WCAG 2.1 violation description that the ARIA attribute `aria-orientation=\"horizontal\"` is not allowed, let's correct the HTML accordingly.\n\n- Incorrect HTML: `<div class=\"hf-provider-1rqnzv6\" data-genesis-element=\"BASE\" aria-orientation=\"horizontal\"><hr class=\"hf-provider-c6fpx3\" data-genesis-element=\"BASE\"></div>`\n\n- Thought: The `aria-orientation=\"horizontal\"` attribute is not applicable or allowed in this context according to the violation description. It's important to ensure that ARIA attributes used are appropriate for the roles and elements they are associated with to ensure accessibility for users relying on assistive technologies.\n\n- Observation: The `aria-orientation` attribute is typically used with roles that inherently imply orientation, such as sliders, scrollbars, or tabs, to specify the orientation of the component. However, in this case, the div element does not seem to represent a component that would require specifying an orientation. Therefore, removing the `aria-orientation` attribute should resolve the violation.\n\n- Action: Remove `aria-orientation=\"horizontal\"` from the HTML.\n\n- Corrected HTML: `<div class=\"hf-provider-1rqnzv6\" data-genesis-element=\"BASE\"><hr class=\"hf-provider-c6fpx3\" data-genesis-element=\"BASE\"></div>`\n\nThis corrected HTML no longer includes the disallowed `aria-orientation=\"horizontal\"` attribute, thus addressing the specified WCAG 2.1 violation."
+      },
+      {
+        "beforeModification": "<div class=\"hf-provider-1rqnzv6\" data-genesis-element=\"BASE\" aria-orientation=\"horizontal\"><hr class=\"hf-provider-c6fpx3\" data-genesis-element=\"BASE\"></div>",
+        "afterModification": "<div class=\"hf-provider-1rqnzv6\" data-genesis-element=\"BASE\"><hr class=\"hf-provider-c6fpx3\" data-genesis-element=\"BASE\"></div>",
+        "rawOutput": "To correct the given HTML for accessibility and address the WCAG 2.1 violation, we need to remove or replace the inappropriate ARIA attribute `aria-orientation=\"horizontal\"` as it's not allowed in the context provided. The `aria-orientation` attribute is typically used with roles that inherently require orientation information to be conveyed, such as sliders, scrollbars, or tabs. In this case, the div element does not have a role that supports the `aria-orientation` attribute.\n\n- Incorrect HTML: `<div class=\"hf-provider-1rqnzv6\" data-genesis-element=\"BASE\" aria-orientation=\"horizontal\"><hr class=\"hf-provider-c6fpx3\" data-genesis-element=\"BASE\"></div>`\n\n- Thought: The `aria-orientation` attribute is being used incorrectly because it's applied to a `div` element without a role that supports orientation. To fix the issue, we need to either remove the attribute or change the role of the element to one that supports orientation, depending on the intended functionality.\n\n- Observation: Since the `div` element does not have a role, and it's not clear which ARIA role would be appropriate without more context (e.g., whether it's meant to be a slider, scrollbar, etc.), the most straightforward correction is to remove the `aria-orientation` attribute.\n\n- Action: Remove `aria-orientation=\"horizontal\"` from the HTML.\n\n- Corrected HTML: `<div class=\"hf-provider-1rqnzv6\" data-genesis-element=\"BASE\"><hr class=\"hf-provider-c6fpx3\" data-genesis-element=\"BASE\"></div>`\n\nThis correction removes the inappropriate ARIA attribute, thereby resolving the WCAG 2.1 violation related to the use of an ARIA attribute that is not allowed in the given context."
+      },
+      {
+        "beforeModification": "<div class=\"hf-provider-1rqnzv6\" data-genesis-element=\"BASE\" aria-orientation=\"horizontal\"><hr class=\"hf-provider-c6fpx3\" data-genesis-element=\"BASE\"></div>",
+        "afterModification": "<div class=\"hf-provider-1rqnzv6\" data-genesis-element=\"BASE\"><hr class=\"hf-provider-c6fpx3\" data-genesis-element=\"BASE\"></div>",
+        "rawOutput": "Based on the WCAG 2.1 violation description provided, the issue is with the use of the `aria-orientation=\"horizontal\"` attribute which is not allowed in the given context. To correct this, we should remove or modify this attribute according to the role of the element it is applied to. Since no role is specified that would allow the use of `aria-orientation`, the simplest correction is to remove the attribute.\n\n- Incorrect HTML: `<div class=\"hf-provider-1rqnzv6\" data-genesis-element=\"BASE\" aria-orientation=\"horizontal\"><hr class=\"hf-provider-c6fpx3\" data-genesis-element=\"BASE\"></div>`\n\n- Thought: The `aria-orientation` attribute is used to indicate the orientation of components to assistive technologies, but its use is limited to roles where orientation is relevant (e.g., `role=\"scrollbar\"` or `role=\"slider\"`). Since the div element in question does not have a role that supports `aria-orientation`, and no such role is implied by the context provided, this attribute is not allowed and thus violates WCAG 2.1 guidelines.\n\n- Observation: The `aria-orientation` attribute is being used incorrectly because it is applied to a div element without a valid role that would require or allow for orientation to be specified.\n\n- Action: Remove the `aria-orientation=\"horizontal\"` attribute from the HTML.\n\n- Corrected HTML: `<div class=\"hf-provider-1rqnzv6\" data-genesis-element=\"BASE\"><hr class=\"hf-provider-c6fpx3\" data-genesis-element=\"BASE\"></div>`\n\nThis correction addresses the WCAG 2.1 violation by removing the inappropriate use of `aria-orientation`, thereby making the element more accessible according to the guidelines."
+      }
+    ]
+  }
+]

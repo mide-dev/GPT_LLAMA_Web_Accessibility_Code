@@ -1,0 +1,39 @@
+[
+  {
+    "analysisDetails": [
+      {
+        "model": "GPT"
+      },
+      {
+        "accessibility_type": "aria-allowed-attr"
+      },
+      {
+        "prompt_technique": "cot"
+      },
+      {
+        "temperature": 0.5
+      }
+    ],
+    "accessbilityTestResult": {
+      "violationBeforeModification": 3,
+      "violationAfterModification": 0
+    },
+    "modelCorrections": [
+      {
+        "beforeModification": "<div class=\"hf-provider-1rqnzv6\" data-genesis-element=\"BASE\" aria-orientation=\"horizontal\"><hr class=\"hf-provider-c6fpx3\" data-genesis-element=\"BASE\"></div>",
+        "afterModification": "<div class=\"hf-provider-1rqnzv6\" role=\"tablist\" data-genesis-element=\"BASE\" aria-orientation=\"horizontal\"><hr class=\"hf-provider-c6fpx3\" data-genesis-element=\"BASE\"></div>",
+        "rawOutput": "Thought: The violation points out that the `aria-orientation=\"horizontal\"` attribute is not allowed or is incorrectly applied in this context. This attribute is typically used with roles that inherently require orientation information, like sliders, scrollbars, or tabs. However, the div element in the provided HTML does not have a role that supports this attribute. To correct this, we need to either remove the `aria-orientation` attribute if it's unnecessary or ensure that the element has a proper role that supports this attribute and where specifying the orientation is meaningful.\n\nCorrected HTML:\n- If the `aria-orientation` attribute is unnecessary, simply remove it:\n```html\n<div class=\"hf-provider-1rqnzv6\" data-genesis-element=\"BASE\"><hr class=\"hf-provider-c6fpx3\" data-genesis-element=\"BASE\"></div>\n```\n\n- If the intention was to use a component that requires an orientation (and assuming it was meant to be a tablist, toolbar, or similar component that supports `aria-orientation`), you need to assign an appropriate role to the div:\n```html\n<div class=\"hf-provider-1rqnzv6\" role=\"tablist\" data-genesis-element=\"BASE\" aria-orientation=\"horizontal\"><hr class=\"hf-provider-c6fpx3\" data-genesis-element=\"BASE\"></div>\n```\nIn this correction, I assumed a `role=\"tablist\"` as an example of a component that could logically have a horizontal orientation. The specific role you choose should match the actual component's purpose and behavior in your application."
+      },
+      {
+        "beforeModification": "<div class=\"hf-provider-1rqnzv6\" data-genesis-element=\"BASE\" aria-orientation=\"horizontal\"><hr class=\"hf-provider-c6fpx3\" data-genesis-element=\"BASE\"></div>",
+        "afterModification": "<div class=\"hf-provider-1rqnzv6\" data-genesis-element=\"BASE\"><hr class=\"hf-provider-c6fpx3\" data-genesis-element=\"BASE\"></div>",
+        "rawOutput": "Thought: The violation description points out that the ARIA attribute `aria-orientation=\"horizontal\"` is not allowed. This means we need to remove or correct this attribute. The `aria-orientation` attribute is typically used with roles that naturally expect this attribute, such as `slider`, `scrollbar`, `tablist`, etc. Since the div element does not have a role that supports `aria-orientation`, and without additional context suggesting a change of role is necessary, the most straightforward correction is to remove the `aria-orientation` attribute.\n\nCorrected HTML:\n```html\n<div class=\"hf-provider-1rqnzv6\" data-genesis-element=\"BASE\"><hr class=\"hf-provider-c6fpx3\" data-genesis-element=\"BASE\"></div>\n```"
+      },
+      {
+        "beforeModification": "<div class=\"hf-provider-1rqnzv6\" data-genesis-element=\"BASE\" aria-orientation=\"horizontal\"><hr class=\"hf-provider-c6fpx3\" data-genesis-element=\"BASE\"></div>",
+        "afterModification": "<div class=\"hf-provider-1rqnzv6\" data-genesis-element=\"BASE\"><hr class=\"hf-provider-c6fpx3\" data-genesis-element=\"BASE\"></div>",
+        "rawOutput": "- Thought: The use of `aria-orientation=\"horizontal\"` is not allowed or necessary in the context of a div element that does not have a role that supports the use of `aria-orientation`. Roles that commonly support `aria-orientation` are slider, scrollbar, tablist, and toolbar, among others. Since the div does not have a specified role that would benefit from the `aria-orientation` attribute, it is best to remove this attribute to adhere to WCAG 2.1 guidelines.\n\n- Corrected HTML: `<div class=\"hf-provider-1rqnzv6\" data-genesis-element=\"BASE\"><hr class=\"hf-provider-c6fpx3\" data-genesis-element=\"BASE\"></div>`"
+      }
+    ]
+  }
+]

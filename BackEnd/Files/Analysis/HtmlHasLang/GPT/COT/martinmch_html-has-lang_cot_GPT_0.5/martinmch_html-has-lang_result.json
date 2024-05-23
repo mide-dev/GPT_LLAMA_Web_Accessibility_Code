@@ -1,0 +1,29 @@
+[
+  {
+    "analysisDetails": [
+      {
+        "model": "GPT"
+      },
+      {
+        "accessibility_type": "html-has-lang"
+      },
+      {
+        "prompt_technique": "cot"
+      },
+      {
+        "temperature": 0.5
+      }
+    ],
+    "accessbilityTestResult": {
+      "violationBeforeModification": 1,
+      "violationAfterModification": 0
+    },
+    "modelCorrections": [
+      {
+        "beforeModification": "<html>",
+        "afterModification": "<html lang=\"en\">",
+        "rawOutput": "- Thought: The provided HTML lacks the \"lang\" attribute which is necessary for defining the language of the content to assistive technologies and search engines. Based on the extracted text \"This page is unable to\", it's not explicitly clear what the primary language is, but assuming it's English, I will add the \"lang\" attribute with the value \"en\" for English.\n\n- Corrected HTML: <html lang=\"en\">"
+      }
+    ]
+  }
+]

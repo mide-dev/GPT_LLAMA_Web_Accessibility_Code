@@ -1,0 +1,49 @@
+[
+  {
+    "analysisDetails": [
+      {
+        "model": "GPT"
+      },
+      {
+        "accessibility_type": "aria-allowed-attr"
+      },
+      {
+        "prompt_technique": "fewShot"
+      },
+      {
+        "temperature": 0.5
+      }
+    ],
+    "accessbilityTestResult": {
+      "violationBeforeModification": 5,
+      "violationAfterModification": 0
+    },
+    "modelCorrections": [
+      {
+        "beforeModification": "<div role=\"button\" aria-selected=\"true\" aria-label=\"Click to select the Dischem  tab.\" tabindex=\"0\" class=\"CustomerSuccessstyled__ImageWrap-sc-1kt39ue-8 lkacQL\">",
+        "afterModification": "<div role=\"button\" aria-pressed=\"true\" aria-label=\"Click to select the Dischem tab.\" tabindex=\"0\" class=\"CustomerSuccessstyled__ImageWrap-sc-1kt39ue-8 lkacQL\">",
+        "rawOutput": "```html\n<div role=\"button\" aria-pressed=\"true\" aria-label=\"Click to select the Dischem tab.\" tabindex=\"0\" class=\"CustomerSuccessstyled__ImageWrap-sc-1kt39ue-8 lkacQL\">\n```"
+      },
+      {
+        "beforeModification": "<div role=\"button\" aria-selected=\"false\" aria-label=\"Click to select the Imperial tab.\" tabindex=\"0\" class=\"CustomerSuccessstyled__ImageWrap-sc-1kt39ue-8 lkacQL\">",
+        "afterModification": "<div role=\"button\" aria-pressed=\"false\" aria-label=\"Click to select the Imperial tab.\" tabindex=\"0\" class=\"CustomerSuccessstyled__ImageWrap-sc-1kt39ue-8 lkacQL\">",
+        "rawOutput": "```html\n<div role=\"button\" aria-pressed=\"false\" aria-label=\"Click to select the Imperial tab.\" tabindex=\"0\" class=\"CustomerSuccessstyled__ImageWrap-sc-1kt39ue-8 lkacQL\">\n```"
+      },
+      {
+        "beforeModification": "<div role=\"button\" aria-selected=\"false\" aria-label=\"Click to select the FlySafair tab.\" tabindex=\"0\" class=\"CustomerSuccessstyled__ImageWrap-sc-1kt39ue-8 lkacQL\">",
+        "afterModification": "<div role=\"button\" aria-pressed=\"false\" aria-label=\"Click to select the FlySafair tab.\" tabindex=\"0\" class=\"CustomerSuccessstyled__ImageWrap-sc-1kt39ue-8 lkacQL\">",
+        "rawOutput": "```html\n<div role=\"button\" aria-pressed=\"false\" aria-label=\"Click to select the FlySafair tab.\" tabindex=\"0\" class=\"CustomerSuccessstyled__ImageWrap-sc-1kt39ue-8 lkacQL\">\n```"
+      },
+      {
+        "beforeModification": "<div role=\"button\" aria-selected=\"false\" aria-label=\"Click to select the Telkom tab.\" tabindex=\"0\" class=\"CustomerSuccessstyled__ImageWrap-sc-1kt39ue-8 lkacQL\">",
+        "afterModification": "<div role=\"button\" aria-pressed=\"false\" aria-label=\"Click to select the Telkom tab.\" tabindex=\"0\" class=\"CustomerSuccessstyled__ImageWrap-sc-1kt39ue-8 lkacQL\">",
+        "rawOutput": "```html\n<div role=\"button\" aria-pressed=\"false\" aria-label=\"Click to select the Telkom tab.\" tabindex=\"0\" class=\"CustomerSuccessstyled__ImageWrap-sc-1kt39ue-8 lkacQL\">\n```"
+      },
+      {
+        "beforeModification": "<div role=\"button\" aria-selected=\"false\" aria-label=\"Click to select the Web Africa tab.\" tabindex=\"0\" class=\"CustomerSuccessstyled__ImageWrap-sc-1kt39ue-8 lkacQL\">",
+        "afterModification": "<div role=\"button\" aria-pressed=\"false\" aria-label=\"Click to select the Web Africa tab.\" tabindex=\"0\" class=\"CustomerSuccessstyled__ImageWrap-sc-1kt39ue-8 lkacQL\"></div>",
+        "rawOutput": "```html\n<div role=\"button\" aria-pressed=\"false\" aria-label=\"Click to select the Web Africa tab.\" tabindex=\"0\" class=\"CustomerSuccessstyled__ImageWrap-sc-1kt39ue-8 lkacQL\"></div>\n```"
+      }
+    ]
+  }
+]

@@ -1,0 +1,44 @@
+[
+  {
+    "analysisDetails": [
+      {
+        "model": "Claude"
+      },
+      {
+        "accessibility_type": "aria-required-attr"
+      },
+      {
+        "prompt_technique": "cot"
+      },
+      {
+        "temperature": 0.5
+      }
+    ],
+    "accessbilityTestResult": {
+      "violationBeforeModification": 4,
+      "violationAfterModification": 0
+    },
+    "modelCorrections": [
+      {
+        "beforeModification": "<input type=\"search\" autocomplete=\"off\" role=\"combobox\" aria-label=\"Search for option\" class=\"form-control\">",
+        "afterModification": "<input type=\"search\" autocomplete=\"off\" role=\"combobox\" aria-label=\"Search for option\" aria-expanded=\"false\" aria-controls=\"combobox-options\" class=\"form-control\">",
+        "rawOutput": "- Thought: According to the WCAG 2.1 violation description, the input element with a role of \"combobox\" is missing the required ARIA attributes aria-expanded and aria-controls. To fix this, I need to add these attributes to the input element.\n\n- Corrected HTML: <input type=\"search\" autocomplete=\"off\" role=\"combobox\" aria-label=\"Search for option\" aria-expanded=\"false\" aria-controls=\"combobox-options\" class=\"form-control\">\n\nNote: The aria-expanded attribute should be set to \"false\" initially, and it should be updated programmatically to \"true\" when the combobox options are visible. The aria-controls attribute should reference the ID of the element that contains the combobox options."
+      },
+      {
+        "beforeModification": "<input type=\"search\" autocomplete=\"off\" placeholder=\"المدينة\" role=\"combobox\" aria-label=\"Search for option\" class=\"form-control\">",
+        "afterModification": "<input type=\"search\" autocomplete=\"off\" placeholder=\"المدينة\" role=\"combobox\" aria-label=\"Search for option\" aria-expanded=\"false\" aria-controls=\"combobox-options\" class=\"form-control\">\n<ul id=\"combobox-options\" role=\"listbox\" aria-label=\"Options\">\n  <!-- Combobox options go here -->\n</ul>",
+        "rawOutput": "- Thought: Because the input element has a role of combobox, I need to add all WCAG required ARIA attributes (aria-expanded and aria-controls) that are needed for a combobox according to WCAG 2.1. The aria-controls attribute should reference the ID of the element that contains the combobox options.\n\n- Corrected HTML: <input type=\"search\" autocomplete=\"off\" placeholder=\"المدينة\" role=\"combobox\" aria-label=\"Search for option\" aria-expanded=\"false\" aria-controls=\"combobox-options\" class=\"form-control\">\n<ul id=\"combobox-options\" role=\"listbox\" aria-label=\"Options\">\n  <!-- Combobox options go here -->\n</ul>"
+      },
+      {
+        "beforeModification": "<input type=\"search\" autocomplete=\"off\" placeholder=\"الحي\" role=\"combobox\" aria-label=\"Search for option\" class=\"form-control\">",
+        "afterModification": "<input type=\"search\" autocomplete=\"off\" placeholder=\"الحي\" role=\"combobox\" aria-label=\"Search for option\" aria-expanded=\"false\" aria-controls=\"combobox-options\" class=\"form-control\">",
+        "rawOutput": "- Thought: According to the WCAG 2.1 violation description, the input element with a role of \"combobox\" is missing the required ARIA attributes aria-expanded and aria-controls. To fix this, I need to add these attributes to the input element.\n\n- Corrected HTML: <input type=\"search\" autocomplete=\"off\" placeholder=\"الحي\" role=\"combobox\" aria-label=\"Search for option\" aria-expanded=\"false\" aria-controls=\"combobox-options\" class=\"form-control\">\n\nIn the corrected HTML, I added the aria-expanded attribute with a value of \"false\" to indicate that the combobox options are initially hidden. I also added the aria-controls attribute with a value of \"combobox-options\", which should be the ID of the element that contains the combobox options. This helps establish a relationship between the combobox input and its associated options."
+      },
+      {
+        "beforeModification": "<input type=\"search\" autocomplete=\"off\" placeholder=\"فترة المناوبة\" role=\"combobox\" aria-label=\"Search for option\" class=\"form-control\">",
+        "afterModification": "<input type=\"search\" autocomplete=\"off\" placeholder=\"فترة المناوبة\" role=\"combobox\" aria-label=\"Search for option\" aria-expanded=\"false\" aria-controls=\"combobox-options\" class=\"form-control\">",
+        "rawOutput": "- Thought: Because the input element has a role of combobox, I need to add the WCAG required aria attributes (aria-expanded and aria-controls) that are needed for a combobox according to WCAG 2.1. The aria-expanded attribute indicates whether the combobox is currently expanded or collapsed, and the aria-controls attribute references the element that serves as the popup menu of the combobox.\n\n- Corrected HTML: <input type=\"search\" autocomplete=\"off\" placeholder=\"فترة المناوبة\" role=\"combobox\" aria-label=\"Search for option\" aria-expanded=\"false\" aria-controls=\"combobox-options\" class=\"form-control\">\n\nNote: The aria-controls attribute should reference the ID of the actual popup menu element associated with the combobox. In this example, I assumed the ID of the popup menu is \"combobox-options\". Make sure to replace it with the actual ID of the popup menu in your implementation."
+      }
+    ]
+  }
+]

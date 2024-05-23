@@ -1,0 +1,419 @@
+{
+  "testEngine": {
+    "name": "axe-core",
+    "version": "4.8.4"
+  },
+  "testRunner": {
+    "name": "axe"
+  },
+  "testEnvironment": {
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/122.0.0.0 Safari/537.36",
+    "windowWidth": 800,
+    "windowHeight": 600,
+    "orientationAngle": 0,
+    "orientationType": "portrait-primary"
+  },
+  "timestamp": "2024-04-18T15:03:25.108Z",
+  "url": "https://www.clickatell.com/",
+  "toolOptions": {
+    "runOnly": {
+      "type": "rule",
+      "values": [
+        "aria-allowed-attr"
+      ]
+    },
+    "reporter": "v1"
+  },
+  "inapplicable": [],
+  "passes": [
+    {
+      "id": "aria-allowed-attr",
+      "impact": "critical",
+      "tags": [
+        "cat.aria",
+        "wcag2a",
+        "wcag412",
+        "EN-301-549",
+        "EN-9.4.1.2"
+      ],
+      "description": "Ensures an element's role supports its ARIA attributes",
+      "help": "Elements must only use supported ARIA attributes",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-allowed-attr?application=axeAPI",
+      "nodes": [
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "aria-allowed-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attributes are used correctly for the defined role"
+            }
+          ],
+          "none": [
+            {
+              "id": "aria-unsupported-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attribute is supported"
+            }
+          ],
+          "impact": null,
+          "html": "<a aria-current=\"page\" class=\"logo-link\" href=\"/\">",
+          "target": [
+            ".logo-link"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "aria-allowed-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attributes are used correctly for the defined role"
+            }
+          ],
+          "none": [
+            {
+              "id": "aria-unsupported-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attribute is supported"
+            }
+          ],
+          "impact": null,
+          "html": "<button aria-label=\"Mobile Navigation Button\" class=\"Bugerstyled__Button-sc-rskfhb-0 BbZTN\">",
+          "target": [
+            ".Bugerstyled__Button-sc-rskfhb-0"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "aria-allowed-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attributes are used correctly for the defined role"
+            }
+          ],
+          "none": [
+            {
+              "id": "aria-unsupported-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attribute is supported"
+            }
+          ],
+          "impact": null,
+          "html": "<div role=\"button\" aria-label=\"Click to select the Imperial tab.\" tabindex=\"0\" class=\"CustomerSuccessstyled__ImageWrap-sc-1kt39ue-8 lkacQL\"></div>",
+          "target": [
+            ".CustomerSuccessstyled__ImageWrap-sc-1kt39ue-8.lkacQL[role=\"button\"] > .CustomerSuccessstyled__ImageWrap-sc-1kt39ue-8.lkacQL[role=\"button\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "aria-allowed-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attributes are used correctly for the defined role"
+            }
+          ],
+          "none": [
+            {
+              "id": "aria-unsupported-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attribute is supported"
+            }
+          ],
+          "impact": null,
+          "html": "<div role=\"button\" aria-label=\"Click to select the FlySafair tab.\" tabindex=\"0\" class=\"CustomerSuccessstyled__ImageWrap-sc-1kt39ue-8 lkacQL\"></div>",
+          "target": [
+            ".kTMAvY.CustomerSuccessstyled__NavItem-sc-1kt39ue-6:nth-child(3) > div:nth-child(1) > div > div > .CustomerSuccessstyled__ImageWrap-sc-1kt39ue-8.lkacQL[role=\"button\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "aria-allowed-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attributes are used correctly for the defined role"
+            }
+          ],
+          "none": [
+            {
+              "id": "aria-unsupported-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attribute is supported"
+            }
+          ],
+          "impact": null,
+          "html": "<div role=\"button\" aria-pressed=\"false\" aria-label=\"Click to select the Telkom tab.\" tabindex=\"0\" class=\"CustomerSuccessstyled__ImageWrap-sc-1kt39ue-8 lkacQL\"></div>",
+          "target": [
+            ".kTMAvY.CustomerSuccessstyled__NavItem-sc-1kt39ue-6:nth-child(4) > .CustomerSuccessstyled__ImageWrap-sc-1kt39ue-8.lkacQL[role=\"button\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "aria-allowed-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attributes are used correctly for the defined role"
+            }
+          ],
+          "none": [
+            {
+              "id": "aria-unsupported-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attribute is supported"
+            }
+          ],
+          "impact": null,
+          "html": "<div role=\"button\" aria-label=\"Click to select the Web Africa tab.\" tabindex=\"0\" class=\"CustomerSuccessstyled__ImageWrap-sc-1kt39ue-8 lkacQL\"></div>",
+          "target": [
+            ".kTMAvY.CustomerSuccessstyled__NavItem-sc-1kt39ue-6:nth-child(5) > div:nth-child(1) > div > .CustomerSuccessstyled__ImageWrap-sc-1kt39ue-8.lkacQL[role=\"button\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "aria-allowed-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attributes are used correctly for the defined role"
+            }
+          ],
+          "none": [
+            {
+              "id": "aria-unsupported-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attribute is supported"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"https://www.facebook.com/clickatell-187073743959\" target=\"_blank\" rel=\"noreferrer\" aria-label=\"Facebook\">",
+          "target": [
+            ".bwnaXA > .box-column > .FooterStandardstyled__FooterSocialCol-sc-1sjegbd-8.kWRLIO > .socials > a[aria-label=\"Facebook\"][target=\"_blank\"][rel=\"noreferrer\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "aria-allowed-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attributes are used correctly for the defined role"
+            }
+          ],
+          "none": [
+            {
+              "id": "aria-unsupported-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attribute is supported"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"https://twitter.com/Clickatell\" target=\"_blank\" rel=\"noreferrer\" aria-label=\"Twitter\">",
+          "target": [
+            ".bwnaXA > .box-column > .FooterStandardstyled__FooterSocialCol-sc-1sjegbd-8.kWRLIO > .socials > a[href$=\"Clickatell\"][aria-label=\"Twitter\"][target=\"_blank\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "aria-allowed-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attributes are used correctly for the defined role"
+            }
+          ],
+          "none": [
+            {
+              "id": "aria-unsupported-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attribute is supported"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"https://www.linkedin.com/company/clickatell\" target=\"_blank\" rel=\"noreferrer\" aria-label=\"LinkedIn\">",
+          "target": [
+            ".bwnaXA > .box-column > .FooterStandardstyled__FooterSocialCol-sc-1sjegbd-8.kWRLIO > .socials > a[aria-label=\"LinkedIn\"][target=\"_blank\"][rel=\"noreferrer\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "aria-allowed-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attributes are used correctly for the defined role"
+            }
+          ],
+          "none": [
+            {
+              "id": "aria-unsupported-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attribute is supported"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"https://www.instagram.com/clickatell_/\" target=\"_blank\" rel=\"noreferrer\" aria-label=\"Instagram\">",
+          "target": [
+            ".bwnaXA > .box-column > .FooterStandardstyled__FooterSocialCol-sc-1sjegbd-8.kWRLIO > .socials > a[aria-label=\"Instagram\"][target=\"_blank\"][rel=\"noreferrer\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "aria-allowed-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attributes are used correctly for the defined role"
+            }
+          ],
+          "none": [
+            {
+              "id": "aria-unsupported-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attribute is supported"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"https://www.youtube.com/clickatell\" target=\"_blank\" rel=\"noreferrer\" aria-label=\"Youtube\">",
+          "target": [
+            ".bwnaXA > .box-column > .FooterStandardstyled__FooterSocialCol-sc-1sjegbd-8.kWRLIO > .socials > a[aria-label=\"Youtube\"][target=\"_blank\"][rel=\"noreferrer\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "aria-allowed-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attributes are used correctly for the defined role"
+            }
+          ],
+          "none": [
+            {
+              "id": "aria-unsupported-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attribute is supported"
+            }
+          ],
+          "impact": null,
+          "html": "<div id=\"gatsby-announcer\" aria-live=\"assertive\" aria-atomic=\"true\" style=\"position: absolute; top: 0px; width: 1px; height: 1px; padding: 0px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; border: 0px;\"></div>",
+          "target": [
+            "#gatsby-announcer"
+          ]
+        }
+      ]
+    }
+  ],
+  "incomplete": [],
+  "violations": [
+    {
+      "id": "aria-allowed-attr",
+      "impact": "critical",
+      "tags": [
+        "cat.aria",
+        "wcag2a",
+        "wcag412",
+        "EN-301-549",
+        "EN-9.4.1.2"
+      ],
+      "description": "Ensures an element's role supports its ARIA attributes",
+      "help": "Elements must only use supported ARIA attributes",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-allowed-attr?application=axeAPI",
+      "nodes": [
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "aria-allowed-attr",
+              "data": [
+                "aria-selected=\"false\""
+              ],
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attribute is not allowed: aria-selected=\"false\""
+            }
+          ],
+          "none": [],
+          "impact": "critical",
+          "html": "<div role=\"button\" aria-selected=\"false\" aria-label=\"Click to select the Dischem  tab.\" tabindex=\"0\" class=\"CustomerSuccessstyled__ImageWrap-sc-1kt39ue-8 lkacQL\">",
+          "target": [
+            ".kTMAvY.CustomerSuccessstyled__NavItem-sc-1kt39ue-6:nth-child(1) > .CustomerSuccessstyled__ImageWrap-sc-1kt39ue-8.lkacQL[role=\"button\"]"
+          ],
+          "failureSummary": "Fix all of the following:\n  ARIA attribute is not allowed: aria-selected=\"false\""
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "aria-allowed-attr",
+              "data": [
+                "aria-selected=\"false\""
+              ],
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attribute is not allowed: aria-selected=\"false\""
+            }
+          ],
+          "none": [],
+          "impact": "critical",
+          "html": "<div role=\"button\" aria-selected=\"false\" aria-label=\"Click to select the Imperial tab.\" tabindex=\"0\" class=\"CustomerSuccessstyled__ImageWrap-sc-1kt39ue-8 lkacQL\">",
+          "target": [
+            ".ckAbnH > .CustomerSuccessstyled__ImageWrap-sc-1kt39ue-8.lkacQL[role=\"button\"]"
+          ],
+          "failureSummary": "Fix all of the following:\n  ARIA attribute is not allowed: aria-selected=\"false\""
+        }
+      ]
+    }
+  ]
+}

@@ -21,8 +21,8 @@
     "modelCorrections": [
       {
         "beforeModification": "<html>",
-        "afterModification": "<html> element is missing a \"lang\" attribute, which is essential for defining the primary language of the document. This helps in accessibility, especially for screen readers, to process and read the content in the appropriate language.\n\n- Corrected HTML: <html lang=\"en\">",
-        "rawOutput": "- Thought: The <html> element is missing a \"lang\" attribute, which is essential for defining the primary language of the document. This helps in accessibility, especially for screen readers, to process and read the content in the appropriate language.\n\n- Corrected HTML: <html lang=\"en\">"
+        "afterModification": "<html lang=\"en\">",
+        "rawOutput": "- Thought: The provided HTML lacks a \"lang\" attribute, which is essential for accessibility as it helps screen readers and other assistive technologies provide the correct language context to users. Based on the extracted text, it seems the content is in English. Therefore, I need to add the \"lang\" attribute with a value of \"en\" to indicate that the content is in English.\n\n- Corrected HTML: <html lang=\"en\">"
       }
     ]
   }

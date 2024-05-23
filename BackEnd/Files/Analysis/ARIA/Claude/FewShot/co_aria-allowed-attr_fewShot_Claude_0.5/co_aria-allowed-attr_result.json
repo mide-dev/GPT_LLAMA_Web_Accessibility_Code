@@ -1,0 +1,39 @@
+[
+  {
+    "analysisDetails": [
+      {
+        "model": "Claude"
+      },
+      {
+        "accessibility_type": "aria-allowed-attr"
+      },
+      {
+        "prompt_technique": "fewShot"
+      },
+      {
+        "temperature": 0.5
+      }
+    ],
+    "accessbilityTestResult": {
+      "violationBeforeModification": 3,
+      "violationAfterModification": 0
+    },
+    "modelCorrections": [
+      {
+        "beforeModification": "<div class=\"hf-provider-1rqnzv6\" data-genesis-element=\"BASE\" aria-orientation=\"horizontal\"><hr class=\"hf-provider-c6fpx3\" data-genesis-element=\"BASE\"></div>",
+        "afterModification": "<div class=\"hf-provider-1rqnzv6\" data-genesis-element=\"BASE\"><hr class=\"hf-provider-c6fpx3\" data-genesis-element=\"BASE\"></div>",
+        "rawOutput": "Here's the corrected HTML based on the WCAG 2.1 violation description:\n\n- Corrected HTML: <div class=\"hf-provider-1rqnzv6\" data-genesis-element=\"BASE\"><hr class=\"hf-provider-c6fpx3\" data-genesis-element=\"BASE\"></div>\n\nExplanation:\nThe ARIA attribute `aria-orientation` is not allowed on the `<div>` element according to the WCAG 2.1 guidelines. To fix the violation, I simply removed the `aria-orientation=\"horizontal\"` attribute from the `<div>` element. The rest of the HTML structure remains unchanged."
+      },
+      {
+        "beforeModification": "<div class=\"hf-provider-1rqnzv6\" data-genesis-element=\"BASE\" aria-orientation=\"horizontal\"><hr class=\"hf-provider-c6fpx3\" data-genesis-element=\"BASE\"></div>",
+        "afterModification": "<div class=\"hf-provider-1rqnzv6\" data-genesis-element=\"BASE\"><hr class=\"hf-provider-c6fpx3\" data-genesis-element=\"BASE\"></div>",
+        "rawOutput": "Here is the corrected HTML based on the WCAG 2.1 violation description:\n\n- Corrected HTML: <div class=\"hf-provider-1rqnzv6\" data-genesis-element=\"BASE\"><hr class=\"hf-provider-c6fpx3\" data-genesis-element=\"BASE\"></div>\n\nExplanation:\nThe ARIA attribute aria-orientation=\"horizontal\" is not allowed on the <div> element according to the WCAG 2.1 guidelines. To fix this violation, I simply removed the aria-orientation attribute from the <div> tag. The rest of the HTML structure remains the same."
+      },
+      {
+        "beforeModification": "<div class=\"hf-provider-1rqnzv6\" data-genesis-element=\"BASE\" aria-orientation=\"horizontal\"><hr class=\"hf-provider-c6fpx3\" data-genesis-element=\"BASE\"></div>",
+        "afterModification": "<div class=\"hf-provider-1rqnzv6\" data-genesis-element=\"BASE\"><hr class=\"hf-provider-c6fpx3\" data-genesis-element=\"BASE\"></div>",
+        "rawOutput": "Here's the corrected HTML based on the WCAG 2.1 violation description:\n\n- Corrected HTML:\n<div class=\"hf-provider-1rqnzv6\" data-genesis-element=\"BASE\"><hr class=\"hf-provider-c6fpx3\" data-genesis-element=\"BASE\"></div>\n\nExplanation:\nThe `aria-orientation` attribute is not allowed on the `<div>` element according to the WCAG 2.1 guidelines. It is typically used with specific roles like `slider`, `scrollbar`, or `separator`. In this case, the `<div>` element does not have a role that supports the `aria-orientation` attribute, so it should be removed to ensure accessibility compliance."
+      }
+    ]
+  }
+]

@@ -1,0 +1,49 @@
+[
+  {
+    "analysisDetails": [
+      {
+        "model": "Claude"
+      },
+      {
+        "accessibility_type": "aria-allowed-attr"
+      },
+      {
+        "prompt_technique": "ReAct"
+      },
+      {
+        "temperature": 0.5
+      }
+    ],
+    "accessbilityTestResult": {
+      "violationBeforeModification": 5,
+      "violationAfterModification": 0
+    },
+    "modelCorrections": [
+      {
+        "beforeModification": "<div role=\"button\" aria-selected=\"true\" aria-label=\"Click to select the Dischem  tab.\" tabindex=\"0\" class=\"CustomerSuccessstyled__ImageWrap-sc-1kt39ue-8 lkacQL\">",
+        "afterModification": "<div role=\"button\" aria-pressed=\"false\" aria-label=\"Click to select the Dischem tab.\" tabindex=\"0\" class=\"CustomerSuccessstyled__ImageWrap-sc-1kt39ue-8 lkacQL\">",
+        "rawOutput": "- Incorrect HTML: <div role=\"button\" aria-selected=\"true\" aria-label=\"Click to select the Dischem  tab.\" tabindex=\"0\" class=\"CustomerSuccessstyled__ImageWrap-sc-1kt39ue-8 lkacQL\">\n\n- Thought: The element has a role of \"button\" but also includes the ARIA state attribute \"aria-selected\" which is not valid for buttons according to WCAG. Buttons do not have a selected state; they are either pressed or not pressed.\n\n- Observation: An element with \"role=\"button\" should use the correct ARIA state attribute, which is \"aria-pressed\" to indicate its toggle state, if applicable.\n\n- Action: Remove the invalid [aria-selected=\"true\"] attribute and replace it with [aria-pressed=\"false\"] or [aria-pressed=\"true\"] depending on the button's initial state.\n\n- Corrected HTML: <div role=\"button\" aria-pressed=\"false\" aria-label=\"Click to select the Dischem tab.\" tabindex=\"0\" class=\"CustomerSuccessstyled__ImageWrap-sc-1kt39ue-8 lkacQL\">\n\nIn this corrected version, the \"aria-selected\" attribute has been removed and replaced with the appropriate \"aria-pressed\" attribute for a button role. The value"
+      },
+      {
+        "beforeModification": "<div role=\"button\" aria-selected=\"false\" aria-label=\"Click to select the Imperial tab.\" tabindex=\"0\" class=\"CustomerSuccessstyled__ImageWrap-sc-1kt39ue-8 lkacQL\">",
+        "afterModification": "<div role=\"button\" aria-label=\"Click to select the Imperial tab.\" tabindex=\"0\" class=\"CustomerSuccessstyled__ImageWrap-sc-1kt39ue-8 lkacQL\">",
+        "rawOutput": "- Incorrect HTML: <div role=\"button\" aria-selected=\"false\" aria-label=\"Click to select the Imperial tab.\" tabindex=\"0\" class=\"CustomerSuccessstyled__ImageWrap-sc-1kt39ue-8 lkacQL\">\n\n- Thought: The element has a role of \"button\", but it also has an ARIA state attribute (aria-selected=\"false\") which is not valid for buttons. According to WCAG, an element with \"role=\"button\" should not have the \"aria-selected\" attribute.\n\n- Observation: The \"aria-selected\" attribute should be removed from the element with \"role=\"button\".\n\n- Action: Remove the [aria-selected=\"false\"] attribute from the HTML.\n\n- Corrected HTML: <div role=\"button\" aria-label=\"Click to select the Imperial tab.\" tabindex=\"0\" class=\"CustomerSuccessstyled__ImageWrap-sc-1kt39ue-8 lkacQL\">"
+      },
+      {
+        "beforeModification": "<div role=\"button\" aria-selected=\"false\" aria-label=\"Click to select the FlySafair tab.\" tabindex=\"0\" class=\"CustomerSuccessstyled__ImageWrap-sc-1kt39ue-8 lkacQL\">",
+        "afterModification": "<div role=\"button\" aria-label=\"Click to select the FlySafair tab.\" tabindex=\"0\" class=\"CustomerSuccessstyled__ImageWrap-sc-1kt39ue-8 lkacQL\">",
+        "rawOutput": "- Thought: The <div> element has a role of \"button\" which is appropriate for interactive elements that can be clicked or tapped. However, the element also has an ARIA state attribute (aria-selected=\"false\") which is not valid for buttons according to WCAG. The aria-selected attribute is used to indicate the current \"selected\" state of elements with role \"option\", \"radio\", \"tab\", \"gridcell\", \"row\", or \"columnheader\".\n\n- Observation: A <div> element with role=\"button\" should not have the aria-selected attribute. Instead, it can use the aria-pressed attribute to indicate its toggle state if necessary.\n\n- Action: Remove the aria-selected attribute from the <div> element.\n\n- Corrected HTML: <div role=\"button\" aria-label=\"Click to select the FlySafair tab.\" tabindex=\"0\" class=\"CustomerSuccessstyled__ImageWrap-sc-1kt39ue-8 lkacQL\">"
+      },
+      {
+        "beforeModification": "<div role=\"button\" aria-selected=\"false\" aria-label=\"Click to select the Telkom tab.\" tabindex=\"0\" class=\"CustomerSuccessstyled__ImageWrap-sc-1kt39ue-8 lkacQL\">",
+        "afterModification": "<div role=\"button\" aria-pressed=\"false\" aria-label=\"Click to select the Telkom tab.\" tabindex=\"0\" class=\"CustomerSuccessstyled__ImageWrap-sc-1kt39ue-8 lkacQL\">",
+        "rawOutput": "- Thought: The element has a role of \"button\" but also includes the ARIA state attribute \"aria-selected\" which is not valid for buttons according to WCAG. The correct ARIA state attribute for a button is \"aria-pressed\".\n\n- Observation: To fix the accessibility violation, we need to replace the invalid ARIA state attribute \"aria-selected\" with the correct one for buttons, which is \"aria-pressed\".\n\n- Action: Replace \"aria-selected\" with \"aria-pressed\" in the HTML.\n\n- Corrected HTML:\n<div role=\"button\" aria-pressed=\"false\" aria-label=\"Click to select the Telkom tab.\" tabindex=\"0\" class=\"CustomerSuccessstyled__ImageWrap-sc-1kt39ue-8 lkacQL\">"
+      },
+      {
+        "beforeModification": "<div role=\"button\" aria-selected=\"false\" aria-label=\"Click to select the Web Africa tab.\" tabindex=\"0\" class=\"CustomerSuccessstyled__ImageWrap-sc-1kt39ue-8 lkacQL\">",
+        "afterModification": "<div role=\"button\" aria-label=\"Click to select the Web Africa tab.\" tabindex=\"0\" class=\"CustomerSuccessstyled__ImageWrap-sc-1kt39ue-8 lkacQL\">",
+        "rawOutput": "- Thought: The <div> element has a role of \"button\" which is appropriate for interactive elements that can be clicked or tapped. However, the element also has an ARIA state attribute (aria-selected=\"false\") which is not valid for buttons. According to WCAG, the \"aria-selected\" attribute is used to indicate the current \"selected\" state of elements with a role of \"option\", \"radio\", \"tab\", \"menuitemradio\", \"treeitem\", or \"gridcell\".\n\n- Observation: A <div> element with role=\"button\" should not have the \"aria-selected\" attribute. Instead, it can use the \"aria-pressed\" attribute to indicate its toggle state if needed.\n\n- Action: Remove the [aria-selected=\"false\"] attribute from the HTML.\n\n- Corrected HTML: <div role=\"button\" aria-label=\"Click to select the Web Africa tab.\" tabindex=\"0\" class=\"CustomerSuccessstyled__ImageWrap-sc-1kt39ue-8 lkacQL\">"
+      }
+    ]
+  }
+]

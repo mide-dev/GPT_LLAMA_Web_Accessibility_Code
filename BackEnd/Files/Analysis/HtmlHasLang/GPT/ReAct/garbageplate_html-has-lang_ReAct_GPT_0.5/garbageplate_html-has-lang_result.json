@@ -1,0 +1,29 @@
+[
+  {
+    "analysisDetails": [
+      {
+        "model": "GPT"
+      },
+      {
+        "accessibility_type": "html-has-lang"
+      },
+      {
+        "prompt_technique": "ReAct"
+      },
+      {
+        "temperature": 0.5
+      }
+    ],
+    "accessbilityTestResult": {
+      "violationBeforeModification": 1,
+      "violationAfterModification": 0
+    },
+    "modelCorrections": [
+      {
+        "beforeModification": "<html>",
+        "afterModification": "<html lang=\"en\">",
+        "rawOutput": "- Thought: To correct the above HTML, I must add the \"lang\" attribute to indicate the language of the content.\n- Observation: The extracted text from the website is in English, indicating that the site's content is primarily in English.\n- Action: Add `lang=\"en\"` to the HTML tag to specify the language.\n- Corrected HTML: `<html lang=\"en\">`"
+      }
+    ]
+  }
+]

@@ -1,0 +1,29 @@
+[
+  {
+    "analysisDetails": [
+      {
+        "model": "Claude"
+      },
+      {
+        "accessibility_type": "html-has-lang"
+      },
+      {
+        "prompt_technique": "fewShot"
+      },
+      {
+        "temperature": 0.5
+      }
+    ],
+    "accessbilityTestResult": {
+      "violationBeforeModification": 1,
+      "violationAfterModification": 0
+    },
+    "modelCorrections": [
+      {
+        "beforeModification": "<html class=\"desktop Windows Chrome\">",
+        "afterModification": "<html lang=\"en\" class=\"desktop Windows Chrome\">",
+        "rawOutput": "Here's the corrected HTML based on the WCAG 2.1 violation description and the example provided:\n\n*Extracted text from website*: \"Collaborate with the region's medtech\"\n- Incorrect HTML: <html class=\"desktop Windows Chrome\">\n- Corrected HTML: <html lang=\"en\" class=\"desktop Windows Chrome\">\n\nExplanation:\nThe <html> element was missing the lang attribute, which is required to specify the language of the document. By adding lang=\"en\", we indicate that the content of the webpage is in English. This helps assistive technologies, such as screen readers, to correctly pronounce and interpret the content for users."
+      }
+    ]
+  }
+]

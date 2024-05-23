@@ -1,0 +1,29 @@
+[
+  {
+    "analysisDetails": [
+      {
+        "model": "GPT"
+      },
+      {
+        "accessibility_type": "html-has-lang"
+      },
+      {
+        "prompt_technique": "ReAct"
+      },
+      {
+        "temperature": 0.5
+      }
+    ],
+    "accessbilityTestResult": {
+      "violationBeforeModification": 1,
+      "violationAfterModification": 0
+    },
+    "modelCorrections": [
+      {
+        "beforeModification": "<html>",
+        "afterModification": "<html lang=\"en\">",
+        "rawOutput": "- Thought: The extracted text \"Capital\" does not give a clear indication of the language used on the website, but assuming the most common use case, I should add a \"lang\" attribute to specify the language of the content.\n- Observation: Since \"Capital\" is a word used in English, and without further context, it's reasonable to assume the site's primary language is English.\n- Action: Add [lang=\"en\"] to the HTML.\n- Corrected HTML: <html lang=\"en\">"
+      }
+    ]
+  }
+]

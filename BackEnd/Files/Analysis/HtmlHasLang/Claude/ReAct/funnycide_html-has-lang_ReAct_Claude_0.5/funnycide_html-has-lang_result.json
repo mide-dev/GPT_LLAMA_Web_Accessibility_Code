@@ -1,0 +1,29 @@
+[
+  {
+    "analysisDetails": [
+      {
+        "model": "Claude"
+      },
+      {
+        "accessibility_type": "html-has-lang"
+      },
+      {
+        "prompt_technique": "ReAct"
+      },
+      {
+        "temperature": 0.5
+      }
+    ],
+    "accessbilityTestResult": {
+      "violationBeforeModification": 1,
+      "violationAfterModification": 0
+    },
+    "modelCorrections": [
+      {
+        "beforeModification": "<html>",
+        "afterModification": "<html lang=\"en\">",
+        "rawOutput": "*Extracted text from website*: \"Welcome!\"\n- Incorrect HTML: <html>\n- Thought: The <html> element is missing the \"lang\" attribute, which is required to specify the language of the webpage for accessibility purposes.\n- Observation: The extracted text \"Welcome!\" is in English, indicating that the website's content is likely in English.\n- Action: Add the \"lang\" attribute with the value \"en\" to the <html> element to specify that the webpage is in English.\n- Corrected HTML: <html lang=\"en\">"
+      }
+    ]
+  }
+]

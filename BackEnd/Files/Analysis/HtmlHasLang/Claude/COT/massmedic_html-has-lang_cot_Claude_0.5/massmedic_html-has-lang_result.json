@@ -1,0 +1,29 @@
+[
+  {
+    "analysisDetails": [
+      {
+        "model": "Claude"
+      },
+      {
+        "accessibility_type": "html-has-lang"
+      },
+      {
+        "prompt_technique": "cot"
+      },
+      {
+        "temperature": 0.5
+      }
+    ],
+    "accessbilityTestResult": {
+      "violationBeforeModification": 1,
+      "violationAfterModification": 0
+    },
+    "modelCorrections": [
+      {
+        "beforeModification": "<html class=\"desktop Windows Chrome\">",
+        "afterModification": "<html lang=\"en\" class=\"desktop Windows Chrome\">",
+        "rawOutput": "Here's the corrected HTML based on the WCAG 2.1 violation description and the example provided:\n\n*Extracted text from website*: \"Collaborate with the region's medtech\"\n- Incorrect HTML: <html class=\"desktop Windows Chrome\">\n- Thought: I need to correct the above HTML by adding the \"lang\" attribute and assigning the appropriate language using the \"Extracted text from website\" for language context. The text is in English, so I will set the lang attribute to \"en\".\n- Corrected HTML: <html lang=\"en\" class=\"desktop Windows Chrome\">"
+      }
+    ]
+  }
+]

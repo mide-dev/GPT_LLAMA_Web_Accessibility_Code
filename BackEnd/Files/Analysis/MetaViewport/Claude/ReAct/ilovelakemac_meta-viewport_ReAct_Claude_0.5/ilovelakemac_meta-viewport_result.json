@@ -1,0 +1,29 @@
+[
+  {
+    "analysisDetails": [
+      {
+        "model": "Claude"
+      },
+      {
+        "accessibility_type": "meta-viewport"
+      },
+      {
+        "prompt_technique": "ReAct"
+      },
+      {
+        "temperature": 0.5
+      }
+    ],
+    "accessbilityTestResult": {
+      "violationBeforeModification": 1,
+      "violationAfterModification": 0
+    },
+    "modelCorrections": [
+      {
+        "beforeModification": "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1.2\">",
+        "afterModification": "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1.2\">\n- Observation: The meta element above allows user scaling but its maximum scale is set to 1.2.\n- Thought: I need to overwrite the maximum scale to 2.0 which is the minimum value required for meta elements according to WCAG 2.1.\n- Action: modify[content=\"width=device-width, initial-scale=1, maximum-scale=2.0\"]\n- Corrected HTML: <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=2.0\">",
+        "rawOutput": "- Incorrect HTML: <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1.2\">\n- Observation: The meta element above allows user scaling but its maximum scale is set to 1.2.\n- Thought: I need to overwrite the maximum scale to 2.0 which is the minimum value required for meta elements according to WCAG 2.1.\n- Action: modify[content=\"width=device-width, initial-scale=1, maximum-scale=2.0\"]\n- Corrected HTML: <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=2.0\">"
+      }
+    ]
+  }
+]

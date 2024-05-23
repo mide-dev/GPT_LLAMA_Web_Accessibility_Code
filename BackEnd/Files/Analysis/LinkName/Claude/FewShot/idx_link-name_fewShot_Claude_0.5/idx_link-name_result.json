@@ -1,0 +1,54 @@
+[
+  {
+    "analysisDetails": [
+      {
+        "model": "Claude"
+      },
+      {
+        "accessibility_type": "link-name"
+      },
+      {
+        "prompt_technique": "fewShot"
+      },
+      {
+        "temperature": 0.5
+      }
+    ],
+    "accessbilityTestResult": {
+      "violationBeforeModification": 6,
+      "violationAfterModification": 0
+    },
+    "modelCorrections": [
+      {
+        "beforeModification": "<a href=\"javascript:void(0)\" class=\"menu-custom-corp\"><i class=\"fa fa-bars\"></i></a>",
+        "afterModification": "<a href=\"javascript:void(0)\" class=\"menu-custom-corp\" aria-label=\"Menu\"><i class=\"fa fa-bars\"></i></a>",
+        "rawOutput": "Here's the corrected HTML based on the WCAG 2.1 violation description:\n\n- Corrected HTML: <a href=\"javascript:void(0)\" class=\"menu-custom-corp\" aria-label=\"Menu\"><i class=\"fa fa-bars\"></i></a>\n\nExplanation:\nThe original HTML had an anchor tag with no accessible text for screen readers. To fix this, I added the `aria-label` attribute with a descriptive text \"Menu\" to provide context for the link's purpose. This ensures that screen reader users can understand the functionality of the link."
+      },
+      {
+        "beforeModification": "<a href=\"javascript:void(0)\" class=\"search-custom-corp\"><i class=\"fa fa-search\"></i></a>",
+        "afterModification": "<a href=\"javascript:void(0)\" class=\"search-custom-corp\" aria-label=\"Search\"><i class=\"fa fa-search\"></i></a>\n\nIn this correction, I added the `aria-label` attribute with the value \"Search\" to provide accessible text for the link. The `aria-label` attribute is used to define a string that labels the current element for screen readers.\n\nAlternatively, you could also use the `title` attribute to provide accessible text:\n\n- Corrected HTML: <a href=\"javascript:void(0)\" class=\"search-custom-corp\" title=\"Search\"><i class=\"fa fa-search\"></i></a>",
+        "rawOutput": "Here's the corrected HTML based on the WCAG 2.1 violation description and the provided examples:\n\n- Corrected HTML: <a href=\"javascript:void(0)\" class=\"search-custom-corp\" aria-label=\"Search\"><i class=\"fa fa-search\"></i></a>\n\nIn this correction, I added the `aria-label` attribute with the value \"Search\" to provide accessible text for the link. The `aria-label` attribute is used to define a string that labels the current element for screen readers.\n\nAlternatively, you could also use the `title` attribute to provide accessible text:\n\n- Corrected HTML: <a href=\"javascript:void(0)\" class=\"search-custom-corp\" title=\"Search\"><i class=\"fa fa-search\"></i></a>\n\nBoth the `aria-label` and `title` attributes can be used to provide accessible text for elements that do not have visible text content, such as icons or images used as links."
+      },
+      {
+        "beforeModification": "<a href=\"#mydiv\"><span class=\"hidden\">Scroll</span></a>",
+        "afterModification": "<a href=\"#mydiv\" aria-label=\"Scroll\"><span class=\"hidden\">Scroll</span></a>\n\nExplanation:\nIn the incorrect HTML, the anchor tag (`<a>`) does not have accessible text that is visible to screen readers. The text \"Scroll\" is hidden using the `class=\"hidden\"` attribute on the `<span>` element.\n\nTo fix this, we can add the `aria-label` attribute to the anchor tag with the value \"Scroll\". This provides an accessible label for the link that will be read by screen readers, even though the text is visually hidden.\n\nAlternatively, you could also use the `title` attribute instead of `aria-label`:\n\n<a href=\"#mydiv\" title=\"Scroll\"><span class=\"hidden\">Scroll</span></a>",
+        "rawOutput": "Here's the corrected HTML based on the WCAG 2.1 violation description:\n\n- Corrected HTML: <a href=\"#mydiv\" aria-label=\"Scroll\"><span class=\"hidden\">Scroll</span></a>\n\nExplanation:\nIn the incorrect HTML, the anchor tag (`<a>`) does not have accessible text that is visible to screen readers. The text \"Scroll\" is hidden using the `class=\"hidden\"` attribute on the `<span>` element.\n\nTo fix this, we can add the `aria-label` attribute to the anchor tag with the value \"Scroll\". This provides an accessible label for the link that will be read by screen readers, even though the text is visually hidden.\n\nAlternatively, you could also use the `title` attribute instead of `aria-label`:\n\n<a href=\"#mydiv\" title=\"Scroll\"><span class=\"hidden\">Scroll</span></a>\n\nBoth `aria-label` and `title` attributes provide accessible text for the link, ensuring that it is perceivable and understandable to users relying on assistive technologies."
+      },
+      {
+        "beforeModification": "<a href=\"/talent/why-honesty-clarity-are-more-important-than-transparency\" class=\"blog__link\">\n\t\t\t\t\t<div class=\"feed-blog-image blog__image\">\n\t\t\t\t\t\t<img src=\"/sites/investisdigital-corp-v2/files/Honesty%20Blog%20Image%202448%20x%201337%20px%20copy_0.png\" alt=\"\">\n\t\t\t\t\t</div>\n\t\t\t\t</a>",
+        "afterModification": "<a href=\"/talent/why-honesty-clarity-are-more-important-than-transparency\" class=\"blog__link\" title=\"Why Honesty & Clarity Are More Important Than Transparency\">\n    <div class=\"feed-blog-image blog__image\">\n        <img src=\"/sites/investisdigital-corp-v2/files/Honesty%20Blog%20Image%202448%20x%201337%20px%20copy_0.png\" alt=\"Honesty & Clarity Blog Image\">\n    </div>\n</a>\n\nExplanation:\n1. Added a descriptive title attribute to the <a> element to provide accessible text for screen readers and improve the link's accessibility.\n2. Added a meaningful alt text to the <img>",
+        "rawOutput": "Here's the corrected HTML based on the WCAG 2.1 violation description and the provided examples:\n\n- Corrected HTML:\n<a href=\"/talent/why-honesty-clarity-are-more-important-than-transparency\" class=\"blog__link\" title=\"Why Honesty & Clarity Are More Important Than Transparency\">\n    <div class=\"feed-blog-image blog__image\">\n        <img src=\"/sites/investisdigital-corp-v2/files/Honesty%20Blog%20Image%202448%20x%201337%20px%20copy_0.png\" alt=\"Honesty & Clarity Blog Image\">\n    </div>\n</a>\n\nExplanation:\n1. Added a descriptive title attribute to the <a> element to provide accessible text for screen readers and improve the link's accessibility.\n2. Added a meaningful alt text to the <img> element to describe the image content for screen readers.\n\nThese changes ensure that the link has accessible text through the title attribute, and the image has a descriptive alternative text, making the HTML more compliant with WCAG 2.1 guidelines."
+      },
+      {
+        "beforeModification": "<a href=\"/blog/marketing/how-generative-ai-changes-video-creation\" class=\"blog__link\">\n\t\t\t\t\t<div class=\"feed-blog-image blog__image\">\n\t\t\t\t\t\t<img src=\"/sites/investisdigital-corp-v2/files/Sora%20Blog%20Image%202448%20x%201337%20px.png\" alt=\"\">\n\t\t\t\t\t</div>\n\t\t\t\t</a>",
+        "afterModification": "<a href=\"/blog/marketing/how-generative-ai-changes-video-creation\" class=\"blog__link\" title=\"How Generative AI Changes Video Creation\">\n    <div class=\"feed-blog-image blog__image\">\n        <img src=\"/sites/investisdigital-corp-v2/files/Sora%20Blog%20Image%202448%20x%201337%20px.png\" alt=\"Generative AI and Video Creation\">\n    </div>\n</a>\n\nExplanation:\n1. Added a descriptive `title` attribute to the `<a>` element, providing accessible text for screen readers and improving the link's context.\n2. Added a meaningful `alt` attribute to the `<img>",
+        "rawOutput": "Here's the corrected HTML based on the WCAG 2.1 violation description and the provided examples:\n\n- Corrected HTML:\n<a href=\"/blog/marketing/how-generative-ai-changes-video-creation\" class=\"blog__link\" title=\"How Generative AI Changes Video Creation\">\n    <div class=\"feed-blog-image blog__image\">\n        <img src=\"/sites/investisdigital-corp-v2/files/Sora%20Blog%20Image%202448%20x%201337%20px.png\" alt=\"Generative AI and Video Creation\">\n    </div>\n</a>\n\nExplanation:\n1. Added a descriptive `title` attribute to the `<a>` element, providing accessible text for screen readers and improving the link's context.\n2. Added a meaningful `alt` attribute to the `<img>` element, describing the image's content for screen readers and users who cannot see the image.\n\nThese changes ensure that the link and image have accessible text, making them more understandable and navigable for users relying on assistive technologies."
+      },
+      {
+        "beforeModification": "<a href=\"/blog/performance-marketing/connected-tv-sports-advertising\" class=\"blog__link\">\n\t\t\t\t\t<div class=\"feed-blog-image blog__image\">\n\t\t\t\t\t\t<img src=\"/sites/investisdigital-corp-v2/files/March%20Madness%20Blog%20Image%202448%20x%201337%20px.png\" alt=\"\">\n\t\t\t\t\t</div>\n\t\t\t\t</a>",
+        "afterModification": "<a href=\"/blog/performance-marketing/connected-tv-sports-advertising\" class=\"blog__link\" title=\"Connected TV Sports Advertising\">\n    <div class=\"feed-blog-image blog__image\">\n        <img src=\"/sites/investisdigital-corp-v2/files/March%20Madness%20Blog%20Image%202448%20x%201337%20px.png\" alt=\"March Madness Blog Image\">\n    </div>\n</a>\n\nExplanation:\n1. Added a descriptive title attribute to the <a> element to provide accessible text for screen readers.\n2. Added a meaningful alt text to the <img>",
+        "rawOutput": "Here's the corrected HTML based on the WCAG 2.1 violation description and the provided examples:\n\n- Corrected HTML:\n<a href=\"/blog/performance-marketing/connected-tv-sports-advertising\" class=\"blog__link\" title=\"Connected TV Sports Advertising\">\n    <div class=\"feed-blog-image blog__image\">\n        <img src=\"/sites/investisdigital-corp-v2/files/March%20Madness%20Blog%20Image%202448%20x%201337%20px.png\" alt=\"March Madness Blog Image\">\n    </div>\n</a>\n\nExplanation:\n1. Added a descriptive title attribute to the <a> element to provide accessible text for screen readers.\n2. Added a meaningful alt text to the <img> element to describe the image for screen readers.\n\nThese changes ensure that the link and the image within it have accessible text for screen readers, making it compliant with the WCAG 2.1 guidelines."
+      }
+    ]
+  }
+]

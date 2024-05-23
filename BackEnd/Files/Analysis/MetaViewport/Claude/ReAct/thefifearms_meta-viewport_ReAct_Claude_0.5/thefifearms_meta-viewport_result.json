@@ -1,0 +1,29 @@
+[
+  {
+    "analysisDetails": [
+      {
+        "model": "Claude"
+      },
+      {
+        "accessibility_type": "meta-viewport"
+      },
+      {
+        "prompt_technique": "ReAct"
+      },
+      {
+        "temperature": 0.5
+      }
+    ],
+    "accessbilityTestResult": {
+      "violationBeforeModification": 1,
+      "violationAfterModification": 1
+    },
+    "modelCorrections": [
+      {
+        "beforeModification": "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0\">",
+        "afterModification": "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0\">\n- Observation: The meta element above has user-scalable set to 0, which disables zooming on mobile devices.\n- Thought: I need to change the user-scalable value to 'yes' to allow zooming on mobile devices according to WCAG 2.1.\n- Action: replace[user-scalable=0, user-scalable=yes]\n- Corrected HTML: <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=yes\">",
+        "rawOutput": "- Incorrect HTML: <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0\">\n- Observation: The meta element above has user-scalable set to 0, which disables zooming on mobile devices.\n- Thought: I need to change the user-scalable value to 'yes' to allow zooming on mobile devices according to WCAG 2.1.\n- Action: replace[user-scalable=0, user-scalable=yes]\n- Corrected HTML: <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=yes\">"
+      }
+    ]
+  }
+]

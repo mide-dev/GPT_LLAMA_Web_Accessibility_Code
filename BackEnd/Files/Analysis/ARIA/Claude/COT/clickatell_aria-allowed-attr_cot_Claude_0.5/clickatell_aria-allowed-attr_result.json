@@ -1,0 +1,49 @@
+[
+  {
+    "analysisDetails": [
+      {
+        "model": "Claude"
+      },
+      {
+        "accessibility_type": "aria-allowed-attr"
+      },
+      {
+        "prompt_technique": "cot"
+      },
+      {
+        "temperature": 0.5
+      }
+    ],
+    "accessbilityTestResult": {
+      "violationBeforeModification": 5,
+      "violationAfterModification": 0
+    },
+    "modelCorrections": [
+      {
+        "beforeModification": "<div role=\"button\" aria-selected=\"true\" aria-label=\"Click to select the Dischem  tab.\" tabindex=\"0\" class=\"CustomerSuccessstyled__ImageWrap-sc-1kt39ue-8 lkacQL\">",
+        "afterModification": "<button aria-pressed=\"true\" aria-label=\"Click to select the Dischem tab.\" tabindex=\"0\" class=\"CustomerSuccessstyled__ImageWrap-sc-1kt39ue-8 lkacQL\">",
+        "rawOutput": "Here's the corrected HTML based on the WCAG 2.1 violation description:\n\n- Incorrect HTML: <div role=\"button\" aria-selected=\"true\" aria-label=\"Click to select the Dischem  tab.\" tabindex=\"0\" class=\"CustomerSuccessstyled__ImageWrap-sc-1kt39ue-8 lkacQL\">\n- Thought: The element has a role of \"button\", but it also has an ARIA state attribute (aria-selected=\"true\") which is not valid for buttons. The correct ARIA state attribute for a button is \"aria-pressed\". Additionally, the element is a <div> and not a <button>, so it's best to use the appropriate semantic HTML element.\n- Corrected HTML: <button aria-pressed=\"true\" aria-label=\"Click to select the Dischem tab.\" tabindex=\"0\" class=\"CustomerSuccessstyled__ImageWrap-sc-1kt39ue-8 lkacQL\">"
+      },
+      {
+        "beforeModification": "<div role=\"button\" aria-selected=\"false\" aria-label=\"Click to select the Imperial tab.\" tabindex=\"0\" class=\"CustomerSuccessstyled__ImageWrap-sc-1kt39ue-8 lkacQL\">",
+        "afterModification": "<div role=\"button\" aria-pressed=\"false\" aria-label=\"Click to select the Imperial tab.\" tabindex=\"0\" class=\"CustomerSuccessstyled__ImageWrap-sc-1kt39ue-8 lkacQL\">",
+        "rawOutput": "Here's the corrected HTML based on the WCAG 2.1 violation description:\n\n- Incorrect HTML: <div role=\"button\" aria-selected=\"false\" aria-label=\"Click to select the Imperial tab.\" tabindex=\"0\" class=\"CustomerSuccessstyled__ImageWrap-sc-1kt39ue-8 lkacQL\">\n\n- Thought: The element has a role of \"button\", but it also has an ARIA state attribute (aria-selected=\"false\") which is not valid for buttons. The aria-selected attribute is typically used for elements with roles like \"tab\", \"option\", or \"gridcell\". Since the element is intended to function as a button, the appropriate ARIA attribute to indicate its state would be aria-pressed.\n\n- Corrected HTML: <div role=\"button\" aria-pressed=\"false\" aria-label=\"Click to select the Imperial tab.\" tabindex=\"0\" class=\"CustomerSuccessstyled__ImageWrap-sc-1kt39ue-8 lkacQL\">\n\nIn the corrected HTML, I replaced the aria-selected attribute with the aria-pressed attribute, which is the appropriate ARIA state attribute for elements with a role of \"button\". This ensures that the element's state is correctly communicated to assistive technologies, improving accessibility and adhering to the WCAG 2."
+      },
+      {
+        "beforeModification": "<div role=\"button\" aria-selected=\"false\" aria-label=\"Click to select the FlySafair tab.\" tabindex=\"0\" class=\"CustomerSuccessstyled__ImageWrap-sc-1kt39ue-8 lkacQL\">",
+        "afterModification": "<div role=\"button\" aria-pressed=\"false\" aria-label=\"Click to select the FlySafair tab.\" tabindex=\"0\" class=\"CustomerSuccessstyled__ImageWrap-sc-1kt39ue-8 lkacQL\">",
+        "rawOutput": "Here's the corrected HTML based on the WCAG 2.1 violation description:\n\n- Incorrect HTML: <div role=\"button\" aria-selected=\"false\" aria-label=\"Click to select the FlySafair tab.\" tabindex=\"0\" class=\"CustomerSuccessstyled__ImageWrap-sc-1kt39ue-8 lkacQL\">\n- Thought: The element has a role of \"button\", but it also has an ARIA state attribute (aria-selected=\"false\") which is not valid for buttons. The aria-selected attribute is typically used for elements with roles such as \"tab\", \"option\", or \"gridcell\". Since the element is intended to function as a button, the appropriate ARIA attribute for indicating its state would be aria-pressed.\n- Corrected HTML: <div role=\"button\" aria-pressed=\"false\" aria-label=\"Click to select the FlySafair tab.\" tabindex=\"0\" class=\"CustomerSuccessstyled__ImageWrap-sc-1kt39ue-8 lkacQL\">"
+      },
+      {
+        "beforeModification": "<div role=\"button\" aria-selected=\"false\" aria-label=\"Click to select the Telkom tab.\" tabindex=\"0\" class=\"CustomerSuccessstyled__ImageWrap-sc-1kt39ue-8 lkacQL\">",
+        "afterModification": "<button role=\"button\" aria-pressed=\"false\" aria-label=\"Click to select the Telkom tab.\" tabindex=\"0\" class=\"CustomerSuccessstyled__ImageWrap-sc-1kt39ue-8 lkacQL\">",
+        "rawOutput": "- Thought: The element has a role of \"button\", but it is using the ARIA state attribute \"aria-selected\" which is not valid for buttons. The correct ARIA state attribute for a button is \"aria-pressed\". Additionally, the element is a <div> instead of a <button>, so it's best to change the element to a proper <button> for better accessibility and semantics.\n\n- Corrected HTML:\n<button role=\"button\" aria-pressed=\"false\" aria-label=\"Click to select the Telkom tab.\" tabindex=\"0\" class=\"CustomerSuccessstyled__ImageWrap-sc-1kt39ue-8 lkacQL\">"
+      },
+      {
+        "beforeModification": "<div role=\"button\" aria-selected=\"false\" aria-label=\"Click to select the Web Africa tab.\" tabindex=\"0\" class=\"CustomerSuccessstyled__ImageWrap-sc-1kt39ue-8 lkacQL\">",
+        "afterModification": "<div role=\"button\" aria-pressed=\"false\" aria-label=\"Click to select the Web Africa tab.\" tabindex=\"0\" class=\"CustomerSuccessstyled__ImageWrap-sc-1kt39ue-8 lkacQL\">",
+        "rawOutput": "Here's the corrected HTML based on the WCAG 2.1 violation description:\n\n- Incorrect HTML: <div role=\"button\" aria-selected=\"false\" aria-label=\"Click to select the Web Africa tab.\" tabindex=\"0\" class=\"CustomerSuccessstyled__ImageWrap-sc-1kt39ue-8 lkacQL\">\n\n- Thought: The element has a role of \"button\", but it also has an ARIA state attribute (aria-selected=\"false\") which is not valid for buttons. The aria-selected attribute is typically used for elements with roles such as \"tab\", \"option\", or \"gridcell\". Since the element is intended to function as a button, the appropriate ARIA attribute to indicate its state would be aria-pressed.\n\n- Corrected HTML: <div role=\"button\" aria-pressed=\"false\" aria-label=\"Click to select the Web Africa tab.\" tabindex=\"0\" class=\"CustomerSuccessstyled__ImageWrap-sc-1kt39ue-8 lkacQL\">\n\nIn the corrected HTML, I replaced the aria-selected attribute with the aria-pressed attribute, which is the appropriate ARIA state attribute for elements with a role of \"button\". This ensures that the element correctly communicates its state to assistive technologies and complies with the WCAG 2.1"
+      }
+    ]
+  }
+]

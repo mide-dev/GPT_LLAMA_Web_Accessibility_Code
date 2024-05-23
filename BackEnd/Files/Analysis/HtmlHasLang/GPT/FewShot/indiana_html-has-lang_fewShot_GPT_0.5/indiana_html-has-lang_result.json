@@ -1,0 +1,29 @@
+[
+  {
+    "analysisDetails": [
+      {
+        "model": "GPT"
+      },
+      {
+        "accessibility_type": "html-has-lang"
+      },
+      {
+        "prompt_technique": "fewShot"
+      },
+      {
+        "temperature": 0.5
+      }
+    ],
+    "accessbilityTestResult": {
+      "violationBeforeModification": 1,
+      "violationAfterModification": 1
+    },
+    "modelCorrections": [
+      {
+        "beforeModification": "<html><head></head><body></body></html>",
+        "afterModification": "<html lang=\"en\"><head></head><body></body></html>",
+        "rawOutput": "```html\n<html lang=\"en\"><head></head><body></body></html>\n```"
+      }
+    ]
+  }
+]

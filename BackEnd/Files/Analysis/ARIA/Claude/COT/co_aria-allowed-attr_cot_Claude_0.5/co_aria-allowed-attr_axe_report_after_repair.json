@@ -1,0 +1,856 @@
+{
+  "testEngine": {
+    "name": "axe-core",
+    "version": "4.8.4"
+  },
+  "testRunner": {
+    "name": "axe"
+  },
+  "testEnvironment": {
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/122.0.0.0 Safari/537.36",
+    "windowWidth": 800,
+    "windowHeight": 600,
+    "orientationAngle": 0,
+    "orientationType": "portrait-primary"
+  },
+  "timestamp": "2024-04-18T12:53:30.541Z",
+  "url": "https://www.pnet.co.za/",
+  "toolOptions": {
+    "runOnly": {
+      "type": "rule",
+      "values": [
+        "aria-allowed-attr"
+      ]
+    },
+    "reporter": "v1"
+  },
+  "inapplicable": [],
+  "passes": [
+    {
+      "id": "aria-allowed-attr",
+      "impact": "critical",
+      "tags": [
+        "cat.aria",
+        "wcag2a",
+        "wcag412",
+        "EN-301-549",
+        "EN-9.4.1.2"
+      ],
+      "description": "Ensures an element's role supports its ARIA attributes",
+      "help": "Elements must only use supported ARIA attributes",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-allowed-attr?application=axeAPI",
+      "nodes": [
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "aria-allowed-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attributes are used correctly for the defined role"
+            }
+          ],
+          "none": [
+            {
+              "id": "aria-unsupported-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attribute is supported"
+            }
+          ],
+          "impact": null,
+          "html": "<a class=\"hf-provider-yxwv2w\" data-genesis-element=\"BASE\" data-testid=\"logo\" href=\"/\" aria-label=\"pnet-logo\"></a>",
+          "target": [
+            ".hf-provider-yxwv2w"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "aria-allowed-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attributes are used correctly for the defined role"
+            }
+          ],
+          "none": [
+            {
+              "id": "aria-unsupported-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attribute is supported"
+            }
+          ],
+          "impact": null,
+          "html": "<div id=\"stepstone-menubar-19813220\" role=\"menubar\" aria-orientation=\"horizontal\">",
+          "target": [
+            "#stepstone-menubar-19813220"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "aria-allowed-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attributes are used correctly for the defined role"
+            }
+          ],
+          "none": [
+            {
+              "id": "aria-unsupported-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attribute is supported"
+            }
+          ],
+          "impact": null,
+          "html": "<a class=\"hf-provider-gtlnx5\" data-genesis-element=\"BUTTON_BASE\" role=\"menuitem\" aria-label=\"Sign in\" href=\"/candidate/login\" aria-busy=\"false\" data-testid=\"menu-item-sign-in\" data-at=\"header-login-button\">",
+          "target": [
+            ".hf-provider-gtlnx5"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "aria-allowed-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attributes are used correctly for the defined role"
+            }
+          ],
+          "none": [
+            {
+              "id": "aria-unsupported-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attribute is supported"
+            }
+          ],
+          "impact": null,
+          "html": "<button class=\"hf-provider-1enlgk8\" data-genesis-element=\"BUTTON_BASE\" role=\"menuitem\" aria-label=\"Menu\" aria-busy=\"false\" type=\"button\" tabindex=\"0\" id=\"sub-menu-item\" data-testid=\"menu-item-menu\" data-at=\"header-menu\" aria-expanded=\"false\" aria-controls=\"stepstone-menu-19813225\" aria-haspopup=\"menu\">",
+          "target": [
+            "#sub-menu-item"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "aria-allowed-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attributes are used correctly for the defined role"
+            }
+          ],
+          "none": [
+            {
+              "id": "aria-unsupported-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attribute is supported"
+            }
+          ],
+          "impact": null,
+          "html": "<div class=\"sbr-vurnku\" data-genesis-element=\"BASE\" aria-expanded=\"false\" aria-controls=\"stepstone-popover-149\" aria-haspopup=\"dialog\" tabindex=\"0\" role=\"button\"></div>",
+          "target": [
+            "div[aria-controls=\"stepstone-popover-149\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "aria-allowed-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attributes are used correctly for the defined role"
+            }
+          ],
+          "none": [
+            {
+              "id": "aria-unsupported-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attribute is supported"
+            }
+          ],
+          "impact": null,
+          "html": "<input class=\"sbr-b5qtha\" data-genesis-element=\"FORM_INPUT\" type=\"text\" aria-activedescendant=\"\" aria-autocomplete=\"list\" aria-controls=\"stepstone-autocomplete-150-menu\" aria-expanded=\"false\" aria-labelledby=\"stepstone-autocomplete-150-label\" autocomplete=\"off\" id=\"stepstone-autocomplete-150\" role=\"combobox\" data-at=\"searchbar-keyword-input\" placeholder=\"(job title, skill, or company)\" aria-owns=\"stepstone-autocomplete-150-menu\" value=\"\">",
+          "target": [
+            "#stepstone-autocomplete-150"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "aria-allowed-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attributes are used correctly for the defined role"
+            }
+          ],
+          "none": [
+            {
+              "id": "aria-unsupported-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attribute is supported"
+            }
+          ],
+          "impact": null,
+          "html": "<span class=\"sbr-tqs0ve\" data-genesis-element=\"BASE\" role=\"status\" aria-atomic=\"true\"></span>",
+          "target": [
+            ".sbr-uliqdc > .sbr-tqs0ve[role=\"status\"][aria-atomic=\"true\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "aria-allowed-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attributes are used correctly for the defined role"
+            }
+          ],
+          "none": [
+            {
+              "id": "aria-unsupported-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attribute is supported"
+            }
+          ],
+          "impact": null,
+          "html": "<input class=\"sbr-b5qtha\" data-genesis-element=\"FORM_INPUT\" type=\"text\" aria-activedescendant=\"\" aria-autocomplete=\"list\" aria-controls=\"stepstone-autocomplete-155-menu\" aria-expanded=\"false\" aria-labelledby=\"stepstone-autocomplete-155-label\" autocomplete=\"off\" id=\"stepstone-autocomplete-155\" role=\"combobox\" data-at=\"searchbar-location-input\" placeholder=\"(city, district or province)\" aria-owns=\"stepstone-autocomplete-155-menu\" value=\"\">",
+          "target": [
+            "#stepstone-autocomplete-155"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "aria-allowed-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attributes are used correctly for the defined role"
+            }
+          ],
+          "none": [
+            {
+              "id": "aria-unsupported-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attribute is supported"
+            }
+          ],
+          "impact": null,
+          "html": "<span class=\"sbr-tqs0ve\" data-genesis-element=\"BASE\" role=\"status\" aria-atomic=\"true\"></span>",
+          "target": [
+            ".sbr-1gf9v2e:nth-child(2) > .sbr-tqs0ve[role=\"status\"][aria-atomic=\"true\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "aria-allowed-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attributes are used correctly for the defined role"
+            }
+          ],
+          "none": [
+            {
+              "id": "aria-unsupported-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attribute is supported"
+            }
+          ],
+          "impact": null,
+          "html": "<div class=\"sbr-vurnku\" data-genesis-element=\"BASE\" aria-expanded=\"false\" aria-controls=\"stepstone-popover-160\" aria-haspopup=\"dialog\" tabindex=\"0\" role=\"button\"></div>",
+          "target": [
+            "div[aria-controls=\"stepstone-popover-160\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "aria-allowed-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attributes are used correctly for the defined role"
+            }
+          ],
+          "none": [
+            {
+              "id": "aria-unsupported-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attribute is supported"
+            }
+          ],
+          "impact": null,
+          "html": "<input class=\"sbr-1657jf\" data-genesis-element=\"FORM_CHECKBOX\" type=\"checkbox\" aria-checked=\"false\" id=\"stepstone-form-element-228\" name=\"fullTime\">",
+          "target": [
+            "#stepstone-form-element-228"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "aria-allowed-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attributes are used correctly for the defined role"
+            }
+          ],
+          "none": [
+            {
+              "id": "aria-unsupported-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attribute is supported"
+            }
+          ],
+          "impact": null,
+          "html": "<input class=\"sbr-1657jf\" data-genesis-element=\"FORM_CHECKBOX\" type=\"checkbox\" aria-checked=\"false\" id=\"stepstone-form-element-231\" name=\"partTime\">",
+          "target": [
+            "#stepstone-form-element-231"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "aria-allowed-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attributes are used correctly for the defined role"
+            }
+          ],
+          "none": [
+            {
+              "id": "aria-unsupported-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attribute is supported"
+            }
+          ],
+          "impact": null,
+          "html": "<input class=\"sbr-1657jf\" data-genesis-element=\"FORM_CHECKBOX\" type=\"checkbox\" aria-checked=\"false\" id=\"stepstone-form-element-234\" name=\"homeOffice\">",
+          "target": [
+            "#stepstone-form-element-234"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "aria-allowed-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attributes are used correctly for the defined role"
+            }
+          ],
+          "none": [
+            {
+              "id": "aria-unsupported-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attribute is supported"
+            }
+          ],
+          "impact": null,
+          "html": "<button class=\"sbr-nphi3b\" data-genesis-element=\"BUTTON\" aria-label=\"Find Jobs\" aria-busy=\"false\" type=\"button\" data-at=\"searchbar-search-button\"><span class=\"sbr-1cekje2\" data-genesis-element=\"BASE\"><span class=\"sbr-vurnku\" data-genesis-element=\"BASE\">Find Jobs</span></span></button>",
+          "target": [
+            ".sbr-nphi3b"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "aria-allowed-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attributes are used correctly for the defined role"
+            }
+          ],
+          "none": [
+            {
+              "id": "aria-unsupported-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attribute is supported"
+            }
+          ],
+          "impact": null,
+          "html": "<button class=\"homepage-renderer-sdazhr\" data-genesis-element=\"BUTTON\" aria-busy=\"false\" type=\"button\" data-testid=\"appBanner-download-mobile-apps\">",
+          "target": [
+            ".homepage-renderer-sdazhr"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "aria-allowed-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attributes are used correctly for the defined role"
+            }
+          ],
+          "none": [
+            {
+              "id": "aria-unsupported-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attribute is supported"
+            }
+          ],
+          "impact": null,
+          "html": "<div class=\"homepage-renderer-l1ms3h\" data-genesis-element=\"BASE\" id=\"seo-links-tabs\" role=\"tablist\" aria-orientation=\"horizontal\" data-testid=\"seo-links-tabs\" aria-label=\"quick links\">",
+          "target": [
+            "#seo-links-tabs"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "aria-allowed-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attributes are used correctly for the defined role"
+            }
+          ],
+          "none": [
+            {
+              "id": "aria-unsupported-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attribute is supported"
+            }
+          ],
+          "impact": null,
+          "html": "<button class=\"homepage-renderer-be2b0d\" data-genesis-element=\"TAB\" role=\"tab\" aria-label=\"tab button\" aria-busy=\"false\" type=\"button\" tabindex=\"0\" id=\"jobsByCategory\" aria-selected=\"true\" data-testid=\"jobsByCategory\" aria-controls=\"jobsByCategory\">",
+          "target": [
+            ".homepage-renderer-be2b0d"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "aria-allowed-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attributes are used correctly for the defined role"
+            }
+          ],
+          "none": [
+            {
+              "id": "aria-unsupported-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attribute is supported"
+            }
+          ],
+          "impact": null,
+          "html": "<button class=\"homepage-renderer-1dma7oj\" data-genesis-element=\"TAB\" role=\"tab\" aria-label=\"tab button\" aria-busy=\"false\" type=\"button\" tabindex=\"-1\" id=\"jobsByCity\" aria-selected=\"false\" data-testid=\"jobsByCity\" aria-controls=\"jobsByCity\">",
+          "target": [
+            "button[data-testid=\"jobsByCity\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "aria-allowed-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attributes are used correctly for the defined role"
+            }
+          ],
+          "none": [
+            {
+              "id": "aria-unsupported-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attribute is supported"
+            }
+          ],
+          "impact": null,
+          "html": "<button class=\"homepage-renderer-1dma7oj\" data-genesis-element=\"TAB\" role=\"tab\" aria-label=\"tab button\" aria-busy=\"false\" type=\"button\" tabindex=\"-1\" id=\"popularSearches\" aria-selected=\"false\" data-testid=\"popularSearches\" aria-controls=\"popularSearches\">",
+          "target": [
+            "button[data-testid=\"popularSearches\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "aria-allowed-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attributes are used correctly for the defined role"
+            }
+          ],
+          "none": [
+            {
+              "id": "aria-unsupported-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attribute is supported"
+            }
+          ],
+          "impact": null,
+          "html": "<button class=\"homepage-renderer-1dma7oj\" data-genesis-element=\"TAB\" role=\"tab\" aria-label=\"tab button\" aria-busy=\"false\" type=\"button\" tabindex=\"-1\" id=\"popularJds\" aria-selected=\"false\" data-testid=\"popularJds\" aria-controls=\"popularJds\">",
+          "target": [
+            "button[data-testid=\"popularJds\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "aria-allowed-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attributes are used correctly for the defined role"
+            }
+          ],
+          "none": [
+            {
+              "id": "aria-unsupported-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attribute is supported"
+            }
+          ],
+          "impact": null,
+          "html": "<div class=\"homepage-renderer-1wcdwq4\" data-genesis-element=\"BASE\" id=\"jobsByCategory\" role=\"tabpanel\" tabindex=\"0\" data-testid=\"tab-panel_jobsByCategory\" aria-labelledby=\"jobsByCategory\" style=\"opacity: 1;\">",
+          "target": [
+            "div[data-testid=\"tab-panel_jobsByCategory\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "aria-allowed-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attributes are used correctly for the defined role"
+            }
+          ],
+          "none": [
+            {
+              "id": "aria-unsupported-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attribute is supported"
+            }
+          ],
+          "impact": null,
+          "html": "<button class=\"homepage-renderer-197q1n2\" data-genesis-element=\"BUTTON\" aria-label=\"button\" aria-busy=\"false\" type=\"button\" data-testid=\"seo-button-left\">",
+          "target": [
+            "button[data-testid=\"seo-button-left\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "aria-allowed-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attributes are used correctly for the defined role"
+            }
+          ],
+          "none": [
+            {
+              "id": "aria-unsupported-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attribute is supported"
+            }
+          ],
+          "impact": null,
+          "html": "<button class=\"homepage-renderer-197q1n2\" data-genesis-element=\"BUTTON\" aria-label=\"button\" aria-busy=\"false\" type=\"button\" data-testid=\"seo-button-right\">",
+          "target": [
+            "button[data-testid=\"seo-button-right\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "aria-allowed-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attributes are used correctly for the defined role"
+            }
+          ],
+          "none": [
+            {
+              "id": "aria-unsupported-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attribute is supported"
+            }
+          ],
+          "impact": null,
+          "html": "<div class=\"hf-provider-1mybisz\" data-genesis-element=\"MEDIA-OBJECT\" aria-expanded=\"false\" aria-controls=\"stepstone-disclosure-10\" tabindex=\"0\" role=\"button\">",
+          "target": [
+            "div[aria-controls=\"stepstone-disclosure-10\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "aria-allowed-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attributes are used correctly for the defined role"
+            }
+          ],
+          "none": [
+            {
+              "id": "aria-unsupported-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attribute is supported"
+            }
+          ],
+          "impact": null,
+          "html": "<div class=\"hf-provider-1mybisz\" data-genesis-element=\"MEDIA-OBJECT\" aria-expanded=\"false\" aria-controls=\"stepstone-disclosure-12\" tabindex=\"0\" role=\"button\">",
+          "target": [
+            "div[aria-controls=\"stepstone-disclosure-12\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "aria-allowed-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attributes are used correctly for the defined role"
+            }
+          ],
+          "none": [
+            {
+              "id": "aria-unsupported-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attribute is supported"
+            }
+          ],
+          "impact": null,
+          "html": "<div class=\"hf-provider-1mybisz\" data-genesis-element=\"MEDIA-OBJECT\" aria-expanded=\"false\" aria-controls=\"stepstone-disclosure-14\" tabindex=\"0\" role=\"button\">",
+          "target": [
+            "div[aria-controls=\"stepstone-disclosure-14\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "aria-allowed-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attributes are used correctly for the defined role"
+            }
+          ],
+          "none": [
+            {
+              "id": "aria-unsupported-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attribute is supported"
+            }
+          ],
+          "impact": null,
+          "html": "<span aria-expanded=\"false\" aria-controls=\"login-registration-dialog-1\" aria-haspopup=\"dialog\" tabindex=\"0\" role=\"button\"></span>",
+          "target": [
+            "span[aria-controls=\"login-registration-dialog-1\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "aria-allowed-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attributes are used correctly for the defined role"
+            }
+          ],
+          "none": [
+            {
+              "id": "aria-unsupported-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attribute is supported"
+            }
+          ],
+          "impact": null,
+          "html": "<span aria-expanded=\"false\" aria-controls=\"login-registration-dialog-3\" aria-haspopup=\"dialog\" tabindex=\"0\" role=\"button\"></span>",
+          "target": [
+            "span[aria-controls=\"login-registration-dialog-3\"]"
+          ]
+        }
+      ]
+    }
+  ],
+  "incomplete": [],
+  "violations": [
+    {
+      "id": "aria-allowed-attr",
+      "impact": "critical",
+      "tags": [
+        "cat.aria",
+        "wcag2a",
+        "wcag412",
+        "EN-301-549",
+        "EN-9.4.1.2"
+      ],
+      "description": "Ensures an element's role supports its ARIA attributes",
+      "help": "Elements must only use supported ARIA attributes",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-allowed-attr?application=axeAPI",
+      "nodes": [
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "aria-allowed-attr",
+              "data": [
+                "aria-orientation=\"horizontal\""
+              ],
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attribute is not allowed: aria-orientation=\"horizontal\""
+            }
+          ],
+          "none": [],
+          "impact": "critical",
+          "html": "<div class=\"hf-provider-1rqnzv6\" data-genesis-element=\"BASE\" aria-orientation=\"horizontal\"><hr class=\"hf-provider-c6fpx3\" data-genesis-element=\"BASE\"></div>",
+          "target": [
+            "div[data-testid=\"jobseeker\"] > .hf-provider-1rqnzv6[aria-orientation=\"horizontal\"]"
+          ],
+          "failureSummary": "Fix all of the following:\n  ARIA attribute is not allowed: aria-orientation=\"horizontal\""
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "aria-allowed-attr",
+              "data": [
+                "aria-orientation=\"horizontal\""
+              ],
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attribute is not allowed: aria-orientation=\"horizontal\""
+            }
+          ],
+          "none": [],
+          "impact": "critical",
+          "html": "<div class=\"hf-provider-1rqnzv6\" data-genesis-element=\"BASE\" aria-orientation=\"horizontal\"><hr class=\"hf-provider-c6fpx3\" data-genesis-element=\"BASE\"></div>",
+          "target": [
+            "div[data-testid=\"recruiter\"] > .hf-provider-1rqnzv6[aria-orientation=\"horizontal\"]"
+          ],
+          "failureSummary": "Fix all of the following:\n  ARIA attribute is not allowed: aria-orientation=\"horizontal\""
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "aria-allowed-attr",
+              "data": [
+                "aria-orientation=\"horizontal\""
+              ],
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attribute is not allowed: aria-orientation=\"horizontal\""
+            }
+          ],
+          "none": [],
+          "impact": "critical",
+          "html": "<div class=\"hf-provider-1rqnzv6\" data-genesis-element=\"BASE\" aria-orientation=\"horizontal\"><hr class=\"hf-provider-c6fpx3\" data-genesis-element=\"BASE\"></div>",
+          "target": [
+            "div[data-testid=\"lets-connect\"] > .hf-provider-1rqnzv6[aria-orientation=\"horizontal\"]"
+          ],
+          "failureSummary": "Fix all of the following:\n  ARIA attribute is not allowed: aria-orientation=\"horizontal\""
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+[
+  {
+    "analysisDetails": [
+      {
+        "model": "Claude"
+      },
+      {
+        "accessibility_type": "meta-viewport"
+      },
+      {
+        "prompt_technique": "cot"
+      },
+      {
+        "temperature": 0.5
+      }
+    ],
+    "accessbilityTestResult": {
+      "violationBeforeModification": 1,
+      "violationAfterModification": 0
+    },
+    "modelCorrections": [
+      {
+        "beforeModification": "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0\">",
+        "afterModification": "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0\">\n- Thought: The user-scalable attribute is set to 0, which disables zooming on mobile devices. According to WCAG 2.1, user scaling should be allowed. I need to remove the maximum-scale and user-scalable attributes to ensure accessibility.\n- Corrected HTML: <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">",
+        "rawOutput": "- Incorrect HTML: <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0\">\n- Thought: The user-scalable attribute is set to 0, which disables zooming on mobile devices. According to WCAG 2.1, user scaling should be allowed. I need to remove the maximum-scale and user-scalable attributes to ensure accessibility.\n- Corrected HTML: <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">"
+      }
+    ]
+  }
+]

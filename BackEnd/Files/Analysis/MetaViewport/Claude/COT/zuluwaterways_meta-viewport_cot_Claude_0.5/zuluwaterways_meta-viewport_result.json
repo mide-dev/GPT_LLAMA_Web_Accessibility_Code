@@ -1,0 +1,29 @@
+[
+  {
+    "analysisDetails": [
+      {
+        "model": "Claude"
+      },
+      {
+        "accessibility_type": "meta-viewport"
+      },
+      {
+        "prompt_technique": "cot"
+      },
+      {
+        "temperature": 0.5
+      }
+    ],
+    "accessbilityTestResult": {
+      "violationBeforeModification": 1,
+      "violationAfterModification": 0
+    },
+    "modelCorrections": [
+      {
+        "beforeModification": "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no\">",
+        "afterModification": "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no\">\n- Thought: According to the WCAG 2.1 violation description, setting user-scalable=no on the <meta> tag disables zooming on mobile devices, which is not compliant. I need to remove the user-scalable=no and set the maximum-scale to at least 2.0 to allow zooming.\n- Corrected HTML: <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, maximum-scale=2.0\">",
+        "rawOutput": "Here's the correction for the given HTML based on the WCAG 2.1 violation description:\n\n- Incorrect HTML: <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no\">\n- Thought: According to the WCAG 2.1 violation description, setting user-scalable=no on the <meta> tag disables zooming on mobile devices, which is not compliant. I need to remove the user-scalable=no and set the maximum-scale to at least 2.0 to allow zooming.\n- Corrected HTML: <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, maximum-scale=2.0\">"
+      }
+    ]
+  }
+]

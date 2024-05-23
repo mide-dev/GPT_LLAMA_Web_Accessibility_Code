@@ -1,0 +1,29 @@
+[
+  {
+    "analysisDetails": [
+      {
+        "model": "Claude"
+      },
+      {
+        "accessibility_type": "html-has-lang"
+      },
+      {
+        "prompt_technique": "ReAct"
+      },
+      {
+        "temperature": 0.5
+      }
+    ],
+    "accessbilityTestResult": {
+      "violationBeforeModification": 1,
+      "violationAfterModification": 0
+    },
+    "modelCorrections": [
+      {
+        "beforeModification": "<html>",
+        "afterModification": "<html lang=\"en\">",
+        "rawOutput": "*Extracted text from website*: \"Discover die clash possibilities on\"\n- Incorrect HTML: <html>\n- Thought: I need to correct the above HTML by adding the \"lang\" attribute and assigning the right language to it.\n- Observation: The extracted text from the website appears to be in English, despite the presence of the German word \"die\". However, since the majority of the text is in English, it's reasonable to assume that the primary language of the site is English.\n- Action: Add [lang=\"en\"] to the HTML\n- Corrected HTML: <html lang=\"en\">"
+      }
+    ]
+  }
+]

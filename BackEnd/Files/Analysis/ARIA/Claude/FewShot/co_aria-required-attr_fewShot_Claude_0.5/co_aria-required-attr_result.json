@@ -1,0 +1,29 @@
+[
+  {
+    "analysisDetails": [
+      {
+        "model": "Claude"
+      },
+      {
+        "accessibility_type": "aria-required-attr"
+      },
+      {
+        "prompt_technique": "fewShot"
+      },
+      {
+        "temperature": 0.5
+      }
+    ],
+    "accessbilityTestResult": {
+      "violationBeforeModification": 1,
+      "violationAfterModification": 0
+    },
+    "modelCorrections": [
+      {
+        "beforeModification": "<input class=\"search_input\" id=\"search_input\" maxlength=\"2048\" name=\"search\" type=\"search\" autocapitalize=\"off\" autocomplete=\"off\" autocorrect=\"off\" role=\"combobox\" spellcheck=\"false\" onkeyup=\"showClear();showSuggestions()\" onclick=\"showShadow()\" onblur=\"hideShadow();\" oncancel=\"clearBox()\" oninput=\"showClear();showSuggestions()\" onchange=\"showClear();showSuggestions()\" onfocus=\"showSuggestions()\" value=\"\">",
+        "afterModification": "<input class=\"search_input\" id=\"search_input\" maxlength=\"2048\" name=\"search\" type=\"search\" autocapitalize=\"off\" autocomplete=\"off\" autocorrect=\"off\" role=\"combobox\" spellcheck=\"false\" onkeyup=\"showClear();showSuggestions()\" onclick=\"showShadow()\" onblur=\"hideShadow();\" oncancel=\"clearBox()\" oninput=\"showClear();showSuggestions()\" onchange=\"showClear();showSuggestions()\" onfocus=\"showSuggestions()\" value=\"\" aria-expanded=\"false\" aria-controls=\"search_suggestions\">",
+        "rawOutput": "Here's the corrected HTML based on the WCAG 2.1 violation description:\n\n- Corrected HTML:\n<input class=\"search_input\" id=\"search_input\" maxlength=\"2048\" name=\"search\" type=\"search\" autocapitalize=\"off\" autocomplete=\"off\" autocorrect=\"off\" role=\"combobox\" spellcheck=\"false\" onkeyup=\"showClear();showSuggestions()\" onclick=\"showShadow()\" onblur=\"hideShadow();\" oncancel=\"clearBox()\" oninput=\"showClear();showSuggestions()\" onchange=\"showClear();showSuggestions()\" onfocus=\"showSuggestions()\" value=\"\" aria-expanded=\"false\" aria-controls=\"search_suggestions\">\n\nExplanation:\nThe WCAG 2.1 violation description mentioned that the required ARIA attributes `aria-expanded` and `aria-controls` were missing. To fix this:\n\n1. Added the `aria-expanded` attribute with a value of `\"false\"` to indicate that the combobox is initially collapsed.\n2. Added the `aria-controls` attribute with a value of `\"search_suggestions\"`, assuming that the ID of the element containing the search suggestions is `\"search_suggestions\"`. This attribute"
+      }
+    ]
+  }
+]

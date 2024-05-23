@@ -1,0 +1,2213 @@
+{
+  "testEngine": {
+    "name": "axe-core",
+    "version": "4.8.4"
+  },
+  "testRunner": {
+    "name": "axe"
+  },
+  "testEnvironment": {
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/122.0.0.0 Safari/537.36",
+    "windowWidth": 800,
+    "windowHeight": 600,
+    "orientationAngle": 0,
+    "orientationType": "portrait-primary"
+  },
+  "timestamp": "2024-04-17T17:49:16.977Z",
+  "url": "https://www.unileverfoodsolutions.fr/",
+  "toolOptions": {
+    "runOnly": {
+      "type": "rule",
+      "values": [
+        "link-name"
+      ]
+    },
+    "reporter": "v1"
+  },
+  "inapplicable": [],
+  "passes": [
+    {
+      "id": "link-name",
+      "impact": "serious",
+      "tags": [
+        "cat.name-role-value",
+        "wcag2a",
+        "wcag244",
+        "wcag412",
+        "section508",
+        "section508.22.a",
+        "TTv5",
+        "TT6.a",
+        "EN-301-549",
+        "EN-9.2.4.4",
+        "EN-9.4.1.2",
+        "ACT"
+      ],
+      "description": "Ensures links have discernible text",
+      "help": "Links must have discernible text",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/link-name?application=axeAPI",
+      "nodes": [
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            },
+            {
+              "id": "non-empty-title",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has a title attribute"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"/\" title=\"Unilever Food Solutions » Home\">\n                        <img class=\"img ufs-logo_svg \" title=\"Unilever Food Solutions » Home\" alt=\"Unilever Food Solutions » Home\" src=\"/dam/ufs-global/logos/2023/ufs-primary_logo.svg\" height=\"55\" width=\"116\">\n\n                    </a>",
+          "target": [
+            ".header-main-nav__logo > a[href=\"/\"][title=\"Unilever Food Solutions » Home\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "non-empty-title",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has a title attribute"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"/favoris.html\" title=\"Vos favoris\" class=\"nav-link waves-effect waves-light\">\n            <span class=\"icn-heart-o\">\n            </span>\n        </a>",
+          "target": [
+            ".nav-link"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "non-empty-title",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has a title attribute"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a class=\"js-expandable-navigation-item icn-account\" href=\"javascript:;\" title=\"  Votre profil  \"></a>",
+          "target": [
+            ".icn-account.js-expandable-navigation-item[title=\"  Votre profil  \"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            },
+            {
+              "id": "non-empty-title",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has a title attribute"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"#\" title=\"Restaurant\" class=\"js-channel-selector-item\" data-internal-name=\"restaurants_traditional\">\n                    <span class=\"icon icon-other\"></span>\n                    Restaurant\n                </a>",
+          "target": [
+            "a[title=\"Restaurant\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            },
+            {
+              "id": "non-empty-title",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has a title attribute"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"#\" title=\"Éducation-scolaire\" class=\"js-channel-selector-item\" data-internal-name=\"restaurants_colletive\">\n                    <span class=\"icon icon-other\"></span>\n                    Éducation-scolaire\n                </a>",
+          "target": [
+            "a[title=\"Éducation-scolaire\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            },
+            {
+              "id": "non-empty-title",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has a title attribute"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"#\" title=\"Maison de retraite\" class=\"js-channel-selector-item\" data-internal-name=\"elderly-homes\">\n                    <span class=\"icon icon-other\"></span>\n                    Maison de retraite\n                </a>",
+          "target": [
+            "a[title=\"Maison de retraite\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            },
+            {
+              "id": "non-empty-title",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has a title attribute"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"#\" title=\"Restauration rapide\" class=\"js-channel-selector-item\" data-internal-name=\"qsrs\">\n                    <span class=\"icon icon-other\"></span>\n                    Restauration rapide\n                </a>",
+          "target": [
+            "a[title=\"Restauration rapide\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            },
+            {
+              "id": "non-empty-title",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has a title attribute"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"#\" title=\"Autre\">\n                    <span class=\"icon icon-questionmark\"></span>\n                    Autre\n                </a>",
+          "target": [
+            "a[title=\"Autre\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            },
+            {
+              "id": "non-empty-title",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has a title attribute"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"/nos-plus-belles-marques/knorr-professional/knorr-gammefondsbrunslies-nouvellerecette.html\" class=\"button orange\" title=\"Je découvre !\" data-event-type=\"Article Click\" data-event-name=\"Promotion - Fonds Bruns Liés : Nouvelles recettes ! \">Je découvre !</a>",
+          "target": [
+            ".hero_left > .hero__overlay > .button.orange[title=\"Je découvre !\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            },
+            {
+              "id": "non-empty-title",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has a title attribute"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"/rapport-des-tendances-menus-2024.html\" class=\"button orange\" title=\"Télécharger !\" data-event-type=\"Article Click\" data-event-name=\"Promotion - NOUVEAU : Rapport Future Menus 2024 ! \">Télécharger !</a>",
+          "target": [
+            ".hero_right > .hero__overlay > .button.orange[title=\"Télécharger !\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            },
+            {
+              "id": "non-empty-title",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has a title attribute"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"/nos-plus-belles-marques/knorr-professional.html\" title=\"Knorr Professional \" data-event-type=\"Article Click\" data-event-name=\"Chef Inspiration - Theme: Knorr Professional \">Knorr Professional </a>",
+          "target": [
+            ".span-8.article-meta.js-inspiration-add-class > li > a[title=\"Knorr Professional \"][data-event-type=\"Article Click\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            },
+            {
+              "id": "non-empty-title",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has a title attribute"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"/recette/robalo-au-mole-vert-pomme-de-terre-et-tamale-vert-R90022592.html\" data-event-type=\"Recipe Click\" data-event-name=\"Chef Inspiration - ROBALO AU MOLE VERT POMME DE TERRE ET TAMALE VERT\" title=\"ROBALO AU MOLE VERT POMME DE TERRE ET TAMALE VERT\">",
+          "target": [
+            ".col-span-4.last-col.hide-mobile > .item-list__grid.clearfix > .clearfix:nth-child(1) > .item-list__image > a[data-event-type=\"Recipe Click\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            },
+            {
+              "id": "non-empty-title",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has a title attribute"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"/recette/robalo-au-mole-vert-pomme-de-terre-et-tamale-vert-R90022592.html\" data-event-type=\"Recipe Click\" data-event-name=\"Chef Inspiration - ROBALO AU MOLE VERT POMME DE TERRE ET TAMALE VERT\" title=\"ROBALO AU MOLE VERT POMME DE TERRE ET TAMALE VERT\">",
+          "target": [
+            ".col-span-4.last-col.hide-mobile > .item-list__grid.clearfix > .clearfix:nth-child(1) > .item-list__body > a[data-event-type=\"Recipe Click\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            },
+            {
+              "id": "non-empty-title",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has a title attribute"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"/recette/fatteh-de-souris-d-agneau-R90022585.html\" data-event-type=\"Recipe Click\" data-event-name=\"Chef Inspiration - Fatteh de souris d'agneau\" title=\"Fatteh de souris d'agneau\">",
+          "target": [
+            ".col-span-4.last-col.hide-mobile > .item-list__grid.clearfix > .clearfix:nth-child(2) > .item-list__image > a[title=\"Fatteh de souris d'agneau\"][data-event-type=\"Recipe Click\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            },
+            {
+              "id": "non-empty-title",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has a title attribute"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"/recette/fatteh-de-souris-d-agneau-R90022585.html\" data-event-type=\"Recipe Click\" data-event-name=\"Chef Inspiration - Fatteh de souris d'agneau\" title=\"Fatteh de souris d'agneau\">\n                    <span class=\"item-list__title\">Fatteh de souris d'agneau</span>\n                </a>",
+          "target": [
+            ".col-span-4.last-col.hide-mobile > .item-list__grid.clearfix > .clearfix:nth-child(2) > .item-list__body > a[title=\"Fatteh de souris d'agneau\"][data-event-type=\"Recipe Click\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            },
+            {
+              "id": "non-empty-title",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has a title attribute"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"/recette/lumpia-de-legumes-frais-R90022579.html\" data-event-type=\"Recipe Click\" data-event-name=\"Chef Inspiration - Lumpia de légumes frais\" title=\"Lumpia de légumes frais\">",
+          "target": [
+            ".col-span-4.last-col.hide-mobile > .item-list__grid.clearfix > .clearfix:nth-child(3) > .item-list__image > a[title=\"Lumpia de légumes frais\"][data-event-type=\"Recipe Click\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            },
+            {
+              "id": "non-empty-title",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has a title attribute"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"/recette/lumpia-de-legumes-frais-R90022579.html\" data-event-type=\"Recipe Click\" data-event-name=\"Chef Inspiration - Lumpia de légumes frais\" title=\"Lumpia de légumes frais\">\n                    <span class=\"item-list__title\">Lumpia de légumes frais</span>\n                </a>",
+          "target": [
+            ".col-span-4.last-col.hide-mobile > .item-list__grid.clearfix > .clearfix:nth-child(3) > .item-list__body > a[title=\"Lumpia de légumes frais\"][data-event-type=\"Recipe Click\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            },
+            {
+              "id": "non-empty-title",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has a title attribute"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a class=\"button\" href=\"/recettes.html\" title=\"Plus d'articles\" data-event-type=\"Article Click\" data-event-name=\"Chef Inspiration - all-recipes\">\n            Voir plus de recettes\n        </a>",
+          "target": [
+            ".col-span-4.last-col.hide-mobile > .content-tools_centered > a[href$=\"recettes.html\"][data-event-name=\"Chef Inspiration - all-recipes\"][title=\"Plus d'articles\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "non-empty-title",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has a title attribute"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"/inspiration-pour-les-chefs/rubrique-saveurs-intenses/saveurs-intenses-gamme.html\" title=\"Saveurs Intenses KNORR® Professional\" class=\"item-list__image--oblong\" data-event-type=\"Article Click\" data-event-name=\"Chef Inspiration - Article: Saveurs Intenses KNORR® Professional\">",
+          "target": [
+            ".col-span-6.js-inspiration-container[data-inspiration-class=\"span-6\"]:nth-child(1) > .span-6.item-list__image.js-inspiration-add-class > .item-list__image--oblong[data-event-type=\"Article Click\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            },
+            {
+              "id": "non-empty-title",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has a title attribute"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"/inspiration-pour-les-chefs/rubrique-saveurs-intenses.html\" title=\"Rubrique Saveurs Intenses\" data-event-type=\"Article Click\" data-event-name=\"Chef Inspiration - Theme: Rubrique Saveurs Intenses\">Rubrique Saveurs Intenses</a>",
+          "target": [
+            ".article-meta.span-6.js-inspiration-add-class > li > a[title=\"Rubrique Saveurs Intenses\"][data-event-type=\"Article Click\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            },
+            {
+              "id": "non-empty-title",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has a title attribute"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"/inspiration-pour-les-chefs/rubrique-saveurs-intenses/saveurs-intenses-gamme.html\" title=\"Saveurs Intenses KNORR® Professional\" data-event-type=\"Article Click\" data-event-name=\"Chef Inspiration - Article: Saveurs Intenses KNORR® Professional\">",
+          "target": [
+            ".col-span-6.js-inspiration-container[data-inspiration-class=\"span-6\"]:nth-child(1) > .span-6.item-list__body.js-inspiration-add-class > a[data-event-type=\"Article Click\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "non-empty-title",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has a title attribute"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"/inspiration-pour-les-chefs/nos-engagements/memoire-technique.html\" title=\"Mémoire Technique 2023 \" class=\"item-list__image--oblong\" data-event-type=\"Article Click\" data-event-name=\"Chef Inspiration - Article: Mémoire Technique 2023 \">",
+          "target": [
+            ".span-6.item-list__image.js-inspiration-add-class > .item-list__image--oblong[title=\"Mémoire Technique 2023 \"][data-event-type=\"Article Click\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            },
+            {
+              "id": "non-empty-title",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has a title attribute"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"/inspiration-pour-les-chefs/nos-engagements.html\" title=\"Nos engagements \" data-event-type=\"Article Click\" data-event-name=\"Chef Inspiration - Theme: Nos engagements \">Nos engagements </a>",
+          "target": [
+            ".article-meta.span-6.js-inspiration-add-class > li > a[title=\"Nos engagements \"][data-event-type=\"Article Click\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            },
+            {
+              "id": "non-empty-title",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has a title attribute"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"/inspiration-pour-les-chefs/nos-engagements/memoire-technique.html\" title=\"Mémoire Technique 2023 \" data-event-type=\"Article Click\" data-event-name=\"Chef Inspiration - Article: Mémoire Technique 2023 \">",
+          "target": [
+            ".span-6.item-list__body.js-inspiration-add-class > a[title=\"Mémoire Technique 2023 \"][data-event-type=\"Article Click\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            },
+            {
+              "id": "non-empty-title",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has a title attribute"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a class=\"button orange\" href=\"/inspiration-pour-les-chefs.html\" title=\"Plus d'articles\" data-event-name=\"Chef Inspiration - all-themes\" data-event-link=\"/content/ufs-fr/fr/inspiration-pour-les-chefs.html\" data-event-type=\"Link Click\">\n                    Plus d'articles\n                </a>",
+          "target": [
+            "a[data-event-name=\"Chef Inspiration - all-themes\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            },
+            {
+              "id": "non-empty-title",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has a title attribute"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"/produits.html?brandname=amora\" title=\"Amora\" data-event-category=\"Other\" data-event-type=\"Brand Click\" data-event-name=\"Amora\">",
+          "target": [
+            "a[href=\"/produits.html?brandname=amora\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            },
+            {
+              "id": "non-empty-title",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has a title attribute"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"/produits.html?brandname=hellmann-s\" title=\"Hellmann's\" data-event-category=\"Other\" data-event-type=\"Brand Click\" data-event-name=\"Hellmann's\">",
+          "target": [
+            "a[data-event-name=\"Hellmann's\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            },
+            {
+              "id": "non-empty-title",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has a title attribute"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"/produits.html?brandname=hellmanns\" title=\"Hellmanns\" data-event-category=\"Other\" data-event-type=\"Brand Click\" data-event-name=\"Hellmanns\">",
+          "target": [
+            "a[data-event-name=\"Hellmanns\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            },
+            {
+              "id": "non-empty-title",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has a title attribute"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"/produits.html?brandname=knorr\" title=\"Knorr\" data-event-category=\"Other\" data-event-type=\"Brand Click\" data-event-name=\"Knorr\">",
+          "target": [
+            "a[href=\"/produits.html?brandname=knorr\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            },
+            {
+              "id": "non-empty-title",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has a title attribute"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"/produits.html?brandname=le-boucher-vegetarien\" title=\"Le Boucher Végétarien\" data-event-category=\"Other\" data-event-type=\"Brand Click\" data-event-name=\"Le Boucher Végétarien\">",
+          "target": [
+            "a[data-event-name=\"Le Boucher Végétarien\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            },
+            {
+              "id": "non-empty-title",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has a title attribute"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"/produits.html?brandname=maille\" title=\"Maille\" data-event-category=\"Other\" data-event-type=\"Brand Click\" data-event-name=\"Maille\">",
+          "target": [
+            "a[data-event-name=\"Maille\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            },
+            {
+              "id": "non-empty-title",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has a title attribute"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"/produits.html?brandname=maizena\" title=\"Maizena\" data-event-category=\"Other\" data-event-type=\"Brand Click\" data-event-name=\"Maizena\">",
+          "target": [
+            "a[data-event-name=\"Maizena\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            },
+            {
+              "id": "non-empty-title",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has a title attribute"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"/produits.html?brandname=tabasco\" title=\"Tabasco\" data-event-category=\"Other\" data-event-type=\"Brand Click\" data-event-name=\"Tabasco\">",
+          "target": [
+            "a[data-event-name=\"Tabasco\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            },
+            {
+              "id": "non-empty-title",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has a title attribute"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"/produits.html?brandname=the-vegetarian-butcher\" title=\"The Vegetarian Butcher\" data-event-category=\"Other\" data-event-type=\"Brand Click\" data-event-name=\"The Vegetarian Butcher\">",
+          "target": [
+            "a[data-event-name=\"The Vegetarian Butcher\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"/inspiration-pour-les-chefs.html\" data-event-category=\"Other\" data-event-type=\"Footer Menu Click\" data-event-name=\"Nos actualités\">Nos actualités</a>",
+          "target": [
+            "a[data-event-name=\"Nos actualités\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"/nos-plus-belles-marques.html\" data-event-category=\"Other\" data-event-type=\"Footer Menu Click\" data-event-name=\"Nos marques\">Nos marques</a>",
+          "target": [
+            "a[data-event-name=\"Nos marques\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"/produits.html\" class=\"sel-navitem-product\" data-event-category=\"Other\" data-event-type=\"Footer Menu Click\" data-event-name=\"Nos produits\">Nos produits</a>",
+          "target": [
+            "a[data-event-name=\"Nos produits\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"/inspiration-pour-les-chefs/inspirez-vous.html\" data-event-category=\"Other\" data-event-type=\"Footer Menu Click\" data-event-name=\"Inspirez-vous\">Inspirez-vous</a>",
+          "target": [
+            "a[data-event-name=\"Inspirez-vous\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"/inspiration-pour-les-chefs/nos-engagements.html\" data-event-category=\"Other\" data-event-type=\"Footer Menu Click\" data-event-name=\"Nos engagements\">Nos engagements</a>",
+          "target": [
+            "a[data-event-name=\"Nos engagements\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"/fideli-chef.html\" class=\"sel-navitem-cooksave\" data-event-category=\"Other\" data-event-type=\"Footer Menu Click\" data-event-name=\"Fidéli'Chef \">Fidéli'Chef </a>",
+          "target": [
+            "a[data-event-name=\"Fidéli'Chef \"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"/contact/nos-representants.html\" data-event-category=\"Other\" data-event-type=\"Footer Menu Click\" data-event-name=\"Nous contacter\">Nous contacter</a>",
+          "target": [
+            "a[data-event-name=\"Nous contacter\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"/inscription-newsletter.html\" data-event-category=\"Other\" data-event-type=\"Footer Menu Click\" data-event-name=\"Inscription newsletter\">Inscription newsletter</a>",
+          "target": [
+            "a[href=\"/inscription-newsletter.html\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"http://www.ufs.com/?nr=1\" data-event-category=\"Other\" data-event-type=\"Footer Menu Click\" data-event-name=\"Sélectionnez votre pays\">Sélectionnez votre pays</a>",
+          "target": [
+            "a[href=\"http://www.ufs.com/?nr=1\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"/please-recycle.html\" data-event-category=\"Other\" data-event-type=\"Footer Menu Click\" data-event-name=\"Please Recycle\">Please Recycle</a>",
+          "target": [
+            "a[href$=\"please-recycle.html\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"/avertissement-legal/mentions-legales.html\" data-event-category=\"Other\" data-event-type=\"Footer Menu Click\" data-event-name=\"Avertissement légal\">Avertissement légal</a>",
+          "target": [
+            "a[data-event-name=\"Avertissement légal\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"https://www.unilevernotices.com/privacy-notices/france-french.html\" data-event-category=\"Other\" data-event-type=\"Footer Menu Click\" data-event-name=\"Avis de confidentialité\">Avis de confidentialité</a>",
+          "target": [
+            "a[data-event-name=\"Avis de confidentialité\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"https://www.unilevernotices.com/cookie-notices/france-french.html\" data-event-category=\"Other\" data-event-type=\"Footer Menu Click\" data-event-name=\"Avis relatif aux cookies\">Avis relatif aux cookies</a>",
+          "target": [
+            "a[data-event-name=\"Avis relatif aux cookies\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"https://notices.unilever.com/fr/\" data-event-category=\"Other\" data-event-type=\"Footer Menu Click\" data-event-name=\"Accessibilité\">Accessibilité</a>",
+          "target": [
+            "a[data-event-name=\"Accessibilité\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            },
+            {
+              "id": "non-empty-title",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has a title attribute"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"https://www.linkedin.com/company/11472563\" target=\"_blank\" title=\"https://www.linkedin.com/company/11472563 - Link opens in a new window\" rel=\"noreferrer\" data-event-type=\"Social media Click\" data-event-name=\"Linkedin\" data-event-target-url=\"https://www.linkedin.com/company/11472563\">",
+          "target": [
+            "div:nth-child(2) > div > .social-list.clearfix > .generic:nth-child(1) > a[data-event-name=\"Linkedin\"][rel=\"noreferrer\"][data-event-type=\"Social media Click\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            },
+            {
+              "id": "non-empty-title",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has a title attribute"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"https://www.facebook.com/UnileverFoodSolutionsFrance\" target=\"_blank\" title=\"https://www.facebook.com/UnileverFoodSolutionsFrance - Link opens in a new window\" rel=\"noreferrer\" data-event-type=\"Social media Click\" data-event-name=\"Facebook\" data-event-target-url=\"https://www.facebook.com/UnileverFoodSolutionsFrance\">",
+          "target": [
+            "div:nth-child(2) > div > .social-list.clearfix > .generic:nth-child(2) > a[data-event-name=\"Facebook\"][rel=\"noreferrer\"][data-event-type=\"Social media Click\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            },
+            {
+              "id": "non-empty-title",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has a title attribute"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"https://www.youtube.com/user/UFSFRANCE\" target=\"_blank\" title=\"https://www.youtube.com/user/UFSFRANCE - Link opens in a new window\" rel=\"noreferrer\" data-event-type=\"Social media Click\" data-event-name=\"YouTube\" data-event-target-url=\"https://www.youtube.com/user/UFSFRANCE\">",
+          "target": [
+            "div:nth-child(2) > div > .social-list.clearfix > .generic:nth-child(3) > a[data-event-name=\"YouTube\"][rel=\"noreferrer\"][data-event-type=\"Social media Click\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            },
+            {
+              "id": "non-empty-title",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has a title attribute"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"https://wa.me/33625101341\" target=\"_blank\" title=\"https://wa.me/33625101341 - Contact us on Whatsapp\" rel=\"noreferrer\" data-event-type=\"Social media Click\" data-event-name=\"Whatsapp\" data-event-target-url=\"https://wa.me/33625101341\">",
+          "target": [
+            "div:nth-child(2) > div > .social-list.clearfix > .generic:nth-child(4) > a[href=\"https://wa.me/33625101341\"][data-event-name=\"Whatsapp\"][data-event-target-url=\"https://wa.me/33625101341\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            },
+            {
+              "id": "non-empty-title",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has a title attribute"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"/\" title=\"Unilever Food Solutions » Home\" class=\"hide-mobile hide-print\">",
+          "target": [
+            ".hide-print[href=\"/\"][title=\"Unilever Food Solutions » Home\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"javascript:;\">x</a>",
+          "target": [
+            ".newsletter-dialog > .js-lightbox-window.lightbox__window > .js-lightbox-close.lightbox__close > a[href=\"javascript:;\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"/avertissement-legal/mentions-legales.html\" target=\"_blank\">Conditions Générales d’Utilisation du Site</a>",
+          "target": [
+            "label[for=\"ageVerified8739381195219887\"] > a[target=\"_blank\"]:nth-child(1)"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"https://www.unilevernotices.com/france/french/privacy-notice/notice.html\" target=\"_blank\">Politique de Confidentialité</a>",
+          "target": [
+            "label[for=\"ageVerified8739381195219887\"] > a[target=\"_blank\"]:nth-child(2)"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            },
+            {
+              "id": "non-empty-title",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has a title attribute"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a target=\"_blank\" href=\"https://www.unilevernotices.com/cookie-notices/france-french.html\" title=\"Avis relatif aux cookies. Le lien s'ouvre dans une nouvelle fenêtre\">Notification cookies</a>",
+          "target": [
+            "#onetrust-policy-text > a[target=\"_blank\"]"
+          ]
+        }
+      ]
+    }
+  ],
+  "incomplete": [],
+  "violations": [
+    {
+      "id": "link-name",
+      "impact": "serious",
+      "tags": [
+        "cat.name-role-value",
+        "wcag2a",
+        "wcag244",
+        "wcag412",
+        "section508",
+        "section508.22.a",
+        "TTv5",
+        "TT6.a",
+        "EN-301-549",
+        "EN-9.2.4.4",
+        "EN-9.4.1.2",
+        "ACT"
+      ],
+      "description": "Ensures links have discernible text",
+      "help": "Links must have discernible text",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/link-name?application=axeAPI",
+      "nodes": [
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element does not have text that is visible to screen readers"
+            },
+            {
+              "id": "aria-label",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "aria-label attribute does not exist or is empty"
+            },
+            {
+              "id": "aria-labelledby",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty"
+            },
+            {
+              "id": "non-empty-title",
+              "data": {
+                "messageKey": "noAttr"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has no title attribute"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is in tab order and does not have accessible text"
+            }
+          ],
+          "impact": "serious",
+          "html": "<a href=\"javascript:;\" class=\"js-close-navigation-promotion navigation-promo-banner__close\" data-event-type=\"Promotion click\" data-event-title=\"Promotion click\" data-event-link=\"navigation-promotion\">\n                        <div class=\"icn-close\"></div>\n                </a>",
+          "target": [
+            ".js-close-navigation-promotion"
+          ],
+          "failureSummary": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element does not have text that is visible to screen readers"
+            },
+            {
+              "id": "aria-label",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "aria-label attribute does not exist or is empty"
+            },
+            {
+              "id": "aria-labelledby",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty"
+            },
+            {
+              "id": "non-empty-title",
+              "data": {
+                "messageKey": "emptyAttr"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has an empty title attribute"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is in tab order and does not have accessible text"
+            }
+          ],
+          "impact": "serious",
+          "html": "<a href=\"javascript:;\" title=\"\" class=\"js-add-to-cart\" data-at=\"section-mini cart button\">\n        \n        <span class=\"icn-cart hide-mobile\"></span>\n        <span class=\"cart-badge js-cart-badge hide-mobile hidden\">0</span>\n    </a>",
+          "target": [
+            ".js-add-to-cart"
+          ],
+          "failureSummary": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has an empty title attribute"
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element does not have text that is visible to screen readers"
+            },
+            {
+              "id": "aria-label",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "aria-label attribute does not exist or is empty"
+            },
+            {
+              "id": "aria-labelledby",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty"
+            },
+            {
+              "id": "non-empty-title",
+              "data": {
+                "messageKey": "emptyAttr"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has an empty title attribute"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is in tab order and does not have accessible text"
+            }
+          ],
+          "impact": "serious",
+          "html": "<a href=\"javascript:;\" title=\"\"><span class=\"icon icon-close\"></span></a>",
+          "target": [
+            ".channel-selector__close > a[title=\"\"][href=\"javascript:;\"]"
+          ],
+          "failureSummary": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has an empty title attribute"
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element does not have text that is visible to screen readers"
+            },
+            {
+              "id": "aria-label",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "aria-label attribute does not exist or is empty"
+            },
+            {
+              "id": "aria-labelledby",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty"
+            },
+            {
+              "id": "non-empty-title",
+              "data": {
+                "messageKey": "noAttr"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has no title attribute"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is in tab order and does not have accessible text"
+            }
+          ],
+          "impact": "serious",
+          "html": "<a href=\"/nos-plus-belles-marques/knorr-professional/knorr-gammefondsbrunslies-nouvellerecette.html\" data-event-type=\"Article Click\" data-event-name=\"Promotion - Fonds Bruns Liés : Nouvelles recettes !  - /nos-plus-belles-marques/knorr-professional/knorr-gammefondsbrunslies-nouvellerecette.html\">",
+          "target": [
+            ".hero_left > .hero__image-oblong > a[data-event-type=\"Article Click\"]"
+          ],
+          "failureSummary": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element does not have text that is visible to screen readers"
+            },
+            {
+              "id": "aria-label",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "aria-label attribute does not exist or is empty"
+            },
+            {
+              "id": "aria-labelledby",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty"
+            },
+            {
+              "id": "non-empty-title",
+              "data": {
+                "messageKey": "noAttr"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has no title attribute"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is in tab order and does not have accessible text"
+            }
+          ],
+          "impact": "serious",
+          "html": "<a href=\"/rapport-des-tendances-menus-2024.html\" data-event-type=\"Article Click\" data-event-name=\"Promotion - NOUVEAU : Rapport Future Menus 2024 !  - /rapport-des-tendances-menus-2024.html\">",
+          "target": [
+            ".hero_right > .hero__image-square > a[data-event-type=\"Article Click\"]"
+          ],
+          "failureSummary": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element does not have text that is visible to screen readers"
+            },
+            {
+              "id": "aria-label",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "aria-label attribute does not exist or is empty"
+            },
+            {
+              "id": "aria-labelledby",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty"
+            },
+            {
+              "id": "non-empty-title",
+              "data": {
+                "messageKey": "noAttr"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has no title attribute"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is in tab order and does not have accessible text"
+            }
+          ],
+          "impact": "serious",
+          "html": "<a href=\"/nos-plus-belles-marques/knorr-professional/knorr-cuisinedumonde.html\" class=\"item-list__image--oblong\" data-event-type=\"Article Click\" data-event-name=\"Chef Inspiration - Article: \">",
+          "target": [
+            ".span-8.item-list__image.js-inspiration-add-class > .item-list__image--oblong[data-event-name=\"Chef Inspiration - Article: \"][data-event-type=\"Article Click\"]"
+          ],
+          "failureSummary": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element does not have text that is visible to screen readers"
+            },
+            {
+              "id": "aria-label",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "aria-label attribute does not exist or is empty"
+            },
+            {
+              "id": "aria-labelledby",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty"
+            },
+            {
+              "id": "non-empty-title",
+              "data": {
+                "messageKey": "noAttr"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has no title attribute"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is in tab order and does not have accessible text"
+            }
+          ],
+          "impact": "serious",
+          "html": "<a href=\"/nos-plus-belles-marques/knorr-professional/knorr-cuisinedumonde.html\" class=\"item-list__image--square\" data-event-type=\"Article Click\" data-event-name=\"Chef Inspiration - Article: \">",
+          "target": [
+            ".span-8.item-list__image.js-inspiration-add-class > .item-list__image--square[data-event-name=\"Chef Inspiration - Article: \"][data-event-type=\"Article Click\"]"
+          ],
+          "failureSummary": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element does not have text that is visible to screen readers"
+            },
+            {
+              "id": "aria-label",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "aria-label attribute does not exist or is empty"
+            },
+            {
+              "id": "aria-labelledby",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty"
+            },
+            {
+              "id": "non-empty-title",
+              "data": {
+                "messageKey": "noAttr"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has no title attribute"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is in tab order and does not have accessible text"
+            }
+          ],
+          "impact": "serious",
+          "html": "<a href=\"/nos-plus-belles-marques/knorr-professional/knorr-cuisinedumonde.html\" data-event-type=\"Article Click\" data-event-name=\"Chef Inspiration - Article: \">\n            <span class=\"item-list__title js-inspiration-add-class span-8\"></span>\n            \n        </a>",
+          "target": [
+            ".span-8.item-list__body.js-inspiration-add-class > a[data-event-name=\"Chef Inspiration - Article: \"][data-event-type=\"Article Click\"]"
+          ],
+          "failureSummary": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+        }
+      ]
+    }
+  ]
+}

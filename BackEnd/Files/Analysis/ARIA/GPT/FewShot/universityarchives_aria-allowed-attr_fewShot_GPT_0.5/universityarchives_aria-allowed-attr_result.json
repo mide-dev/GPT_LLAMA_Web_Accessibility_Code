@@ -1,0 +1,34 @@
+[
+  {
+    "analysisDetails": [
+      {
+        "model": "GPT"
+      },
+      {
+        "accessibility_type": "aria-allowed-attr"
+      },
+      {
+        "prompt_technique": "fewShot"
+      },
+      {
+        "temperature": 0.5
+      }
+    ],
+    "accessbilityTestResult": {
+      "violationBeforeModification": 2,
+      "violationAfterModification": 0
+    },
+    "modelCorrections": [
+      {
+        "beforeModification": "<div class=\"navbar-item header__item has-dropdown has-dropdown--vertical is-hoverable \" aria-haspopup=\"true\" aria-expanded=\"false\" data-navlink-handle=\"about\">",
+        "afterModification": "<div class=\"navbar-item header__item has-dropdown has-dropdown--vertical is-hoverable\" role=\"button\" aria-haspopup=\"true\" aria-expanded=\"false\" data-navlink-handle=\"about\">",
+        "rawOutput": "```html\n<div class=\"navbar-item header__item has-dropdown has-dropdown--vertical is-hoverable\" role=\"button\" aria-haspopup=\"true\" aria-expanded=\"false\" data-navlink-handle=\"about\">\n```"
+      },
+      {
+        "beforeModification": "<div class=\"navbar-item header__item has-dropdown has-dropdown--vertical is-hoverable \" aria-haspopup=\"true\" aria-expanded=\"false\" data-navlink-handle=\"media\">",
+        "afterModification": "<div class=\"navbar-item header__item has-dropdown has-dropdown--vertical is-hoverable \" role=\"button\" aria-haspopup=\"true\" aria-expanded=\"false\" data-navlink-handle=\"media\">",
+        "rawOutput": "```html\n<div class=\"navbar-item header__item has-dropdown has-dropdown--vertical is-hoverable \" role=\"button\" aria-haspopup=\"true\" aria-expanded=\"false\" data-navlink-handle=\"media\">\n```"
+      }
+    ]
+  }
+]

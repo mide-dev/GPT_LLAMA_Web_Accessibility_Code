@@ -1,0 +1,29 @@
+[
+  {
+    "analysisDetails": [
+      {
+        "model": "Claude"
+      },
+      {
+        "accessibility_type": "html-has-lang"
+      },
+      {
+        "prompt_technique": "fewShot"
+      },
+      {
+        "temperature": 0.5
+      }
+    ],
+    "accessbilityTestResult": {
+      "violationBeforeModification": 1,
+      "violationAfterModification": 0
+    },
+    "modelCorrections": [
+      {
+        "beforeModification": "<html class=\"v2 js js\" dir=\"ltr\" xmlns=\"http://www.w3.org/1999/xhtml\" xmlns:b=\"http://www.google.com/2005/gml/b\" xmlns:data=\"http://www.google.com/2005/gml/data\" xmlns:expr=\"http://www.google.com/2005/gml/expr\">",
+        "afterModification": "<html lang=\"en\" class=\"v2 js js\" dir=\"ltr\" xmlns=\"http://www.w3.org/1999/xhtml\" xmlns:b=\"http://www.google.com/2005/gml/b\" xmlns:data=\"http://www.google.com/2005/gml/data\" xmlns:expr=\"http://www.google.com/2005/gml/expr\">",
+        "rawOutput": "Here is the corrected HTML with the lang attribute added:\n\n<html lang=\"en\" class=\"v2 js js\" dir=\"ltr\" xmlns=\"http://www.w3.org/1999/xhtml\" xmlns:b=\"http://www.google.com/2005/gml/b\" xmlns:data=\"http://www.google.com/2005/gml/data\" xmlns:expr=\"http://www.google.com/2005/gml/expr\">"
+      }
+    ]
+  }
+]

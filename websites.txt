@@ -4,3 +4,137 @@ https://austrin-engineering.co.uk/
 
 *color-contrast*
 https://www.stratus.com/
+
+
+html-lang
+    "https://5pillarsuk.com/",
+    "https://abotx.org/",
+    "https://acid3.acidtests.org/",
+    "https://allaladdin.ga/",
+    "https://aspirebridge.com/",
+    "https://www.bakupages.com/",
+    "https://bekasikota.go.id/",
+    "https://bigappleshak.com/",
+    "https://coastalhazards.uprm.edu/",
+    "https://coinsandcanada.com/",
+    "https://demetrimusic.com/",
+    "https://dmiinternational.org/",
+    "https://docs.behat.org/en/latest/",
+    "https://dtf.ru/",
+    "https://www.funnycide.com/",
+    "https://garbageplate.com/",
+    "https://genomeribbon.com/",
+    "https://homemade-recipes.blogspot.com/",
+    "https://libano.org.br/",
+    "https://m.valleyevents.ca/",
+    "https://martinmch.com/",
+    "https://www.massmedic.com/",
+    "https://www.mediendenk.de/",
+    "https://nattou.org/",
+    "https://outhousetickets.com/",
+    "https://pastebin.mozilla.org/",
+    "https://playfordspast.recollect.net.au/",
+    "https://pokergrinderapp.com/",
+    "http://polyatalexei.narod.ru/",
+    "https://rohanvarma.me/",
+    "https://runasradio.com/",
+    "https://sauria.com/",
+    "https://snob.ru/",
+    "https://sso2.educamos.com/",
+    "https://stevebeck.tv/",
+    "https://swinburnearchive.indiana.edu/",
+    "https://taylorbranch.com/",
+    "https://turinghub.org/",
+    "https://verzitex.com/",
+    "https://wanfangdata.com.cn/",
+    "https://wordpress.dwbooster.com/",
+
+
+meta
+"https://www.argentdata.com/catalog/",
+    "https://buy.ticketstothecity.com/",
+    "https://www.cobo.com/",
+    "https://drgo.us/",
+    "https://dtf.ru/",
+    "https://e.huawei.com/eu/",
+    "https://www.eyehealthweb.com/",
+    "https://hgic.clemson.edu/",
+    "https://homemade-recipes.blogspot.com/",
+    "https://ilovelakemac.com/",
+    "https://www.ipsoft.ba/",
+    "https://islands.scot/",
+    "https://khanbank.com/personal/home/",
+    "https://www.lifepoint.com/",
+    "https://www.lightstation.com/",
+    "https://live4.io/",
+    "https://musiconthedot.com/",
+    "https://nic.xyz/",
+    "https://projectzante.com/",
+    "https://robosoft.com.tr/",
+    "https://rohanvarma.me/",
+    "https://www.rolfdisch.de/en/architects-office/",
+    "https://www.silicon.co.uk/",
+    "https://soslc.lk/en",
+    "https://sso2.educamos.com/",
+    "https://thefifearms.com/",
+    "https://wallery.app/",
+    "https://www.wonderlandmagazine.com/",
+    "https://www.zuluwaterways.com/",
+
+
+link-name:
+"https://www.bigododge.com/",
+"https://www.fivestars.com/",
+"https://www.idx.inc/",
+"https://www.intapp.com/",
+"https://www.linuxfoundation.org/",
+"https://www.nuorder.com/",
+"https://www.shoppersstop.com/",
+"https://www.stratus.com/",
+"https://www.taylor.com/",
+"https://www.unileverfoodsolutions.fr/",
+
+
+aria:
+
+"aria-required-attr":
+"https://www.pricecheck.co.za/",
+"https://menara.ma/",
+"https://www.safarinow.com/",
+
+
+"aria-allowed-attr":
+"https://agilesparks.com/",
+"https://www.pnet.co.za/",
+"https://www.clickatell.com/",
+"https://www.egyptair.com/en/pages/homepage.aspx",
+"https://linkdsl.com/",
+"https://www.thewinesociety.com/",
+"https://www.universityarchives.com/",
+
+color-con:
+"https://www.fivestars.com/",
+"https://www.linuxfoundation.org/",
+"https://www.nuorder.com/",
+"https://www.stratus.com/",
+"https://www.unileverfoodsolutions.fr/",
+
+
+      Example 1:
+      - Incorrect HTML: <div role="textbox" contenteditable="true"></div>
+      - Corrected HTML: <div role="textbox" contenteditable="true" aria-multiline="true aria-label="Enter your hobbies" aria-required="true"></div>
+
+
+      Example 1:
+      - Incorrect HTML: <div role="textbox" contenteditable="true"></div>
+      - Thought: Because the above div element have a role of textbox, I need to add all WCAG required aria attributes (aria-multiline, aria-label, and aria-required) that is needed for a textbox according to WCAG 2.1.
+      - Corrected HTML: <div role="textbox" contenteditable="true" aria-multiline="true aria-label="Enter your hobbies" aria-required="true"></div>
+  
+
+        Example 1:
+      - Incorrect HTML: <div role="textbox" contenteditable="true"></div>
+      - Thought: Because the above div element have a role of textbox, I need to add all WCAG 2.1 required aria attributes that is needed for a textbox to fix the issue.
+      - Observation: an element with a role="textbox" needs multiple attributes (aria-multiline, aria-label, and aria-required) according to WCAG.
+      - Action: add[ria-multiline="true aria-label="Enter your hobbies" aria-required="true"] to the HTML.
+      - Corrected HTML: <div role="textbox" contenteditable="true" aria-multiline="true aria-label="Enter your hobbies" aria-required="true"></div>
+      

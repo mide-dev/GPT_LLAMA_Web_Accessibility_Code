@@ -1,0 +1,29 @@
+[
+  {
+    "analysisDetails": [
+      {
+        "model": "GPT"
+      },
+      {
+        "accessibility_type": "aria-allowed-attr"
+      },
+      {
+        "prompt_technique": "fewShot"
+      },
+      {
+        "temperature": 0.5
+      }
+    ],
+    "accessbilityTestResult": {
+      "violationBeforeModification": 1,
+      "violationAfterModification": 0
+    },
+    "modelCorrections": [
+      {
+        "beforeModification": "<div class=\"dialog-widget dialog-lightbox-widget dialog-type-buttons dialog-type-lightbox elementor-popup-modal\" id=\"elementor-popup-modal-67353\" aria-modal=\"true\" role=\"document\" tabindex=\"0\" style=\"\">",
+        "afterModification": "<div class=\"dialog-widget dialog-lightbox-widget dialog-type-buttons dialog-type-lightbox elementor-popup-modal\" id=\"elementor-popup-modal-67353\" role=\"dialog\" aria-hidden=\"false\" tabindex=\"0\" style=\"\"></div>",
+        "rawOutput": "```html\n<div class=\"dialog-widget dialog-lightbox-widget dialog-type-buttons dialog-type-lightbox elementor-popup-modal\" id=\"elementor-popup-modal-67353\" role=\"dialog\" aria-hidden=\"false\" tabindex=\"0\" style=\"\"></div>\n```"
+      }
+    ]
+  }
+]

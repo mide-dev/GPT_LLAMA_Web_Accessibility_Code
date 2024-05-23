@@ -1,0 +1,29 @@
+[
+  {
+    "analysisDetails": [
+      {
+        "model": "Claude"
+      },
+      {
+        "accessibility_type": "aria-required-attr"
+      },
+      {
+        "prompt_technique": "ReAct"
+      },
+      {
+        "temperature": 0.5
+      }
+    ],
+    "accessbilityTestResult": {
+      "violationBeforeModification": 1,
+      "violationAfterModification": 0
+    },
+    "modelCorrections": [
+      {
+        "beforeModification": "<input type=\"search\" autocomplete=\"off\" role=\"combobox\" aria-label=\"Search for option\" class=\"form-control\">",
+        "afterModification": "<input type=\"search\" autocomplete=\"off\" role=\"combobox\" aria-label=\"Search for option\" aria-expanded=\"false\" aria-controls=\"options-list\" class=\"form-control\">",
+        "rawOutput": "- Incorrect HTML: <input type=\"search\" autocomplete=\"off\" role=\"combobox\" aria-label=\"Search for option\" class=\"form-control\">\n\n- Thought: Because the input element has a role of combobox, I need to add all WCAG 2.1 required ARIA attributes that are needed for a combobox to fix the issue.\n\n- Observation: An element with role=\"combobox\" needs the aria-expanded and aria-controls attributes according to WCAG 2.1.\n\n- Action: Add aria-expanded and aria-controls attributes to the HTML. The aria-expanded attribute should be set to \"false\" initially, and the aria-controls attribute should reference the ID of the element that contains the list of options.\n\n- Corrected HTML: <input type=\"search\" autocomplete=\"off\" role=\"combobox\" aria-label=\"Search for option\" aria-expanded=\"false\" aria-controls=\"options-list\" class=\"form-control\">\n\nNote: Make sure to have a corresponding element with the ID specified in the aria-controls attribute (in this case, \"options-list\") that contains the list of options for the combobox."
+      }
+    ]
+  }
+]

@@ -1,0 +1,54 @@
+[
+  {
+    "analysisDetails": [
+      {
+        "model": "Claude"
+      },
+      {
+        "accessibility_type": "link-name"
+      },
+      {
+        "prompt_technique": "cot"
+      },
+      {
+        "temperature": 0.5
+      }
+    ],
+    "accessbilityTestResult": {
+      "violationBeforeModification": 6,
+      "violationAfterModification": 0
+    },
+    "modelCorrections": [
+      {
+        "beforeModification": "<a href=\"javascript:void(0)\" class=\"menu-custom-corp\"><i class=\"fa fa-bars\"></i></a>",
+        "afterModification": "<a href=\"javascript:void(0)\" class=\"menu-custom-corp\" aria-label=\"Open menu\"><i class=\"fa fa-bars\"></i></a>",
+        "rawOutput": "- Thought: I need to correct the above HTML by adding an aria-label attribute to the link. Since the link doesn't have any visible text, I can use the aria-label to provide a descriptive label for screen readers. The icon suggests it's a menu button, so I'll use \"Open menu\" as the aria-label.\n\n- Corrected HTML: <a href=\"javascript:void(0)\" class=\"menu-custom-corp\" aria-label=\"Open menu\"><i class=\"fa fa-bars\"></i></a>"
+      },
+      {
+        "beforeModification": "<a href=\"javascript:void(0)\" class=\"search-custom-corp\"><i class=\"fa fa-search\"></i></a>",
+        "afterModification": "<a href=\"javascript:void(0)\" class=\"search-custom-corp\" aria-label=\"Search\"><i class=\"fa fa-search\"></i></a>",
+        "rawOutput": "- Thought: I need to correct the above HTML by adding an aria-label attribute to the link. Since the link doesn't have any visible text, I can use the aria-label to provide a description of what the link does based on the context of the icon used.\n- Corrected HTML: <a href=\"javascript:void(0)\" class=\"search-custom-corp\" aria-label=\"Search\"><i class=\"fa fa-search\"></i></a>"
+      },
+      {
+        "beforeModification": "<a href=\"#mydiv\"><span class=\"hidden\">Scroll</span></a>",
+        "afterModification": "<a href=\"#mydiv\" aria-label=\"Scroll\"></a>",
+        "rawOutput": "Here's the corrected HTML based on the provided WCAG 2.1 violation description and the given incorrect HTML:\n\n- Incorrect HTML: <a href=\"#mydiv\"><span class=\"hidden\">Scroll</span></a>\n- Thought: The anchor tag has a span element with the class \"hidden\", which suggests that the text \"Scroll\" is visually hidden but accessible to screen readers. However, the span element is empty, so it doesn't provide any accessible text. To fix this, I can remove the span element and add an aria-label attribute to the anchor tag with the text \"Scroll\".\n- Corrected HTML: <a href=\"#mydiv\" aria-label=\"Scroll\"></a>\n\nIn this correction, I removed the empty span element and added an aria-label attribute to the anchor tag. The aria-label attribute provides an accessible name for the link, which will be announced by screen readers. This ensures that the link has accessible text and complies with the WCAG 2.1 guidelines."
+      },
+      {
+        "beforeModification": "<a href=\"/talent/why-honesty-clarity-are-more-important-than-transparency\" class=\"blog__link\">\n\t\t\t\t\t<div class=\"feed-blog-image blog__image\">\n\t\t\t\t\t\t<img src=\"/sites/investisdigital-corp-v2/files/Honesty%20Blog%20Image%202448%20x%201337%20px%20copy_0.png\" alt=\"\">\n\t\t\t\t\t</div>\n\t\t\t\t</a>",
+        "afterModification": "<a href=\"/talent/why-honesty-clarity-are-more-important-than-transparency\" class=\"blog__link\" title=\"Why Honesty & Clarity Are More Important Than Transparency\">\n  <div class=\"feed-blog-image blog__image\"><img src=\"/sites/investisdigital-corp-v2/files/Honesty%20Blog%20Image%202448%20x%201337%20px%20copy_0.png\" alt=\"\">\n</div>\n</a>",
+        "rawOutput": "Here's the corrected HTML based on the WCAG 2.1 violation description and the provided example:\n\n- Incorrect HTML:\n<a href=\"/talent/why-honesty-clarity-are-more-important-than-transparency\" class=\"blog__link\">\n  <div class=\"feed-blog-image blog__image\">\n    <img src=\"/sites/investisdigital-corp-v2/files/Honesty%20Blog%20Image%202448%20x%201337%20px%20copy_0.png\" alt=\"\">\n  </div>\n</a>\n\n- Thought: I need to correct the above HTML by adding a title attribute to the link. Since the \"href\" is a relative URL, I can use the text from the URL to set the title content. Additionally, I should add an alt attribute to the img element to provide a text alternative for the image.\n\n- Corrected HTML:\n<a href=\"/talent/why-honesty-clarity-are-more-important-than-transparency\" class=\"blog__link\" title=\"Why Honesty & Clarity Are More Important Than Transparency\">\n  <div class=\"feed-blog-image blog__image\">\n    <img src=\"/sites/investisdigital-corp-v2/files/Honesty%20Blog%20Image%202"
+      },
+      {
+        "beforeModification": "<a href=\"/blog/marketing/how-generative-ai-changes-video-creation\" class=\"blog__link\">\n\t\t\t\t\t<div class=\"feed-blog-image blog__image\">\n\t\t\t\t\t\t<img src=\"/sites/investisdigital-corp-v2/files/Sora%20Blog%20Image%202448%20x%201337%20px.png\" alt=\"\">\n\t\t\t\t\t</div>\n\t\t\t\t</a>",
+        "afterModification": "<a href=\"/blog/marketing/how-generative-ai-changes-video-creation\" class=\"blog__link title=\"How Generative AI Changes Video Creation\">\n\t\t\t\t\t<div class=\"feed-blog-image blog__image\">\n\t\t\t\t\t\t<img src=\"/sites/investisdigital-corp-v2/files/Sora%20Blog%20Image%202448%20x%201337%20px.png\" alt=\"\">\n\t\t\t\t\t</div>\n\t\t\t\t</a>",
+        "rawOutput": "Here's the corrected HTML based on the WCAG 2.1 violation description and the provided examples:\n\n- Incorrect HTML:\n<a href=\"/blog/marketing/how-generative-ai-changes-video-creation\" class=\"blog__link\">\n  <div class=\"feed-blog-image blog__image\">\n    <img src=\"/sites/investisdigital-corp-v2/files/Sora%20Blog%20Image%202448%20x%201337%20px.png\" alt=\"\">\n  </div>\n</a>\n\n- Thought: To correct the above HTML, I need to add a title attribute to the link. Since the \"href\" points to a blog post, I can use the blog post's title as the content for the title attribute. Additionally, I should add an alt text to the image to provide a description for screen readers.\n\n- Corrected HTML:\n<a href=\"/blog/marketing/how-generative-ai-changes-video-creation\" class=\"blog__link\" title=\"How Generative AI Changes Video Creation\">\n  <div class=\"feed-blog-image blog__image\">\n    <img src=\"/sites/investisdigital-corp-v2/files/Sora%20Blog%20Image%202448%20x%201337%20px.png"
+      },
+      {
+        "beforeModification": "<a href=\"/blog/performance-marketing/connected-tv-sports-advertising\" class=\"blog__link\">\n\t\t\t\t\t<div class=\"feed-blog-image blog__image\">\n\t\t\t\t\t\t<img src=\"/sites/investisdigital-corp-v2/files/March%20Madness%20Blog%20Image%202448%20x%201337%20px.png\" alt=\"\">\n\t\t\t\t\t</div>\n\t\t\t\t</a>",
+        "afterModification": "<a href=\"/blog/performance-marketing/connected-tv-sports-advertising\" class=\"blog__link\" title=\"Connected TV Sports Advertising\">\n    <div class=\"feed-blog-image blog__image\">\n        <img src=\"/sites/investisdigital-corp-v2/files/March%20Madness%20Blog%20Image%202448%20x%201337%20px.png\" alt=\"\">\n    </div>\n</a>",
+        "rawOutput": "Here's the corrected HTML based on the WCAG 2.1 violation description and the provided examples:\n\n- Incorrect HTML:\n<a href=\"/blog/performance-marketing/connected-tv-sports-advertising\" class=\"blog__link\">\n    <div class=\"feed-blog-image blog__image\">\n        <img src=\"/sites/investisdigital-corp-v2/files/March%20Madness%20Blog%20Image%202448%20x%201337%20px.png\" alt=\"\">\n    </div>\n</a>\n\n- Thought: To fix the accessibility issue, I need to add a title attribute to the link. Since the \"href\" points to a blog post, I can use the URL path to determine the title content. Additionally, I should provide a meaningful \"alt\" text for the image to describe its content.\n\n- Corrected HTML:\n<a href=\"/blog/performance-marketing/connected-tv-sports-advertising\" class=\"blog__link\" title=\"Connected TV Sports Advertising\">\n    <div class=\"feed-blog-image blog__image\">\n        <img src=\"/sites/investisdigital-corp-v2/files/March%20Madness%20Blog%20Image%202448%20x%201337%20px.png\" alt=\"March Madness"
+      }
+    ]
+  }
+]

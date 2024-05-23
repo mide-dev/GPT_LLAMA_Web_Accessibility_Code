@@ -1,0 +1,29 @@
+[
+  {
+    "analysisDetails": [
+      {
+        "model": "Claude"
+      },
+      {
+        "accessibility_type": "meta-viewport"
+      },
+      {
+        "prompt_technique": "fewShot"
+      },
+      {
+        "temperature": 0.5
+      }
+    ],
+    "accessbilityTestResult": {
+      "violationBeforeModification": 1,
+      "violationAfterModification": 0
+    },
+    "modelCorrections": [
+      {
+        "beforeModification": "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\">",
+        "afterModification": "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=5, user-scalable=yes\">",
+        "rawOutput": "Here's the corrected HTML based on the WCAG 2.1 violation description:\n\n- Corrected HTML: <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=5, user-scalable=yes\">\n\nExplanation:\nTo fix the accessibility violation, the `user-scalable=no` attribute has been changed to `user-scalable=yes`. This allows users to zoom in on the content using mobile devices, ensuring better accessibility.\n\nAdditionally, the `maximum-scale` value has been increased from 1 to 5. This provides users with more flexibility in zooming the content according to their needs.\n\nBy making these changes, the HTML complies with the WCAG 2.1 guidelines and improves accessibility for users who rely on zooming functionality on mobile devices."
+      }
+    ]
+  }
+]

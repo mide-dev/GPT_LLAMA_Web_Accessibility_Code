@@ -1,0 +1,94 @@
+[
+  {
+    "analysisDetails": [
+      {
+        "model": "Claude"
+      },
+      {
+        "accessibility_type": "link-name"
+      },
+      {
+        "prompt_technique": "fewShot"
+      },
+      {
+        "temperature": 0.5
+      }
+    ],
+    "accessbilityTestResult": {
+      "violationBeforeModification": 14,
+      "violationAfterModification": 0
+    },
+    "modelCorrections": [
+      {
+        "beforeModification": "<a href=\"#search-popup\" class=\"search-popup-link\">",
+        "afterModification": "<a href=\"#search-popup\" class=\"search-popup-link\" title=\"Open search popup\">",
+        "rawOutput": "Here's the corrected HTML based on the WCAG 2.1 violation description and the provided examples:\n\n- Incorrect HTML: <a href=\"#search-popup\" class=\"search-popup-link\">\n- Corrected HTML: <a href=\"#search-popup\" class=\"search-popup-link\" aria-label=\"Open search popup\">\n\nTo fix the accessibility issue, I added the `aria-label` attribute to the anchor tag. The `aria-label` attribute provides an accessible name for the link, which will be read by screen readers. In this case, the label \"Open search popup\" clearly indicates the purpose of the link.\n\nAlternatively, you could also use the `title` attribute to provide an accessible name:\n\n- Corrected HTML: <a href=\"#search-popup\" class=\"search-popup-link\" title=\"Open search popup\">\n\nBoth the `aria-label` and `title` attributes can be used to provide accessible text for the link, ensuring that users relying on assistive technologies can understand the purpose of the link."
+      },
+      {
+        "beforeModification": "<a href=\"/?hsLang=en\"> <img src=\"https://www.linuxfoundation.org/hubfs/LF%20Logo%20White.svg\"> </a>",
+        "afterModification": "<a href=\"/?hsLang=en\" aria-label=\"Linux Foundation\"> <img src=\"https://www.linuxfoundation.org/hubfs/LF%20Logo%20White.svg\" alt=\"Linux Foundation Logo\"> </a>",
+        "rawOutput": "Here's the corrected HTML based on the WCAG 2.1 violation description:\n\n- Corrected HTML: <a href=\"/?hsLang=en\" aria-label=\"Linux Foundation\"> <img src=\"https://www.linuxfoundation.org/hubfs/LF%20Logo%20White.svg\" alt=\"Linux Foundation Logo\"> </a>\n\nExplanation:\n1. Added the `aria-label` attribute to the `<a>` element to provide accessible text for screen readers.\n2. Added the `alt` attribute to the `<img>` element to provide alternative text describing the image.\n\nThese changes ensure that the link has accessible text for screen readers and the image has an alternative text description, making it compliant with the WCAG 2.1 guidelines."
+      },
+      {
+        "beforeModification": "<a href=\"https://\" rel=\"noopener\"></a>",
+        "afterModification": "<a href=\"https://\" rel=\"noopener\" aria-label=\"External link\"></a>",
+        "rawOutput": "Here's the corrected HTML based on the WCAG 2.1 violation description:\n\n- Incorrect HTML: <a href=\"https://\" rel=\"noopener\"></a>\n- Corrected HTML: <a href=\"https://\" rel=\"noopener\" aria-label=\"External link\"></a>\n\nExplanation:\nThe original HTML anchor tag (<a>) lacks accessible text, which is a violation of WCAG 2.1. To fix this, you can add the `aria-label` attribute to provide a text alternative for screen readers. In this case, since the link appears to be an external link (based on the `rel=\"noopener\"` attribute), I added `aria-label=\"External link\"` to describe the purpose of the link.\n\nAlternatively, you could also use the `title` attribute to provide accessible text:\n\n- Corrected HTML: <a href=\"https://\" rel=\"noopener\" title=\"External link\"></a>\n\nBoth the `aria-label` and `title` attributes provide a way to include text that is visible to screen readers, making the link more accessible to users who rely on assistive technologies."
+      },
+      {
+        "beforeModification": "<a class=\"project__image\" href=\"https://www.cncf.io/\" target=\"_blank\" title=\"\"> <img src=\"https://www.linuxfoundation.org/hubfs/cncf-color-3.png\"> </a>",
+        "afterModification": "<a class=\"project__image\" href=\"https://www.cncf.io/\" target=\"_blank\" title=\"Cloud Native Computing Foundation\"> <img src=\"https://www.linuxfoundation.org/hubfs/cncf-color-3.png\" alt=\"CNCF logo\"> </a>",
+        "rawOutput": "Here's the corrected HTML based on the WCAG 2.1 violation description:\n\n- Corrected HTML: <a class=\"project__image\" href=\"https://www.cncf.io/\" target=\"_blank\" title=\"Cloud Native Computing Foundation\"> <img src=\"https://www.linuxfoundation.org/hubfs/cncf-color-3.png\" alt=\"CNCF logo\"> </a>\n\nExplanation:\n1. The empty `title` attribute has been filled with a descriptive text \"Cloud Native Computing Foundation\" to provide additional information about the link.\n2. The `alt` attribute has been added to the `<img>` element with a descriptive text \"CNCF logo\" to provide alternative text for the image.\n\nThese changes ensure that the link and the image have accessible text for screen readers and meet the WCAG 2.1 guidelines."
+      },
+      {
+        "beforeModification": "<a class=\"project__image\" href=\"https://www.kernel.org/\" target=\"_blank\" title=\"\"> <img src=\"https://www.linuxfoundation.org/hubfs/Tux-flat-version.png\"> </a>",
+        "afterModification": "<a class=\"project__image\" href=\"https://www.kernel.org/\" target=\"_blank\" title=\"Linux Kernel\"> <img src=\"https://www.linuxfoundation.org/hubfs/Tux-flat-version.png\" alt=\"Linux Kernel Logo\"> </a>",
+        "rawOutput": "Here's the corrected HTML based on the WCAG 2.1 violation description and the provided example:\n\n- Corrected HTML: <a class=\"project__image\" href=\"https://www.kernel.org/\" target=\"_blank\" title=\"Linux Kernel\"> <img src=\"https://www.linuxfoundation.org/hubfs/Tux-flat-version.png\" alt=\"Linux Kernel Logo\"> </a>\n\nExplanation:\n1. The `title` attribute was empty in the incorrect HTML. It has been updated with a descriptive text \"Linux Kernel\" to provide additional information about the link.\n2. The `img` element was missing the `alt` attribute. An appropriate alternative text \"Linux Kernel Logo\" has been added to describe the image for screen readers and in case the image fails to load.\n\nThese changes ensure that the link and the image within it are accessible to screen readers and comply with the WCAG 2.1 guidelines."
+      },
+      {
+        "beforeModification": "<a class=\"project__image\" href=\"https://openssf.org/?hsLang=en\" target=\"_blank\" title=\"\"> <img src=\"https://www.linuxfoundation.org/hubfs/openssf-horizontal-color.png\"> </a>",
+        "afterModification": "<a class=\"project__image\" href=\"https://openssf.org/?hsLang=en\" target=\"_blank\" title=\"Open SSF\"> <img src=\"https://www.linuxfoundation.org/hubfs/openssf-horizontal-color.png\" alt=\"Open SSF logo\"> </a>",
+        "rawOutput": "Here's the corrected HTML based on the WCAG 2.1 violation description:\n\n- Corrected HTML: <a class=\"project__image\" href=\"https://openssf.org/?hsLang=en\" target=\"_blank\" title=\"Open SSF\"> <img src=\"https://www.linuxfoundation.org/hubfs/openssf-horizontal-color.png\" alt=\"Open SSF logo\"> </a>\n\nExplanation:\n1. The empty `title` attribute has been filled with a descriptive text \"Open SSF\" to provide additional information about the link.\n2. The `alt` attribute has been added to the `<img>` element with a description of the image \"Open SSF logo\" to make it accessible to screen readers.\n\nThese changes ensure that the link has accessible text visible to screen readers and provides a meaningful description of the linked content."
+      },
+      {
+        "beforeModification": "<a class=\"project__image\" href=\"https://finos.org/?hsLang=en\" target=\"_blank\" title=\"\"> <img src=\"https://www.linuxfoundation.org/hubfs/finos-horizontal-color%201.png\"> </a>",
+        "afterModification": "<a class=\"project__image\" href=\"https://finos.org/?hsLang=en\" target=\"_blank\" title=\"FINOS (Fintech Open Source Foundation)\"> <img src=\"https://www.linuxfoundation.org/hubfs/finos-horizontal-color%201.png\" alt=\"FINOS logo\"> </a>",
+        "rawOutput": "Here's the corrected HTML based on the WCAG 2.1 violation description:\n\n- Corrected HTML: <a class=\"project__image\" href=\"https://finos.org/?hsLang=en\" target=\"_blank\" title=\"FINOS (Fintech Open Source Foundation)\"> <img src=\"https://www.linuxfoundation.org/hubfs/finos-horizontal-color%201.png\" alt=\"FINOS logo\"> </a>\n\nExplanation:\n1. The empty `title` attribute has been filled with a descriptive text, \"FINOS (Fintech Open Source Foundation)\", to provide additional information about the link.\n2. The `alt` attribute has been added to the `<img>` element with a value of \"FINOS logo\" to provide alternative text for the image, making it accessible to screen readers.\n\nThese changes ensure that the link and the image within it have accessible text, addressing the WCAG 2.1 violations mentioned in the description."
+      },
+      {
+        "beforeModification": "<a class=\"project__image\" href=\"https://lfnetworking.org/\" target=\"_blank\" title=\"\"> <img src=\"https://www.linuxfoundation.org/hubfs/lfnetworking-stacked-color%20(1).png\"> </a>",
+        "afterModification": "<a class=\"project__image\" href=\"https://lfnetworking.org/\" target=\"_blank\" title=\"LF Networking\"> <img src=\"https://www.linuxfoundation.org/hubfs/lfnetworking-stacked-color%20(1).png\" alt=\"LF Networking logo\"> </a>",
+        "rawOutput": "Here's the corrected HTML based on the WCAG 2.1 violation description and the provided example:\n\n- Corrected HTML: <a class=\"project__image\" href=\"https://lfnetworking.org/\" target=\"_blank\" title=\"LF Networking\"> <img src=\"https://www.linuxfoundation.org/hubfs/lfnetworking-stacked-color%20(1).png\" alt=\"LF Networking logo\"> </a>\n\nExplanation:\n1. The original HTML had an empty `title` attribute, which violates the WCAG 2.1 guidelines. To fix this, a descriptive title has been added to the `<a>` element: `title=\"LF Networking\"`.\n\n2. The `<img>` element did not have an `alt` attribute, which is required for accessibility. An appropriate alternative text has been added to describe the image: `alt=\"LF Networking logo\"`.\n\nThese changes ensure that the link has accessible text for screen readers and provides a meaningful description of the linked image."
+      },
+      {
+        "beforeModification": "<a class=\"project__image\" href=\"https://openjsf.org/\" target=\"_blank\" title=\"\"> <img src=\"https://www.linuxfoundation.org/hubfs/OpenJS%20Logo.png\"> </a>",
+        "afterModification": "<a class=\"project__image\" href=\"https://openjsf.org/\" target=\"_blank\" title=\"OpenJS Foundation\"> <img src=\"https://www.linuxfoundation.org/hubfs/OpenJS%20Logo.png\" alt=\"OpenJS Foundation Logo\"> </a>",
+        "rawOutput": "Here's the corrected HTML based on the WCAG 2.1 violation description:\n\n- Corrected HTML: <a class=\"project__image\" href=\"https://openjsf.org/\" target=\"_blank\" title=\"OpenJS Foundation\"> <img src=\"https://www.linuxfoundation.org/hubfs/OpenJS%20Logo.png\" alt=\"OpenJS Foundation Logo\"> </a>\n\nExplanation:\n1. The empty `title` attribute has been filled with a descriptive text \"OpenJS Foundation\" to provide additional information about the link.\n2. The `alt` attribute has been added to the `<img>` element with the value \"OpenJS Foundation Logo\" to provide alternative text for the image, making it accessible to screen readers.\n\nThese changes ensure that the link and the image within it have accessible text, meeting the WCAG 2.1 requirements."
+      },
+      {
+        "beforeModification": "<a href=\"https://twitter.com/linuxfoundation\" target=\"_blank\" rel=\"noopener\">",
+        "afterModification": "<a href=\"https://twitter.com/linuxfoundation\" target=\"_blank\" rel=\"noopener\">\n- Corrected HTML: <a href=\"https://twitter.com/linuxfoundation\" target=\"_blank\" rel=\"noopener\" aria-label=\"Linux Foundation on Twitter\">",
+        "rawOutput": "Here's the corrected HTML based on the WCAG 2.1 violation description:\n\n- Incorrect HTML: <a href=\"https://twitter.com/linuxfoundation\" target=\"_blank\" rel=\"noopener\">\n- Corrected HTML: <a href=\"https://twitter.com/linuxfoundation\" target=\"_blank\" rel=\"noopener\" aria-label=\"Linux Foundation on Twitter\">\n\nExplanation:\nTo fix the accessibility issue, I added the `aria-label` attribute to the anchor tag. The `aria-label` provides a descriptive text alternative for the link, which is accessible to screen readers. This ensures that users relying on assistive technologies can understand the purpose of the link even if there is no visible text content inside the anchor tag."
+      },
+      {
+        "beforeModification": "<a href=\"https://www.facebook.com/TheLinuxFoundation\" target=\"_blank\" rel=\"noopener\">",
+        "afterModification": "<a href=\"https://www.facebook.com/TheLinuxFoundation\" target=\"_blank\" rel=\"noopener\" aria-label=\"The Linux Foundation on Facebook\">",
+        "rawOutput": "Here's the corrected HTML based on the WCAG 2.1 violation description and the provided examples:\n\n- Incorrect HTML: <a href=\"https://www.facebook.com/TheLinuxFoundation\" target=\"_blank\" rel=\"noopener\">\n- Corrected HTML: <a href=\"https://www.facebook.com/TheLinuxFoundation\" target=\"_blank\" rel=\"noopener\" aria-label=\"The Linux Foundation on Facebook\">\n\nIn this case, I added the `aria-label` attribute to provide accessible text for the link. The `aria-label` attribute is used to define a string that labels the current element for assistive technology.\n\nAlternatively, you could also use the `title` attribute to provide accessible text, like this:\n\n- Corrected HTML: <a href=\"https://www.facebook.com/TheLinuxFoundation\" target=\"_blank\" rel=\"noopener\" title=\"The Linux Foundation on Facebook\">\n\nBoth the `aria-label` and `title` attributes provide a way to include text that is visible to screen readers, making the link accessible to users who rely on assistive technology."
+      },
+      {
+        "beforeModification": "<a href=\"https://www.youtube.com/user/TheLinuxFoundation\" target=\"_blank\" rel=\"noopener\">",
+        "afterModification": "<a href=\"https://www.youtube.com/user/TheLinuxFoundation\" target=\"_blank\" rel=\"noopener\" title=\"The Linux Foundation YouTube Channel\">",
+        "rawOutput": "Here's the corrected HTML based on the WCAG 2.1 violation description and the provided examples:\n\n- Incorrect HTML: <a href=\"https://www.youtube.com/user/TheLinuxFoundation\" target=\"_blank\" rel=\"noopener\">\n- Corrected HTML: <a href=\"https://www.youtube.com/user/TheLinuxFoundation\" target=\"_blank\" rel=\"noopener\" title=\"The Linux Foundation YouTube Channel\">\n\nExplanation:\nTo fix the accessibility issue, I added the `title` attribute to the anchor tag. The `title` attribute provides a text description of the link's purpose, which is accessible to screen readers and other assistive technologies. In this case, the title \"The Linux Foundation YouTube Channel\" clearly describes the destination of the link."
+      },
+      {
+        "beforeModification": "<a href=\"https://www.linkedin.com/company/208777\" target=\"_blank\" rel=\"noopener\">",
+        "afterModification": "<a href=\"https://www.linkedin.com/company/208777\" target=\"_blank\" rel=\"noopener\" aria-label=\"Visit our LinkedIn company page\">",
+        "rawOutput": "Here's the corrected HTML based on the WCAG 2.1 violation description and the provided examples:\n\n- Incorrect HTML: <a href=\"https://www.linkedin.com/company/208777\" target=\"_blank\" rel=\"noopener\">\n- Corrected HTML: <a href=\"https://www.linkedin.com/company/208777\" target=\"_blank\" rel=\"noopener\" aria-label=\"Visit our LinkedIn company page\">\n\nExplanation:\nTo fix the accessibility issue where the element is in the tab order but does not have accessible text, we added the `aria-label` attribute to the anchor tag. The `aria-label` attribute provides a text alternative that is read by screen readers when the element receives focus.\n\nIn this case, the `aria-label` attribute is set to \"Visit our LinkedIn company page\", which describes the purpose of the link. This ensures that users relying on assistive technologies understand the destination and purpose of the link when navigating through the page."
+      },
+      {
+        "beforeModification": "<a href=\"https://github.com/LF-Engineering\" target=\"_blank\" rel=\"noopener\">",
+        "afterModification": "<a href=\"https://github.com/LF-Engineering\" target=\"_blank\" rel=\"noopener\" aria-label=\"LF Engineering GitHub\">",
+        "rawOutput": "Here's the corrected HTML based on the WCAG 2.1 violation description:\n\n- Incorrect HTML: <a href=\"https://github.com/LF-Engineering\" target=\"_blank\" rel=\"noopener\">\n- Corrected HTML: <a href=\"https://github.com/LF-Engineering\" target=\"_blank\" rel=\"noopener\" aria-label=\"LF Engineering GitHub\">\n\nExplanation:\nTo fix the accessibility issue where the element is in the tab order but does not have accessible text, we added the `aria-label` attribute to provide a text alternative for screen readers. The `aria-label` attribute describes the purpose or content of the link, making it accessible to users relying on assistive technologies."
+      }
+    ]
+  }
+]

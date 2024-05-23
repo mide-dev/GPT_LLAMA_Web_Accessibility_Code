@@ -1,0 +1,29 @@
+[
+  {
+    "analysisDetails": [
+      {
+        "model": "GPT"
+      },
+      {
+        "accessibility_type": "meta-viewport"
+      },
+      {
+        "prompt_technique": "cot"
+      },
+      {
+        "temperature": 0.5
+      }
+    ],
+    "accessbilityTestResult": {
+      "violationBeforeModification": 1,
+      "violationAfterModification": 0
+    },
+    "modelCorrections": [
+      {
+        "beforeModification": "<meta name=\"viewport\" content=\"width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no\">",
+        "afterModification": "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=2.0\">",
+        "rawOutput": "Thought: To comply with WCAG 2.1 and enhance accessibility by allowing mobile users to zoom in on content, I need to remove `user-scalable=no` and adjust the `maximum-scale` value to allow for zooming. It's recommended to set `maximum-scale` at least to 2.0 or remove it along with `user-scalable` to not restrict zooming.\n\nCorrected HTML: `<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=2.0\">`"
+      }
+    ]
+  }
+]

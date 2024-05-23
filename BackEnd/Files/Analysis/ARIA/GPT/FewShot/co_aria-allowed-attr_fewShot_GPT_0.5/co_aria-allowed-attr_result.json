@@ -1,0 +1,39 @@
+[
+  {
+    "analysisDetails": [
+      {
+        "model": "GPT"
+      },
+      {
+        "accessibility_type": "aria-allowed-attr"
+      },
+      {
+        "prompt_technique": "fewShot"
+      },
+      {
+        "temperature": 0.5
+      }
+    ],
+    "accessbilityTestResult": {
+      "violationBeforeModification": 3,
+      "violationAfterModification": 0
+    },
+    "modelCorrections": [
+      {
+        "beforeModification": "<div class=\"hf-provider-1rqnzv6\" data-genesis-element=\"BASE\" aria-orientation=\"horizontal\"><hr class=\"hf-provider-c6fpx3\" data-genesis-element=\"BASE\"></div>",
+        "afterModification": "<div class=\"hf-provider-1rqnzv6\" data-genesis-element=\"BASE\"><hr class=\"hf-provider-c6fpx3\" data-genesis-element=\"BASE\"></div>",
+        "rawOutput": "```html\n<div class=\"hf-provider-1rqnzv6\" data-genesis-element=\"BASE\"><hr class=\"hf-provider-c6fpx3\" data-genesis-element=\"BASE\"></div>\n```"
+      },
+      {
+        "beforeModification": "<div class=\"hf-provider-1rqnzv6\" data-genesis-element=\"BASE\" aria-orientation=\"horizontal\"><hr class=\"hf-provider-c6fpx3\" data-genesis-element=\"BASE\"></div>",
+        "afterModification": "<div class=\"hf-provider-1rqnzv6\" data-genesis-element=\"BASE\"><hr class=\"hf-provider-c6fpx3\" data-genesis-element=\"BASE\"></div>",
+        "rawOutput": "```html\n<div class=\"hf-provider-1rqnzv6\" data-genesis-element=\"BASE\"><hr class=\"hf-provider-c6fpx3\" data-genesis-element=\"BASE\"></div>\n```"
+      },
+      {
+        "beforeModification": "<div class=\"hf-provider-1rqnzv6\" data-genesis-element=\"BASE\" aria-orientation=\"horizontal\"><hr class=\"hf-provider-c6fpx3\" data-genesis-element=\"BASE\"></div>",
+        "afterModification": "<div class=\"hf-provider-1rqnzv6\" data-genesis-element=\"BASE\"><hr class=\"hf-provider-c6fpx3\" data-genesis-element=\"BASE\"></div>",
+        "rawOutput": "```html\n<div class=\"hf-provider-1rqnzv6\" data-genesis-element=\"BASE\"><hr class=\"hf-provider-c6fpx3\" data-genesis-element=\"BASE\"></div>\n```"
+      }
+    ]
+  }
+]

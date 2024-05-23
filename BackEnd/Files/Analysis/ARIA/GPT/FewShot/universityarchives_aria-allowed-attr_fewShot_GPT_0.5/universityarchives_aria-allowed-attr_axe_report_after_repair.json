@@ -1,0 +1,213 @@
+{
+  "testEngine": {
+    "name": "axe-core",
+    "version": "4.8.4"
+  },
+  "testRunner": {
+    "name": "axe"
+  },
+  "testEnvironment": {
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/122.0.0.0 Safari/537.36",
+    "windowWidth": 800,
+    "windowHeight": 600,
+    "orientationAngle": 0,
+    "orientationType": "portrait-primary"
+  },
+  "timestamp": "2024-04-15T18:56:45.340Z",
+  "url": "https://www.universityarchives.com/",
+  "toolOptions": {
+    "runOnly": {
+      "type": "rule",
+      "values": [
+        "aria-allowed-attr"
+      ]
+    },
+    "reporter": "v1"
+  },
+  "inapplicable": [],
+  "passes": [
+    {
+      "id": "aria-allowed-attr",
+      "impact": null,
+      "tags": [
+        "cat.aria",
+        "wcag2a",
+        "wcag412",
+        "EN-301-549",
+        "EN-9.4.1.2"
+      ],
+      "description": "Ensures an element's role supports its ARIA attributes",
+      "help": "Elements must only use supported ARIA attributes",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-allowed-attr?application=axeAPI",
+      "nodes": [
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "aria-allowed-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attributes are used correctly for the defined role"
+            }
+          ],
+          "none": [
+            {
+              "id": "aria-unsupported-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attribute is supported"
+            }
+          ],
+          "impact": null,
+          "html": "<button class=\"screen-reader-button \" data-acsb-sr-only=\"true\" aria-pressed=\"false\">Use Website In a Screen-Reader Mode</button>",
+          "target": [
+            [
+              "access-widget-ui[data-acsb=\"\"]:nth-child(2)",
+              ".screen-reader-button"
+            ]
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "aria-allowed-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attributes are used correctly for the defined role"
+            }
+          ],
+          "none": [
+            {
+              "id": "aria-unsupported-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attribute is supported"
+            }
+          ],
+          "impact": null,
+          "html": "<div class=\"skip-links \" role=\"region\" aria-label=\"Skip Links\" data-acsb=\"skipLinks\"><div><a href=\"#acsbContent\" data-acsb-skip-link=\"content\" class=\"skip-link\">Skip to Content<div class=\"content\" aria-hidden=\"true\"><span class=\"icon\">↵</span>ENTER</div></a></div></div>",
+          "target": [
+            [
+              "access-widget-ui[data-acsb=\"skipLinks\"]",
+              ".skip-links"
+            ]
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "aria-allowed-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attributes are used correctly for the defined role"
+            }
+          ],
+          "none": [
+            {
+              "id": "aria-unsupported-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attribute is supported"
+            }
+          ],
+          "impact": null,
+          "html": "<button part=\"acsb-trigger\" class=\"  container size-small position-x-right position-y-bottom  \" aria-label=\"Open accessiBe: accessibility options, statement and help\" tabindex=\"0\">",
+          "target": [
+            [
+              "access-widget-ui[data-acsb=\"\"]:nth-child(5)",
+              ".size-small"
+            ]
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "aria-allowed-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attributes are used correctly for the defined role"
+            }
+          ],
+          "none": [
+            {
+              "id": "aria-unsupported-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attribute is supported"
+            }
+          ],
+          "impact": null,
+          "html": "<nav class=\"header__menu-items is-flex is-flex-wrap is-justify-center header__dropdown--below-parent\" role=\"navigation\" aria-label=\"main navigation\">",
+          "target": [
+            "nav"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "aria-allowed-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attributes are used correctly for the defined role"
+            }
+          ],
+          "none": [
+            {
+              "id": "aria-unsupported-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attribute is supported"
+            }
+          ],
+          "impact": null,
+          "html": "<div class=\"navbar-item header__item has-dropdown has-dropdown--vertical is-hoverable\" role=\"button\" aria-haspopup=\"true\" aria-expanded=\"false\" data-navlink-handle=\"about\"></div>",
+          "target": [
+            ".has-dropdown--vertical.is-hoverable[aria-haspopup=\"true\"]:nth-child(4)"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "aria-allowed-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attributes are used correctly for the defined role"
+            }
+          ],
+          "none": [
+            {
+              "id": "aria-unsupported-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attribute is supported"
+            }
+          ],
+          "impact": null,
+          "html": "<div class=\"navbar-item header__item has-dropdown has-dropdown--vertical is-hoverable \" role=\"button\" aria-haspopup=\"true\" aria-expanded=\"false\" data-navlink-handle=\"media\"></div>",
+          "target": [
+            ".has-dropdown--vertical.is-hoverable[aria-haspopup=\"true\"]:nth-child(6)"
+          ]
+        }
+      ]
+    }
+  ],
+  "incomplete": [],
+  "violations": []
+}

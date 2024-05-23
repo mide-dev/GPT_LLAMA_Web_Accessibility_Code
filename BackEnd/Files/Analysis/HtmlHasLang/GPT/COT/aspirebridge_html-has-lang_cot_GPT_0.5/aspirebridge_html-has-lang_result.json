@@ -21,8 +21,8 @@
     "modelCorrections": [
       {
         "beforeModification": "<html>",
-        "afterModification": "<html> tag to specify the primary language of the document. This improves accessibility by helping screen readers and other assistive technologies provide the correct language context to users.\n\n- Corrected HTML: <html lang=\"en\">",
-        "rawOutput": "- Thought: To correct the above HTML, I need to add the \"lang\" attribute to the <html> tag to specify the primary language of the document. This improves accessibility by helping screen readers and other assistive technologies provide the correct language context to users.\n\n- Corrected HTML: <html lang=\"en\">"
+        "afterModification": "<html lang=\"en\">",
+        "rawOutput": "- Thought: The extracted text \"ASPIRE is a quarterly magazine\" does not specify the language explicitly, but given the use of English, I need to add the \"lang\" attribute to the `<html>` tag and set its value to \"en\" for English.\n\n- Corrected HTML: <html lang=\"en\">"
       }
     ]
   }

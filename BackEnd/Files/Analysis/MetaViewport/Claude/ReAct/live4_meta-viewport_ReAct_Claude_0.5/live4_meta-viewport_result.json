@@ -1,0 +1,29 @@
+[
+  {
+    "analysisDetails": [
+      {
+        "model": "Claude"
+      },
+      {
+        "accessibility_type": "meta-viewport"
+      },
+      {
+        "prompt_technique": "ReAct"
+      },
+      {
+        "temperature": 0.5
+      }
+    ],
+    "accessbilityTestResult": {
+      "violationBeforeModification": 1,
+      "violationAfterModification": 0
+    },
+    "modelCorrections": [
+      {
+        "beforeModification": "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1, user-scalable=no, maximum-scale=1\">",
+        "afterModification": "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1, user-scalable=no, maximum-scale=1\">\n- Observation: The meta element above has user-scalable set to no which disables zooming on mobile devices. It also has a maximum-scale of 1 which restricts zooming.\n- Thought: I need to remove the user-scalable=no property and increase the maximum-scale to at least 2.0 to comply with WCAG 2.1.\n- Action: remove[user-scalable=no], replace[maximum-scale=1>maximum-scale=2.0]\n- Corrected HTML: <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=2.0\">",
+        "rawOutput": "- Incorrect HTML: <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, user-scalable=no, maximum-scale=1\">\n- Observation: The meta element above has user-scalable set to no which disables zooming on mobile devices. It also has a maximum-scale of 1 which restricts zooming.\n- Thought: I need to remove the user-scalable=no property and increase the maximum-scale to at least 2.0 to comply with WCAG 2.1.\n- Action: remove[user-scalable=no], replace[maximum-scale=1>maximum-scale=2.0]\n- Corrected HTML: <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=2.0\">"
+      }
+    ]
+  }
+]

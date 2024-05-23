@@ -1,0 +1,29 @@
+[
+  {
+    "analysisDetails": [
+      {
+        "model": "Claude"
+      },
+      {
+        "accessibility_type": "html-has-lang"
+      },
+      {
+        "prompt_technique": "fewShot"
+      },
+      {
+        "temperature": 0.5
+      }
+    ],
+    "accessbilityTestResult": {
+      "violationBeforeModification": 1,
+      "violationAfterModification": 0
+    },
+    "modelCorrections": [
+      {
+        "beforeModification": "<html>",
+        "afterModification": "<html lang=\"en\">",
+        "rawOutput": "Here's the corrected HTML based on the WCAG 2.1 violation description and the provided example:\n\n*Extracted text from website*: \"Manage your poker live sessions\"\n- Incorrect HTML: <html>\n- Corrected HTML: <html lang=\"en\">\n\nExplanation:\nThe <html> element is missing the lang attribute, which specifies the language of the document. Adding the lang attribute with the appropriate language code helps assistive technologies, such as screen readers, to pronounce the content correctly and enables translation tools to detect the language accurately.\n\nIn this case, since the extracted text is in English, the corrected HTML includes the lang attribute with the value \"en\" to indicate that the document is in English."
+      }
+    ]
+  }
+]

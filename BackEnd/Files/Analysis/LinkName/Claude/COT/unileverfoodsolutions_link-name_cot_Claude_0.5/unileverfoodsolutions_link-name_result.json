@@ -1,0 +1,64 @@
+[
+  {
+    "analysisDetails": [
+      {
+        "model": "Claude"
+      },
+      {
+        "accessibility_type": "link-name"
+      },
+      {
+        "prompt_technique": "cot"
+      },
+      {
+        "temperature": 0.5
+      }
+    ],
+    "accessbilityTestResult": {
+      "violationBeforeModification": 8,
+      "violationAfterModification": 1
+    },
+    "modelCorrections": [
+      {
+        "beforeModification": "<a href=\"javascript:;\" class=\"js-close-navigation-promotion navigation-promo-banner__close\" data-event-type=\"Promotion click\" data-event-title=\"Promotion click\" data-event-link=\"navigation-promotion\">\n                        <div class=\"icn-close\"></div>\n                </a>",
+        "afterModification": "<a href=\"javascript:;\" class=\"js-close-navigation-promotion navigation-promo-banner__close\" data-event-type=\"Promotion click\" data-event-title=\"Promotion click\" data-event-link=\"navigation-promotion\" aria-label=\"Close navigation promotion\">\n  <div class=\"icn-close\"></div>\n</a>",
+        "rawOutput": "- Thought: I need to correct the above HTML by adding an aria-label attribute to the link. Since the link doesn't have any visible text, I can use the class names and the icon to provide context for the aria-label content.\n\n- Corrected HTML:\n<a href=\"javascript:;\" class=\"js-close-navigation-promotion navigation-promo-banner__close\" data-event-type=\"Promotion click\" data-event-title=\"Promotion click\" data-event-link=\"navigation-promotion\" aria-label=\"Close navigation promotion\">\n  <div class=\"icn-close\"></div>\n</a>"
+      },
+      {
+        "beforeModification": "<a href=\"javascript:;\" title=\"\" class=\"js-add-to-cart\" data-at=\"section-mini cart button\">\n        \n        <span class=\"icn-cart hide-mobile\"></span>\n        <span class=\"cart-badge js-cart-badge hide-mobile hidden\">0</span>\n    </a>",
+        "afterModification": "<a href=\"javascript:;\" title=\"Add to cart\" class=\"js-add-to-cart\" data-at=\"section-mini cart button\">\n    <span class=\"icn-cart hide-mobile\"></span>\n    <span class=\"cart-badge js-cart-badge hide-mobile hidden\">0</span>\n</a>",
+        "rawOutput": "- Thought: I need to correct the above HTML by adding meaningful text to the title attribute of the link. Since the link appears to be related to adding an item to a cart based on its class \"js-add-to-cart\", I can set the title content to reflect this action.\n\n- Corrected HTML:\n<a href=\"javascript:;\" title=\"Add to cart\" class=\"js-add-to-cart\" data-at=\"section-mini cart button\">\n    <span class=\"icn-cart hide-mobile\"></span>\n    <span class=\"cart-badge js-cart-badge hide-mobile hidden\">0</span>\n</a>"
+      },
+      {
+        "beforeModification": "<a href=\"javascript:;\" title=\"\"><span class=\"icon icon-close\"></span></a>",
+        "afterModification": "<a href=\"javascript:;\" title=\"Close\"><span class=\"icon icon-close\"></span></a>",
+        "rawOutput": "- Incorrect HTML: <a href=\"javascript:;\" title=\"\"><span class=\"icon icon-close\"></span></a>\n\n- Thought: The link has an empty title attribute, which does not provide accessible text for screen readers. Since the link contains an icon with the class \"icon-close\", I can infer that the link's purpose is to close something. I'll add appropriate text to the title attribute to describe the link's functionality.\n\n- Corrected HTML: <a href=\"javascript:;\" title=\"Close\"><span class=\"icon icon-close\"></span></a>\n\nBy adding a descriptive title attribute to the link, screen readers will now be able to convey the purpose of the link to users, making it more accessible."
+      },
+      {
+        "beforeModification": "<a href=\"/nos-plus-belles-marques/knorr-professional/knorr-gammefondsbrunslies-nouvellerecette.html\" data-event-type=\"Article Click\" data-event-name=\"Promotion - Fonds Bruns Liés : Nouvelles recettes !  - /nos-plus-belles-marques/knorr-professional/knorr-gammefondsbrunslies-nouvellerecette.html\">",
+        "afterModification": "<a href=\"/nos-plus-belles-marques/knorr-professional/knorr-gammefondsbrunslies-nouvellerecette.html\" data-event-type=\"Article Click\" data-event-name=\"Promotion - Fonds Bruns Liés : Nouvelles recettes !  - /nos-plus-belles-marques/knorr-professional/knorr-gammefondsbrunslies-nouvellerecette.html\">",
+        "rawOutput": "Here's the corrected HTML based on the WCAG 2.1 violation description and the provided example:\n\n- Incorrect HTML: <a href=\"/nos-plus-belles-marques/knorr-professional/knorr-gammefondsbrunslies-nouvellerecette.html\" data-event-type=\"Article Click\" data-event-name=\"Promotion - Fonds Bruns Liés : Nouvelles recettes !  - /nos-plus-belles-marques/knorr-professional/knorr-gammefondsbrunslies-nouvellerecette.html\">\n\n- Thought: I need to correct the above HTML by adding a title attribute to the link. Since the data-event-name attribute contains a descriptive text, I can use that as the title content.\n\n- Corrected HTML: <a href=\"/nos-plus-belles-marques/knorr-professional/knorr-gammefondsbrunslies-nouvellerecette.html\" data-event-type=\"Article Click\" data-event-name=\"Promotion - Fonds Bruns Liés : Nouvelles recettes !  - /nos-plus-belles-marques/knorr-professional/knorr-gammefondsbrunslies-nou"
+      },
+      {
+        "beforeModification": "<a href=\"/rapport-des-tendances-menus-2024.html\" data-event-type=\"Article Click\" data-event-name=\"Promotion - NOUVEAU : Rapport Future Menus 2024 !  - /rapport-des-tendances-menus-2024.html\">",
+        "afterModification": "<a href=\"/rapport-des-tendances-menus-2024.html\" title=\"Rapport Des Tendances Menus 2024\" data-event-type=\"Article Click\" data-event-name=\"Promotion - NOUVEAU : Rapport Future Menus 2024 !  - /rapport-des-tendances-menus-2024.html\">",
+        "rawOutput": "- Thought: I need to correct the above HTML by adding a title attribute to the link. Since the \"href\" is a relative URL pointing to an HTML file, I can use the file name (removing the extension) to set the title content, capitalizing the first letter of each word for better readability.\n\n- Corrected HTML: <a href=\"/rapport-des-tendances-menus-2024.html\" title=\"Rapport Des Tendances Menus 2024\" data-event-type=\"Article Click\" data-event-name=\"Promotion - NOUVEAU : Rapport Future Menus 2024 !  - /rapport-des-tendances-menus-2024.html\">"
+      },
+      {
+        "beforeModification": "<a href=\"/nos-plus-belles-marques/knorr-professional/knorr-cuisinedumonde.html\" class=\"item-list__image--oblong\" data-event-type=\"Article Click\" data-event-name=\"Chef Inspiration - Article: \">",
+        "afterModification": "<a href=\"/nos-plus-belles-marques/knorr-professional/knorr-cuisinedumonde.html\" class=\"item-list__image--oblong\" title=\"Knorr Cuisine du Monde\" data-event-type=\"Article Click\" data-event-name=\"Chef Inspiration - Article: \">",
+        "rawOutput": "- Thought: I need to correct the above HTML by adding a title attribute to the link. Since the \"href\" is a relative URL, I can use the last part of the URL path, \"knorr-cuisinedumonde.html\", to infer the context and set an appropriate title.\n\n- Corrected HTML: <a href=\"/nos-plus-belles-marques/knorr-professional/knorr-cuisinedumonde.html\" class=\"item-list__image--oblong\" title=\"Knorr Cuisine du Monde\" data-event-type=\"Article Click\" data-event-name=\"Chef Inspiration - Article: \">"
+      },
+      {
+        "beforeModification": "<a href=\"/nos-plus-belles-marques/knorr-professional/knorr-cuisinedumonde.html\" class=\"item-list__image--square\" data-event-type=\"Article Click\" data-event-name=\"Chef Inspiration - Article: \">",
+        "afterModification": "<a href=\"/nos-plus-belles-marques/knorr-professional/knorr-cuisinedumonde.html\" class=\"item-list__image--square\" data-event-type=\"Article Click\" data-event-name=\"Chef Inspiration - Article: \" title=\"Knorr Cuisine du Monde\">",
+        "rawOutput": "- Thought: I need to correct the above HTML by adding a title attribute to the link. Since the \"href\" is a relative URL, I can use the text after the last slash in the URL to set the title content. In this case, \"knorr-cuisinedumonde.html\" suggests the link is about \"Knorr Cuisine du Monde\".\n\n- Corrected HTML: <a href=\"/nos-plus-belles-marques/knorr-professional/knorr-cuisinedumonde.html\" class=\"item-list__image--square\" data-event-type=\"Article Click\" data-event-name=\"Chef Inspiration - Article: \" title=\"Knorr Cuisine du Monde\">"
+      },
+      {
+        "beforeModification": "<a href=\"/nos-plus-belles-marques/knorr-professional/knorr-cuisinedumonde.html\" data-event-type=\"Article Click\" data-event-name=\"Chef Inspiration - Article: \">\n            <span class=\"item-list__title js-inspiration-add-class span-8\"></span>\n            \n        </a>",
+        "afterModification": "<a href=\"/nos-plus-belles-marques/knorr-professional/knorr-cuisinedumonde.html\" data-event-type=\"Article Click\" data-event-name=\"Chef Inspiration - Article: \" aria-label=\"Item List Title\">\n    <span class=\"item-list__title js-inspiration-add-class span-8\"></span>\n</a>",
+        "rawOutput": "- Thought: I need to correct the above HTML by adding an aria-label attribute to the link. Since the link contains a span element with a class of \"item-list__title\", I can use that as a hint to set the aria-label content to something like \"Item List Title\".\n\n- Corrected HTML:\n<a href=\"/nos-plus-belles-marques/knorr-professional/knorr-cuisinedumonde.html\" data-event-type=\"Article Click\" data-event-name=\"Chef Inspiration - Article: \" aria-label=\"Item List Title\">\n    <span class=\"item-list__title js-inspiration-add-class span-8\"></span>\n</a>"
+      }
+    ]
+  }
+]

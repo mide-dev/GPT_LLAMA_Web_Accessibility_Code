@@ -1,0 +1,29 @@
+[
+  {
+    "analysisDetails": [
+      {
+        "model": "Claude"
+      },
+      {
+        "accessibility_type": "html-has-lang"
+      },
+      {
+        "prompt_technique": "ReAct"
+      },
+      {
+        "temperature": 0.5
+      }
+    ],
+    "accessbilityTestResult": {
+      "violationBeforeModification": 1,
+      "violationAfterModification": 0
+    },
+    "modelCorrections": [
+      {
+        "beforeModification": "<html>",
+        "afterModification": "<html lang=\"en\">",
+        "rawOutput": "*Extracted text from website*: \"Behat is an open source\"\n- Incorrect HTML: <html>\n- Thought: The <html> element is missing the \"lang\" attribute, which is a violation of WCAG 2.1. I need to add the \"lang\" attribute and assign the appropriate language to it.\n- Observation: The extracted text from the website is in English, indicating that the site's content is in English.\n- Action: Add [lang=\"en\"] to the <html> element.\n- Corrected HTML: <html lang=\"en\">"
+      }
+    ]
+  }
+]

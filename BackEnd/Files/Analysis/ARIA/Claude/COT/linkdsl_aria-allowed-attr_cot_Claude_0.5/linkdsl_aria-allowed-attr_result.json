@@ -1,0 +1,39 @@
+[
+  {
+    "analysisDetails": [
+      {
+        "model": "Claude"
+      },
+      {
+        "accessibility_type": "aria-allowed-attr"
+      },
+      {
+        "prompt_technique": "cot"
+      },
+      {
+        "temperature": 0.5
+      }
+    ],
+    "accessbilityTestResult": {
+      "violationBeforeModification": 3,
+      "violationAfterModification": 1
+    },
+    "modelCorrections": [
+      {
+        "beforeModification": "<label aria-controls=\"collapseOne\" aria-expanded=\"true\" class=\"radio\" data-target=\"#offerbox-main-buy-now-details\" data-toggle=\"collapse\">",
+        "afterModification": "<label aria-controls=\"collapseOne\" class=\"radio\" data-target=\"#offerbox-main-buy-now-details\" data-toggle=\"collapse\">",
+        "rawOutput": "- Thought: The `<label>` element is not allowed to have the `aria-expanded` attribute according to the WCAG 2.1 guidelines. The `aria-expanded` attribute is typically used on elements that can expand or collapse content, such as buttons or interactive elements. In this case, the `<label>` element should not have interactive behavior, so the `aria-expanded` attribute should be removed.\n\n- Corrected HTML:\n<label aria-controls=\"collapseOne\" class=\"radio\" data-target=\"#offerbox-main-buy-now-details\" data-toggle=\"collapse\">"
+      },
+      {
+        "beforeModification": "<label aria-controls=\"leaseCalculator\" aria-expanded=\"false\" class=\"radio\" data-target=\"#offerbox-main-lease-calculator\" data-toggle=\"collapse\">",
+        "afterModification": "<button aria-controls=\"leaseCalculator\" aria-expanded=\"false\" class=\"radio\" data-target=\"#offerbox-main-lease-calculator\" data-toggle=\"collapse\">\n  <label>\n    <!-- label content goes here -->\n  </label>\n</button>",
+        "rawOutput": "- Thought: The `<label>` element is not an interactive element that can be expanded or collapsed, so the `aria-expanded` attribute is not allowed on it. The `aria-expanded` attribute is typically used on elements like buttons or links that control the visibility of a related section. In this case, it seems that the `<label>` is being used to toggle the visibility of an element with the ID \"offerbox-main-lease-calculator\". To fix this, we should remove the `aria-expanded` attribute from the `<label>` and use a more appropriate element, such as a `<button>`, to control the visibility of the related section.\n\n- Corrected HTML:\n<button aria-controls=\"leaseCalculator\" aria-expanded=\"false\" class=\"radio\" data-target=\"#offerbox-main-lease-calculator\" data-toggle=\"collapse\">\n  <label>\n    <!-- label content goes here -->\n  </label>\n</button>\n\nIn the corrected HTML, we have:\n1. Replaced the `<label>` element with a `<button>` element.\n2. Moved the `aria-controls`, `aria-expanded`, `class`, `data-target`, and `data-toggle` attributes to the `<button>` element.\n3. Placed the `<label>` element inside the"
+      },
+      {
+        "beforeModification": "<label aria-controls=\"makeOfferDetails\" aria-expanded=\"false\" class=\"radio\" data-target=\"#offerbox-main-make-offer-details\" data-toggle=\"collapse\">",
+        "afterModification": "<label for=\"makeOfferDetails\" class=\"radio\" data-target=\"#offerbox-main-make-offer-details\" data-toggle=\"collapse\">",
+        "rawOutput": "Here's the corrected HTML based on the WCAG 2.1 violation description:\n\n- Incorrect HTML: <label aria-controls=\"makeOfferDetails\" aria-expanded=\"false\" class=\"radio\" data-target=\"#offerbox-main-make-offer-details\" data-toggle=\"collapse\">\n\n- Thought: The <label> element is not an interactive element that can be expanded or collapsed. The aria-expanded attribute is typically used on elements like buttons or links that control the visibility of associated content. In this case, the aria-expanded attribute should be removed from the <label> element. If the desired functionality is to control the visibility of the associated content, it should be implemented using appropriate JavaScript and ARIA attributes on the controlling element.\n\n- Corrected HTML: <label for=\"makeOfferDetails\" class=\"radio\" data-target=\"#offerbox-main-make-offer-details\" data-toggle=\"collapse\">\n\nIn the corrected HTML:\n- The aria-expanded attribute has been removed from the <label> element since it is not allowed on this element.\n- The aria-controls attribute has been changed to the for attribute, which is the correct way to associate a label with its corresponding form control.\n- The data-target and data-toggle attributes can be used in conjunction with JavaScript to control the visibility of the associated content, but they are not directly related to"
+      }
+    ]
+  }
+]

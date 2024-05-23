@@ -1,0 +1,29 @@
+[
+  {
+    "analysisDetails": [
+      {
+        "model": "Claude"
+      },
+      {
+        "accessibility_type": "html-has-lang"
+      },
+      {
+        "prompt_technique": "cot"
+      },
+      {
+        "temperature": 0.5
+      }
+    ],
+    "accessbilityTestResult": {
+      "violationBeforeModification": 1,
+      "violationAfterModification": 0
+    },
+    "modelCorrections": [
+      {
+        "beforeModification": "<html lang=\"\">",
+        "afterModification": "<html lang=\"zh\">",
+        "rawOutput": "Here's the corrected HTML based on the WCAG 2.1 violation description and the provided example:\n\n*Extracted text from website*: \"登录机构账号\"\n- Incorrect HTML: <html lang=\"\">\n- Thought: I need to correct the above HTML by assigning the appropriate language code to the \"lang\" attribute using the \"Extracted text from website\" for language context. The text \"登录机构账号\" is in Chinese, so the language code should be \"zh\" for Chinese.\n- Corrected HTML: <html lang=\"zh\">"
+      }
+    ]
+  }
+]

@@ -13,7 +13,7 @@
     "orientationAngle": 0,
     "orientationType": "portrait-primary"
   },
-  "timestamp": "2024-04-11T23:53:12.232Z",
+  "timestamp": "2024-04-15T23:09:33.625Z",
   "url": "https://www.bakupages.com/",
   "toolOptions": {
     "runOnly": {
@@ -56,7 +56,7 @@
           "all": [],
           "none": [],
           "impact": null,
-          "html": "<html lang=\"en\">",
+          "html": "<html lang=\"ru\">",
           "target": [
             "html"
           ]

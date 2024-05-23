@@ -1,0 +1,29 @@
+[
+  {
+    "analysisDetails": [
+      {
+        "model": "Claude"
+      },
+      {
+        "accessibility_type": "html-has-lang"
+      },
+      {
+        "prompt_technique": "fewShot"
+      },
+      {
+        "temperature": 0.5
+      }
+    ],
+    "accessbilityTestResult": {
+      "violationBeforeModification": 1,
+      "violationAfterModification": 0
+    },
+    "modelCorrections": [
+      {
+        "beforeModification": "<html>",
+        "afterModification": "<html lang=\"en\">",
+        "rawOutput": "Here's the corrected HTML based on the WCAG 2.1 violation description and the example provided:\n\n*Extracted text from website*: \"Welcome to the website of\"\n- Incorrect HTML: <html>\n- Corrected HTML: <html lang=\"en\">\n\nExplanation:\nThe <html> element should have a lang attribute to specify the language of the document. This helps assistive technologies, such as screen readers, to interpret and pronounce the content correctly. In this case, assuming the content is in English, the corrected HTML includes the lang attribute with the value \"en\" to indicate that the document is in English."
+      }
+    ]
+  }
+]

@@ -1,0 +1,29 @@
+[
+  {
+    "analysisDetails": [
+      {
+        "model": "Claude"
+      },
+      {
+        "accessibility_type": "meta-viewport"
+      },
+      {
+        "prompt_technique": "cot"
+      },
+      {
+        "temperature": 0.5
+      }
+    ],
+    "accessbilityTestResult": {
+      "violationBeforeModification": 1,
+      "violationAfterModification": 0
+    },
+    "modelCorrections": [
+      {
+        "beforeModification": "<meta content=\"width=device-width, initial-scale=1, maximum-scale=1\" name=\"viewport\">",
+        "afterModification": "<meta content=\"width=device-width, initial-scale=1, maximum-scale=1\" name=\"viewport\">\n- Thought: According to WCAG 2.1, the maximum-scale value should be at least 2.0 to allow users to zoom in on the content. I need to change the maximum-scale value to 2.0 or higher to ensure accessibility compliance.\n- Corrected HTML: <meta content=\"width=device-width, initial-scale=1, maximum-scale=5\" name=\"viewport\">",
+        "rawOutput": "- Incorrect HTML: <meta content=\"width=device-width, initial-scale=1, maximum-scale=1\" name=\"viewport\">\n- Thought: According to WCAG 2.1, the maximum-scale value should be at least 2.0 to allow users to zoom in on the content. I need to change the maximum-scale value to 2.0 or higher to ensure accessibility compliance.\n- Corrected HTML: <meta content=\"width=device-width, initial-scale=1, maximum-scale=5\" name=\"viewport\">"
+      }
+    ]
+  }
+]

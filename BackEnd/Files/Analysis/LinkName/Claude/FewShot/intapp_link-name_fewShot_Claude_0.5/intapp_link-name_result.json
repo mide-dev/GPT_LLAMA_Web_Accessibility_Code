@@ -1,0 +1,64 @@
+[
+  {
+    "analysisDetails": [
+      {
+        "model": "Claude"
+      },
+      {
+        "accessibility_type": "link-name"
+      },
+      {
+        "prompt_technique": "fewShot"
+      },
+      {
+        "temperature": 0.5
+      }
+    ],
+    "accessbilityTestResult": {
+      "violationBeforeModification": 8,
+      "violationAfterModification": 0
+    },
+    "modelCorrections": [
+      {
+        "beforeModification": "<a href=\"https://www.intapp.com/firms/armstrong-watson/\" id=\"firms_armstrong-watson\">",
+        "afterModification": "<a href=\"https://www.intapp.com/firms/armstrong-watson/\" id=\"firms_armstrong-watson\" aria-label=\"Armstrong Watson\">\n\nTo fix the accessibility issue, I added the `aria-label` attribute with the value \"Armstrong Watson\". This provides an accessible name for the link element, making it perceivable to screen readers and other assistive technologies.\n\nAlternatively, you could also use the `title` attribute to provide an accessible name:\n\n- Corrected HTML: <a href=\"https://www.intapp.com/firms/armstrong-watson/\" id=\"firms_armstrong-watson\" title=\"Armstrong Watson\">",
+        "rawOutput": "Based on the WCAG 2.1 violation description and the provided examples, here's the corrected HTML:\n\n- Corrected HTML: <a href=\"https://www.intapp.com/firms/armstrong-watson/\" id=\"firms_armstrong-watson\" aria-label=\"Armstrong Watson\">\n\nTo fix the accessibility issue, I added the `aria-label` attribute with the value \"Armstrong Watson\". This provides an accessible name for the link element, making it perceivable to screen readers and other assistive technologies.\n\nAlternatively, you could also use the `title` attribute to provide an accessible name:\n\n- Corrected HTML: <a href=\"https://www.intapp.com/firms/armstrong-watson/\" id=\"firms_armstrong-watson\" title=\"Armstrong Watson\">\n\nEither the `aria-label` or `title` attribute can be used to provide an accessible name for the link, ensuring that it is properly conveyed to users relying on assistive technologies."
+      },
+      {
+        "beforeModification": "<a href=\"https://www.intapp.com/firms/seyfarth-shaw/\" id=\"firms_seyfarth-shaw\">",
+        "afterModification": "<a href=\"https://www.intapp.com/firms/seyfarth-shaw/\" id=\"firms_seyfarth-shaw\">\n- Corrected HTML: <a href=\"https://www.intapp.com/firms/seyfarth-shaw/\" id=\"firms_seyfarth-shaw\" title=\"Seyfarth Shaw\">",
+        "rawOutput": "Here's the corrected HTML based on the WCAG 2.1 violation description and the provided examples:\n\n- Incorrect HTML: <a href=\"https://www.intapp.com/firms/seyfarth-shaw/\" id=\"firms_seyfarth-shaw\">\n- Corrected HTML: <a href=\"https://www.intapp.com/firms/seyfarth-shaw/\" id=\"firms_seyfarth-shaw\" title=\"Seyfarth Shaw\">\n\nExplanation:\nTo fix the accessibility issue, a `title` attribute has been added to the anchor tag. The `title` attribute provides accessible text for screen readers and assistive technologies when the link itself doesn't contain any visible text.\n\nIn this case, the `title` attribute is set to \"Seyfarth Shaw\", which describes the purpose or destination of the link. This ensures that users relying on assistive technologies can understand the purpose of the link even if there is no visible text within the anchor tag.\n\nBy adding the `title` attribute, the link becomes accessible and complies with the WCAG 2.1 guidelines."
+      },
+      {
+        "beforeModification": "<a href=\"https://www.intapp.com/firms/rsm/\" id=\"firms_rsm\">",
+        "afterModification": "<a href=\"https://www.intapp.com/firms/rsm/\" id=\"firms_rsm\">\n- Corrected HTML: <a href=\"https://www.intapp.com/firms/rsm/\" id=\"firms_rsm\" title=\"RSM\">",
+        "rawOutput": "Here's the corrected HTML based on the WCAG 2.1 violation description and the provided examples:\n\n- Incorrect HTML: <a href=\"https://www.intapp.com/firms/rsm/\" id=\"firms_rsm\">\n- Corrected HTML: <a href=\"https://www.intapp.com/firms/rsm/\" id=\"firms_rsm\" title=\"RSM\">\n\nTo fix the accessibility issue, I added the `title` attribute to the anchor tag with a descriptive text \"RSM\". This provides accessible text for screen readers and improves the overall accessibility of the link."
+      },
+      {
+        "beforeModification": "<a href=\"https://www.intapp.com/firms/perkins-coie/\" id=\"firms_perkins-coie\">",
+        "afterModification": "<a href=\"https://www.intapp.com/firms/perkins-coie/\" id=\"firms_perkins-coie\">\n- Corrected HTML: <a href=\"https://www.intapp.com/firms/perkins-coie/\" id=\"firms_perkins-coie\" title=\"Perkins Coie\">",
+        "rawOutput": "Based on the WCAG 2.1 violation description and the examples provided, here's the corrected HTML:\n\n- Incorrect HTML: <a href=\"https://www.intapp.com/firms/perkins-coie/\" id=\"firms_perkins-coie\">\n- Corrected HTML: <a href=\"https://www.intapp.com/firms/perkins-coie/\" id=\"firms_perkins-coie\" title=\"Perkins Coie\">\n\nThe corrected HTML adds a title attribute to the anchor tag, providing accessible text for screen readers and improving the overall accessibility of the link."
+      },
+      {
+        "beforeModification": "<a href=\"https://www.intapp.com/firms/stephens/\" id=\"firms_stephens\">",
+        "afterModification": "<a href=\"https://www.intapp.com/firms/stephens/\" id=\"firms_stephens\">\n- Corrected HTML: <a href=\"https://www.intapp.com/firms/stephens/\" id=\"firms_stephens\" title=\"Stephens\">",
+        "rawOutput": "Here's the corrected HTML based on the WCAG 2.1 violation description and the provided examples:\n\n- Incorrect HTML: <a href=\"https://www.intapp.com/firms/stephens/\" id=\"firms_stephens\">\n- Corrected HTML: <a href=\"https://www.intapp.com/firms/stephens/\" id=\"firms_stephens\" title=\"Stephens\">\n\nExplanation:\nTo fix the accessibility issue, I added the `title` attribute to the anchor tag with a descriptive text \"Stephens\". This provides accessible text for screen readers and improves the overall accessibility of the link."
+      },
+      {
+        "beforeModification": "<a href=\"https://www.intapp.com/firms/osler/\" id=\"firms_osler\">",
+        "afterModification": "<a href=\"https://www.intapp.com/firms/osler/\" id=\"firms_osler\">\n- Corrected HTML: <a href=\"https://www.intapp.com/firms/osler/\" id=\"firms_osler\" aria-label=\"Osler\">\n\nTo fix the accessibility issue, I added the `aria-label` attribute with a descriptive text \"Osler\". This provides an accessible name for the anchor tag, making it perceivable to screen readers and other assistive technologies.\n\nAlternatively, you could use the `title` attribute instead of `aria-label`:\n\n- Corrected HTML: <a href=\"https://www.intapp.com/firms/osler/\" id=\"firms_osler\" title=\"Osler\">",
+        "rawOutput": "Based on the WCAG 2.1 violation description and the provided examples, here's the corrected HTML for the given anchor tag:\n\n- Incorrect HTML: <a href=\"https://www.intapp.com/firms/osler/\" id=\"firms_osler\">\n- Corrected HTML: <a href=\"https://www.intapp.com/firms/osler/\" id=\"firms_osler\" aria-label=\"Osler\">\n\nTo fix the accessibility issue, I added the `aria-label` attribute with a descriptive text \"Osler\". This provides an accessible name for the anchor tag, making it perceivable to screen readers and other assistive technologies.\n\nAlternatively, you could use the `title` attribute instead of `aria-label`:\n\n- Corrected HTML: <a href=\"https://www.intapp.com/firms/osler/\" id=\"firms_osler\" title=\"Osler\">\n\nBoth `aria-label` and `title` attributes provide accessible text for the anchor tag, addressing the WCAG 2.1 violation."
+      },
+      {
+        "beforeModification": "<a href=\"https://www.intapp.com/firms/loeb-loeb/\" id=\"firms_loeb-loeb\">",
+        "afterModification": "<a href=\"https://www.intapp.com/firms/loeb-loeb/\" id=\"firms_loeb-loeb\">\n- Corrected HTML: <a href=\"https://www.intapp.com/firms/loeb-loeb/\" id=\"firms_loeb-loeb\" title=\"Loeb & Loeb\">",
+        "rawOutput": "Here's the corrected HTML based on the WCAG 2.1 violation description and the provided examples:\n\n- Incorrect HTML: <a href=\"https://www.intapp.com/firms/loeb-loeb/\" id=\"firms_loeb-loeb\">\n- Corrected HTML: <a href=\"https://www.intapp.com/firms/loeb-loeb/\" id=\"firms_loeb-loeb\" title=\"Loeb & Loeb\">\n\nExplanation:\nThe original HTML anchor tag lacks accessible text, which is a violation of WCAG 2.1. To fix this, I added a `title` attribute to the anchor tag with the text \"Loeb & Loeb\". This provides a descriptive text for screen readers and improves the accessibility of the link."
+      },
+      {
+        "beforeModification": "<a href=\"https://www.intapp.com/firms/the-riverside-company/\" id=\"firms_the-riverside-company\">",
+        "afterModification": "<a href=\"https://www.intapp.com/firms/the-riverside-company/\" id=\"firms_the-riverside-company\">\n\nCorrected HTML:\n<a href=\"https://www.intapp.com/firms/the-riverside-company/\" id=\"firms_the-riverside-company\" title=\"The Riverside Company\">\n\nExplanation:\nTo fix the accessibility issue, we added the `title` attribute to the anchor tag (`<a>",
+        "rawOutput": "Based on the WCAG 2.1 violation description and the provided examples, here's the corrected HTML for the given incorrect HTML:\n\nIncorrect HTML:\n<a href=\"https://www.intapp.com/firms/the-riverside-company/\" id=\"firms_the-riverside-company\">\n\nCorrected HTML:\n<a href=\"https://www.intapp.com/firms/the-riverside-company/\" id=\"firms_the-riverside-company\" title=\"The Riverside Company\">\n\nExplanation:\nTo fix the accessibility issue, we added the `title` attribute to the anchor tag (`<a>`). The `title` attribute provides a text alternative for the link, making it accessible to screen readers and other assistive technologies. In this case, the title \"The Riverside Company\" describes the purpose or destination of the link.\n\nBy adding the `title` attribute, we ensure that the link has accessible text, even if there is no visible text content within the anchor tag itself."
+      }
+    ]
+  }
+]

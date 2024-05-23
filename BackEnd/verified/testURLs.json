@@ -1,0 +1,19 @@
+{
+  "aria-required-attr": {
+    "total": 3,
+    "urls": [
+      "https://www.pricecheck.co.za/",
+      "https://www.safarinow.com/",
+      "https://menara.ma/"
+    ]
+  },
+  "aria-allowed-attr": {
+    "total": 4,
+    "urls": [
+      "https://www.egyptair.com/en/pages/homepage.aspx",
+      "https://www.pnet.co.za/",
+      "https://www.clickatell.com/",
+      "https://linkdsl.com/"
+    ]
+  }
+}

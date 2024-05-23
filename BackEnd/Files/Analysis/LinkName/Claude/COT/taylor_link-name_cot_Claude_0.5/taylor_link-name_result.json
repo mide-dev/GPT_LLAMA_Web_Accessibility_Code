@@ -1,0 +1,54 @@
+[
+  {
+    "analysisDetails": [
+      {
+        "model": "Claude"
+      },
+      {
+        "accessibility_type": "link-name"
+      },
+      {
+        "prompt_technique": "cot"
+      },
+      {
+        "temperature": 0.5
+      }
+    ],
+    "accessbilityTestResult": {
+      "violationBeforeModification": 6,
+      "violationAfterModification": 0
+    },
+    "modelCorrections": [
+      {
+        "beforeModification": "<a href=\"https://www.linkedin.com/company/taylorcorporation/\"><i class=\"fa-brands fa-linkedin\" aria-hidden=\"true\"></i></a>",
+        "afterModification": "<a href=\"https://www.linkedin.com/company/taylorcorporation/\" aria-label=\"Visit Taylor Corporation's LinkedIn page\"><i class=\"fa-brands fa-linkedin\" aria-hidden=\"true\"></i></a>",
+        "rawOutput": "- Thought: I need to correct the above HTML by adding an aria-label attribute to the link. Since the link contains an icon without any visible text, I can describe the purpose of the link in the aria-label.\n\n- Corrected HTML: <a href=\"https://www.linkedin.com/company/taylorcorporation/\" aria-label=\"Visit Taylor Corporation's LinkedIn page\"><i class=\"fa-brands fa-linkedin\" aria-hidden=\"true\"></i></a>"
+      },
+      {
+        "beforeModification": "<a href=\"https://www.youtube.com/@TaylorCorporation\"><i class=\"fa-brands fa-youtube\" aria-hidden=\"true\"></i></a>",
+        "afterModification": "<a href=\"https://www.youtube.com/@TaylorCorporation\" aria-label=\"Taylor Corporation YouTube Channel\"><i class=\"fa-brands fa-youtube\" aria-hidden=\"true\"></i></a>",
+        "rawOutput": "- Thought: I need to correct the above HTML by adding an aria-label attribute to the link. Since the link contains an icon, I can use the icon's context to set the aria-label content. In this case, the icon is for YouTube, and the link is to the Taylor Corporation YouTube channel.\n\n- Corrected HTML: <a href=\"https://www.youtube.com/@TaylorCorporation\" aria-label=\"Taylor Corporation YouTube Channel\"><i class=\"fa-brands fa-youtube\" aria-hidden=\"true\"></i></a>"
+      },
+      {
+        "beforeModification": "<a href=\"https://www.instagram.com/taylorcorporation\"><i class=\"fa-brands fa-instagram\" aria-hidden=\"true\"></i></a>",
+        "afterModification": "<a href=\"https://www.instagram.com/taylorcorporation\" aria-label=\"Taylor Corporation Instagram\"><i class=\"fa-brands fa-instagram\" aria-hidden=\"true\"></i></a>",
+        "rawOutput": "- Thought: I need to correct the above HTML by adding an aria-label attribute to the link. Since the link contains an icon without any visible text, I can use the \"href\" URL to provide context for the aria-label content.\n- Corrected HTML: <a href=\"https://www.instagram.com/taylorcorporation\" aria-label=\"Taylor Corporation Instagram\"><i class=\"fa-brands fa-instagram\" aria-hidden=\"true\"></i></a>"
+      },
+      {
+        "beforeModification": "<a href=\"https://www.facebook.com/TaylorCorp\"><i class=\"fa-brands fa-facebook\" aria-hidden=\"true\"></i></a>",
+        "afterModification": "<a href=\"https://www.facebook.com/TaylorCorp\" aria-label=\"Visit Taylor Corporation's Facebook page\"><i class=\"fa-brands fa-facebook\" aria-hidden=\"true\"></i></a>",
+        "rawOutput": "- Thought: The link is missing accessible text. I can add an aria-label attribute to provide a description of the link's purpose, which will be read by screen readers.\n\n- Corrected HTML: <a href=\"https://www.facebook.com/TaylorCorp\" aria-label=\"Visit Taylor Corporation's Facebook page\"><i class=\"fa-brands fa-facebook\" aria-hidden=\"true\"></i></a>"
+      },
+      {
+        "beforeModification": "<a href=\"https://www.tiktok.com/@taylorcorporation\"><i class=\"fa-brands fa-tiktok\" aria-hidden=\"true\"></i></a>",
+        "afterModification": "<a href=\"https://www.tiktok.com/@taylorcorporation\" aria-label=\"Taylor Corporation TikTok\"><i class=\"fa-brands fa-tiktok\" aria-hidden=\"true\"></i></a>",
+        "rawOutput": "- Thought: I need to correct the above HTML by adding an aria-label attribute to the link. Since the link contains an icon without any visible text, I can use the \"href\" URL to provide context for the aria-label content.\n\n- Corrected HTML: <a href=\"https://www.tiktok.com/@taylorcorporation\" aria-label=\"Taylor Corporation TikTok\"><i class=\"fa-brands fa-tiktok\" aria-hidden=\"true\"></i></a>"
+      },
+      {
+        "beforeModification": "<a href=\"https://twitter.com/TaylorCorp\"><i class=\"fa-brands fa-square-x-twitter\" aria-hidden=\"true\"></i></a>",
+        "afterModification": "<a href=\"https://twitter.com/TaylorCorp\" aria-label=\"TaylorCorp Twitter Profile\"><i class=\"fa-brands fa-square-x-twitter\" aria-hidden=\"true\"></i></a>",
+        "rawOutput": "- Thought: The link is missing accessible text. Since the link points to a Twitter profile, I can use the profile name \"TaylorCorp\" to set the aria-label attribute and provide context for screen readers.\n\n- Corrected HTML: <a href=\"https://twitter.com/TaylorCorp\" aria-label=\"TaylorCorp Twitter Profile\"><i class=\"fa-brands fa-square-x-twitter\" aria-hidden=\"true\"></i></a>"
+      }
+    ]
+  }
+]

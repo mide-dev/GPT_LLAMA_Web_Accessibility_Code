@@ -1,0 +1,29 @@
+[
+  {
+    "analysisDetails": [
+      {
+        "model": "Claude"
+      },
+      {
+        "accessibility_type": "html-has-lang"
+      },
+      {
+        "prompt_technique": "cot"
+      },
+      {
+        "temperature": 0.5
+      }
+    ],
+    "accessbilityTestResult": {
+      "violationBeforeModification": 1,
+      "violationAfterModification": 1
+    },
+    "modelCorrections": [
+      {
+        "beforeModification": "<html><head></head><body></body></html>",
+        "afterModification": "<html lang=\"en\">\n<head></head>\n<body></body>\n</html>",
+        "rawOutput": "*Extracted text from website*: \"\"\n- Incorrect HTML: <html><head></head><body></body></html>\n- Thought: The provided HTML is missing the \"lang\" attribute on the <html> tag. Since no text was extracted from the website to determine the language, I will assume the content is in English and add lang=\"en\" to the <html> tag to specify the language and improve accessibility.\n- Corrected HTML:\n<html lang=\"en\">\n<head></head>\n<body></body>\n</html>"
+      }
+    ]
+  }
+]

@@ -1,0 +1,29 @@
+[
+  {
+    "analysisDetails": [
+      {
+        "model": "GPT"
+      },
+      {
+        "accessibility_type": "aria-required-attr"
+      },
+      {
+        "prompt_technique": "cot"
+      },
+      {
+        "temperature": 0.5
+      }
+    ],
+    "accessbilityTestResult": {
+      "violationBeforeModification": 1,
+      "violationAfterModification": 0
+    },
+    "modelCorrections": [
+      {
+        "beforeModification": "<input type=\"text\" name=\"SearchFilterFilterSearchTerm\" id=\"SearchFilterFilterSearchTerm\" autocomplete=\"off\" aria-invalid=\"false\" class=\"hero-search-listing Typeahead tt-input\" onfocus=\"if (!window.__cfRLUnblockHandlers) return false; this.placeholder =''\" placeholder=\"Where would you like to go?\" maxlength=\"30\" spellcheck=\"false\" dir=\"auto\" aria-activedescendant=\"\" aria-owns=\"SearchFilterFilterSearchTerm_listbox\" role=\"combobox\" aria-readonly=\"true\" aria-autocomplete=\"list\" style=\"position: relative; vertical-align: top; background-color: rgba(0, 0, 0, 0);\">",
+        "afterModification": "<input type=\"text\" name=\"SearchFilterFilterSearchTerm\" id=\"SearchFilterFilterSearchTerm\" autocomplete=\"off\" aria-invalid=\"false\" class=\"hero-search-listing Typeahead tt-input\" onfocus=\"if (!window.__cfRLUnblockHandlers) return false; this.placeholder =''\" placeholder=\"Where would you like to go?\" maxlength=\"30\" spellcheck=\"false\" dir=\"auto\" aria-activedescendant=\"\" aria-owns=\"SearchFilterFilterSearchTerm_listbox\" aria-controls=\"SearchFilterFilterSearchTerm_listbox\" role=\"combobox\" aria-readonly=\"true\" aria-autocomplete=\"list\" aria-expanded=\"false\" style=\"position: relative; vertical-align: top; background-color: rgba(0, 0, 0, 0);\">",
+        "rawOutput": "To address the WCAG 2.1 violation described, we need to ensure that the `input` element with the role of \"combobox\" has the required ARIA attributes `aria-expanded` and `aria-controls` present. These attributes are necessary to convey the state and relationship of the combobox to assistive technologies.\n\n- **Incorrect HTML**: `<input type=\"text\" name=\"SearchFilterFilterSearchTerm\" id=\"SearchFilterFilterSearchTerm\" autocomplete=\"off\" aria-invalid=\"false\" class=\"hero-search-listing Typeahead tt-input\" onfocus=\"if (!window.__cfRLUnblockHandlers) return false; this.placeholder =''\" placeholder=\"Where would you like to go?\" maxlength=\"30\" spellcheck=\"false\" dir=\"auto\" aria-activedescendant=\"\" aria-owns=\"SearchFilterFilterSearchTerm_listbox\" role=\"combobox\" aria-readonly=\"true\" aria-autocomplete=\"list\" style=\"position: relative; vertical-align: top; background-color: rgba(0, 0, 0, 0);\">`\n\n- **Thought**: Since the element is a combobox, it's essential to indicate whether the listbox associated with the combobox is currently visible (expanded or collapsed) using `aria-expanded`. Additionally, the `aria-controls` attribute should be used to reference the ID of the listbox that this combobox controls, ensuring the relationship between the combobox and the listbox is clear. In this example, the `aria-owns` attribute is already specifying the ID of the listbox (`SearchFilterFilterSearchTerm_listbox`), which suggests the listbox being controlled. Therefore, we should ensure `aria-expanded` is added to indicate the visibility state of the listbox, and `aria-controls` should match the ID referenced in `aria-owns`.\n\n- **Corrected HTML**: `<input type=\"text\" name=\"SearchFilterFilterSearchTerm\" id=\"SearchFilterFilterSearchTerm\" autocomplete=\"off\" aria-invalid=\"false\" class=\"hero-search-listing Typeahead tt-input\" onfocus=\"if (!window.__cfRLUnblockHandlers) return false; this.placeholder =''\" placeholder=\"Where would you like to go?\" maxlength=\"30\" spellcheck=\"false\" dir=\"auto\" aria-activedescendant=\"\" aria-owns=\"SearchFilterFilterSearchTerm_listbox\" aria-controls=\"SearchFilterFilterSearchTerm_listbox\" role=\"combobox\" aria-readonly=\"true\" aria-autocomplete=\"list\" aria-expanded=\"false\" style=\"position: relative; vertical-align: top; background-color: rgba(0, 0, 0, 0);\">`\n\nIn this correction:\n- I added `aria-expanded=\"false\"` to indicate that the listbox is not expanded by default. This attribute should be dynamically updated (to \"true\" or \"false\") with JavaScript based on the user's interaction with the combobox (i"
+      }
+    ]
+  }
+]

@@ -1,0 +1,29 @@
+[
+  {
+    "analysisDetails": [
+      {
+        "model": "Claude"
+      },
+      {
+        "accessibility_type": "meta-viewport"
+      },
+      {
+        "prompt_technique": "fewShot"
+      },
+      {
+        "temperature": 0.5
+      }
+    ],
+    "accessbilityTestResult": {
+      "violationBeforeModification": 1,
+      "violationAfterModification": 0
+    },
+    "modelCorrections": [
+      {
+        "beforeModification": "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1.2\">",
+        "afterModification": "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n\nExplanation:\nThe `maximum-scale` parameter in the `<meta>",
+        "rawOutput": "Here's the corrected HTML based on the WCAG 2.1 violation description:\n\n- Corrected HTML: <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n\nExplanation:\nThe `maximum-scale` parameter in the `<meta>` tag was set to `1.2`, which restricts the zooming capability on mobile devices to a maximum of 120%. To ensure accessibility and allow users to zoom as needed, the `maximum-scale` parameter should be removed entirely.\n\nBy removing the `maximum-scale` parameter, the corrected HTML allows for unrestricted zooming on mobile devices, providing a more accessible experience for users who may require zooming functionality."
+      }
+    ]
+  }
+]

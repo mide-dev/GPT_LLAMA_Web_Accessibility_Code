@@ -10,7 +10,7 @@ const {
 } = require("./Operations/operations");
 const { generateAccessibilityPrompt } = require("./LLM/prompt");
 const { promptGPT } = require("./LLM/GPT");
-const { promptLlama } = require("./LLM/Llama");
+const { promptClaude } = require("./LLM/Claude");
 
 /**
  * Performs an accessibility analysis on a web page and attempts to correct violations
@@ -36,6 +36,22 @@ async function runAnalysis(
   const browser = await puppeteer.launch();
   const page = await browser.newPage(); // Open a new page in the browser
   await page.goto(url); // Navigate to the specified URL
+
+  const textContent = await page.evaluate(() => {
+    // List of tags typically containing significant text content
+    const textTags = ["p", "div", "h1", "h2", "h3", "h4", "h5", "h6", "li"];
+    for (let tag of textTags) {
+      const element = document.querySelector(tag);
+      if (element && element.textContent.trim().length > 0) {
+        let words = element.textContent.trim().split(/\s+/);
+        if (words.length > 5) {
+          words = words.slice(0, 5);
+        }
+        return words.join(" ");
+      }
+    }
+    return "";
+  });
 
   // Run Axe-core analysis to check for accessibility violations before making any modifications
   const axeResultsBeforeModification = await runAxeCoreAnalysis(
@@ -86,6 +102,7 @@ async function runAnalysis(
 
         // Generate a solution using GPT based on the provided prompt technique and temperature
         let solution;
+        const extractedText = textContent;
 
         if (model === "GPT") {
           solution = await promptGPT(
@@ -93,17 +110,19 @@ async function runAnalysis(
               accessibility_type,
               node.html,
               node.failureSummary,
-              prompt_technique
+              prompt_technique,
+              extractedText
             ),
             temperature
           );
-        } else if (model === "Llama") {
-          solution = await promptLlama(
+        } else if (model === "Claude") {
+          solution = await promptClaude(
             generateAccessibilityPrompt(
               accessibility_type,
               node.html,
               node.failureSummary,
-              prompt_technique
+              prompt_technique,
+              extractedText
             ),
             temperature
           );

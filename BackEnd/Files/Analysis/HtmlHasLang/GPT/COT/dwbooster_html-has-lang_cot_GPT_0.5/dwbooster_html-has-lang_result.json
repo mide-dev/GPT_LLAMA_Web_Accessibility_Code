@@ -1,0 +1,29 @@
+[
+  {
+    "analysisDetails": [
+      {
+        "model": "GPT"
+      },
+      {
+        "accessibility_type": "html-has-lang"
+      },
+      {
+        "prompt_technique": "cot"
+      },
+      {
+        "temperature": 0.5
+      }
+    ],
+    "accessbilityTestResult": {
+      "violationBeforeModification": 1,
+      "violationAfterModification": 0
+    },
+    "modelCorrections": [
+      {
+        "beforeModification": "<html xmlns=\"http://www.w3.org/1999/xhtml\">",
+        "afterModification": "<html lang=\"en\" xmlns=\"http://www.w3.org/1999/xhtml\">",
+        "rawOutput": "- Thought: I need to add the \"lang\" attribute to the <html> element to improve accessibility by specifying the primary language of the document. The extracted text \"All categories\" does not provide a clear indication of the language used, but it's written in English. So, I will use \"en\" as the value for the \"lang\" attribute.\n\n- Corrected HTML: <html lang=\"en\" xmlns=\"http://www.w3.org/1999/xhtml\">"
+      }
+    ]
+  }
+]

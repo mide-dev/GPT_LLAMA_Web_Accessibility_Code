@@ -1,0 +1,94 @@
+[
+  {
+    "analysisDetails": [
+      {
+        "model": "Claude"
+      },
+      {
+        "accessibility_type": "color-contrast"
+      },
+      {
+        "prompt_technique": "fewShot"
+      },
+      {
+        "temperature": 0.5
+      }
+    ],
+    "accessbilityTestResult": {
+      "violationBeforeModification": 14,
+      "violationAfterModification": 8
+    },
+    "modelCorrections": [
+      {
+        "beforeModification": "<a id=\"slider-51-slide-46-layer-80\" class=\"rs-layer rs-layer-static\" href=\"#Default\" target=\"_self\" rel=\"nofollow\" data-type=\"text\" data-rsp_ch=\"on\" data-xy=\"x:l,l,c,c;xo:631px,573px,222px,152px;y:b;yo:35px,50px,98px,92px;\" data-text=\"w:normal;s:20,18,16,12;l:25,20,15,9;a:center;\" data-dim=\"w:100px,80px,76px,65px;\" data-basealign=\"slide\" data-onslides=\"s:1;\" data-frame_999=\"o:0;st:w;\" style=\"z-index: 21; font-family: Roboto; height: auto; color: rgb(255, 255, 255); text-decoration: none; white-space: normal; width: 63px; min-height: 0px; min-width: 0px; max-height: none; max-width: none; text-align: center; line-height: 16px; letter-spacing: 0px; font-weight: 600; font-size: 14px; backdrop-filter: none; filter: none; transform-origin: 50% 50%; opacity: 1; transform: translate(0px, 0px); visibility: visible;\" data-startslide=\"1\" data-endslide=\"5\" data-idcheck=\"true\" data-stylerecorder=\"true\" data-initialised=\"true\">",
+        "afterModification": "",
+        "rawOutput": "Here's the corrected HTML based on the WCAG 2.1 violation description:\n\n- Corrected HTML:\n<a id=\"slider-51-slide-46-layer-80\" class=\"rs-layer rs-layer-static\" href=\"#Default\" target=\"_self\" rel=\"nofollow\" data-type=\"text\" data-rsp_ch=\"on\" data-xy=\"x:l,l,c,c;xo:631px,573px,222px,152px;y:b;yo:35px,50px,98px,92px;\" data-text=\"w:normal;s:20,18,16,12;l:25,20,15,9;a:center;\" data-dim=\"w:100px,80px,76px,65px;\" data-basealign=\"slide\" data-onslides=\"s:1;\" data-frame_999=\"o:0;st:w;\" style=\"z-index: 21; font-family: Roboto; height: auto; color: rgb(0, 0, 0); background-color: #ffffff; text-decoration: none; white-space: normal; width: 63px; min-height: 0px; min-width: 0px; max-height: none; max-width: none; text"
+      },
+      {
+        "beforeModification": "<a id=\"slider-51-slide-46-layer-81\" class=\"rs-layer rs-layer-static\" href=\"#book-a-demo\" target=\"_self\" rel=\"nofollow\" data-type=\"text\" data-rsp_ch=\"on\" data-xy=\"x:l,l,c,c;xo:386px,349px,0,0;y:b;yo:35px,50px,98px,92px;\" data-text=\"w:normal;s:20,18,16,12;l:25,20,15,9;a:center;\" data-dim=\"w:100px,80px,62px,37px;\" data-basealign=\"slide\" data-onslides=\"s:1;\" data-frame_999=\"o:0;st:w;\" style=\"z-index: 20; font-family: Roboto; height: auto; color: rgb(255, 255, 255); text-decoration: none; white-space: normal; width: 63px; min-height: 0px; min-width: 0px; max-height: none; max-width: none; text-align: center; line-height: 16px; letter-spacing: 0px; font-weight: 600; font-size: 14px; backdrop-filter: none; filter: none; transform-origin: 50% 50%; opacity: 1; transform: translate(0px, 0px); visibility: visible;\" data-startslide=\"1\" data-endslide=\"5\" data-idcheck=\"true\" data-stylerecorder=\"true\" data-initialised=\"true\">",
+        "afterModification": "",
+        "rawOutput": "Here's the corrected HTML based on the WCAG 2.1 violation description:\n\n- Corrected HTML:\n<a id=\"slider-51-slide-46-layer-81\" class=\"rs-layer rs-layer-static\" href=\"#book-a-demo\" target=\"_self\" rel=\"nofollow\" data-type=\"text\" data-rsp_ch=\"on\" data-xy=\"x:l,l,c,c;xo:386px,349px,0,0;y:b;yo:35px,50px,98px,92px;\" data-text=\"w:normal;s:20,18,16,12;l:25,20,15,9;a:center;\" data-dim=\"w:100px,80px,62px,37px;\" data-basealign=\"slide\" data-onslides=\"s:1;\" data-frame_999=\"o:0;st:w;\" style=\"z-index: 20; font-family: Roboto; height: auto; color: rgb(0, 0, 0); background-color: #ffffff; text-decoration: none; white-space: normal; width: 63px; min-height: 0px; min-width: 0px; max-height: none; max-width: none"
+      },
+      {
+        "beforeModification": "<a id=\"slider-51-slide-46-layer-84\" class=\"rs-layer rs-layer-static\" href=\"#get-a-quote\" target=\"_self\" rel=\"nofollow\" data-type=\"text\" data-rsp_ch=\"on\" data-xy=\"x:l,l,c,c;xo:143px,141px,-243px,-162px;y:b;yo:35px,50px,98px,92px;\" data-text=\"w:normal;s:20,18,16,12;l:25,20,15,9;a:center;\" data-dim=\"w:100px,80px,62px,37px;\" data-basealign=\"slide\" data-onslides=\"s:1;\" data-frame_999=\"o:0;st:w;\" style=\"z-index: 19; font-family: Roboto; height: auto; color: rgb(255, 255, 255); text-decoration: none; white-space: normal; width: 63px; min-height: 0px; min-width: 0px; max-height: none; max-width: none; text-align: center; line-height: 16px; letter-spacing: 0px; font-weight: 600; font-size: 14px; backdrop-filter: none; filter: none; transform-origin: 50% 50%; opacity: 1; transform: translate(0px, 0px); visibility: visible;\" data-startslide=\"1\" data-endslide=\"5\" data-idcheck=\"true\" data-stylerecorder=\"true\" data-initialised=\"true\">",
+        "afterModification": "",
+        "rawOutput": "- Corrected HTML:\n<a id=\"slider-51-slide-46-layer-84\" class=\"rs-layer rs-layer-static\" href=\"#get-a-quote\" target=\"_self\" rel=\"nofollow\" data-type=\"text\" data-rsp_ch=\"on\" data-xy=\"x:l,l,c,c;xo:143px,141px,-243px,-162px;y:b;yo:35px,50px,98px,92px;\" data-text=\"w:normal;s:20,18,16,12;l:25,20,15,9;a:center;\" data-dim=\"w:100px,80px,62px,37px;\" data-basealign=\"slide\" data-onslides=\"s:1;\" data-frame_999=\"o:0;st:w;\" style=\"z-index: 19; font-family: Roboto; height: auto; color: rgb(0, 0, 0); background-color: #ffffff; text-decoration: none; white-space: normal; width: 63px; min-height: 0px; min-width: 0px; max-height: none; max-width: none; text-align: center; line-height: 16px; letter-spacing:"
+      },
+      {
+        "beforeModification": "<span style=\"color: #1e73be;\">Welcome, how close are you to the Edge?</span>",
+        "afterModification": "<span style=\"color: #1c71bc;\">Welcome, how close are you to the Edge?</span>",
+        "rawOutput": "Here's the corrected HTML based on the WCAG 2.1 violation description:\n\n- Corrected HTML: <span style=\"color: #1c71bc;\">Welcome, how close are you to the Edge?</span>\n\nExplanation:\nTo fix the insufficient color contrast issue, I slightly adjusted the foreground color from #1e73be to #1c71bc. This change increases the contrast ratio between the foreground color and the background color to meet the minimum requirement of 4.5:1 for accessibility.\n\nThe foreground color #1c71bc is a slightly darker shade of blue compared to the original color #1e73be. This subtle change improves the readability of the text against the background color #f2f2f2, making it more accessible for users with visual impairments or color vision deficiencies.\n\nBy making this adjustment, the HTML code complies with the WCAG 2.1 guidelines and ensures better accessibility for a wider range of users."
+      },
+      {
+        "beforeModification": "<span style=\"color: #1e73be;\">Industries Optimizing the Edge</span>",
+        "afterModification": "<span style=\"color: #1c71bc;\">Industries Optimizing the Edge</span>",
+        "rawOutput": "Here's the corrected HTML based on the WCAG 2.1 violation description:\n\n- Corrected HTML: <span style=\"color: #1c71bc;\">Industries Optimizing the Edge</span>\n\nTo improve the color contrast and meet the expected contrast ratio of 4.5:1, I slightly adjusted the foreground color from #1e73be to #1c71bc. This darker shade of blue provides sufficient contrast against the light background color of #dbf3ff, making the text more readable for users with visual impairments."
+      },
+      {
+        "beforeModification": "<h4>PARTNERS</h4>",
+        "afterModification": "<h4 style=\"color: #ffd38a;\">PARTNERS</h4>",
+        "rawOutput": "Here's the corrected HTML based on the WCAG 2.1 violation description:\n\n- Corrected HTML: <h4 style=\"color: #ffd38a;\">PARTNERS</h4>\n\nTo improve the color contrast and meet the expected contrast ratio of 4.5:1, I changed the foreground color of the <h4> element from #fcb034 to #ffd38a. This lighter shade of orange provides better contrast against the background color #54585a."
+      },
+      {
+        "beforeModification": "<h4>TOPICS</h4>",
+        "afterModification": "<h4 style=\"color: #ffd38a;\">TOPICS</h4>",
+        "rawOutput": "Here's the corrected HTML based on the WCAG 2.1 violation description:\n\n- Corrected HTML: <h4 style=\"color: #ffd38a;\">TOPICS</h4>\n\nExplanation:\nTo improve the color contrast and meet the expected contrast ratio of 4.5:1, I modified the foreground color of the <h4> element. I changed the color from #fcb034 to #ffd38a, which is a lighter shade of the original color. This adjustment should provide sufficient contrast against the background color #54585a for better readability and accessibility."
+      },
+      {
+        "beforeModification": "<h4>QUICK LINKS</h4>",
+        "afterModification": "<h4 style=\"color: #ffd38a;\">QUICK LINKS</h4>",
+        "rawOutput": "Here's the corrected HTML based on the WCAG 2.1 violation description:\n\n- Corrected HTML: <h4 style=\"color: #ffd38a;\">QUICK LINKS</h4>\n\nTo improve the color contrast and meet the expected contrast ratio of 4.5:1, I changed the foreground color (text color) from #fcb034 to #ffd38a. This lighter shade of the original color provides sufficient contrast against the background color #54585a for the given font size and weight."
+      },
+      {
+        "beforeModification": "<div class=\"footer-copyright\"><b>5 Mill &amp; Main Place, Suite 500. Maynard, MA 01754, USA<span class=\"footer-phone\">Tel#: +1 978-461-7000</span></b><br>© 2024 Stratus Technologies. All Rights Reserved.</div>",
+        "afterModification": "<div class=\"footer-copyright\" style=\"color: #000000;\"><b>5 Mill &amp; Main Place, Suite 500. Maynard, MA 01754, USA<span class=\"footer-phone\">Tel#: +1 978-461-7000</span></b><br>© 2024 Stratus Technologies. All Rights Reserved.</div>",
+        "rawOutput": "Here's the corrected HTML based on the WCAG 2.1 violation description:\n\n- Corrected HTML:\n<div class=\"footer-copyright\" style=\"color: #000000;\"><b>5 Mill &amp; Main Place, Suite 500. Maynard, MA 01754, USA<span class=\"footer-phone\">Tel#: +1 978-461-7000</span></b><br>© 2024 Stratus Technologies. All Rights Reserved.</div>\n\nExplanation:\nTo fix the insufficient color contrast issue, I added an inline style attribute to the <div> element, setting the text color to #000000 (black). This ensures that the foreground color has sufficient contrast against the background color of #898d8d, meeting the expected contrast ratio of 4.5:1 for the given font size and weight."
+      },
+      {
+        "beforeModification": "<b>5 Mill &amp; Main Place, Suite 500. Maynard, MA 01754, USA<span class=\"footer-phone\">Tel#: +1 978-461-7000</span></b>",
+        "afterModification": "<b style=\"color: #000000;\">5 Mill &amp; Main Place, Suite 500. Maynard, MA 01754, USA<span class=\"footer-phone\">Tel#: +1 978-461-7000</span></b>",
+        "rawOutput": "Here's the corrected HTML based on the WCAG 2.1 violation description:\n\n- Corrected HTML: <b style=\"color: #000000;\">5 Mill &amp; Main Place, Suite 500. Maynard, MA 01754, USA<span class=\"footer-phone\">Tel#: +1 978-461-7000</span></b>\n\nExplanation:\nTo fix the insufficient color contrast issue, I changed the foreground color of the text from #ffffff (white) to #000000 (black). This ensures that the text has sufficient contrast against the background color #898d8d, meeting the expected contrast ratio of 4.5:1 for accessibility purposes."
+      },
+      {
+        "beforeModification": "<span class=\"footer-phone\">Tel#: +1 978-461-7000</span>",
+        "afterModification": "<span class=\"footer-phone\" style=\"color: #000000;\">Tel#: +1 978-461-7000</span>",
+        "rawOutput": "Here's the corrected HTML based on the WCAG 2.1 violation description:\n\n- Corrected HTML: <span class=\"footer-phone\" style=\"color: #000000;\">Tel#: +1 978-461-7000</span>\n\nTo fix the insufficient color contrast issue, I changed the foreground color (text color) to #000000 (black) while keeping the background color the same. This ensures that the contrast ratio between the text and the background meets the minimum requirement of 4.5:1 for accessibility purposes."
+      },
+      {
+        "beforeModification": "<a href=\"/about/company-information/privacy-policy/\" style=\"font-size:10px\">Privacy Policy</a>",
+        "afterModification": "<a href=\"/about/company-information/privacy-policy/\" style=\"font-size:10px; color: #000000;\">Privacy Policy</a>",
+        "rawOutput": "Here's the corrected HTML based on the WCAG 2.1 violation description:\n\n- Corrected HTML: <a href=\"/about/company-information/privacy-policy/\" style=\"font-size:10px; color: #000000;\">Privacy Policy</a>\n\nTo improve the color contrast ratio to meet the expected 4.5:1, I changed the foreground color (text color) from #ffffff (white) to #000000 (black). This should provide sufficient contrast against the background color #898d8d."
+      },
+      {
+        "beforeModification": "<a href=\"/services-support/customer-support/service-terms-and-conditions/\" style=\"padding: 0px 10px;font-size:10px\">Service Terms</a>",
+        "afterModification": "<a href=\"/services-support/customer-support/service-terms-and-conditions/\" style=\"padding: 0px 10px; font-size: 10px; color: #000000;\">Service Terms</a>",
+        "rawOutput": "Here's the corrected HTML based on the WCAG 2.1 violation description:\n\n- Corrected HTML: <a href=\"/services-support/customer-support/service-terms-and-conditions/\" style=\"padding: 0px 10px; font-size: 10px; color: #000000;\">Service Terms</a>\n\nExplanation:\nTo improve the color contrast and meet the expected contrast ratio of 4.5:1, I changed the foreground color (text color) from #ffffff (white) to #000000 (black). This ensures that the text is more readable against the background color of #898d8d."
+      },
+      {
+        "beforeModification": "<a href=\"/about/company-information/do-not-sell-or-share-information/\" style=\"font-size:10px\" target=\"_blank\"> Do Not Sell or Share My Personal Information</a>",
+        "afterModification": "<a href=\"/about/company-information/do-not-sell-or-share-information/\" style=\"font-size:10px; color: #000000;\" target=\"_blank\"> Do Not Sell or Share My Personal Information</a>",
+        "rawOutput": "Here's the corrected HTML based on the WCAG 2.1 violation description:\n\n- Corrected HTML: <a href=\"/about/company-information/do-not-sell-or-share-information/\" style=\"font-size:10px; color: #000000;\" target=\"_blank\"> Do Not Sell or Share My Personal Information</a>\n\nExplanation:\nTo fix the insufficient color contrast issue, I changed the foreground color of the link text from #ffffff (white) to #000000 (black). This ensures that the contrast ratio between the text color and the background color (#898d8d) meets the minimum requirement of 4.5:1 for accessibility.\n\nBy modifying the inline CSS to include color: #000000;, the link text will now have sufficient contrast against the background, making it more readable for users with visual impairments."
+      }
+    ]
+  }
+]

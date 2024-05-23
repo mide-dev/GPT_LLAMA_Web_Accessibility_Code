@@ -21,8 +21,8 @@
     "modelCorrections": [
       {
         "beforeModification": "<html xmlns=\"http://www.w3.org/1999/xhtml\">",
-        "afterModification": "<html xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en\">",
-        "rawOutput": "- Thought: The provided HTML lacks the \"lang\" attribute, which is essential for defining the language of the content in the document. This attribute helps screen readers and other assistive technologies provide a better user experience for those who rely on them.\n\n- Action: Add `lang=\"en\"` (assuming English is the intended language for the document) to the HTML tag to specify the language.\n\n- Corrected HTML: `<html xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en\">`"
+        "afterModification": "<html lang=\"en\" xmlns=\"http://www.w3.org/1999/xhtml\">",
+        "rawOutput": "- Thought: I need to correct the above HTML by adding the \"lang\" attribute and assigning the right language to it.\n- Observation: Since the Extracted text from the website is presumably in English, the site must be in English.\n- Action: Add [lang=\"en\"] to the HTML\n- Corrected HTML: <html lang=\"en\" xmlns=\"http://www.w3.org/1999/xhtml\">"
       }
     ]
   }

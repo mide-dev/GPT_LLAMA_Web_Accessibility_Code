@@ -1,0 +1,29 @@
+[
+  {
+    "analysisDetails": [
+      {
+        "model": "Claude"
+      },
+      {
+        "accessibility_type": "html-has-lang"
+      },
+      {
+        "prompt_technique": "fewShot"
+      },
+      {
+        "temperature": 0.5
+      }
+    ],
+    "accessbilityTestResult": {
+      "violationBeforeModification": 1,
+      "violationAfterModification": 0
+    },
+    "modelCorrections": [
+      {
+        "beforeModification": "<html lang=\"\">",
+        "afterModification": "<html lang=\"zh\">",
+        "rawOutput": "Here's the corrected HTML based on the WCAG 2.1 violation description and the extracted text from the website:\n\n*Extracted text from website*: \"登录机构账号\"\n- Incorrect HTML: <html lang=\"\">\n- Corrected HTML: <html lang=\"zh\">\n\nExplanation:\nThe extracted text \"登录机构账号\" appears to be in Chinese. Therefore, the appropriate language code for the `lang` attribute should be \"zh\", which represents the Chinese language. By adding `lang=\"zh\"` to the `<html>` element, we ensure that the webpage is correctly identified as being in Chinese, improving accessibility for users and assisting screen readers in properly pronouncing the content."
+      }
+    ]
+  }
+]

@@ -1,0 +1,29 @@
+[
+  {
+    "analysisDetails": [
+      {
+        "model": "Claude"
+      },
+      {
+        "accessibility_type": "aria-required-attr"
+      },
+      {
+        "prompt_technique": "fewShot"
+      },
+      {
+        "temperature": 0.5
+      }
+    ],
+    "accessbilityTestResult": {
+      "violationBeforeModification": 1,
+      "violationAfterModification": 0
+    },
+    "modelCorrections": [
+      {
+        "beforeModification": "<input type=\"search\" autocomplete=\"off\" role=\"combobox\" aria-label=\"Search for option\" class=\"form-control\">",
+        "afterModification": "<input type=\"search\" autocomplete=\"off\" role=\"combobox\" aria-label=\"Search for option\" aria-expanded=\"false\" aria-controls=\"search-results\" class=\"form-control\">",
+        "rawOutput": "Here's the corrected HTML based on the WCAG 2.1 violation description:\n\n- Corrected HTML: <input type=\"search\" autocomplete=\"off\" role=\"combobox\" aria-label=\"Search for option\" aria-expanded=\"false\" aria-controls=\"search-results\" class=\"form-control\">\n\nExplanation:\nTo fix the WCAG 2.1 violation, the following ARIA attributes have been added to the `<input>` element:\n\n1. `aria-expanded=\"false\"`: This attribute indicates whether the combobox is currently expanded or collapsed. In this case, it is set to \"false\" by default, assuming the search results are initially hidden.\n\n2. `aria-controls=\"search-results\"`: This attribute establishes a relationship between the combobox and the element that contains the search results. It indicates that the combobox controls the visibility and content of the element with the ID \"search-results\". Make sure to have a corresponding element with the ID \"search-results\" in your HTML to properly associate it with the combobox.\n\nBy adding these ARIA attributes, the combobox becomes more accessible and complies with the WCAG 2.1 guidelines."
+      }
+    ]
+  }
+]

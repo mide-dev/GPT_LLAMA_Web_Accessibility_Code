@@ -1,0 +1,29 @@
+[
+  {
+    "analysisDetails": [
+      {
+        "model": "Claude"
+      },
+      {
+        "accessibility_type": "aria-allowed-attr"
+      },
+      {
+        "prompt_technique": "fewShot"
+      },
+      {
+        "temperature": 0.5
+      }
+    ],
+    "accessbilityTestResult": {
+      "violationBeforeModification": 1,
+      "violationAfterModification": 0
+    },
+    "modelCorrections": [
+      {
+        "beforeModification": "<div class=\"dialog-widget dialog-lightbox-widget dialog-type-buttons dialog-type-lightbox elementor-popup-modal\" id=\"elementor-popup-modal-67353\" aria-modal=\"true\" role=\"document\" tabindex=\"0\" style=\"\">",
+        "afterModification": "<div class=\"dialog-widget dialog-lightbox-widget dialog-type-buttons dialog-type-lightbox elementor-popup-modal\" id=\"elementor-popup-modal-67353\" role=\"dialog\" aria-modal=\"false\" tabindex=\"-1\" style=\"\">",
+        "rawOutput": "Here's the corrected HTML based on the WCAG 2.1 violation description:\n\n- Corrected HTML:\n<div class=\"dialog-widget dialog-lightbox-widget dialog-type-buttons dialog-type-lightbox elementor-popup-modal\" id=\"elementor-popup-modal-67353\" role=\"dialog\" aria-modal=\"false\" tabindex=\"-1\" style=\"\">\n\nExplanation:\n1. Removed the invalid ARIA attribute `aria-modal=\"true\"` as it is not allowed according to the WCAG 2.1 guidelines.\n2. Changed the `role` attribute value from `\"document\"` to `\"dialog\"` to accurately represent the purpose of the `<div>` element as a dialog or modal.\n3. Added the `aria-modal=\"false\"` attribute to indicate that the element is not a modal dialog by default. If the dialog is intended to be a modal, you can use JavaScript to dynamically set `aria-modal` to `\"true\"` when the dialog is opened.\n4. Changed the `tabindex` attribute value from `\"0\"` to `\"-1\"` to remove the element from the default tab order. When the dialog is opened, you can dynamically set `tabindex` to `\"0\"` to make it focusable.\n\nThese changes ensure that the HTML"
+      }
+    ]
+  }
+]

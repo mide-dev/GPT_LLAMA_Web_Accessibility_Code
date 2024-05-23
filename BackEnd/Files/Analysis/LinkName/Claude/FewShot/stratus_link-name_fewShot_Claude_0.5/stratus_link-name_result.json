@@ -1,0 +1,99 @@
+[
+  {
+    "analysisDetails": [
+      {
+        "model": "Claude"
+      },
+      {
+        "accessibility_type": "link-name"
+      },
+      {
+        "prompt_technique": "fewShot"
+      },
+      {
+        "temperature": 0.5
+      }
+    ],
+    "accessbilityTestResult": {
+      "violationBeforeModification": 15,
+      "violationAfterModification": 0
+    },
+    "modelCorrections": [
+      {
+        "beforeModification": "<a id=\"slider-51-slide-46-layer-79\" class=\"rs-layer rs-layer-static\" href=\"#contact\" target=\"_self\" rel=\"nofollow\" data-type=\"image\" data-rsp_ch=\"on\" data-xy=\"x:l,l,c,c;xo:535px,466px,225px,152px;y:b;yo:20px,20px,17px,20px;\" data-text=\"w:normal;s:20,16,12,7;l:0,20,15,9;\" data-dim=\"w:73px,100px,64px,60px;h:73px,100px,64px,60px;\" data-basealign=\"slide\" data-onslides=\"s:1;\" data-frame_999=\"o:0;st:w;\" style=\"z-index: 17; color: rgb(255, 255, 255); width: 78px; height: 78px; min-height: 0px; min-width: 0px; max-height: none; max-width: none; backdrop-filter: none; filter: none; transform-origin: 50% 50%; opacity: 0.9773; transform: translate3d(0px, 0px, 0px); visibility: visible;\" data-startslide=\"1\" data-endslide=\"5\" data-idcheck=\"true\" data-stylerecorder=\"true\" data-initialised=\"true\">",
+        "afterModification": "",
+        "rawOutput": "- Corrected HTML: <a id=\"slider-51-slide-46-layer-79\" class=\"rs-layer rs-layer-static\" href=\"#contact\" target=\"_self\" rel=\"nofollow\" data-type=\"image\" data-rsp_ch=\"on\" data-xy=\"x:l,l,c,c;xo:535px,466px,225px,152px;y:b;yo:20px,20px,17px,20px;\" data-text=\"w:normal;s:20,16,12,7;l:0,20,15,9;\" data-dim=\"w:73px,100px,64px,60px;h:73px,100px,64px,60px;\" data-basealign=\"slide\" data-onslides=\"s:1;\" data-frame_999=\"o:0;st:w;\" style=\"z-index: 17; color: rgb(255, 255, 255); width: 78px; height: 78px; min-height: 0px; min-width: 0px; max-height: none; max-width: none; backdrop-filter: none; filter: none; transform-origin: 50% 50%; opacity: 0.9773; transform: translate3d(0px, "
+      },
+      {
+        "beforeModification": "<a id=\"slider-51-slide-46-layer-83\" class=\"rs-layer rs-layer-static\" href=\"#book-a-demo\" target=\"_self\" rel=\"nofollow\" data-type=\"image\" data-rsp_ch=\"on\" data-xy=\"x:l,l,c,c;xo:293px,234px,0,0;y:b;yo:20px,20px,17px,20px;\" data-text=\"w:normal;s:20,16,12,7;l:0,20,15,9;\" data-dim=\"w:73px,100px,64px,60px;h:73px,100px,64px,60px;\" data-basealign=\"slide\" data-onslides=\"s:1;\" data-frame_999=\"o:0;st:w;\" style=\"z-index: 16; color: rgb(255, 255, 255); width: 78px; height: 78px; min-height: 0px; min-width: 0px; max-height: none; max-width: none; backdrop-filter: none; filter: none; transform-origin: 50% 50%; opacity: 0.9773; transform: translate3d(0px, 0px, 0px); visibility: visible;\" data-startslide=\"1\" data-endslide=\"5\" data-idcheck=\"true\" data-stylerecorder=\"true\" data-initialised=\"true\">",
+        "afterModification": "",
+        "rawOutput": "- Corrected HTML: <a id=\"slider-51-slide-46-layer-83\" class=\"rs-layer rs-layer-static\" href=\"#book-a-demo\" target=\"_self\" rel=\"nofollow\" data-type=\"image\" data-rsp_ch=\"on\" data-xy=\"x:l,l,c,c;xo:293px,234px,0,0;y:b;yo:20px,20px,17px,20px;\" data-text=\"w:normal;s:20,16,12,7;l:0,20,15,9;\" data-dim=\"w:73px,100px,64px,60px;h:73px,100px,64px,60px;\" data-basealign=\"slide\" data-onslides=\"s:1;\" data-frame_999=\"o:0;st:w;\" style=\"z-index: 16; color: rgb(255, 255, 255); width: 78px; height: 78px; min-height: 0px; min-width: 0px; max-height: none; max-width: none; backdrop-filter: none; filter: none; transform-origin: 50% 50%; opacity: 0.9773; transform: translate3d(0px"
+      },
+      {
+        "beforeModification": "<a id=\"slider-51-slide-46-layer-85\" class=\"rs-layer rs-layer-static\" href=\"#get-a-quote\" target=\"_self\" rel=\"nofollow\" data-type=\"image\" data-rsp_ch=\"on\" data-xy=\"x:l,l,c,c;xo:58px,29px,-240px,-156px;y:b;yo:20px,20px,17px,20px;\" data-text=\"w:normal;s:20,16,12,7;l:0,20,15,9;\" data-dim=\"w:73px,100px,64px,60px;h:73px,100px,64px,60px;\" data-basealign=\"slide\" data-onslides=\"s:1;\" data-frame_999=\"o:0;st:w;\" style=\"z-index: 18; color: rgb(255, 255, 255); width: 78px; height: 78px; min-height: 0px; min-width: 0px; max-height: none; max-width: none; backdrop-filter: none; filter: none; transform-origin: 50% 50%; opacity: 0.9773; transform: translate3d(0px, 0px, 0px); visibility: visible;\" data-startslide=\"1\" data-endslide=\"5\" data-idcheck=\"true\" data-stylerecorder=\"true\" data-initialised=\"true\">",
+        "afterModification": "",
+        "rawOutput": "- Corrected HTML: <a id=\"slider-51-slide-46-layer-85\" class=\"rs-layer rs-layer-static\" href=\"#get-a-quote\" target=\"_self\" rel=\"nofollow\" data-type=\"image\" data-rsp_ch=\"on\" data-xy=\"x:l,l,c,c;xo:58px,29px,-240px,-156px;y:b;yo:20px,20px,17px,20px;\" data-text=\"w:normal;s:20,16,12,7;l:0,20,15,9;\" data-dim=\"w:73px,100px,64px,60px;h:73px,100px,64px,60px;\" data-basealign=\"slide\" data-onslides=\"s:1;\" data-frame_999=\"o:0;st:w;\" style=\"z-index: 18; color: rgb(255, 255, 255); width: 78px; height: 78px; min-height: 0px; min-width: 0px; max-height: none; max-width: none; backdrop-filter: none; filter: none; transform-origin: 50% 50%; opacity: 0.9773; transform: translate3d("
+      },
+      {
+        "beforeModification": "<a class=\"column-link\" target=\"_self\" href=\"/covid-19-customers-and-partners-resources/\"></a>",
+        "afterModification": "<a class=\"column-link\" target=\"_self\" href=\"/covid-19-customers-and-partners-resources/\" aria-label=\"COVID-19 Customers and Partners Resources\"></a>",
+        "rawOutput": "Here's the corrected HTML based on the WCAG 2.1 violation description and the provided examples:\n\n- Corrected HTML: <a class=\"column-link\" target=\"_self\" href=\"/covid-19-customers-and-partners-resources/\" aria-label=\"COVID-19 Customers and Partners Resources\"></a>\n\nExplanation:\nThe original HTML had an empty <a> element without any accessible text. To fix this, I added the `aria-label` attribute with a descriptive text that conveys the purpose of the link. This ensures that screen readers can announce the link's purpose to users who rely on assistive technologies.\n\nAlternatively, you could also use the `title` attribute to provide accessible text, like this:\n\n<a class=\"column-link\" target=\"_self\" href=\"/covid-19-customers-and-partners-resources/\" title=\"COVID-19 Customers and Partners Resources\"></a>\n\nBoth the `aria-label` and `title` attributes provide a way to add accessible text to the link, making it more understandable for users who cannot see the visual context of the link."
+      },
+      {
+        "beforeModification": "<a href=\"https://players.brightcove.net/2165782443001/TmnSuwJqg_default/index.html?videoId=5775269684001\" class=\"full-link magnific-popup\"></a>",
+        "afterModification": "<a href=\"https://players.brightcove.net/2165782443001/TmnSuwJqg_default/index.html?videoId=5775269684001\" class=\"full-link magnific-popup\" aria-label=\"Open video player\"></a>",
+        "rawOutput": "Here's the corrected HTML based on the WCAG 2.1 violation description:\n\n- Corrected HTML: <a href=\"https://players.brightcove.net/2165782443001/TmnSuwJqg_default/index.html?videoId=5775269684001\" class=\"full-link magnific-popup\" aria-label=\"Open video player\"></a>\n\nExplanation:\nTo fix the accessibility issue, I added the `aria-label` attribute to the anchor tag. The `aria-label` attribute provides an accessible name for the link, which will be read by screen readers. In this case, the label \"Open video player\" describes the purpose of the link.\n\nAlternatively, you could also use the `title` attribute to provide an accessible name:\n\n<a href=\"https://players.brightcove.net/2165782443001/TmnSuwJqg_default/index.html?videoId=5775269684001\" class=\"full-link magnific-popup\" title=\"Open video player\"></a>\n\nBoth the `aria-label` and `title` attributes serve the same purpose in this context, making the link accessible to users relying on assistive technologies."
+      },
+      {
+        "beforeModification": "<a href=\"https://players.brightcove.net/2165782443001/TmnSuwJqg_default/index.html?videoId=5804808189001\" class=\"full-link magnific-popup\"></a>",
+        "afterModification": "<a href=\"https://players.brightcove.net/2165782443001/TmnSuwJqg_default/index.html?videoId=5804808189001\" class=\"full-link magnific-popup\" aria-label=\"Open video player\"></a>",
+        "rawOutput": "Here's the corrected HTML based on the WCAG 2.1 violation description and the provided example:\n\n- Corrected HTML: <a href=\"https://players.brightcove.net/2165782443001/TmnSuwJqg_default/index.html?videoId=5804808189001\" class=\"full-link magnific-popup\" aria-label=\"Open video player\"></a>\n\nExplanation:\nTo fix the accessibility issue, I added the `aria-label` attribute to the anchor tag. The `aria-label` provides a text alternative for the link, making it accessible to screen readers. In this case, I used \"Open video player\" as the label, assuming that the link opens a video player. You can adjust the label text based on the specific purpose of the link."
+      },
+      {
+        "beforeModification": "<a class=\"column-link\" target=\"_self\" href=\"/industry/industrial-automation/oil-gas/\"></a>",
+        "afterModification": "<a class=\"column-link\" target=\"_self\" href=\"/industry/industrial-automation/oil-gas/\" title=\"Industrial Automation: Oil and Gas\"></a>",
+        "rawOutput": "Here's the corrected HTML based on the WCAG 2.1 violation description and the provided examples:\n\n- Corrected HTML: <a class=\"column-link\" target=\"_self\" href=\"/industry/industrial-automation/oil-gas/\" aria-label=\"Industrial Automation: Oil and Gas\"></a>\n\nExplanation:\nTo fix the accessibility issue, I added the `aria-label` attribute to the `<a>` element. The `aria-label` provides a text alternative that is read by screen readers, making the purpose of the link clear to users who rely on assistive technologies.\n\nAlternatively, you could use the `title` attribute instead of `aria-label`:\n\n- Corrected HTML: <a class=\"column-link\" target=\"_self\" href=\"/industry/industrial-automation/oil-gas/\" title=\"Industrial Automation: Oil and Gas\"></a>\n\nBoth `aria-label` and `title` attributes provide accessible text for the link, ensuring that it is understandable to all users, including those using screen readers."
+      },
+      {
+        "beforeModification": "<a class=\"column-link\" target=\"_self\" href=\"/industry/healthcare/\"></a>",
+        "afterModification": " <a class=\"column-link\" target=\"_self\" href=\"/industry/healthcare/\" title=\"Healthcare Industry\"></a>",
+        "rawOutput": "Here's the corrected HTML based on the WCAG 2.1 violation description and the provided examples:\n\n- Incorrect HTML: <a class=\"column-link\" target=\"_self\" href=\"/industry/healthcare/\"></a>\n- Corrected HTML: <a class=\"column-link\" target=\"_self\" href=\"/industry/healthcare/\" title=\"Healthcare Industry\"></a>\n\nExplanation:\nThe original HTML anchor element (`<a>`) lacks accessible text. To fix this, I added the `title` attribute with a descriptive text \"Healthcare Industry\". This provides a text alternative for screen readers and improves the accessibility of the link."
+      },
+      {
+        "beforeModification": "<a class=\"column-link\" target=\"_self\" href=\"/industry/industrial-automation/food-and-beverage/\"></a>",
+        "afterModification": "<a class=\"column-link\" target=\"_self\" href=\"/industry/industrial-automation/food-and-beverage/\" aria-label=\"Industrial Automation for Food and Beverage\"></a>",
+        "rawOutput": "Here's the corrected HTML based on the WCAG 2.1 violation description and the provided examples:\n\n- Corrected HTML: <a class=\"column-link\" target=\"_self\" href=\"/industry/industrial-automation/food-and-beverage/\" aria-label=\"Industrial Automation for Food and Beverage\"></a>\n\nExplanation:\nTo fix the accessibility issue, I added the `aria-label` attribute to the anchor tag. The `aria-label` provides a descriptive text for the link, making it accessible to screen readers. In this case, I assumed the link is related to \"Industrial Automation for Food and Beverage\" based on the URL. You can replace the value of `aria-label` with a more appropriate description if needed.\n\nAlternatively, you could also use the `title` attribute instead of `aria-label`:\n\n- Corrected HTML: <a class=\"column-link\" target=\"_self\" href=\"/industry/industrial-automation/food-and-beverage/\" title=\"Industrial Automation for Food and Beverage\"></a>\n\nBoth `aria-label` and `title` attributes provide accessible text for the link, improving its accessibility for users relying on assistive technologies."
+      },
+      {
+        "beforeModification": "<a class=\"column-link\" target=\"_self\" href=\"/industry/industrial-automation/water-wastewater/\"></a>",
+        "afterModification": "<a class=\"column-link\" target=\"_self\" href=\"/industry/industrial-automation/water-wastewater/\" title=\"Water and Wastewater Industry\"></a>",
+        "rawOutput": "Here's the corrected HTML based on the WCAG 2.1 violation description and the provided examples:\n\n- Incorrect HTML: <a class=\"column-link\" target=\"_self\" href=\"/industry/industrial-automation/water-wastewater/\"></a>\n- Corrected HTML: <a class=\"column-link\" target=\"_self\" href=\"/industry/industrial-automation/water-wastewater/\" title=\"Water and Wastewater Industry\"></a>\n\nExplanation:\nThe original HTML anchor tag lacks accessible text, which is a violation of WCAG 2.1. To fix this, I added a `title` attribute to the anchor tag, providing a descriptive text for the link. The `title` attribute will be read by screen readers and will also appear as a tooltip when hovering over the link, making it accessible to users who rely on assistive technologies."
+      },
+      {
+        "beforeModification": "<a class=\"column-link\" target=\"_self\" href=\"/industry/industrial-automation/life-sciences-manufacturing-and-power-industries/\"></a>",
+        "afterModification": "<a class=\"column-link\" target=\"_self\" href=\"/industry/industrial-automation/life-sciences-manufacturing-and-power-industries/\" aria-label=\"Life Sciences, Manufacturing, and Power Industries\"></a>",
+        "rawOutput": "Here's the corrected HTML based on the WCAG 2.1 violation description and the provided examples:\n\n- Corrected HTML: <a class=\"column-link\" target=\"_self\" href=\"/industry/industrial-automation/life-sciences-manufacturing-and-power-industries/\" aria-label=\"Life Sciences, Manufacturing, and Power Industries\"></a>\n\nExplanation:\nThe original HTML had an empty <a> element without any accessible text. To fix this, I added the `aria-label` attribute with a descriptive text that conveys the purpose of the link. The `aria-label` attribute provides an accessible name for the link, making it perceivable to screen readers and other assistive technologies.\n\nAlternatively, you could also use the `title` attribute to provide accessible text, like this:\n\n<a class=\"column-link\" target=\"_self\" href=\"/industry/industrial-automation/life-sciences-manufacturing-and-power-industries/\" title=\"Life Sciences, Manufacturing, and Power Industries\"></a>\n\nBoth the `aria-label` and `title` attributes serve the purpose of providing an accessible name for the link when there is no visible text content inside the <a> element."
+      },
+      {
+        "beforeModification": "<a class=\"column-link\" target=\"_self\" href=\"/industry/retail/\"></a>",
+        "afterModification": "<a class=\"column-link\" target=\"_self\" href=\"/industry/retail/\" aria-label=\"Retail Industry\"></a>",
+        "rawOutput": "Here's the corrected HTML based on the WCAG 2.1 violation description and the provided examples:\n\n- Incorrect HTML: <a class=\"column-link\" target=\"_self\" href=\"/industry/retail/\"></a>\n- Corrected HTML: <a class=\"column-link\" target=\"_self\" href=\"/industry/retail/\" aria-label=\"Retail Industry\"></a>\n\nExplanation:\nThe original HTML anchor tag lacks accessible text, which is a violation of WCAG 2.1. To fix this, you can add the `aria-label` attribute to provide a descriptive text for screen readers. In this case, I assumed the link is related to the retail industry, so I added `aria-label=\"Retail Industry\"`. Alternatively, you could use the `title` attribute or add text content inside the anchor tag, depending on your specific context and design requirements."
+      },
+      {
+        "beforeModification": "<a class=\"column-link\" target=\"_self\" href=\"/industry/travel-logistics/\"></a>",
+        "afterModification": "<a class=\"column-link\" target=\"_self\" href=\"/industry/travel-logistics/\" aria-label=\"Travel Logistics Industry\"></a>",
+        "rawOutput": "Here's the corrected HTML based on the WCAG 2.1 violation description:\n\n- Corrected HTML: <a class=\"column-link\" target=\"_self\" href=\"/industry/travel-logistics/\" aria-label=\"Travel Logistics Industry\"></a>\n\nTo fix the accessibility issue, I added the `aria-label` attribute to provide accessible text for the link. The value of the `aria-label` attribute should describe the purpose or destination of the link, which in this case is assumed to be \"Travel Logistics Industry\".\n\nAlternatively, you could also use the `title` attribute to provide accessible text:\n\n- Corrected HTML: <a class=\"column-link\" target=\"_self\" href=\"/industry/travel-logistics/\" title=\"Travel Logistics Industry\"></a>\n\nEither the `aria-label` or `title` attribute can be used to provide the necessary accessible text for the link, ensuring that it is perceivable and understandable to screen reader users."
+      },
+      {
+        "beforeModification": "<a class=\"column-link\" target=\"_self\" href=\"/industry/smart-buildings/\"></a>",
+        "afterModification": "<a class=\"column-link\" target=\"_self\" href=\"/industry/smart-buildings/\" title=\"Smart Buildings\"></a>",
+        "rawOutput": "Here's the corrected HTML based on the WCAG 2.1 violation description and the provided examples:\n\n- Incorrect HTML: <a class=\"column-link\" target=\"_self\" href=\"/industry/smart-buildings/\"></a>\n- Corrected HTML: <a class=\"column-link\" target=\"_self\" href=\"/industry/smart-buildings/\" title=\"Smart Buildings\"></a>\n\nExplanation:\nThe original HTML anchor tag lacks accessible text, which is a violation of WCAG 2.1. To fix this, you can add a `title` attribute to the anchor tag, providing a descriptive text for the link. In this case, \"Smart Buildings\" is used as the title, assuming it accurately describes the link's purpose. The `title` attribute will be read by screen readers, making the link more accessible to users who rely on assistive technologies."
+      },
+      {
+        "beforeModification": "<a id=\"to-top\" href=\"#\" class=\"\n\tmobile-enabled\t\"><i class=\"fa fa-angle-up\"></i></a>",
+        "afterModification": "<a id=\"to-top\" href=\"#\" class=\"mobile-enabled\" title=\"Go to top\"><i class=\"fa fa-angle-up\"></i></a>",
+        "rawOutput": "Here's the corrected HTML based on the WCAG 2.1 violation description:\n\n- Corrected HTML: <a id=\"to-top\" href=\"#\" class=\"mobile-enabled\" title=\"Go to top\"><i class=\"fa fa-angle-up\"></i></a>\n\nExplanation:\nThe original HTML had an empty anchor tag without any accessible text. To fix this, I added a descriptive title attribute to the anchor tag, which provides the necessary information for screen readers and improves accessibility."
+      }
+    ]
+  }
+]

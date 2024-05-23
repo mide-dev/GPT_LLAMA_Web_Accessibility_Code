@@ -1,0 +1,261 @@
+{
+  "testEngine": {
+    "name": "axe-core",
+    "version": "4.8.4"
+  },
+  "testRunner": {
+    "name": "axe"
+  },
+  "testEnvironment": {
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/122.0.0.0 Safari/537.36",
+    "windowWidth": 800,
+    "windowHeight": 600,
+    "orientationAngle": 0,
+    "orientationType": "portrait-primary"
+  },
+  "timestamp": "2024-04-18T18:36:05.407Z",
+  "url": "https://menara.ma/",
+  "toolOptions": {
+    "runOnly": {
+      "type": "rule",
+      "values": [
+        "aria-required-attr"
+      ]
+    },
+    "reporter": "v1"
+  },
+  "inapplicable": [],
+  "passes": [
+    {
+      "id": "aria-required-attr",
+      "impact": "critical",
+      "tags": [
+        "cat.aria",
+        "wcag2a",
+        "wcag412",
+        "EN-301-549",
+        "EN-9.4.1.2"
+      ],
+      "description": "Ensures elements with ARIA roles have all required ARIA attributes",
+      "help": "Required ARIA attributes must be provided",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-required-attr?application=axeAPI",
+      "nodes": [
+        {
+          "any": [
+            {
+              "id": "aria-required-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "All required ARIA attributes are present"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div data-v-3c7af83d=\"\" class=\"swiper-button-next\" tabindex=\"0\" role=\"button\" aria-label=\"Previous slide\"><i data-v-3c7af83d=\"\" class=\"fa fa-angle-left\"></i></div>",
+          "target": [
+            ".swiper-button-next"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "aria-required-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "All required ARIA attributes are present"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div data-v-3c7af83d=\"\" class=\"swiper-button-prev\" tabindex=\"0\" role=\"button\" aria-label=\"Next slide\"><i data-v-3c7af83d=\"\" class=\"fa fa-angle-right\"></i></div>",
+          "target": [
+            ".swiper-button-prev"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "aria-required-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "All required ARIA attributes are present"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<i role=\"presentation\" class=\"open-indicator\"></i>",
+          "target": [
+            ".selected[data-v-2bc590b1=\"\"][data-v-2837e956=\"\"] > .v-select.single.searchable > .dropdown-toggle > .vs__actions > .open-indicator[role=\"presentation\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "aria-required-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "All required ARIA attributes are present"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<i role=\"presentation\" class=\"open-indicator\"></i>",
+          "target": [
+            "div[required=\"required\"] > .dropdown-toggle > .vs__actions > .open-indicator[role=\"presentation\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "aria-required-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "All required ARIA attributes are present"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<i role=\"presentation\" class=\"open-indicator\"></i>",
+          "target": [
+            ".secteur-choose > .selected[data-v-2bc590b1=\"\"][data-v-e34d20e6=\"\"] > .v-select.single.searchable > .dropdown-toggle > .vs__actions > .open-indicator[role=\"presentation\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "aria-required-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "All required ARIA attributes are present"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<i role=\"presentation\" class=\"open-indicator\"></i>",
+          "target": [
+            ".occupation-choose > .selected[data-v-2bc590b1=\"\"][data-v-e34d20e6=\"\"] > .v-select.single.searchable > .dropdown-toggle > .vs__actions > .open-indicator[role=\"presentation\"]"
+          ]
+        }
+      ]
+    }
+  ],
+  "incomplete": [],
+  "violations": [
+    {
+      "id": "aria-required-attr",
+      "impact": "critical",
+      "tags": [
+        "cat.aria",
+        "wcag2a",
+        "wcag412",
+        "EN-301-549",
+        "EN-9.4.1.2"
+      ],
+      "description": "Ensures elements with ARIA roles have all required ARIA attributes",
+      "help": "Required ARIA attributes must be provided",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-required-attr?application=axeAPI",
+      "nodes": [
+        {
+          "any": [
+            {
+              "id": "aria-required-attr",
+              "data": [
+                "aria-expanded",
+                "aria-controls"
+              ],
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "Required ARIA attributes not present: aria-expanded, aria-controls"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "critical",
+          "html": "<input type=\"search\" autocomplete=\"off\" role=\"combobox\" aria-label=\"Search for option\" class=\"form-control\">",
+          "target": [
+            ".selected[data-v-2bc590b1=\"\"][data-v-2837e956=\"\"] > .v-select.single.searchable > .dropdown-toggle > .vs__selected-options > input[autocomplete=\"off\"][role=\"combobox\"][aria-label=\"Search for option\"]"
+          ],
+          "failureSummary": "Fix any of the following:\n  Required ARIA attributes not present: aria-expanded, aria-controls"
+        },
+        {
+          "any": [
+            {
+              "id": "aria-required-attr",
+              "data": [
+                "aria-expanded",
+                "aria-controls"
+              ],
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "Required ARIA attributes not present: aria-expanded, aria-controls"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "critical",
+          "html": "<input type=\"search\" autocomplete=\"off\" placeholder=\"المدينة\" role=\"combobox\" aria-label=\"Search for option\" class=\"form-control\">",
+          "target": [
+            "input[placeholder=\"المدينة\"]"
+          ],
+          "failureSummary": "Fix any of the following:\n  Required ARIA attributes not present: aria-expanded, aria-controls"
+        },
+        {
+          "any": [
+            {
+              "id": "aria-required-attr",
+              "data": [
+                "aria-expanded",
+                "aria-controls"
+              ],
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "Required ARIA attributes not present: aria-expanded, aria-controls"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "critical",
+          "html": "<input type=\"search\" autocomplete=\"off\" placeholder=\"الحي\" role=\"combobox\" aria-label=\"Search for option\" class=\"form-control\">",
+          "target": [
+            "input[placeholder=\"الحي\"]"
+          ],
+          "failureSummary": "Fix any of the following:\n  Required ARIA attributes not present: aria-expanded, aria-controls"
+        },
+        {
+          "any": [
+            {
+              "id": "aria-required-attr",
+              "data": [
+                "aria-expanded",
+                "aria-controls"
+              ],
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "Required ARIA attributes not present: aria-expanded, aria-controls"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "critical",
+          "html": "<input type=\"search\" autocomplete=\"off\" placeholder=\"فترة المناوبة\" role=\"combobox\" aria-label=\"Search for option\" class=\"form-control\">",
+          "target": [
+            "input[placeholder=\"فترة المناوبة\"]"
+          ],
+          "failureSummary": "Fix any of the following:\n  Required ARIA attributes not present: aria-expanded, aria-controls"
+        }
+      ]
+    }
+  ]
+}

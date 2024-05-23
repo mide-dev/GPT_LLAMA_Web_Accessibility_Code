@@ -1,0 +1,29 @@
+[
+  {
+    "analysisDetails": [
+      {
+        "model": "Claude"
+      },
+      {
+        "accessibility_type": "meta-viewport"
+      },
+      {
+        "prompt_technique": "fewShot"
+      },
+      {
+        "temperature": 0.5
+      }
+    ],
+    "accessbilityTestResult": {
+      "violationBeforeModification": 1,
+      "violationAfterModification": 0
+    },
+    "modelCorrections": [
+      {
+        "beforeModification": "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0\">",
+        "afterModification": "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes\">",
+        "rawOutput": "- Corrected HTML: <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes\">\n\nExplanation:\nTo ensure accessibility and comply with WCAG 2.1, the following changes were made to the meta viewport tag:\n\n1. The `user-scalable` attribute was set to \"yes\" instead of \"0\" to allow users to zoom in and out on mobile devices.\n\n2. The `maximum-scale` attribute was increased from \"1.0\" to \"5.0\" to provide users with the ability to zoom in up to 5 times the original size. This value can be adjusted based on the specific requirements of the website or application.\n\nBy making these changes, the meta viewport tag allows for proper zooming functionality on mobile devices, ensuring a more accessible experience for users who may need to enlarge the content."
+      }
+    ]
+  }
+]

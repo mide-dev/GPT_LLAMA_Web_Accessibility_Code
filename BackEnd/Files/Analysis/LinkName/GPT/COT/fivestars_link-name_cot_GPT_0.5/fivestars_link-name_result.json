@@ -16,7 +16,7 @@
     ],
     "accessbilityTestResult": {
       "violationBeforeModification": 3,
-      "violationAfterModification": 1
+      "violationAfterModification": 0
     },
     "modelCorrections": [
       {

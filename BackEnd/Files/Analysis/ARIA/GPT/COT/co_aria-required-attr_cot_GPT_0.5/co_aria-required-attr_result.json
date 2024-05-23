@@ -1,0 +1,29 @@
+[
+  {
+    "analysisDetails": [
+      {
+        "model": "GPT"
+      },
+      {
+        "accessibility_type": "aria-required-attr"
+      },
+      {
+        "prompt_technique": "cot"
+      },
+      {
+        "temperature": 0.5
+      }
+    ],
+    "accessbilityTestResult": {
+      "violationBeforeModification": 1,
+      "violationAfterModification": 0
+    },
+    "modelCorrections": [
+      {
+        "beforeModification": "<input class=\"search_input\" id=\"search_input\" maxlength=\"2048\" name=\"search\" type=\"search\" autocapitalize=\"off\" autocomplete=\"off\" autocorrect=\"off\" role=\"combobox\" spellcheck=\"false\" onkeyup=\"showClear();showSuggestions()\" onclick=\"showShadow()\" onblur=\"hideShadow();\" oncancel=\"clearBox()\" oninput=\"showClear();showSuggestions()\" onchange=\"showClear();showSuggestions()\" onfocus=\"showSuggestions()\" value=\"\">",
+        "afterModification": "<input class=\"search_input\" id=\"search_input\" maxlength=\"2048\" name=\"search\" type=\"search\" autocapitalize=\"off\" autocomplete=\"off\" autocorrect=\"off\" role=\"combobox\" aria-expanded=\"false\" aria-controls=\"search_list\" spellcheck=\"false\" onkeyup=\"showClear();showSuggestions()\" onclick=\"showShadow()\" onblur=\"hideShadow();\" oncancel=\"clearBox()\" oninput=\"showClear();showSuggestions()\" onchange=\"showClear();showSuggestions()\" onfocus=\"showSuggestions()\" value=\"\">",
+        "rawOutput": "Given the WCAG 2.1 violation description that requires ARIA attributes such as `aria-expanded` and `aria-controls` to be present for elements with certain roles, we need to address the issue with the given `<input>` element that has been assigned a role of `combobox`. A combobox typically suggests a widget that allows the user to choose an item from a list that can be expanded or collapsed, necessitating the use of `aria-expanded` to indicate the current state of the combobox's list and `aria-controls` to reference the ID of the list that the combobox is controlling.\n\n- **Incorrect HTML**: `<input class=\"search_input\" id=\"search_input\" maxlength=\"2048\" name=\"search\" type=\"search\" autocapitalize=\"off\" autocomplete=\"off\" autocorrect=\"off\" role=\"combobox\" spellcheck=\"false\" onkeyup=\"showClear();showSuggestions()\" onclick=\"showShadow()\" onblur=\"hideShadow();\" oncancel=\"clearBox()\" oninput=\"showClear();showSuggestions()\" onchange=\"showClear();showSuggestions()\" onfocus=\"showSuggestions()\" value=\"\">`\n\n- **Thought**: Since the input element is being used as a combobox, it's necessary to inform assistive technologies about the expandable list associated with this combobox. This means we need to add `aria-expanded` to indicate if the list is currently visible (true or false) and `aria-controls` to point to the ID of the list element that this combobox controls. Without these attributes, users relying on screen readers or other assistive technologies might not be able to understand how to interact with the combobox properly.\n\n- **Corrected HTML**: Assuming there is a list element (e.g., `<ul>`) with the ID `search_list` that contains the suggestions or items related to the combobox, the corrected HTML would look like this:\n  \n  ```html\n  <input class=\"search_input\" id=\"search_input\" maxlength=\"2048\" name=\"search\" type=\"search\" autocapitalize=\"off\" autocomplete=\"off\" autocorrect=\"off\" role=\"combobox\" aria-expanded=\"false\" aria-controls=\"search_list\" spellcheck=\"false\" onkeyup=\"showClear();showSuggestions()\" onclick=\"showShadow()\" onblur=\"hideShadow();\" oncancel=\"clearBox()\" oninput=\"showClear();showSuggestions()\" onchange=\"showClear();showSuggestions()\" onfocus=\"showSuggestions()\" value=\"\">\n  ```\n\n  In this corrected version, `aria-expanded=\"false\"` is added to indicate that the list is initially collapsed. The value should be dynamically updated (via JavaScript) to `true` when the user interacts with the combobox and the list of suggestions is displayed. The `aria-controls=\"search_list\"` attribute points to the ID of the list that contains the combobox's options or suggestions. This setup enhances the accessibility of the combobox by providing necessary information to assistive"
+      }
+    ]
+  }
+]

@@ -1,0 +1,34 @@
+[
+  {
+    "analysisDetails": [
+      {
+        "model": "Claude"
+      },
+      {
+        "accessibility_type": "aria-allowed-attr"
+      },
+      {
+        "prompt_technique": "fewShot"
+      },
+      {
+        "temperature": 0.5
+      }
+    ],
+    "accessbilityTestResult": {
+      "violationBeforeModification": 2,
+      "violationAfterModification": 0
+    },
+    "modelCorrections": [
+      {
+        "beforeModification": "<div class=\"navbar-item header__item has-dropdown has-dropdown--vertical is-hoverable \" aria-haspopup=\"true\" aria-expanded=\"false\" data-navlink-handle=\"about\">",
+        "afterModification": "<div class=\"navbar-item header__item has-dropdown has-dropdown--vertical is-hoverable\" aria-haspopup=\"true\" data-navlink-handle=\"about\">",
+        "rawOutput": "Here's the corrected HTML based on the WCAG 2.1 violation description:\n\n- Corrected HTML: <div class=\"navbar-item header__item has-dropdown has-dropdown--vertical is-hoverable\" aria-haspopup=\"true\" data-navlink-handle=\"about\">\n\nExplanation:\nThe `aria-expanded` attribute is not allowed on the `<div>` element according to the WCAG 2.1 guidelines. The `aria-expanded` attribute is typically used on elements that can expand or collapse, such as buttons or accordions, to indicate their current state. In this case, since the `<div>` element is not an expandable element, the `aria-expanded` attribute should be removed to ensure accessibility compliance."
+      },
+      {
+        "beforeModification": "<div class=\"navbar-item header__item has-dropdown has-dropdown--vertical is-hoverable \" aria-haspopup=\"true\" aria-expanded=\"false\" data-navlink-handle=\"media\">",
+        "afterModification": "<div class=\"navbar-item header__item has-dropdown has-dropdown--vertical is-hoverable\" aria-haspopup=\"true\" data-navlink-handle=\"media\">",
+        "rawOutput": "Here's the corrected HTML based on the WCAG 2.1 violation description:\n\n- Corrected HTML: <div class=\"navbar-item header__item has-dropdown has-dropdown--vertical is-hoverable\" aria-haspopup=\"true\" data-navlink-handle=\"media\">\n\nExplanation:\nThe ARIA attribute `aria-expanded` is not allowed on the `<div>` element according to the WCAG 2.1 guidelines. Therefore, I removed the `aria-expanded=\"false\"` attribute from the `<div>` element to make it compliant with the accessibility standards."
+      }
+    ]
+  }
+]

@@ -1,0 +1,29 @@
+[
+  {
+    "analysisDetails": [
+      {
+        "model": "Claude"
+      },
+      {
+        "accessibility_type": "meta-viewport"
+      },
+      {
+        "prompt_technique": "fewShot"
+      },
+      {
+        "temperature": 0.5
+      }
+    ],
+    "accessbilityTestResult": {
+      "violationBeforeModification": 1,
+      "violationAfterModification": 0
+    },
+    "modelCorrections": [
+      {
+        "beforeModification": "<meta name=\"viewport\" content=\"width=device-width,initial-scale=1, maximum-scale=1\">",
+        "afterModification": "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n\nExplanation:\nThe \"maximum-scale=1\" parameter in the viewport meta tag disables zooming on mobile devices by limiting the maximum zoom level to 1. To make the webpage accessible and allow users to zoom in, the \"maximum-scale\" parameter should be removed entirely. This allows the default zooming behavior on mobile devices, which is typically up to a maximum scale of 2 or higher, depending on the device and browser.\n\nBy removing the \"maximum-scale\" parameter, the corrected HTML becomes:\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">",
+        "rawOutput": "- Corrected HTML: <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n\nExplanation:\nThe \"maximum-scale=1\" parameter in the viewport meta tag disables zooming on mobile devices by limiting the maximum zoom level to 1. To make the webpage accessible and allow users to zoom in, the \"maximum-scale\" parameter should be removed entirely. This allows the default zooming behavior on mobile devices, which is typically up to a maximum scale of 2 or higher, depending on the device and browser.\n\nBy removing the \"maximum-scale\" parameter, the corrected HTML becomes:\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n\nThis viewport meta tag now allows users to zoom in on the webpage using the default zooming capabilities of their mobile devices, making the content more accessible for users who may need to enlarge the text or elements on the page."
+      }
+    ]
+  }
+]

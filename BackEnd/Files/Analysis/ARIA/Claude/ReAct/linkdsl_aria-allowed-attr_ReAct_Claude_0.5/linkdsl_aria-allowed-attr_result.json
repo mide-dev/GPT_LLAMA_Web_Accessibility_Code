@@ -1,0 +1,39 @@
+[
+  {
+    "analysisDetails": [
+      {
+        "model": "Claude"
+      },
+      {
+        "accessibility_type": "aria-allowed-attr"
+      },
+      {
+        "prompt_technique": "ReAct"
+      },
+      {
+        "temperature": 0.5
+      }
+    ],
+    "accessbilityTestResult": {
+      "violationBeforeModification": 3,
+      "violationAfterModification": 0
+    },
+    "modelCorrections": [
+      {
+        "beforeModification": "<label aria-controls=\"collapseOne\" aria-expanded=\"true\" class=\"radio\" data-target=\"#offerbox-main-buy-now-details\" data-toggle=\"collapse\">",
+        "afterModification": "<button aria-controls=\"collapseOne\" aria-expanded=\"true\" class=\"radio\" data-target=\"#offerbox-main-buy-now-details\" data-toggle=\"collapse\">\n  <!-- Label text goes here -->\n</button>",
+        "rawOutput": "- Incorrect HTML: <label aria-controls=\"collapseOne\" aria-expanded=\"true\" class=\"radio\" data-target=\"#offerbox-main-buy-now-details\" data-toggle=\"collapse\">\n\n- Thought: The <label> element is not an interactive element that can be expanded or collapsed. Therefore, the aria-expanded attribute is not allowed on this element according to WCAG.\n\n- Observation: The aria-expanded attribute is typically used on interactive elements like buttons or links that control the visibility of a collapsible section. In this case, the data-toggle and data-target attributes suggest that the label is being used to control a collapsible element, which is not semantically correct.\n\n- Action: Remove the aria-expanded attribute from the <label> element. Instead, use a button or a link with the appropriate ARIA attributes to control the collapsible section.\n\n- Corrected HTML:\n<button aria-controls=\"collapseOne\" aria-expanded=\"true\" class=\"radio\" data-target=\"#offerbox-main-buy-now-details\" data-toggle=\"collapse\">\n  <!-- Label text goes here -->\n</button>\n\nIn this corrected version, the <label> element is replaced with a <button> element, which is a more appropriate choice for an interactive element that controls a collapsible section. The aria-expanded"
+      },
+      {
+        "beforeModification": "<label aria-controls=\"leaseCalculator\" aria-expanded=\"false\" class=\"radio\" data-target=\"#offerbox-main-lease-calculator\" data-toggle=\"collapse\">",
+        "afterModification": "<label aria-controls=\"leaseCalculator\" class=\"radio\" data-target=\"#offerbox-main-lease-calculator\" data-toggle=\"collapse\">",
+        "rawOutput": "- Thought: The `<label>` element should not have the `aria-expanded` attribute because it is not a collapsible element. The `aria-expanded` attribute is used to indicate the expanded or collapsed state of an element, such as an accordion or a menu. In this case, the `<label>` element is being used as a toggle for a collapsible element with the ID \"offerbox-main-lease-calculator\".\n\n- Observation: To fix this accessibility issue, we need to remove the `aria-expanded` attribute from the `<label>` element. Instead, we can use the `data-target` and `data-toggle` attributes to control the collapsible element.\n\n- Action: Remove the `aria-expanded=\"false\"` attribute from the `<label>` element.\n\n- Corrected HTML:\n  ```html\n  <label aria-controls=\"leaseCalculator\" class=\"radio\" data-target=\"#offerbox-main-lease-calculator\" data-toggle=\"collapse\">\n  ```\n\nBy removing the `aria-expanded` attribute, we ensure that the `<label>` element does not incorrectly communicate the expanded or collapsed state to assistive technologies. The collapsible functionality can be handled by the appropriate JavaScript library or framework based on the `data-target` and `data-toggle` attributes."
+      },
+      {
+        "beforeModification": "<label aria-controls=\"makeOfferDetails\" aria-expanded=\"false\" class=\"radio\" data-target=\"#offerbox-main-make-offer-details\" data-toggle=\"collapse\">",
+        "afterModification": "<button aria-controls=\"makeOfferDetails\" aria-expanded=\"false\" class=\"radio\" data-target=\"#offerbox-main-make-offer-details\" data-toggle=\"collapse\">",
+        "rawOutput": "- Incorrect HTML: <label aria-controls=\"makeOfferDetails\" aria-expanded=\"false\" class=\"radio\" data-target=\"#offerbox-main-make-offer-details\" data-toggle=\"collapse\">\n\n- Thought: The <label> element is used to provide a label for a form control, such as an input field or a radio button. It is not intended to be used as an expandable/collapsible section. The aria-expanded attribute is not allowed on a <label> element according to the WCAG guidelines.\n\n- Observation: To create an expandable/collapsible section, it is more appropriate to use a <button> or an <a> element with the appropriate ARIA attributes. The aria-expanded attribute is valid for elements that can expand or collapse content.\n\n- Action:\n  1. Replace the <label> element with a <button> element.\n  2. Remove the aria-expanded attribute since it is not allowed on a <label> element.\n  3. Add the appropriate ARIA attributes to the <button> element to indicate its expandable/collapsible functionality.\n\n- Corrected HTML:\n<button aria-controls=\"makeOfferDetails\" aria-expanded=\"false\" class=\"radio\" data-target=\"#offerbox-main-make-offer-details\" data-toggle=\"collapse\">\n  <!-- Button content goes"
+      }
+    ]
+  }
+]

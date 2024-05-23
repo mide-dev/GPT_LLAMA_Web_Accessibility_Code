@@ -1,0 +1,29 @@
+[
+  {
+    "analysisDetails": [
+      {
+        "model": "Claude"
+      },
+      {
+        "accessibility_type": "html-has-lang"
+      },
+      {
+        "prompt_technique": "fewShot"
+      },
+      {
+        "temperature": 0.5
+      }
+    ],
+    "accessbilityTestResult": {
+      "violationBeforeModification": 1,
+      "violationAfterModification": 0
+    },
+    "modelCorrections": [
+      {
+        "beforeModification": "<html>",
+        "afterModification": "<html lang=\"ru\">",
+        "rawOutput": "Here's the corrected HTML based on the WCAG 2.1 violation description and the extracted text from the website:\n\n*Extracted text from website*: \"Баку и бакинцы\"\n- Incorrect HTML: <html>\n- Corrected HTML: <html lang=\"ru\">\n\nExplanation:\nThe extracted text \"Баку и бакинцы\" is in Russian. Therefore, the `lang` attribute of the `<html>` element should be set to `\"ru\"` to indicate that the content of the webpage is primarily in the Russian language. This helps assistive technologies, such as screen readers, to correctly interpret and pronounce the content for users who rely on these technologies."
+      }
+    ]
+  }
+]

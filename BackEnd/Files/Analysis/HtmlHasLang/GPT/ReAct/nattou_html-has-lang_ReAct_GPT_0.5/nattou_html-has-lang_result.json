@@ -1,0 +1,29 @@
+[
+  {
+    "analysisDetails": [
+      {
+        "model": "GPT"
+      },
+      {
+        "accessibility_type": "html-has-lang"
+      },
+      {
+        "prompt_technique": "ReAct"
+      },
+      {
+        "temperature": 0.5
+      }
+    ],
+    "accessbilityTestResult": {
+      "violationBeforeModification": 1,
+      "violationAfterModification": 0
+    },
+    "modelCorrections": [
+      {
+        "beforeModification": "<html>",
+        "afterModification": "<html lang=\"en\">",
+        "rawOutput": "- Thought: I need to correct the above HTML by adding the \"lang\" attribute and assigning the right language to it.\n- Observation: Since the Extracted text from the website includes English and possibly references to software names which do not necessarily translate to a specific language, it's safest to assume the primary content language is English.\n- Action: Add [lang=\"en\"] to the HTML\n- Corrected HTML: <html lang=\"en\">"
+      }
+    ]
+  }
+]

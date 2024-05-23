@@ -1,0 +1,29 @@
+[
+  {
+    "analysisDetails": [
+      {
+        "model": "Claude"
+      },
+      {
+        "accessibility_type": "aria-required-attr"
+      },
+      {
+        "prompt_technique": "fewShot"
+      },
+      {
+        "temperature": 0.5
+      }
+    ],
+    "accessbilityTestResult": {
+      "violationBeforeModification": 1,
+      "violationAfterModification": 0
+    },
+    "modelCorrections": [
+      {
+        "beforeModification": "<input type=\"text\" name=\"SearchFilterFilterSearchTerm\" id=\"SearchFilterFilterSearchTerm\" autocomplete=\"off\" aria-invalid=\"false\" class=\"hero-search-listing Typeahead tt-input\" onfocus=\"if (!window.__cfRLUnblockHandlers) return false; this.placeholder =''\" placeholder=\"Where would you like to go?\" maxlength=\"30\" spellcheck=\"false\" dir=\"auto\" aria-activedescendant=\"\" aria-owns=\"SearchFilterFilterSearchTerm_listbox\" role=\"combobox\" aria-readonly=\"true\" aria-autocomplete=\"list\" style=\"position: relative; vertical-align: top; background-color: rgba(0, 0, 0, 0);\">",
+        "afterModification": "<input type=\"text\" name=\"SearchFilterFilterSearchTerm\" id=\"SearchFilterFilterSearchTerm\" autocomplete=\"off\" aria-invalid=\"false\" class=\"hero-search-listing Typeahead tt-input\" onfocus=\"if (!window.__cfRLUnblockHandlers) return false; this.placeholder =''\" placeholder=\"Where would you like to go?\" maxlength=\"30\" spellcheck=\"false\" dir=\"auto\" aria-activedescendant=\"\" aria-owns=\"SearchFilterFilterSearchTerm_listbox\" role=\"combobox\" aria-expanded=\"false\" aria-controls=\"SearchFilterFilterSearchTerm_listbox\" aria-autocomplete=\"list\" style=\"position: relative; vertical-align: top; background-color: rgba(0, 0, 0, 0);\">",
+        "rawOutput": "Here's the corrected HTML based on the WCAG 2.1 violation description:\n\n- Corrected HTML:\n<input type=\"text\" name=\"SearchFilterFilterSearchTerm\" id=\"SearchFilterFilterSearchTerm\" autocomplete=\"off\" aria-invalid=\"false\" class=\"hero-search-listing Typeahead tt-input\" onfocus=\"if (!window.__cfRLUnblockHandlers) return false; this.placeholder =''\" placeholder=\"Where would you like to go?\" maxlength=\"30\" spellcheck=\"false\" dir=\"auto\" aria-activedescendant=\"\" aria-owns=\"SearchFilterFilterSearchTerm_listbox\" role=\"combobox\" aria-expanded=\"false\" aria-controls=\"SearchFilterFilterSearchTerm_listbox\" aria-autocomplete=\"list\" style=\"position: relative; vertical-align: top; background-color: rgba(0, 0, 0, 0);\">\n\nExplanation:\nThe WCAG 2.1 violation description mentioned that the required ARIA attributes `aria-expanded` and `aria-controls` were missing. To fix this:\n\n1. Added the `aria-expanded` attribute and set its value to \"false\" to indicate that the combobox is currently collapsed.\n2. Added the `aria-controls` attribute and set its value"
+      }
+    ]
+  }
+]

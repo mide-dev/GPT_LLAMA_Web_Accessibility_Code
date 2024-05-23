@@ -1,0 +1,29 @@
+[
+  {
+    "analysisDetails": [
+      {
+        "model": "GPT"
+      },
+      {
+        "accessibility_type": "aria-required-attr"
+      },
+      {
+        "prompt_technique": "fewShot"
+      },
+      {
+        "temperature": 0.5
+      }
+    ],
+    "accessbilityTestResult": {
+      "violationBeforeModification": 1,
+      "violationAfterModification": 0
+    },
+    "modelCorrections": [
+      {
+        "beforeModification": "<input type=\"search\" autocomplete=\"off\" role=\"combobox\" aria-label=\"Search for option\" class=\"form-control\">",
+        "afterModification": "<input type=\"search\" autocomplete=\"off\" role=\"combobox\" aria-label=\"Search for option\" aria-expanded=\"false\" aria-controls=\"listbox-id\" class=\"form-control\">",
+        "rawOutput": "```html\n<input type=\"search\" autocomplete=\"off\" role=\"combobox\" aria-label=\"Search for option\" aria-expanded=\"false\" aria-controls=\"listbox-id\" class=\"form-control\">\n```"
+      }
+    ]
+  }
+]

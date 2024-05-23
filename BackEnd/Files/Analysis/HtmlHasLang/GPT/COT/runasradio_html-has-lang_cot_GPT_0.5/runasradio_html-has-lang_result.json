@@ -1,0 +1,29 @@
+[
+  {
+    "analysisDetails": [
+      {
+        "model": "GPT"
+      },
+      {
+        "accessibility_type": "html-has-lang"
+      },
+      {
+        "prompt_technique": "cot"
+      },
+      {
+        "temperature": 0.5
+      }
+    ],
+    "accessbilityTestResult": {
+      "violationBeforeModification": 1,
+      "violationAfterModification": 0
+    },
+    "modelCorrections": [
+      {
+        "beforeModification": "<html prefix=\"og: http://ogp.me/ns#\">",
+        "afterModification": "<html lang=\"en\" prefix=\"og: http://ogp.me/ns#\">",
+        "rawOutput": "Given the extracted text \"We are grateful for the\", it suggests the content is in English. Therefore, the correction involves adding the \"lang\" attribute to the `<html>` tag to specify the language of the content, which is essential for accessibility, particularly for screen readers which use this attribute to provide the correct language pronunciation.\n\n- Thought: I need to correct the above HTML by adding the \"lang\" attribute and assigning \"en\" as the language code since the extracted text implies that the content is in English.\n\n- Corrected HTML: `<html lang=\"en\" prefix=\"og: http://ogp.me/ns#\">`"
+      }
+    ]
+  }
+]

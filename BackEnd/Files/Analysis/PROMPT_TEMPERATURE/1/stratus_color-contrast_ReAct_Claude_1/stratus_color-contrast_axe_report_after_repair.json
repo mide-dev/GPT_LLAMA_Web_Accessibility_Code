@@ -1,0 +1,2137 @@
+{
+  "testEngine": {
+    "name": "axe-core",
+    "version": "4.8.4"
+  },
+  "testRunner": {
+    "name": "axe"
+  },
+  "testEnvironment": {
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/122.0.0.0 Safari/537.36",
+    "windowWidth": 800,
+    "windowHeight": 600,
+    "orientationAngle": 0,
+    "orientationType": "portrait-primary"
+  },
+  "timestamp": "2024-05-08T19:04:57.563Z",
+  "url": "https://www.stratus.com/",
+  "toolOptions": {
+    "runOnly": {
+      "type": "rule",
+      "values": [
+        "color-contrast"
+      ]
+    },
+    "reporter": "v1"
+  },
+  "inapplicable": [],
+  "passes": [
+    {
+      "id": "color-contrast",
+      "impact": "serious",
+      "tags": [
+        "cat.color",
+        "wcag2aa",
+        "wcag143",
+        "TTv5",
+        "TT13.c",
+        "EN-301-549",
+        "EN-9.1.4.3",
+        "ACT"
+      ],
+      "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+      "help": "Elements must meet minimum color contrast ratio thresholds",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/color-contrast?application=axeAPI",
+      "nodes": [
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#29246a",
+                "bgColor": "#efefef",
+                "contrastRatio": 11.74,
+                "fontSize": "12.0pt (16px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 11.74"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a rel=\"noopener\" tabindex=\"0\" href=\"https://www.stratus.com/about/company-information/privacy-policy/\" target=\"_blank\" class=\" osano-cm-storage-policy osano-cm-content__link osano-cm-link \" aria-describedby=\"osano-cm-aria.newWindow\"><!--?lit$0546939037$-->Privacy Policy</a>",
+          "target": [
+            ".osano-cm-storage-policy"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#29246a",
+                "bgColor": "#efefef",
+                "contrastRatio": 11.74,
+                "fontSize": "12.0pt (16px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 11.74"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a rel=\"noopener\" tabindex=\"0\" href=\"#2b266d6b-3aab-4ee4-898c-cb15eaabf08c\" class=\" osano-cm-drawer-links__link osano-cm-link osano-cm-link--type_manage \"><!--?lit$0546939037$-->Storage Preferences</a>",
+          "target": [
+            ".osano-cm-drawer-links__link"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#1d5c9f",
+                "bgColor": "#efefef",
+                "contrastRatio": 5.92,
+                "fontSize": "12.0pt (16px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 5.92"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<span class=\" osano-cm-toggle__label osano-cm-label \"><!--?lit$0546939037$-->Targeted Advertising</span>",
+          "target": [
+            ".osano-cm-list__list-item.osano-cm-list-item:nth-child(1) > .osano-cm-list-item__toggle.osano-cm-toggle > .osano-cm-toggle__label.osano-cm-label"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#1d5c9f",
+                "bgColor": "#efefef",
+                "contrastRatio": 5.92,
+                "fontSize": "12.0pt (16px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 5.92"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<span class=\" osano-cm-toggle__label osano-cm-label \"><!--?lit$0546939037$-->Personalization</span>",
+          "target": [
+            ".osano-cm-list__list-item.osano-cm-list-item:nth-child(2) > .osano-cm-list-item__toggle.osano-cm-toggle > .osano-cm-toggle__label.osano-cm-label"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#1d5c9f",
+                "bgColor": "#efefef",
+                "contrastRatio": 5.92,
+                "fontSize": "12.0pt (16px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 5.92"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<span class=\" osano-cm-toggle__label osano-cm-label \"><!--?lit$0546939037$-->Analytics</span>",
+          "target": [
+            ".osano-cm-list__list-item.osano-cm-list-item:nth-child(3) > .osano-cm-list-item__toggle.osano-cm-toggle > .osano-cm-toggle__label.osano-cm-label"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#ffffff",
+                "bgColor": "#1d5c9f",
+                "contrastRatio": 6.8,
+                "fontSize": "12.0pt (16px)",
+                "fontWeight": "bold",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 6.8"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<button class=\" osano-cm-save osano-cm-buttons__button osano-cm-button osano-cm-button--type_save \" tabindex=\"0\"> <!--?lit$0546939037$-->Save </button>",
+          "target": [
+            ".osano-cm-save"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#ffffff",
+                "bgColor": "#1d5c9f",
+                "contrastRatio": 6.8,
+                "fontSize": "12.0pt (16px)",
+                "fontWeight": "bold",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 6.8"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<button class=\" osano-cm-accept-all osano-cm-buttons__button osano-cm-button osano-cm-button--type_accept \" tabindex=\"0\"> <!--?lit$0546939037$-->Accept All </button>",
+          "target": [
+            ".osano-cm-accept-all"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#ffffff",
+                "bgColor": "#1d5c9f",
+                "contrastRatio": 6.8,
+                "fontSize": "12.0pt (16px)",
+                "fontWeight": "bold",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 6.8"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<button class=\" osano-cm-denyAll osano-cm-buttons__button osano-cm-button osano-cm-button--type_denyAll \" tabindex=\"0\"> <!--?lit$0546939037$-->Reject All </button>",
+          "target": [
+            ".osano-cm-denyAll"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "messageKey": "hidden"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is hidden"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<input type=\"text\" name=\"s\" value=\"Start Typing...\" aria-label=\"Search\" data-placeholder=\"Start Typing...\">",
+          "target": [
+            "input[type=\"text\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "messageKey": "hidden"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is hidden"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<input type=\"search\" placeholder=\"Search..\" aria-label=\"Search field\" class=\" input\">",
+          "target": [
+            ".input"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#1c5aa8",
+                "bgColor": "#f2f2f2",
+                "contrastRatio": 6.09,
+                "fontSize": "16.8pt (22.4px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 6.09"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<span style=\"color: #1c5aa8;\">Welcome, how close are you to the Edge?</span>",
+          "target": [
+            ".vc_custom_1574876399334 > .wpb_wrapper > h2:nth-child(1) > strong > span"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#000000",
+                "bgColor": "#f2f2f2",
+                "contrastRatio": 18.75,
+                "fontSize": "16.8pt (22.4px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 18.75"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<h2>Stratus is helping transform your<br>\nindustry with innovative solutions</h2>",
+          "target": [
+            ".vc_custom_1574876399334 > .wpb_wrapper > h2:nth-child(2)"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#000000",
+                "bgColor": "#ffffff",
+                "contrastRatio": 21,
+                "fontSize": "14.4pt (19.2px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 21"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<h3>Rubberlite</h3>",
+          "target": [
+            ".vc_custom_1571777232143 > .wpb_wrapper > h3"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#000000",
+                "bgColor": "#ffffff",
+                "contrastRatio": 21,
+                "fontSize": "12.0pt (16px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 21"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<p>“We were really impressed with the scalability that the Stratus was able to offer us”<br>\nJessica Spurlock</p>",
+          "target": [
+            ".vc_custom_1571777232143 > .wpb_wrapper > p"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#000000",
+                "bgColor": "#ffffff",
+                "contrastRatio": 21,
+                "fontSize": "14.4pt (19.2px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 21"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<h3>Automation Plus</h3>",
+          "target": [
+            ".vc_custom_1571777727575 > .wpb_wrapper > h3"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#000000",
+                "bgColor": "#ffffff",
+                "contrastRatio": 21,
+                "fontSize": "12.0pt (16px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 21"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<p>“They’ve got a solid solution that is going to last, is easy to maintain, and comes from trusted key partners”<br>\nJohn Glenski</p>",
+          "target": [
+            ".vc_custom_1571777727575 > .wpb_wrapper > p"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#000000",
+                "bgColor": "#f2f2f2",
+                "contrastRatio": 18.75,
+                "fontSize": "16.8pt (22.4px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 18.75"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<h2>You may not know it but your world already runs on Stratus</h2>",
+          "target": [
+            ".wpb_animate_when_almost_visible > .wpb_wrapper > h2"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#404040",
+                "bgColor": "#fcb034",
+                "contrastRatio": 5.62,
+                "fontSize": "13.5pt (18px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 5.62"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<span>Learn More</span>",
+          "target": [
+            ".nectar-button > span"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#1e73be",
+                "bgColor": "#ffffff",
+                "contrastRatio": 4.93,
+                "fontSize": "16.8pt (22.4px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 4.93"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<span style=\"color: #1e73be;\">Stratus Solutions</span>",
+          "target": [
+            ".padding-2-percent.vc_col-sm-12[data-padding-pos=\"all\"] > .vc_column-inner > .wpb_wrapper > .wpb_text_column.wpb_content_element > .wpb_wrapper > h2 > strong > span"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#000000",
+                "bgColor": "#ffffff",
+                "contrastRatio": 21,
+                "fontSize": "12.0pt (16px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 21"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<p style=\"text-align: left;\">No matter the industry, companies are under unprecedented pressure to optimize business performance and efficiency. Automation and modernization are key – and downtime or lack of security are not an option. You work in an “Always On World.”</p>",
+          "target": [
+            ".padding-2-percent.vc_col-sm-12[data-padding-pos=\"all\"] > .vc_column-inner > .wpb_wrapper > .wpb_text_column.wpb_content_element > .wpb_wrapper > p:nth-child(2)"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#000000",
+                "bgColor": "#ffffff",
+                "contrastRatio": 21,
+                "fontSize": "12.0pt (16px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 21"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<p style=\"text-align: left;\">",
+          "target": [
+            ".wpb_wrapper > p:nth-child(3)"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#000000",
+                "bgColor": "#ffffff",
+                "contrastRatio": 21,
+                "fontSize": "12.0pt (16px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 21"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<p style=\"text-align: left;\">",
+          "target": [
+            ".wpb_wrapper > p:nth-child(4)"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#1a6cb3",
+                "bgColor": "#dbf3ff",
+                "contrastRatio": 4.75,
+                "fontSize": "16.8pt (22.4px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 4.75"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<span style=\"color: #1a6cb3;\">Industries Optimizing the Edge</span>",
+          "target": [
+            ".vc_custom_1574876409690 > .wpb_wrapper > h2:nth-child(1) > strong > span"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#000000",
+                "bgColor": "#dbf3ff",
+                "contrastRatio": 18.27,
+                "fontSize": "16.8pt (22.4px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 18.27"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<h2>Across industries and global organizations,<br>\nEdge Computing is driving seismic business change</h2>",
+          "target": [
+            ".vc_custom_1574876409690 > .wpb_wrapper > h2:nth-child(2)"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#ffffff",
+                "bgColor": "#54585a",
+                "contrastRatio": 7.19,
+                "fontSize": "10.5pt (14px)",
+                "fontWeight": "bold",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 7.19"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<span class=\"footer-about\">About Stratus Technologies</span>",
+          "target": [
+            ".footer-about"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#ffffff",
+                "bgColor": "#54585a",
+                "contrastRatio": 7.19,
+                "fontSize": "10.5pt (14px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 7.19"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div style=\"display: flex!important;font-size: 14px;line-height: 18px;\">An&nbsp;<img decoding=\"async\" class=\"sghlogoft\" src=\"/wp-content/uploads/footer-logo-small.png\">Company</div>",
+          "target": [
+            ".sgh-footer > div"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#ffffff",
+                "bgColor": "#54585a",
+                "contrastRatio": 7.19,
+                "fontSize": "10.5pt (14px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 7.19"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<p>",
+          "target": [
+            ".sgh-footer > p:nth-child(4)"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#ffffff",
+                "bgColor": "#54585a",
+                "contrastRatio": 7.19,
+                "fontSize": "10.5pt (14px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 7.19"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a href=\"/partners/join-partner-program/\">Partner with Stratus</a>",
+          "target": [
+            "#menu-item-88197 > a"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#ffffff",
+                "bgColor": "#54585a",
+                "contrastRatio": 7.19,
+                "fontSize": "10.5pt (14px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 7.19"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a href=\"https://www.stratus.com/partners/stratus-var-program/\">Stratus VAR Program</a>",
+          "target": [
+            "#menu-item-92307 > a"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#ffffff",
+                "bgColor": "#54585a",
+                "contrastRatio": 7.19,
+                "fontSize": "10.5pt (14px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 7.19"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a href=\"https://www.stratus.com/partners/stratus-channel-partner-program/\">Channel Partners</a>",
+          "target": [
+            "#menu-item-88198 > a"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#ffffff",
+                "bgColor": "#54585a",
+                "contrastRatio": 7.19,
+                "fontSize": "10.5pt (14px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 7.19"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a href=\"/oem/\">OEM Partners</a>",
+          "target": [
+            "#menu-item-88199 > a[href$=\"oem/\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#ffffff",
+                "bgColor": "#54585a",
+                "contrastRatio": 7.19,
+                "fontSize": "10.5pt (14px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 7.19"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a href=\"https://www.stratus.com/solution-builder/\">Solution Builder Partners</a>",
+          "target": [
+            "#menu-item-92308 > a"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#ffffff",
+                "bgColor": "#54585a",
+                "contrastRatio": 7.19,
+                "fontSize": "10.5pt (14px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 7.19"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a href=\"https://www.stratus.com/partners/strategic-partners/\">Strategic Software Partners</a>",
+          "target": [
+            "#menu-item-88201 > a"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#ffffff",
+                "bgColor": "#54585a",
+                "contrastRatio": 7.19,
+                "fontSize": "10.5pt (14px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 7.19"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a href=\"https://www.stratus.com/partners/system-integrator-partners/\">Stratus System Integrator Program</a>",
+          "target": [
+            "#menu-item-88200 > a"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#ffffff",
+                "bgColor": "#54585a",
+                "contrastRatio": 7.19,
+                "fontSize": "10.5pt (14px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 7.19"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a href=\"https://www.stratus.com/partners/technology-partners/\">Technology Partners</a>",
+          "target": [
+            "#menu-item-88202 > a"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#ffffff",
+                "bgColor": "#54585a",
+                "contrastRatio": 7.19,
+                "fontSize": "10.5pt (14px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 7.19"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a href=\"https://www.stratus.com/edge-computing/\">Edge Computing</a>",
+          "target": [
+            "#menu-item-88206 > a"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#ffffff",
+                "bgColor": "#54585a",
+                "contrastRatio": 7.19,
+                "fontSize": "10.5pt (14px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 7.19"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a href=\"https://www.stratus.com/iiot/\">IIoT</a>",
+          "target": [
+            "#menu-item-88207 > a[href$=\"iiot/\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#ffffff",
+                "bgColor": "#54585a",
+                "contrastRatio": 7.19,
+                "fontSize": "10.5pt (14px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 7.19"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a href=\"https://www.stratus.com/virtualization/\">Virtualization</a>",
+          "target": [
+            "#menu-item-88208 > a"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#ffffff",
+                "bgColor": "#54585a",
+                "contrastRatio": 7.19,
+                "fontSize": "10.5pt (14px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 7.19"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a href=\"https://www.stratus.com/availability/\">Availability</a>",
+          "target": [
+            "#menu-item-88209 > a"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#ffffff",
+                "bgColor": "#54585a",
+                "contrastRatio": 7.19,
+                "fontSize": "10.5pt (14px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 7.19"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a href=\"https://www.stratus.com/cloud-computing/\">Cloud Computing</a>",
+          "target": [
+            "#menu-item-88210 > a"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#ffffff",
+                "bgColor": "#54585a",
+                "contrastRatio": 7.19,
+                "fontSize": "10.5pt (14px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 7.19"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a href=\"https://www.stratus.com/fault-tolerant/\">Fault-Tolerant</a>",
+          "target": [
+            "#menu-item-88211 > a"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#ffffff",
+                "bgColor": "#54585a",
+                "contrastRatio": 7.19,
+                "fontSize": "10.5pt (14px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 7.19"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a href=\"https://www.stratus.com/cost-of-downtime/\">Cost of Downtime</a>",
+          "target": [
+            "#menu-item-88212 > a"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#ffffff",
+                "bgColor": "#54585a",
+                "contrastRatio": 7.19,
+                "fontSize": "10.5pt (14px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 7.19"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a href=\"https://www.stratus.com/industry/industrial-automation/\">Industrial Automation</a>",
+          "target": [
+            "#menu-item-88213 > a"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#ffffff",
+                "bgColor": "#54585a",
+                "contrastRatio": 7.19,
+                "fontSize": "10.5pt (14px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 7.19"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a href=\"/about/\">About Stratus</a>",
+          "target": [
+            "a[href$=\"about/\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#ffffff",
+                "bgColor": "#54585a",
+                "contrastRatio": 7.19,
+                "fontSize": "10.5pt (14px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 7.19"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a href=\"https://www.stratus.com/about/company-information/locations/\">Locations</a>",
+          "target": [
+            "#menu-item-88360 > a"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#ffffff",
+                "bgColor": "#54585a",
+                "contrastRatio": 7.19,
+                "fontSize": "10.5pt (14px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 7.19"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a href=\"https://www.stratus.com/about/company-information/careers/\">Careers</a>",
+          "target": [
+            "#menu-item-16297 > a"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#ffffff",
+                "bgColor": "#54585a",
+                "contrastRatio": 7.19,
+                "fontSize": "10.5pt (14px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 7.19"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a target=\"_blank\" rel=\"noopener\" href=\"https://lp.stratus.com/contact-us/\">Contact Us</a>",
+          "target": [
+            "#menu-item-91409 > a[rel=\"noopener\"][target=\"_blank\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#ffffff",
+                "bgColor": "#666666",
+                "contrastRatio": 5.74,
+                "fontSize": "9.0pt (12px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 5.74"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"footer-copyright\" style=\"background-color: #666666;\">",
+          "target": [
+            ".footer-copyright"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#ffffff",
+                "bgColor": "#707070",
+                "contrastRatio": 4.95,
+                "fontSize": "9.0pt (12px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 4.95"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<b style=\"background-color: #707070;\">5 Mill &amp; Main Place, Suite 500. Maynard, MA 01754, USA<span class=\"footer-phone\" style=\"background-color: #707070;\">Tel#: +1 978-461-7000</span></b>",
+          "target": [
+            "b"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#ffffff",
+                "bgColor": "#707070",
+                "contrastRatio": 4.95,
+                "fontSize": "9.0pt (12px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 4.95"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<span class=\"footer-phone\" style=\"background-color: #707070;\">Tel#: +1 978-461-7000</span>",
+          "target": [
+            ".footer-phone"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#ffffff",
+                "bgColor": "#6b6f6f",
+                "contrastRatio": 5.08,
+                "fontSize": "7.5pt (10px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 5.08"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a href=\"/services-support/customer-support/service-terms-and-conditions/\" style=\"padding: 0px 10px;font-size:10px;background-color:#6b6f6f;color:#ffffff;\">Service Terms</a>",
+          "target": [
+            ".footer-links > a:nth-child(2)"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#ffffff",
+                "bgColor": "#616161",
+                "contrastRatio": 6.19,
+                "fontSize": "7.5pt (10px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 6.19"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a href=\"/about/company-information/do-not-sell-or-share-information/\" style=\"font-size:10px; background-color: #616161; color: #ffffff;\" target=\"_blank\">Do Not Sell or Share My Personal Information</a>",
+          "target": [
+            ".footer-links > a[target=\"_blank\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#1d5c9f",
+                "bgColor": "#ffffff",
+                "contrastRatio": 6.8,
+                "fontSize": "9.8pt (13px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 6.8"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<span class=\"wglanguage-name\">English</span>",
+          "target": [
+            ".wglanguage-name"
+          ]
+        }
+      ]
+    }
+  ],
+  "incomplete": [
+    {
+      "id": "color-contrast",
+      "impact": "serious",
+      "tags": [
+        "cat.color",
+        "wcag2aa",
+        "wcag143",
+        "TTv5",
+        "TT13.c",
+        "EN-301-549",
+        "EN-9.1.4.3",
+        "ACT"
+      ],
+      "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+      "help": "Elements must meet minimum color contrast ratio thresholds",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/color-contrast?application=axeAPI",
+      "nodes": [
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "contrastRatio": 0,
+                "fontSize": "12.0pt (16px)",
+                "fontWeight": "normal",
+                "messageKey": "elmPartiallyObscuring",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element's background color could not be determined because it partially overlaps other elements"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<span id=\"e2a68cd0-bc1f-455f-a628-fa949bc33eb4__label\" class=\" osano-cm-content__message osano-cm-message \">",
+          "target": [
+            "#e2a68cd0-bc1f-455f-a628-fa949bc33eb4__label"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because it partially overlaps other elements"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fontSize": "9.0pt (12px)",
+                "fontWeight": "normal",
+                "messageKey": "pseudoContent",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<div id=\"header-outer\" data-has-menu=\"true\" data-has-buttons=\"yes\" data-header-button_style=\"default\" data-using-pr-menu=\"false\" data-mobile-fixed=\"false\" data-ptnm=\"false\" data-lhe=\"default\" data-user-set-bg=\"#ededed\" data-format=\"default\" data-permanent-transparent=\"false\" data-megamenu-rt=\"0\" data-remove-fixed=\"0\" data-header-resize=\"0\" data-cart=\"false\" data-transparency-option=\"1\" data-box-shadow=\"small\" data-shrink-num=\"6\" data-using-secondary=\"1\" data-using-logo=\"1\" data-logo-height=\"70\" data-m-logo-height=\"35\" data-padding=\"8\" data-full-width=\"true\" data-condense=\"false\" data-transparent-header=\"true\" data-transparent-shadow-helper=\"true\" data-remove-border=\"true\" class=\"transparent\">",
+                  "target": [
+                    "#header-outer"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element's background color could not be determined due to a pseudo element"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<span class=\"menu-title-text\">Downloads</span>",
+          "target": [
+            "a[href$=\"downloads/\"] > .menu-title-text"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fontSize": "9.0pt (12px)",
+                "fontWeight": "normal",
+                "messageKey": "pseudoContent",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<div id=\"header-outer\" data-has-menu=\"true\" data-has-buttons=\"yes\" data-header-button_style=\"default\" data-using-pr-menu=\"false\" data-mobile-fixed=\"false\" data-ptnm=\"false\" data-lhe=\"default\" data-user-set-bg=\"#ededed\" data-format=\"default\" data-permanent-transparent=\"false\" data-megamenu-rt=\"0\" data-remove-fixed=\"0\" data-header-resize=\"0\" data-cart=\"false\" data-transparency-option=\"1\" data-box-shadow=\"small\" data-shrink-num=\"6\" data-using-secondary=\"1\" data-using-logo=\"1\" data-logo-height=\"70\" data-m-logo-height=\"35\" data-padding=\"8\" data-full-width=\"true\" data-condense=\"false\" data-transparent-header=\"true\" data-transparent-shadow-helper=\"true\" data-remove-border=\"true\" class=\"transparent\">",
+                  "target": [
+                    "#header-outer"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element's background color could not be determined due to a pseudo element"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<span class=\"menu-title-text\">Request a Quote</span>",
+          "target": [
+            "#menu-item-82389 > a[rel=\"noopener\"][target=\"_blank\"] > .menu-title-text"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fontSize": "9.0pt (12px)",
+                "fontWeight": "normal",
+                "messageKey": "pseudoContent",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<div id=\"header-outer\" data-has-menu=\"true\" data-has-buttons=\"yes\" data-header-button_style=\"default\" data-using-pr-menu=\"false\" data-mobile-fixed=\"false\" data-ptnm=\"false\" data-lhe=\"default\" data-user-set-bg=\"#ededed\" data-format=\"default\" data-permanent-transparent=\"false\" data-megamenu-rt=\"0\" data-remove-fixed=\"0\" data-header-resize=\"0\" data-cart=\"false\" data-transparency-option=\"1\" data-box-shadow=\"small\" data-shrink-num=\"6\" data-using-secondary=\"1\" data-using-logo=\"1\" data-logo-height=\"70\" data-m-logo-height=\"35\" data-padding=\"8\" data-full-width=\"true\" data-condense=\"false\" data-transparent-header=\"true\" data-transparent-shadow-helper=\"true\" data-remove-border=\"true\" class=\"transparent\">",
+                  "target": [
+                    "#header-outer"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element's background color could not be determined due to a pseudo element"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<span class=\"menu-title-text\">Request a Demo</span>",
+          "target": [
+            "#menu-item-82390 > a[rel=\"noopener\"][target=\"_blank\"] > .menu-title-text"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "contrastRatio": 0,
+                "fontSize": "20.3pt (27px)",
+                "fontWeight": "bold",
+                "messageKey": "bgOverlap",
+                "expectedContrastRatio": "3:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element's background color could not be determined because it is overlapped by another element"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<rs-layer id=\"slider-51-slide-175-layer-1\" data-type=\"text\" data-color=\"rgba(255,255,255,1)\" data-xy=\"xo:223px,114px,75px,26px;yo:189px,193px,89px,85px;\" data-text=\"w:normal;s:25,27,25,20;l:50,40,35,30;fw:700;\" data-dim=\"w:532px,546px,340px,90%;\" data-basealign=\"slide\" data-rsp_o=\"off\" data-rsp_bd=\"off\" data-frame_0=\"o:1;\" data-frame_1=\"e:default;sp:0;\" data-frame_999=\"o:1;st:w;sR:8700;\" style=\"z-index: 9; font-family: Roboto; height: auto; color: rgb(255, 255, 255); text-decoration: none; white-space: normal; width: 546px; min-height: 0px; min-width: 0px; max-height: none; max-width: none; text-align: left; line-height: 40px; letter-spacing: 0px; font-weight: 700; font-size: 27px; backdrop-filter: none; filter: none; transform-origin: 50% 50%; transform: translate(0px, 0px); opacity: 1; visibility: visible;\" class=\"rs-layer\" data-idcheck=\"true\" data-stylerecorder=\"true\" data-initialised=\"true\">",
+          "target": [
+            "#slider-51-slide-175-layer-1"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because it is overlapped by another element"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "contrastRatio": 0,
+                "fontSize": "12.8pt (17px)",
+                "fontWeight": "normal",
+                "messageKey": "bgOverlap",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element's background color could not be determined because it is overlapped by another element"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<rs-layer id=\"slider-51-slide-175-layer-3\" data-type=\"text\" data-color=\"rgba(255,255,255,0.85)\" data-xy=\"xo:220px,114px,74px,26px;yo:321px,313px,214px,163px;\" data-text=\"w:normal;s:17,17,17,13;l:22;ls:2px;fw:500;\" data-dim=\"w:460px,536px,340px,90%;h:63px,auto,auto,auto;\" data-basealign=\"slide\" data-rsp_o=\"off\" data-rsp_bd=\"off\" data-frame_0=\"o:1;\" data-frame_1=\"e:default;sp:0;\" data-frame_999=\"o:1;st:w;sR:8700;\" style=\"z-index: 8; font-family: Roboto; height: auto; color: rgba(255, 255, 255, 0.85); text-decoration: none; white-space: normal; width: 536px; min-height: 0px; min-width: 0px; max-height: none; max-width: none; text-align: left; line-height: 22px; letter-spacing: 2px; font-weight: 500; font-size: 17px; backdrop-filter: none; filter: none; transform-origin: 50% 50%; transform: translate(0px, 0px); opacity: 1; visibility: visible;\" class=\"rs-layer\" data-idcheck=\"true\" data-stylerecorder=\"true\" data-initialised=\"true\">",
+          "target": [
+            "#slider-51-slide-175-layer-3"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because it is overlapped by another element"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "contrastRatio": 0,
+                "fontSize": "11.3pt (15px)",
+                "fontWeight": "bold",
+                "messageKey": "bgOverlap",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element's background color could not be determined because it is overlapped by another element"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<a id=\"slider-51-slide-175-layer-4\" class=\"rs-layer home-slider-ztc-srl-2-2-cta rev-btn\" href=\"/solutions/platforms/ztc-endurance/\" target=\"_self\" rel=\"nofollow\" data-type=\"button\" data-color=\"rgba(255,204,0,1)\" data-xy=\"x:l,l,l,c;xo:215px,107px,56px,0;yo:460px,409px,366px,256px;\" data-text=\"w:normal,normal,nowrap,normal;s:15,15,12,12;l:30,50,30,30;ls:3px,3px,2px,2px;fw:900,700,700,700;a:center;\" data-dim=\"w:460px,558px,363px,90%;\" data-basealign=\"slide\" data-rsp_o=\"off\" data-rsp_bd=\"off\" data-padding=\"t:10,5,5,10;r:20,20,10,20;b:10,5,5,10;l:20,20,10,20;\" data-border=\"bos:solid;boc:rgba(255,204,0,1);bow:2px,2px,2px,2px;\" data-frame_0=\"o:1;\" data-frame_1=\"sp:0;\" data-frame_999=\"o:1;st:w;sR:8700;\" data-frame_hover=\"c:#000;bgc:#ffcc00;boc:#ffcc00;bor:0px,0px,0px,0px;bos:solid;bow:2px,2px,2px,2px;oX:50;oY:50;sp:0;e:power1.inOut;\" style=\"z-index: 11; font-family: Roboto; cursor: pointer; outline: none; box-shadow: none; box-sizing: border-box; height: auto; color: rgb(255, 204, 0); text-decoration: none; white-space: normal; width: 558px; min-height: 0px; min-width: 0px; max-height: none; max-width: none; text-align: center; line-height: 50px; letter-spacing: 3px; font-weight: 700; font-size: 15px; border-color: rgb(255, 204, 0); border-style: solid; border-width: 2px; padding: 5px 20px; background-color: rgba(0, 0, 0, 0); backdrop-filter: none; filter: none; transform-origin: 50% 50%; transform: translate(0px, 0px); opacity: 1; visibility: visible;\" data-idcheck=\"true\" data-stylerecorder=\"true\" data-initialised=\"true\">",
+          "target": [
+            "#slider-51-slide-175-layer-4"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because it is overlapped by another element"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "contrastRatio": 0,
+                "fontSize": "20.3pt (27px)",
+                "fontWeight": "bold",
+                "messageKey": "bgOverlap",
+                "expectedContrastRatio": "3:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element's background color could not be determined because it is overlapped by another element"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<rs-layer id=\"slider-51-slide-168-layer-1\" data-type=\"text\" data-color=\"rgba(255,255,255,1)\" data-xy=\"xo:233px,114px,75px,26px;yo:190px,193px,89px,85px;\" data-text=\"w:normal;s:27,27,25,20;l:50,40,35,30;fw:700;\" data-dim=\"w:512px,546px,340px,90%;\" data-basealign=\"slide\" data-rsp_o=\"off\" data-rsp_bd=\"off\" data-frame_0=\"o:1;\" data-frame_1=\"e:default;sp:0;\" data-frame_999=\"o:1;st:w;sR:8700;\" style=\"z-index: 11; font-family: Roboto; height: auto; color: rgb(255, 255, 255); text-decoration: none; white-space: normal; width: 546px; min-height: 0px; min-width: 0px; max-height: none; max-width: none; text-align: left; line-height: 40px; letter-spacing: 0px; font-weight: 700; font-size: 27px; backdrop-filter: none; filter: none; transform-origin: 50% 50%; transform: translate3d(0px, 0px, 0px); opacity: 1; visibility: visible;\" class=\"rs-layer\" data-idcheck=\"true\" data-stylerecorder=\"true\" data-initialised=\"true\">",
+          "target": [
+            "#slider-51-slide-168-layer-1"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because it is overlapped by another element"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "contrastRatio": 0,
+                "fontSize": "12.8pt (17px)",
+                "fontWeight": "normal",
+                "messageKey": "bgOverlap",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element's background color could not be determined because it is overlapped by another element"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<rs-layer id=\"slider-51-slide-168-layer-3\" data-type=\"text\" data-color=\"rgba(255,255,255,0.85)\" data-xy=\"xo:231px,114px,74px,26px;yo:321px,313px,214px,163px;\" data-text=\"w:normal;s:17,17,17,13;l:22;ls:2px;fw:500;\" data-dim=\"w:460px,536px,340px,90%;h:63px,auto,auto,auto;\" data-basealign=\"slide\" data-rsp_o=\"off\" data-rsp_bd=\"off\" data-frame_0=\"o:1;\" data-frame_1=\"e:default;sp:0;\" data-frame_999=\"o:1;st:w;sR:8700;\" style=\"z-index: 10; font-family: Roboto; height: auto; color: rgba(255, 255, 255, 0.85); text-decoration: none; white-space: normal; width: 536px; min-height: 0px; min-width: 0px; max-height: none; max-width: none; text-align: left; line-height: 22px; letter-spacing: 2px; font-weight: 500; font-size: 17px; backdrop-filter: none; filter: none; transform-origin: 50% 50%; transform: translate3d(0px, 0px, 0px); opacity: 1; visibility: visible;\" class=\"rs-layer\" data-idcheck=\"true\" data-stylerecorder=\"true\" data-initialised=\"true\">",
+          "target": [
+            "#slider-51-slide-168-layer-3"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because it is overlapped by another element"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "contrastRatio": 0,
+                "fontSize": "11.3pt (15px)",
+                "fontWeight": "bold",
+                "messageKey": "bgOverlap",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element's background color could not be determined because it is overlapped by another element"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<a id=\"slider-51-slide-168-layer-4\" class=\"rs-layer rev-btn\" href=\"/partners/schneider-electric-micro-data-centers/\" target=\"_self\" rel=\"nofollow\" data-type=\"button\" data-color=\"rgba(255,204,0,1)\" data-xy=\"x:l,l,l,c;xo:188px,107px,56px,0;yo:460px,409px,366px,256px;\" data-text=\"w:normal,normal,nowrap,normal;s:15,15,12,12;l:30,50,30,30;ls:3px,3px,2px,2px;fw:900,700,700,700;a:center;\" data-dim=\"w:460px,558px,363px,90%;\" data-basealign=\"slide\" data-rsp_o=\"off\" data-rsp_bd=\"off\" data-padding=\"t:10,5,5,10;r:20,20,10,20;b:10,5,5,10;l:20,20,10,20;\" data-border=\"bos:solid;boc:rgba(255,204,0,1);bow:2px,2px,2px,2px;\" data-frame_0=\"o:1;\" data-frame_1=\"sp:0;\" data-frame_999=\"o:1;st:w;sR:8700;\" data-frame_hover=\"c:#000;bgc:#ffcc00;boc:#ffcc00;bor:0px,0px,0px,0px;bos:solid;bow:2px,2px,2px,2px;oX:50;oY:50;sp:0;e:power1.inOut;\" style=\"z-index: 13; font-family: Roboto; cursor: pointer; outline: none; box-shadow: none; box-sizing: border-box; height: auto; color: rgb(255, 204, 0); text-decoration: none; white-space: normal; width: 558px; min-height: 0px; min-width: 0px; max-height: none; max-width: none; text-align: center; line-height: 50px; letter-spacing: 3px; font-weight: 700; font-size: 15px; border-color: rgb(255, 204, 0); border-style: solid; border-width: 2px; padding: 5px 20px; background-color: rgba(0, 0, 0, 0); backdrop-filter: none; filter: none; transform-origin: 50% 50%; transform: translate3d(0px, 0px, 0px); opacity: 1; visibility: visible;\" data-idcheck=\"true\" data-stylerecorder=\"true\" data-initialised=\"true\">",
+          "target": [
+            "#slider-51-slide-168-layer-4"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because it is overlapped by another element"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "contrastRatio": 0,
+                "fontSize": "13.5pt (18px)",
+                "fontWeight": "normal",
+                "messageKey": "bgOverlap",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element's background color could not be determined because it is overlapped by another element"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<strong>COVID-19 Help and Preparedness for Customers and Partners</strong>",
+          "target": [
+            "a[href=\"/?page_id=85922\"] > strong"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because it is overlapped by another element"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "contrastRatio": 0,
+                "fontSize": "13.5pt (18px)",
+                "fontWeight": "normal",
+                "messageKey": "bgOverlap",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element's background color could not be determined because it is overlapped by another element"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<h4>Oil &amp; Gas</h4>",
+          "target": [
+            ".vc_custom_1575908540386 > .wpb_wrapper > h4"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because it is overlapped by another element"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "contrastRatio": 0,
+                "fontSize": "13.5pt (18px)",
+                "fontWeight": "normal",
+                "messageKey": "bgOverlap",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element's background color could not be determined because it is overlapped by another element"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<h4>Pharmaceutical</h4>",
+          "target": [
+            ".vc_custom_1574798050121 > .wpb_wrapper > h4"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because it is overlapped by another element"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "contrastRatio": 0,
+                "fontSize": "13.5pt (18px)",
+                "fontWeight": "normal",
+                "messageKey": "bgOverlap",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element's background color could not be determined because it is overlapped by another element"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<h4>Food &amp; Beverage</h4>",
+          "target": [
+            ".vc_custom_1574875608647 > .wpb_wrapper > h4"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because it is overlapped by another element"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "contrastRatio": 0,
+                "fontSize": "13.5pt (18px)",
+                "fontWeight": "normal",
+                "messageKey": "bgOverlap",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element's background color could not be determined because it is overlapped by another element"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<h4>Water &amp; Wastewater</h4>",
+          "target": [
+            ".vc_custom_1575908500686 > .wpb_wrapper > h4"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because it is overlapped by another element"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "contrastRatio": 0,
+                "fontSize": "13.5pt (18px)",
+                "fontWeight": "normal",
+                "messageKey": "bgOverlap",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element's background color could not be determined because it is overlapped by another element"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<h4>Power &amp; Utilities</h4>",
+          "target": [
+            ".vc_custom_1575908554197 > .wpb_wrapper > h4"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because it is overlapped by another element"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "contrastRatio": 0,
+                "fontSize": "13.5pt (18px)",
+                "fontWeight": "normal",
+                "messageKey": "bgOverlap",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element's background color could not be determined because it is overlapped by another element"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<h4>Retail</h4>",
+          "target": [
+            ".vc_custom_1574798206079 > .wpb_wrapper > h4"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because it is overlapped by another element"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "contrastRatio": 0,
+                "fontSize": "13.5pt (18px)",
+                "fontWeight": "normal",
+                "messageKey": "bgOverlap",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element's background color could not be determined because it is overlapped by another element"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<h4>Transportation</h4>",
+          "target": [
+            ".vc_custom_1574798257080 > .wpb_wrapper > h4"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because it is overlapped by another element"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "contrastRatio": 0,
+                "fontSize": "13.5pt (18px)",
+                "fontWeight": "normal",
+                "messageKey": "bgOverlap",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element's background color could not be determined because it is overlapped by another element"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<h4>Smart Building</h4>",
+          "target": [
+            ".vc_custom_1575908570600 > .wpb_wrapper > h4"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because it is overlapped by another element"
+        }
+      ]
+    }
+  ],
+  "violations": [
+    {
+      "id": "color-contrast",
+      "impact": "serious",
+      "tags": [
+        "cat.color",
+        "wcag2aa",
+        "wcag143",
+        "TTv5",
+        "TT13.c",
+        "EN-301-549",
+        "EN-9.1.4.3",
+        "ACT"
+      ],
+      "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+      "help": "Elements must meet minimum color contrast ratio thresholds",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/color-contrast?application=axeAPI",
+      "nodes": [
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#fcb034",
+                "bgColor": "#54585a",
+                "contrastRatio": 3.9,
+                "fontSize": "15.0pt (20px)",
+                "fontWeight": "normal",
+                "messageKey": null,
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<div id=\"footer-outer\" data-cols=\"4\" data-custom-color=\"true\" data-disable-copyright=\"false\" data-matching-section-color=\"false\" data-copyright-line=\"true\" data-using-bg-img=\"false\" data-bg-img-overlay=\"0.8\" data-full-width=\"false\" data-using-widget-area=\"true\" data-link-hover=\"default\" data-midnight=\"light\">",
+                  "target": [
+                    "#footer-outer"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element has insufficient color contrast of 3.9 (foreground color: #fcb034, background color: #54585a, font size: 15.0pt (20px), font weight: normal). Expected contrast ratio of 4.5:1"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<h4> tag to apply the new foreground color.\n\nCorrected HTML: </h4>",
+          "target": [
+            "#nav_menu-6 > h4:nth-child(1)"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 3.9 (foreground color: #fcb034, background color: #54585a, font size: 15.0pt (20px), font weight: normal). Expected contrast ratio of 4.5:1"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#fcb034",
+                "bgColor": "#54585a",
+                "contrastRatio": 3.9,
+                "fontSize": "15.0pt (20px)",
+                "fontWeight": "normal",
+                "messageKey": null,
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<div id=\"footer-outer\" data-cols=\"4\" data-custom-color=\"true\" data-disable-copyright=\"false\" data-matching-section-color=\"false\" data-copyright-line=\"true\" data-using-bg-img=\"false\" data-bg-img-overlay=\"0.8\" data-full-width=\"false\" data-using-widget-area=\"true\" data-link-hover=\"default\" data-midnight=\"light\">",
+                  "target": [
+                    "#footer-outer"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element has insufficient color contrast of 3.9 (foreground color: #fcb034, background color: #54585a, font size: 15.0pt (20px), font weight: normal). Expected contrast ratio of 4.5:1"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<h4 style=\"color: #ffd280;\">PARTNERS</h4>",
+          "target": [
+            "#nav_menu-6 > h4:nth-child(2)"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 3.9 (foreground color: #fcb034, background color: #54585a, font size: 15.0pt (20px), font weight: normal). Expected contrast ratio of 4.5:1"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#fcb034",
+                "bgColor": "#54585a",
+                "contrastRatio": 3.9,
+                "fontSize": "15.0pt (20px)",
+                "fontWeight": "normal",
+                "messageKey": null,
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<div id=\"footer-outer\" data-cols=\"4\" data-custom-color=\"true\" data-disable-copyright=\"false\" data-matching-section-color=\"false\" data-copyright-line=\"true\" data-using-bg-img=\"false\" data-bg-img-overlay=\"0.8\" data-full-width=\"false\" data-using-widget-area=\"true\" data-link-hover=\"default\" data-midnight=\"light\">",
+                  "target": [
+                    "#footer-outer"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element has insufficient color contrast of 3.9 (foreground color: #fcb034, background color: #54585a, font size: 15.0pt (20px), font weight: normal). Expected contrast ratio of 4.5:1"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<h4> tag to apply the new foreground color.\n\nCorrected HTML: </h4>",
+          "target": [
+            "#nav_menu-7 > h4:nth-child(1)"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 3.9 (foreground color: #fcb034, background color: #54585a, font size: 15.0pt (20px), font weight: normal). Expected contrast ratio of 4.5:1"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#fcb034",
+                "bgColor": "#54585a",
+                "contrastRatio": 3.9,
+                "fontSize": "15.0pt (20px)",
+                "fontWeight": "normal",
+                "messageKey": null,
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<div id=\"footer-outer\" data-cols=\"4\" data-custom-color=\"true\" data-disable-copyright=\"false\" data-matching-section-color=\"false\" data-copyright-line=\"true\" data-using-bg-img=\"false\" data-bg-img-overlay=\"0.8\" data-full-width=\"false\" data-using-widget-area=\"true\" data-link-hover=\"default\" data-midnight=\"light\">",
+                  "target": [
+                    "#footer-outer"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element has insufficient color contrast of 3.9 (foreground color: #fcb034, background color: #54585a, font size: 15.0pt (20px), font weight: normal). Expected contrast ratio of 4.5:1"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<h4 style=\"color: #ffd700;\">TOPICS</h4>",
+          "target": [
+            "#nav_menu-7 > h4:nth-child(2)"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 3.9 (foreground color: #fcb034, background color: #54585a, font size: 15.0pt (20px), font weight: normal). Expected contrast ratio of 4.5:1"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#fcb034",
+                "bgColor": "#54585a",
+                "contrastRatio": 3.9,
+                "fontSize": "15.0pt (20px)",
+                "fontWeight": "normal",
+                "messageKey": null,
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<div id=\"footer-outer\" data-cols=\"4\" data-custom-color=\"true\" data-disable-copyright=\"false\" data-matching-section-color=\"false\" data-copyright-line=\"true\" data-using-bg-img=\"false\" data-bg-img-overlay=\"0.8\" data-full-width=\"false\" data-using-widget-area=\"true\" data-link-hover=\"default\" data-midnight=\"light\">",
+                  "target": [
+                    "#footer-outer"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element has insufficient color contrast of 3.9 (foreground color: #fcb034, background color: #54585a, font size: 15.0pt (20px), font weight: normal). Expected contrast ratio of 4.5:1"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<h4> tag to apply the new foreground color.\n\nCorrected HTML: </h4>",
+          "target": [
+            "#nav_menu-5 > h4:nth-child(1)"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 3.9 (foreground color: #fcb034, background color: #54585a, font size: 15.0pt (20px), font weight: normal). Expected contrast ratio of 4.5:1"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#fcb034",
+                "bgColor": "#54585a",
+                "contrastRatio": 3.9,
+                "fontSize": "15.0pt (20px)",
+                "fontWeight": "normal",
+                "messageKey": null,
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<div id=\"footer-outer\" data-cols=\"4\" data-custom-color=\"true\" data-disable-copyright=\"false\" data-matching-section-color=\"false\" data-copyright-line=\"true\" data-using-bg-img=\"false\" data-bg-img-overlay=\"0.8\" data-full-width=\"false\" data-using-widget-area=\"true\" data-link-hover=\"default\" data-midnight=\"light\">",
+                  "target": [
+                    "#footer-outer"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element has insufficient color contrast of 3.9 (foreground color: #fcb034, background color: #54585a, font size: 15.0pt (20px), font weight: normal). Expected contrast ratio of 4.5:1"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<h4 style=\"color: #ffd700;\">QUICK LINKS</h4>",
+          "target": [
+            "#nav_menu-5 > h4:nth-child(2)"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 3.9 (foreground color: #fcb034, background color: #54585a, font size: 15.0pt (20px), font weight: normal). Expected contrast ratio of 4.5:1"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#ffffff",
+                "bgColor": "#757979",
+                "contrastRatio": 4.4,
+                "fontSize": "7.5pt (10px)",
+                "fontWeight": "normal",
+                "messageKey": null,
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<a href=\"/about/company-information/privacy-policy/\" style=\"font-size:10px; background-color:#757979;\">Privacy Policy</a>",
+                  "target": [
+                    ".footer-links > a:nth-child(1)"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element has insufficient color contrast of 4.4 (foreground color: #ffffff, background color: #757979, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<a href=\"/about/company-information/privacy-policy/\" style=\"font-size:10px; background-color:#757979;\">Privacy Policy</a>",
+          "target": [
+            ".footer-links > a:nth-child(1)"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.4 (foreground color: #ffffff, background color: #757979, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1"
+        }
+      ]
+    }
+  ]
+}

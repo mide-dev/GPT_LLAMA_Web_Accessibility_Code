@@ -20,9 +20,9 @@
     },
     "modelCorrections": [
       {
-        "beforeModification": "<html><head></head><body></body></html>",
-        "afterModification": "<html>` element is missing a \"lang\" attribute, which is necessary for defining the language of the content. This helps in accessibility, especially for screen readers, to ensure they use the correct language settings.\n\n- Action: Add `lang=\"en\"` (assuming English is the primary language of the content) to the `<html>` tag.\n\n- Corrected HTML: `<html lang=\"en\"><head></head><body></body></html>",
-        "rawOutput": "- Thought: The `<html>` element is missing a \"lang\" attribute, which is necessary for defining the language of the content. This helps in accessibility, especially for screen readers, to ensure they use the correct language settings.\n\n- Action: Add `lang=\"en\"` (assuming English is the primary language of the content) to the `<html>` tag.\n\n- Corrected HTML: `<html lang=\"en\"><head></head><body></body></html>`"
+        "beforeModification": "<html class=\"history svg video supports boxshadow csstransforms3d csstransitions backgroundcliptext webkit chrome win js sticky-header-enabled sticky-header-active\">",
+        "afterModification": "<html lang=\"en\" class=\"history svg video supports boxshadow csstransforms3d csstransitions backgroundcliptext webkit chrome win js sticky-header-enabled sticky-header-active\">",
+        "rawOutput": "- Thought: I need to correct the above HTML by adding the \"lang\" attribute and assigning the right language to it.\n- Observation: Since the Extracted text from the website is \"CCTV Camera\" without any specific language context, and assuming it's meant for an English-speaking audience based on the common use of English for technology products and websites, the site should likely be in English.\n- Action: Add [lang=\"en\"] to the HTML.\n- Corrected HTML: <html lang=\"en\" class=\"history svg video supports boxshadow csstransforms3d csstransitions backgroundcliptext webkit chrome win js sticky-header-enabled sticky-header-active\">"
       }
     ]
   }

@@ -1,0 +1,39 @@
+[
+  {
+    "analysisDetails": [
+      {
+        "model": "GPT"
+      },
+      {
+        "accessibility_type": "aria-allowed-attr"
+      },
+      {
+        "prompt_technique": "fewShot"
+      },
+      {
+        "temperature": 0.5
+      }
+    ],
+    "accessbilityTestResult": {
+      "violationBeforeModification": 3,
+      "violationAfterModification": 0
+    },
+    "modelCorrections": [
+      {
+        "beforeModification": "<label aria-controls=\"collapseOne\" aria-expanded=\"true\" class=\"radio\" data-target=\"#offerbox-main-buy-now-details\" data-toggle=\"collapse\">",
+        "afterModification": "<label class=\"radio\" data-target=\"#offerbox-main-buy-now-details\" data-toggle=\"collapse\">",
+        "rawOutput": "```html\n<label class=\"radio\" data-target=\"#offerbox-main-buy-now-details\" data-toggle=\"collapse\">\n```"
+      },
+      {
+        "beforeModification": "<label aria-controls=\"leaseCalculator\" aria-expanded=\"false\" class=\"radio\" data-target=\"#offerbox-main-lease-calculator\" data-toggle=\"collapse\">",
+        "afterModification": "<label class=\"radio\" data-target=\"#offerbox-main-lease-calculator\" data-toggle=\"collapse\">",
+        "rawOutput": "```html\n<label class=\"radio\" data-target=\"#offerbox-main-lease-calculator\" data-toggle=\"collapse\">\n```"
+      },
+      {
+        "beforeModification": "<label aria-controls=\"makeOfferDetails\" aria-expanded=\"false\" class=\"radio\" data-target=\"#offerbox-main-make-offer-details\" data-toggle=\"collapse\">",
+        "afterModification": "<label class=\"radio\" data-target=\"#offerbox-main-make-offer-details\" data-toggle=\"collapse\">",
+        "rawOutput": "```html\n<label class=\"radio\" data-target=\"#offerbox-main-make-offer-details\" data-toggle=\"collapse\">\n```"
+      }
+    ]
+  }
+]

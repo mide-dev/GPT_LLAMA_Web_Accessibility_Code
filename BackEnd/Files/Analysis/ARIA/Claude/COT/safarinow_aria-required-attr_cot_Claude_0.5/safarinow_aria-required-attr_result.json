@@ -1,0 +1,29 @@
+[
+  {
+    "analysisDetails": [
+      {
+        "model": "Claude"
+      },
+      {
+        "accessibility_type": "aria-required-attr"
+      },
+      {
+        "prompt_technique": "cot"
+      },
+      {
+        "temperature": 0.5
+      }
+    ],
+    "accessbilityTestResult": {
+      "violationBeforeModification": 1,
+      "violationAfterModification": 0
+    },
+    "modelCorrections": [
+      {
+        "beforeModification": "<input type=\"text\" name=\"SearchFilterFilterSearchTerm\" id=\"SearchFilterFilterSearchTerm\" autocomplete=\"off\" aria-invalid=\"false\" class=\"hero-search-listing Typeahead tt-input\" onfocus=\"if (!window.__cfRLUnblockHandlers) return false; this.placeholder =''\" placeholder=\"Where would you like to go?\" maxlength=\"30\" spellcheck=\"false\" dir=\"auto\" aria-activedescendant=\"\" aria-owns=\"SearchFilterFilterSearchTerm_listbox\" role=\"combobox\" aria-readonly=\"true\" aria-autocomplete=\"list\" style=\"position: relative; vertical-align: top; background-color: rgba(0, 0, 0, 0);\">",
+        "afterModification": "<input type=\"text\" name=\"SearchFilterFilterSearchTerm\" id=\"SearchFilterFilterSearchTerm\" autocomplete=\"off\" aria-invalid=\"false\" class=\"hero-search-listing Typeahead tt-input\" onfocus=\"if (!window.__cfRLUnblockHandlers) return false; this.placeholder =''\" placeholder=\"Where would you like to go?\" maxlength=\"30\" spellcheck=\"false\" dir=\"auto\" aria-activedescendant=\"\" aria-controls=\"SearchFilterFilterSearchTerm_listbox\" role=\"combobox\" aria-expanded=\"false\" aria-autocomplete=\"list\" style=\"position: relative; vertical-align: top; background-color: rgba(0, 0, 0, 0);\">",
+        "rawOutput": "- Thought: The input element has a role of combobox, which requires the aria-expanded and aria-controls attributes according to WCAG 2.1. The aria-owns attribute is deprecated in ARIA 1.1 and should be replaced with aria-controls. The aria-readonly attribute is not necessary for a combobox.\n\n- Corrected HTML:\n<input type=\"text\" name=\"SearchFilterFilterSearchTerm\" id=\"SearchFilterFilterSearchTerm\" autocomplete=\"off\" aria-invalid=\"false\" class=\"hero-search-listing Typeahead tt-input\" onfocus=\"if (!window.__cfRLUnblockHandlers) return false; this.placeholder =''\" placeholder=\"Where would you like to go?\" maxlength=\"30\" spellcheck=\"false\" dir=\"auto\" aria-activedescendant=\"\" aria-controls=\"SearchFilterFilterSearchTerm_listbox\" role=\"combobox\" aria-expanded=\"false\" aria-autocomplete=\"list\" style=\"position: relative; vertical-align: top; background-color: rgba(0, 0, 0, 0);\">"
+      }
+    ]
+  }
+]

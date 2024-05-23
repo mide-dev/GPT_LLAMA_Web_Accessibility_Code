@@ -1,0 +1,29 @@
+[
+  {
+    "analysisDetails": [
+      {
+        "model": "GPT"
+      },
+      {
+        "accessibility_type": "aria-required-attr"
+      },
+      {
+        "prompt_technique": "ReAct"
+      },
+      {
+        "temperature": 0.5
+      }
+    ],
+    "accessbilityTestResult": {
+      "violationBeforeModification": 1,
+      "violationAfterModification": 0
+    },
+    "modelCorrections": [
+      {
+        "beforeModification": "<input class=\"search_input\" id=\"search_input\" maxlength=\"2048\" name=\"search\" type=\"search\" autocapitalize=\"off\" autocomplete=\"off\" autocorrect=\"off\" role=\"combobox\" spellcheck=\"false\" onkeyup=\"showClear();showSuggestions()\" onclick=\"showShadow()\" onblur=\"hideShadow();\" oncancel=\"clearBox()\" oninput=\"showClear();showSuggestions()\" onchange=\"showClear();showSuggestions()\" onfocus=\"showSuggestions()\" value=\"\">",
+        "afterModification": "<input class=\"search_input\" id=\"search_input\" maxlength=\"2048\" name=\"search\" type=\"search\" autocapitalize=\"off\" autocomplete=\"off\" autocorrect=\"off\" role=\"combobox\" spellcheck=\"false\" aria-expanded=\"false\" aria-controls=\"suggestionsList\" onkeyup=\"showClear();showSuggestions()\" onclick=\"showShadow()\" onblur=\"hideShadow();\" oncancel=\"clearBox()\" oninput=\"showClear();showSuggestions()\" onchange=\"showClear();showSuggestions()\" onfocus=\"showSuggestions()\" value=\"\">",
+        "rawOutput": "To address the WCAG 2.1 violation regarding the required ARIA attributes not present (aria-expanded, aria-controls) for an element with a role of \"combobox\", we need to ensure that these attributes are added to the HTML. The \"aria-expanded\" attribute indicates whether the combobox is currently expanded or collapsed, which is crucial for screen readers to convey the state of the combobox to users. The \"aria-controls\" attribute should reference the ID of the element that is controlled by the combobox, typically the list of suggestions or options that appear when the combobox is interacted with.\n\n- Incorrect HTML: `<input class=\"search_input\" id=\"search_input\" maxlength=\"2048\" name=\"search\" type=\"search\" autocapitalize=\"off\" autocomplete=\"off\" autocorrect=\"off\" role=\"combobox\" spellcheck=\"false\" onkeyup=\"showClear();showSuggestions()\" onclick=\"showShadow()\" onblur=\"hideShadow();\" oncancel=\"clearBox()\" oninput=\"showClear();showSuggestions()\" onchange=\"showClear();showSuggestions()\" onfocus=\"showSuggestions()\" value=\"\">`\n\n- Thought: The element has a role of \"combobox\", which means it should have attributes that allow assistive technologies to understand its state and control. Specifically, it lacks \"aria-expanded\" to indicate if the options are visible or not, and \"aria-controls\" to reference the ID of the element containing the list of options.\n\n- Observation: According to WCAG 2.1, a combobox should have \"aria-expanded\" to communicate its expanded or collapsed state and \"aria-controls\" to link it to the element it expands.\n\n- Action: Add `aria-expanded=\"false\"` (assuming the combobox starts in a collapsed state) and `aria-controls=\"suggestionsList\"` (assuming \"suggestionsList\" is the ID of the element containing the suggestions or options). The \"aria-controls\" value should match the actual ID of the controlled element in your HTML.\n\n- Corrected HTML: `<input class=\"search_input\" id=\"search_input\" maxlength=\"2048\" name=\"search\" type=\"search\" autocapitalize=\"off\" autocomplete=\"off\" autocorrect=\"off\" role=\"combobox\" spellcheck=\"false\" aria-expanded=\"false\" aria-controls=\"suggestionsList\" onkeyup=\"showClear();showSuggestions()\" onclick=\"showShadow()\" onblur=\"hideShadow();\" oncancel=\"clearBox()\" oninput=\"showClear();showSuggestions()\" onchange=\"showClear();showSuggestions()\" onfocus=\"showSuggestions()\" value=\"\">`\n\nNote: Ensure that there is an element with the ID \"suggestionsList\" that contains the suggestions or options for the combobox for the \"aria-controls\" attribute to be meaningful. If the actual ID differs, replace \"suggestionsList\" with the correct ID."
+      }
+    ]
+  }
+]

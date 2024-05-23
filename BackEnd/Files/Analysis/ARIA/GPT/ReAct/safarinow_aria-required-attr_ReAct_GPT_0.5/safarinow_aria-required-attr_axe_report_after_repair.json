@@ -1,0 +1,123 @@
+{
+  "testEngine": {
+    "name": "axe-core",
+    "version": "4.8.4"
+  },
+  "testRunner": {
+    "name": "axe"
+  },
+  "testEnvironment": {
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/122.0.0.0 Safari/537.36",
+    "windowWidth": 800,
+    "windowHeight": 600,
+    "orientationAngle": 0,
+    "orientationType": "portrait-primary"
+  },
+  "timestamp": "2024-04-15T21:51:40.605Z",
+  "url": "https://www.safarinow.com/",
+  "toolOptions": {
+    "runOnly": {
+      "type": "rule",
+      "values": [
+        "aria-required-attr"
+      ]
+    },
+    "reporter": "v1"
+  },
+  "inapplicable": [],
+  "passes": [
+    {
+      "id": "aria-required-attr",
+      "impact": "critical",
+      "tags": [
+        "cat.aria",
+        "wcag2a",
+        "wcag412",
+        "EN-301-549",
+        "EN-9.4.1.2"
+      ],
+      "description": "Ensures elements with ARIA roles have all required ARIA attributes",
+      "help": "Required ARIA attributes must be provided",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-required-attr?application=axeAPI",
+      "nodes": [
+        {
+          "any": [
+            {
+              "id": "aria-required-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "All required ARIA attributes are present"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<input type=\"text\" name=\"SearchFilterFilterSearchTerm\" id=\"SearchFilterFilterSearchTerm\" autocomplete=\"off\" aria-invalid=\"false\" class=\"hero-search-listing Typeahead tt-input\" onfocus=\"if (!window.__cfRLUnblockHandlers) return false; this.placeholder =''\" placeholder=\"Where would you like to go?\" maxlength=\"30\" spellcheck=\"false\" dir=\"auto\" aria-activedescendant=\"\" aria-owns=\"SearchFilterFilterSearchTerm_listbox\" role=\"combobox\" aria-readonly=\"true\" aria-autocomplete=\"list\" aria-expanded=\"false\" aria-controls=\"SearchFilterFilterSearchTerm_listbox\" style=\"position: relative; vertical-align: top; background-color: rgba(0, 0, 0, 0);\">",
+          "target": [
+            ".tt-input[name=\"SearchFilterFilterSearchTerm\"][placeholder=\"Where would you like to go?\"]:nth-child(3)"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "aria-required-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "All required ARIA attributes are present"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<span role=\"status\" aria-live=\"polite\" style=\"position: absolute; padding: 0px; border: 0px; height: 1px; width: 1px; margin-bottom: -1px; margin-right: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap;\"></span>",
+          "target": [
+            "span[role=\"status\"]"
+          ]
+        }
+      ]
+    }
+  ],
+  "incomplete": [],
+  "violations": [
+    {
+      "id": "aria-required-attr",
+      "impact": "critical",
+      "tags": [
+        "cat.aria",
+        "wcag2a",
+        "wcag412",
+        "EN-301-549",
+        "EN-9.4.1.2"
+      ],
+      "description": "Ensures elements with ARIA roles have all required ARIA attributes",
+      "help": "Required ARIA attributes must be provided",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-required-attr?application=axeAPI",
+      "nodes": [
+        {
+          "any": [
+            {
+              "id": "aria-required-attr",
+              "data": [
+                "aria-expanded",
+                "aria-controls"
+              ],
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "Required ARIA attributes not present: aria-expanded, aria-controls"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "critical",
+          "html": "<input type=\"text\" name=\"SearchFilterFilterSearchTerm\" id=\"SearchFilterFilterSearchTerm\" autocomplete=\"off\" aria-invalid=\"false\" class=\"hero-search-listing Typeahead tt-input\" onfocus=\"if (!window.__cfRLUnblockHandlers) return false; this.placeholder =''\" placeholder=\"Where would you like to go?\" maxlength=\"30\" spellcheck=\"false\" dir=\"auto\" aria-activedescendant=\"\" aria-owns=\"SearchFilterFilterSearchTerm_listbox\" role=\"combobox\" aria-readonly=\"true\" aria-autocomplete=\"list\" style=\"position: relative; vertical-align: top; background-color: rgba(0, 0, 0, 0);\">",
+          "target": [
+            ".tt-input[name=\"SearchFilterFilterSearchTerm\"][placeholder=\"Where would you like to go?\"]:nth-child(2)"
+          ],
+          "failureSummary": "Fix any of the following:\n  Required ARIA attributes not present: aria-expanded, aria-controls"
+        }
+      ]
+    }
+  ]
+}

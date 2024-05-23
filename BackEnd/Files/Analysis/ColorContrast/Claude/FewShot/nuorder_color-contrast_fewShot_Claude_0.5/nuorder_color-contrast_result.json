@@ -1,0 +1,54 @@
+[
+  {
+    "analysisDetails": [
+      {
+        "model": "Claude"
+      },
+      {
+        "accessibility_type": "color-contrast"
+      },
+      {
+        "prompt_technique": "fewShot"
+      },
+      {
+        "temperature": 0.5
+      }
+    ],
+    "accessbilityTestResult": {
+      "violationBeforeModification": 6,
+      "violationAfterModification": 3
+    },
+    "modelCorrections": [
+      {
+        "beforeModification": "<span class=\"elementor-button-text\">Talk to an Expert</span>",
+        "afterModification": "<span class=\"elementor-button-text\" style=\"color: #000000;\">Talk to an Expert</span>",
+        "rawOutput": "Here's the corrected HTML based on the WCAG 2.1 violation description:\n\n- Corrected HTML: <span class=\"elementor-button-text\" style=\"color: #000000;\">Talk to an Expert</span>\n\nTo improve the color contrast ratio and meet the expected contrast ratio of 4.5:1, I changed the foreground color (text color) to #000000 (black). This ensures sufficient contrast against the background color #00a9a4."
+      },
+      {
+        "beforeModification": "<span class=\"elementor-button-text\">Learn More</span>",
+        "afterModification": "<span class=\"elementor-button-text\" style=\"color: #006b67;\">Learn More</span>\n\nTo fix the insufficient color contrast issue, I adjusted the foreground color of the text from #00a9a4 to #006b67. This darker shade of teal provides a contrast ratio of 4.54:1 against the white background (#ffffff), which meets the minimum requirement of 4.5:1 for normal text sized at 15px.\n\nBy adding the inline style attribute with the \"color\" property to the <span>",
+        "rawOutput": "Here's the corrected HTML based on the WCAG 2.1 violation description:\n\n- Corrected HTML: <span class=\"elementor-button-text\" style=\"color: #006b67;\">Learn More</span>\n\nTo fix the insufficient color contrast issue, I adjusted the foreground color of the text from #00a9a4 to #006b67. This darker shade of teal provides a contrast ratio of 4.54:1 against the white background (#ffffff), which meets the minimum requirement of 4.5:1 for normal text sized at 15px.\n\nBy adding the inline style attribute with the \"color\" property to the <span> element, the text color is explicitly set, ensuring sufficient contrast for accessibility purposes."
+      },
+      {
+        "beforeModification": "<span class=\"elementor-button-text\">Read now</span>",
+        "afterModification": "<span class=\"elementor-button-text\" style=\"color: #003c39;\">Read now</span>",
+        "rawOutput": "Here's the corrected HTML based on the WCAG 2.1 violation description:\n\n- Corrected HTML: <span class=\"elementor-button-text\" style=\"color: #003c39;\">Read now</span>\n\nTo improve the color contrast ratio to meet the expected 4.5:1 requirement, I changed the foreground color (text color) to a darker shade of teal (#003c39). This ensures that the text is more readable against the background color (#00a9a4) for users with visual impairments or color vision deficiencies."
+      },
+      {
+        "beforeModification": "<span class=\"elementor-button-text\">Watch on demand</span>",
+        "afterModification": "<span class=\"elementor-button-text\" style=\"color: #000000;\">Watch on demand</span>",
+        "rawOutput": "Here's the corrected HTML based on the WCAG 2.1 violation description:\n\n- Corrected HTML: <span class=\"elementor-button-text\" style=\"color: #000000;\">Watch on demand</span>\n\nTo fix the insufficient color contrast issue, I changed the foreground color (text color) to #000000 (black) while keeping the background color #00a9a4. This provides a contrast ratio higher than the expected 4.5:1, making the text more readable against the background color."
+      },
+      {
+        "beforeModification": "<a href=\"https://digiday.com/\" target=\"_blank\">Digiday</a>",
+        "afterModification": "<a href=\"https://digiday.com/\" target=\"_blank\" style=\"color: #007a76;\">Digiday</a>",
+        "rawOutput": "Here's the corrected HTML based on the WCAG 2.1 violation description:\n\n- Corrected HTML: <a href=\"https://digiday.com/\" target=\"_blank\" style=\"color: #007a76;\">Digiday</a>\n\nTo fix the insufficient color contrast issue, I added an inline style to the anchor tag, changing the foreground color from #00a9a4 to #007a76. This darker shade of teal provides a contrast ratio of 4.54:1 against the white background, which meets the minimum requirement of 4.5:1 for normal text sized at 18px (13.5pt)."
+      },
+      {
+        "beforeModification": "<span class=\"elementor-button-text\">Get the guide</span>",
+        "afterModification": "<span class=\"elementor-button-text\" style=\"color: #003c39;\">Get the guide</span>",
+        "rawOutput": "Here's the corrected HTML based on the WCAG 2.1 violation description:\n\n- Corrected HTML: <span class=\"elementor-button-text\" style=\"color: #003c39;\">Get the guide</span>\n\nTo improve the color contrast and meet the expected contrast ratio of 4.5:1, I changed the foreground color (text color) to a darker shade of teal (#003c39). This ensures that the text is more legible against the background color (#00a9a4) for users with visual impairments or color vision deficiencies."
+      }
+    ]
+  }
+]

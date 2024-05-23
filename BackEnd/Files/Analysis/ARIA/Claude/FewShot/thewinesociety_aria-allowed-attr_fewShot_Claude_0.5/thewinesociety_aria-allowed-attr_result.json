@@ -1,0 +1,29 @@
+[
+  {
+    "analysisDetails": [
+      {
+        "model": "Claude"
+      },
+      {
+        "accessibility_type": "aria-allowed-attr"
+      },
+      {
+        "prompt_technique": "fewShot"
+      },
+      {
+        "temperature": 0.5
+      }
+    ],
+    "accessbilityTestResult": {
+      "violationBeforeModification": 1,
+      "violationAfterModification": 0
+    },
+    "modelCorrections": [
+      {
+        "beforeModification": "<input id=\"react-autowhatever-site-search-inputinput\" aria-haspopup=\"listbox\" aria-expanded=\"false\" type=\"text\" autocomplete=\"off\" aria-autocomplete=\"list\" aria-controls=\"react-autowhatever-site-search\" class=\"form-control input input--isLarge\" placeholder=\"Search wine and events\" aria-describedby=\"search-instructions\" value=\"\">",
+        "afterModification": "<input id=\"react-autowhatever-site-search-inputinput\" aria-haspopup=\"listbox\" type=\"text\" autocomplete=\"off\" aria-autocomplete=\"list\" aria-controls=\"react-autowhatever-site-search\" class=\"form-control input input--isLarge\" placeholder=\"Search wine and events\" aria-describedby=\"search-instructions\" value=\"\">",
+        "rawOutput": "Here's the corrected HTML based on the WCAG 2.1 violation description:\n\n- Corrected HTML:\n<input id=\"react-autowhatever-site-search-inputinput\" aria-haspopup=\"listbox\" type=\"text\" autocomplete=\"off\" aria-autocomplete=\"list\" aria-controls=\"react-autowhatever-site-search\" class=\"form-control input input--isLarge\" placeholder=\"Search wine and events\" aria-describedby=\"search-instructions\" value=\"\">\n\nExplanation:\nThe `aria-expanded` attribute is not allowed on the `<input>` element according to the WCAG 2.1 guidelines. It is typically used on elements that can expand or collapse, such as buttons or accordions. In this case, since the `<input>` element does not have an expandable/collapsible behavior, the `aria-expanded` attribute should be removed to ensure accessibility compliance."
+      }
+    ]
+  }
+]

@@ -1,0 +1,3204 @@
+{
+  "testEngine": {
+    "name": "axe-core",
+    "version": "4.8.4"
+  },
+  "testRunner": {
+    "name": "axe"
+  },
+  "testEnvironment": {
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/122.0.0.0 Safari/537.36",
+    "windowWidth": 800,
+    "windowHeight": 600,
+    "orientationAngle": 0,
+    "orientationType": "portrait-primary"
+  },
+  "timestamp": "2024-04-18T19:57:49.502Z",
+  "url": "https://www.linuxfoundation.org/",
+  "toolOptions": {
+    "runOnly": {
+      "type": "rule",
+      "values": [
+        "color-contrast"
+      ]
+    },
+    "reporter": "v1"
+  },
+  "inapplicable": [],
+  "passes": [
+    {
+      "id": "color-contrast",
+      "impact": "serious",
+      "tags": [
+        "cat.color",
+        "wcag2aa",
+        "wcag143",
+        "TTv5",
+        "TT13.c",
+        "EN-301-549",
+        "EN-9.1.4.3",
+        "ACT"
+      ],
+      "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+      "help": "Elements must meet minimum color contrast ratio thresholds",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/color-contrast?application=axeAPI",
+      "nodes": [
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#ffffff",
+                "bgColor": "#252e39",
+                "contrastRatio": 13.73,
+                "fontSize": "12.0pt (16px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 13.73"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<span id=\"101efe5a-93d9-435a-85d1-598b074522e3__label\" class=\" osano-cm-content__message osano-cm-message \">",
+          "target": [
+            "#\\31 01efe5a-93d9-435a-85d1-598b074522e3__label"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#ffffff",
+                "bgColor": "#5b1de7",
+                "contrastRatio": 7.56,
+                "fontSize": "12.0pt (16px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 7.56"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<span style=\"font-size: 16px; color: #ffffff;\">ONE Summit 2024 - April 29 - May 1, San Jose, CA&nbsp; <a href=\"https://events.linuxfoundation.org/one-summit-north-america\" rel=\"noopener\" style=\"text-decoration: underline;\">LEARN MORE</a></span>",
+          "target": [
+            ".top__bar--callout > span"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#ffffff",
+                "bgColor": "#5b1de7",
+                "contrastRatio": 7.56,
+                "fontSize": "11.4pt (15.2px)",
+                "fontWeight": "bold",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 7.56"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a href=\"https://events.linuxfoundation.org/one-summit-north-america\" rel=\"noopener\" style=\"text-decoration: underline;\">LEARN MORE</a>",
+          "target": [
+            ".top__bar--callout > span > a[rel=\"noopener\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#ffffff",
+                "bgColor": "#5b1de7",
+                "contrastRatio": 7.56,
+                "fontSize": "11.4pt (15.2px)",
+                "fontWeight": "bold",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 7.56"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<select class=\"menu--language__list\" onchange=\"window.open(this.options[this.selectedIndex].value, '_self');\">",
+          "target": [
+            "select"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#ffffff",
+                "bgColor": "#5b1de7",
+                "contrastRatio": 7.56,
+                "fontSize": "11.4pt (15.2px)",
+                "fontWeight": "bold",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 7.56"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a href=\"https://openprofile.dev/\" role=\"menuitem\" target=\"_blank\" rel=\"noopener\">Sign In</a>",
+          "target": [
+            ".top__bar-menu > .hs_cos_wrapper_type_simple_menu.hs_cos_wrapper_widget[data-hs-cos-type=\"simple_menu\"] > .hs-menu-wrapper.active-branch.flyouts > ul[role=\"menu\"] > .hs-menu-item.hs-menu-depth-1[role=\"none\"] > a[href$=\"openprofile.dev/\"][rel=\"noopener\"][target=\"_blank\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "messageKey": "hidden"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is hidden"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<input type=\"text\" class=\"hs-search-field__input\" name=\"term\" autocomplete=\"off\" aria-label=\"Search\" placeholder=\"Search the site...\">",
+          "target": [
+            ".hs-search-field__input"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#ffffff",
+                "bgColor": "#d80091",
+                "contrastRatio": 4.85,
+                "fontSize": "12.0pt (16px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 4.85"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a class=\"hs-button\n          hs-button--primary\n          mt--none\" href=\"https://www.linuxfoundation.org/about/join?hsLang=en\" style=\"background-color: #d80091;\">\n          Join\n          </a>",
+          "target": [
+            ".header-right > .header-button > .hs-button--primary.hs-button.mt--none"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#000000",
+                "bgColor": "#ffffff",
+                "contrastRatio": 21,
+                "fontSize": "31.5pt (42px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "3:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 21"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<h1 class=\"hero-img-mask__title\">Decentralized innovation.<br>Built on trust.</h1>",
+          "target": [
+            "h1"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#000000",
+                "bgColor": "#ffffff",
+                "contrastRatio": 21,
+                "fontSize": "13.5pt (18px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 21"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<span>The Linux Foundation provides a neutral, trusted hub for developers and organizations to code, manage, and scale open technology projects and ecosystems.</span>",
+          "target": [
+            ".hero-img-mask__supporting-content > p > span"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#ffffff",
+                "bgColor": "#d80093",
+                "contrastRatio": 4.83,
+                "fontSize": "12.0pt (16px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 4.83"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a class=\"hs-button\n          hs-button--primary\" href=\"https://www.linuxfoundation.org/projects?hsLang=en\" style=\"background-color: #d80093;\">\n  Learn More\n</a>",
+          "target": [
+            ".hero-img-mask__cta > .hs-button--primary.hs-button"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#000000",
+                "bgColor": "#ffffff",
+                "contrastRatio": 21,
+                "fontSize": "19.5pt (26px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "3:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 21"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<h2 class=\"counter-col__number col12 bold mt--none mb--none\">51M</h2>",
+          "target": [
+            ".counter-col__counter.mb--xs:nth-child(4) > .counter-col__number.bold.mb--none"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#000000",
+                "bgColor": "#ffffff",
+                "contrastRatio": 21,
+                "fontSize": "19.5pt (26px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "3:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 21"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<h2 class=\"counter-col__number col12 bold mt--none mb--none\">17K</h2>",
+          "target": [
+            ".counter-col__counter.mb--xs:nth-child(5) > .counter-col__number.bold.mb--none"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#000000",
+                "bgColor": "#ffffff",
+                "contrastRatio": 21,
+                "fontSize": "19.5pt (26px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "3:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 21"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<h2 class=\"counter-col__number col12 bold mt--none mb--none\">70+</h2>",
+          "target": [
+            ".counter-col__counter.mb--xs:nth-child(6) > .counter-col__number.bold.mb--none"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#000000",
+                "bgColor": "#ffffff",
+                "contrastRatio": 21,
+                "fontSize": "19.5pt (26px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "3:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 21"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<h2 class=\"section-title__title\">Getting started is easy.</h2>",
+          "target": [
+            ".section-title__container.align--center.pb--sm > .section-title__title"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#ffffff",
+                "bgColor": "#5b1de7",
+                "contrastRatio": 7.56,
+                "fontSize": "16.5pt (22px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 7.56"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<h3 class=\"two-col-blocks__title mt--none\">Become a Member</h3>",
+          "target": [
+            ".two-col-blocks__inner.col6:nth-child(1) > .two-col-blocks__inner-content.bg--secondary.section--dark > .two-col-blocks__title"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#ffffff",
+                "bgColor": "#5b1de7",
+                "contrastRatio": 7.56,
+                "fontSize": "13.5pt (18px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 7.56"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<span>Supercharge the future of open technology. Shape the ecosystem, drive collaboration, and measure your contributions.</span>",
+          "target": [
+            ".two-col-blocks__inner.col6:nth-child(1) > .two-col-blocks__inner-content.bg--secondary.section--dark > .two-col-blocks__supporting-content > p > span"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#ffffff",
+                "bgColor": "#5b1de7",
+                "contrastRatio": 7.56,
+                "fontSize": "12.0pt (16px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 7.56"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a class=\"hs-button\n                              hs-button--inline\n                              font--header\" href=\"https://www.linuxfoundation.org/about/join?hsLang=en\">\n                      Learn More\n                    </a>",
+          "target": [
+            ".two-col-blocks__inner.col6:nth-child(1) > .two-col-blocks__inner-content.bg--secondary.section--dark > .two-col-blocks__cta > .hs-button--inline.font--header.hs-button"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#ffffff",
+                "bgColor": "#5b1de7",
+                "contrastRatio": 7.56,
+                "fontSize": "16.5pt (22px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 7.56"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<h3 class=\"two-col-blocks__title mt--none\">Host a Project</h3>",
+          "target": [
+            ".two-col-blocks__inner.col6:nth-child(2) > .two-col-blocks__inner-content.bg--secondary.section--dark > .two-col-blocks__title"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#ffffff",
+                "bgColor": "#5b1de7",
+                "contrastRatio": 7.56,
+                "fontSize": "13.5pt (18px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 7.56"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<span>Enable your project to thrive in a neutral, trusted home, where we’ll help you scale your community with unmatched expertise, tools, and services.</span>",
+          "target": [
+            ".two-col-blocks__inner.col6:nth-child(2) > .two-col-blocks__inner-content.bg--secondary.section--dark > .two-col-blocks__supporting-content > p > span"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#ffffff",
+                "bgColor": "#5b1de7",
+                "contrastRatio": 7.56,
+                "fontSize": "12.0pt (16px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 7.56"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a class=\"hs-button\n                            hs-button--inline\n                            font--header\" href=\"https://www.linuxfoundation.org/projects/hosting?hsLang=en\">\n                    Learn More\n                  </a>",
+          "target": [
+            ".two-col-blocks__cta.text-color--white > .hs-button--inline.font--header.hs-button"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#000000",
+                "bgColor": "#f6f7fa",
+                "contrastRatio": 19.6,
+                "fontSize": "19.5pt (26px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "3:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 19.6"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<h2 class=\"projects-tabs-col__title align--center\">Explore our projects.</h2>",
+          "target": [
+            ".projects-tabs-col__title"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#5b1de7",
+                "bgColor": "#f6f7fa",
+                "contrastRatio": 7.06,
+                "fontSize": "12.0pt (16px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 7.06"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<label>Open Software</label>",
+          "target": [
+            ".active > label"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#5e5e5e",
+                "bgColor": "#f6f7fa",
+                "contrastRatio": 6.05,
+                "fontSize": "12.0pt (16px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 6.05"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<label style=\"color: #5e5e5e;\">Open Hardware</label>",
+          "target": [
+            "li[value=\"open-hardware\"] > label"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#5c5c5c",
+                "bgColor": "#f6f7fa",
+                "contrastRatio": 6.24,
+                "fontSize": "12.0pt (16px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 6.24"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<label style=\"color: #5c5c5c;\">Open Standards</label>",
+          "target": [
+            "li[value=\"open-standards\"] > label"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#5e5e5e",
+                "bgColor": "#f6f7fa",
+                "contrastRatio": 6.05,
+                "fontSize": "12.0pt (16px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 6.05"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<label style=\"color: #5e5e5e;\">Open Data</label>",
+          "target": [
+            "li[value=\"open-data\"] > label"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#000000",
+                "bgColor": "#f6f7fa",
+                "contrastRatio": 19.6,
+                "fontSize": "19.5pt (26px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "3:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 19.6"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<h2 class=\"banner-img-mask__title mt--none\">Security</h2>",
+          "target": [
+            ".section--widget_1661709687877 > .banner-img-mask.section-wrapper > .banner-img-mask__wrapper > .flex-row--reverse.banner-img-mask__container.align-items--center > .pb--md.section--light.pt--md > .banner-img-mask__title.mt--none"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#000000",
+                "bgColor": "#f6f7fa",
+                "contrastRatio": 19.6,
+                "fontSize": "13.5pt (18px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 19.6"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<span>Report security vulnerabilities, find guidance on emerging threats, and quickly find the security resources you need from across the Linux Foundation.</span>",
+          "target": [
+            ".section--widget_1661709687877 > .banner-img-mask.section-wrapper > .banner-img-mask__wrapper > .flex-row--reverse.banner-img-mask__container.align-items--center > .pb--md.section--light.pt--md > .banner-img-mask__supporting-content > p:nth-child(1) > span"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#000000",
+                "bgColor": "#f6f7fa",
+                "contrastRatio": 19.6,
+                "fontSize": "19.5pt (26px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "3:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 19.6"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<h2 class=\"banner-img-mask__title mt--none\">Sustainability</h2>",
+          "target": [
+            ".section--module_1713223099242 > .banner-img-mask.section-wrapper > .banner-img-mask__wrapper > .flex-row--reverse.banner-img-mask__container.align-items--center > .pb--md.section--light.pt--md > .banner-img-mask__title.mt--none"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#000000",
+                "bgColor": "#f6f7fa",
+                "contrastRatio": 19.6,
+                "fontSize": "13.5pt (18px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 19.6"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<span>Discover how LF projects are contributing to the UN Sustainable Development Goals.</span>",
+          "target": [
+            ".section--module_1713223099242 > .banner-img-mask.section-wrapper > .banner-img-mask__wrapper > .flex-row--reverse.banner-img-mask__container.align-items--center > .pb--md.section--light.pt--md > .banner-img-mask__supporting-content > p:nth-child(1) > span"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#000000",
+                "bgColor": "#ffffff",
+                "contrastRatio": 21,
+                "fontSize": "19.5pt (26px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "3:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 21"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<h2 class=\"simple-img-mask__title\">THRIVE-ONE Annual Subscriptions</h2>",
+          "target": [
+            ".simple-img-mask__title"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#000000",
+                "bgColor": "#ffffff",
+                "contrastRatio": 21,
+                "fontSize": "13.5pt (18px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 21"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"simple-img-mask__supporting-content\">\n              You will THRIVE with unlimited access to more than 50 e-learning courses! Get your 10-day free trial.\n            </div>",
+          "target": [
+            ".simple-img-mask__supporting-content"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#ffffff",
+                "bgColor": "#d80093",
+                "contrastRatio": 4.83,
+                "fontSize": "12.0pt (16px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 4.83"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a class=\"hs-button\n                  hs-button--primary\" href=\"https://training.linuxfoundation.org/subscriptions/\" target=\"_blank\" rel=\"noopener\" style=\"background-color: #d80093;\">\n    JOIN TODAY\n</a>",
+          "target": [
+            ".simple-img-mask__cta > .hs-button--primary.hs-button[rel=\"noopener\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#000000",
+                "bgColor": "#f6f7fa",
+                "contrastRatio": 19.6,
+                "fontSize": "19.5pt (26px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "3:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 19.6"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<h2 class=\"banner-img-mask__title mt--none\">ONE Summit 2024</h2>",
+          "target": [
+            ".pb--sm.section--light.pt--md > .banner-img-mask__title.mt--none"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#000000",
+                "bgColor": "#f6f7fa",
+                "contrastRatio": 19.6,
+                "fontSize": "13.5pt (18px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 19.6"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<span><strong>San Jose, CA</strong><br><strong>April 29 - May 1, 2024</strong><br><br>ONE Summit is the <em>ONE</em> industry event to focus on the best practices, technical challenges, and business opportunities facing network decision makers from Access to Edge to Cloud.<br></span>",
+          "target": [
+            ".pb--sm.section--light.pt--md > .banner-img-mask__supporting-content > p > span:nth-child(1)"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#000000",
+                "bgColor": "#f6f7fa",
+                "contrastRatio": 19.6,
+                "fontSize": "13.5pt (18px)",
+                "fontWeight": "bold",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 19.6"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<strong>San Jose, CA</strong>",
+          "target": [
+            ".pb--sm.section--light.pt--md > .banner-img-mask__supporting-content > p > span:nth-child(1) > strong:nth-child(1)"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#000000",
+                "bgColor": "#f6f7fa",
+                "contrastRatio": 19.6,
+                "fontSize": "13.5pt (18px)",
+                "fontWeight": "bold",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 19.6"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<strong>April 29 - May 1, 2024</strong>",
+          "target": [
+            "strong:nth-child(3)"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#000000",
+                "bgColor": "#f6f7fa",
+                "contrastRatio": 19.6,
+                "fontSize": "13.5pt (18px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 19.6"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<em>ONE</em>",
+          "target": [
+            "em"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#ffffff",
+                "bgColor": "#d80092",
+                "contrastRatio": 4.84,
+                "fontSize": "12.0pt (16px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 4.84"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a class=\"hs-button\n          hs-button--primary\" href=\"https://events.linuxfoundation.org/one-summit-north-america/\" target=\"_blank\" rel=\"noopener\" style=\"background-color: #d80092;\">\n  Learn More\n</a>",
+          "target": [
+            ".banner-img-mask__cta > .hs-button--primary.hs-button[rel=\"noopener\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#000000",
+                "bgColor": "#ffffff",
+                "contrastRatio": 21,
+                "fontSize": "19.5pt (26px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "3:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 21"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<h2 class=\"banner-img-mask__title mt--none\">2024 State of Tech Talent Report</h2>",
+          "target": [
+            ".section--widget_1661718436744 > .banner-img-mask.section-wrapper > .banner-img-mask__wrapper > .banner-img-mask__container.align-items--center.jc--space-between > .pb--md.section--light.pt--md > .banner-img-mask__title.mt--none"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#000000",
+                "bgColor": "#ffffff",
+                "contrastRatio": 21,
+                "fontSize": "13.5pt (18px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 21"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<p>LF Research and LF Training &amp; Certification partnered again this year to study trends in the technical talent market, surveying individuals responsible for hiring and training IT professionals.</p>",
+          "target": [
+            ".banner-img-mask__supporting-content > div > p"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#ffffff",
+                "bgColor": "#d80093",
+                "contrastRatio": 4.83,
+                "fontSize": "12.0pt (16px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 4.83"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a class=\"hs-button\n          hs-button--primary\" href=\"/research/open-source-jobs-report-2024?hsLang=en\" style=\"background-color: #d80093;\">\n  Read Now\n</a>",
+          "target": [
+            ".pb--md.section--light.pt--md > .banner-img-mask__cta > .hs-button--primary.hs-button"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#000000",
+                "bgColor": "#f6f7fa",
+                "contrastRatio": 19.6,
+                "fontSize": "19.5pt (26px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "3:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 19.6"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<h2 class=\"section-title__title mt--none mb--none\">The latest from the Linux Foundation</h2>",
+          "target": [
+            ".section-title__title.mb--none.mt--none"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#000000",
+                "bgColor": "#ffffff",
+                "contrastRatio": 21,
+                "fontSize": "12.0pt (16px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 21"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<h6 class=\"resources-cards__tagline\">Announcement</h6>",
+          "target": [
+            ".bg--1 > .resources-cards__content > h6"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#000000",
+                "bgColor": "#ffffff",
+                "contrastRatio": 21,
+                "fontSize": "18.0pt (24px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "3:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 21"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<h4 class=\"resources-cards__title\">Linux Foundation, ISC2 and OpenSSF Collaborate to Target Secure Code Development</h4>",
+          "target": [
+            ".bg--1 > .resources-cards__content > .resources-cards__title"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#0077cc",
+                "bgColor": "#ffffff",
+                "contrastRatio": 4.65,
+                "fontSize": "11.4pt (15.2px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 4.65"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<p class=\"resources-cards__link\">\n                Read more\n              </p>",
+          "target": [
+            ".bg--1 > .resources-cards__link"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#000000",
+                "bgColor": "#ffffff",
+                "contrastRatio": 21,
+                "fontSize": "12.0pt (16px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 21"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<h6 class=\"resources-cards__tagline\">Blog</h6>",
+          "target": [
+            ".bg--2 > .resources-cards__content > h6"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#000000",
+                "bgColor": "#ffffff",
+                "contrastRatio": 21,
+                "fontSize": "18.0pt (24px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "3:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 21"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<h4 class=\"resources-cards__title\">A Spotlight on Security Efforts at the Linux Foundation</h4>",
+          "target": [
+            ".bg--2 > .resources-cards__content > .resources-cards__title"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#0077cc",
+                "bgColor": "#ffffff",
+                "contrastRatio": 4.65,
+                "fontSize": "11.4pt (15.2px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 4.65"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<p class=\"resources-cards__link\">\n                Read the post\n              </p>",
+          "target": [
+            ".bg--2 > .resources-cards__link"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#000000",
+                "bgColor": "#ffffff",
+                "contrastRatio": 21,
+                "fontSize": "12.0pt (16px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 21"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<h6 class=\"resources-cards__tagline\">Blog</h6>",
+          "target": [
+            ".bg--3 > .resources-cards__content > h6"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#000000",
+                "bgColor": "#ffffff",
+                "contrastRatio": 21,
+                "fontSize": "18.0pt (24px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "3:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 21"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<h4 class=\"resources-cards__title\">Strengthening Security: What You Need to Know About our New Vulnerability Reporting Policy</h4>",
+          "target": [
+            ".bg--3 > .resources-cards__content > .resources-cards__title"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#0077cc",
+                "bgColor": "#ffffff",
+                "contrastRatio": 4.65,
+                "fontSize": "11.4pt (15.2px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 4.65"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<p class=\"resources-cards__link\">\n                Read more\n              </p>",
+          "target": [
+            ".bg--3 > .resources-cards__link"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#ffffff",
+                "bgColor": "#5b1de7",
+                "contrastRatio": 7.56,
+                "fontSize": "16.5pt (22px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 7.56"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<h3>Stay Connected with the Linux Foundation</h3>",
+          "target": [
+            ".footer_form_title > h3"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#ffffff",
+                "bgColor": "#5b1de7",
+                "contrastRatio": 7.56,
+                "fontSize": "10.5pt (14px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 7.56"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<span>First name</span>",
+          "target": [
+            "#label-firstname-e5c83800-1206-402c-9050-decfe094cca8_6629 > span"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#595959",
+                "bgColor": "#f6f7fa",
+                "contrastRatio": 6.53,
+                "fontSize": "12.0pt (16px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 6.53"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<input id=\"firstname-e5c83800-1206-402c-9050-decfe094cca8_6629\" name=\"firstname\" placeholder=\"\" type=\"text\" class=\"hs-input\" inputmode=\"text\" autocomplete=\"given-name\" value=\"\" style=\"color: #595959; background-color: #f6f7fa;\">",
+          "target": [
+            "#firstname-e5c83800-1206-402c-9050-decfe094cca8_6629"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#ffffff",
+                "bgColor": "#5b1de7",
+                "contrastRatio": 7.56,
+                "fontSize": "10.5pt (14px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 7.56"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<span>Last name</span>",
+          "target": [
+            "#label-lastname-e5c83800-1206-402c-9050-decfe094cca8_6629 > span"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#333333",
+                "bgColor": "#f6f7fa",
+                "contrastRatio": 11.79,
+                "fontSize": "12.0pt (16px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 11.79"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<input id=\"lastname-e5c83800-1206-402c-9050-decfe094cca8_6629\" name=\"lastname\" placeholder=\"\" type=\"text\" class=\"hs-input\" inputmode=\"text\" autocomplete=\"family-name\" value=\"\" style=\"color: #333333; background-color: #f6f7fa;\">",
+          "target": [
+            "#lastname-e5c83800-1206-402c-9050-decfe094cca8_6629"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#ffffff",
+                "bgColor": "#5b1de7",
+                "contrastRatio": 7.56,
+                "fontSize": "10.5pt (14px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 7.56"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<span>Email</span>",
+          "target": [
+            "#label-email-e5c83800-1206-402c-9050-decfe094cca8_6629 > span:nth-child(1)"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#595959",
+                "bgColor": "#f6f7fa",
+                "contrastRatio": 6.53,
+                "fontSize": "12.0pt (16px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 6.53"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<input id=\"email-e5c83800-1206-402c-9050-decfe094cca8_6629\" name=\"email\" required=\"\" placeholder=\"\" type=\"email\" class=\"hs-input\" inputmode=\"email\" autocomplete=\"email\" value=\"\" style=\"color: #595959; background-color: #f6f7fa;\">",
+          "target": [
+            "#email-e5c83800-1206-402c-9050-decfe094cca8_6629"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#ffffff",
+                "bgColor": "#5b1de7",
+                "contrastRatio": 7.56,
+                "fontSize": "9.0pt (12px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 7.56"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<p>",
+          "target": [
+            ".hs-richtext > p"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#ffffff",
+                "bgColor": "#d80091",
+                "contrastRatio": 4.85,
+                "fontSize": "12.0pt (16px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 4.85"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<input type=\"submit\" class=\"hs-button primary large\" value=\"SUBSCRIBE\" style=\"background-color: #d80091;\">",
+          "target": [
+            ".primary"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#ffffff",
+                "bgColor": "#0077cc",
+                "contrastRatio": 4.65,
+                "fontSize": "12.0pt (16px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 4.65"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<p class=\"footer__title\">ABOUT THE LINUX FOUNDATION</p>",
+          "target": [
+            ".footer__title"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#ffffff",
+                "bgColor": "#0077cc",
+                "contrastRatio": 4.65,
+                "fontSize": "10.5pt (14px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 4.65"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<p class=\"footer__content\">The Linux Foundation provides a neutral, trusted hub for developers to code, manage, and scale open technology projects.</p>",
+          "target": [
+            ".footer__content"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#ffffff",
+                "bgColor": "#0077cc",
+                "contrastRatio": 4.65,
+                "fontSize": "10.5pt (14px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 4.65"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a href=\"https://www.linuxfoundation.org/about\" role=\"menuitem\" target=\"_self\">About the LF</a>",
+          "target": [
+            ".footer__info-menu > .hs_cos_wrapper_type_simple_menu.hs_cos_wrapper_widget[data-hs-cos-type=\"simple_menu\"] > .hs-menu-wrapper.active-branch.flyouts > ul[role=\"menu\"] > .hs-menu-item.hs-menu-depth-1[role=\"none\"]:nth-child(1) > a[target=\"_self\"][role=\"menuitem\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#ffffff",
+                "bgColor": "#0077cc",
+                "contrastRatio": 4.65,
+                "fontSize": "10.5pt (14px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 4.65"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a href=\"https://www.linuxfoundation.org/about/leadership\" role=\"menuitem\" target=\"_self\">Leadership</a>",
+          "target": [
+            ".footer__info-menu > .hs_cos_wrapper_type_simple_menu.hs_cos_wrapper_widget[data-hs-cos-type=\"simple_menu\"] > .hs-menu-wrapper.active-branch.flyouts > ul[role=\"menu\"] > .hs-menu-item.hs-menu-depth-1[role=\"none\"]:nth-child(2) > a[target=\"_self\"][role=\"menuitem\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#ffffff",
+                "bgColor": "#0077cc",
+                "contrastRatio": 4.65,
+                "fontSize": "10.5pt (14px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 4.65"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a href=\"https://www.linuxfoundation.org/careers\" role=\"menuitem\" target=\"_self\">Careers</a>",
+          "target": [
+            ".footer__info-menu > .hs_cos_wrapper_type_simple_menu.hs_cos_wrapper_widget[data-hs-cos-type=\"simple_menu\"] > .hs-menu-wrapper.active-branch.flyouts > ul[role=\"menu\"] > .hs-menu-item.hs-menu-depth-1[role=\"none\"]:nth-child(3) > a[target=\"_self\"][role=\"menuitem\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#ffffff",
+                "bgColor": "#0077cc",
+                "contrastRatio": 4.65,
+                "fontSize": "10.5pt (14px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 4.65"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a href=\"https://www.linuxfoundation.org/about/members\" role=\"menuitem\" target=\"_self\">Corporate Members</a>",
+          "target": [
+            ".footer__info-menu > .hs_cos_wrapper_type_simple_menu.hs_cos_wrapper_widget[data-hs-cos-type=\"simple_menu\"] > .hs-menu-wrapper.active-branch.flyouts > ul[role=\"menu\"] > .hs-menu-item.hs-menu-depth-1[role=\"none\"]:nth-child(4) > a[target=\"_self\"][role=\"menuitem\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#ffffff",
+                "bgColor": "#0077cc",
+                "contrastRatio": 4.65,
+                "fontSize": "10.5pt (14px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 4.65"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a href=\"https://www.linuxfoundation.org/about/diversity-inclusivity\" role=\"menuitem\" target=\"_self\">Diversity &amp; Inclusivity</a>",
+          "target": [
+            ".footer__info-menu > .hs_cos_wrapper_type_simple_menu.hs_cos_wrapper_widget[data-hs-cos-type=\"simple_menu\"] > .hs-menu-wrapper.active-branch.flyouts > ul[role=\"menu\"] > .hs-menu-item.hs-menu-depth-1[role=\"none\"]:nth-child(5) > a[target=\"_self\"][role=\"menuitem\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#ffffff",
+                "bgColor": "#0077cc",
+                "contrastRatio": 4.65,
+                "fontSize": "10.5pt (14px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 4.65"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a href=\"https://www.linuxfoundation.org/brand-guidelines\" role=\"menuitem\" target=\"_self\">Brand Guidelines</a>",
+          "target": [
+            ".footer__info-menu > .hs_cos_wrapper_type_simple_menu.hs_cos_wrapper_widget[data-hs-cos-type=\"simple_menu\"] > .hs-menu-wrapper.active-branch.flyouts > ul[role=\"menu\"] > .hs-menu-item.hs-menu-depth-1[role=\"none\"]:nth-child(6) > a[target=\"_self\"][role=\"menuitem\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#ffffff",
+                "bgColor": "#0077cc",
+                "contrastRatio": 4.65,
+                "fontSize": "10.5pt (14px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 4.65"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a href=\"https://www.linuxfoundation.org/about/contact\" role=\"menuitem\" target=\"_self\">Contact Us</a>",
+          "target": [
+            ".footer__info-menu > .hs_cos_wrapper_type_simple_menu.hs_cos_wrapper_widget[data-hs-cos-type=\"simple_menu\"] > .hs-menu-wrapper.active-branch.flyouts > ul[role=\"menu\"] > .hs-menu-item.hs-menu-depth-1[role=\"none\"]:nth-child(7) > a[target=\"_self\"][role=\"menuitem\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#ffffff",
+                "bgColor": "#0077cc",
+                "contrastRatio": 4.65,
+                "fontSize": "10.5pt (14px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 4.65"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a href=\"https://linuxfoundation.store/\" role=\"menuitem\" target=\"_blank\" rel=\"noopener\">Store</a>",
+          "target": [
+            "a[href$=\"linuxfoundation.store/\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#ffffff",
+                "bgColor": "#000000",
+                "contrastRatio": 21,
+                "fontSize": "12.0pt (16px)",
+                "fontWeight": "bold",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 21"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<p class=\"footer__menu-title\n                               letter__spacing\">PROJECTS</p>",
+          "target": [
+            ".footer__row-list.open-menu--1 > .menu-group.col3:nth-child(1) > .child-menu_links.dropdown--1 > .footer__menu-title.letter__spacing"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#ffffff",
+                "bgColor": "#000000",
+                "contrastRatio": 21,
+                "fontSize": "12.0pt (16px)",
+                "fontWeight": "bold",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 21"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<p class=\"footer__menu-title\n                               letter__spacing\">NEWSROOM</p>",
+          "target": [
+            ".footer__row-list.open-menu--1 > .menu-group.col3:nth-child(2) > .dropdown--2.child-menu_links > .footer__menu-title.letter__spacing"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#ffffff",
+                "bgColor": "#000000",
+                "contrastRatio": 21,
+                "fontSize": "12.0pt (16px)",
+                "fontWeight": "bold",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 21"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<p class=\"footer__menu-title\n                               letter__spacing\">LF RESEARCH</p>",
+          "target": [
+            ".footer__row-list.open-menu--1 > .menu-group.col3:nth-child(3) > .dropdown--3.child-menu_links > .footer__menu-title.letter__spacing"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#ffffff",
+                "bgColor": "#000000",
+                "contrastRatio": 21,
+                "fontSize": "12.0pt (16px)",
+                "fontWeight": "bold",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 21"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<p class=\"footer__menu-title\n                               letter__spacing\">LFX PLATFORM</p>",
+          "target": [
+            ".dropdown--4 > .footer__menu-title.letter__spacing"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#ffffff",
+                "bgColor": "#000000",
+                "contrastRatio": 21,
+                "fontSize": "12.0pt (16px)",
+                "fontWeight": "bold",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 21"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<p class=\"footer__menu-title\n                               letter__spacing\">RESOURCES</p>",
+          "target": [
+            ".footer__row-list.open-menu--2 > .menu-group.col3:nth-child(1) > .child-menu_links.dropdown--1 > .footer__menu-title.letter__spacing"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#ffffff",
+                "bgColor": "#000000",
+                "contrastRatio": 21,
+                "fontSize": "12.0pt (16px)",
+                "fontWeight": "bold",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 21"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<p class=\"footer__menu-title\n                               letter__spacing\">EVENTS</p>",
+          "target": [
+            ".footer__row-list.open-menu--2 > .menu-group.col3:nth-child(2) > .dropdown--2.child-menu_links > .footer__menu-title.letter__spacing"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#ffffff",
+                "bgColor": "#000000",
+                "contrastRatio": 21,
+                "fontSize": "12.0pt (16px)",
+                "fontWeight": "bold",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 21"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<p class=\"footer__menu-title\n                               letter__spacing\">LF TRAINING</p>",
+          "target": [
+            ".footer__row-list.open-menu--2 > .menu-group.col3:nth-child(3) > .dropdown--3.child-menu_links > .footer__menu-title.letter__spacing"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#ffffff",
+                "bgColor": "#000000",
+                "contrastRatio": 21,
+                "fontSize": "10.5pt (14px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 21"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<span style=\"font-size: 14px; color: #ffffff;\">",
+          "target": [
+            ".content_info > span"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#ffffff",
+                "bgColor": "#000000",
+                "contrastRatio": 21,
+                "fontSize": "10.5pt (14px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 21"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a href=\"/legal/trademark-usage?hsLang=en\" rel=\"noopener\" style=\"font-size: 14px; color: #ffffff;\">Trademark Usage</a>",
+          "target": [
+            ".content_info > span > a[rel=\"noopener\"]:nth-child(1)"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#ffffff",
+                "bgColor": "#000000",
+                "contrastRatio": 21,
+                "fontSize": "10.5pt (14px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 21"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a href=\"/legal/terms/?hsLang=en\" rel=\"noopener\" style=\"font-size: 14px; color: #ffffff;\">Terms of Use</a>",
+          "target": [
+            "a[href=\"/legal/terms/?hsLang=en\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#ffffff",
+                "bgColor": "#000000",
+                "contrastRatio": 21,
+                "fontSize": "10.5pt (14px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 21"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a href=\"/legal/privacy-policy/?hsLang=en\" rel=\"noopener\" style=\"font-size: 14px; color: #ffffff;\">Privacy Policy</a>",
+          "target": [
+            "span > a[rel=\"noopener\"]:nth-child(3)"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#ffffff",
+                "bgColor": "#000000",
+                "contrastRatio": 21,
+                "fontSize": "10.5pt (14px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 21"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a href=\"/legal/bylaws/?hsLang=en\" rel=\"noopener\" style=\"font-size: 14px; color: #ffffff;\">Bylaws</a>",
+          "target": [
+            "a[href=\"/legal/bylaws/?hsLang=en\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#ffffff",
+                "bgColor": "#000000",
+                "contrastRatio": 21,
+                "fontSize": "10.5pt (14px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 21"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a href=\"/legal/antitrust-policy/?hsLang=en\" rel=\"noopener\" style=\"font-size: 14px; color: #ffffff;\">Antitrust Policy</a>",
+          "target": [
+            "span > a[rel=\"noopener\"]:nth-child(5)"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#ffffff",
+                "bgColor": "#000000",
+                "contrastRatio": 21,
+                "fontSize": "10.5pt (14px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 21"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a href=\"/legal/good-standing-policy/?hsLang=en\" rel=\"noopener\" style=\"font-size: 14px; color: #ffffff;\">Good Standing Policy</a>",
+          "target": [
+            "a[rel=\"noopener\"]:nth-child(6)"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#ffffff",
+                "bgColor": "#000000",
+                "contrastRatio": 21,
+                "fontSize": "10.5pt (14px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 21"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a href=\"/legal/generative-ai?hsLang=en\" rel=\"noopener\" style=\"font-size: 14px; color: #ffffff;\">Generative AI Policy</a>",
+          "target": [
+            "a[href=\"/legal/generative-ai?hsLang=en\"]"
+          ]
+        }
+      ]
+    }
+  ],
+  "incomplete": [
+    {
+      "id": "color-contrast",
+      "impact": "serious",
+      "tags": [
+        "cat.color",
+        "wcag2aa",
+        "wcag143",
+        "TTv5",
+        "TT13.c",
+        "EN-301-549",
+        "EN-9.1.4.3",
+        "ACT"
+      ],
+      "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+      "help": "Elements must meet minimum color contrast ratio thresholds",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/color-contrast?application=axeAPI",
+      "nodes": [
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "contrastRatio": 0,
+                "fontSize": "19.5pt (26px)",
+                "fontWeight": "normal",
+                "messageKey": "elmPartiallyObscured",
+                "expectedContrastRatio": "3:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<section id=\"\" class=\"section--widget_1661557844278\n                section--counter-col\n                section--light\n                bg--white\n                bg\n                \n                \n                align--left\" style=\"\">",
+                  "target": [
+                    ".section--widget_1661557844278"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element's background color could not be determined because it's partially obscured by another element"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<h2 class=\"counter-col__number col12 bold mt--none mb--none\">900</h2>",
+          "target": [
+            ".counter-col__counter.mb--xs:nth-child(1) > .counter-col__number.bold.mb--none"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "contrastRatio": 0,
+                "fontSize": "19.5pt (26px)",
+                "fontWeight": "normal",
+                "messageKey": "elmPartiallyObscured",
+                "expectedContrastRatio": "3:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<section id=\"\" class=\"section--widget_1661557844278\n                section--counter-col\n                section--light\n                bg--white\n                bg\n                \n                \n                align--left\" style=\"\">",
+                  "target": [
+                    ".section--widget_1661557844278"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element's background color could not be determined because it's partially obscured by another element"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<h2 class=\"counter-col__number col12 bold mt--none mb--none\">3M+</h2>",
+          "target": [
+            ".counter-col__counter.mb--xs:nth-child(2) > .counter-col__number.bold.mb--none"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "contrastRatio": 0,
+                "fontSize": "19.5pt (26px)",
+                "fontWeight": "normal",
+                "messageKey": "elmPartiallyObscured",
+                "expectedContrastRatio": "3:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<section id=\"\" class=\"section--widget_1661557844278\n                section--counter-col\n                section--light\n                bg--white\n                bg\n                \n                \n                align--left\" style=\"\">",
+                  "target": [
+                    ".section--widget_1661557844278"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element's background color could not be determined because it's partially obscured by another element"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<h2 class=\"counter-col__number col12 bold mt--none mb--none\">777K</h2>",
+          "target": [
+            ".counter-col__counter.mb--xs:nth-child(3) > .counter-col__number.bold.mb--none"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "contrastRatio": 0,
+                "fontSize": "13.5pt (18px)",
+                "fontWeight": "normal",
+                "messageKey": "elmPartiallyObscuring",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element's background color could not be determined because it partially overlaps other elements"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<p>The Linux Foundation provides a neutral, trusted home for developers to collaborate on open software projects. <a href=\"/browse-projects?hsLang=en\" rel=\"noopener\" style=\"color: #0074cc;\">See all open software projects.</a></p>",
+          "target": [
+            ".projects-tabs-col__rich-link.open-software > p:nth-child(1)"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because it partially overlaps other elements"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "contrastRatio": 0,
+                "fontSize": "19.5pt (26px)",
+                "fontWeight": "normal",
+                "messageKey": "bgGradient",
+                "expectedContrastRatio": "3:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<section id=\"\" class=\"section--widget_1661639741861\n                section--banner-img-mask\n                bg--white\n                bg\n                \n                \" style=\"\n                background:linear-gradient(to right bottom, #003778, #12E2E2);\n                \n                \">",
+                  "target": [
+                    ".section--widget_1661639741861"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element's background color could not be determined due to a background gradient"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<h2>Management &amp; Best Practices</h2>",
+          "target": [
+            ".section--widget_1661639741861 > .banner-img-mask.section-wrapper > .banner-img-mask__wrapper > .banner-img-mask__container.align-items--center.jc--space-between > .section--dark.pt--sm.pb--sm > .banner-img-mask__supporting-content > h2"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "contrastRatio": 0,
+                "fontSize": "13.5pt (18px)",
+                "fontWeight": "normal",
+                "messageKey": "bgGradient",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<section id=\"\" class=\"section--widget_1661639741861\n                section--banner-img-mask\n                bg--white\n                bg\n                \n                \" style=\"\n                background:linear-gradient(to right bottom, #003778, #12E2E2);\n                \n                \">",
+                  "target": [
+                    ".section--widget_1661639741861"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element's background color could not be determined due to a background gradient"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<p>Discover the Linux Foundation projects and resources that accelerate open source strategy, management, and best practices.</p>",
+          "target": [
+            ".section--widget_1661639741861 > .banner-img-mask.section-wrapper > .banner-img-mask__wrapper > .banner-img-mask__container.align-items--center.jc--space-between > .section--dark.pt--sm.pb--sm > .banner-img-mask__supporting-content > p:nth-child(2)"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "contrastRatio": 0,
+                "fontSize": "13.5pt (18px)",
+                "fontWeight": "bold",
+                "messageKey": "bgGradient",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<section id=\"\" class=\"section--widget_1661639741861\n                section--banner-img-mask\n                bg--white\n                bg\n                \n                \" style=\"\n                background:linear-gradient(to right bottom, #003778, #12E2E2);\n                \n                \">",
+                  "target": [
+                    ".section--widget_1661639741861"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element's background color could not be determined due to a background gradient"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<a href=\"/projects/management?hsLang=en\" rel=\"noopener\">Learn more.</a>",
+          "target": [
+            "a[href=\"/projects/management?hsLang=en\"]"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "contrastRatio": 0,
+                "fontSize": "19.5pt (26px)",
+                "fontWeight": "normal",
+                "messageKey": "bgGradient",
+                "expectedContrastRatio": "3:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<section id=\"\" class=\"section--module_1701791714428\n                section--banner-img-mask\n                bg--white\n                bg\n                \n                \" style=\"\n                background:linear-gradient(to right bottom, #0094FF, #12E2E2);\n                \n                \">",
+                  "target": [
+                    ".section--module_1701791714428"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element's background color could not be determined due to a background gradient"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<h2>Digital Trust</h2>",
+          "target": [
+            ".section--module_1701791714428 > .banner-img-mask.section-wrapper > .banner-img-mask__wrapper > .banner-img-mask__container.align-items--center.jc--space-between > .section--dark.pt--sm.pb--sm > .banner-img-mask__supporting-content > h2"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "contrastRatio": 0,
+                "fontSize": "13.5pt (18px)",
+                "fontWeight": "normal",
+                "messageKey": "bgGradient",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<section id=\"\" class=\"section--module_1701791714428\n                section--banner-img-mask\n                bg--white\n                bg\n                \n                \" style=\"\n                background:linear-gradient(to right bottom, #0094FF, #12E2E2);\n                \n                \">",
+                  "target": [
+                    ".section--module_1701791714428"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element's background color could not be determined due to a background gradient"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<p>Discover LF projects enabling greater levels of trust in digital commerce and digital asset ecosystems.</p>",
+          "target": [
+            ".section--module_1701791714428 > .banner-img-mask.section-wrapper > .banner-img-mask__wrapper > .banner-img-mask__container.align-items--center.jc--space-between > .section--dark.pt--sm.pb--sm > .banner-img-mask__supporting-content > p:nth-child(2)"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "contrastRatio": 0,
+                "fontSize": "13.5pt (18px)",
+                "fontWeight": "bold",
+                "messageKey": "bgGradient",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<section id=\"\" class=\"section--module_1701791714428\n                section--banner-img-mask\n                bg--white\n                bg\n                \n                \" style=\"\n                background:linear-gradient(to right bottom, #0094FF, #12E2E2);\n                \n                \">",
+                  "target": [
+                    ".section--module_1701791714428"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element's background color could not be determined due to a background gradient"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<a href=\"/projects/digital-trust?hsLang=en\" rel=\"noopener\">Learn more.</a>",
+          "target": [
+            ".section--module_1701791714428 > .banner-img-mask.section-wrapper > .banner-img-mask__wrapper > .banner-img-mask__container.align-items--center.jc--space-between > .section--dark.pt--sm.pb--sm > .banner-img-mask__supporting-content > p:nth-child(3) > strong > a[rel=\"noopener\"]"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+        }
+      ]
+    }
+  ],
+  "violations": [
+    {
+      "id": "color-contrast",
+      "impact": "serious",
+      "tags": [
+        "cat.color",
+        "wcag2aa",
+        "wcag143",
+        "TTv5",
+        "TT13.c",
+        "EN-301-549",
+        "EN-9.1.4.3",
+        "ACT"
+      ],
+      "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+      "help": "Elements must meet minimum color contrast ratio thresholds",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/color-contrast?application=axeAPI",
+      "nodes": [
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#0094ff",
+                "bgColor": "#252e39",
+                "contrastRatio": 4.37,
+                "fontSize": "12.0pt (16px)",
+                "fontWeight": "normal",
+                "messageKey": null,
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<div role=\"dialog\" id=\"101efe5a-93d9-435a-85d1-598b074522e3\" aria-label=\"Cookie Consent Banner\" aria-describedby=\"101efe5a-93d9-435a-85d1-598b074522e3__label\" class=\"osano-cm-window__dialog osano-cm-dialog osano-cm-dialog--position_bottom osano-cm-dialog--type_bar\">",
+                  "target": [
+                    "#\\31 01efe5a-93d9-435a-85d1-598b074522e3"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element has insufficient color contrast of 4.37 (foreground color: #0094ff, background color: #252e39, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<a rel=\"noopener\" tabindex=\"0\" href=\"https://www.linuxfoundation.org/privacy-policy/\" target=\"_blank\" class=\" osano-cm-storage-policy osano-cm-content__link osano-cm-link \" aria-describedby=\"osano-cm-aria.newWindow\"><!--?lit$05568157436$-->Cookie Policy</a>",
+          "target": [
+            ".osano-cm-storage-policy"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.37 (foreground color: #0094ff, background color: #252e39, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#0094ff",
+                "bgColor": "#252e39",
+                "contrastRatio": 4.37,
+                "fontSize": "13.5pt (18px)",
+                "fontWeight": "normal",
+                "messageKey": null,
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<div role=\"dialog\" id=\"101efe5a-93d9-435a-85d1-598b074522e3\" aria-label=\"Cookie Consent Banner\" aria-describedby=\"101efe5a-93d9-435a-85d1-598b074522e3__label\" class=\"osano-cm-window__dialog osano-cm-dialog osano-cm-dialog--position_bottom osano-cm-dialog--type_bar\">",
+                  "target": [
+                    "#\\31 01efe5a-93d9-435a-85d1-598b074522e3"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element has insufficient color contrast of 4.37 (foreground color: #0094ff, background color: #252e39, font size: 13.5pt (18px), font weight: normal). Expected contrast ratio of 4.5:1"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<a rel=\"noopener\" tabindex=\"0\" href=\"#acfd3984-3c88-48bd-8048-6aeb8398681d\" class=\" osano-cm-drawer-links__link osano-cm-link osano-cm-link--type_manage \"><!--?lit$05568157436$-->Storage Preferences</a>",
+          "target": [
+            ".osano-cm-drawer-links__link"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.37 (foreground color: #0094ff, background color: #252e39, font size: 13.5pt (18px), font weight: normal). Expected contrast ratio of 4.5:1"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#000000",
+                "bgColor": "#252e39",
+                "contrastRatio": 1.52,
+                "fontSize": "13.5pt (18px)",
+                "fontWeight": "normal",
+                "messageKey": null,
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<div role=\"dialog\" id=\"101efe5a-93d9-435a-85d1-598b074522e3\" aria-label=\"Cookie Consent Banner\" aria-describedby=\"101efe5a-93d9-435a-85d1-598b074522e3__label\" class=\"osano-cm-window__dialog osano-cm-dialog osano-cm-dialog--position_bottom osano-cm-dialog--type_bar\">",
+                  "target": [
+                    "#\\31 01efe5a-93d9-435a-85d1-598b074522e3"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element has insufficient color contrast of 1.52 (foreground color: #000000, background color: #252e39, font size: 13.5pt (18px), font weight: normal). Expected contrast ratio of 4.5:1"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<span class=\" osano-cm-toggle__label osano-cm-label \"><!--?lit$05568157436$-->Targeted Advertising</span>",
+          "target": [
+            ".osano-cm-list__list-item.osano-cm-list-item:nth-child(1) > .osano-cm-list-item__toggle.osano-cm-toggle > .osano-cm-toggle__label.osano-cm-label"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 1.52 (foreground color: #000000, background color: #252e39, font size: 13.5pt (18px), font weight: normal). Expected contrast ratio of 4.5:1"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#000000",
+                "bgColor": "#252e39",
+                "contrastRatio": 1.52,
+                "fontSize": "13.5pt (18px)",
+                "fontWeight": "normal",
+                "messageKey": null,
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<div role=\"dialog\" id=\"101efe5a-93d9-435a-85d1-598b074522e3\" aria-label=\"Cookie Consent Banner\" aria-describedby=\"101efe5a-93d9-435a-85d1-598b074522e3__label\" class=\"osano-cm-window__dialog osano-cm-dialog osano-cm-dialog--position_bottom osano-cm-dialog--type_bar\">",
+                  "target": [
+                    "#\\31 01efe5a-93d9-435a-85d1-598b074522e3"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element has insufficient color contrast of 1.52 (foreground color: #000000, background color: #252e39, font size: 13.5pt (18px), font weight: normal). Expected contrast ratio of 4.5:1"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<span class=\" osano-cm-toggle__label osano-cm-label \"><!--?lit$05568157436$-->Personalization</span>",
+          "target": [
+            ".osano-cm-list__list-item.osano-cm-list-item:nth-child(2) > .osano-cm-list-item__toggle.osano-cm-toggle > .osano-cm-toggle__label.osano-cm-label"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 1.52 (foreground color: #000000, background color: #252e39, font size: 13.5pt (18px), font weight: normal). Expected contrast ratio of 4.5:1"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#000000",
+                "bgColor": "#252e39",
+                "contrastRatio": 1.52,
+                "fontSize": "13.5pt (18px)",
+                "fontWeight": "normal",
+                "messageKey": null,
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<div role=\"dialog\" id=\"101efe5a-93d9-435a-85d1-598b074522e3\" aria-label=\"Cookie Consent Banner\" aria-describedby=\"101efe5a-93d9-435a-85d1-598b074522e3__label\" class=\"osano-cm-window__dialog osano-cm-dialog osano-cm-dialog--position_bottom osano-cm-dialog--type_bar\">",
+                  "target": [
+                    "#\\31 01efe5a-93d9-435a-85d1-598b074522e3"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element has insufficient color contrast of 1.52 (foreground color: #000000, background color: #252e39, font size: 13.5pt (18px), font weight: normal). Expected contrast ratio of 4.5:1"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<span class=\" osano-cm-toggle__label osano-cm-label \"><!--?lit$05568157436$-->Analytics</span>",
+          "target": [
+            ".osano-cm-list__list-item.osano-cm-list-item:nth-child(3) > .osano-cm-list-item__toggle.osano-cm-toggle > .osano-cm-toggle__label.osano-cm-label"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 1.52 (foreground color: #000000, background color: #252e39, font size: 13.5pt (18px), font weight: normal). Expected contrast ratio of 4.5:1"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#0d4b56",
+                "bgColor": "#42b8d9",
+                "contrastRatio": 4.21,
+                "fontSize": "12.0pt (16px)",
+                "fontWeight": "bold",
+                "messageKey": null,
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<button class=\" osano-cm-save osano-cm-buttons__button osano-cm-button osano-cm-button--type_save \" tabindex=\"0\" style=\"color: #0d4b56; background-color: #42b8d9;\"> <!--?lit$05568157436$-->Save </button>",
+                  "target": [
+                    ".osano-cm-save"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element has insufficient color contrast of 4.21 (foreground color: #0d4b56, background color: #42b8d9, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<button class=\" osano-cm-save osano-cm-buttons__button osano-cm-button osano-cm-button--type_save \" tabindex=\"0\" style=\"color: #0d4b56; background-color: #42b8d9;\"> <!--?lit$05568157436$-->Save </button>",
+          "target": [
+            ".osano-cm-save"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.21 (foreground color: #0d4b56, background color: #42b8d9, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#0d4b56",
+                "bgColor": "#42b8d9",
+                "contrastRatio": 4.21,
+                "fontSize": "12.0pt (16px)",
+                "fontWeight": "bold",
+                "messageKey": null,
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<button class=\" osano-cm-accept-all osano-cm-buttons__button osano-cm-button osano-cm-button--type_accept \" style=\"color: #0d4b56; background-color: #42b8d9;\" tabindex=\"0\"> <!--?lit$05568157436$-->Accept All </button>",
+                  "target": [
+                    ".osano-cm-accept-all"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element has insufficient color contrast of 4.21 (foreground color: #0d4b56, background color: #42b8d9, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<button class=\" osano-cm-accept-all osano-cm-buttons__button osano-cm-button osano-cm-button--type_accept \" style=\"color: #0d4b56; background-color: #42b8d9;\" tabindex=\"0\"> <!--?lit$05568157436$-->Accept All </button>",
+          "target": [
+            ".osano-cm-accept-all"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.21 (foreground color: #0d4b56, background color: #42b8d9, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#0d4b56",
+                "bgColor": "#42b8d9",
+                "contrastRatio": 4.21,
+                "fontSize": "12.0pt (16px)",
+                "fontWeight": "bold",
+                "messageKey": null,
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<button class=\" osano-cm-denyAll osano-cm-buttons__button osano-cm-button osano-cm-button--type_denyAll \" style=\"color: #0d4b56; background-color: #42b8d9;\" tabindex=\"0\"> <!--?lit$05568157436$-->Reject All </button>",
+                  "target": [
+                    ".osano-cm-denyAll"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element has insufficient color contrast of 4.21 (foreground color: #0d4b56, background color: #42b8d9, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<button class=\" osano-cm-denyAll osano-cm-buttons__button osano-cm-button osano-cm-button--type_denyAll \" style=\"color: #0d4b56; background-color: #42b8d9;\" tabindex=\"0\"> <!--?lit$05568157436$-->Reject All </button>",
+          "target": [
+            ".osano-cm-denyAll"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.21 (foreground color: #0d4b56, background color: #42b8d9, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#0094ff",
+                "bgColor": "#ffffff",
+                "contrastRatio": 3.14,
+                "fontSize": "13.5pt (18px)",
+                "fontWeight": "normal",
+                "messageKey": null,
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<section id=\"\" class=\"section--widget_1661557844278\n                section--counter-col\n                section--light\n                bg--white\n                bg\n                \n                \n                align--left\" style=\"\">",
+                  "target": [
+                    ".section--widget_1661557844278"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element has insufficient color contrast of 3.14 (foreground color: #0094ff, background color: #ffffff, font size: 13.5pt (18px), font weight: normal). Expected contrast ratio of 4.5:1"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<a class=\"counter-col__link\" href=\"https://www.linuxfoundation.org/projects?hsLang=en\" style=\"color: #0076cc;\">",
+          "target": [
+            ".counter-col__content--1 > .counter-col__link"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 3.14 (foreground color: #0094ff, background color: #ffffff, font size: 13.5pt (18px), font weight: normal). Expected contrast ratio of 4.5:1"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#0094ff",
+                "bgColor": "#ffffff",
+                "contrastRatio": 3.14,
+                "fontSize": "13.5pt (18px)",
+                "fontWeight": "normal",
+                "messageKey": null,
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<section id=\"\" class=\"section--widget_1661557844278\n                section--counter-col\n                section--light\n                bg--white\n                bg\n                \n                \n                align--left\" style=\"\">",
+                  "target": [
+                    ".section--widget_1661557844278"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element has insufficient color contrast of 3.14 (foreground color: #0094ff, background color: #ffffff, font size: 13.5pt (18px), font weight: normal). Expected contrast ratio of 4.5:1"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<a class=\"counter-col__link\" href=\"https://training.linuxfoundation.org/\" target=\"_blank\" rel=\"noopener\" style=\"color: #006db3;\">\n\nTo fix the insufficient color contrast issue, I added an inline style to the </a>",
+          "target": [
+            ".counter-col__content--2 > .counter-col__link[rel=\"noopener\"][target=\"_blank\"]"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 3.14 (foreground color: #0094ff, background color: #ffffff, font size: 13.5pt (18px), font weight: normal). Expected contrast ratio of 4.5:1"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#0094ff",
+                "bgColor": "#ffffff",
+                "contrastRatio": 3.14,
+                "fontSize": "13.5pt (18px)",
+                "fontWeight": "normal",
+                "messageKey": null,
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<section id=\"\" class=\"section--widget_1661557844278\n                section--counter-col\n                section--light\n                bg--white\n                bg\n                \n                \n                align--left\" style=\"\">",
+                  "target": [
+                    ".section--widget_1661557844278"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element has insufficient color contrast of 3.14 (foreground color: #0094ff, background color: #ffffff, font size: 13.5pt (18px), font weight: normal). Expected contrast ratio of 4.5:1"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<a class=\"counter-col__link\" href=\"https://www.linuxfoundation.org/projects?hsLang=en\" style=\"color: #0074cc;\">",
+          "target": [
+            ".counter-col__content--3 > .counter-col__link"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 3.14 (foreground color: #0094ff, background color: #ffffff, font size: 13.5pt (18px), font weight: normal). Expected contrast ratio of 4.5:1"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#0094ff",
+                "bgColor": "#ffffff",
+                "contrastRatio": 3.14,
+                "fontSize": "13.5pt (18px)",
+                "fontWeight": "normal",
+                "messageKey": null,
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<section id=\"\" class=\"section--widget_1661557844278\n                section--counter-col\n                section--light\n                bg--white\n                bg\n                \n                \n                align--left\" style=\"\">",
+                  "target": [
+                    ".section--widget_1661557844278"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element has insufficient color contrast of 3.14 (foreground color: #0094ff, background color: #ffffff, font size: 13.5pt (18px), font weight: normal). Expected contrast ratio of 4.5:1"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<a class=\"counter-col__link\" href=\"https://lfx.linuxfoundation.org/tools/insights\" target=\"_blank\" rel=\"noopener\" style=\"color: #006db3;\">\n\nTo fix the insufficient color contrast issue, I added an inline style to the </a>",
+          "target": [
+            ".counter-col__content--4 > .counter-col__link[rel=\"noopener\"][target=\"_blank\"]"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 3.14 (foreground color: #0094ff, background color: #ffffff, font size: 13.5pt (18px), font weight: normal). Expected contrast ratio of 4.5:1"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#0094ff",
+                "bgColor": "#ffffff",
+                "contrastRatio": 3.14,
+                "fontSize": "13.5pt (18px)",
+                "fontWeight": "normal",
+                "messageKey": null,
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<section id=\"\" class=\"section--widget_1661557844278\n                section--counter-col\n                section--light\n                bg--white\n                bg\n                \n                \n                align--left\" style=\"\">",
+                  "target": [
+                    ".section--widget_1661557844278"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element has insufficient color contrast of 3.14 (foreground color: #0094ff, background color: #ffffff, font size: 13.5pt (18px), font weight: normal). Expected contrast ratio of 4.5:1"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<a class=\"counter-col__link\" href=\"https://www.linuxfoundation.org/about/members?hsLang=en\" style=\"color: #0074cc;\">",
+          "target": [
+            ".counter-col__content--5 > .counter-col__link"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 3.14 (foreground color: #0094ff, background color: #ffffff, font size: 13.5pt (18px), font weight: normal). Expected contrast ratio of 4.5:1"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#0094ff",
+                "bgColor": "#f6f7fa",
+                "contrastRatio": 2.93,
+                "fontSize": "13.5pt (18px)",
+                "fontWeight": "normal",
+                "messageKey": null,
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<div class=\"slider container\">",
+                  "target": [
+                    ".container"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element has insufficient color contrast of 2.93 (foreground color: #0094ff, background color: #f6f7fa, font size: 13.5pt (18px), font weight: normal). Expected contrast ratio of 4.5:1"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<a href=\"https://www.linuxfoundation.org/about/members?hsLang=en\" style=\"color: #005ba3;\">Meet our members.</a>",
+          "target": [
+            ".link > a"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 2.93 (foreground color: #0094ff, background color: #f6f7fa, font size: 13.5pt (18px), font weight: normal). Expected contrast ratio of 4.5:1"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#0094ff",
+                "bgColor": "#f6f7fa",
+                "contrastRatio": 2.93,
+                "fontSize": "13.5pt (18px)",
+                "fontWeight": "normal",
+                "messageKey": null,
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<section id=\"\" class=\"section--widget_1662844101751                                      \n                section--projects-tabs-col\n                bg--lgrey\n                bg\n                \n                \" style=\"\n                \">",
+                  "target": [
+                    ".section--widget_1662844101751"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element has insufficient color contrast of 2.93 (foreground color: #0094ff, background color: #f6f7fa, font size: 13.5pt (18px), font weight: normal). Expected contrast ratio of 4.5:1"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<a href=\"/browse-projects?hsLang=en\" rel=\"noopener\" style=\"color: #0074cc;\">See all open software projects.</a>",
+          "target": [
+            ".projects-tabs-col__rich-link.open-software > p:nth-child(1) > a[href=\"/browse-projects?hsLang=en\"][rel=\"noopener\"]"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 2.93 (foreground color: #0094ff, background color: #f6f7fa, font size: 13.5pt (18px), font weight: normal). Expected contrast ratio of 4.5:1"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#ffffff",
+                "bgColor": "#e6008f",
+                "contrastRatio": 4.41,
+                "fontSize": "12.0pt (16px)",
+                "fontWeight": "normal",
+                "messageKey": null,
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<a class=\"projects-tabs-col__button\n           hs-button    \n           hs-button--primary\" href=\"https://www.linuxfoundation.org/projects?hsLang=en\" style=\"background-color: #e6008f;\">\n  See All Projects\n</a>",
+                  "target": [
+                    ".projects-tabs-col__button"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element has insufficient color contrast of 4.41 (foreground color: #ffffff, background color: #e6008f, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<a class=\"projects-tabs-col__button\n           hs-button    \n           hs-button--primary\" href=\"https://www.linuxfoundation.org/projects?hsLang=en\" style=\"background-color: #e6008f;\">\n  See All Projects\n</a>",
+          "target": [
+            ".projects-tabs-col__button"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.41 (foreground color: #ffffff, background color: #e6008f, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#0094ff",
+                "bgColor": "#f6f7fa",
+                "contrastRatio": 2.93,
+                "fontSize": "13.5pt (18px)",
+                "fontWeight": "bold",
+                "messageKey": null,
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<section id=\"\" class=\"section--widget_1661709687877\n                section--banner-img-mask\n                bg--lgrey\n                bg\n                \n                \" style=\"\n                \">",
+                  "target": [
+                    ".section--widget_1661709687877"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element has insufficient color contrast of 2.93 (foreground color: #0094ff, background color: #f6f7fa, font size: 13.5pt (18px), font weight: bold). Expected contrast ratio of 4.5:1"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<a href=\"/lf-security?hsLang=en\" rel=\"noopener\" style=\"color: #005c99;\">Learn more</a>",
+          "target": [
+            "a[href=\"/lf-security?hsLang=en\"]"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 2.93 (foreground color: #0094ff, background color: #f6f7fa, font size: 13.5pt (18px), font weight: bold). Expected contrast ratio of 4.5:1"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#0094ff",
+                "bgColor": "#f6f7fa",
+                "contrastRatio": 2.93,
+                "fontSize": "13.5pt (18px)",
+                "fontWeight": "bold",
+                "messageKey": null,
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<section id=\"\" class=\"section--module_1713223099242\n                section--banner-img-mask\n                bg--lgrey\n                bg\n                \n                \" style=\"\n                \">",
+                  "target": [
+                    ".section--module_1713223099242"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element has insufficient color contrast of 2.93 (foreground color: #0094ff, background color: #f6f7fa, font size: 13.5pt (18px), font weight: bold). Expected contrast ratio of 4.5:1"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<a href=\"/projects/sustainability?hsLang=en\" rel=\"noopener\" style=\"color: #005c99;\">Learn more</a>",
+          "target": [
+            ".section--module_1713223099242 > .banner-img-mask.section-wrapper > .banner-img-mask__wrapper > .flex-row--reverse.banner-img-mask__container.align-items--center > .pb--md.section--light.pt--md > .banner-img-mask__supporting-content > p:nth-child(2) > span > strong > a[rel=\"noopener\"]"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 2.93 (foreground color: #0094ff, background color: #f6f7fa, font size: 13.5pt (18px), font weight: bold). Expected contrast ratio of 4.5:1"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#0094ff",
+                "bgColor": "#f6f7fa",
+                "contrastRatio": 2.93,
+                "fontSize": "11.4pt (15.2px)",
+                "fontWeight": "normal",
+                "messageKey": null,
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<section id=\"\" class=\"section--widget_1661719294883\n                section--\n                section--resources-cards\n                bg--lgrey\n                bg\n                \n                \" style=\"\n                \">",
+                  "target": [
+                    ".section--widget_1661719294883"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element has insufficient color contrast of 2.93 (foreground color: #0094ff, background color: #f6f7fa, font size: 11.4pt (15.2px), font weight: normal). Expected contrast ratio of 4.5:1"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<a href=\"https://www.linuxfoundation.org/press?hsLang=en\" class=\"section-title__link-text\" style=\"color: #005c99;\">\n  NEWSROOM\n</a>",
+          "target": [
+            ".section-title__link-text"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 2.93 (foreground color: #0094ff, background color: #f6f7fa, font size: 11.4pt (15.2px), font weight: normal). Expected contrast ratio of 4.5:1"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#0094ff",
+                "bgColor": "#5b1de7",
+                "contrastRatio": 2.4,
+                "fontSize": "9.0pt (12px)",
+                "fontWeight": "normal",
+                "messageKey": null,
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<div class=\"form__container\n                hs-form\n                \n                bg--secondary\n                \n                pb--md\n                pt--md\">",
+                  "target": [
+                    ".form__container"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element has insufficient color contrast of 2.4 (foreground color: #0094ff, background color: #5b1de7, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<a href=\"https://www.linuxfoundation.org/legal/privacy-policy\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" style=\"color: #ffffff;\">Privacy Policy</a>",
+          "target": [
+            "a[rel=\"nofollow noopener noreferrer\"]"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 2.4 (foreground color: #0094ff, background color: #5b1de7, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+        }
+      ]
+    }
+  ]
+}

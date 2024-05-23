@@ -1,0 +1,29 @@
+[
+  {
+    "analysisDetails": [
+      {
+        "model": "Claude"
+      },
+      {
+        "accessibility_type": "aria-required-attr"
+      },
+      {
+        "prompt_technique": "cot"
+      },
+      {
+        "temperature": 0.5
+      }
+    ],
+    "accessbilityTestResult": {
+      "violationBeforeModification": 1,
+      "violationAfterModification": 0
+    },
+    "modelCorrections": [
+      {
+        "beforeModification": "<input class=\"search_input\" id=\"search_input\" maxlength=\"2048\" name=\"search\" type=\"search\" autocapitalize=\"off\" autocomplete=\"off\" autocorrect=\"off\" role=\"combobox\" spellcheck=\"false\" onkeyup=\"showClear();showSuggestions()\" onclick=\"showShadow()\" onblur=\"hideShadow();\" oncancel=\"clearBox()\" oninput=\"showClear();showSuggestions()\" onchange=\"showClear();showSuggestions()\" onfocus=\"showSuggestions()\" value=\"\">",
+        "afterModification": "<input class=\"search_input\" id=\"search_input\" maxlength=\"2048\" name=\"search\" type=\"search\" autocapitalize=\"off\" autocomplete=\"off\" autocorrect=\"off\" role=\"combobox\" aria-expanded=\"false\" aria-controls=\"search_suggestions\" spellcheck=\"false\" onkeyup=\"showClear();showSuggestions()\" onclick=\"showShadow()\" onblur=\"hideShadow();\" oncancel=\"clearBox()\" oninput=\"showClear();showSuggestions()\" onchange=\"showClear();showSuggestions()\" onfocus=\"showSuggestions()\" value=\"\">",
+        "rawOutput": "- Thought: The input element has a role of combobox, which requires the aria-expanded and aria-controls attributes according to WCAG 2.1. I need to add these attributes to make the element accessible.\n\n- Corrected HTML:\n<input class=\"search_input\" id=\"search_input\" maxlength=\"2048\" name=\"search\" type=\"search\" autocapitalize=\"off\" autocomplete=\"off\" autocorrect=\"off\" role=\"combobox\" aria-expanded=\"false\" aria-controls=\"search_suggestions\" spellcheck=\"false\" onkeyup=\"showClear();showSuggestions()\" onclick=\"showShadow()\" onblur=\"hideShadow();\" oncancel=\"clearBox()\" oninput=\"showClear();showSuggestions()\" onchange=\"showClear();showSuggestions()\" onfocus=\"showSuggestions()\" value=\"\">\n\nIn the corrected HTML:\n- I added the aria-expanded attribute with an initial value of \"false\", indicating that the combobox suggestions are not expanded by default.\n- I also added the aria-controls attribute, which should reference the ID of the element that contains the combobox suggestions. In this case, I assumed the ID of the suggestions container is \"search_suggestions\".\n\nThese additions ensure that"
+      }
+    ]
+  }
+]

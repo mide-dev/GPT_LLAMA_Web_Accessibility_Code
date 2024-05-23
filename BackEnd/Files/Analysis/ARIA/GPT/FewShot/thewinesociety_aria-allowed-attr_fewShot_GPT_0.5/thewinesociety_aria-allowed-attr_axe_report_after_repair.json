@@ -1,0 +1,568 @@
+{
+  "testEngine": {
+    "name": "axe-core",
+    "version": "4.8.4"
+  },
+  "testRunner": {
+    "name": "axe"
+  },
+  "testEnvironment": {
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/122.0.0.0 Safari/537.36",
+    "windowWidth": 800,
+    "windowHeight": 600,
+    "orientationAngle": 0,
+    "orientationType": "portrait-primary"
+  },
+  "timestamp": "2024-04-15T18:54:55.438Z",
+  "url": "https://www.thewinesociety.com/",
+  "toolOptions": {
+    "runOnly": {
+      "type": "rule",
+      "values": [
+        "aria-allowed-attr"
+      ]
+    },
+    "reporter": "v1"
+  },
+  "inapplicable": [],
+  "passes": [
+    {
+      "id": "aria-allowed-attr",
+      "impact": null,
+      "tags": [
+        "cat.aria",
+        "wcag2a",
+        "wcag412",
+        "EN-301-549",
+        "EN-9.4.1.2"
+      ],
+      "description": "Ensures an element's role supports its ARIA attributes",
+      "help": "Elements must only use supported ARIA attributes",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-allowed-attr?application=axeAPI",
+      "nodes": [
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "aria-allowed-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attributes are used correctly for the defined role"
+            }
+          ],
+          "none": [
+            {
+              "id": "aria-unsupported-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attribute is supported"
+            }
+          ],
+          "impact": null,
+          "html": "<input id=\"react-autowhatever-site-search-inputinput\" aria-haspopup=\"listbox\" type=\"text\" autocomplete=\"off\" aria-autocomplete=\"list\" aria-controls=\"react-autowhatever-site-search\" class=\"form-control input input--isLarge\" placeholder=\"Search wine and events\" aria-describedby=\"search-instructions\" value=\"\">",
+          "target": [
+            "#react-autowhatever-site-search-inputinput"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "aria-allowed-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attributes are used correctly for the defined role"
+            }
+          ],
+          "none": [
+            {
+              "id": "aria-unsupported-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attribute is supported"
+            }
+          ],
+          "impact": null,
+          "html": "<button type=\"button\" class=\"btn btn--clear search__button \" aria-label=\"Search\"><svg aria-hidden=\"true\" class=\"icon icon--align-text-bottom icon--margin-right-small icon--button\" viewBox=\"0 0 24 24\"><use xlink:href=\"/static/sprite.svg#Search\"></use></svg></button>",
+          "target": [
+            ".btn--clear"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "aria-allowed-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attributes are used correctly for the defined role"
+            }
+          ],
+          "none": [
+            {
+              "id": "aria-unsupported-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attribute is supported"
+            }
+          ],
+          "impact": null,
+          "html": "<button aria-label=\"open menu\" type=\"button\" class=\"account-links__link header__account-link account-links__mobile-menu js-mobile-hook\">",
+          "target": [
+            ".js-mobile-hook"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "aria-allowed-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attributes are used correctly for the defined role"
+            }
+          ],
+          "none": [
+            {
+              "id": "aria-unsupported-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attribute is supported"
+            }
+          ],
+          "impact": null,
+          "html": "<section class=\"carousel carousel--four-slides swiper-container swiper-container-initialized swiper-container-horizontal\" aria-label=\"Product carousel\">",
+          "target": [
+            ".carousel"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "aria-allowed-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attributes are used correctly for the defined role"
+            }
+          ],
+          "none": [
+            {
+              "id": "aria-unsupported-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attribute is supported"
+            }
+          ],
+          "impact": null,
+          "html": "<div aria-label=\"product\" role=\"group\" class=\"swiper-slide product-tile col-sm-6 col-md-6 col-xl-3 swiper-slide-visible swiper-slide-active\" aria-hidden=\"false\" style=\"width: 400px;\">",
+          "target": [
+            ".swiper-slide-active"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "aria-allowed-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attributes are used correctly for the defined role"
+            }
+          ],
+          "none": [
+            {
+              "id": "aria-unsupported-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attribute is supported"
+            }
+          ],
+          "impact": null,
+          "html": "<span class=\"star-rating__review-count\" aria-label=\"1 reviews\">1 Reviews</span>",
+          "target": [
+            ".swiper-slide-active > .product-tile__container > .product-tile__description > .product-tile__description-container > .product-tile__facets > .product-tile__star-rating > .star-rating > .star-rating__review-count[aria-label=\"1 reviews\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "aria-allowed-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attributes are used correctly for the defined role"
+            }
+          ],
+          "none": [
+            {
+              "id": "aria-unsupported-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attribute is supported"
+            }
+          ],
+          "impact": null,
+          "html": "<button type=\"button\" aria-controls=\"buyItemControls\" aria-expanded=\"false\" aria-label=\"Buy Item open dropdown for Add Quantity and Add to Basket\" class=\"btn add-to-basket__text-button product-tile__toggle-button js-toggle-basket-control\" tabindex=\"0\">",
+          "target": [
+            ".swiper-slide-active > .product-tile__container > .product-tile__description > .product-pricing.product-tile__bottom-container > .add-to-basket.input-group.js-add-to-basket-container > .add-to-basket__text-button.product-tile__toggle-button.js-toggle-basket-control"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "aria-allowed-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attributes are used correctly for the defined role"
+            }
+          ],
+          "none": [
+            {
+              "id": "aria-unsupported-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attribute is supported"
+            }
+          ],
+          "impact": null,
+          "html": "<div aria-label=\"product\" role=\"group\" class=\"swiper-slide product-tile col-sm-6 col-md-6 col-xl-3 swiper-slide-visible swiper-slide-next\" aria-hidden=\"false\" style=\"width: 400px;\">",
+          "target": [
+            ".swiper-slide-next"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "aria-allowed-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attributes are used correctly for the defined role"
+            }
+          ],
+          "none": [
+            {
+              "id": "aria-unsupported-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attribute is supported"
+            }
+          ],
+          "impact": null,
+          "html": "<span class=\"star-rating__review-count\" aria-label=\"1 reviews\">1 Reviews</span>",
+          "target": [
+            ".swiper-slide-next > .product-tile__container > .product-tile__description > .product-tile__description-container > .product-tile__facets > .product-tile__star-rating > .star-rating > .star-rating__review-count[aria-label=\"1 reviews\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "aria-allowed-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attributes are used correctly for the defined role"
+            }
+          ],
+          "none": [
+            {
+              "id": "aria-unsupported-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attribute is supported"
+            }
+          ],
+          "impact": null,
+          "html": "<button type=\"button\" aria-controls=\"buyItemControls\" aria-expanded=\"false\" aria-label=\"Buy Item open dropdown for Add Quantity and Add to Basket\" class=\"btn add-to-basket__text-button product-tile__toggle-button js-toggle-basket-control\" tabindex=\"0\">",
+          "target": [
+            ".swiper-slide-next > .product-tile__container > .product-tile__description > .product-pricing.product-tile__bottom-container > .add-to-basket.input-group.js-add-to-basket-container > .add-to-basket__text-button.product-tile__toggle-button.js-toggle-basket-control"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "aria-allowed-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attributes are used correctly for the defined role"
+            }
+          ],
+          "none": [
+            {
+              "id": "aria-unsupported-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attribute is supported"
+            }
+          ],
+          "impact": null,
+          "html": "<button type=\"button\" class=\"swiper-button-next swiper-button-next--four-slides\" aria-label=\"Next slide\">",
+          "target": [
+            ".swiper-button-next"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "aria-allowed-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attributes are used correctly for the defined role"
+            }
+          ],
+          "none": [
+            {
+              "id": "aria-unsupported-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attribute is supported"
+            }
+          ],
+          "impact": null,
+          "html": "<a rel=\"noopener noreferrer\" href=\"https://www.twitter.com/TheWineSociety\" class=\"social-links__link\" aria-label=\"The Wine Society Twitter\" target=\"_blank\">",
+          "target": [
+            "a[aria-label=\"The Wine Society Twitter\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "aria-allowed-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attributes are used correctly for the defined role"
+            }
+          ],
+          "none": [
+            {
+              "id": "aria-unsupported-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attribute is supported"
+            }
+          ],
+          "impact": null,
+          "html": "<a rel=\"noopener noreferrer\" href=\"https://www.youtube.com/c/Thewinesociety/videos\" class=\"social-links__link\" aria-label=\"The Wine Society Youtube\" target=\"_blank\">",
+          "target": [
+            "a[aria-label=\"The Wine Society Youtube\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "aria-allowed-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attributes are used correctly for the defined role"
+            }
+          ],
+          "none": [
+            {
+              "id": "aria-unsupported-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attribute is supported"
+            }
+          ],
+          "impact": null,
+          "html": "<a rel=\"noopener noreferrer\" href=\"https://www.instagram.com/thewinesociety1874/\" class=\"social-links__link\" aria-label=\"The Wine Society Instagram\" target=\"_blank\">",
+          "target": [
+            "a[aria-label=\"The Wine Society Instagram\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "aria-allowed-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attributes are used correctly for the defined role"
+            }
+          ],
+          "none": [
+            {
+              "id": "aria-unsupported-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attribute is supported"
+            }
+          ],
+          "impact": null,
+          "html": "<button data-toggle=\"collapse\" data-target=\"#memberServices\" aria-expanded=\"false\" aria-controls=\"memberServices\" class=\"collapsed footer-links-title__toggle\">",
+          "target": [
+            "button[data-target=\"#memberServices\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "aria-allowed-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attributes are used correctly for the defined role"
+            }
+          ],
+          "none": [
+            {
+              "id": "aria-unsupported-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attribute is supported"
+            }
+          ],
+          "impact": null,
+          "html": "<button data-toggle=\"collapse\" data-target=\"#aboutUs\" aria-expanded=\"false\" aria-controls=\"aboutUs\" class=\"collapsed footer-links-title__toggle\">",
+          "target": [
+            "button[data-target=\"#aboutUs\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "aria-allowed-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attributes are used correctly for the defined role"
+            }
+          ],
+          "none": [
+            {
+              "id": "aria-unsupported-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attribute is supported"
+            }
+          ],
+          "impact": null,
+          "html": "<button data-toggle=\"collapse\" data-target=\"#ourServices\" aria-expanded=\"false\" aria-controls=\"ourServices\" class=\"collapsed footer-links-title__toggle\">",
+          "target": [
+            "button[data-target=\"#ourServices\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "aria-allowed-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attributes are used correctly for the defined role"
+            }
+          ],
+          "none": [
+            {
+              "id": "aria-unsupported-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attribute is supported"
+            }
+          ],
+          "impact": null,
+          "html": "<button data-toggle=\"collapse\" data-target=\"#exampleFooterAccordion\" aria-expanded=\"false\" aria-controls=\"exampleFooterAccordion\" class=\"collapsed footer-links-title__toggle\">",
+          "target": [
+            "button[data-target=\"#exampleFooterAccordion\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "aria-allowed-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attributes are used correctly for the defined role"
+            }
+          ],
+          "none": [
+            {
+              "id": "aria-unsupported-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attribute is supported"
+            }
+          ],
+          "impact": null,
+          "html": "<div role=\"alertdialog\" aria-describedby=\"onetrust-policy-text\" aria-label=\"Cookies on thewinesociety.com\">",
+          "target": [
+            "div[aria-describedby=\"onetrust-policy-text\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "aria-allowed-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attributes are used correctly for the defined role"
+            }
+          ],
+          "none": [
+            {
+              "id": "aria-unsupported-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attribute is supported"
+            }
+          ],
+          "impact": null,
+          "html": "<a href=\"https://www.thewinesociety.com/about/cookie-policy\" aria-label=\"More information about your privacy\">You can find out more on our cookies page at any time.</a>",
+          "target": [
+            "#onetrust-policy-text > a"
+          ]
+        }
+      ]
+    }
+  ],
+  "incomplete": [],
+  "violations": []
+}

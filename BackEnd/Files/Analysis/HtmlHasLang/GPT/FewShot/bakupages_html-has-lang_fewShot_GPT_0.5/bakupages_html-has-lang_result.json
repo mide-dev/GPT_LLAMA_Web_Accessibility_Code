@@ -21,8 +21,8 @@
     "modelCorrections": [
       {
         "beforeModification": "<html>",
-        "afterModification": "<html lang=\"en\">",
-        "rawOutput": "```html\n<html lang=\"en\">\n```"
+        "afterModification": "<html lang=\"ru\">",
+        "rawOutput": "```html\n<html lang=\"ru\">\n```"
       }
     ]
   }

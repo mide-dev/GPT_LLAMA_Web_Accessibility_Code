@@ -1,0 +1,39 @@
+[
+  {
+    "analysisDetails": [
+      {
+        "model": "Claude"
+      },
+      {
+        "accessibility_type": "aria-allowed-attr"
+      },
+      {
+        "prompt_technique": "fewShot"
+      },
+      {
+        "temperature": 0.5
+      }
+    ],
+    "accessbilityTestResult": {
+      "violationBeforeModification": 3,
+      "violationAfterModification": 0
+    },
+    "modelCorrections": [
+      {
+        "beforeModification": "<label aria-controls=\"collapseOne\" aria-expanded=\"true\" class=\"radio\" data-target=\"#offerbox-main-buy-now-details\" data-toggle=\"collapse\">",
+        "afterModification": "<label aria-controls=\"collapseOne\" class=\"radio\" data-target=\"#offerbox-main-buy-now-details\" data-toggle=\"collapse\">",
+        "rawOutput": "- Corrected HTML: <label aria-controls=\"collapseOne\" class=\"radio\" data-target=\"#offerbox-main-buy-now-details\" data-toggle=\"collapse\">\n\nExplanation:\nThe ARIA attribute \"aria-expanded\" is not allowed on the <label> element according to the WCAG 2.1 guidelines. To fix the accessibility violation, you should remove the \"aria-expanded\" attribute from the <label> element.\n\nThe corrected HTML removes the \"aria-expanded\" attribute while keeping the other attributes and classes intact."
+      },
+      {
+        "beforeModification": "<label aria-controls=\"leaseCalculator\" aria-expanded=\"false\" class=\"radio\" data-target=\"#offerbox-main-lease-calculator\" data-toggle=\"collapse\">",
+        "afterModification": "<label aria-controls=\"leaseCalculator\" class=\"radio\" data-target=\"#offerbox-main-lease-calculator\" data-toggle=\"collapse\">",
+        "rawOutput": "Here's the corrected HTML based on the WCAG 2.1 violation description and the provided example:\n\n- Corrected HTML:\n<label aria-controls=\"leaseCalculator\" class=\"radio\" data-target=\"#offerbox-main-lease-calculator\" data-toggle=\"collapse\">\n\nExplanation:\nThe `aria-expanded` attribute is not allowed on the `<label>` element according to the WCAG 2.1 guidelines. The `aria-expanded` attribute is typically used on elements that can expand or collapse, such as buttons or interactive elements. In this case, the `<label>` element is not an appropriate element for using `aria-expanded`.\n\nTo fix the violation, simply remove the `aria-expanded=\"false\"` attribute from the `<label>` element. The corrected HTML will still maintain the other attributes and functionality related to the collapse behavior using the `data-target` and `data-toggle` attributes."
+      },
+      {
+        "beforeModification": "<label aria-controls=\"makeOfferDetails\" aria-expanded=\"false\" class=\"radio\" data-target=\"#offerbox-main-make-offer-details\" data-toggle=\"collapse\">",
+        "afterModification": "<label aria-controls=\"makeOfferDetails\" class=\"radio\" data-target=\"#offerbox-main-make-offer-details\" data-toggle=\"collapse\">",
+        "rawOutput": "Here's the corrected HTML based on the WCAG 2.1 violation description:\n\n- Corrected HTML:\n<label aria-controls=\"makeOfferDetails\" class=\"radio\" data-target=\"#offerbox-main-make-offer-details\" data-toggle=\"collapse\">\n\nExplanation:\nThe `aria-expanded` attribute is not allowed on the `<label>` element according to the WCAG 2.1 guidelines. The `aria-expanded` attribute is typically used on elements that can expand or collapse content, such as buttons or interactive elements. In this case, since the `<label>` element is not an interactive element that expands or collapses content, the `aria-expanded` attribute should be removed to comply with the accessibility guidelines."
+      }
+    ]
+  }
+]

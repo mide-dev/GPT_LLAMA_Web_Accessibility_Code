@@ -1,0 +1,29 @@
+[
+  {
+    "analysisDetails": [
+      {
+        "model": "Claude"
+      },
+      {
+        "accessibility_type": "html-has-lang"
+      },
+      {
+        "prompt_technique": "cot"
+      },
+      {
+        "temperature": 0.5
+      }
+    ],
+    "accessbilityTestResult": {
+      "violationBeforeModification": 1,
+      "violationAfterModification": 0
+    },
+    "modelCorrections": [
+      {
+        "beforeModification": "<html xmlns=\"http://www.w3.org/1999/xhtml\">",
+        "afterModification": "<html xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en\">",
+        "rawOutput": "Here's the corrected HTML based on the WCAG 2.1 violation description and the provided example:\n\n*Extracted text from website*: \"All categories\"\n- Incorrect HTML: <html xmlns=\"http://www.w3.org/1999/xhtml\">\n- Thought: I need to correct the above HTML by adding the \"lang\" attribute and assigning the appropriate language based on the \"Extracted text from website\" for language context. The text \"All categories\" suggests that the content is likely in English.\n- Corrected HTML: <html xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en\">"
+      }
+    ]
+  }
+]

@@ -1,0 +1,29 @@
+[
+  {
+    "analysisDetails": [
+      {
+        "model": "Claude"
+      },
+      {
+        "accessibility_type": "aria-required-attr"
+      },
+      {
+        "prompt_technique": "ReAct"
+      },
+      {
+        "temperature": 0.5
+      }
+    ],
+    "accessbilityTestResult": {
+      "violationBeforeModification": 1,
+      "violationAfterModification": 0
+    },
+    "modelCorrections": [
+      {
+        "beforeModification": "<input type=\"text\" name=\"SearchFilterFilterSearchTerm\" id=\"SearchFilterFilterSearchTerm\" autocomplete=\"off\" aria-invalid=\"false\" class=\"hero-search-listing Typeahead tt-input\" onfocus=\"if (!window.__cfRLUnblockHandlers) return false; this.placeholder =''\" placeholder=\"Where would you like to go?\" maxlength=\"30\" spellcheck=\"false\" dir=\"auto\" aria-activedescendant=\"\" aria-owns=\"SearchFilterFilterSearchTerm_listbox\" role=\"combobox\" aria-readonly=\"true\" aria-autocomplete=\"list\" style=\"position: relative; vertical-align: top; background-color: rgba(0, 0, 0, 0);\">",
+        "afterModification": "<input type=\"text\" name=\"SearchFilterFilterSearchTerm\" id=\"SearchFilterFilterSearchTerm\" autocomplete=\"off\" aria-invalid=\"false\" class=\"hero-search-listing Typeahead tt-input\" onfocus=\"if (!window.__cfRLUnblockHandlers) return false; this.placeholder =''\" placeholder=\"Where would you like to go?\" maxlength=\"30\" spellcheck=\"false\" dir=\"auto\" aria-activedescendant=\"\" aria-owns=\"SearchFilterFilterSearchTerm_listbox\" role=\"combobox\" aria-readonly=\"true\" aria-autocomplete=\"list\" aria-expanded=\"false\" style=\"position: relative; vertical-align: top; background-color: rgba(0, 0, 0, 0);\">",
+        "rawOutput": "- Thought: The input element with a role of combobox is missing the required ARIA attributes aria-expanded and aria-controls according to the WCAG 2.1 violation description.\n\n- Observation: An element with role=\"combobox\" requires the aria-expanded and aria-controls attributes to indicate the current state of the combobox and the associated listbox element.\n\n- Action: Add the aria-expanded and aria-controls attributes to the input element. The aria-expanded attribute should be set to \"false\" initially and toggled to \"true\" when the listbox is displayed. The aria-controls attribute should reference the ID of the associated listbox element.\n\n- Corrected HTML:\n<input type=\"text\" name=\"SearchFilterFilterSearchTerm\" id=\"SearchFilterFilterSearchTerm\" autocomplete=\"off\" aria-invalid=\"false\" class=\"hero-search-listing Typeahead tt-input\" onfocus=\"if (!window.__cfRLUnblockHandlers) return false; this.placeholder =''\" placeholder=\"Where would you like to go?\" maxlength=\"30\" spellcheck=\"false\" dir=\"auto\" aria-activedescendant=\"\" aria-owns=\"SearchFilterFilterSearchTerm_listbox\" role=\"combobox\" aria-readonly=\"true\" aria-autocomplete=\"list\" aria-expanded=\"false\" style=\"position: relative; vertical-align: top; background-color: rgba(0, 0, 0, 0);\">"
+      }
+    ]
+  }
+]

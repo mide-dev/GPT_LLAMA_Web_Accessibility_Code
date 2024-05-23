@@ -1,0 +1,99 @@
+[
+  {
+    "analysisDetails": [
+      {
+        "model": "Claude"
+      },
+      {
+        "accessibility_type": "link-name"
+      },
+      {
+        "prompt_technique": "cot"
+      },
+      {
+        "temperature": 0.5
+      }
+    ],
+    "accessbilityTestResult": {
+      "violationBeforeModification": 15,
+      "violationAfterModification": 0
+    },
+    "modelCorrections": [
+      {
+        "beforeModification": "<a id=\"slider-51-slide-46-layer-79\" class=\"rs-layer rs-layer-static\" href=\"#contact\" target=\"_self\" rel=\"nofollow\" data-type=\"image\" data-rsp_ch=\"on\" data-xy=\"x:l,l,c,c;xo:535px,466px,225px,152px;y:b;yo:20px,20px,17px,20px;\" data-text=\"w:normal;s:20,16,12,7;l:0,20,15,9;\" data-dim=\"w:73px,100px,64px,60px;h:73px,100px,64px,60px;\" data-basealign=\"slide\" data-onslides=\"s:1;\" data-frame_999=\"o:0;st:w;\" style=\"z-index: 17; color: rgb(255, 255, 255); width: 78px; height: 78px; min-height: 0px; min-width: 0px; max-height: none; max-width: none; backdrop-filter: none; filter: none; transform-origin: 50% 50%; opacity: 1; transform: translate(0px, 0px); visibility: visible;\" data-startslide=\"1\" data-endslide=\"5\" data-idcheck=\"true\" data-stylerecorder=\"true\" data-initialised=\"true\">",
+        "afterModification": "",
+        "rawOutput": "- Thought: I need to correct the above HTML by adding a title attribute to the link. Since it's \"href\" is using an anchor tag, I can use its name to set the title content.\n- Corrected HTML: <a id=\"slider-51-slide-46-layer-79\" class=\"rs-layer rs-layer-static\" href=\"#contact\" title=\"Contact\" target=\"_self\" rel=\"nofollow\" data-type=\"image\" data-rsp_ch=\"on\" data-xy=\"x:l,l,c,c;xo:535px,466px,225px,152px;y:b;yo:20px,20px,17px,20px;\" data-text=\"w:normal;s:20,16,12,7;l:0,20,15,9;\" data-dim=\"w:73px,100px,64px,60px;h:73px,100px,64px,60px;\" data-basealign=\"slide\" data-onslides=\"s:1;\" data-frame_999=\"o:0;st:w;\" style=\"z-index: 17; color: rgb(255, 255, 255); width: 78px; height: 78px; min-height: 0px; min-width: 0px; max-"
+      },
+      {
+        "beforeModification": "<a id=\"slider-51-slide-46-layer-83\" class=\"rs-layer rs-layer-static\" href=\"#book-a-demo\" target=\"_self\" rel=\"nofollow\" data-type=\"image\" data-rsp_ch=\"on\" data-xy=\"x:l,l,c,c;xo:293px,234px,0,0;y:b;yo:20px,20px,17px,20px;\" data-text=\"w:normal;s:20,16,12,7;l:0,20,15,9;\" data-dim=\"w:73px,100px,64px,60px;h:73px,100px,64px,60px;\" data-basealign=\"slide\" data-onslides=\"s:1;\" data-frame_999=\"o:0;st:w;\" style=\"z-index: 16; color: rgb(255, 255, 255); width: 78px; height: 78px; min-height: 0px; min-width: 0px; max-height: none; max-width: none; backdrop-filter: none; filter: none; transform-origin: 50% 50%; opacity: 1; transform: translate(0px, 0px); visibility: visible;\" data-startslide=\"1\" data-endslide=\"5\" data-idcheck=\"true\" data-stylerecorder=\"true\" data-initialised=\"true\">",
+        "afterModification": "",
+        "rawOutput": "- Thought: I need to correct the above HTML by adding a title attribute to the link. Since its \"href\" is using an anchor tag with the name \"book-a-demo\", I can use that to set the title content.\n\n- Corrected HTML:\n<a id=\"slider-51-slide-46-layer-83\" class=\"rs-layer rs-layer-static\" href=\"#book-a-demo\" title=\"Book A Demo\" target=\"_self\" rel=\"nofollow\" data-type=\"image\" data-rsp_ch=\"on\" data-xy=\"x:l,l,c,c;xo:293px,234px,0,0;y:b;yo:20px,20px,17px,20px;\" data-text=\"w:normal;s:20,16,12,7;l:0,20,15,9;\" data-dim=\"w:73px,100px,64px,60px;h:73px,100px,64px,60px;\" data-basealign=\"slide\" data-onslides=\"s:1;\" data-frame_999=\"o:0;st:w;\" style=\"z-index: 16; color: rgb(255, 255, 255); width: 78px; height: 78px; min-height: 0"
+      },
+      {
+        "beforeModification": "<a id=\"slider-51-slide-46-layer-85\" class=\"rs-layer rs-layer-static\" href=\"#get-a-quote\" target=\"_self\" rel=\"nofollow\" data-type=\"image\" data-rsp_ch=\"on\" data-xy=\"x:l,l,c,c;xo:58px,29px,-240px,-156px;y:b;yo:20px,20px,17px,20px;\" data-text=\"w:normal;s:20,16,12,7;l:0,20,15,9;\" data-dim=\"w:73px,100px,64px,60px;h:73px,100px,64px,60px;\" data-basealign=\"slide\" data-onslides=\"s:1;\" data-frame_999=\"o:0;st:w;\" style=\"z-index: 18; color: rgb(255, 255, 255); width: 78px; height: 78px; min-height: 0px; min-width: 0px; max-height: none; max-width: none; backdrop-filter: none; filter: none; transform-origin: 50% 50%; opacity: 1; transform: translate(0px, 0px); visibility: visible;\" data-startslide=\"1\" data-endslide=\"5\" data-idcheck=\"true\" data-stylerecorder=\"true\" data-initialised=\"true\">",
+        "afterModification": "",
+        "rawOutput": "- Thought: I need to correct the above HTML by adding a title attribute to the link. Since it's \"href\" is using an anchor tag, I can use its name to set the title content. The anchor tag's name is \"get-a-quote\", so I'll set the title attribute to \"Get A Quote\".\n\n- Corrected HTML:\n<a id=\"slider-51-slide-46-layer-85\" class=\"rs-layer rs-layer-static\" href=\"#get-a-quote\" title=\"Get A Quote\" target=\"_self\" rel=\"nofollow\" data-type=\"image\" data-rsp_ch=\"on\" data-xy=\"x:l,l,c,c;xo:58px,29px,-240px,-156px;y:b;yo:20px,20px,17px,20px;\" data-text=\"w:normal;s:20,16,12,7;l:0,20,15,9;\" data-dim=\"w:73px,100px,64px,60px;h:73px,100px,64px,60px;\" data-basealign=\"slide\" data-onslides=\"s:1;\" data-frame_999=\"o:0;st:w;\" style=\"z-index: 18; color: rgb(255, 255,"
+      },
+      {
+        "beforeModification": "<a class=\"column-link\" target=\"_self\" href=\"/covid-19-customers-and-partners-resources/\"></a>",
+        "afterModification": "<a class=\"column-link\" target=\"_self\" href=\"/covid-19-customers-and-partners-resources/\" title=\"COVID-19 Customers and Partners Resources\"></a>",
+        "rawOutput": "- Thought: I need to correct the above HTML by adding a title attribute to the link. Since the \"href\" is using a relative path, I can use the path name to set the title content. The path \"/covid-19-customers-and-partners-resources/\" suggests the link is related to COVID-19 resources for customers and partners.\n\n- Corrected HTML: <a class=\"column-link\" target=\"_self\" href=\"/covid-19-customers-and-partners-resources/\" title=\"COVID-19 Customers and Partners Resources\"></a>"
+      },
+      {
+        "beforeModification": "<a href=\"https://players.brightcove.net/2165782443001/TmnSuwJqg_default/index.html?videoId=5775269684001\" class=\"full-link magnific-popup\"></a>",
+        "afterModification": "<a href=\"https://players.brightcove.net/2165782443001/TmnSuwJqg_default/index.html?videoId=5775269684001\" class=\"full-link magnific-popup\" title=\"Play Video\"></a>",
+        "rawOutput": "- Thought: I need to correct the above HTML by adding a title attribute to the link. Since the \"href\" is a URL that includes a video ID, I can use that context to set the title content to something like \"Play Video\".\n\n- Corrected HTML: <a href=\"https://players.brightcove.net/2165782443001/TmnSuwJqg_default/index.html?videoId=5775269684001\" class=\"full-link magnific-popup\" title=\"Play Video\"></a>"
+      },
+      {
+        "beforeModification": "<a href=\"https://players.brightcove.net/2165782443001/TmnSuwJqg_default/index.html?videoId=5804808189001\" class=\"full-link magnific-popup\"></a>",
+        "afterModification": "<a href=\"https://players.brightcove.net/2165782443001/TmnSuwJqg_default/index.html?videoId=5804808189001\" class=\"full-link magnific-popup\" title=\"Play Video\"></a>",
+        "rawOutput": "- Thought: I need to correct the above HTML by adding a title attribute to the link. Since the \"href\" is a url that contains a video ID, I can use that context to set the title content to something like \"Play Video\".\n\n- Corrected HTML: <a href=\"https://players.brightcove.net/2165782443001/TmnSuwJqg_default/index.html?videoId=5804808189001\" class=\"full-link magnific-popup\" title=\"Play Video\"></a>"
+      },
+      {
+        "beforeModification": "<a class=\"column-link\" target=\"_self\" href=\"/industry/industrial-automation/oil-gas/\"></a>",
+        "afterModification": "<a class=\"column-link\" target=\"_self\" href=\"/industry/industrial-automation/oil-gas/\" title=\"Oil and Gas Industry\"></a>",
+        "rawOutput": "- Thought: I need to correct the above HTML by adding a title attribute to the link. Since its \"href\" is a URL path, I can use the last part of the path \"oil-gas\" to infer the context and set an appropriate title content.\n\n- Corrected HTML: <a class=\"column-link\" target=\"_self\" href=\"/industry/industrial-automation/oil-gas/\" title=\"Oil and Gas Industry\"></a>"
+      },
+      {
+        "beforeModification": "<a class=\"column-link\" target=\"_self\" href=\"/industry/healthcare/\"></a>",
+        "afterModification": "<a class=\"column-link\" target=\"_self\" href=\"/industry/healthcare/\" title=\"Healthcare\"></a>",
+        "rawOutput": "- Thought: I need to correct the above HTML by adding a title attribute to the link. Since the \"href\" is using a relative path, I can use the last part of the path \"healthcare\" to set the title content.\n\n- Corrected HTML: <a class=\"column-link\" target=\"_self\" href=\"/industry/healthcare/\" title=\"Healthcare\"></a>"
+      },
+      {
+        "beforeModification": "<a class=\"column-link\" target=\"_self\" href=\"/industry/industrial-automation/food-and-beverage/\"></a>",
+        "afterModification": "<a class=\"column-link\" target=\"_self\" href=\"/industry/industrial-automation/food-and-beverage/\" title=\"Food and Beverage\"></a>",
+        "rawOutput": "- Thought: I need to correct the above HTML by adding a title attribute to the link. Since its \"href\" is a URL path, I can use the last part of the path \"food-and-beverage\" to set the title content, capitalizing each word for better readability.\n\n- Corrected HTML: <a class=\"column-link\" target=\"_self\" href=\"/industry/industrial-automation/food-and-beverage/\" title=\"Food and Beverage\"></a>"
+      },
+      {
+        "beforeModification": "<a class=\"column-link\" target=\"_self\" href=\"/industry/industrial-automation/water-wastewater/\"></a>",
+        "afterModification": "<a class=\"column-link\" target=\"_self\" href=\"/industry/industrial-automation/water-wastewater/\" title=\"Water & Wastewater Industry Automation Solutions\"></a>",
+        "rawOutput": "- Thought: I need to correct the above HTML by adding a title attribute to the link. Since its \"href\" is a url, I can search the url to get context on what the title content should be. Based on the url, the link seems to be related to \"Water & Wastewater\" in the context of \"Industrial Automation\" industry.\n\n- Corrected HTML: <a class=\"column-link\" target=\"_self\" href=\"/industry/industrial-automation/water-wastewater/\" title=\"Water & Wastewater Industry Automation Solutions\"></a>"
+      },
+      {
+        "beforeModification": "<a class=\"column-link\" target=\"_self\" href=\"/industry/industrial-automation/life-sciences-manufacturing-and-power-industries/\"></a>",
+        "afterModification": "<a class=\"column-link\" target=\"_self\" href=\"/industry/industrial-automation/life-sciences-manufacturing-and-power-industries/\" title=\"Life Sciences Manufacturing and Power Industries\"></a>",
+        "rawOutput": "Here's the corrected HTML based on the provided thought process:\n\n- Incorrect HTML: <a class=\"column-link\" target=\"_self\" href=\"/industry/industrial-automation/life-sciences-manufacturing-and-power-industries/\"></a>\n- Thought: I need to correct the above HTML by adding a title attribute to the link. Since the \"href\" is a URL, I can use the last part of the URL path to set the title content, as it seems to describe the page the link is pointing to.\n- Corrected HTML: <a class=\"column-link\" target=\"_self\" href=\"/industry/industrial-automation/life-sciences-manufacturing-and-power-industries/\" title=\"Life Sciences Manufacturing and Power Industries\"></a>"
+      },
+      {
+        "beforeModification": "<a class=\"column-link\" target=\"_self\" href=\"/industry/retail/\"></a>",
+        "afterModification": "<a class=\"column-link\" target=\"_self\" href=\"/industry/retail/\" title=\"Retail Industry\">Retail Industry</a>",
+        "rawOutput": "Here's the corrected HTML based on the provided thought process:\n\n- Incorrect HTML: <a class=\"column-link\" target=\"_self\" href=\"/industry/retail/\"></a>\n- Thought: I need to correct the above HTML by adding a title attribute to the link. Since its \"href\" is a relative URL pointing to a specific industry page, I can use the industry name \"Retail\" to set the title content. Additionally, I should add some descriptive text within the <a> tag to make it accessible to screen readers.\n- Corrected HTML: <a class=\"column-link\" target=\"_self\" href=\"/industry/retail/\" title=\"Retail Industry\">Retail Industry</a>"
+      },
+      {
+        "beforeModification": "<a class=\"column-link\" target=\"_self\" href=\"/industry/travel-logistics/\"></a>",
+        "afterModification": " <a class=\"column-link\" target=\"_self\" href=\"/industry/travel-logistics/\" title=\"Travel Logistics Industry\"></a>",
+        "rawOutput": "Here's the corrected HTML based on the provided thought process:\n\n- Incorrect HTML: <a class=\"column-link\" target=\"_self\" href=\"/industry/travel-logistics/\"></a>\n- Thought: I need to correct the above HTML by adding a title attribute to the link. Since its \"href\" is a relative URL pointing to a specific industry page, I can use the last part of the URL \"travel-logistics\" to create a meaningful title for the link.\n- Corrected HTML: <a class=\"column-link\" target=\"_self\" href=\"/industry/travel-logistics/\" title=\"Travel Logistics Industry\"></a>\n\nIn this correction, I added a title attribute to the anchor tag with the value \"Travel Logistics Industry\". This title provides a clear and descriptive text for the link, making it accessible to screen readers and improving the overall accessibility of the HTML element according to WCAG 2.1 guidelines."
+      },
+      {
+        "beforeModification": "<a class=\"column-link\" target=\"_self\" href=\"/industry/smart-buildings/\"></a>",
+        "afterModification": "<a class=\"column-link\" target=\"_self\" href=\"/industry/smart-buildings/\" title=\"Smart Buildings\"></a>",
+        "rawOutput": "Here's the corrected HTML based on the WCAG 2.1 violation description and the provided examples:\n\n- Incorrect HTML: <a class=\"column-link\" target=\"_self\" href=\"/industry/smart-buildings/\"></a>\n- Thought: I need to correct the above HTML by adding a title attribute to the link. Since its \"href\" is a relative URL, I can use the last part of the URL path (\"smart-buildings\") to create a meaningful title for the link.\n- Corrected HTML: <a class=\"column-link\" target=\"_self\" href=\"/industry/smart-buildings/\" title=\"Smart Buildings\"></a>\n\nIn this correction, I added a title attribute to the anchor tag with the value \"Smart Buildings\". This provides accessible text for screen readers and improves the link's accessibility. The title is derived from the last part of the URL path, assuming it represents the content or purpose of the linked page."
+      },
+      {
+        "beforeModification": "<a id=\"to-top\" href=\"#\" class=\"\n\tmobile-enabled\t\"><i class=\"fa fa-angle-up\"></i></a>",
+        "afterModification": "<a id=\"to-top\" href=\"#\" class=\"mobile-enabled\" title=\"Back to Top\"><i class=\"fa fa-angle-up\"></i></a>",
+        "rawOutput": "- Thought: I need to correct the above HTML by adding a title attribute to the link. Since it's using an \"angle-up\" icon, I can infer that the link is meant to take the user back to the top of the page. I'll set the title content accordingly.\n\n- Corrected HTML:\n<a id=\"to-top\" href=\"#\" class=\"mobile-enabled\" title=\"Back to Top\"><i class=\"fa fa-angle-up\"></i></a>"
+      }
+    ]
+  }
+]

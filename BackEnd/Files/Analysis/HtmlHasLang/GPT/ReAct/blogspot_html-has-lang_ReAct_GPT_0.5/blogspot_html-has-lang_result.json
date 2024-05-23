@@ -1,0 +1,29 @@
+[
+  {
+    "analysisDetails": [
+      {
+        "model": "GPT"
+      },
+      {
+        "accessibility_type": "html-has-lang"
+      },
+      {
+        "prompt_technique": "ReAct"
+      },
+      {
+        "temperature": 0.5
+      }
+    ],
+    "accessbilityTestResult": {
+      "violationBeforeModification": 1,
+      "violationAfterModification": 0
+    },
+    "modelCorrections": [
+      {
+        "beforeModification": "<html class=\"v2 js js\" dir=\"ltr\" xmlns=\"http://www.w3.org/1999/xhtml\" xmlns:b=\"http://www.google.com/2005/gml/b\" xmlns:data=\"http://www.google.com/2005/gml/data\" xmlns:expr=\"http://www.google.com/2005/gml/expr\">",
+        "afterModification": "<html lang=\"en\" class=\"v2 js js\" dir=\"ltr\" xmlns=\"http://www.w3.org/1999/xhtml\" xmlns:b=\"http://www.google.com/2005/gml/b\" xmlns:data=\"http://www.google.com/2005/gml/data\" xmlns:expr=\"http://www.google.com/2005/gml/expr\">",
+        "rawOutput": "- Thought: The <html> tag is missing the \"lang\" attribute, which is crucial for specifying the primary language of the document. This aids in accessibility, especially for screen readers, by ensuring they use the correct pronunciation rules.\n\n- Observation: The extracted text from the website is in English, indicating that the primary language of the document should be English.\n\n- Action: Add [lang=\"en\"] to the HTML tag to specify that the primary language of the content is English.\n\n- Corrected HTML: <html lang=\"en\" class=\"v2 js js\" dir=\"ltr\" xmlns=\"http://www.w3.org/1999/xhtml\" xmlns:b=\"http://www.google.com/2005/gml/b\" xmlns:data=\"http://www.google.com/2005/gml/data\" xmlns:expr=\"http://www.google.com/2005/gml/expr\">"
+      }
+    ]
+  }
+]

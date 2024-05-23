@@ -1,0 +1,29 @@
+[
+  {
+    "analysisDetails": [
+      {
+        "model": "GPT"
+      },
+      {
+        "accessibility_type": "html-has-lang"
+      },
+      {
+        "prompt_technique": "ReAct"
+      },
+      {
+        "temperature": 0.5
+      }
+    ],
+    "accessbilityTestResult": {
+      "violationBeforeModification": 1,
+      "violationAfterModification": 0
+    },
+    "modelCorrections": [
+      {
+        "beforeModification": "<html>",
+        "afterModification": "<html lang=\"en\">",
+        "rawOutput": "- Thought: The HTML element is missing a \"lang\" attribute, which is necessary for defining the language of the content for accessibility purposes.\n- Observation: Given the extracted text is in English, the website's content is likely intended for English-speaking users.\n- Action: Add [lang=\"en\"] to the HTML.\n- Corrected HTML: <html lang=\"en\">"
+      }
+    ]
+  }
+]

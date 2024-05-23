@@ -1,0 +1,29 @@
+[
+  {
+    "analysisDetails": [
+      {
+        "model": "Claude"
+      },
+      {
+        "accessibility_type": "html-has-lang"
+      },
+      {
+        "prompt_technique": "cot"
+      },
+      {
+        "temperature": 0.5
+      }
+    ],
+    "accessbilityTestResult": {
+      "violationBeforeModification": 1,
+      "violationAfterModification": 0
+    },
+    "modelCorrections": [
+      {
+        "beforeModification": "<html prefix=\"og: http://ogp.me/ns#\">",
+        "afterModification": "<html lang=\"en\" prefix=\"og: http://ogp.me/ns#\">",
+        "rawOutput": "Here's the corrected HTML based on the WCAG 2.1 violation description and the provided example:\n\n*Extracted text from website*: \"We are grateful for the\"\n- Incorrect HTML: <html prefix=\"og: http://ogp.me/ns#\">\n- Thought: The extracted text is in English, so I need to add the \"lang\" attribute to the <html> element and set its value to \"en\" to indicate that the content is in English.\n- Corrected HTML: <html lang=\"en\" prefix=\"og: http://ogp.me/ns#\">"
+      }
+    ]
+  }
+]

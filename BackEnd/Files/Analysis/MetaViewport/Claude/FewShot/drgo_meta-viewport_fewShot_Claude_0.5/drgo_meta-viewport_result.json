@@ -1,0 +1,29 @@
+[
+  {
+    "analysisDetails": [
+      {
+        "model": "Claude"
+      },
+      {
+        "accessibility_type": "meta-viewport"
+      },
+      {
+        "prompt_technique": "fewShot"
+      },
+      {
+        "temperature": 0.5
+      }
+    ],
+    "accessbilityTestResult": {
+      "violationBeforeModification": 1,
+      "violationAfterModification": 0
+    },
+    "modelCorrections": [
+      {
+        "beforeModification": "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1, user-scalable=no\">",
+        "afterModification": "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1, user-scalable=yes\">\n\nExplanation:\nThe `user-scalable=no` attribute in the `<meta>",
+        "rawOutput": "Here's the corrected HTML based on the WCAG 2.1 violation description:\n\n- Corrected HTML: <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, user-scalable=yes\">\n\nExplanation:\nThe `user-scalable=no` attribute in the `<meta>` tag disables zooming on mobile devices, which violates the WCAG 2.1 guidelines. To fix this, you should change the `user-scalable` attribute to `yes` or remove it entirely. This allows users to zoom in and out on the webpage using their mobile devices, improving accessibility for users who may need to enlarge the content."
+      }
+    ]
+  }
+]

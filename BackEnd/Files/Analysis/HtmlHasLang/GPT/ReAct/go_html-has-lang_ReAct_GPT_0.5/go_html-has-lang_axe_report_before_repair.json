@@ -13,7 +13,7 @@
     "orientationAngle": 0,
     "orientationType": "portrait-primary"
   },
-  "timestamp": "2024-04-12T00:20:42.962Z",
+  "timestamp": "2024-04-16T00:28:29.004Z",
   "url": "https://bekasikota.go.id/",
   "toolOptions": {
     "runOnly": {
@@ -60,7 +60,7 @@
           "all": [],
           "none": [],
           "impact": "serious",
-          "html": "<html><head></head><body></body></html>",
+          "html": "<html class=\"history svg video supports boxshadow csstransforms3d csstransitions backgroundcliptext webkit chrome win js sticky-header-enabled sticky-header-active\">",
           "target": [
             "html"
           ],

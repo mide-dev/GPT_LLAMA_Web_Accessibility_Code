@@ -1,0 +1,54 @@
+[
+  {
+    "analysisDetails": [
+      {
+        "model": "Claude"
+      },
+      {
+        "accessibility_type": "color-contrast"
+      },
+      {
+        "prompt_technique": "cot"
+      },
+      {
+        "temperature": 0.5
+      }
+    ],
+    "accessbilityTestResult": {
+      "violationBeforeModification": 6,
+      "violationAfterModification": 6
+    },
+    "modelCorrections": [
+      {
+        "beforeModification": "<span class=\"elementor-button-text\">Talk to an Expert</span>",
+        "afterModification": "<span class=\"elementor-button-text\" style=\"background-color: #007972;\">Talk to an Expert</span>\n\nIn this correction, I changed the background color of the button from #00a9a4 to a darker shade, #007972. This darker shade of teal provides sufficient contrast with the white text, meeting the WCAG 2.1 requirement of a 4.5:1 contrast ratio for accessibility. By applying the style directly to the <span>",
+        "rawOutput": "- Thought: To achieve the required contrast ratio of 4.5:1, I need to adjust either the foreground or background color. Since the button text is white (#ffffff), I'll darken the background color to ensure sufficient contrast while maintaining the button's visual appeal.\n\n- Corrected HTML: <span class=\"elementor-button-text\" style=\"background-color: #007972;\">Talk to an Expert</span>\n\nIn this correction, I changed the background color of the button from #00a9a4 to a darker shade, #007972. This darker shade of teal provides sufficient contrast with the white text, meeting the WCAG 2.1 requirement of a 4.5:1 contrast ratio for accessibility. By applying the style directly to the <span> element, the button's appearance will be updated to ensure readability for users with visual impairments."
+      },
+      {
+        "beforeModification": "<span class=\"elementor-button-text\">Learn More</span>",
+        "afterModification": "<span class=\"elementor-button-text\" style=\"color: #006b67;\">Learn More</span>",
+        "rawOutput": "- Thought: To achieve the required contrast ratio of 4.5:1, I need to adjust either the foreground color or the background color. Since the background color is white (#ffffff), it would be more visually appealing to change the foreground color to a darker shade of teal that complements the existing color scheme.\n\n- Corrected HTML: <span class=\"elementor-button-text\" style=\"color: #006b67;\">Learn More</span>\n\nExplanation: By changing the foreground color from #00a9a4 to a darker shade of teal (#006b67), the contrast ratio between the text and the white background will be increased to meet the minimum requirement of 4.5:1. This adjustment maintains the overall color scheme while improving the accessibility of the button text."
+      },
+      {
+        "beforeModification": "<span class=\"elementor-button-text\">Read now</span>",
+        "afterModification": "<span class=\"elementor-button-text\">Read now</span>\n- Thought: To achieve the required contrast ratio of 4.5:1, I need to modify either the foreground color or the background color. Since the background color seems to be part of the button's design, I'll focus on changing the foreground (text) color to a darker shade that complements the background while ensuring sufficient contrast.\n- Corrected HTML: <span class=\"elementor-button-text\" style=\"color: #003d3a;\">Read now</span>\n\nIn this correction, I added an inline style to the <span>",
+        "rawOutput": "Here's the corrected HTML based on the WCAG 2.1 violation description:\n\n*WCAG 2.1 violation description*: Fix any of the following:\nElement has insufficient color contrast of 2.91 (foreground color: #ffffff, background color: #00a9a4, font size: 11.3pt (15px), font weight: normal). Expected contrast ratio of 4.5:1\n\n- Incorrect HTML: <span class=\"elementor-button-text\">Read now</span>\n- Thought: To achieve the required contrast ratio of 4.5:1, I need to modify either the foreground color or the background color. Since the background color seems to be part of the button's design, I'll focus on changing the foreground (text) color to a darker shade that complements the background while ensuring sufficient contrast.\n- Corrected HTML: <span class=\"elementor-button-text\" style=\"color: #003d3a;\">Read now</span>\n\nIn this correction, I added an inline style to the <span> element to change the foreground color from #ffffff (white) to #003d3a (a darker shade of teal). This darker color provides better contrast against the #00a9a4 background color while maintaining the overall color scheme of the button.\n\nBy making this change,"
+      },
+      {
+        "beforeModification": "<span class=\"elementor-button-text\">Watch on demand</span>",
+        "afterModification": "<span class=\"elementor-button-text\">Watch on demand</span>\n- Thought: To improve the color contrast and meet the required ratio of 4.5:1, I need to adjust either the foreground color (text color) or the background color. Since the background color seems to be part of the brand identity, I'll modify the text color to a darker shade that complements the background while ensuring sufficient contrast.\n- Corrected HTML: <span class=\"elementor-button-text\" style=\"color: #154c4a;\">Watch on demand</span>\n\nIn this correction, I added an inline style to the <span>",
+        "rawOutput": "Here's the corrected HTML based on the WCAG 2.1 violation description:\n\n*WCAG 2.1 violation description*: Fix any of the following:\nElement has insufficient color contrast of 2.91 (foreground color: #ffffff, background color: #00a9a4, font size: 11.3pt (15px), font weight: normal). Expected contrast ratio of 4.5:1\n\n- Incorrect HTML: <span class=\"elementor-button-text\">Watch on demand</span>\n- Thought: To improve the color contrast and meet the required ratio of 4.5:1, I need to adjust either the foreground color (text color) or the background color. Since the background color seems to be part of the brand identity, I'll modify the text color to a darker shade that complements the background while ensuring sufficient contrast.\n- Corrected HTML: <span class=\"elementor-button-text\" style=\"color: #154c4a;\">Watch on demand</span>\n\nIn this correction, I added an inline style to the <span> element to change the text color from #ffffff (white) to #154c4a (a darker shade of teal). This darker color provides better contrast against the #00a9a4 background color while maintaining the overall visual aesthetics of the button. The contrast ratio"
+      },
+      {
+        "beforeModification": "<a href=\"https://digiday.com/\" target=\"_blank\">Digiday</a>",
+        "afterModification": "<a href=\"https://digiday.com/\" target=\"_blank\">Digiday</a>\n- Thought: To improve the color contrast and meet the required ratio of 4.5:1, I can either darken the foreground color (text color) or darken the background color. In this case, since the background is white, it's better to adjust the foreground color to maintain readability and visual hierarchy. I'll choose a darker shade of the original color that provides sufficient contrast.\n- Corrected HTML: <a href=\"https://digiday.com/\" target=\"_blank\" style=\"color: #006b67;\">Digiday</a>",
+        "rawOutput": "Here's the corrected HTML based on the WCAG 2.1 violation description:\n\n*WCAG 2.1 violation description* : Fix any of the following:\nElement has insufficient color contrast of 2.91 (foreground color: #00a9a4, background color: #ffffff, font size: 13.5pt (18px), font weight: normal). Expected contrast ratio of 4.5:1\n- Incorrect HTML: <a href=\"https://digiday.com/\" target=\"_blank\">Digiday</a>\n- Thought: To improve the color contrast and meet the required ratio of 4.5:1, I can either darken the foreground color (text color) or darken the background color. In this case, since the background is white, it's better to adjust the foreground color to maintain readability and visual hierarchy. I'll choose a darker shade of the original color that provides sufficient contrast.\n- Corrected HTML: <a href=\"https://digiday.com/\" target=\"_blank\" style=\"color: #006b67;\">Digiday</a>"
+      },
+      {
+        "beforeModification": "<span class=\"elementor-button-text\">Get the guide</span>",
+        "afterModification": "<span class=\"elementor-button-text\">Get the guide</span>\n- Thought: To improve the color contrast and meet the required contrast ratio of 4.5:1, I need to adjust either the foreground color or the background color. Since the background color seems to be part of the brand identity, I'll modify the foreground color to a darker shade that complements the background while ensuring sufficient contrast.\n- Corrected HTML: <span class=\"elementor-button-text\" style=\"color: #003d3a;\">Get the guide</span>",
+        "rawOutput": "Here's the corrected HTML based on the WCAG 2.1 violation description:\n\n*WCAG 2.1 violation description* : Fix any of the following:\nElement has insufficient color contrast of 2.91 (foreground color: #ffffff, background color: #00a9a4, font size: 11.3pt (15px), font weight: normal). Expected contrast ratio of 4.5:1\n- Incorrect HTML: <span class=\"elementor-button-text\">Get the guide</span>\n- Thought: To improve the color contrast and meet the required contrast ratio of 4.5:1, I need to adjust either the foreground color or the background color. Since the background color seems to be part of the brand identity, I'll modify the foreground color to a darker shade that complements the background while ensuring sufficient contrast.\n- Corrected HTML: <span class=\"elementor-button-text\" style=\"color: #003d3a;\">Get the guide</span>"
+      }
+    ]
+  }
+]

@@ -1,0 +1,29 @@
+[
+  {
+    "analysisDetails": [
+      {
+        "model": "Claude"
+      },
+      {
+        "accessibility_type": "meta-viewport"
+      },
+      {
+        "prompt_technique": "ReAct"
+      },
+      {
+        "temperature": 0.5
+      }
+    ],
+    "accessbilityTestResult": {
+      "violationBeforeModification": 1,
+      "violationAfterModification": 1
+    },
+    "modelCorrections": [
+      {
+        "beforeModification": "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0\">",
+        "afterModification": "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0\">\n- Observation: The meta element above has user-scalable set to 0 which disables zooming on mobile devices. It also has maximum-scale set to 1.0 which limits the zoom level.\n- Thought: I need to change user-scalable to yes to allow zooming and increase maximum-scale to at least 2.0 to meet the minimum requirement according to WCAG 2.1.\n- Action: change[content=\"width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes\"]\n- Corrected HTML: <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes\">",
+        "rawOutput": "- Incorrect HTML: <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0\">\n- Observation: The meta element above has user-scalable set to 0 which disables zooming on mobile devices. It also has maximum-scale set to 1.0 which limits the zoom level.\n- Thought: I need to change user-scalable to yes to allow zooming and increase maximum-scale to at least 2.0 to meet the minimum requirement according to WCAG 2.1.\n- Action: change[content=\"width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes\"]\n- Corrected HTML: <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes\">"
+      }
+    ]
+  }
+]

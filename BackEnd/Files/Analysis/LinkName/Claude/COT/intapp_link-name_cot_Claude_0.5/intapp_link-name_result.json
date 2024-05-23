@@ -1,0 +1,64 @@
+[
+  {
+    "analysisDetails": [
+      {
+        "model": "Claude"
+      },
+      {
+        "accessibility_type": "link-name"
+      },
+      {
+        "prompt_technique": "cot"
+      },
+      {
+        "temperature": 0.5
+      }
+    ],
+    "accessbilityTestResult": {
+      "violationBeforeModification": 8,
+      "violationAfterModification": 0
+    },
+    "modelCorrections": [
+      {
+        "beforeModification": "<a href=\"https://www.intapp.com/firms/armstrong-watson/\" id=\"firms_armstrong-watson\">",
+        "afterModification": "<a href=\"https://www.intapp.com/firms/armstrong-watson/\" id=\"firms_armstrong-watson\" title=\"Armstrong Watson\">",
+        "rawOutput": "- Incorrect HTML: <a href=\"https://www.intapp.com/firms/armstrong-watson/\" id=\"firms_armstrong-watson\">\n- Thought: I need to correct the above HTML by adding a title attribute to the link. Since the \"href\" is a URL, I can search the URL to get context on what the title content should be. Based on the URL, it seems to be a link to a page about a firm called \"Armstrong Watson\". So I can use that as the title.\n- Corrected HTML: <a href=\"https://www.intapp.com/firms/armstrong-watson/\" id=\"firms_armstrong-watson\" title=\"Armstrong Watson\">"
+      },
+      {
+        "beforeModification": "<a href=\"https://www.intapp.com/firms/seyfarth-shaw/\" id=\"firms_seyfarth-shaw\">",
+        "afterModification": "<a href=\"https://www.intapp.com/firms/seyfarth-shaw/\" id=\"firms_seyfarth-shaw\" title=\"Seyfarth Shaw\">",
+        "rawOutput": "- Incorrect HTML: <a href=\"https://www.intapp.com/firms/seyfarth-shaw/\" id=\"firms_seyfarth-shaw\">\n- Thought: I need to correct the above HTML by adding a title attribute to the link. Since its \"href\" is a URL, I can search the URL to get context on what the title content should be. Based on the URL, it seems to be a page about the law firm Seyfarth Shaw, so I can use that as the title.\n- Corrected HTML: <a href=\"https://www.intapp.com/firms/seyfarth-shaw/\" id=\"firms_seyfarth-shaw\" title=\"Seyfarth Shaw\">"
+      },
+      {
+        "beforeModification": "<a href=\"https://www.intapp.com/firms/rsm/\" id=\"firms_rsm\">",
+        "afterModification": "<a href=\"https://www.intapp.com/firms/rsm/\" id=\"firms_rsm\" title=\"RSM Firm\">",
+        "rawOutput": "Here's the corrected HTML based on the WCAG 2.1 violation description and the provided examples:\n\n- Incorrect HTML: <a href=\"https://www.intapp.com/firms/rsm/\" id=\"firms_rsm\">\n- Thought: I need to correct the above HTML by adding a title attribute to the link. Since the \"href\" is a URL, I can search the URL to get context on what the title content should be. Based on the URL, it seems to be a page about a firm named \"RSM\" on the Intapp website.\n- Corrected HTML: <a href=\"https://www.intapp.com/firms/rsm/\" id=\"firms_rsm\" title=\"RSM Firm\">\n\nBy adding the title attribute with the value \"RSM Firm\", the link now has accessible text that can be read by screen readers, making it compliant with the WCAG 2.1 guidelines."
+      },
+      {
+        "beforeModification": "<a href=\"https://www.intapp.com/firms/perkins-coie/\" id=\"firms_perkins-coie\">",
+        "afterModification": "<a href=\"https://www.intapp.com/firms/perkins-coie/\" id=\"firms_perkins-coie\" title=\"Perkins Coie\">",
+        "rawOutput": "- Thought: I need to correct the above HTML by adding a title attribute to the link. Since its \"href\" is a URL, I can search the URL to get context on what the title content should be. The URL suggests that the link is related to a firm called \"Perkins Coie,\" so I can use that as the title.\n\n- Corrected HTML: <a href=\"https://www.intapp.com/firms/perkins-coie/\" id=\"firms_perkins-coie\" title=\"Perkins Coie\">"
+      },
+      {
+        "beforeModification": "<a href=\"https://www.intapp.com/firms/stephens/\" id=\"firms_stephens\">",
+        "afterModification": "<a href=\"https://www.intapp.com/firms/stephens/\" id=\"firms_stephens\">\n- Thought: I need to correct the above HTML by adding a title attribute to the link. Since the \"href\" is a URL, I can search the URL to get context on what the title content should be. The URL contains the word \"stephens\", which likely refers to a company or firm name. I can use this information to create a descriptive title for the link.\n- Corrected HTML: <a href=\"https://www.intapp.com/firms/stephens/\" id=\"firms_stephens\" title=\"Stephens Firm\">",
+        "rawOutput": "- Incorrect HTML: <a href=\"https://www.intapp.com/firms/stephens/\" id=\"firms_stephens\">\n- Thought: I need to correct the above HTML by adding a title attribute to the link. Since the \"href\" is a URL, I can search the URL to get context on what the title content should be. The URL contains the word \"stephens\", which likely refers to a company or firm name. I can use this information to create a descriptive title for the link.\n- Corrected HTML: <a href=\"https://www.intapp.com/firms/stephens/\" id=\"firms_stephens\" title=\"Stephens Firm\">"
+      },
+      {
+        "beforeModification": "<a href=\"https://www.intapp.com/firms/osler/\" id=\"firms_osler\">",
+        "afterModification": "<a href=\"https://www.intapp.com/firms/osler/\" id=\"firms_osler\" title=\"Osler\">",
+        "rawOutput": "- Thought: I need to correct the above HTML by adding a title attribute to the link. Since it's \"href\" is a url, I can search the url to get context on what the title content should be. The URL suggests that the link is related to a company called \"Osler\", so I will use that as the title.\n\n- Corrected HTML: <a href=\"https://www.intapp.com/firms/osler/\" id=\"firms_osler\" title=\"Osler\">"
+      },
+      {
+        "beforeModification": "<a href=\"https://www.intapp.com/firms/loeb-loeb/\" id=\"firms_loeb-loeb\">",
+        "afterModification": "<a href=\"https://www.intapp.com/firms/loeb-loeb/\" id=\"firms_loeb-loeb\" title=\"Loeb & Loeb\">",
+        "rawOutput": "- Incorrect HTML: <a href=\"https://www.intapp.com/firms/loeb-loeb/\" id=\"firms_loeb-loeb\">\n- Thought: I need to correct the above HTML by adding a title attribute to the link. Since its \"href\" is a URL, I can search the URL to get context on what the title content should be. The URL contains \"firms/loeb-loeb\", so the title can be set to \"Loeb & Loeb\" to provide a meaningful description of the link's destination.\n- Corrected HTML: <a href=\"https://www.intapp.com/firms/loeb-loeb/\" id=\"firms_loeb-loeb\" title=\"Loeb & Loeb\">"
+      },
+      {
+        "beforeModification": "<a href=\"https://www.intapp.com/firms/the-riverside-company/\" id=\"firms_the-riverside-company\">",
+        "afterModification": "<a href=\"https://www.intapp.com/firms/the-riverside-company/\" id=\"firms_the-riverside-company\" title=\"The Riverside Company\">",
+        "rawOutput": "- Thought: I need to correct the above HTML by adding a title attribute to the link. Since its \"href\" is a URL, I can search the URL to get context on what the title content should be. The URL suggests that the link is related to a company called \"The Riverside Company\", so I can use that as the title.\n\n- Corrected HTML: <a href=\"https://www.intapp.com/firms/the-riverside-company/\" id=\"firms_the-riverside-company\" title=\"The Riverside Company\">"
+      }
+    ]
+  }
+]

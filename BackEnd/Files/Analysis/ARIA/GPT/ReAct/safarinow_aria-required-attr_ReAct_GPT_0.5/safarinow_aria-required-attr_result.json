@@ -1,0 +1,29 @@
+[
+  {
+    "analysisDetails": [
+      {
+        "model": "GPT"
+      },
+      {
+        "accessibility_type": "aria-required-attr"
+      },
+      {
+        "prompt_technique": "ReAct"
+      },
+      {
+        "temperature": 0.5
+      }
+    ],
+    "accessbilityTestResult": {
+      "violationBeforeModification": 1,
+      "violationAfterModification": 0
+    },
+    "modelCorrections": [
+      {
+        "beforeModification": "<input type=\"text\" name=\"SearchFilterFilterSearchTerm\" id=\"SearchFilterFilterSearchTerm\" autocomplete=\"off\" aria-invalid=\"false\" class=\"hero-search-listing Typeahead tt-input\" onfocus=\"if (!window.__cfRLUnblockHandlers) return false; this.placeholder =''\" placeholder=\"Where would you like to go?\" maxlength=\"30\" spellcheck=\"false\" dir=\"auto\" aria-activedescendant=\"\" aria-owns=\"SearchFilterFilterSearchTerm_listbox\" role=\"combobox\" aria-readonly=\"true\" aria-autocomplete=\"list\" style=\"position: relative; vertical-align: top; background-color: rgba(0, 0, 0, 0);\">",
+        "afterModification": "<input type=\"text\" name=\"SearchFilterFilterSearchTerm\" id=\"SearchFilterFilterSearchTerm\" autocomplete=\"off\" aria-invalid=\"false\" class=\"hero-search-listing Typeahead tt-input\" onfocus=\"if (!window.__cfRLUnblockHandlers) return false; this.placeholder =''\" placeholder=\"Where would you like to go?\" maxlength=\"30\" spellcheck=\"false\" dir=\"auto\" aria-activedescendant=\"\" aria-owns=\"SearchFilterFilterSearchTerm_listbox\" role=\"combobox\" aria-readonly=\"true\" aria-autocomplete=\"list\" aria-expanded=\"false\" aria-controls=\"SearchFilterFilterSearchTerm_listbox\" style=\"position: relative; vertical-align: top; background-color: rgba(0, 0, 0, 0);\">",
+        "rawOutput": "To correct the HTML for accessibility based on the WCAG 2.1 violation description regarding the required ARIA attributes not present: aria-expanded, aria-controls, we need to focus on the element with the role of \"combobox\". According to WCAG 2.1, a combobox must have certain ARIA attributes to be fully accessible, including `aria-expanded` to indicate if the combobox is expanded or not, and `aria-controls` to reference the listbox that the combobox is controlling.\n\n- Incorrect HTML: `<input type=\"text\" name=\"SearchFilterFilterSearchTerm\" id=\"SearchFilterFilterSearchTerm\" autocomplete=\"off\" aria-invalid=\"false\" class=\"hero-search-listing Typeahead tt-input\" onfocus=\"if (!window.__cfRLUnblockHandlers) return false; this.placeholder =''\" placeholder=\"Where would you like to go?\" maxlength=\"30\" spellcheck=\"false\" dir=\"auto\" aria-activedescendant=\"\" aria-owns=\"SearchFilterFilterSearchTerm_listbox\" role=\"combobox\" aria-readonly=\"true\" aria-autocomplete=\"list\" style=\"position: relative; vertical-align: top; background-color: rgba(0, 0, 0, 0);\">`\n\n- Thought: Since the input element is being used as a combobox, it's important to provide users with information about whether the combobox is currently expanded or collapsed, as well as which element is being controlled by the combobox. This is crucial for assistive technologies to convey the correct state of the combobox to users.\n\n- Observation: The element is missing `aria-expanded`, which should reflect the current state of the combobox (either true or false), and `aria-controls` which should match the id of the listbox that this combobox controls.\n\n- Action: Add `aria-expanded=\"false\"` to indicate that the combobox is initially collapsed. Since `aria-owns` is already specified as `\"SearchFilterFilterSearchTerm_listbox\"`, we ensure that `aria-controls` matches this ID to maintain consistency and proper reference.\n\n- Corrected HTML: `<input type=\"text\" name=\"SearchFilterFilterSearchTerm\" id=\"SearchFilterFilterSearchTerm\" autocomplete=\"off\" aria-invalid=\"false\" class=\"hero-search-listing Typeahead tt-input\" onfocus=\"if (!window.__cfRLUnblockHandlers) return false; this.placeholder =''\" placeholder=\"Where would you like to go?\" maxlength=\"30\" spellcheck=\"false\" dir=\"auto\" aria-activedescendant=\"\" aria-owns=\"SearchFilterFilterSearchTerm_listbox\" role=\"combobox\" aria-readonly=\"true\" aria-autocomplete=\"list\" aria-expanded=\"false\" aria-controls=\"SearchFilterFilterSearchTerm_listbox\" style=\"position: relative; vertical-align: top; background-color: rgba(0, 0, 0, 0);\">`\n\nThis correction"
+      }
+    ]
+  }
+]

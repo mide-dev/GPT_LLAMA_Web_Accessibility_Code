@@ -1,0 +1,29 @@
+[
+  {
+    "analysisDetails": [
+      {
+        "model": "Claude"
+      },
+      {
+        "accessibility_type": "aria-allowed-attr"
+      },
+      {
+        "prompt_technique": "ReAct"
+      },
+      {
+        "temperature": 0.5
+      }
+    ],
+    "accessbilityTestResult": {
+      "violationBeforeModification": 1,
+      "violationAfterModification": 0
+    },
+    "modelCorrections": [
+      {
+        "beforeModification": "<div class=\"dialog-widget dialog-lightbox-widget dialog-type-buttons dialog-type-lightbox elementor-popup-modal\" id=\"elementor-popup-modal-67353\" aria-modal=\"true\" role=\"document\" tabindex=\"0\" style=\"\">",
+        "afterModification": "<div class=\"dialog-widget dialog-lightbox-widget dialog-type-buttons dialog-type-lightbox elementor-popup-modal\" id=\"elementor-popup-modal-67353\" role=\"document\" tabindex=\"0\" style=\"\">",
+        "rawOutput": "- Thought: The element has an ARIA attribute \"aria-modal\" which is not allowed according to the WCAG 2.1 violation description. The \"aria-modal\" attribute is used to indicate that an element is modal, but it is not a valid ARIA attribute.\n\n- Observation: The \"aria-modal\" attribute should be removed from the element to comply with WCAG 2.1.\n\n- Action: Remove the \"aria-modal\" attribute from the HTML.\n\n- Corrected HTML:\n<div class=\"dialog-widget dialog-lightbox-widget dialog-type-buttons dialog-type-lightbox elementor-popup-modal\" id=\"elementor-popup-modal-67353\" role=\"document\" tabindex=\"0\" style=\"\">"
+      }
+    ]
+  }
+]

@@ -1,0 +1,29 @@
+[
+  {
+    "analysisDetails": [
+      {
+        "model": "Claude"
+      },
+      {
+        "accessibility_type": "html-has-lang"
+      },
+      {
+        "prompt_technique": "cot"
+      },
+      {
+        "temperature": 0.5
+      }
+    ],
+    "accessbilityTestResult": {
+      "violationBeforeModification": 1,
+      "violationAfterModification": 0
+    },
+    "modelCorrections": [
+      {
+        "beforeModification": "<html>",
+        "afterModification": "<html lang=\"en\">",
+        "rawOutput": "Here's the correction for the given HTML based on the WCAG 2.1 violation description:\n\n*Extracted text from website*: \"Welcome!\"\n- Incorrect HTML: <html>\n- Thought: The <html> element is missing the \"lang\" attribute. Based on the extracted text \"Welcome!\", the language appears to be English. I will add the \"lang\" attribute with the value \"en\" to specify the language of the document.\n- Corrected HTML: <html lang=\"en\">"
+      }
+    ]
+  }
+]

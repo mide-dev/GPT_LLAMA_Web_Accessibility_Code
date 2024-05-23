@@ -60,12 +60,12 @@
         "rawOutput": "```html\n<button class=\"osano-cm-denyAll osano-cm-buttons__button osano-cm-button osano-cm-button--type_denyAll\" style=\"color: #000000; background-color: #14a7d0;\" tabindex=\"0\">Reject All</button>\n```"
       },
       {
-        "beforeModification": "<a class=\"hs-button\n                  hs-button--primary\n                  mt--none\" href=\"https://www.linuxfoundation.org/about/join?hsLang=en\">\n                  Join\n                  </a>",
+        "beforeModification": "<a class=\"hs-button\n                  hs-button--primary\n                  mt--none\" href=\"https://www.linuxfoundation.org/about/join?hsLang=en\">\nJoin\n</a>",
         "afterModification": "<a class=\"hs-button hs-button--primary mt--none\" href=\"https://www.linuxfoundation.org/about/join?hsLang=en\" style=\"color: #ffffff; background-color: #c800a1;\">\nJoin\n</a>",
         "rawOutput": "```html\n<a class=\"hs-button hs-button--primary mt--none\" href=\"https://www.linuxfoundation.org/about/join?hsLang=en\" style=\"color: #ffffff; background-color: #c800a1;\">\nJoin\n</a>\n```"
       },
       {
-        "beforeModification": "<a class=\"hs-button\n                            hs-button--primary\" href=\"https://www.linuxfoundation.org/projects?hsLang=en\">\n                    Learn More\n                  </a>",
+        "beforeModification": "<a class=\"hs-button\n                            hs-button--primary\" href=\"https://www.linuxfoundation.org/projects?hsLang=en\">\nLearn More\n</a>",
         "afterModification": "<a class=\"hs-button hs-button--primary\" href=\"https://www.linuxfoundation.org/projects?hsLang=en\" style=\"color: #ffffff; background-color: #c80087;\">\n  Learn More\n</a>",
         "rawOutput": "```html\n<a class=\"hs-button hs-button--primary\" href=\"https://www.linuxfoundation.org/projects?hsLang=en\" style=\"color: #ffffff; background-color: #c80087;\">\n  Learn More\n</a>\n```"
       },

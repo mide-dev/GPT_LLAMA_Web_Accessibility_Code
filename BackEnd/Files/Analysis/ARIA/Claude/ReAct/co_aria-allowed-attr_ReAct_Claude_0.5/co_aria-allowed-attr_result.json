@@ -1,0 +1,39 @@
+[
+  {
+    "analysisDetails": [
+      {
+        "model": "Claude"
+      },
+      {
+        "accessibility_type": "aria-allowed-attr"
+      },
+      {
+        "prompt_technique": "ReAct"
+      },
+      {
+        "temperature": 0.5
+      }
+    ],
+    "accessbilityTestResult": {
+      "violationBeforeModification": 3,
+      "violationAfterModification": 0
+    },
+    "modelCorrections": [
+      {
+        "beforeModification": "<div class=\"hf-provider-1rqnzv6\" data-genesis-element=\"BASE\" aria-orientation=\"horizontal\"><hr class=\"hf-provider-c6fpx3\" data-genesis-element=\"BASE\"></div>",
+        "afterModification": "<div class=\"hf-provider-1rqnzv6\" data-genesis-element=\"BASE\"><hr class=\"hf-provider-c6fpx3\" data-genesis-element=\"BASE\"></div>",
+        "rawOutput": "- Incorrect HTML: <div class=\"hf-provider-1rqnzv6\" data-genesis-element=\"BASE\" aria-orientation=\"horizontal\"><hr class=\"hf-provider-c6fpx3\" data-genesis-element=\"BASE\"></div>\n\n- Thought: The `aria-orientation` attribute is not a valid ARIA attribute for the `<div>` element according to the WCAG guidelines. It is typically used with elements that have a specific orientation, such as sliders or scrollbars, but not with generic container elements like `<div>`.\n\n- Observation: The `aria-orientation` attribute should be removed from the `<div>` element to comply with WCAG.\n\n- Action: Remove the `aria-orientation` attribute from the `<div>` element.\n\n- Corrected HTML: <div class=\"hf-provider-1rqnzv6\" data-genesis-element=\"BASE\"><hr class=\"hf-provider-c6fpx3\" data-genesis-element=\"BASE\"></div>"
+      },
+      {
+        "beforeModification": "<div class=\"hf-provider-1rqnzv6\" data-genesis-element=\"BASE\" aria-orientation=\"horizontal\"><hr class=\"hf-provider-c6fpx3\" data-genesis-element=\"BASE\"></div>",
+        "afterModification": "<div class=\"hf-provider-1rqnzv6\" data-genesis-element=\"BASE\"><hr class=\"hf-provider-c6fpx3\" data-genesis-element=\"BASE\"></div>",
+        "rawOutput": "- Incorrect HTML: <div class=\"hf-provider-1rqnzv6\" data-genesis-element=\"BASE\" aria-orientation=\"horizontal\"><hr class=\"hf-provider-c6fpx3\" data-genesis-element=\"BASE\"></div>\n\n- Thought: The `aria-orientation` attribute is not a valid ARIA attribute for the `<div>` element according to the WCAG guidelines. It is typically used with elements that have a specific orientation, such as sliders or scrollbars.\n\n- Observation: The `<div>` element does not require the `aria-orientation` attribute. Removing it will not affect the accessibility or functionality of the element.\n\n- Action: Remove the `aria-orientation` attribute from the `<div>` element.\n\n- Corrected HTML: <div class=\"hf-provider-1rqnzv6\" data-genesis-element=\"BASE\"><hr class=\"hf-provider-c6fpx3\" data-genesis-element=\"BASE\"></div>"
+      },
+      {
+        "beforeModification": "<div class=\"hf-provider-1rqnzv6\" data-genesis-element=\"BASE\" aria-orientation=\"horizontal\"><hr class=\"hf-provider-c6fpx3\" data-genesis-element=\"BASE\"></div>",
+        "afterModification": "<div class=\"hf-provider-1rqnzv6\" data-genesis-element=\"BASE\">\n  <hr class=\"hf-provider-c6fpx3\" data-genesis-element=\"BASE\">\n</div>",
+        "rawOutput": "- Incorrect HTML: <div class=\"hf-provider-1rqnzv6\" data-genesis-element=\"BASE\" aria-orientation=\"horizontal\"><hr class=\"hf-provider-c6fpx3\" data-genesis-element=\"BASE\"></div>\n\n- Thought: The div element has an invalid ARIA attribute \"aria-orientation\" which is not allowed on div elements according to the WCAG guidelines. The \"aria-orientation\" attribute is used to define the orientation of elements like a slider, scroll bar, or separator that have a specific direction. However, it is not applicable to generic container elements like div.\n\n- Observation: The div element should not have the \"aria-orientation\" attribute as it does not provide any meaningful information to assistive technologies in this context.\n\n- Action: Remove the invalid \"aria-orientation\" attribute from the div element.\n\n- Corrected HTML:\n<div class=\"hf-provider-1rqnzv6\" data-genesis-element=\"BASE\">\n  <hr class=\"hf-provider-c6fpx3\" data-genesis-element=\"BASE\">\n</div>\n\nBy removing the invalid \"aria-orientation\" attribute, the HTML becomes more accessible and compliant with the WCAG 2.1 guidelines."
+      }
+    ]
+  }
+]

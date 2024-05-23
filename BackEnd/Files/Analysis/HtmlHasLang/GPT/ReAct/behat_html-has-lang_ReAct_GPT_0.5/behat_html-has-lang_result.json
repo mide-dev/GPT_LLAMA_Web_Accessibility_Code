@@ -22,7 +22,7 @@
       {
         "beforeModification": "<html>",
         "afterModification": "<html lang=\"en\">",
-        "rawOutput": "- Thought: The given HTML lacks a \"lang\" attribute which is necessary for defining the language of the content in the document. This helps in accessibility, especially for screen readers, by allowing them to correctly pronounce content based on the specified language.\n\n- Action: Add `lang=\"en\"` to the HTML assuming the content is in English. If the content is in another language, the appropriate language code should be used instead.\n\n- Corrected HTML: `<html lang=\"en\">`"
+        "rawOutput": "- Thought: To make the HTML accessible according to WCAG 2.1 guidelines, I need to add the \"lang\" attribute to the <html> tag to specify the language of the content.\n- Observation: The extracted text from the website is in English, indicating that the content language is English.\n- Action: Add [lang=\"en\"] to the HTML.\n- Corrected HTML: <html lang=\"en\">"
       }
     ]
   }

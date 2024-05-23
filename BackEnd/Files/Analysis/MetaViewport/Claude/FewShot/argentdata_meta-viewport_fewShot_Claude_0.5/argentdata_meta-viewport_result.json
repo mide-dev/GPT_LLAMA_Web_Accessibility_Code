@@ -1,0 +1,29 @@
+[
+  {
+    "analysisDetails": [
+      {
+        "model": "Claude"
+      },
+      {
+        "accessibility_type": "meta-viewport"
+      },
+      {
+        "prompt_technique": "fewShot"
+      },
+      {
+        "temperature": 0.5
+      }
+    ],
+    "accessbilityTestResult": {
+      "violationBeforeModification": 1,
+      "violationAfterModification": 0
+    },
+    "modelCorrections": [
+      {
+        "beforeModification": "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1\">",
+        "afterModification": "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=5\">\n\nExplanation:\nThe `maximum-scale` parameter in the `<meta>",
+        "rawOutput": "Here's the corrected HTML based on the WCAG 2.1 violation description:\n\n- Corrected HTML: <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=5\">\n\nExplanation:\nThe `maximum-scale` parameter in the `<meta>` tag was set to `1`, which disables zooming on mobile devices. To make the webpage accessible and allow users to zoom in, the `maximum-scale` value should be increased. In this case, it has been changed to `5`, allowing users to zoom up to 5 times the original size.\n\nBy removing the restriction on zooming, users with visual impairments or those who require larger text can easily zoom in and access the content on the webpage."
+      }
+    ]
+  }
+]

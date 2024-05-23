@@ -1,0 +1,86 @@
+{
+  "testEngine": {
+    "name": "axe-core",
+    "version": "4.8.4"
+  },
+  "testRunner": {
+    "name": "axe"
+  },
+  "testEnvironment": {
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/122.0.0.0 Safari/537.36",
+    "windowWidth": 800,
+    "windowHeight": 600,
+    "orientationAngle": 0,
+    "orientationType": "portrait-primary"
+  },
+  "timestamp": "2024-04-18T20:45:28.914Z",
+  "url": "https://www.unileverfoodsolutions.fr/",
+  "toolOptions": {
+    "runOnly": {
+      "type": "rule",
+      "values": [
+        "color-contrast"
+      ]
+    },
+    "reporter": "v1"
+  },
+  "inapplicable": [],
+  "passes": [],
+  "incomplete": [
+    {
+      "id": "color-contrast",
+      "impact": null,
+      "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+      "message": "Element midpoint exceeds the grid bounds",
+      "stack": "Error: Element midpoint exceeds the grid bounds\n    at assert (pptr:evaluate;runAxeCoreAnalysis%20(C%3A%5CUsers%5CAyomide%5CDesktop%5CGPT_LLAMA_Web_Accessibility_Code%5Cbackend%5CRunAccessibilityTest%5CrunAxeCoreAnalysis.js%3A15%3A14):6311:15)\n    at Grid.getCellFromPoint (pptr:evaluate;runAxeCoreAnalysis%20(C%3A%5CUsers%5CAyomide%5CDesktop%5CGPT_LLAMA_Web_Accessibility_Code%5Cbackend%5CRunAccessibilityTest%5CrunAxeCoreAnalysis.js%3A15%3A14):8988:11)\n    at getRectStack (pptr:evaluate;runAxeCoreAnalysis%20(C%3A%5CUsers%5CAyomide%5CDesktop%5CGPT_LLAMA_Web_Accessibility_Code%5Cbackend%5CRunAccessibilityTest%5CrunAxeCoreAnalysis.js%3A15%3A14):9351:27)\n    at pptr:evaluate;runAxeCoreAnalysis%20(C%3A%5CUsers%5CAyomide%5CDesktop%5CGPT_LLAMA_Web_Accessibility_Code%5Cbackend%5CRunAccessibilityTest%5CrunAxeCoreAnalysis.js%3A15%3A14):12894:16\n    at Array.map (<anonymous>)\n    at getTextElementStack (pptr:evaluate;runAxeCoreAnalysis%20(C%3A%5CUsers%5CAyomide%5CDesktop%5CGPT_LLAMA_Web_Accessibility_Code%5Cbackend%5CRunAccessibilityTest%5CrunAxeCoreAnalysis.js%3A15%3A14):12893:26)\n    at _getBackgroundStack (pptr:evaluate;runAxeCoreAnalysis%20(C%3A%5CUsers%5CAyomide%5CDesktop%5CGPT_LLAMA_Web_Accessibility_Code%5Cbackend%5CRunAccessibilityTest%5CrunAxeCoreAnalysis.js%3A15%3A14):22350:20)\n    at _getBackgroundColor (pptr:evaluate;runAxeCoreAnalysis%20(C%3A%5CUsers%5CAyomide%5CDesktop%5CGPT_LLAMA_Web_Accessibility_Code%5Cbackend%5CRunAccessibilityTest%5CrunAxeCoreAnalysis.js%3A15%3A14):22717:22)\n    at _getBackgroundColor2 (pptr:evaluate;runAxeCoreAnalysis%20(C%3A%5CUsers%5CAyomide%5CDesktop%5CGPT_LLAMA_Web_Accessibility_Code%5Cbackend%5CRunAccessibilityTest%5CrunAxeCoreAnalysis.js%3A15%3A14):22707:21)\n    at Object.colorContrastEvaluate (pptr:evaluate;runAxeCoreAnalysis%20(C%3A%5CUsers%5CAyomide%5CDesktop%5CGPT_LLAMA_Web_Accessibility_Code%5Cbackend%5CRunAccessibilityTest%5CrunAxeCoreAnalysis.js%3A15%3A14):22979:21)",
+      "error": {
+        "errorNode": {
+          "selector": [
+            "div[data-article-number=\"8718692787827\"] > .product-tile__footer > .absolute.product-tile-row > .add-to-cart.js-quantity-selector > .js-cart-add[data-at=\"section-product-in the cart\"][data-event-type=\"Add To Cart\"]"
+          ],
+          "source": "<button class=\"js-cart-add\" data-at=\"section-product-in the cart\" data-event-category=\"Other\" data-event-type=\"Add To Cart\" data-event-name=\"Le Boucher Végétarien Mini-pané Végétalien 1,75Kg\" tabindex=\"4\">\n            <span class=\"icn-plus\"></span>Ajouter au panier\n        </button>",
+          "xpath": [
+            "/div[@id='product_section']/div[2]/div/div/div[3]/div[2]/div/div/button"
+          ],
+          "ancestry": [
+            "html > body > section:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(6) > div > div:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(3) > div:nth-child(2) > div:nth-child(1) > div > button:nth-child(1)"
+          ],
+          "nodeIndexes": [
+            3883
+          ],
+          "fromFrame": false
+        }
+      },
+      "errorNode": {
+        "selector": [
+          "div[data-article-number=\"8718692787827\"] > .product-tile__footer > .absolute.product-tile-row > .add-to-cart.js-quantity-selector > .js-cart-add[data-at=\"section-product-in the cart\"][data-event-type=\"Add To Cart\"]"
+        ],
+        "source": "<button class=\"js-cart-add\" data-at=\"section-product-in the cart\" data-event-category=\"Other\" data-event-type=\"Add To Cart\" data-event-name=\"Le Boucher Végétarien Mini-pané Végétalien 1,75Kg\" tabindex=\"4\">\n            <span class=\"icn-plus\"></span>Ajouter au panier\n        </button>",
+        "xpath": [
+          "/div[@id='product_section']/div[2]/div/div/div[3]/div[2]/div/div/button"
+        ],
+        "ancestry": [
+          "html > body > section:nth-child(5) > div > div:nth-child(5) > div > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(6) > div > div:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(3) > div:nth-child(2) > div:nth-child(1) > div > button:nth-child(1)"
+        ],
+        "nodeIndexes": [
+          3883
+        ],
+        "fromFrame": false
+      },
+      "tags": [
+        "cat.color",
+        "wcag2aa",
+        "wcag143",
+        "TTv5",
+        "TT13.c",
+        "EN-301-549",
+        "EN-9.1.4.3",
+        "ACT"
+      ],
+      "help": "Elements must meet minimum color contrast ratio thresholds",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/color-contrast?application=axeAPI",
+      "nodes": []
+    }
+  ],
+  "violations": []
+}

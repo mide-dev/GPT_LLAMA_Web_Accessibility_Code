@@ -1,0 +1,29 @@
+[
+  {
+    "analysisDetails": [
+      {
+        "model": "GPT"
+      },
+      {
+        "accessibility_type": "html-has-lang"
+      },
+      {
+        "prompt_technique": "ReAct"
+      },
+      {
+        "temperature": 0.5
+      }
+    ],
+    "accessbilityTestResult": {
+      "violationBeforeModification": 1,
+      "violationAfterModification": 0
+    },
+    "modelCorrections": [
+      {
+        "beforeModification": "<html>",
+        "afterModification": "<html lang=\"en\">",
+        "rawOutput": "- Thought: The extracted text suggests that the content is in English, hence I need to add the \"lang\" attribute with the appropriate language code to the HTML tag.\n- Observation: The incorrect HTML lacks the \"lang\" attribute, which is essential for accessibility and helps screen readers understand the language of the page content.\n- Action: Add [lang=\"en\"] to the HTML tag to specify that the language of the page is English.\n- Corrected HTML: <html lang=\"en\">"
+      }
+    ]
+  }
+]

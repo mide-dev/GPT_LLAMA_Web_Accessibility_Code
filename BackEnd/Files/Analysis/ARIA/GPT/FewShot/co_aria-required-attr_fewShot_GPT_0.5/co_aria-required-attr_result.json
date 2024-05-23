@@ -1,0 +1,29 @@
+[
+  {
+    "analysisDetails": [
+      {
+        "model": "GPT"
+      },
+      {
+        "accessibility_type": "aria-required-attr"
+      },
+      {
+        "prompt_technique": "fewShot"
+      },
+      {
+        "temperature": 0.5
+      }
+    ],
+    "accessbilityTestResult": {
+      "violationBeforeModification": 1,
+      "violationAfterModification": 0
+    },
+    "modelCorrections": [
+      {
+        "beforeModification": "<input class=\"search_input\" id=\"search_input\" maxlength=\"2048\" name=\"search\" type=\"search\" autocapitalize=\"off\" autocomplete=\"off\" autocorrect=\"off\" role=\"combobox\" spellcheck=\"false\" onkeyup=\"showClear();showSuggestions()\" onclick=\"showShadow()\" onblur=\"hideShadow();\" oncancel=\"clearBox()\" oninput=\"showClear();showSuggestions()\" onchange=\"showClear();showSuggestions()\" onfocus=\"showSuggestions()\" value=\"\">",
+        "afterModification": "<input class=\"search_input\" id=\"search_input\" maxlength=\"2048\" name=\"search\" type=\"search\" autocapitalize=\"off\" autocomplete=\"off\" autocorrect=\"off\" role=\"combobox\" spellcheck=\"false\" onkeyup=\"showClear();showSuggestions()\" onclick=\"showShadow()\" onblur=\"hideShadow();\" oncancel=\"clearBox()\" oninput=\"showClear();showSuggestions()\" onchange=\"showClear();showSuggestions()\" onfocus=\"showSuggestions()\" value=\"\" aria-expanded=\"false\" aria-controls=\"suggestionsList\" aria-autocomplete=\"list\">",
+        "rawOutput": "```html\n<input class=\"search_input\" id=\"search_input\" maxlength=\"2048\" name=\"search\" type=\"search\" autocapitalize=\"off\" autocomplete=\"off\" autocorrect=\"off\" role=\"combobox\" spellcheck=\"false\" onkeyup=\"showClear();showSuggestions()\" onclick=\"showShadow()\" onblur=\"hideShadow();\" oncancel=\"clearBox()\" oninput=\"showClear();showSuggestions()\" onchange=\"showClear();showSuggestions()\" onfocus=\"showSuggestions()\" value=\"\" aria-expanded=\"false\" aria-controls=\"suggestionsList\" aria-autocomplete=\"list\">\n```"
+      }
+    ]
+  }
+]

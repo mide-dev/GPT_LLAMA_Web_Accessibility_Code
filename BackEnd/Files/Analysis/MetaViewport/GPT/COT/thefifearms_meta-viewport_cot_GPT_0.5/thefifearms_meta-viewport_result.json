@@ -1,0 +1,29 @@
+[
+  {
+    "analysisDetails": [
+      {
+        "model": "GPT"
+      },
+      {
+        "accessibility_type": "meta-viewport"
+      },
+      {
+        "prompt_technique": "cot"
+      },
+      {
+        "temperature": 0.5
+      }
+    ],
+    "accessbilityTestResult": {
+      "violationBeforeModification": 1,
+      "violationAfterModification": 0
+    },
+    "modelCorrections": [
+      {
+        "beforeModification": "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0\">",
+        "afterModification": "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=2.0, user-scalable=yes\">",
+        "rawOutput": "- Thought: I need to enable user scaling by setting `user-scalable` to `yes` and increase the `maximum-scale` to at least 2.0 to comply with WCAG 2.1 guidelines, ensuring that zooming is enabled on mobile devices for better accessibility.\n  \n- Corrected HTML: <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=2.0, user-scalable=yes\">"
+      }
+    ]
+  }
+]

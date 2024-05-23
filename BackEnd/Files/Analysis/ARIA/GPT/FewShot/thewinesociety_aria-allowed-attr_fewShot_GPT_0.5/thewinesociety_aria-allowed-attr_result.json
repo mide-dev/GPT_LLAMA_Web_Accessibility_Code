@@ -1,0 +1,29 @@
+[
+  {
+    "analysisDetails": [
+      {
+        "model": "GPT"
+      },
+      {
+        "accessibility_type": "aria-allowed-attr"
+      },
+      {
+        "prompt_technique": "fewShot"
+      },
+      {
+        "temperature": 0.5
+      }
+    ],
+    "accessbilityTestResult": {
+      "violationBeforeModification": 1,
+      "violationAfterModification": 0
+    },
+    "modelCorrections": [
+      {
+        "beforeModification": "<input id=\"react-autowhatever-site-search-inputinput\" aria-haspopup=\"listbox\" aria-expanded=\"false\" type=\"text\" autocomplete=\"off\" aria-autocomplete=\"list\" aria-controls=\"react-autowhatever-site-search\" class=\"form-control input input--isLarge\" placeholder=\"Search wine and events\" aria-describedby=\"search-instructions\" value=\"\">",
+        "afterModification": "<input id=\"react-autowhatever-site-search-inputinput\" aria-haspopup=\"listbox\" type=\"text\" autocomplete=\"off\" aria-autocomplete=\"list\" aria-controls=\"react-autowhatever-site-search\" class=\"form-control input input--isLarge\" placeholder=\"Search wine and events\" aria-describedby=\"search-instructions\" value=\"\">",
+        "rawOutput": "```html\n<input id=\"react-autowhatever-site-search-inputinput\" aria-haspopup=\"listbox\" type=\"text\" autocomplete=\"off\" aria-autocomplete=\"list\" aria-controls=\"react-autowhatever-site-search\" class=\"form-control input input--isLarge\" placeholder=\"Search wine and events\" aria-describedby=\"search-instructions\" value=\"\">\n```"
+      }
+    ]
+  }
+]
