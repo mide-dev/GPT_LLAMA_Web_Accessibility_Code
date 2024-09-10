@@ -1,4 +1,5 @@
-# ASSESSING LLMs FOR WEB ACCESSIBILITY
+# Framework to automatically rectify Web Accessibility Violations in the DOM.
+![workflow](./1721070748538.jpeg)
 
 ## SETING UP LOCALLY
 - to set this up locally, download/clone the repo and run `npm install`.
